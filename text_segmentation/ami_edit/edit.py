@@ -3,12 +3,22 @@ import os
 import json
 
 # make filelist
-files = os.listdir('words/')
 filelist = []
-for f in files:
-    tmpfile = f.split('.')[0]
-    if tmpfile not in filelist:
-        filelist.append(tmpfile+'.')
+rolelist = {}
+with open('meeting.xml') as f:
+    for l in f:
+        if 'observation' in l:
+            meeting_name = l.split('observation="')[1].split('"')[0] + '.'
+        if 'role' in l:
+            if meeting_name not in filelist:
+                filelist.append(meeting_name)
+            symbol = l.split('nxt_agent="')[1].split('"')[0]
+            role = l.split('role="')[1].split('"')[0]
+            if meeting_name not in rolelist:
+                rolelist[meeting_name] = {}
+                rolelist[meeting_name][symbol] = role
+            else:
+                rolelist[meeting_name][symbol] = role
 
 person = ["A", "B", "C", "D"]
 output_dir = 'plain/'
@@ -78,12 +88,12 @@ for filename in filelist:
                     sentence = decode(filename, p, start_word, end_word)
                     if sentence != '':
                         if topic_segment == ['*']:
-                            timedic[float(start_time)] = [p, sentence, '*']
+                            timedic[float(start_time)] = [rolelist[filename][p], sentence, '*']
                         else:
                             if start_word in topic_segment:
-                                timedic[float(start_time)] = [p, sentence, '1']
+                                timedic[float(start_time)] = [rolelist[filename][p], sentence, '1']
                             else:
-                                timedic[float(start_time)] = [p, sentence, '0']
+                                timedic[float(start_time)] = [rolelist[filename][p], sentence, '0']
 
     for k, v in sorted(timedic.items()):
         infodic = {}
