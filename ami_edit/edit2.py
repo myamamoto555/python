@@ -24,7 +24,7 @@ def decode(filename, p, start_word, end_word):
                 sentence += w
             flag = 0
             break
-    sentence = sentence.replace("&#39;", "'")
+    # sentence = sentence.replace("&#39;", "'")
     return sentence
 
 
@@ -46,6 +46,6 @@ for p in person:
 fout = open('out.txt', 'w')
 for k, v in sorted(timedic.items()):
     print k,v
-    #fout.write(v[0]+"\t"+v[1]+"\n")
+    fout.write(v[0]+"\t"+v[1]+"\n")
     
 fout.close()
