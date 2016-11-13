@@ -1,0 +1,76 @@
+# -*- coding: utf-8 -*-
+import json
+
+voc = []
+speakers = []
+
+def save_voc(filename):
+    with open(filename) as f:
+        for l in f:
+            data = json.loads(l)
+            words = data['text']
+            for w in words:
+                if w not in voc:
+                    voc.append(w)
+
+    fout = open('ldaformat/ami.voc', 'w')
+    for v in voc:
+        fout.write(v + '\n')
+    fout.close()
+
+
+def save_whois(filename):
+    with open(filename) as f:
+        for l in f:
+            data = json.loads(l)
+            speaker = data['speaker']
+            if speaker not in speakers:
+                speakers.append(speaker)
+
+    fout = open('ldaformat/ami.whois', 'w')
+    for s in speakers:
+        fout.write(s + '\n')
+    fout.close()
+
+
+def save_shows(filename):
+    docids = []
+    befid = 'tmpid'
+    with open(filename) as f:
+        for l in f:
+            data = json.loads(l)
+            docid =data['id']
+            if befid == docid:
+                docids.append(docid)
+            else:
+                docids.append(docid)
+                docids.append(docid)
+            befid = docid
+    docids = docids[1:]
+
+    fout = open('ldaformat/ami.shows', 'w')
+    for d in docids:
+        fout.write(d + '\n')
+    fout.close()
+
+
+def save_authors(filename):
+    authors = []
+    befid = 'tmpid'
+    with open(filename) as f:
+        for l in f:
+            data = json.loads(l)
+            author = data['speaker']
+            docid = data['id']
+            if befid == docid:
+                authors.append(author)
+            else:
+                authors.append('-1')
+                authors.append(author)
+            befid = docid
+    authors = authors[1:]
+
+filename = 'example.jsonl'
+save_voc(filename)
+save_whois(filename)
+save_shows(filename)

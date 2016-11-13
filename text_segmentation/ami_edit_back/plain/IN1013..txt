@@ -1,0 +1,776 @@
+D	Oh my God .
+A	Yeah , still doesn't feel natural .I I wish , you know , the the the the room would just detect when anwhen a meeting's startedit starting .
+D	Yeah .
+A	Voila cool . So you better start . It was your idea . S.
+D	Okay .
+D	I should start ? Yeah , no so I thought that we might s t speak a little bit about speech coding because nobody is doing here speech coding and I would like to have some maybe feedback becauseexcept me . I'vI've supposed to some speech coding stuff here with Hynek uh but you know that little bit at least that uh based on somelet's say Hilbert transforms using a longer temporal context and deriving some parameters would be tranf transcs transmitted to a decoder and
+D	So it's a little bit different than the stuff which people are using now , which is like a L_P_C_ based . Andbut we are at the beginning with everything more or less . So still um we can't uh d encode a speech . But of course there isthere are many problems which we still didn't solve and the biggest one is quite similar to L_P_C_ stuff wherepeople still don't know how to exactly encode acarrier or the source signal . We know what to do with the envelope or how to approximate the envelope , let's say . Um when you have go
+A	Well maybeuh is is the white-board working ?
+A	Or or not . Um y maybe show us the general sort of outline . You keepw okay , you can just write it on the paper . Yeah .
+D	Oh you mean that it would be nice toplot at least s
+B	Yeah , at least on paper . Yeah . Yeah , at least you can write on the p p
+D	Um maybe I I can I can
+C	You can write on the paper , yeah . It's it's okay .
+D	So what we are doing now , yeah , you mean . Okay , i uh everybody knows L_P_C_ stuff , how it works . So I don't have to present anything mores . But it's uh m more or less very simple . We have let's say at the beginning there is some speech signal .
+C	Right .
+B	Yeah , CELP .
+D	What we areuh we might see it uh in very simple way that we are using some Hilbert transform h at the beginning to create analytic signal . The analytic signal is the signal which is a complex which you can create from the uh real uh uh some sequence . And if you getif you apply Hilbert transform on this , on such a speech signal , like a real trajectory , then you get a complex signal and if you take just the amplitude , then you get Hilbert envelope code . So Iwell I I don't know . Yeah , let's say ups .
+B	Yeah .
+C	Right , right .
+A	So is this different from the original P_L_P_ two stuff then , is that ?
+D	Yeah , it's u it's not P_L_P_ at all , d
+A	Uh 'cause that's what you started with , wasn't it ? This this stuff that Marius
+B	Hmm .
+D	Mm .
+B	No , but Marius isit's similar stuff . No , Marius is also using like Hilbert transform and then
+D	No he'sit's pretty much the same .
+A	Okay .
+D	Uh you're lit I know what you mean with the pu P_L_P_ . They are applying P_L_P_ with some iteration with this this one approach . So they are doing some smoothing of a spectrogram in two ways . One wasright . Right . But P_L_P_ is using just the spectral uh direction . Let's say you are doing uh for every twenty millisecond processing one one feature vector . Here you are processing one spectral band , frequency band , right . So it's different direction which we are w using . But anyway , this is very simple . So applying that uh absolute uh absolute operation , you get a Hilbert envelope .
+A	Okay .
+A	Yeah , yeah . H he's parameterizing it both temporally and across the spectrum , yep .
+B	Both .
+A	Yeah .
+A	Yeah .
+A	Yep , okay . Yep .
+D	And of course then there is the phase . So it's just the complex operation . And that's more or less all what we are doing . So now what we know what we know is how to approximate that Hilbert envelope . We are ap we are applying that Hilbert uh him what is the Marius' uh stuff . So he knows how to encode uh the Hilbert uh envelope using like L_S_F_s or L_P_C_ . You are applying again to some linear prediction model after that .
+B	Yeah .
+C	Mm-hmm .
+A	Yeah , to that . Yep , yep , yep .
+B	.
+B	Uh is some kind of D_C_T_ or againyeah . Yeah , ok
+A	Mm yeah , but it's it's ait's a different linear prediction model , isn't it . It's a complex linear prediction or whatever .
+B	Yeah .
+D	But it's uhright , it's in ait's a little bit difference in not applied in the frequency domain . So instead of classical L_P_C_ domain , where you have a spectrum , let's say something like that , and you are applying some linear prediction model which is trying to approximate the spectrum , right . So this is frequency . In our case we are we are trying to approximate s kind of instantaneous energy . So if this is a time , and you get oneand add one frequency band , you can see something like this . And we are trying to approximate that envelope which is
+B	Yeah , yeah . Yeah .
+B	How c
+A	Yeah .
+A	Yeah .
+A	Yeah .
+A	Yeah . Yep .
+D	that Hilbert envelope . Right ? So again , we know what tomore or less we know what to do with the Hilbert envelope . We know that we can apply linear prediction model and it works pretty well . But i if you want to reallyconstruct the speech signal or theyou need also the phase signal , which is in uh some sense quite simple for voiced speech signal , say . But s uh the phaseno , you acIt's a phase or you can encode it like a carrier . So the carrier is , if you know , uh amplitude modulation , right ? You may see something like there isone cosine which is uh verywould have quite a f right .
+C	Hmm.
+B	Mm-hmm .
+A	Okay .
+A	Okay .
+A	You need the phase .Ooh uh
+B	Yeah .
+B	Because use linear phase or
+A	Well
+B	Yeah uhOh okay .
+B	Yeah .
+B	Yeah .
+B	Same frequency .
+A	Well it depends on howthis i I mean you're talking b yeah , just the carrier . Okay , so it's not necessarily phase , but if you're using some sort of sinusoidal coding , it's phase , yeah .
+D	Yeah .
+D	It's called like the phase . Right , right . Exactly . So thethis is the signal which you also have to somehow encode or transmit from a code of the decoder in order to re-synthesize it , right . So
+B	Yeah .
+A	Okay .
+A	Okay . W
+A	Whatso what sort of bit rate do you get for the um encoding of thethisthe Hilbert transform ? The s the spectrogram . W what sort of coding do you get so far for theno no no no , f f yeah . Yeah . Yeah , yep .
+D	What do you mean ? Again .
+D	For this one ? For the the linear prediction model ? Well it's uh just a linear prediction . Classical way . I meanoh , okay , w well , if you want to see it in more details , I mean
+B	For L_S_F_ .
+A	Uh wowell , it'sno no no , but what sort of bit rate do you get ? Is it is ituh id do you have any sort of m idea of what sort of band-widths ?
+D	Oh , you mean uhyeah , bit bit rate you mean ? Okay , yeah . Sure , sure . So whereas we arewhat we are now is , let's say , something like one point two kilo-bits per second for uh that Hilbert envelope .
+B	Main bit rate . What is
+A	Yeah .
+B	Good .
+A	'Cause
+B	Oh .
+A	Okay , and that's inthat's with the fully optimised sort of compression scheme or that's just the raw data or ?
+D	Is
+D	It's again a roughly estimated somehow . But we still know that we can go down andright .
+A	Okay , yeah .
+A	Yeah . Sure , sure . You just cut out mbands and just use interpolation or whatever . Yeah . T so that's one pointokay , that's with the full spectrum basically being used then .
+D	Exactly , yeah . I don we are using like fifteen bands .
+D	Right . But they arefirst they are inter oh well , integrated into fifteen bands using oh classical way like in M_F_C_C_s or in P_L_P_ . You just apply somethose uh triangular windows or something like that in order to to get a li really like just fifteen bands , right . And each band is then processed independently . So for one band we more or less have w like w one hundred bits per second . For Hilbert envelope .
+A	Yeah . Yep , yep .Yep .
+B	Ah , okay .
+A	Yep .
+A	Yeah , yep .
+B	Hmm .
+A	Okay , that's quite good . Soand Hynek was showing me how scalable it is in terms of um you can take half the bands away and still get decent performance . You take you take three quarters of them away , it starts to degrade , but it's still intelligible , that sort of thing . Yep . Okay . And that's without doing any sort of um prediction of what the missing bands might be , right ? You just leave them out . I mean you you shou you could be able to do some sort of codemissing data sort of Bayes stuff , yeah .
+C	Okay .
+D	Right . Right , right . Youyeah , you can justright . Right . Right . Yeah .
+B	Hmm .
+B	S 
+D	Uh right , that's what we did .
+D	Yeah , sure . Sure , sure . Yeah . There are many things we would wouldn't at all . Butyeah , exactly . But now what I r really trying to do is somehow approximate that uh carrier signal , to do something with the carrier . There are many simple things which you can do like uh quantizationquantization , for example .
+B	Yeah .
+A	Okay .
+A	Okay .
+A	Yeah .
+A	It it would be it would be nice to have a scalable scheme though , wouldn't it ? Like because you've got a nice scalable scheme for the for for the the coding of the the smooth spectrum . It'd be nice to have some sort of scalable coding scheme for the for the voice signal as well , right ?
+B	Hmm .
+D	Right .
+D	You mean something like uh f uh that CELP coding system where you'reor wh wh wh what isno , what is exactly scalable system ? What you mean by that ?
+B	Hmm .
+A	Well , I don't know , I'm just
+A	Well , at different bit rates . So the actual uh excitation as well . Because I mean it'd be nice uh l let's say if you had twelve hundred bits for the for the sp smooth spectrum and twelve hundred bits for the voice , and then you could scale them both .
+D	Oh yeah , yeah , sure . This wasyeah .
+B	Yeah , yeah .
+D	For dif yeah , right . Right , right .
+D	Yeah . But I think this appr approach can do that because you really can split it into several bands . And you can decide how many bands you want more or less . So
+A	Yeah . Sure , sure , sure .
+A	Yeah .
+C	I have a question . Is the scale linear or is Mel scale , like in M_F_C_C_ ? Is it bar scale , like in like in sp yeah , okay .
+B	Hmm .
+D	Yeah , this is a bar scale we are using . Yeah , or Mel Mel scale , so it's uh it's being uh more wider for higher frequencies and of course the s the spacesright . Yeah . But what I w my sense is that it is not so much important still . I mean it doesn't matter if you're als use Mel scale or bar scale . Butright , yeah . But that's what we are using , yeah . Uh actually we are using just Gaussian windows here instead of those triangulars because they are moruh no , it's better than for decoding it's better to play with them because they they are not zero anywhere , you know . They are they are approachingor inthey are in zero . But actually they are not . So d you don't have to care about some zero values here andbut more or less it doesn't matter , yeah . We are using just Gaus Gaussian windows .
+B	Oh yeah , type .
+C	The overlapping is different , right ? Yep . Mm .
+B	Hmm .
+B	S 
+B	Hmm .
+A	Uh
+A	No no . Just long as it's some sort of non-linear . Yep .
+C	Okay and ?
+B	S so
+B	Oh okay .
+C	Okay .
+A	M 
+B	Smoothed ? Or like apply more
+A	The place more emphasis on the
+B	Hmm .
+B	Ah .
+A	Yeah , yeah , yeah .
+B	Hmm .
+A	Okay .
+A	Yeah .
+A	Okay .
+B	So after you're doing L_S_F_s so or like I mean how you're finally hand coding
+A	Hmm .
+D	Okay , so l those are that the Hilbert envelope is um is approximated by linear prediction . So you have L_P_C_ coefficients which you can transcribe into L_L_L_S_F_s , which areright , exactly . Yeah .
+B	Ah .
+B	Oh .
+A	And then vector quantize or whatever . Yeah .
+B	Yeah . So first you apply these triangle filters and then do L_P_C_ coding or like
+D	Right , exactly . So first uh the approach is quite sim simple . So at the beginning we apply D_C_T_ in order to get to frequency domain . Then you apply those uh triangular or Gaussian windows . So this is done for one second , eight thousand samples for eight kilo-hertz sampling frequency , right ? So for such D_C_T_ trajectory you apply those uh Gaussian windows .
+B	Yeah .
+B	Yeah , okay . Yeah .
+B	Filters . Yeah .
+A	Hmm .
+B	Oh okay .
+D	And then i so you split it in two frequency sub-bands . And then each one f frequency sub-band is more or less uh
+B	Hmm .
+B	You can do the L_P_ analysis on each sub-band , yeah . Yeah , m yeah , ok
+D	Right . Right . Exactly . You just apply L_L_P_ , so auto-correlation let's say , or you can do power spectrum , whatever . Yeah , so youfor each one you get L_S_F_s here .
+C	Uh-uh .
+B	Yeah . Yeah . Yeah . Yeah .
+A	Hmm .
+B	Yeah .
+A	Mm-hmm .
+B	So how many L_S_F_s you're using an
+D	Uh well , I'm usingnow like twenty L_S_F_s per one second , per one frequency band .
+A	So times fifteen . Twen that's t it's twenty times fifteen , it's not
+B	Oh okay . So but youhow many bands you're using ? Ifyou're you're not skipping any bands or likeoh ok fifteen into twenty then . Like uh.
+D	Fifteen .
+D	No no . If I just keep all themso twenty L_S_F_s , each one is um
+B	Hmm .
+D	is quantized by four or five bits .
+A	Okay . So it's it'syeah , it's three hundred .
+B	Ah .
+D	Of what ? Three hundred bits ?
+A	ItI mean it's it's total of three hundred sort of parameters per second . Um
+B	Oh yeah .
+D	Two . Yeah , yeah . Yeah . Yeah . Exactly .
+B	But phase you're not encoding anything . Phase you're directly transmitting that . Uh no th Yeah , yeah , yeah . The phase of Hilbert envelope .
+D	You mean this phase , the the Hilbert carrier ? Orno , of course we did
+A	Well , y you're not you're not carryingtransmitting that at all really at this point in time . I u
+D	Yeah .
+B	You're not transmitting at all like .
+D	Uh w well , there are many things you can do . We don'twell the first thing what you can really do is just to replace it by Gaussian noise . So you can really use t like in uh L_P_C_ system . Right . Exactly . Or you can replace it by some cosine , one cosine generated in a cen centre frequency of that Gaussian window .
+B	Yeah yeah , is noise . Fourier .
+A	And and you get whispering type synthesis , yeah .
+B	Yeah .
+A	Yep . Or one of these glottal pulse things . F and just use basic L_P_C_ ten style . Yeah , which is which is probably , I mean , if you're going to aim for like a very low rate code to below five hundred bits per second , I guess . That's that's probably fine .But
+B	Yeah .
+D	Right . Yeah .
+D	It mi it mi yeah .
+B	So what is the CELP standard now ? Like it's it's two kilo-bits per second ? Or the
+A	Uh the lowest standard is MELP I think , which is twenty four hundred , the standard . It's been implemented at twelve hundred f bits per second using more more complicated quantization schemes and stuff like that , I think . I think so , yeah . I s I saw that they used matrix quantisation on the L_P_uh on the L_S_F_ parameters or whatever . But I mean that's quiteit becomes quite computationally intensive . But I mean I imagine the same sort of approach could be taken with yours as well .
+B	Oh that two two kilo-bits per t
+B	Ah ok
+B	Ah . Some
+D	Twelve hundred ? Yeah . Yeah , it's possible , some of it .
+D	Yeah .
+D	Mm-hmm .
+B	Yeah , yeah . But
+D	R right .
+D	Well I'm just comparingwith uh L_P_C_ ten standard , which is like classical L_P_C_ . A little bit optimized . So there in thethere is I think two point four kilo-bits per second , the bit rate for that .
+B	Yeah .
+A	No .
+B	Hmm .
+A	Yeah , that's the same . Twenty MELP*'s a lot better quality though . Yeah .
+B	Yeah . But this is codec centred , no . You have code book . So
+D	Yeah , definitely . This isno , uh I mean L_P_C_ ten is just L_P_C_ . No no no . No . Just noise or just those impulses .
+A	..No no . I think I think I think I think CELP or CELP or however you pronounce that . It's about forty eight hundred I think . Yeah . Well the standard's forty eight hundred or something , yeah . Yeah .
+B	Oh it's not codecs code book . There is not code book . Oh ok
+B	Oh .
+B	Yeah , CELP is
+D	CELP .
+B	Yeah , it's it'it's around one kilo-byte like . Yeah . Yeah , that's a , I think , even G_S_M_ and all this , G_ seven two nine . Yeah , yeah . Onbased on CELP . At least it gives
+D	Yeah thereyeah , yeah . Yeah . Yeah , yeah . Four point eight or something .
+A	Or based around that . Yeah . Okay . It's not terribly interesting though , really .
+D	Right .
+B	But still they use a code book , no . So that's really uhit's maybe better than like using just random noise or
+A	Yeah . So I'm
+A	Well youyou'vewell , I mean you've got a bunch of options , haven't you . You can use like uh a codec sided or you could use a
+D	Yeah , sure .
+B	Yeah . Yeah .
+D	Well more or less what we didn't do is analysis by synthesis , right . So that's what CELP is doing , right . Soyeah , so this is what wedo and uh that might help a lot , of course . But w yeah , exactly . That's that's the question .
+B	Yeah .
+A	Sinusoidal based . No . Yeah , yeah . Sure , sure , sure .
+C	Mm-hmm .
+B	Yeah .
+A	Yeah , but what's more interesting ? I I mean 'cause c I I I suspect there somethings like um CELP . You're gonna get h lot higher band-width , aren't you . I mean it's a high band-width standard . So yeah .
+B	Huh .
+D	It will be . Yeah , yeah . Yeah , sure . For example , uh therewhat I also did was uh a simple peak peaking algorithm . So if you take a look on that spectrum of that of that carrier signal , which is more or less like the cosine if you really take a look on that . But it is kind of frequency shifted cosine or frequency modulated cosine . Right , so it's th the frequency still to be changing . Or of course the amplitude is just not constant all time . It should be theoretically . But practically it's not . So what you can see for a one second signal , you m more or less you already might see some like one
+B	Yeah .
+A	Okay .
+A	Yeah , yeah , yeah .
+B	Ah , okay .
+D	one uh impulse there or spectral line for . But usually there are many others which are s quite small , but they are quite important . If you don't transmit them , then the signal is quite robotic or something like that . So if you're really transmitting just one spectral line . But this is what you can do . And you can understand pretty well . The signal is audible . Orif you're adjust uth find one one line , one speaker and dom dom dominant one in the spectrum of that c uh carrier Hil Hilbert carrier , and you just transmit this parameter .
+A	Okay .
+B	Hmm .
+A	Hmm.
+C	Okay .
+A	Okay . So I mean
+B	But
+A	How
+A	Yep .
+B	Hmm .
+A	Yeah . 'Cause it's a bit tricky , isn't it . That'sit's not like a standardI'm just thinking , I mean what sort of opt it's not like you can't just do standard um , you know , inverse filtering for um signal reconstruction or anything like that , can you ?
+D	No , n
+B	.
+D	It's even easier because what you have to do is just divide theyou just multiply that Hilbert envelope by the table carrier . Thatthat's all .
+A	Uh oh okay and then you just then you just do the inverse F_F_T_ or whatever .
+D	Yeah , yeah . Yeah , exactly . So so you just multiply that uh one Hilbert carrier , which is transcribed by L_S_F_s by thatthis one I_F_F_T_ signal . So
+B	Inverse , yeah . Inverse Hilbert . Yeah . Yeah .
+A	Okay , the oth I mean the other o
+A	Mm yeah .
+A	But that's gonna be susceptible to having phase problems , is that , when you
+D	Oh f you mean the phase of that uh of that carrier ? Of of course I try to play also with that , and uh I found that it doesn't matter so much whichwhat is the phase because we are using just one second window , right . So of course there there might be uh some uh disturb uh disturbed uh when you concatenate those segments together . But then the phase might be important . But otherwise , I mean , I didn't find anyanything important with the phase . Like great , keep the phase zero and it works . Or
+B	Or output signal like
+A	Yeah , yeah .
+A	Yeah . Okay .
+A	Yeah .
+A	Hmm . And now I mean there isthere are um mmthere is research uh um pu that's been published showing , you know , speech reconstruction from theessentially the spectrogram without phase information . Yeah . So
+D	Right . Right right right . Yeah . But it's again a little bit different , because they are i they are doing this in a frequency domain . But this is in time domain , more or less .
+A	Yes .
+B	Yeah .
+A	Yes , but I mean you can reconstructthe the f the th the entire
+D	Right . The spectrogram , you mean . Yeah , yeah , yeah . Yeah .
+A	Spectrogram from that , can't you . So you could do it that way . Cause I'm just saying there's a heaps ofthere heaps of options . Like if y yobe exactly the same as sinusoidal coding or something like that . All you need is the reconstruction of the spectrogram in order to estimate the harmonic amplitudes and
+D	Right . Right .
+D	Exactly . What we can also do very simple is just to get the magnitude spectrogram using this approximation without the carrier , just Hilbert envelope . But you just uh get it in in this way , in in the way of Rob's , right . But you can also get the s short time Fourier transform uh and keep itright . Just classical uh frame by frame algorithm , twenty milliseconds . Uh but you keep just the phases instead of magnitudes . And you can put this together , right . And it works pretty well , and then the signal is not uh just uh whispered . Then you really hear that there is the voiceness in the signal . But uh of course the quality is uh is not so good still . But uh you can use it for like two , three kilo-bits per second and it works .
+B	And theyeah .
+A	Yeah .
+A	Yeah .
+A	Ye 
+B	Yeah yeah .
+A	Just by refitting .
+A	Yeah .
+A	Yeah , yeah .
+C	Mm-hmm .
+A	Okay .
+B	Hmm .
+A	Yeah , okay .
+B	Oh ok
+A	D it's th
+B	Hmm .
+A	Yeah . But that's that's the big thing at the moment , isn't it . If if you're mm if i if the if the exci if the if the encoding rate's two kilo-bits per second for the the excitation component of the signal . It doesn't matter how efficient your um encoding of the spectrogram is , you're always gonna have a highrelatively high bit rate .
+B	Hmm .
+D	Likeyeah .
+D	Right .
+D	Right .
+D	Yeah , sure .
+B	Hmm .
+A	.
+A	Yeah .
+D	Anyway , so um hmm m maybe it would be nice if you t if you tell us uh what you do with the speech coding 'cause I d I didn't see any of P_H_D_s of you , I think . So if you did somethingso maybe it would be interesting at least t
+A	Nah .
+C	I have never done anything .
+A	Yeah , yeah . Yeah , sure .Well , one could argue it's it's a field that's quite a sort of a niche these days , isn't it .Um
+D	Yeah . Yeah , sure .
+B	Hmm . But yeah but it's more towards industry , no . Like theyeah , because I worked in a industry for like a small time . But they'rethey used to implement all these coders , G_S_M_ and I_T_U_ standards .
+A	In standards andyeah .
+D	It's true .
+D	So you werewhen when did you do that ?
+B	No , just before my P_H_D_ .for like few months . Yeah , but that's uhlike industry it's really a big deal like . So they they they work on a lot of these standards . Yeah . But mostly they're all based on CELPlike mainly . Yeah . So
+D	Oh okay . Uh-huh .
+A	Mm yeah .
+D	I think so , yeah .
+A	Well did you say uhwho said
+A	Yeah . Is it Nokia's being sued in the U_S_ for their tri-band usage 'cause , you know , intellectual property . Uh no no , g G_S_M_ because they don't have G_S_M_ in the U_S_ . Or I didn't have G_S_M_ in the U_S_ .
+B	How ?
+D	You mean using that uh C_D_M_A_ ? Or
+B	Tri-band is G_S_M_ .
+D	Yeah , it's not G_S_M_ . Right it's uh kind of s no C_D_M_A_ is uh another level , I think .
+A	UH it's fuh okay .
+B	C_D_M_A_ .
+B	No no , but C_D_M_ is there but now slowly they're introducing G_S_M_ also now in U_S_ like . Yeah , G_S_M_ tri-band . Like the frequencies are different , like very uh
+A	No no n
+A	Uh well that's tri-band , s yeah . Yeah , yeah . Yeah . Yeah . Yeahyep . And apparently Nokia's in a bit of trouble over that one , but yeah . Well it's interesting .
+C	Yeah , tri-band G_S_M_ , yeah . Different frequency . Yeah , exactly . Mm-hmm .
+D	Mm-hmm .
+B	Ah .
+B	Yeah . Now it's really big competition .
+D	I think there is a l lot of money in that like , right .Like speech recognition , of course it's very interesting , but people don't use it so much as s just coding , just telephoning , right , or just
+A	Yeah .Should've been a lawyer .
+B	Yeah .
+A	Well that'
+A	But I mean coding is a much more sort ofit's it'sitwell I mean it's it's uh itwhenit boils down to just mathematics to a large extent , doesn't it . It's it's just uh sort ofit's , you know , communications s sort ofNo .
+B	Standard maybe likestablished .
+D	Right . Yeah . They s yeah , yeah .
+B	Yeah .
+D	Right . Right .
+B	So where do you think your thing is useful ? In C_D_M_A_ or G_S_M_ ? I think maybe in C_D_M_A_ it may be mC_D_M_A_ is more lik
+D	No , I I.
+D	Well what we were what we were thinking about isoh , C_D_M_A_ , I mean there is the b
+B	More time domain . Thethey they are c doing only
+D	Well , the problem is this inwith this application , or it doesn't have to be problem but one constraint is that we are processing one second of the signal . You can go down of course . But then you are losing little bit of the bit rate , let's say , right . So but there are many applications where you really can use it because you don't care about algorithmic delay , one second algorithmic delay , like forI don't know if instead of S_M_S_ you can really have somechannel where you justright . Um soprobably .
+A	Yeah . Sure , sure .
+B	Yeah .
+B	Yeah .
+A	Yeah . Sure , sure . Push to talk and stuff like that . Yep .
+A	And I mean , as you say , I mean that delay is , I mean you can squash that delay to some extent , right . I n I think as far as the co you know , c c Delilah's coding goes , I don't think you can probably do much more than what's already been achieved . Because to get higher compression you have to , you know , take advantage of redundancy over longer time spans . So
+D	Right , right . Yeah .
+B	Yeah .
+B	Yeah .
+D	Right .
+B	But you know really thethese long line telephones , they already have delay , no . At least half a second oryeah . Yeah . Yeah . Yeah . But mobilem
+D	Yep .
+A	Yeah , sure , but I mean that's transmission delay , not algorithmic delay . If you add those together you end up with athe nightmare scenario , I guess .We might have someone else joining our uh meeting soon .Oh yeah . I don't know , I mean uh you'd beyou tried sinusoidal coding based approaches , didn't you ? Sinusoidal coding .
+D	Right .
+C	Okay .
+D	What if s
+B	And this one is
+D	Which one s oh
+D	Well , but the sinusoidal coding is usually m when you s at least what I think or uh what I know is when you are doing sinusoidal coding it means you just take the speech signal at the beginning , right . And you are trying to find tuh yeah , to find the harmonics in a temporal domain , right , for that .
+B	Uh harmonics and the
+A	Yeah , but sure . Yeah , m yeah , tr yeah it's yeah , but I mean the th the the thing is you'd need ti ipart of the parameter set for that is uh the um uh the f uh theharmonic amplitudes . And then one way of compressing the harmonic amplitudes is just storing the smooth spectrum . And then you can uhand then you can interpolateyeah , you can just pick the the um the harmonic amplitudes on that spectrum when you reconstruct on that smooth version of the spectrum when youreconstruct . Y yeah . Well , I was just saying
+B	Yeah .
+D	Right .
+D	Oh . Yeah .
+B	And then pickingyeah .
+D	Right . More or less I did it maybe different way , but kind of algorithm like okay , trying to find out the strongest or the the most dominant peaks in the spectrum , which is more or less the same .
+B	Yeah .
+A	Yeah . Yep .
+B	But maybe the bit rate is the problem , no . Like what David was doing . Like it's reallyuh yeah , yeah , yeah .
+A	Yeah , well I I th it's high . It's quite a high bit rate . But I mean once weit maybe it's something that's scalable .
+D	But th
+D	But you know , the the f the interesting
+B	Yeah , maybe you can just see how many how many harmonics . He was using twenty , I think . Like yeah , maybe you can try to reduce .
+A	Well itI mean you can use as many harmonics as you want . I m h uh he was just using the fundamental frequency . And if you smooth it doing a smooth spectrum representation of the harmonic amplitudes , then you only need to store the the the fundamental frequency and and the and the maximum voice frequency . And everything else can beyeah , s yeah , sure . So , and thenbut then the trickythe only tricky thing that we hadn't figured out was the phase information .
+B	Yeah .
+B	Yeah .
+D	Right .
+B	And the f
+D	Right , and thatthat's it .
+B	And then all this amplitude .
+D	And then you do multiples ofright . Yeah .
+B	Ah . Yeah , yeah . Yeah .
+B	Yeah . Each again .
+D	Yeah .
+A	Um but y but uh you can still get alike you get th um basically if you do phase unwrapping and all of these other tricks , you end up with some sort of phase representation , which issome sort of monotonically decreasing function . Yeah , unwrapped , yeah . So I mean it's something that you could conceivably represent in some sort of low sort of r you know , low bit rate representation , I guess . And then maybe you'd need some sort of correction to um to correct minor phase discontinuities at some point in time .
+B	Some kind of linearyeah .
+D	Like it
+D	If it is unwrap you mean . Unwrap uh phase .
+B	Yeah . Yeah .
+D	Right .
+B	Some function or like a
+D	Youl right , yeah .
+D	Yeah , yeah . I also play with that . And for example what I found i well , in this case uh we are not trying to encode the speech signal . We are trying to encode some carrier , which is much easier , I would say , because you can really im you can see that even . So what I was trying to encode at the phases , so I just found that uh two bits is enough for that and you really don't hear the difference . So if you keep all the spectral lines as they were there but you were just uh quantizing with two bits or three bits for amplitude , two bits for for phase . So it's okay . The problem is that you have to transmit many of them . 'Cause there is not just one dominant component but usually more others which are quite small , right . Or what you have to do then you have to decrease the the the size ofnot one second , but you have to go down because then you can get just voiced part and unvoiced part . You know , one second it's usually mixed right somehow together .
+A	'Cau 
+B	Hmm . Yeah . Yeah .
+A	Yeah , yeah , sure .
+A	Yeah , okay .
+A	Okay .
+A	Yeah .
+A	Yeah .
+A	Okay .
+A	Yeah . Sure , sure .
+B	Oh .
+A	Yeah . Yep .
+B	Yeah .
+C	True .
+B	The size of the
+A	Yeah , yeah .
+A	Hmm .
+B	But you don't do any voice un-voice decision , no ? Yeah , thethat's even advantage I think for this approach . Yeah . Yeah . Yeah .sorta the modelling , it's really another issue like . Yeah . Yeah . Yeah , yeah . Yeah . Yeah . And then you have to combine all this harmonic model and noise model . So again you may end up some.
+D	Not now , no . I wi
+A	No , and you uh you wanna avoid hard choices on voicing decision , yeah .
+D	Uh uh we don't no want to do that , yeah , because it's quite tricky .
+A	Well that's one of the big problems with L_P_C_ ten for instance . I it stinks because this hardyeah .
+D	Right .
+D	yeah , sure . Exactly .
+D	Right .
+D	But for example what we also found is that if you use just the Hilbert envelope , that that one which is trying to approximate thatenergy in some low band , like ar around two hundred t uh hertz , and you take a look on the signal , on the trajectory , you can see that it works like kind of um voice detector . Because uh for a low energies there is usually noise . For high energies there is kind of a harmonicity . So it works pretty well for that . So we might use this one information for that . But
+B	'Cause 
+B	Oh okay .
+A	Yeah , sure .
+C	Mm .
+A	Yeah .
+B	The pe peak uh
+A	Yeah , yep .
+A	But but that that two hundredthis is what they use for like um st they they do use this for um for um pitch marking in speech . So this is what Alan Black's code uses . But it's very speaker dependent wh on what sort of band width you'd look at this Hilbert envelope . Depending on the pitch , depending on the person , y you'll get a different amount of smoothing and a certain sort ofso I mean , you know , if it's a female speaker for instance youyeah . So it's sorta tricky .
+D	Yeah , I think so , yeah . Mm-hmm .
+B	Yeah , yeah . Yeah .
+D	Right . Uh-huh .
+B	Yeah .
+D	Mm-hmm .
+B	S 
+B	Yeah . Yeah .
+D	Mm-hmm .
+D	That's true , yeah . Yeah .
+B	So that's ayou have to tune lot of parameters like I am .
+A	Yeah .
+D	Yeah , yeah . Yeah , that's that's a problem .
+D	Sure .
+B	But anyway , you don't really need hard decisions , no ? Like voiced unvoiced .
+D	Uh f
+A	Uh n no . Y yeah , but from memory that that basic script that they had wasn't wasn't very um effective . I mean maybe if you did some sort of initial first p guess and then and then chose your smoothing factor based on that . 'Cause it ityou know , selecting at any particular point of what the what the pitch is at themay be inaccurate . But if you estimated it over a second , you should be able to get a decent estimate , I'd I'd think .
+B	So m maybe it may help you , but ityeah . Yeah .
+D	That would be nice n not to have anything, yeah .
+B	Yeah yeah .
+B	Yeah .
+D	Right .
+D	Yeah , yeah .
+D	My
+D	Mm-hmm .
+D	Right . Exactly .
+B	But do you really really need it or likevoiced unvoiced ? Yeah , butyeah . Yeah . But it's not really you need t you don't need to specify at each point it's voiced oryeah .
+D	Well I don't know . Maybe if youwe uh really want to improve the the quality , then we will need it , I don't know , still .
+D	N not now . Yeah , uh well , I'm gonna t have a time next next month or in three weeks so I'll try to play some examples there for you and
+A	Yeah . Well it'd be nice toit would be nice to really see what thiswhat you're a actually trying to reconstruct here .
+B	Huh .
+D	What we are trying to reconstr
+A	This carrier signal , what what it really looks l yeah . And you did say it looks like a frequency modulated cosine .
+D	How does it look like orsure .
+D	Yeah , more or less .
+A	Hmm .
+D	It's kind of uh not frequency . Let's say amplitude modulation when you have ju just the carrier and that modulation signal , right .
+B	Yeah . And then amplitude . But you're telling even frequency's also shifting , no ? Like your delay . Yeah . Yeah , yeah , yeah . Yeah . So then , yeah , then it's not exactly amplitude modulations or it's it's in between maybe.Yeah .S yeah .
+A	Yeah .
+A	It would have to be 'cause pitch shiftsyeah 
+D	Yeah , we yeah , yeah , yeah , exactly .
+A	Yeah .
+D	Yeah , yeah .
+D	It's in between , exactly . So it's not this and that . But still yeah . But anyway whatalso the other approach which is possible to use . The other is one to keep the phase like this one , like two spectrograms , one the phase and one the magnitude . And well I can again play it and it works on two kilo-bits per second . Quite whatuh no , what uh he was doinhe was using it for speech recognition , what I what I know , but for speech codingno no no , it wasI don't know .
+B	So yeah .
+B	Yeah .
+A	Yeah .
+B	.
+B	That's what Marius did , no , like . But but he was keeping all the phase information .
+B	No , but even thehis coded likehe justhe he didn't do anything , he just transferred it that way . He was aiming forhe's not really kind of doing speech coding , but he want to do it on music . So he doesn't really care about the band-widths orhe want to have the quality , no , like . Yeah , but evenespecially the audio series and thethatthat's what he was telling like . Yeah , at least even ten K_ bit . Twenty kilo-bits also is okay . Sobut he's uh he's not I think finished with all that thing . He's just transmitting all the phase and thenbut he's encoding the envelope , yeah . Yeah .
+D	For speech coding you mean ?
+D	I don't know . I don't know . M maybe .
+D	Right . Yeah .
+D	Mm-hmm . Well for example this phase informationright . Yeah , yeah . I think so . There are m more papers which are using this approach , like trying to encode the magnitude spectrum or spectrogram . Uhthe phase or you just uh re canagain the phase can be replaced by the noise , which is pretty good . So that's uh the benefit uh variable approach . So if you really don't have a band width , you just can replace it by noise and it works . Of course then it doesn't sound as the original because it's more whispered or whatever . But you can understand well .
+B	Yeah . Yeah .
+B	And then leaving the phase , yeah .
+B	Yeah .
+A	Hmm .
+A	Hmm .
+B	Yeah .
+B	Hmm .
+A	Mm .
+D	And for example uh if you mention this one approach with the that uh trajectory of the phase , of unwrapphase recre uh I also use because you can do it here when you get into uh this domain where you apply uhor you're trying to compute uh s power spectrum in in order t let's say that this kind of trajectory , it doesn't infit the same frequency over time domain . But here you are trying to compute uh doing ato do linear prediction . So we are just doing F_F_T_ , right . Then applying uh power in order to get um to s to power domain , and then I_F_F_T_ , right . So you get the auto-correlation coefficients . So before you're applying uh power spectrum , you can again get theyou have got a complex f freq frequency or complex spectrum , you can get the phase , right . And the phase look quite similar like this . So you might see it's is more less like a line .
+A	Yeah .
+B	Yeah . Yeah .
+B	Yeah .
+A	Mm-hmm .
+B	Yeah , or
+C	Mm-hmm .
+B	Auto-correlation coefficient and
+B	Yeah , they again give the phase . Yeah , again give the phase .
+A	Hmm .
+B	Yeah .
+A	Yeah , it's like ayeah . And it it does start to get a little bit n non-linear towards the end . But normally that's that's when the components are not actually probably gonna be audible anyway in voiced speech , right . So yeah .
+B	Oh .
+D	Right .
+D	Yeah .
+B	Hmm .
+D	Right .
+B	But this phase is different from your carrier , no ? Likeyeah . Because you're just doing on uh youruh yeah . And also likeyeah . And
+D	Yeah , it'sit is very different , yeah . Thenyou are doing in different domain . I think this is in frequency domain , this in time domain . Um it is quiteit's quite sensible to any quantization , what I found . Really it looks like the lines . So you just say okay , let's p let's put the line there . But it doesn't work . Re well , you can understand . But you can here that there are many artifacts whichright , exactly .
+A	Yeah .
+B	Yeah .
+B	Hmm .
+A	Yeah .
+A	Yeah , sure . C
+A	C 'cause any sort of error in that in that line is is transmitted , is realised in a net as a phase error , right . Yeah .
+D	Right , right . And the another problem is that uh it's not band width variable . So you cannot say that this part will be the just the noise , which you can do in here in this this other approach . So that's why I didn't play with that so m more because I found there are more uh disadvantages than the advantages , this approach . So that's why .
+A	Mm .
+A	Okay .
+A	Mm yeah .
+A	Tricky , yeah .
+B	But even you can use as acan you use that phase directly ? Whereas the d yeah , this one is direct
+D	You mean this one ? Yeah , if you take just the original phase and the
+B	But this is phase of your d uh spectrum , no ? Like it's not in time domain . So
+D	Right . Yeah , it's it's it's not a phase . Yeah , yeah , yeah . It's the phaseno , you can again put thethat envelope with this phase together because envelope is twe
+B	Of your signal . It's notso then it's bit tricky . Like how
+B	Okay , but still you get only the the magnitude of your Hilbert envelope . You won't get the
+A	Yeah , yeah , yeah . Y y y you have s five slices like n across that way , I guess .
+D	No no . You g no , you get the f
+D	Yeah , you get the complex complex spectrum with this .
+B	No , but you started with Hil Hilbert envelope , no ? Like magnitude of Hilbert envelope .
+D	No , no , I started with the D_C_T_
+B	Magnitude of uhno , before D_C_T_ your d oh .
+D	No , after D_C_T_ you are tryingthis is so kind of again a real trajectory , right . And you're trying to first find that Hilbert envelope . So uh let'swell sothis is a speech . No , but here what I want to say is really that y it's not part of Hilbert envelope , it's part of the D_C_T_signal . So it's notit's enough if you have just this phase and f and the Hilbert envelope , you can put it together .You don't need the carrier . I mean this is kind of a carrier signal but in different domain represented .
+B	Yeah .
+B	Ah , ok so input to the D_C_T_ is the speech or like youryeah , okay . Just you're starting wit
+A	Yeah .
+B	Ah . Ah . Ok ok ok
+B	Yeah , maybe thethen
+B	Yeah .
+B	Ah okay .
+B	Yeah , it's in frequency domain , no .
+D	Right , right .
+A	Hmm .
+D	So Iwhat I think is that we already will need to apply s kind of analysis by synthesis approach mm uh in order to get something .
+A	Yeah , that makes sense 'cause it's a time domain sort of approach . Um and I mean uh and and in in fact I mean it'swhat you're doing is so different to most approaches to speech coding that it doesn't matter that we don't know much abouor haven't had muchi it'sI mean it's quite different to a lot of the traditional sort uh so uh voi um you know , source filter type approaches or or whatever , yeah . So
+D	Right .
+D	What I
+D	No . You meanye
+D	Right .
+B	Yeah , definitely it's d
+D	Right , right . Yes , that's true . But I mean that's maybe even the advantage here because youit's not speech d based , which means we are not
+B	But now I think people
+A	It's just a matter of minimum distortion time . Yeah .
+B	Yeah .
+D	Right . So you canwhen I tried and comparing with L_P_C_ ten on a uh twice bigger or higher bit rate , this worworks better , it seems to me . Just for unvoiced speech . O I'm not mentioning uh voiceless because that's unvoiced , which means whispered .
+A	Sure .
+A	Unvoiced unvoiced speech is very difficult to b sort of judge on quality compared to voiced , I think .
+D	Uh yeah , but uh when you hear and try to use some examples with the music for example
+A	Plosives . Yeah , plosives are very important though , I guess . So maybe it does a better job of plosives .
+B	Yeah .
+D	Right , yeah .
+D	Mm-hmm . That's true , yeah .
+D	Uh but anyway , it seemed to me pretty good . I mean thatthere might be . that's true , yeah .
+A	Okay . It'd be nice if we had some demos here .Well , I suppose have to wait to yourI guess .
+B	So when is your turn ? Uh
+D	Uh it should be uh thirteenth December I think .
+B	Oh . Oh okay . I mean just before . Oh you.
+A	Oh it's a little wa oh bugger .I won't be , yeah .No .You'll practice it before then , won't you ?
+D	I just uhyou won't be here .Uh okay . No , I just swapped it with uh Mike Perrot I think 'cause h he is not going to be here this time . And I was supposed to have it in uh in January . So whatever .
+A	Yeah , he's going to Oz . Yep .
+D	Anyway . SBut anyway , I I wanted to hear something maybe from you what you are doing f with speech coding because you wereyou mentioned that
+A	I did , yeah . But we're d we're doing a more traditional s s frequency slices rather than temporal based stuff .
+D	By
+D	But it was based on likeyou were using kind of recognizer there , right ?
+A	Yeah . Well that's w that was one of the approaches , sure . Yep . And the other approach was was this H_M_M_ based stuff , which is which is basically just a parameterization of the , you know , the the the the um the source filter type parameters , and then and then learning the , you know , training like a h speech recognition system . But that's not terriblythat's got no relationship to this . Iit'syeah .
+B	Low bit rate .
+D	Uh-huh .
+D	Right . Right .
+D	Yeah , it'sI'mI mean yeah , it's different . But uh it's speech coding at least .
+A	Yeah , sure . Speech coding . I I read some of the other techniques .Um little standards . But um I mean I think I think you're on the right track with the analysis by synthesis but that doesn't tell you how what sort of bit rates you're going to achieve or umand because you have to do it separately for each um band , it would be theI imagine that's the tricky part .
+B	Yes .
+D	I think so .
+D	Right . Yeah , sure .
+B	Yeah .
+D	Band you mean ? Right .
+A	Um because it would be varying quite rapidly , wouldn't it , your um your uh code book . Like within each umwhen you go along the the the b the one second sort of segment of the band , you
+D	With different
+D	I don't know . But maybe what we can already do is uh to decrease this uh this distance . We can do a Hilbert envelope approximation with one second . But then we can split that signal into , I don't know , ten ten uh segments with the one hundred milliseconds or even less , and we can apply some other technique for that , you know . Still
+B	Hmm .
+B	Hmm .
+A	Yeah , yeah .
+A	Yeah . Well , I meanyeah . First you've gotta choose your approach and not worry about the band-width , and then start thinking about how tgiven'cause I mean I guess especially 'cause this is a this is a more of a commercial based project , you've g c you've you've gotta i match the quality before you start worrying about other things , right .I mean d d do theyI mean what what what sort of uh
+D	Right . Exactly , exactly .
+B	Hmm .
+D	Yeah .
+D	Well , th more less they don't care what's uh what will be the quality of theof theor the bit rate , they just want to get something new ,you know . So if you get the v very uh low bit rate with a reasonable quality or really high bit rate , which is c again different , but with uh high quality , uh they would be happy with the both . SYou know , on one side it's pretty good but on the other you don't know which way you should go'cause there are many of them . And uh
+A	Uh-huh , okay .Well that makes things u
+B	Oh okay . Yeah .
+A	With
+B	Yeah .
+A	They're happy . Okay . Cool .
+B	Yeah yeah .Yeah , you know , the th
+A	Yeah . Sure , sure .And at the moment you're at sort of a point where maybe you have to make that choice a little bit . Yeah . Mm-hmm .
+D	Right , right .
+B	Yeah .
+D	Okay .Well I I will
+B	Hmm .
+D	W uh do you want to mention your speech coding experiments ?So you are saying that you're doing something i in India with uh
+B	Yeah .
+B	Uh . No no no , yeah .
+B	Yeah . But it's mostly like this is uh s CELP and these thing .
+D	So you know the sub mm like um more details ?
+B	No , I was t uh doing some uh like writing some code for testing and these things where I'm making some t standards for that . So so th th there are like li the thing , these standards , how it works is like they give all the pseudo code kind of thing and then they put severe test conditions . So you have to pass those test conditions . Likethen j you can say okay , we implemented D_ seventy eight or D_ se
+A	Yeah .Uh which is not
+A	Yeah .
+D	Oh yeah . Okay .
+A	Yeah . Al although the standards , depending on what standard you're dealing with , sometimes it can be quite ambiguous , right . I mean all the M_ PEG standards are basically this is the container , we don't care how you do it , right , but it's gotta fit inside this this sort othis sort of format .
+B	Yeah . Yeah . Yeah . Yeah . Yeah . Yeah .
+D	Right , right .
+B	Yeah . So that's why it's reallyeven the t standardsthey give the test signals also . You are t you can't really do it on whatever database you have . So so you are to use theuh uh yeah . Uh ityeah , it's more like uh they define . So I did for some evenalso . They're alsothey define all this thespeech condition . Everything they define . So you need to follow all those . Yes , this industry is again different like , yeah .
+A	Okay . And then you have the v and then you have to do M_O_S_ um testing an
+A	Okay .
+D	Right . I see .
+D	Yeah , but it's quite interesting with theeven with th uh s current speech coding uh technologies . We arethey are still trying to use k zap or those R_P_ based approaches . There is nothing new , more or less . And if Iwhen I was uh listening the uh the talk of uh Milan Jelinek , uh he's the Czech guy , but he lives in uh in Canada . I don't know the name of the university . But they they have uh the pattern I think for CELP even . Or
+B	Yeah , I think there isn't only se mostyeah .
+A	Well , ho it
+B	Ah . CELP is from uh A_T_ and T_ , no ? Like A_T_ andyeah , yeah . Itthe all this L_P_C_ stuff is
+A	Okay .
+D	Um I don't know how it is exactly but they got very very famous for this for that CELP . What they did exactly I don't know , if something different a little bit or not , or they just keep those patterns orI don't know how it is exactly . Maybe Hynek will know much more . But uh when I heard thosethat presentation , they didn't do so much new . I mean uh it was last year and uh I think Hynek , he was asking wh so what's new that you are so famous with that and they n they said okay , we we know exactly how to do that . I mean you know , not to make any errors like inbecause everybody knows how to do that . But uh it's not so easy to implement it , right . So uh there is nothing so much new really like .
+B	Yeah .
+B	Ah , ok
+B	Ah , okay .Yeah . Yeah .
+A	Mm .
+A	Yeah , yeah . Well , I th
+A	No , no , no .
+B	Yeah . The
+A	Uh no , no , no . Yep .
+B	Yeah , that's the main thing even . Yeah .
+A	Well the thewhat's what's new is in the transmission medium . Like you know , newlike higher band width transmission or uh or like packetpacketized based transmission . And then all th that sort of thing . Thewhere th where they're they're not so much looking at the algorithm , but so much as how to incorporate the algorithm within a new transimission sort of s medium . Basically s likeI mean if you d if you see a lot of papers on like um on uh voice over I_P_ or whatever , the the publications are sort of like um how do we deal with packet loss , or or how was it affected by packet loss and and and things like that .
+D	Yeah .
+D	Right .
+B	Yeah .
+D	Right .
+D	Exactly .
+B	Yeah .
+B	Yeah , like I .
+B	Voice over I_P_ oryeah . Uh yeah . Yeah .
+D	Right .
+D	Right , ri right , exactly , exactly . But then they are s still using like error signal , which is going to be approximated by code book , right ? And a linear prediction , which is usewhich is approximating just the spectrum offor forand everything thatthat's that's all . Sstill
+A	Yeah , sure .
+B	Yeah .
+A	Yeah .
+B	Yeah . And again , lot of this stuff like whe even when I was working mostly that company was developing for voice over I_P_ . So they're to put all these things on again D_S_P_s . And also it's mostly like how tohow many L_P_C_s areyeah , how many co yeah , it'soptimation and thenit's even
+D	Right . Yeah , yeah .
+A	And optimization of the code and all that sorta stuff . Yeah . But even that's less of a big deal now , right , because all the little um I_ syeah .
+B	Yeah . Again , now now now even they're also becomingyeah .Even the memories are not reallyeah .Yeah . Yeah . Yeah .
+D	Right .
+A	Not really . You could trow Matlab on a mobile phone these days .Well , maybe not , bu
+B	So even I think uh then you can havwhatever band-width is .It's short really .
+A	Yeah .
+D	Well , I hope that we still have a a lot of time for that becausuh
+B	But no , I think uhbut still then that's what maybe people are going toward sign sort of modelling , no . Like I was beforewhen the bandwidth conditions were really stringent then they were using all the p L_P_C_ based source filter .
+D	I think yeah , it's pretty interesting , yeah .
+A	Y yeah .
+D	For example when I was uhyou know , harmonic voice modelling , that H_M_M_ system which is usingused for synthesis more less . It's pretty interesting . I mean it it works it works well .
+A	Yeah , which David did , yeah .
+B	Yeah .
+B	Yeah . Yeah , if you want you can look at his code and. But only thyeah , yeah .
+A	It's good , yeah .
+A	Yeah , we've got all his code implemented . So uIt wasn't perfect . There was little bit of bugs with some of thematching . But it was pretty hard to tell that it was m not not perfect unless you heard the samples sort of next to one another . So that's not too bad .
+D	Right .
+B	Yeah .
+B	Yeah .
+B	But definitely it's better than co coded speech , no ? Different. Yeah , it's reallybut uh how much you can get the compress theselike what you're telling is you can do all these tricks like . Yeah , thesyeah .
+D	Right .
+A	Oh , sure .. And I mean it
+D	Yeah , yeah , it is .
+A	Well th
+A	The only trick is the phase . And we've got a student starting in January who's gonna start working on on how to actually efficiently parameterize the um the H_M_M_yeah , yeah . And I think I think we've got a number of ideas for the the spectrum . That's easily enough handled just using standard techniques . But th
+D	You mean uh in sinusoidal uh modelling ?
+B	Inyeah .
+D	Yeah . And but anyway , do you know exactly how it is done when you really have those M_F_C_C_ coefficients , which means magnitude spectrum , and then you are trying to reconstruct the speech ? Without a phase . Because I I triedyou know those th those papers . But s I'm little confused about it . I don't know how it works . But
+A	Without phase ? I've got no idea . Uh you reviewed a paper on a
+B	Well yeah , I readuh I reviewed one paper likeyeah , thethat's that's fromno . Yeah , maybe you can look at dates from uh you know east of uh eastuh yeah , East Anglia . Yeah . Uh this uh e eastUniversity of East Anglia , Ben Milner .
+A	Uh Steven Cox , isn't it ? Yeah .
+D	Which one ?
+A	University of East Anglia . It's near c sort ofit's it's near the sorta Cambridge side of England , I guess .
+B	Yeah . I yeah , it'syeah , I can forward you that . They're doing lot of tricks . They're likethey're again training Gaussian mixtures for different frequencies and thenbut they canthey're following theyeah . Yeah . Yeah .
+D	Yeah , that would be nice .
+D	Oh .
+D	You know , m but there are some algorithms which were quite uh
+A	No themuch more mathematical , I think . Yeah , just basically doing search through or or stuffstuff like that , don't they ? Or
+D	Yeah , yeah , yeah . Yeah .
+B	No no , thethose things are again based on L_P_C_ , no ? Like mainly likeyeah . Whereas like the pitch estimation in in the X_ waves or these things , they're all dynamic programming based on again L_P_C_ analysis .
+D	Uh it seems to me , yeah , something like that . Like try
+D	You know what you can doum maybe . What you can do is uh take just the minimum phase ofwhich you can get from a linear prediction , right ? You know what I mean , minimum phase signal . And it sounds quite uh reasonably the two. But of course they are li it's not original at all . So I don't know how they do that exactly . No , I've no idea .
+A	Yeah .
+B	Yeah . And then construct that .
+A	Yeah .
+B	Huh .Yeah , again like uh no , the problem is different for everybody . Like these guys , what they're doing for distributor speech recognition mainly , this uhso . Uh yeah , M_F_C_C_s . So
+A	No .
+A	Yeah , yeah . Sure . Where you've only got the M_F_C_C_s . But th I think I think theI think it was towas it to do with Aurora or something ? ThOkay .I was
+D	Right . True , right .
+B	No , it's E_T_S_A_ or something . European Standardyeah Hynek really n yeah , even it's h kind of Aurora framework . So yeah .
+D	For n for Aurora we didn't do anything with that .
+D	Yeah , but we didn't do any speech recon re reconstruction . Yeah . Yeah , yeah , sure .
+A	Okay .
+B	No , but now it's bit. Yeah , now they're
+A	Yeah , but it w it was for say um say you've got someone who hasyou know , they wanna dispute that this is what they actually said by the recognition . And the recognition network was wrong and you owe me money or whatever . Um and then they can say well we've we've reconstructed your speech from the speech recogni input to the speech recognizer . Hey voila it sounds like you uUh I mean obviously there's a lot more to it than that . There's a lot of sort of , well , does the quality stand up to legal sort of requirements or whatever . But um
+D	Right .
+B	And theyeah , M_F_C_ s
+D	Right .
+D	Right . Right .
+B	But even at distant point they're planning to use for j uh standard D_S_M_ or D_S_it's not? Or
+A	Oh no , thatthere's a separate set of standards I think for speech recognition . Y yeah , yeah , yeah . Yep .Which uh I think requires , you know , that states the un the information they can send is this . So I don't know whether you tack on any extra phase information or whatever . You have to deal with what you're given . S
+B	Yeah . E_uh E_T_S_A_I_ , yeah . European , yeah , commission . So
+B	M yeah . Yeah .
+B	Yeah .Yeah . Yeah , i yeah , all these standards are reallokay .
+A	Yeah . I don't know . I Iit would be interesting . YouI mean maybe that's the best approach to looat to begin with is just pretend all you have got is
+D	You mean with this phase uhsure . Yeah .
+A	Yeah .
+A	Um because you can also interpolate the pitch information from the the spectrum as well .
+B	Yeah . But
+D	Yeah , they do some kind of reconstruction of speech . Uh yeah .
+A	They do that .
+B	Yeah .
+A	Yeah . So I mean maybe try to see how good you can go without transmitting any of that information .
+D	Right . That's true , yeah .
+B	But the quality again problem , no like ?
+A	The pitch was really good , I thought . I th didn't think you could really tell .
+B	No no . The the eu again , European standard , what this give us , they give the M_F_C_C_s and they give the pitch . Then you are to construct the thing . But if have M_F_C_C_s then like again you have to get the high order M_F_C_C_s and thenyeah , then you're have to
+A	Yeah .
+A	Yeah .
+A	Yeah , but but the thing is if it's Mel scaled , if you have a Mel scale , you get quitefine reconstruction of the spectrum at the lower frequencies itwhich is what you need for reconstruction of the pitch anyway .
+B	Yeah .
+D	Right . Yeah .
+D	Yeah . So
+A	So I mean if you wanted to transmit with fewer bands , you'd maybe still keep the lower bands or or maybe you could still transmit the pitch . The pitch isn't that big a deal . But it'd be nice if you didn't because then I mean that'swell , I mean it's worth giving it a go and then men maybe seeing wh what information you can add to the data stream to improve performance .
+B	Yeah .
+D	Yep . Yep .
+D	Mm-hmm . Mm-hmm . Sure , yeah .
+A	Um
+A	I don't know .
+B	Yeah .
+D	Okay .
+A	Thatthat'd be cool .So get coding .
+D	So how about you ?
+C	I've never done any coding in my life . SI just have one curiosity . So this is coding then s you code the speech , then you're also supposed to transmit the speech , right ? Th let's say in G_S_M_ or something else . I remember when I was doing some image processing , there were techniques for compressing and then coding . So adding channel information on the image at the same time in order to save sound bits .
+D	Yeah .
+D	Yeah .
+D	You mean like channel and source coding together ?
+C	You see what I mean ?
+C	Exactly .
+D	Or no .
+C	I d was just wondering if there's some s someone was doing it with speech as well .
+D	Well I can imagine kind of like J_ PEG operations , which might be more less like it's source coding and then we also channel coding because we just smooth theor justI don't know . I don't know .
+C	Well actually , when you compressyeah , all likefirst you compress the signal , right ? And then you al you add com some complexity to the signal in order to recover the error . So I was wondering if by any chance there was something like this in speech with the speech . You don't know ? Okay .
+D	Right . Right . Right . R right , right .
+D	I don't know .
+B	Hmm .
+A	Mm I think w
+B	Mm .
+D	I don't know so much about s channel coding , like those Huffman coding stuff and , you know . I mean it's just standard . Yeah .They're just standard techniques . Bu
+A	Ah , well I mean Huffman's easy enough . Bubut yeah , sure . Uh that that's where I stop .Run length encoding , I'm out of here .
+B	Yeah .
+C	WelIt's not the most difficult , right ?
+B	But I think again it's different , no ? Like these standards again , all these G_S_M_ standards . Maybe they have the compression standards and again coding stand but maybe uh I I readah yeah . I don't remember anything likeyeah , they're doingyeah , combi yeah , theeven even G_ even normal G_ seventy nine , normal speech coder . So they have the speech coding standards again . They are these channel coding . So yeah . So it'smm . Yeah , b
+D	Yeah , exactly . Yeah , yeah .
+C	Sure , sure . Andand this was the problem actually because you were
+C	Nonot not in G_S_M_ , definitely definitely not . Uh
+C	Okay .
+C	Then th they some , you know , source . So yeah .
+A	Okay .
+C	Okay . Just one .
+A	I mean I th I think they do try toI mean obviously the the the techniques they they choose are supposed to be less , you know , susceptible to coding errors , let's say . You know , i but I mean that's maybe the the limit to that .
+B	Maybe .
+B	Yeah .
+C	Yeah .Definitely .
+B	Yeah . Again , yeah , i
+A	Yeah .
+B	So okay ?
+D	I think so . H yeah .end . Okay .Thank you guys .
+C	Is it good ? Okay .Okay , thank you .
+B	Yep .
+A	Okay .
+B	Th thank you then . Oh .
+A	Okay .
+D	Uh if you find some good paper which you might
+D	There was that fam fam waveform pro prototyping cor
