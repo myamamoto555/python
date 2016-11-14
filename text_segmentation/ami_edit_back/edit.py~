@@ -101,8 +101,7 @@ for filename in filelist:
         infodic = {}
         infodic['id'] = filename
         infodic['speaker'] = v[0]
-        infodic['text'] = v[1]
-        #infodic['lemma'] = lemmalize.get_lemma_list(v[1])
+        infodic['text'] = lemmalize.get_lemma_list(v[1])
         infodic['segment'] = v[2]
         
         jl = json.dumps(infodic, ensure_ascii=False)
