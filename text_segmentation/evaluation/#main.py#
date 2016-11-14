@@ -1,8 +1,0 @@
-#coding:utf-8
-
-class evaluation(object):
-    def __init__(self, predict_file, answer_file):
-        se
-
-if __name__ == '__main__':
-    
