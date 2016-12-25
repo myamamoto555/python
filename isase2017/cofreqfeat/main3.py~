@@ -1,0 +1,83 @@
+#coding:utf-8
+
+import random
+import mj
+import MeCab
+from multiprocessing import Pool
+from multiprocessing import Process, Lock
+import numpy as np
+
+import traceback
+import time
+
+def get_naiyougo(text):
+    katsuyou = ["動詞"]
+    stoplist = [u"固有名詞", "数", "非自立", "代名詞", "接尾", "サ変接続"]
+    okwords = []  # 名詞、動詞、形容詞の基本形を格納するリスト。
+    tagger = MeCab.Tagger()
+    node = tagger.parseToNode(text)
+    while node:
+        if node.feature.split(",")[0] in katsuyou:
+            orig = node.feature.split(",")[6]
+            okwords.append(orig)
+        if node.feature.split(",")[0] == "名詞" and \
+           node.feature.split(",")[1] not in stoplist:
+            orig = node.surface
+            okwords.append(orig)
+        node = node.next
+    return okwords
+
+
+sents = []
+with open("train3") as f:
+    for l in f:
+        l = l.split("\t")[0]
+        sents.append(l)
+
+
+def main(i):
+    dic = {}
+    orig = get_naiyougo(sents[i])
+    try:
+        score = mj.moraljudgment(orig)
+    except:
+        score = []
+        for i in range(40):
+            score.append(0)
+
+    dic[i] = score
+    print i, sents[i]
+    
+    return dic
+    #print i, sents[i]
+    #dic[i] = [i]
+    #return dic
+
+if __name__ == '__main__':
+    start = time.time()
+    p = Pool(10)
+    print len(slist)
+    slist = range(len(sents))
+    try:
+        allitem = p.map(main, slist)
+    except:
+        traceback.print_exc()
+        raise
+
+    alldic = {}
+    for a in allitem:
+        alldic.update(a)
+
+    fin = []
+    for k, v in sorted(alldic.items()):
+        if float(max(v)) > 0:
+            fin.append(np.array(v) / float(max(v)))
+        else:
+            fin.append(np.array(v))
+    
+    np.save("train3_cofreq_new.npy", np.array(fin))
+
+    end = time.time()
+
+    print len(fin)
+    print end - start
