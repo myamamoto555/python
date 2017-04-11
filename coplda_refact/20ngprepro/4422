@@ -1,0 +1,101 @@
+: 
+subject : cryptography faq - digital signatures 
+organization : crypt cabal 
+lines : 85 
+expire : 22 may 1993 gmt 
+: 
+: . 
+
+summary : part 7 10 faq , digital signatures 
+hash functions . 
+theory one-way hash function , distinction 
+term . 
+md5 . 
+. 
+: 
+: 
+: 
+faq , part 7 : digital signatures hash function 
+seventh ten part faq . 
+part 
+mostly independent , read first part rest . 
+time send miss part mail , ask . 
+note `` '' refer reference list last part . 
+section faq available via anonymous ftp 
+. 
+xx . 
+cryptography 
+faq post newsgroup , , 
+every 21 day . 
+contents : 
+one-way hash function ? 
+difference public , private , secret , shared , etc. . 
+? 
+md5 ? 
+? 
+one-way hash function ? 
+typical one-way hash function take variable-length message 
+produce fixed-length hash . 
+give hash computationally 
+impossible find message hash ; fact one 
+determine usable information message hash , 
+even single bit . 
+one-way hash function also 
+computationally impossible determine two message produce 
+hash . 
+one-way hash function private public , like 
+encryption function . 
+one application public one-way hash 
+function , like md5 . 
+public-key signature system 
+relatively slow . 
+sign long message may take longer user 
+willing wait . 
+solution : compute one-way hash message , 
+sign hash , short . 
+anyone want verify 
+signature thing . 
+another name one-way hash function message digest function . 
+difference public , private , secret , shared , etc. . 
+? 
+horrendous mishmash terminology literature 
+small set concept . 
+algorithm depend key 
+publish , call private algorithm ; otherwise call 
+public algorithm . 
+encryption function e decryption 
+function d , d e m m message m. also 
+hash function h verification function v , v m , x 1 
+x h m . 
+public-key cryptosystem public encryption private 
+decryption . 
+checksums , application mention 
+previous question , public hash public verification . 
+digital signature function private hash public 
+verification : one person produce hash message , 
+everyone verify hash correct . 
+obviously , algorithm depend private key , mean 
+unusable anyone key . 
+real 
+difference `` shared '' key private key : shared key 
+publish , private . 
+encrypt datum friend 
+rather `` eye '' , suddenly 
+`` encryption '' rather encryption ? 
+. 
+md5 ? 
+md5 message digest function develop ron rivest . 
+definition appear rfc 1320 rfc 1321 see part 10 . 
+code 
+available . 
+note transcription error find original md5 draft 
+rfc . 
+correct algorithm call , though 
+people refer md5 . 
+? 
+family message digest function develop ralph 
+merkle . 
+function , newest family . 
+definition appear merkle 's paper . 
+code available 
+. 

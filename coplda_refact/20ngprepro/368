@@ -1,0 +1,560 @@
+: steve kotsopoulos 
+subject : x intel-based unix frequently ask question faq 
+summary : x option intel-based unix , , linux , mach 
+: .4 bw 
+expire : sat , 1 may 1993 gmt 
+: 
+organization : university toronto , engineering computing facility 
+lines : 530 
+: 
+: 30 mar 1993 
+note : major re-organization replacement 
+`` frequently ask question '' faq list . 
+article include answer : 
+option x software intel-based unix system ? 
+1 . 
+free option 
+2 . 
+commercial option 
+ii xfree86 get ? 
+3 . 
+xfree86 ? 
+4 . 
+oss support ? 
+5 . 
+video hardware support ? 
+6 . 
+accelerate board ? 
+7 . 
+xfree86 support 16-color vga mode ? 
+8 . 
+hardware software requirement ? 
+9 . 
+get source xfree86 ? 
+10 . 
+get binary xfree86 ? 
+iv general thing know run xfree86 ? 
+11 . 
+installation directory 
+12 . 
+configuration file 
+13 . 
+determine vga dot clock monitor mode 
+14 . 
+server link kit 
+v thing know run xfree86 ? 
+15 . 
+svr4 
+16 . 
+
+17 . 
+
+18 . 
+linux 
+19 . 
+mach 
+vi thing know building xfree86 source ? 
+vii anything special build client xfree86 ? 
+20 . 
+bsd compatibility library 
+21 . 
+
+article include answer general x question , since 
+already cover x faq regularly post david b. lewis 
+< > . 
+anything add change faq let know . 
+especially problem someone else able help 
+send change please put ` faq ' somewhere 
+subject line mail filter put correct 
+mail folder . 
+please ask question answer faq . 
+
+time respond individually . 
+instead , post question 
+net , send question answer together get . 
+frequently ask question x intel-based unix answer 
+
+option x software intel-based unix system ? 
+1 . 
+free option 
+best option xfree86 , enhance version 1.2 . 
+version slower performance , 
+difficult compile . 
+information obtain xfree86 
+list . 
+port x11 server system 
+thomas roell . 
+support wide variety svga board . 
+2 major free version : 1.1 base , 
+1.2 include mit 's distribution ie . 
+
+need patch mit source . 
+1.3 current commercial offering sgc see . 
+2 . 
+commercial option 
+1 metro link 
+2213 w. mcnab road 
+pompano beach , fl 
+
+fax : 
+email : 
+summary : os : qnx , , svr4 . 
+012 , sco , unixware , , 
+, , isc , solaris , pyramid , suno 
+hw : ega , vga , svga , tiga , targa , , mach , 
+s3 , wd , , matrox , graphics , 
+: motif , , xie imaging extension , 
+xv video extension , audio drivers , multi media 
+2 sgc graphics consulting services 
+894 lane 
+cupertino , ca 
+, 
+fax : 
+email : ... ! 
+
+summary : os : .2 , svr4 
+hw : ultra , s3 diamond stealth , svga 
+: motif , server 
+3 corporation 
+1301 pat booker rd. . 
+universal city , tx 
+phone : 
+fax : 
+email : 
+summary : os : v4 .2 , ' version 
+unix system v release 4.2 
+hw : server support vga , svga 
+: , motif , client 
+4 santa cruz operation , inc. . 
+p.o. box 1900 
+santa cruz , california 
+, 800 sco unix , 
+fax : 
+email : 
+summary : os : odt 1.1 , odt 2.0 , sco unix 3.2 v4 
+hw : server support svga , , s3 , , 
+, , assorted local bus see sco hardware 
+guide actual card vendor . 
+: motif 
+5 answer software & consulting 
+p.o. box 
+columbus , ohio 
+
+email : 
+summary : os : coherent greater 
+hw : work vesa compliant video 
+note : commercial vendor include os vendor describe 
+bundle software welcome submit summary information 
+summary information . 
+ii xfree86 get ? 
+3 . 
+xfree86 ? 
+xfree86 enhance version 1.2 , distribute 
+. 
+release consist many bug fix , speed improvement , 
+enhancement . 
+highlight enhancement : 
+1 speedup package glenn lai integral part xfree86 , 
+selectable run-time via file . 
+speedup require 
+base svga , require virtual screen width 
+1024 . 
+suitable configuration select 
+default . 
+high-quality board vram , yield 
+40 % improvement benchmark 1.2 . 
+2 package jim include default 
+operate mode speedup select . 
+mode 
+equivalent performance 1.1 b , approximately 
+20 % faster 1.2 . 
+3 support , compile-time selectable server , client , 
+. 
+support .2 svr4 . 
+svr4 
+` advanced compatibility package ' , local connection 
+sco client support . 
+4 driver ati trident svga chipset . 
+refer file detail 
+ati trident driver . 
+5 support compress bitmap font add thomas eberhardt 's 
+code directory . 
+6 font code mit tape include , 
+compile-time selectable . 
+contribute font 
+directory . 
+7 new configuration method allow server 's driver font 
+renderer reconfigure source binary 
+distribution . 
+8 integrated support , mach , linux . 
+9 monochrome version server run generic vga 
+card include . 
+follow key feature add release xfree86 1.2 
+xfree86 1.1 : 
+1 monochrome server enhance 
+available svga memory allow virtual screen 
+see 1 manual page information . 
+2 support hercules mono card add 
+monochrome server , ability support `` two 
+head '' server - one vga , one hercules . 
+far 
+test svr4 also report work linux . 
+3 share library , test isc 2.2 . 
+4 support svr4 .2 special consideration 
+consider , due new usl bug ; see 4 file 
+information . 
+5 support mouse , logitech 
+version device previously compatible . 
+6 new tutorial develop correct video card monitor 
+time datum , write eric raymond derive previous 
+documentation lot experimentation . 
+7 greatly improve support international keyboard , include 
+implementation compose key functionality find many 
+vendor server see 1 manual page 
+information . 
+8 accuracy server detect svga pixel clock 
+improve , timing store accuracy 
+0.1 mhz . 
+user may want consider remove exist clock 
+line file use new server . 
+9 many enhancement error handling parsing 
+configuration file . 
+error message much informative 
+intuitive , validation . 
+many new 
+option enable file see 1 
+manual page information format file . 
+plus number small thing . 
+refer file 
+source distribution full detail . 
+also include tutorial monitor timing eric raymond , 
+current mode database sample configuration david . 
+4 . 
+oss support ? 
+xfree86 support : 
+svr4 .2 : v4 .2 
+svr4 .0 : , dell , , isc , at&t , mst , , uhc 
+: isc 2.2 & 3.0 , at&t 2.2 
+linux , mach 386 , 0.1 
+support , work . 
+active 
+person greg < > . 
+note 3.2 d sco support yet , 
+anyone feel free submit patch . 
+interested tackle , send mail 
+
+5 . 
+video hardware support ? 
+time , xfree86 1.2 support follow svga chipset : 
+tseng 
+tseng 
+paradise 
+western digital , , superset 
+, use driver 
+genoa 
+trident , 
+ati , 
+support 256 color monochrome mode , 
+exception ati chipset , support 
+256 color mode . 
+monochrome server also support generic vga card , use 64k 
+video memory single bank , hercules card . 
+
+, 64k video memory support monochrome 
+server , test 64k . 
+appear svga card manufacturer go 
+non-traditional mechanism select frequency . 
+
+avoid modify server accommodate scheme xfree86 
+1.2 add support use external program select pixel 
+clock . 
+allow program write new mechanism 
+discover . 
+refer file information 
+program work , need write one . 
+develop 
+program , xfree86 team would interested include 
+future xfree86 release . 
+purchase new hardware purpose use xfree86 , 
+suggest purchase board 
+orchid ii . 
+avoid recent diamond board ; xfree86 
+work , diamond provide programming detail . 
+fact , xfree86 project actively support new diamond 
+product , long policy remain effect . 
+contribution 
+code accept potential liability . 
+would like see change , tell diamond . 
+people ask xfree86 would work local bus eisa 
+video card . 
+theoretically , means communication 
+cpu video card irrelevant xfree86 compatibility . 
+
+could isa , eisa , local bus . 
+matter chipset 
+video card . 
+unfortunately , developer lot 
+access eisa vlb machine , largely untested 
+theory . 
+however , yet see report thing 
+work one bus several report xfree86 
+work fine . 
+6 . 
+accelerate board ? 
+time , support xfree86 accelerate board 
+like s3 , ati ultra , tiga , etc. . 
+support available 
+commercial product sgc metrolink svr4 . 
+s3 server available linux . 
+contact 
+< > < > linux . 
+beta server available linux . 
+contact < > 
+< > . 
+note : server part xfree86 . 
+7 . 
+xfree86 support 16-color vga mode ? 
+reason support way vga implement 
+16-color mode . 
+256-color mode , byte frame buffer memory 
+contain 1 pixel . 
+16-color mode implement bit - 
+plane . 
+byte frame - buffer memory contain 1 bit 
+8 pixel , four plane . 
+mit frame - 
+buffer code design deal . 
+vga handle 
+16-color mode packing 2 4-bit pixel byte , mit code 
+could modify support already may ; sure . 
+vga way thing , complete new 
+implementation require . 
+beta tester look , 
+nothing yet available project . 
+8 . 
+hardware software requirement ? 
+obviously , support svga board os require . 
+run 
+x efficiently , memory consider minimum . 
+various binary release take disk space , depend 
+os e.g. whether support shared library . 
+build source , least free disk space 
+require , although consider comfortable 
+lower bind . 
+9 . 
+get source xfree86 ? 
+source patch current version 1.2 , base 
+mit , available via anonymous ftp : 
+
+xfree86 
+
+rest faq , 3 location call $ ftp 
+refer readme file specify directory information 
+file need get build distribution . 
+10 . 
+get binary xfree86 ? 
+binary available via anonymous ftp : 
+- svr4 binary 
+
+- svr4 binary 
+
+- svr4 binary 
+
+- svr4 binary 
+
+- isc binary 
+
+. 
+de - isc binary 
+xfree86 
+. 
+- linux binary 
+x11 
+- binary 
+.1 - 
+- mach binary 
+i386 
+ensure get xfree86 1.2 - site may 
+archive older release well . 
+binary distribution 
+contain readme file describe file need take 
+archive , compile-time option selection 
+make build distribution . 
+iv general thing know run xfree86 ? 
+11 . 
+installation directory 
+top-level installation directory specify 
+, default variable . 
+def . 
+binary , include 
+file , library install $ bin , include , lib . 
+change rebuild source , modify 
+via symbolic link oss support . 
+directory 
+nonstandard , choose way allow xfree86 install 
+alongside x implementation . 
+12 . 
+configuration file 
+xfree86 server read configuration file `` '' startup . 
+search path , contents syntax file document 
+server , consult ask question . 
+13 . 
+determine vga dot clock monitor mode 
+david e maintain database know 
+clock setting vga card monitor setting . 
+database install . 
+txt , 
+source tree . 
+database 
+also available latest copy , keep 
+~ . 
+, update 
+occasionally . 
+obtain copy database . 
+might 
+setting need . 
+create new setting , please send 
+david inclusion database . 
+help , eric raymond file 
+xfree86 contain tutorial come timing . 
+may helpful start setting almost work , use 
+description get right . 
+, send information 
+david inclusion database . 
+note : old ` ' program support , 
+completely unnecessary . 
+need determine dot 
+clock value new board , remove ` clocks ' line 
+file present , start server . 
+
+server probe clock print . 
+use value put ` clocks ' line 
+file , necessary , speed 
+start server future . 
+14 . 
+server link kit 
+install server binary link kit , possible 
+reconfigure driver font renderer server . 
+
+fully explain readme file available link kit . 
+v thing know run xfree86 ? 
+first , server must install mode . 
+15 . 
+svr4 
+run properly ? 
+kernel build module , define 
+environment . 
+otherwise run . 
+csh user use ` ' 
+console driver patch know cause 
+problem xfree86 . 
+recommend patch 
+install . 
+alternatively fix . 
+16 . 
+
+make sure look $ . 
+isc , run . 
+17 . 
+
+make sure look $ .386 bsd . 
+also , separate faq maintain richard murphey 
+< > . 
+latest version available 
+file .2 follow ftp site : 
+: .1 - -1.2 
+: .1 - -1.2 
+. 
+fr : .1 - -1.2 
+18 . 
+linux 
+must run linux 0.97 greater , 4.1 gcc 
+jump library install . 
+make sure binary , , root . 
+kernel tcp support compile , 'll 
+run server `` x - pn '' . 
+default startup configuration assume 
+tcp available . 
+, change two file 
+, remove 
+- pn argument . 
+make sure either link major 
+number 4 , minor number 0 . 
+also note 
+user run x , permit 
+console output redirection . 
+properly change owner , 
+. 
+run , need provide 
+tty , example `` < & '' . 
+detailed information , please read file readme present 
+distribution . 
+. 
+19 . 
+mach 
+make sure look $ . 
+mach . 
+vi thing know building xfree86 source ? 
+section remove faq , since 
+fully explain $ readme . 
+please look file information building xfree86 . 
+vii anything special build client xfree86 ? 
+20 . 
+bsd compatibility library 
+lot client make use bsd function like , etc. . 
+default configuration file set link 
+contain emulation , , , ff , random , 
+seed . 
+better way provide ` b ' function include 
+< . 
+h > source file call . 
+provide macro 
+definition term ` mem ' function . 
+
+link vendor supply library call 
+function , link 
+21 . 
+
+something add allow developer get rid 
+define default without rewrite 
+entire line . 
+example , stock mit , would see 
+something like 
+'' - ansi - o2 - '' 
+get rid , developer would put 
+'' - o2 - '' 
+. 
+change , would see default 
+'' - '' 
+'' - o2 - '' 
+developer would put : 
+
+get rid many x client die horrible death 
+- . 
+effect even dramatic practice , 
+actually quite complex . 
+issue one must 
+add ` $ ' definition . 
+xfree86 contact information 
+ongoing development planning support coordinate xfree86 
+core team . 
+time core team consist : 
+original `` gang four '' : 
+david dawes < > 
+glenn lai < > 
+jim < > 
+david < > 
+support operating system : 
+robert baron < > mach 
+rich murphey < > 
+orest zborowski < > linux 
+e-mail send < > reach core team . 
+-------------------------------------------------- 
+thanks people already send correction addition , 
+especially david one major contributor update . 
+-- 
+steve kotsopoulos . 
+mail : 
+systems analyst bitnet : 
+engineering computing facility uucp : 
+university toronto phone : 

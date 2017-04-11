@@ -1,0 +1,22 @@
+: david young 
+subject : q : dialog shell 
+organization : mit media laboratory 
+lines : 17 
+use create 
+use color available 8-bit 
+display . 
+move cursor window get `` technicolor 
+effect '' - fine . 
+basically , program work . 
+: popup prompt user 
+input want set 
+. 
+result cursor 
+get , cursor 
+window get 
+default . 
+would like cursor _ _ 
+window application , get . 
+suggestion ? 
+thanks , 
+david , 

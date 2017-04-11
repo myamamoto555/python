@@ -1,0 +1,41 @@
+: kenneth sloan 
+subject : re : surface normal orientation 
+organization : ci , university alabama birmingham 
+lines : 42 
+article < > stephen write : 
+> ... 
+> go orient normal direction , give 
+> set point , edge face ? 
+look edge inconsistency . 
+consider two vertex , p q , 
+connect least one edge . 
+p , q edge , q , p appear . 
+p , q q , p appear edge , surface `` flip '' 
+travel across edge . 
+bad . 
+assume warning ... warn ... warn otherwise 
+acceptable surface - pick edge , edge , traverse 
+surface enforce consistency edge . 
+0 pick edge p , q , mark `` ok '' 
+1 face , f , contain edge 2 , oop 
+make sure edge f consistent i.e. , face 
+p , q , q , r , r , , , , , p . 
+flip 
+wrong . 
+mark edge f `` ok '' , 
+add queue check duplicate , especially 
+inconsistency - let queue p , q q , p . 
+2 remove edge queue , go 1 . 
+marked edge discover inconsistent , lose . 
+step 1 find one face share particular edge , 
+lose . 
+otherwise , , edge consistent . 
+means 
+surface normal either point . 
+decide 
+way leave exercise ... 
+-- 
+kenneth sloan computer information sciences 
+university alabama birmingham 
+campbell hall , uab station 
+fax birmingham , al 

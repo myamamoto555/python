@@ -1,0 +1,41 @@
+: mark morley 
+subject : vga mode 13h routine available 
+: 
+organization : camosun college , victoria b.c , canada 
+: tin 1.1 
+lines : 31 
+hus , 
+make vga mode 13h graphic library available via ftp . 
+originally 
+write routine kind exercise , perhaps someone 
+find useful . 
+certainly useable , 
+miss higher-level functionality . 
+intend 
+intro mode 13h programming , start point . 
+library assume 386 processor , trivial modify 
+286 . 
+enough people ask , 'll make mod 
+different version . 
+routine write assembly callable c. 
+fairly simple , find fast purpose , 
+anyway . 
+routine include enter exit mode 13h , define 
+`` virtual screen '' , put get pixel , put rectangular image 
+transparent spot , put sprite image area , copy 
+area virtual screen video memory , etc. . 
+also include 
+simple c routine draw line , well c routine load 256 
+color gif image buffer . 
+also write quick 'n' dirty tm demo program 
+bounce bunch sprite around behind three `` window '' . 
+whole package available . 
+zip 
+zip pkzip 2.04 g 
+completely public domain , far concerned . 
+
+whatever like . 
+however , would nice get credit due , 
+maybe e-mail tell like like bother 
+mark 
+

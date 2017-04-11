@@ -1,0 +1,35 @@
+: robert ross 
+subject : geometry change 
+summary : try detect geometry change window manager 
+keyword : geometry , mwm 
+: 
+organization : loral instrumentation 
+distribution : usa 
+lines : 35 
+hus , 
+try get program monitor event , 
+program exit , save last known geometry 
+sort ` preference ' file . 
+add event handler : 
+, , false , , ; 
+work fine , callback call whenever window resize 
+reposition use window manager mwm . 
+however , resize window , use resize handle 
+window manager resize decoration , x y set zero 
+pass event handler callback . 
+access 
+structure , like x11 manual say . 
+- > , - > . 
+width height memeber correct . 
+reposition window , use window manager , 's 
+structure contain correct x , y , width , height member setting . 
+q1 : anybody know , resize , x y set zero ? 
+q2 : way handle detect save geometry change ? 
+try use widget exit 
+application destroy widget get garbage value 
+x , y , width , height resource . 
+thanks 
+-- 
+bob ross | `` mr. plow , name . 
+name 
+loral instrumentation , san diego , ca | mr. plow '' - homer simpson 

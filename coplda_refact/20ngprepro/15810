@@ -1,0 +1,330 @@
+: ito takayuki 
+subject : re : . 
+bmp format mean ? 
+organization : department infomation science , faculty science , university 
+tokyo , japan 
+lines : 508 
+: message tue , 27 apr 1993 14 : gmt 
+: . 
+
+article < > 
+andrew l. roberts write : 
+> exactly window bitmap format look like ? 
+mean , 
+> datum store : width , height , . 
+color , bitmap datum ? 
+could 
+> find anything th user manual , reference material 
+> would give information ? 
+: thomas kinsman 
+newsgroup : . 
+, 
+subject : creation guide , request . 
+keywords : dib bmp bitmap file format 
+: < > 
+date : 23 dec 92 gmt 
+sender : 
+organization : electronics , rochester , ny 
+lines : 484 
+: . 
+
+guide creation dib image 
+thomas b. kinsman 
+precambrian electronics 
+29 falstaff rd. . 
+rochester , ny 
+
+copyright march 15 , 1991 
+abstract 
+format image create use m windows 3.0 3.1 
+application document m windows programmer 's 
+reference guide . 
+guide intend 
+wording specification , put forth 
+recommendation among various alternative . 
+please send revision 
+. 
+please thank write time 
+keep name document . 
+thank 
+respect . 
+document copyright , 1991 , thomas b. kinsman . 
+desire , postscript version document 
+available . 
+information free . 
+get pay . 
+sue wrong . 
+overview 
+dib image file format intend `` device independent bitmap '' 
+file format . 
+microsoft mean `` device independent '' unclear 
+. 
+four pixel resolution support : 1 bit , 4 bit , 8 bit , 24 bit 
+pixel . 
+image intend use dos ibm , little-endian system . 
+create another architecture byte - 
+swap short long integer value . 
+convention , dib image end extension '' . 
+bmp '' . 
+
+march 15 , 1991 
+- 2 - 
+earlier `` bitmap image file '' . 
+consequently 
+sometimes hear dib file refer `` bmp '' file . 
+since dib image file , three `` flavor '' dib 
+image : 
+o dos dib image . 
+recommend convention , 
+form describe create . 
+intend 
+application run m windows 3.0 dos environment . 
+o dib image . 
+understanding flavor 
+dib image use presentation manager . 
+o old-style bitmap image . 
+march 15 , 1991 
+- 3 - 
+difference flavor 
+dos dib image consist : 
+1 . 
+`` '' file header identify file 
+dib file . 
+header also give total size image 
+file , offset image datum . 
+2 . 
+`` '' image header specify image 
+attribute . 
+3 . 
+optional palette color use image . 
+exist , 
+may contain 2 , 16 , 256 entry . 
+entry windows 
+structure . 
+4 . 
+image datum . 
+dib image consist : 
+1 . 
+`` '' file header identify file 
+dib file . 
+header also give total size 
+image file , offset image datum . 
+2 . 
+`` '' image header specify image 
+attribute . 
+3 . 
+optional palette color use image . 
+, 
+exist may contain 2 , 16 , 256 entry . 
+entry 
+windows structure . 
+4 . 
+image datum . 
+old style image bitmap consist : 
+1 . 
+either . 
+header 
+type determine first long integer value . 
+2 . 
+optional color palette . 
+palette may compose 
+either windows structure header 
+windows structure header 
+. 
+3 . 
+image datum . 
+create dib image file . 
+create dos dib image file consist several straight forward step . 
+header need create write file . 
+header 
+structure define m .0 `` '' include file . 
+palette information need store image 24-bit 
+image . 
+five general step : 
+1 . 
+fill 
+structure basic image information . 
+2 . 
+image 1-bit , 4-bit , 8-bit image , create 
+color palette . 
+3 . 
+calculate total file size put information 
+march 15 , 1991 
+- 4 - 
+`` '' field . 
+4 . 
+calculate offset image datum start 
+file , put `` '' field 
+. 
+5 . 
+write file , , 
+color palette , image datum order . 
+follow section describe structure term microsoft c type - 
+define keyword . 
+follow table describe keyword 
+familiar microsoft c. 
+_______________________________________ 
+| | 
+| keyword microsoft c. | 
+| ______________________________________ | 
+| | meaning | 
+| _________ | | 
+| byte | unsigned character | 
+| word | two byte unsigned integer | 
+| | four byte unsigned integer | 
+| _________ | | 
+march 15 , 1991 
+- 5 - 
+
+structure define `` '' : 
+struct 
+word ; 
+; 
+word ; 
+word ; 
+; 
+; 
+`` '' field two character ` b ' ' . 
+serve 
+identify file dib image file . 
+intel byte order 
+machine ibm compatible , constant form c 
+quantity ' 8 | ` b ' intel system . 
+`` '' field total size file . 
+purpose 
+field equal : size , plus size 
+, plus number entry color palette time 
+size , plus number byte image datum . 
+
+image datum write uncompressed form , value 
+calculate ahead time . 
+otherwise , field need fill 
+later . 
+`` '' `` '' field always set 
+zero . 
+`` '' field set offset start image datum 
+start file . 
+purpose , field set 
+: size , plus size 
+, plus number entry color palette time 
+size . 
+work image datum write 
+write color palette one exist . 
+march 15 , 1991 
+- 6 - 
+
+structure define `` '' : 
+struct 
+; 
+; 
+; 
+word biplane ; 
+word ; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+`` '' field set size structure 
+. 
+read image file , value use 
+determine image contain 
+. 
+`` '' field width image image pixel . 
+`` '' field height image image line . 
+`` biplanes '' field always set 1 . 
+datum write 
+one color plane . 
+`` '' field image . 
+must either 
+1 , 4 , 8 , 24 , depend image datum . 
+`` '' field tell image datum compress 
+compress . 
+dib image support two form run-length encoding . 
+however , never see image use , know yet 
+work . 
+set field zero long zero , , indicate 
+datum compress . 
+subsequent field structure may set 
+zero . 
+requirement software able 
+compute field necessary previous information . 
+field might want explicitly specify might `` '' . 
+4-bit 8-bit image field indicate 
+possible color entry use image contain `` '' 
+color . 
+use 32 color 8-bit image , may 
+want save 32 possible 256 palette entry . 
+generally , set 
+field zero . 
+march 15 , 1991 
+- 7 - 
+color palette 
+entry color palette structure . 
+
+structure define `` '' include file : 
+struct 
+byte ; 
+byte ; 
+byte ; 
+byte ; 
+; 
+`` '' field always zero . 
+color use , amount 
+blue , green , red fill structure structure 
+write file . 
+value zero `` '' , `` '' , 
+`` '' field indicate particular component 
+contribute color composition . 
+value 255 
+field indicate component contribute fully color 
+composition . 
+image data 
+three surprise order image datum dib image 
+file . 
+creator format determine creative , 
+certainly . 
+within image datum , line write pad next four 
+byte quantity . 
+, 8-bit image one pixel 
+wide , still write four byte every image line . 
+
+number byte per line calculate : 
++ 31 32 4 ; 
+-- , term field structure -- 
++ 31 32 4 ; 
+write image datum , must write bottom line first . 
+bottom line image would look screen 
+first line image datum file . 
+1-bit , 4-bit , 8-bit image , information write would 
+expect . 
+one bit image pad eight pixel byte . 
+four bit 
+image pad two pixel byte . 
+eight bit image write one 
+pixel per byte . 
+twenty-four bit image write three byte per pixel . 
+however , 24-bit image information must write 
+order blue , green , red . 
+image file format write datum 
+march 15 , 1991 
+- 8 - 
+`` rgb '' order , dib image file write datum `` bgr '' 
+order . 
+summary 
+provide enough information create dib image 
+application scanner image export routine . 
+
+find dib image , please pass information 
+modify document accordingly . 
+march 15 , 1991 
+-- 
+thomas b. kinsman , rochester , ny , 
+`` practice random kindness senseless act beauty . '' 
+- anon 
+-- 
+ito takayuki < > 
+senior , department infomation science , 
+faculty science , university tokyo , japan . 

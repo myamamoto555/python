@@ -1,0 +1,36 @@
+: kenneth robert ballou 
+subject : re : cpu temperature vs cpu activity ? 
+organization : oberon software , inc. . 
+lines : 28 
+: 
+article < > victor buttigieg write : 
+> lino montuno write : 
+may naive question basis 
+claim cpu get hotter computationally intensive 
+job run ? 
+> 
+> totally agree friend , since cpu apparently idle 
+> still fact churn away million instruction per second 
+> check keyboard input instance . 
+> 
+> exception cpu 's use laptop , cpu 
+> enter idle state preserve current status 
+> absolutely nothing . 
+case need hardware interrupt 
+> get go . 
+actually , family halt instruction cause cpu 
+cease processing instruction . 
+cpu resume processing either 
+reset receive external hardware interrupt . 
+different 
+power management facility victor mention . 
+course , whether 
+operate system 's idle loop use halt instruction another matter 
+entirely . 
+-- 
+kenneth r. ballou voice : 
+oberon software , inc. . 
+fax : 
+one memorial drive , cambridge , ma internet : 
+view opinion express necessarily 
+reflect employer . 

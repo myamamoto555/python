@@ -1,0 +1,52 @@
+: warren 
+subject : re : d , g , & h type amplifier 
+organization : university south florida , department computer science engineering 
+lines : 41 
+distribution : world 
+: 
+article < > , mark 
+write : 
+--------- > 
+hey , someone clue weird type amplifier ? 
+
+brief intro concept behind would cool . 
+clue 
+type , b , ab already stuff , one mention 
+occasionally dont know . 
+think type d like pwm scheme 
+something . 
+advance . 
+---------- > 
+whole point weird amplifier type improve efficiency . 
+class d amp pwm pulse width modulation amp work much like 
+switch power supplies . 
+think see thing call `` class '' 
+well . 
+capable high efficiency , would suitable 
+high power . 
+yet see anything like use audiophile 
+amp , though . 
+try design last year 
+use inverter ups , serious problem 
+layout parasitic 10 irf 450 's parallel ... help 
+isolate drive would appreciate 
+absolutely positive , beleive ` class g ' amp one 
+operate variable - switch power supply rail voltage . 
+carver 
+amp something like . 
+use sort circuit 
+fully understand operation reduce transformer size , 
+beleive patent . 
+m400 apart try fix find 
+three rail voltage switch . 
+run simulation 
+find topology would greatly reduce power dissipation heat 
+condition , drive reactive load draw high 
+current crossing . 
+think speaker ... . 
+. 
+| dr. diode 
+| | | ------ | > | ------ 
+`` great sound start | | | 
+source '' | | \ | 
+\ | 

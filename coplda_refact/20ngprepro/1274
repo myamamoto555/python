@@ -1,0 +1,39 @@
+: kevin karplus 
+subject : re : decouple cap - onboard 
+organization : university california , santa cruz 
+lines : 38 
+: kevin karplus 
+: 
+use on-chip capacitor reduce noise small 
+systolic array chip load clock line . 
+design cmo , use scalable design rule . 
+thought bypass capacitor : 
+1 help much simultaneous output switching -- 
+still large inductance bypass capacitor 
+load capacitor signal line ground 
+return , still get ground power line bounce . 
+2 help lot on-chip load , high load 
+clock line . 
+3 transient try suppress really high 
+frequency , forget large area 
+capacitor , since rc time constant large . 
+make , metal , poly , diff sandwich , 
+put lot hole poly layer , allow frequent 
+contact . 
+forget exactly wide poly 
+line . 
+design , would probably 
+omit diff altogether , use solid poly sheet instead , 
+use m2 , m1 , poly substrate , high 
+resistance ignore speed . 
+4 probably better try tune circuit run 
+slightly slower edge lower voltage swing especially 
+output signalling , spend chip area capacitor . 
+spare space die since circuit big 
+tiny chip , next size twice big 
+need . 
+kevin karplus 
+-- 
+kevin karplus 
+due budgetary constraint light end tunnel 
+turn . 

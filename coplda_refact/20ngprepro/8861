@@ -1,0 +1,24 @@
+: m. 
+subject : re : use microsoft foundation class borland c + + 3.1 
+organization : technical university berlin , germany 
+lines : 17 
+distribution : usa 
+: . 
+de 
+: 1.0 
+: ; charset iso-8859-1 
+: 
+hus , 
+anybody try compile directory , 
+compile bwc ? 
+seem , bwc able distinguish pointer overload 
+function . 
+example , imagine follow 2 overload function : 
+void void 
+void int 
+try whole day , think , bwc impossible take 
+adress one two function assign properly define 
+function pointer . 
+right ? 
+anybody else problem ? 
+

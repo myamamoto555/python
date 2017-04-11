@@ -1,0 +1,944 @@
+: grubb 
+subject : mac & ibm 
+organization : new mexico state university , las cruces , nm 
+lines : 753 
+distribution : world 
+: 
+send follow . 
+sorry header 
+let one easily change header give 
+year try . 
+sheet also available ftp . 
+
+. 
+txt . 
+mac & ibm 
+reason general datum sheet consolidate condense 
+information , people camp clear accurate 
+say machine . 
+since computer technology 
+always change always go point sheet 
+lack incorrect information . 
+, please say sheet 
+incomplete incorrect also give clear concise information 
+make need correction . 
+price us dollar . 
+keep datum sheet organize please provide , possible , article 
+citation information provide correct keep opinion 
+minimum . 
+general datum sheet , keep info provide simple 
+understand talk explain . 
+finally , keep information relevant section correct example , 
+os code rom software contain hardware , ` 
+support os disk software ' datum hardware section , please . 
+thank . 
+note : proper reading line document 9 point monaco . 
+special thanks chihuahua charlie , 
+andrew , peter bell , 
+bill coleman , carl b , - 
+jon ephraim vishniac , 
+faisal jawdat , 
+gabriel sidler , julian harris , 
+
+matt healy , mark allerton , 
+john h. kim , mel 
+martinez , nan zou , , 
+wolfgang strobl , 
+
+jay c. beavers , lewis 
+bradley lamont , 
+`` cerro , joseph '' , mel park , 
+jeff , robert 
+, provide information make 
+list possible . 
+contents 
+cpus 
+hardware 
+monitor support 
+expansion 
+operate system 
+os number crunching 
+networking & printing 
+cpus 
+note : show motorola & intel cpus use mac 
+clone machine . 
+example , since apple never use motorola 
+mac chip list . 
+year appear dead cpus 
+indicate first last year use cpu . 
+cache note : ibm mac use cache external cpus . 
+external 
+cache increase speed cpu part . 
+
+present mac external cache built-in ibm 
+optional though machine generally sell install . 
+since 
+many different external cache ibm ; scsi , video , disk 
+static , different effect cpu performance , 
+machine static ram cache , , , seller 
+cache card install expansion cache card go 
+dependent , decide leave list . 
+note : alu industry 's de-facto standard cpu bit classification . 
+ibm alu register external cpu features 
+cpu bus address cache note 
+8088 6 16 16 8 16 20 none 198 ? 
+-9 
+80186 16 16 16 20 none 198 ? 
+-9 ? 
+segment 
+80286 16 16 16 24 none 80186 + protected mode 
+80386 32 32 32 32 none mmu & 32-bit protected mode 
+32 32 32 32 one 8k 80486 - fpu 
+80486 32 32 32 32 one 8k 80386 & fpu 
+32 32 32 32 one 8k double internal clock rate 
+. 
+mhz , mhz , mhz plan . 
+pentium 32 32 64 32 16k code , cisc chip 
+5 16k datum feature , superscalar , 
+p 5 386 , 64-bit 
+fpu path , pipelining ; speed : 
+: 64.5 ; : 
+56.9 
+: 386 chip 32-bit external architecture . 
+286 chip address 16mb maximum ram . 
+: low power 3.3 v built-in power management . 
+use mainly 
+laptop . 
+: ibm 5v 16k on-chip cache add john h. kim . 
+far 
+john h. kim know use ibm model . 
+: neither two chip name fpu . 
+cyrix : basically 
+socket 1k cache improve integer math speed . 
+ibm : 
+equivalent except 16k on-chip cache . 
+ex . 
+, chip run 50 mhz rest machine run 25 mhz . 
+pc week ; pc mag `` latest line cisc chip '' 
+pc mag sample release march 22 , 1993 , machine 
+announce least may 1993 pc week . 
+$ 1000 cpu ; system 
+$ 5000 pc mag . 
+mac alu register external cpu features 
+cpu bus address cache note 
+68000 16 32 16 24 none 1984-1993 16mb limit 
+68020 32 32 32 32 256 code 1987-1992 parallel processing 
+68030 32 32 32 32 two 256 68020 + mmu , 16k burst mode 
+32 32 32 32 two 4k 68040 - fpu 
+68040 32 32 32 32 two 4k mmu , fpu , pipelining , double 
+internal clock rate 
+development discontinue favor 
+32 32 32 32 branch 68040 + better fpu , 
+target pipelining , cache 
+line burst , equivalent 
+capability & speed 
+pentium # 
+include datum instruction code cache . 
+68030 , , & 68040 
+built-in cache . 
+68000 mac design create 4mb limit . 
+040 2 clock , internal processor clock 2x freq 
+external bus clock one use rate chip 
+bradley lamont ; motorola 68040 datum book . 
+compiler produce program 
+sensitive act 68040 clock doubler 
+chip , compiler program dependent . 
+maybe write 
+allow program take advantage 68040 's 
+future . 
+, study one byte article show 
+~ roughly ~ dependent machine , os , 
+program test representative general performance . 
+claim pc week ; . 
+powerpc ibm mac machine list 
+separately eliminate redundancy . 
+motorola cpu risc chip . 
+powerpc alu register external cpu features 
+cpu bus address cache note 
+32 32 32 int 64 32k speed : : 50 ; 
+601 32 fp combine : 80 
+
+: low power desktop & portable system . 
+end 1993 . 
+603 
+: high performance high end machine . 
+1st q 1994 . 
+604 
+64 64 32 int 64 32k mid 1994 . 
+620 32 fp combine 
+
+pc week ; pc mag . 
+select vender send sample 
+chip motorola pc week , nubus board 
+contain early sample powerpc 601 give apple 's `` a-list '' 
+developer pc week ; macweek . 
+- $ 280 ; 
+- $ 374 pc week . 
+systems : ~ $ 3500 ~ $ 2000 version 
+mid 1994 pc week . 
+cpus comparison list 
+general rule thumb motorola chip faster intel chip 
+frequency ~ ; ~ , intel chip 
+higher frequency motorola , even . 
+macintosh bible 4th 
+ed . 
+support comparison intel motorola chip 68020 
+. 
+< 80186 ~ 68000 16-bit vs chip datum 
+& address register . 
+4mb limit 68000 mac bring 
+80186 lower chip , otherwise would compare 80286 . 
+286 ~ 68020 hardware segment vs. 68020 's 32-bit alu chip 
+come usable built-in mmu unlike successor 80386 , 68030 . 
+
+hardware segment 's protect mode use 1.0 > windows 3 . 
+x. 
+use hardware segment 16-bit nature put 286 
+60000 68030 feature lc 's 16-bit datum path strenghthen 
+286 ~ 68020 comparison . 
+386 ~ 68030 two 32-bit chip mmus , protect memory . 
+3.0 
+present mac os use 68030 's protected memory feature 
+app . 
+system 7 . 
+x use feature protect ram disk create 
+memory control panel support powerbooks quadras . 
+color classic 16-bit hardware datum path make 68030 
+comparative . 
+~ 486 68040 without fpu ; use low cost 
+solution people need fpu . 
+program sensitive 
+& pipelining behave like - fpu ' ' . 
+486 ~ 68040 two 32-bit microprocessor built-in fpu , mmu , 8k 
+internal cache implement two 4k cache 68040 one 
+486 . 
+program sensitive & pipelining 68040 
+behave like . 
+pentium ~ plan superscalar heat 
+problem . 
+chip may flounder cheaper pc week ; 
+; pc mag , earlier release pc week ; macweek 
+; pc week , less leat produce 160 degree f pentium 
+pc mag , partly port powerpc chip . 
+powerpc powerpc cpu line plan run program dos , 
+windows 3 . 
+x , mac os top 4.0 unix later 
+pink taligent os use emulator , necessary , os 
+` shell ' a.k. dos . 
+hardware 
+effort remove ` reconfigure system almost every time 
+add something ' requirement add-in card , driver , video , operating 
+system ibm world , intel , microsoft 12 hardware software 
+developer work ` plug play ' standard pc week . 
+color 
+mac : 30.24 mhz pixel clock standard . 
+present macs support use 
+32-bit color 32-bit color quickdraw rom . 
+32-bit color quickdraw 
+allow almost transparent capability display edit image y - 
+bit color retain color color x y 
+independently 1 , 2 , 4 , 8 , 16 , 32 regardless monitor resolution 63 
+12 '' color 94 monitor type include 
+vga , svga monitor range include 66.7 hz 
+vertically 35 khz horizontally hardware video adaptor macuser 
+aug 1992 : . 
+older machine support color , ii , iix , 
+8-bit color rom need software patch use 32-bit 
+color macuser special -29 . 
+keep cost speed mac 8 16 bit display 
+capability built-in , expand display 24-bit 
+color . 
+presently quickdraw optimize 72 display ; quickdraw qx 
+change . 
+addition , quickdraw allow , mac nubus slot , one 
+monitor use combination , two monitor show 
+thing multiple monitor act one large large monitor degree 
+overlap picture . 
+vram : video ram . 
+standard present mac 's handling 
+built-in video 32-bit color palette . 
+vram provide run 8-bit 
+color 640x480 display ; expandable 16-bit color 8-bit display . 
+sound output : standard mac since 128k . 
+stereo sound become 
+standard . 
+ibm : even though pc rom bio definition operating system 
+interact video hardware nan zou , use driver bypass 
+bio , video see super vga 
+clone bio leave resolution video display hardware , os program 
+interaction os video hardware question faisal 
+jawdat . 
+addition , ibm clone maker never bother provide 
+standard hardware mechanism software determine display mode 
+actually present matt healy standardized toolbox like 
+mac 's qd . 
+result os must well write detect mode , 
+especially third party card use present 
+thing dependent interaction program , os , print driver 
+monitor card editing 32-bit picture regardless color mode , os , 
+monitor combination one mac impossible 
+ibm . 
+example , one edit 32-bit color picture 
+486 svga monitor 386 vga 18-bit color palette dos 5.0 
+still color one start . 
+later ibm machine integrate graphic accelerator , faster 
+processor , modular may built-in sound card , cd 
+rom , ethernet pc week . 
+mda : display adapter 
+original video mode , graphic , text . 
+cga : color graphics array 
+4 color , 16 color palette , bad eye . 
+ega : enhance graphics array 
+16 color 64 color palette lower re ; version 
+could run 256 color , bearable eye . 
+vga : video graphics array 
+256 color , 640x480 16 color , , two 
+commonly use . 
+mode 256k clut , 
+18 24-bit ibm 32-bit mac color palette . 
+mhz pixel clock 
+mel martinez . 
+monitor use analog input , incompatible ttl signal 
+etc. . 
+: multi-color graphics array 
+subset vga provide feature mda & cga , lack ega 
+vga mode , like vga dictionary computer . 
+common initial implementation ibm model . 
+svga : super vga 
+standard way , instead ` catch 
+' category group video card . 
+, manufacturer 
+use implementation scheme , svga chaos people debate 
+svga . 
+effort make svga 
+standard vesa establish use newer unit , thing 
+still mess . 
+video either 512k ~ 1990 1m today , resolution 
+800x600 1024x768 16 256 color common , newer one since 
+1990 sierra , give 32,768 color 800x600 , 
+newer one ~ 24 bit per pixel usually 
+640x480 . 
+, much variation , slow western digital 
+paradise base , example , fast s3 base , example , 
+so-so like tseng , popular chipset . 
+limit 
+factor overcome vl bus & 386 's linear address mapping : 
+8.33 mhz isa bus , architecture cpu look card 
+64k `` window '' , etc. . 
+standard : 
+: 
+ibm 's standard , interlace graphic accelerator graphic function 
+like , polygon fill , etc. hardware . 
+clone implementation 
+ati fastest video available today , though clone model 
+interlace . 
+: high end graphic co-processor , usually > $ 1000 , 
+24-bit , speed graphic like cad . 
+xga : extended graphics array 
+newer faster , available mca , clone 
+come soon . 
+emulate vga , ega , cga dct . 
+max resolution 
+, , also 16 bpp mode . 
+
+accelerate graphic function 20 time faster standard vga 
+windows , include line draw , bit transfer , area 
+fill , mask address . 
+intelligent way detect co - 
+exist card , multiple desktop like mac may 
+far away . 
+since architecture , resolution color depth 
+fix ibm implement 16-bit 65,536 color , 
+company 24-bit color ibm technical . 
+refresh 
+rate 75 hz , ensure flicker free , rock solid image reduce visual 
+discomfort , vga compatible . 
+. 
+monitor type usable mac section specific detail . 
+expansion 
+mac & ibm 
+scsi : external device expansion interface common mac ibm . 
+allow use device : hard drive , printer , scanner , nubus card 
+expansion mac plus , monitor , cd-rom . 
+main problem : lot external device internal 
+terminate cause problem two devise scsi port 
+chain suppose terminate begining 
+end . 
+set cause problem either mac ibm . 
+: 7 device per controller . 
+8-bit asynchronous ~ 1.5 ave 
+synchronous max transfer . 
+difference due software 
+driver . 
+`` fast '' 8-bit mode 
+see detail . 
+: 10 device per controller mode . 
+fully 
+compliant 8-bit tend implement fast 
+since require different controller interface 
+hardware software 16 32-bit . 
+transfer speed 
+burst 8-bit , burst 16-bit , 
+burst fast . 
+since 8-bit 
+use software driver hardware 8-bit speed 
+limit 7 device sometimes mistakenly call `` fast '' . 
+16-bit fast require software driver electronics 
+still use port . 
+wide 16-bit 32-bit require 
+different scsi port , electronics , software driver 
+make expensive scsi interface . 
+mac scsi : asynchronous built-in standard since plus . 
+even though 
+apple develop specification , os scsi manager 
+need rewrite take full advantage feature 
+interface . 
+result present mac use 8-bit fast 
+asynchronous . 
+presently quadras mac 
+controller chip built-in digital review , oct 21 , 1991 v8 p8 1 
+though lack part hardware , like wide port 
+interface . 
+since mac require nubus card use , older nubus 
+mac bottleneck due speed nubus cpu . 
+
+cyclone mac june come wide & fast port standard 
+rewrite os scsi manager . 
+ibm scsi : wide spread yet , generally bundle 
+system , except add-on eisa vesa local bus adapter . 
+like mac , 8-bit use fast controller 
+. 
+unlike mac , ibm exact controller specification 
+result add incompatibility scsi . 
+mac 
+memory expansion : exception mac use 30-pin 
+8-bit simm memory expansion since plus . 
+parity simm 
+could use mac , special could make use parity 
+feature simm type call simm . 
+
+use parity simm . 
+lc iii , use new 
+simm 32-bit time use ibm . 
+mac complete memory check startup every 
+memory location ; something seriously wrong simm mac 
+boot give sound chord indicate problem . 
+since mac make feb 15 , 1993 manage memory bace datum path , simm 
+install pair 16-bit set 4 32-bit . 
+centris 
+650 quadra 800 eliminate new memory management setup 
+allow memory upgrade one simm time . 
+simm 
+size use memory ` interleave ' across two simm result 
+10-15 % performance boost ram access macworld apr 93 : . 
+printer , adb , modem : built-in interface standard . 
+monitor interface sound input : built-in present mac . 
+pd : available se & present mac . 
+16-bit se , 
+portable , lc , lc ii , classic line 32-bit . 
+operate cpu 's mhz . 
+maximum put : datum path byte cpu 's mhz & : 
+4 ; & : 4 . 
+standardized 
+lc 040 bus design . 
+adapter one nubus card use 
+. 
+problem : card timing dependency slow 
+put . 
+nubus mac ii : 32-bit , 10 mhz bus clock , 1-to-1 cycle ratio , 
+contiguous , transaction ~ ; theoretical peak : 
+. 
+built-in modular mac except lc series , , 
+performa 400 . 
+could adapt use even 
+mac plus scsi nubus . 
+support every possible expansion cpu ethernet 
+dma . 
+nubus 90 : nubus mac ii back . 
+bus clock , avg throughput : 
+~ ; burst mode : . 
+future card design 7 '' instead 
+old 12 '' . 
+: peer-to-peer bus use parallel nubus 90 . 
+apple 's 
+- `` architecture identical '' byte . 
+burst mode : byte . 
+development . 
+cpu expansion : handle either pd nubus . 
+unlike pd , 
+nubus cpu card rocket allow use multiple processor 
+time . 
+like two mac box able 
+dual task process depend card software involve 
+nubus card need memory nubus card type come 
+8mb ram simm card standard . 
+ibm 
+memory expansion : parity simm , simm newer model mac - 
+like simm memory check , dozen different type memory board . 
+hd interface limit hard drive design lack development : 
+mfm : modify frequency modulation , rll : run length limited 
+ide : integrated device electronics 
+asynchronous ~ max synchronous 8.3 max transfer . 
+currently common standard , mainly use medium size 
+drive . 
+one hard drive . 
+esdi : enhance small device interface 
+~ 1.25 throughput . 
+generally consider better interface 
+many way common enough practical consideration . 
+outside 
+hard drive , device choice limited compare . 
+bus interface 
+new ` plug play ' isa eisa card may problem work 
+old card infoworld ; pc week ; vaporware . 
+isa 
+8 & 16-bit interface common . 
+24-bit datum path limit produce 
+16mb limit software workaround pc mag . 
+1.5 byte . 
+use interrupt , share , 
+hence come irq conflict . 
+limited capability , card 
+bandwidth limit com port , lpt port , game port , midi card , etc. . 
+video disk controller . 
+dominant factor , 
+show age . 
+isa motherboard design 16-bit 
+pc world feb 1993 : . 
+mca micro channel 
+ibm 's 16 32-bit bus ; `` allow use one cpu computer '' 
+dct anything talk anything , fast two component 
+involve handle . 
+never take incompatible isa 
+eisa . 
+planned bus interface ibm powerpc 601 carl . 
+eisa nubus mac ii closest mac equivalent 
+32-bit , 8.33 mhz , burst mode : . 
+also ability 
+card like mca allow multiple bus master , 
+interrupt dma channel multiple cpu use . 
+vesa local bus : vlb sometimes mistakenly referee pd 
+local bus standard . 
+run cpu clock rate , burst mode : ~ 130 32-bit 
+250 64-bit byte . 
+limited three slot allow bus 
+master coexist either isa eisa . 
+ideal 
+video disk . 
+dell fill claim violate one 
+patent mel martinez . 
+: apple 's faster 350 burst version vlb architecture 
+byte . 
+might show ibm powerpc machine 
+byte . 
+development . 
+pcus 
+intel 's version local bus intend totally replace 
+. 
+development . 
+os assume full installation print driver , font , , etc. . 
+multiple application use . 
+mac 
+512k 1mb os hardware command put rom . 
+allow 
+apple control machine put key hook mac os quickdraw , 
+menu command , print , mouse , scsi & sound driver , etc rom , require 
+clone maker use rom chip read rom disk require 
+access proper mac since different mac slightly different rom 
+chip ; plus vs classic example . 
+key hook os support 
+interface rom , worry much whether disk os 
+necessary hardware command command 
+therefore write smaller program . 
+also allow apple greater control 
+standard disk os smaller , 
+command code rom , lower ram requirement 
+totally disk base os . 
+mac use masked rom fast dram jon 
+. 
+: single program usage base requirement : 1 mb dd floppy , 
+base requirement : 2mb hd floppy . 
+feature gui , , standard program 
+interface , & standard stereo sound support snd . 
+network receive part 
+software bundle os . 
+8mb ram barrier 
+24-bit os . 
+third party product allow virtual memory long 
+real ram 8mb . 
+: print driver . 
+l : system 6 mac require system 7.0 . 
+x. 
+7.0 . 
+x : base requirement : 2mb , hard drive , 68000 ; de-facto standard 
+run feature well : 4mb , hard drive , 68030 lowest present 
+mac configuration . 
+use 10.08 mb everything 
+system disk hard disk space feature plus program link 
+within computer iac , built-in server capability filesharing 
+use older os use client software 
+access 10 mac max ; 4-5 speed practical , iac require 7 . 
+x , 
+virtual memory machine mmu 1.6 time real ram least noticeable 
+speed degradation , drag drop , quicktime & built-in truetype 
+support . 
+support sound input aiff snd format present 
+machine . 
+access 1gb true ram 4gb virtual memory 
+24 32-bit os . 
+use real ram beyond 8mb must 32-bit 
+mode older machine require ` mode 32 ' extension . 
+apple 's last 
+` free ' os . 
+: support , speedier , less ram usage 
+7.0 . 
+dot macweek ; ; pc week . 
+run 32-bit mode 
+older machine require ` mode 32 ' ' 32-bit enabler ' extension . 
+marks start apple sale mac os instead allow free upgrade 
+bundle new machine , $ 49 7.0 . 
+x upgrade , $ 99 otherwise . 
+installer bug upgrade may keep old system 
+font previous system inside system file . 
+eat 
+ram benefit cause problem . 
+apple recommend remove 
+font system file . 
+3.0 unix : need 8mb ram suggest , hard drive , 
+68030 68040 equivalent run . 
+32-bit preemptive multitasking os 
+large due unix need translator mac 
+rom . 
+price : $ 709 . 
+note : sound output support os 3.2 many format 
+include following : snd , wave , asnd , , , , soun , , 
+. 
+sound manager optimize sound standard ` snd ' 
+aiff cause playback problem old format , though 
+still play . 
+ibm 
+little gui code , datum , hook present hardware 
+programmer work , code must provide os . 
+since hard disk slow disk os code read ram . 
+addition , 
+little rom code also read ram process call shadow rom 
+result faster implementation since ram faster prom 
+eproms . 
+os code disk advantage able 
+better optimize code give certain piece collection hardware 
+harder rom base system due ` patch ' need . 
+addition 
+reduce need size patch major revision hardware 
+support need . 
+side note : ftc charge microsoft form os trust provide 
+feature documentation os developer outside m design 
+windows dos app fail `` undocumented windows '' 
+`` deliberate code windows nt beta cause install 
+abort boot manager present '' gregory hicks , digest 
+# 201 . 
+due conflict one member vote ftc 
+judicial council action microsoft tie result 
+action . 
+ftc matter , likely point 
+choose new member whole new council . 
+addition government 
+turn microsoft 's copyright `` windows '' would allow charge 
+fee developer use hook pc week . 
+microsoft oses 
+dos 5.0 : barrier memory manager , 1 mb barrier 
+third party memory manager . 
+16-bit os require program 
+must provide print driver 16-bit program need dos 
+protected mode interface dpmi compliant run 32-bit 
+protected mode break barrier . 
+contain gui shell present 
+dos 4.0 . 
+dos 6.0 : dos 5.0 add feature built-in file , disk 
+defragmenter , debugger config.sys file . 
+need $ 80 module 
+network cost : $ 50 , $ 129.99 
+byte april -46 . 
+dos 7.0 : 32-bit dos . 
+development pc week . 
+window 3.0 : run top dos . 
+break 1m barrier still 
+deal file structure . 
+base requirement : 1mb , floppy 286 ; 
+run well 2mb , hard drive , fast display adapter > 8-bit . 
+
+equivalent mac 's qd call windows gdi graphics device interface . 
+consistent application interface like early mac 
+program 1984-1985 large program base compare dos 
+still tend slow machine digest # 186 speed 
+dependent display adapter cpu bill coleman . 
+window program tend disk memory hog compare dos 
+counterpart byte april . 
+window 3.1 : faster version window 3.0 better memory managment . 
+base 
+requirement 1 mb , hard drive 286 ; run well 2mb , hard drive , . 
+apple plan release print driver pc week . 
+windows workgroups : run well : 4mb ram pc world . 
+intermediary win 3.1 windows nt . 
+basically windows 3.1 
+built-in peer peer network support . 
+windows nt : beta release take disk space include 
+swap file , ram betas notorious ram usage especially 
+interaction code program , hence 
+report requirement . 
+release version suppose need 8mb ram 
+, gates recommend 16mb ram pc week . 
+32-bit os protect mode multitasking , , symmetric 
+multiprocessing , recoverable file system , 32-bit gdi . 
+build 
+network osf dce compliant handle 4gb ram . 
+even 
+though people see july 4 release date infoworld nov , rumor 
+final version available oct 1993 
+infoworld may ; july ; vaporware ; 4th quarter 1993 
+pc week . 
+windows upgrade $ 295 , otherwise $ 495 
+pc week ; . 
+os 
+6.0 : ibm 's version dos 6.0 . 
+run windows much faster dos 
+6.0 due faster file video handling infoworld feb 1 , 93 . 
+dr 6.0 : dos 5.0 extra like built-in datum compression 
+memory management enhancement . 
+still barrier . 
+later 
+version novell dos may use version mac finder apple 
+file management system pc week ; infoworld dec . 
+2.0 : unix like feature unix like requirement ; ram , 
+use hard drive , cpu . 
+32-bit multithreaded , 
+multitask os address 4gb ram use fast swap file 
+use 16 mb ram isa system use dma direct memory access . 
+ibm plan use taligent 's oops future version 
+infoworld oct . 
+aix : ibm 's unix system , plan subset taligent os . 
+nextstep : gui unix provide next feature ibm machine . 
+beta , final 
+version may 25 , 1993 . 
+solaris os x86 : sunsoft port . 
+32-bit os symmetric 
+, built-in networking capability 
+tool allow remote configuring adminstration feature , 
+communication package . 
+client : $ 795 , 50 user server : $ 1,995 , 1000s user 
+server : $ 5,995 . 
+developer : $ 495 , hardware : $ 195 . 
+mac 7.1 work name : star trek : apple system 7.0 run intel 
+chips look make 7.1 version available ibm 
+computerworld nov ; macweek . 
+present plan run 
+top novell 's dr dos , require 486 equivalent run app 
+need recompile macweek . 
+view novell 's answer 
+windows nt . 
+complexity pc hardware set one reason slow 
+progress seem 's way lead powerpc line 
+late 1994 pink os late 1995 . 
+powerpc 
+build powerpc 601 late 1993 infoworld june 8 & 15 , 92 ; 
+macweek ; pc week . 
+microchannel bus xga 
+video carl b , run native version aix mac app pc week 
+; comment dos windows app . 
+apple 's powerpc 601 machine tesseract plan jan 24 , 1994 
+mhz , ram , floppy drive expect 
+sale near lc line price ~ $ 2000 , projection ~ $ 3000 macuser 
+
+macweek . 
+4.0 : 32-bit multitasking os plan run 
+powerpc mac macweek . 
+intel compatibility uncertain 
+see mac 7.1 . 
+planned base requirement : 68030 , 8mb ram , hard 
+drive macweek . 
+schedule ; could mid 1993 . 
+could os ibm 's powerpc 601 due late 1993 . 
+pink taligent os : expect delivery 1994 wall street journal 
+may part shipping aix 1993 mac os 
+powerpc macweek . 
+windows nt : possible port macweek . 
+see ibm os section detail . 
+solaris os : version sun microsystems inc unix os run 
+power pc 1994 macweek . 
+one os directly state 
+run program . 
+ibm os section detail 
+nextstep : possible port see ibm os section detail . 
+os number crunching mel park 
+mac 
+arithmetic consistent numerical environment sane standard 
+apple numerics environment . 
+float point number 96 bit long 
+fpu present 80 bit otherwise . 
+exception , divide zero 
+take square root negative number , cause abort 
+handle logically consistent manner . 
+produce internal 
+representation infinity inf . 
+1 produce zero . 
+treatment 
+1 occur machine even sane bypass 
+fpu program directly . 
+ibm 
+float point number hardware fpu , 64-bit 
+emulate . 
+way handle dependent coding whatever 
+compiler assembler use program . 
+older 
+exception could cause program abort ; 1 would abort dos 
+prompt point occur . 
+present compiler handle 
+better . 
+result : little consistent handling number dos , 
+windows program program one os . 
+networking include printing 
+wysiwyg printing problem either mac ibm machine especially 
+one send truetype font older style postscript printer . 
+mac 
+hardware : built-in localtalk network port built-in printer port . 
+localtalk moderate speed 230.4 require special connector 
+machine $ 15 run either printer port 
+include old mac network port standard today . 
+built-in 
+ethernet become common many older mac require pd nubus card 
+$ 150 - $ 300 machine . 
+card provide three connector 
+transceiver thick , thin , ethernet . 
+macintosh quadra family centris model include ethernet 
+interface motherboard , transceiver available . 
+
+network option since 1989 . 
+software : appletalk suite protocol standard mac os , 
+use variety media type . 
+client software include os 
+well connect file server novell netware , 3com 3 + open , 
+banyan vines , dec , apple 's server , system 7 file share 
+machine , afp server run variety unix host . 
+allow 
+typical communication telnet , ftp , nf , . 
+later version 
+unix transport interface built-in end 1993 
+macweek . 
+third-party software connect nfs server . 
+dec 
+provide decnet support . 
+peer-to-peer file share software 
+built-in system 7.1 see os section . 
+full server software extra . 
+printing require connection printer printer select 
+chooser . 
+change printer select different name 
+chooser . 
+true connect server . 
+printing bug : monaco truetype font different screen bitmap font . 
+quickdraw qx fix similar problem . 
+ibm 
+hardware : localtalk widely use , ethernet , . 
+software : novell netware , banyan vines , decnet , group , appletalk 
+protocol , subset appletalk . 
+network scheme , general , totally incompatible 
+. 
+choose one , pretty much locked-in 
+product line . 
+group little 
+forgiving remove problem . 
+novell netware biggest , 
+~ 80 percent corporate market . 
+general powerful 
+offer better , also 
+complex set manage . 
+change due use mac 
+finder file management system novell . 
+pc week & ; 
+infoworld dec ; macweek 
+printing os dependent 
+dos : single user , plug printer parallel port , 
+worry tweek may need poorly write 
+software . 
+network printing control system , mostly 
+implement actual program , therefore performance vary one 
+software program next . 
+windows 3 . 
+x : support standard driver good job show `` job '' 
+print queue , always list printer `` active '' ... even 
+. 
+become problem several incompatible printer 
+net , way software reliably determine 
+printer active right . 
+windows workgroups 
+intelligent . 
+: ; os deal printer , app make call os . 
+printing bug : due poor programe program os 
+wysiwyg printing . 
+fault program question 
+os involve . 
+price issue : dynamic mac provide feature 
+ibm ibm ` get need ' mac price war 
+world . 
+ibm machine ' nature prevent kind true hardware 
+, turn require os program complex 
+handle variation hardware . 
+one add standard mac 
+hardware feature ibm built-in sound support , scsi , pds , 
+built-in monitor support , built-in networking , standard mouse interface , 
+nubus 90 higher machine mac tend cheaper equivalent 
+ibm machine especially since ibm monitor use mac 
+cut mac 's cost macuser aug . 
+price use info sheet macuser april 1993 . 
+macs come pd slot , vram , build . 
+except 
+note , monitor extra built-in monitor interface provide card 
+need except 24-bit color display . 
+ibm plan $ 1,200 model hard drive color vga 
+monitor ~ vram macweek sound like color classic without , 
+sound support , built-in network support , fpu socket , built-in expansion 
+16-bit color , etc . 
+color classic : $ 1,389 - 16-bit datum bus ~ 
+equivalent , , fpu socket , built-in monitor . 
+: $ 1,499 - ~ equivalent , . 
+centris 610 : $ 2,899 - depend program ~ 
+~ ' ' 20 40 mhz equivalent , , built-in ethernet , cd-rom , 
+90 slot vram 16-bit color . 
+centris 650 : depend program ~ mhz 
+mhz equivalent pd 3 nubus 90 slot . 
+$ 3,189 ethernet , ; 
+$ 3,559 ethernet , ; $ 3,999 ethernet , , cd-rom , vram 16-bit 
+color 
+bibliography note 
+` vaporware ' available directory ftp - 
+murphy sewall last issue : april 93 . 
+` digest ' back issue available . 
+
+directory : 
+` dictionary computer term 3rd ed . ' 
+
+fact know may change 
+new development , announcement , correction . 
+correction 
+information welcome . 
+please email correction 
+compuserve id : 
+aol : 
+internet : 
+final note : since group 
+post closest relevent group . 
+advocacy , 
+2 . 
+advocacy , . 
+also since mac vs ibm 
+article show include 
+newsgroup post . 
+site . 
+faq reason 
+post , since faq follow 
+internet guideline , especially de-facto '' faq 
+hierarchy post newsgroup hierarchy '' standard . 
+`` eliminate impossible ever remain , matter improbable , 
+truth '' -- sir arthur conan doyle sherlock holmes 
+adventure beryl coronet , adventure blanched soldier , sign 
+four adventure plan . 
+`` computer friend '' -- rpg 

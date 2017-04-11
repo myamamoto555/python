@@ -1,0 +1,143 @@
+: t.c. zhao 
+subject : full color image editor sgi workstations 
+organization : university houston 
+lines : 159 
+distribution : world 
+: 
+happy announce first public release bit program , 
+interactive , full color image viewer editor base sgi gl . 
+besides typical task , crop , rotate , smooth , etc , 
+bit offer unique feature available similar program , 
+text vector support separation text image . 
+following relevant section man page . 
+----------------------------------------------------------------- 
+pre-release may , 1993 bit 1l 
+name 
+bit - bitmap image sgi workstations 
+description 
+bit interactive full color image viewer editor base 
+silicon graphics gl . 
+full color program , bit handle image 
+color index natural efficient manner . 
+image viewer , bit allow list image display 
+original type color index order 
+many built-in style display . 
+walk list use 
+mouse keyboard , let bit walk 
+slideshow . 
+pan zoom feature , large image view 
+full without limit window screen size . 
+image editor , bit perform large number image editing 
+process task accurately efficiently . 
+keep information loss 
+stage editing process absolute minimum perform 
+subpixel sampling automatically conserve input image type 
+whenever possible avoid unnecessary promotion quantization 
+input image . 
+also cut piece image paste 
+another . 
+addition , arbitrarily color size text simple 
+geometric figure render top image annotation 
+option make part bitmap output separately take 
+advantage higher printer resolution e.g. postscript . 
+bit also use graphical user interface many exist 
+image processing program define external binding essence 
+turn command line orient program bit 
+access press button , best , process image 
+read back display immediately . 
+convolution use exter - 
+nally define matrix arbitrary order perform dynamically 
+give great flexibility process image . 
+feature 
+bit perform image manipulation interactively 
+continuous progress report , processing complete , 
+process image display . 
+current feature include 
+o rotate image arbitrary angle option anti-aliasing 
+fill `` rotate '' region arbitrary color . 
+o scale image arbitrary factor x - 
+option subpixel sampling . 
+o render text arbitrary color , size orientation top 
+image option render directly raster saving 
+text raster separately , postscript file , 
+take advantage higher printer resolution . 
+besides normal text 
+string , many special symbol input conveniently 
+tex 1 , e.g. , $ \ alpha $ \ small $ \ beta $ produce greek alphabet alpha 
+follow slightly smaller greek alphabet beta . 
+o present graphically histogram image . 
+o perform arbitrary 1-to-1 pixel transformation . 
+transformation 
+function specify interactively arbitrary 
+form . 
+, transformation apply rgb channel 
+separately simultaneously entire image portion 
+. 
+many difficult task , thresholding , accomplish 
+rather easily 1-to-1 transformation combination - 
+lability graphical histogram image . 
+o places simple geometric figure sgf , e.g. , arrow , circle , trian - 
+gle etc. , arbitrary color , size orientation image 
+arbitrary location address either absolute pixel 
+user definable coordinate system unit , option render 
+directly raster save sgf raster separately e.g , 
+postscript file . 
+sgf scale x - 
+independently simultaneously get ellipse 
+circle . 
+o perform edge detection . 
+combination image histogram 1 - 
+to-1 transformation , accurate result obtain . 
+o perform histogram equalization . 
+o perform convolution externally define square matrix 
+arbitrary order . 
+o crop rectangular portion image . 
+o cut paste across image . 
+o magnify portion image amount . 
+o display list image sequence user pause 
+interval image . 
+slideshow 
+o measure rgb intensity pixel location pixel 
+along arbitrary line result present rgb intensity 
+intensity vs. distance plot . 
+o perform image type conversion . 
+o convert image format . 
+o smoothe image special convolution . 
+o filter image external program read filter image 
+back display . 
+o modify individual pixel 's rgb value . 
+o perform fft entire image portion display 
+result power spectrum . 
+o spray brush paint full color unavailable pre-release . 
+support format 
+o iris rgb , native sgi iris 
+o jpeg format 
+o gif 
+o pnm portable map , include ppm , pgm pbm . 
+o x window bitmap 
+o tiff 
+o postscript write 
+hardware requirement : 
+
+sgi workstation support , include indigo . 
+get : 
+
+anonymous ftp . 
+
+xxx version number . 
+current version 0.73 
+read installation instruction unpack 
+acknowledgement : 
+
+jpeg support base independent jpeg group 's library version 4 . 
+form library , develop mark overmars , use gui . 
+jpeg form library include release . 
+
+bit program ever need view annotate 
+image ; built-in editing feature satisfy 
+editing need . 
+addition , external filter dynamical 
+kernel utilize program already . 
+try 
+like . 
+always , report welcome . 

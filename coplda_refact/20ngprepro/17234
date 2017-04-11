@@ -1,0 +1,27 @@
+: stefan weiss 
+subject : pl .23 work screen 
+keyword : sun x11 suno device 
+organization : technische muenchen , germany 
+lines : 21 
+hello , 
+problem hope someone help 
+. 
+build x mit source apply patch get 
+think 23 . 
+building easy . 
+install everything start x 
+nothing happen screen keyboard freeze , machine seem 
+hang . 
+loge another machine find run well . 
+` p ' tell running . 
+
+experiment mouse repeatedly press ^ d blindly hit 
+, session get prompt back . 
+guess device problem find correct device yet . 
+get framebuffer , rev 53 
+suno rom 4.4 . 
+please help . 
+able run client sun send output 
+machine . 
+thanks advance , 
+stefan 

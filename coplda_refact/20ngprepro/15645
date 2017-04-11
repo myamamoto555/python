@@ -1,0 +1,21 @@
+: 
+subject : conversion routine want 
+organization : gateway 
+lines : 19 
+: 
+hus , 
+look rgb cube -- > hl double -- > hsv cylinder 
+conversion routine . 
+rgb < -- > hsv , miss hl < -- > . 
+please e-mail directly , get newsgroup site 
+-------------------------------------------------------------------- 
+help wil greatly appreciate . 
+gert . 
+-- 
+o gert bultman < > phone . 
+.31 o 
+| \ snail , dienst , afd . 
+| \ 
+o -- o -- o mail : postbus , 2500 ex hague , netherlands o -- o -- o 
+\ | \ | 
+o -- please mark personal mail `` '' -- o 

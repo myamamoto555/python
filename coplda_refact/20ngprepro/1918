@@ -1,0 +1,40 @@
+: justin 
+subject : re : want isa mouse port high interrupt 
+organization : bowling green state university b.g. , oh . 
+distribution : na 
+lines : 32 
+loran n. write : 
+> 
+> sound card interrupt 5 , two serial port one modem i4 , 
+> one miracle piano i3 printer port i7 , run 
+> low interrupt . 
+would like mouse port interrupt 
+> 10 , 11 , 12 ever interrupt mouse port use isa 
+> computer . 
+call technical support microsoft , logitech , & ati 
+> check interrupt mouse port ati video card use 
+> say interrupt possible card one 
+> lower 7 . 
+anyone know board isa bus 
+> allow mouse port even serial port high interrupt ? 
+try put one irq com port onto . 
+hardware 
+wrap class machine eg , anything high 
+irq . 
+set right . 
+get really - address way software , 
+, soundblaster , , ati port one 
+interrupt . 
+works great . 
+need even , text file float around somewhere 
+detail hack serial card probably work 
+higher irq . 
+basically involve cut trace low irq run wire high irq pin expansion bus . 
+best put modem 's com port onto . 
+
+first irq service system , give modem better response -- 
+especially handy multitasker like -- run 
+problem . 
+justin 
+-- 
+

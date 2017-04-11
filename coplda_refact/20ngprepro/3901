@@ -1,0 +1,69 @@
+: patrick l. mahan 
+subject : re : drawing lines 
+organization : internet 
+lines : 51 
+: 
+: 
+# 
+try write code let draw line 
+. 
+run 8-bit display create 
+use almost color . 
+want draw line 
+draw area widget -- widget display bitmap use 
+. 
+matter line draw interactively stay 
+window refresh . 
+# 
+, draw interactively , begin : 
+# 
+# index reserve foreground 
+# color index background image 
+# . 
+red . 
+red ; 
+# . 
+green . 
+green ; 
+# . 
+blue . 
+blue ; 
+# , , & , 1 ; 
+# ; 
+# 
+# , gc , ; 
+# , gc , ; 
+# 
+draw : 
+# 
+# , , gc , x1 , y1 , x2 , y2 ; 
+# ; 
+# 
+, return thing normal : 
+# 
+# , gc , ; 
+# 
+# 
+would like happen line draw inverse 
+draw . 
+instead happen get white line . 
+
+#the line white background - nothing show . 
+line 
+black area - nothing show ! 
+strange . 
+
+seem right - since box , erase 
+correctly ie . 
+disturb underlie image . 
+# 
+suggestion wrong ? 
+# 
+believe work color display must set foreground 
+gc foreground ^ background . 
+patrick l. mahan 
+-- tgv window washer --------- 
+wake person unnecessarily consider - lazarus long 
+capital crime . 
+first offense , notebooks 
+lazarus long 

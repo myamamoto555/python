@@ -1,0 +1,61 @@
+: paul elliott 
+subject : re : analog 
+distribution : na 
+organization : access products 
+lines : 53 
+article < > michael fulbright write : 
+> try build synchronous demodulator hit snag . 
+> application want able change gain 
+> op amp amplifier 1 -1 , via digital input . 
+> obvious way come use analog switch 
+> adjust gain op amp . 
+analog switch 
+> experience . 
+unfortunately want switch 
+> ac signal go -5 v 5v , 
+> positive signal . 
+> ... 
+> carrier signal vary +5 v. want 
+> input signal feed input signal thru 
+> amp gain 1 carrier +5 v , thru amp 
+> gain -1 carrier . 
+output 
+> low pass filter . 
+believe call lock detection well 
+> synchronous demodulation . 
+look . 
+triple 2-to-1 analog 
+multiplexer , positive negative power supplies run 
+single-ended supply well . 
+dual supplies , logic 
+input still range ground 0 volt . 
+neat well , think design 
+amplifier : 
++ ----- \ \ \ ------- + 
+| | 
+| -------- \ | 
+input - + - \ \ \ -- + -- | - | | 
+| | | -- + ------- output 
++ - \ \ \ -- + -- | + | 
+| \ -------- 
+| 
+control --------- x analog switch 
+| 
+| 
+-- 
+gnd 
+resistor . 
+analog switch close , 
+amp . 
+switch open , 
+. 
+clean circuit trim 
+input offset current hurt balance would show 
+carrier . 
+high frequency , might cause problem , 
+especially symmetrical usually . 
+-- 
+-------- paul elliott - dsc - petaluma , ca usa ---------- 
+uunet , pyramid , ! 
+- - 
+`` use think indecisive , sure . '' 

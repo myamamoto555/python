@@ -1,0 +1,21 @@
+: thomas schaerer 
+subject : re : voltage regulation current limit 
+organization : swiss federal institute technology eth , zurich , ch 
+: tin version 1.1 
+lines : 21 
+andy collins write : 
+: one question throw guy ... 
+: class project , need design build power supply 
+: follow spec : 
+: : adjustable 
+: current : limit 1a 
+: voltage must stay within 2 % designate value 
+: ac ripple less 5 mv rm 
+decide kind circuit must know 
+allow . 
+first case , use ube transistor 
+0.7 vdc . 
+second case better 
+use detect . 
+output limit current . 
+bye thomas 

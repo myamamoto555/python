@@ -1,0 +1,61 @@
+: forrest e. lumpkin iii 
+subject : help - woe mac 
+keyword : , 
+organization : nasa ames research center 
+lines : 46 
+trouble mac . 
+machine 3 year old 
+use hard drive internal maxtor 
+two half year . 
+disk recently crash . 
+reformat silverline 
+5.42 , reformat receive random write error testing . 
+error message report like : 
+sector 0 : write error detect test good - sector map . 
+occur randomly hard disk make suspect 
+diagnostic 's reference sector 0 ??? 
+. 
+third reformat 
+reinstall scsi loop able get pass 
+2,3 , 4 error . 
+pass 1 reason report lot error , 
+still map sector . 
+decide go ahead try 
+system 7 reload datum backup . 
+procede normally ; however , 
+sub-optimal performance . 
+symptom include : 
+o frequent crash 
+o instance extremely sluggish disk access require reboot 
+correct . 
+o instance find disk scsi chain reboot . 
+- boot norton utl . 
+occur , find 
+disk either . 
+- thing fix recycle power . 
+sometimes 
+require several attempt . 
+question : 
+1 anyone type problem ? 
+2 problem fx motherboard non-standard 
+scsi implementation maxtor disk ? 
+
+diagnostic software would help make determination ? 
+3 termination problem ? 
+currently external syquest 
+external chain . 
+
+end , internal termination ; use 
+terminator . 
+filter install internal 
+drive . 
+run exact year 
+one previous disk crash require reformat year ago . 
+also symptom disconnect external device ; 
+see scsi termination would issue . 
+
+course know : - < 
+help would much appreciate . 
+forrest e. lumpkin iii 
+nasa ames research center 
+

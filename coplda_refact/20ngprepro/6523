@@ -1,0 +1,51 @@
+: deryk barker 
+subject : re : , linux , risc ? 
+organization : camosun college , victoria b.c , canada 
+: tin 1.1 
+lines : 47 
+lee brian write : 
+: article < > write : 
+: > article < > write : 
+: 
+: dear friend , 
+: risc mean `` reduce instruction set computer '' . 
+risc usually 
+: small instruction set reduce circuit complex increase 
+: clock rate high performance . 
+read book 
+: computer architecture information risc . 
+: > 
+: > hmm ... authority risc clearly remember 
+: > reading instruction set risc cpus rather large . 
+: > difference address mode - risc instruction set 
+: > orthogonal cisc . 
+original risc small instruction set , simple one . 
+
+idea every instruction single 
+clock cycle b microcode c extensive pipeline . 
+comparison patterson : reduce instruction set computer . 
+cacm . 
+1 , 1985 : 
+cpu year instructions microcode 
+-- -- ------------ --------- 
+ibm 1973 208 
+dec vax 1978 303 
+ibm 801 1980 120 0 
+ucb risc 1 1982 39 0 
+stanford mips 1983 55 0 
+research vlsi vax , dec discover 60 % vax 
+microcode support 20 % instruction set 
+account mere 0.2 % instruction execute . 
+32 
+subset architecture onto single chip use software 
+emulator complex instruction , full vlsi 
+include entire instruction set , 5-10 time 
+20 % faster . 
+cpu chips microcode transistors 
+-- ----- --------- ----------- 
+32 2 64k 
+vlsi 9 
+-- 
+real : deryk barker , computer science dept. , camosun college , victoria b.c. 
+email : 
+phone : +1 

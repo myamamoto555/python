@@ -1,0 +1,118 @@
+: andy 
+subject : mysterious beeping 
+: 
+organization : hewlett-packard 
+: tin version 1.1 .8 
+lines : 121 
+article 
+author andy 
+post mon , 19 apr 1993 gmt 
+reason follow code cause x application beep whenever 
+intercept keystroke change meaning . 
+intent code 
+allow `` date '' field following special key : 
+tt : insert today 's date 
+- _ : bump day one 
+date example . 
+perhaps use 
+field . 
+
+
+reason follow code beep whenever special key 
+tt + - _ hit . 
+? 
+idea code interpret 
+key special meaning imply code . 
+would like get 
+rid beeping , far tell , beep 
+lose understand beeping occur . 
+
+
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+widget ; 
+widget ; 
+widget ; 
+widget ; 
+application ; 
+void widget date 
+char `` '' ; 
+date , , , null ; 
+
+void widget date 
+char `` '' ; 
+date , , , null ; 
+
+void widget date 
+char `` '' ; 
+date , , , null ; 
+
+void widget , 
+widget date , 
+
+set `` doit '' false x interpret keystroke . 
+switch - > text - > ptr 0 
+case ` ' : case ` ' : 
+date ; 
+- > doit false ; 
+return ; 
+case ' - ' : case : 
+date ; 
+- > doit false ; 
+return ; 
+case ' + ' : case ' ' : 
+date ; 
+- > doit false ; 
+return ; 
+default : 
+return ; 
+switch 
+
+void main cardinal , char 
+initialize xt 
+& application , `` application '' , null , 0 , 
+& , , null , null ; 
+create 
+
+`` '' , , , null ; 
+create 
+
+`` '' , , , null ; 
+create small text area 
+
+`` '' , , , 
+, , 
+, , 
+, 8 , 
+null ; 
+set callback 
+, , 
+, ; 
+realize 
+; 
+go 
+application ; 
+main 
+
+swear life love | andrew 
+never live sake another man ask | hewlett packard 
+another man live mine . 
+| california language labs 
+john galt | 
+
+-- 
+
+swear life love | andrew 
+never live sake another man ask | hewlett packard 
+another man live mine . 
+| california language labs 
+john galt | 
+

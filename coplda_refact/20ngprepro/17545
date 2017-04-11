@@ -1,0 +1,43 @@
+: paul bartholomew 
+subject : re : soundblaster irq port setting 
+organization : jet propulsion laboratory 
+lines : 28 
+distribution : world 
+: 
+article < > , andrew 
+write : 
+> 
+> 
+> 
+> `` , , disk controller call device . 
+
+> device require exclusive interrupt ownership , eg . 
+disk 
+> controller i6 keyboard i1 . 
+also device 
+> require exclusive ownership , ie . 
+share 
+> interrupt another device , eg . 
+'' 
+> 
+> . 
+standard isa bus , one almost pc use , 
+> two separate interface card share interrupt . 
+due 
+> screwup bus design . 
+example , soundblaster want 
+> drive interrupt number 7 , must hold certain bus wire 0 
+> 1 time , depend whether want interrupt . 
+> preclude let another card assert interrupt number 7 . 
+> 
+> two device isa bus pc share interrupt , 
+> implement single card . 
+interesting . 
+would care explain , soundblaster 
+pro card printer card share irq 7 successfully ? 
+assure 
+set irq 7 problem . 
+
+computer ibm clone . 
+paul bartholomew 
+

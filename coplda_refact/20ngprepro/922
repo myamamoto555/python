@@ -1,0 +1,48 @@
+: ronald w. schmidt 
+subject : outline spline surface 
+keyword : spline rasterization 
+lines : 38 
+year ago start work problem appear 
+simple turn quite difficult . 
+wonder 
+anyone net see problem hopefully publish 
+solution . 
+problem draw outline surface define two 
+roughly parallel cubic spline . 
+input problem essentially 
+start two set point set point 
+edge object treat two dimensional , i.e. extant 
+edge , exist three dimensional space . 
+draw 
+object 
+1 fit cubic spline point . 
+spline effectively 
+compute sequence line segment approximate 
+curve . 
+spline equal number segment . 
+assume 
+nth segment along spline roughly , 
+exactly , distance along spline reasonable 
+measure . 
+2 take segment n along spline match nth segment 
+oppose spline . 
+use pair segment form two 
+triangle fill color surface . 
+3 depth sort triangle 
+4 take triangle sort order , project onto 2d , draw 
+color triangle . 
+take edge triangle 
+along edge surface draw line along edge 
+color special `` edge color '' 
+edge color step 4 heart 
+problem . 
+idea effectively outline edge surface . 
+net result however generally lot break gap 
+edge surface . 
+reason fairly complicate . 
+involve rasterization problem problem result 
+project spline . 
+anything problem 
+sound familiar would appreciate know work 
+area . 
+- thanks 

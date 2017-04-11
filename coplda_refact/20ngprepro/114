@@ -1,0 +1,591 @@
+: dan wallach < > 
+subject : faq : type injury : keyboard alternatives monthly post 
+supersedes : < > 
+organization : university california , berkeley 
+lines : 652 
+expire : 22 may 1993 gmt 
+: dan wallach < > 
+: . 
+
+summary : everything ever want know replace keyboard 
+originator : 
+: 
+version : $ revision : 5.11 $ $ date : $ 
+
+answer frequently ask question keyboard alternatives 
+
+alternative keyboard faq 
+copyright dan wallach < > 
+opinion , unless otherwise mention , 
+represent opinion organization vendor . 
+current distribution : , , , 
+news , sci , comp . 
+answer , e-mail 
+change since previously distribute version mark change | | 
+bar right text , paragraph . 
+| | 
+information faq piece together phone conversation , 
+e-mail , product literature . 
+hope useful , information 
+neither comprehensive error free . 
+find something 
+wrong missing , please mail , 'll update list . 
+thanks . 
+phone number , unless otherwise mention , u.s.a. phone number . 
+monetary figure , unless otherwise mention , u.s.a. dollar . 
+products cover faq : 
+use pc 's keyboard workstation compatibility issue 
+apple computer , inc. . 
+key tronic 
+dragon systems 
+bat 
+
+comfort keyboard system 
+kinesis ergonomic keyboard 
+
+tony ! 
+ergonomic 
+vertical 
+mikey 
+wave 
+minimal motion computer access system 
+
+
+
+braille 'n speak 
+
+
+gif picture many product available via anonymous ftp 
+: . 
+highly 
+recommend get picture . 
+tell much fit 
+file . 
+ftp , send mail , 'll mail 
+pretty big ... 
+
+use pc 's keyboard workstation compatibility issue 
+mini outline : 
+1 . 
+spoof keyboard serial port 
+2 . 
+x terminal 
+3 . 
+next 
+4 . 
+silicon graphics 
+5 . 
+ibm 
+6 . 
+stuff 
+1 . 
+spoof keyboard serial port 
+get proprietary computer use keyboard 
+sun , hp , dec , etc. go hard time finding 
+vendor sell compatible keyboard . 
+workstation 
+run x window system , luck . 
+buy cheap use 
+pc , hook expensive keyboard , run serial cable 
+workstation . 
+, run program workstation read 
+serial port generate fake x keyboard event . 
+two main program find kt . 
+sophisticated program , capable control mouse , 
+even move among widget screen . 
+require server 
+extension , , . 
+find 
+server , run ` ' see string 
+appear extension list . 
+server , 
+may want investigate compile , 18 later , 
+bug vendor . 
+kt simpler program , work x server . 
+another program call also exist , see . 
+kt available via anonymous ftp . 
+2 . 
+x terminal 
+also , number x terminal ncd , , name use 
+pc-compatible keyboard . 
+x terminal , may 
+set . 
+try normal pc keyboard go 
+trouble buy alternative keyboard . 
+also , x terminal add 
+extra button -- may need keep original keyboard around 
+hit setup key . 
+3 . 
+next 
+next announce new next machine use apple desktop 
+bus , mean mac keyboard work . 
+, announce 
+cancel hardware production . 
+want kind 
+upgrade older next , ! 
+4 . 
+silicon graphics 
+silicon graphics announce newer machine indigo ^ 2 
+beyond use standard pc-compatible keyboard mouse . 
+
+believe also apply power series machine . 
+
+possible upgrade older sgi use pc keyboard , except 
+upgrade entire machine . 
+contact sgi sale rep 
+detail . 
+5 . 
+ibm 
+ibm keyboard actually similar normal pc keyboard . 
+| | 
+unfortunately , plug one . 
+need two thing : | | 
+cable converter go large pc keyboard connector | | 
+smaller style , new device driver aix . 
+believe | | 
+, ibm write device driver recently , use , | | 
+work . 
+however , want redistribute . 
+| | 
+tell judy hume potential contact . 
+learn | | 
+anything new , please send e-mail . 
+| | 
+6 . 
+stuff 
+vendor notably : health care keyboard co. 
+support odd keyboard type , may responsive 
+query regard support weird computer . 
+
+get sufficient keyboard work either 
+vendor , storage oscilloscope , may 
+luck . 
+contact company detail . 
+apple adjustable keyboard 
+apple computer , inc. . 
+sale office place . 
+availability : february , 1993 
+price : $ 219 
+support : mac 
+apple recently announce new keyboard . 
+
+keyboard one section hand , section rotate 
+backward hinge . 
+section tilt upward . 
+key 
+arrange normal qwerty fashion . 
+main foldable keyboard resemble normal apple keyboard . 
+separate keypad contain extended key function . 
+keyboard also come match wrist rest , 
+directly attachable keyboard . 
+soon soda come back , 'll detailed blurb 
+tidbit available . 
+keyboard 
+key tronic 
+phone : 
+possible contact : denise , 
+sell many clone vendor pc shop 
+availability : spring , 1993 ? 
+price : $ 489 ? 
+support : pc highly likely 
+apparently show prototype keyboard comdex . 
+
+another . 
+one control tilt 
+left right-hand side main alphanumeric section . 
+arrow key keypad resemble normal pc keyboard . 
+make standard pc keyboard , also , product 
+probably sell standard distribution channel . 
+numerous dragon product 
+dragon systems , inc. . 
+320 nevada street 
+newton , ma 
+phone : 
+fax : 
+shipping : . 
+price : -- $ end user system 
+1000 -- $ 1595 $ 2495 end system 
+various price service contract , site , etc. . 
+compatibility : 386 higher pc 
+3rd party support mac 
+free software support x window also available -- 
+pc dragon hardware talk workstation 
+serial cable network . 
+program call , 
+available via anonymous ftp : 
+: . 
+
+: . 
+current 
+want use dragon product x window , may want 
+ask peter cohen , salesman dragon know 
+sort thing . 
+dragon systems sell number voice recognition product . 
+seem run pc 's compatible 
+include 's microchannel box . 
+sell 
+hardware board software sit front number 
+popular word processor spreadsheet . 
+user ` train ' system voice , provision 
+correct system make mistake , fly . 
+multiple 
+people use , load different personality file 
+person . 
+still get use normal keyboard , . 
+need pause sec 
+word . 
+dragon claim typical input speed 30-40 word per minute . 
+spec 1000 . 
+recognize 30,000 word time . 
+1000 recognize guess 1000 word time . 
+dragon 's technology also part follow product 
+info : 
+microsoft windows sound system voice pilot 
+ibm 
+voice navigator ii articulate systems -- macintosh 
+lanier voice products -- `` emergency medical workstation '' 
+bat 
+old phone number : 
+current phone number : 
+, inc. . 
+812 north blvd. . 
+baton rouge , louisiana , u.s.a. 
+ward bond main contact 
+david unix software 
+shipping : . 
+support : mac , ibm pc serial port -- native keyboard port version 
+come soon ... . 
+workstation support , serial 
+support unix x windows write . 
+pc mac 
+get real attention company . 
+chording system . 
+one hand sufficient type everything . 
+second hand redundancy increase speed . 
+price : 
+$ 495 dual set -- one complete keyboard 
+$ 295 single 
+cheaper price offer macworld expo . 
+
+industrial innovations , inc. . 
+north 90th street 
+scottsdale , arizona , u.s.a. 
+mark contact 
+support : pc mac 
+shipping : beta . 
+`` big backlog '' -- could take 3 + month . 
+price : $ 1 unit 2 pod . 
+new price ! 
+| | 
+hand `` pod '' . 
+four main finger five 
+switch : forward , back , leave , right , . 
+thumb 
+number switch . 
+despite appearance , key layout resemble 
+qwerty , report big deal adapt . 
+idea 
+hand never move use keyboard . 
+whole pod 
+tilt base , act mouse . 
+see also : detailed review , write cliff lasser < > 
+available via anonymous ftp 
+comfort keyboard system 
+fax : 
+health care keyboard company 
+appleton ave 
+menomonee falls , wisconsin u.s.a. 
+jeffrey vice president -- contact 
+shipping : . 
+support : pc mac ??? 
+| | 
+planned future support : 
+ibm layout , believe 
+sun sparc 
+decision data 
+unisys 
+silicon graphics 
+support later . 
+hardware design relatively 
+easy company . 
+price : $ 690 , include one system `` personality module '' . 
+| | 
+idea one keyboard work everything . 
+purchase 
+`` compatibility module '' , new cord , possibly new , 
+move one keyboard around among different machine . 
+three-piece folding keyboard . 
+layout resemble 
+standard keyboard , except slice three section . 
+
+section `` custom telescoping universal mount . '' 
+section 
+independently adjust infinite number position allow 
+individual type natural posture . 
+rearrange three 
+section , keypad middle want . 
+
+section otherwise i.e. : put three section 
+flat , look like normal keyboard . 
+kinesis ergonomic keyboard 
+fax 
+kinesis corporation 
+pacific highway south , 
+seattle , washington , u.s.a. 
+shirley lunde vp marketing -- contact 
+shipping : . 
+support : pc . 
+mac sun sparc work . 
+price : $ 690 . 
+volume discount available . 
+$ 690 include one foot 
+pedal , one set adhesive wrist pad , program . 
+additional foot pedal accessory extra . 
+layout large blank space middle , even though 
+keyboard size normal pc keyboard -- slightly 
+smaller . 
+hand set key , lay minimize 
+finger travel . 
+thumb button handle many major function enter , 
+backspace , etc. . 
+remap keyboard firmware nice software 
+allow . 
+foot pedal also available , map key 
+keyboard shift , control , whatever . 
++44 united kingdom 
+limited 
+15 orchard lane 
+east molesey 
+surrey obn 
+england 
+pamela stephen hobday contact 
+u.s. distributor : 
+jim barrett 
+applied learning corp. . 
+1376 glen hardie road 
+wayne , pa 
+phone : 
+support : pc 's , amstrad , bbc b , bbc master , 
+mac apparently also available 
+price : 375 pound 
+$ 735 ship u.s.a. basically , convert price + shipping 
+cost less bbc computer , number 
+accessory , include carry case , switch box use 
+normal keyboard , articulate arm 
+clamp table , training ` course ' help learn 
+type . 
+also rent keyboard 10 + tax . 
+u.s. price : $ , $ 60 purchase want . 
+shipping : choice color : black gray 
+four main product -- two-handed keyboard , two one-handed 
+keyboard , keyboard design handicapped people control 
+. 
+layout allocate button thumb , curve 
+bring key closer finger . 
+separate keypad middle . 
+
+, inc. . 
+p.o. box 66 
+christiansburg , va , u.s.a. 
+pete rosenquist -- sale 
+larry langley -- president 
+shipping : . 
+support : pc , mac , ibm 3270 , sun sparc , 935 955 . 
+cost : $ 495 + shipping . 
+use conventional . 
+soft rubber key , rock 
+forward backward key three state , make chord 
+typing key . 
+learning time estimate 2-3 hour , get 
+start , maybe two week get use . 
+currently , thumb anything , although 
+work . 
+company claim take week work support 
+new computer . 
+happy adapt keyboard 
+computer , possible . 
+, 
+
+141 mt. sinai ave. 
+mt. sinai , ny 11766 
+chris george president 
+shipping : . 
+price : $ 199 . 
+support : pc . 
+mac x windows work . 
+keyboard mouse , fit one hand . 
+type via finger chord . 
+shift , control , etc. thumb button . 
+`` mouse '' mode , tilt move mouse , mouse 
+button finger . 
+cabling leave normal keyboard available , also . 
+application work , windows work fine . 
+trouble . 
+geoworks also trouble -- mouse work , keyboard . 
+braille 'n speak 
+engineering 
+3660 mill green rd. . 
+street , md , u.s.a. 
+information provide doug martin < > 
+braille n speak use several braille code enter 
+information : grade , grade ii , computer braille . 
+basically , 
+letter combination dot 1 , 2 , 4 , 5 . 
+letter 
+combination dot 3 add . 
+letter u , v , x , y , 
+z like a-e dot 3 6 add . 
+w unique louis 
+braille w french alphabet . 
+tony ! 
+ergonomic 
+tony hodges 
+tony ! 
+corporation 
+2332 thompson court 
+mountain view , ca , u.s.a. 
+support : mac , pc , ibm 3270 , sun , dec. . 
+shipping : ??? 
+price : $ 625 commit , line buy 
+keyboard . 
+ship , cheaper , pay cheaper price . 
+expensive , still pay $ 625 
+tony ! 
+allow separate positioning every key , allow 
+keyboard personally customize . 
+mouse 
+also available . 
+vertical 
+contact : jeffrey spencer stephen albert , 
+p.o. box 
+la jolla , ca , u.s.a. 
+support : info available , probably pc 's 
+available : summer , 1993 
+price : $ 249 
+vertical keyboard split two half , point straight . 
+user adjust width device , tilt 
+section . 
+side-view mirror install allow user see 
+finger key . 
+mikey 
+dr. alan grant 
+drive 
+chevy chase , maryland , u.s.a. 
+shipping : july , 1992 : `` available one year . '' 
+support : pc , mac maybe 
+price : $ 200 estimate 
+keyboard fix angle , incorporate built-in mouse 
+operate thumb . 
+function key arrange circle 
+keyboard 's left . 
+wave : 213 - 
+fax : 
+international technology 
+yukon avenue 
+hawthorne , california , u.s.a. 
+robin hunter contact -- sale 
+cost : $ 99.95 + $ 15 set cable 
+support : pc . 
+shipping : . 
+also manufacture `` ordinary '' keyboard 
+keyboard , make sure get right one . 
+one-piece keyboard built-in . 
+look exactly 
+like normal pc keyboard , two inch built-in wrist 
+rest . 
+key switch feel report greatly improve . 
+minimal motion computer access system 
+fax 
+equal access computer technology 
+dr. michael 
+39 oneida rd. . 
+acton , ma , u.s.a. 
+price : : `` hundred dollar '' + one-handed bat 
+system : $ 300 software + `` hundred dollar '' 
+shipping : custom-made , occupational therapist would 
+make whatever make . 
+buy one . 
+support : pc , although version might 
+work mac . 
+one-handed version , exactly one button per finger . 
+
+two-handed version , get four button per finger , thumb 
+anything . 
+also get one-handed version three 
+thumb button -- compatible bat . 
+basically , get 
+way want . 
+also software tutorial help learn chording . 
+works pc dos , windows . 
+planning macintosh 
+support . 
+work unix version , yet . 
+canada 
+matias corporation 
+178 thistledown boulevard 
+rexdale , ontario , canada 
+
+e-mail : 
+support : mac pc , windows 
+demo anonymous ftp : : | | 
+price : $ 129.95 higher canada , quantity discount available 
+shipping : . 
+thing purely software . 
+hardware . 
+software mirror keyboard hold space 
+bar , allow type one-handed . 
+israel 
+fax : 3 
+keyboards ltd. . 
+p.o. box 31 
+kiryat ono , israel 
+info mandy < > 
+one-handed keyboard . 
+agenda u.k. +44 
+fax : +44 
+systems plc 
+house 
+2 albany court 
+albany park 
+frimley 
+surrey , united kingdom 
+info carroll morgan < > 
+agenda personal desktop assistant pda style machine . 
+
+carry along . 
+chord input . 
+also 
+hook pc , even program . 
+cost 200 pound , 128k memory . 
+
+thanks go chris < > provide 
+basis information . 
+thanks numerous contributor : 
+doug martin < > 
+carroll morgan < > 
+mandy < > 
+wes hunter < > 
+paul schwartz < > 
+h.j. < > 
+dan sorenson < > 
+chris < > 
+ravi pandya < > 
+leonard h. tower jr. < > 
+dan jacobson < > 
+jim cheetham < > 
+cliff lasser < > 
+richard donkin < > 
+paul rubin < > 
+david erb < > 
+bob < > 
+chris grant < > 
+scott mandell < > 
+everybody else probably manage forget . 
+opinion , unless otherwise mention , 
+represent opinion organization vendor . 
+-- 
+dan wallach `` one attractive feature connection 
+machine array blinking light face 
+office # : cabinet . '' 
+-- cm paris ref . 
+manual , v6 .0 , . 

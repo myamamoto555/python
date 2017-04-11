@@ -1,0 +1,59 @@
+: karsten spang 
+subject : re : create 24 plane window summary 
+organization : niels bohr institute , copenhagen 
+lines : 51 
+article < > , karsten spang write : 
+> problem : able create window 24 bit plane . 
+> ... give error request . 
+> 
+> far tell manual , attribute may give 
+> , , belong wrong visual . 
+
+> visual correctly match 
+get several answer , complete errol crary 
+: 
+> look r4 server listing ... 
+> several way get error , even 
+> though o'reilly book say `` nonzero '' . 
+> 
+> 1 - class & & bw ! 
+0 | | depth ! 
+0 
+> 
+> 
+> 2 - find depth visual acceptable screen 
+> 
+> 
+> 3 - & | 0 & & 
+> class ! 
+& & 
+> depth ! 
+- > 
+> 
+> 
+> 4 - & 0 & & 
+> class ! 
+& & 
+> visual ! 
+- > visual | | - > none 
+> 
+> 
+> , 
+> case 1 case ; seem 
+> o'reilly case . 
+> case 2 case since get visual screen . 
+> case 3 look suspicious ; give ... attribute 
+> mask , since visual parent depth , would suspect 
+> need supply border pixel new go use 
+> window . 
+> case 4 seem problem since supply 
+> attribute . 
+thanks help 
+karsten 
+-- 
+
+internet : karsten spang 
+phone : +45 36 77 22 23 datum 
+fax : +45 36 77 03 01 p.o. box 1142 
+hvidovre 
+denmark 

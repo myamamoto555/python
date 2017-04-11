@@ -1,0 +1,414 @@
+: 
+subject : cryptography faq - reference 
+organization : crypt cabal 
+lines : 333 
+expire : 22 may 1993 gmt 
+: 
+: . 
+
+summary : part 10 10 faq , reference . 
+history classical method . 
+modern method . 
+survey reference 
+article . 
+journals conference proceedings . 
+electronic source 
+ftp site . 
+related newsgroup . 
+: 
+: 
+: 
+faq , part 10 : reference 
+tenth ten part faq . 
+part 
+mostly independent , read first part rest . 
+time send miss part mail , ask . 
+note `` '' refer reference list part . 
+section faq available via anonymous ftp 
+. 
+xx . 
+cryptography 
+faq post newsgroup , , 
+every 21 day . 
+contents 
+books history classical method 
+books modern method 
+survey article 
+reference article 
+journals , conference proceedings 
+
+electronic source 
+rfc available 
+relate newsgroup 
+books history classical method 
+cf lambros d. , william f. friedman , military . 
+aegean park press , ? 
+. 
+cipher a. & louis , machine cryptography 
+modern cryptanalysis . 
+artech house , 610 washington st. , 
+dedham , ma , 1985 . 
+william f. friedman , solve german code world war i. 
+aegean park press , ? 
+. 
+h. gaines , cryptanalysis , study cipher 
+solution . 
+dover publications , 1944 . 
+, et al. , british intelligence second 
+world war . 
+cambridge university press . 
+vol 's 1 , 2 , 3a , 3b 
+& 4 , far . 
+xxx year author , fix xxx 
+andrew hodges , alan turing : enigma . 
+burnett books 
+ltd. , 1983 
+david kahn , seize enigma . 
+houghton mifflin , 1991 . 
+d. kahn , codebreakers . 
+macmillan publishing , 1967 . 
+history abridged paperback edition leave 
+technical detail ; original hardcover edition 
+recommend . 
+w. , enigma . 
+university publications america , 1984 
+s. kullback , statistical method cryptanalysis . 
+aegean 
+park press , 1976 . 
+a. , elementary cryptanalysis . 
+math . 
+assoc. . 
+1966 . 
+gordon welchman , hut six story . 
+mcgraw-hill , 1982 . 
+herbert o. yardley , american black chamber . 
+aegean park 
+press , ? 
+. 
+books modern method 
+h. beker , f. piper , cipher systems . 
+wiley , 1982 . 
+g. brassard , modern cryptology : tutorial . 
+, 1988 . 
+d. denning , cryptography data security . 
+addison-wesley 
+publishing company , 1982 . 
+n. , course number theory cryptography . 
+springer-verlag , 1987 . 
+a. konheim , cryptography : primer . 
+wiley , 1981 . 
+c. meyer s. matyas , cryptography : new dimension 
+computer security . 
+wiley , 1982 . 
+wayne patterson , mathematical cryptology computer 
+scientist mathematician . 
+rowman & littlefield , 1987 . 
+c. , security computing . 
+prentice-hall , 1989 . 
+w. price , d. davies , security computer network . 
+wiley , 1984 . 
+r. rueppel , design analysis stream ciphers . 
+springer-verlag , 1986 . 
+a. saloma , public-key cryptography . 
+springer-verlag , 1990 . 
+d. welsh , codes cryptography . 
+press , 1988 . 
+survey article 
+d. , d. lichtenstein , provable security crypto - 
+system : survey . 
+yale university , department computer 
+science , # 288 , 1983 . 
+t. beth , algorithm engineering public key algorithm . 
+ieee selected area communication , 1 4 , 458 -- 466 , 
+1990 . 
+m. davio , j. goethals , element cryptology . 
+secure 
+digital communications , g. longo ed. , 1 -- 57 , 1983 . 
+w. diffie , m. hellman , privacy authentication : 
+introduction cryptography . 
+ieee proceedings , 67 3 , 
+397 -- 427 , 1979 . 
+w. diffie , first ten year public key cryptography . 
+ieee proceedings , 76 5 , 560 -- 577 , 1988 . 
+h. feistel , cryptography computer privacy . 
+scientific 
+american , 228 5 , 15 -- 23 , 1973 . 
+h. feistel , h , w. , j. lynn smith . 
+cryptographic 
+technique datum communication , 
+ieee ieee proceedings , 63 11 , 1545 -- 1554 , 1975 . 
+m. hellman , mathematics public key cryptography . 
+scientific american , 130 -- 139 , 1979 . 
+s. , algorithms public key 
+cryptosystem . 
+advance computer , m. ed. , 
+22 , academic press , 45 -- 108 , 1983 . 
+a. lempel , cryptology transition , computing survey , 
+11 4 , 285 -- 304 , 1979 . 
+j. massey , introduction contemporary cryptology , ieee 
+proceedings , 76 5 , 533 -- 549 , 1988 . 
+g. simmons ed . 
+, contemporary cryptology : science 
+information integrity . 
+ieee press , 1991 . 
+reference article 
+d. andelman , j. reeds , cryptanalysis rotor 
+network . 
+ieee trans . 
+inform . 
+theory , 28 4 , 578 -- 584 , 1982 . 
+john bennett , analysis encryption algorithm use 
+wordperfect word processing program . 
+11 4 , 
+206 -- 210 , 1987 . 
+h. a. bergen w. j. , file security wordperfect 
+5.0 . 
+15 1 , 57 -- 66 , january 1991 . 
+e. biham a. shamir , differential cryptanalysis 
+cryptosystem . 
+journal cryptology , vol . 
+4 , # 1 , 
+3 -- 72 , 1991 . 
+e. biham , a. shamir , differential cryptanalysis , 
+khafre , , lucifer . 
+proceedings crypto 
+' 91 , ed . 
+j. feigenbaum , 156 -- 171 , 1992 . 
+j. boyar , infer sequence produce pseudo-random 
+number generators . 
+journal acm , 1989 . 
+e. brickell , j. moore , m. , structure 
+s-box des . 
+proceedings crypto ' 86 , a. m. odlyzko 
+ed. , 3 -- 8 , 1987 . 
+l. brown , propose design extended des , computer 
+security computer age . 
+elsevier science publishers 
+b.v. north holland , ifip , w. j. ed. , 9 -- 22 , 1989 . 
+l. brown , j. , j. , loki - cryptographic 
+primitive authentication secrecy application . 
+proceedings 90 , 229 -- 236 , 1990 . 
+h. gustafson , e. dawson , w. , comparison block 
+cipher . 
+proceedings ' 90 , j. j. 
+eds. , 208 -- 220 , 1990 . 
+k. w. campbell , m. j. wiener , proof des group . 
+proceedings crypto ' 92 , 1993 . 
+carl m. ellison , solution messages . 
+, 
+vol . 
+xii , # 3 , , jul 1988 . 
+s. even , o. goldreich , function generate 
+alternate group . 
+ieee trans . 
+inform . 
+theory , vol . 
+29 , 
+# 6 , 863 -- 865 , 1983 . 
+g. garon , r. outerbridge , des watch : examination 
+sufficiency datum encryption standard financial 
+institution 1990 's . 
+, vol . 
+xv , # 3 , 
+177 -- 193 , 1991 . 
+gillogly , ? 
+. 
+4 2 , 1980 . 
+shafi goldwasser , silvio micali , probabilistic encryption 
+play mental poker keep secret partial information . 
+proceedings fourteenth annual acm symposium theory 
+computing , 1982 . 
+d. g. n. hunter a. r. mckenzie , experiment 
+relaxation algorithm break simple substitution 
+cipher . 
+computer journal 26 1 , 1983 . 
+j. kam , g. davida , structured design substitution - 
+permutation encryption network . 
+ieee trans . 
+information 
+theory , 28 10 , 747 -- 753 , 1978 . 
+p. kinnucan , data encryption guru : tuchman meyer . 
+, vol . 
+ii # 4 , 371 -- xxx , 1978 . 
+, ? 
+. 
+12 4 , 1988 . 
+x. lai , j. massey , proposal new block encryption 
+standard . 
+90 , 389 -- 404 , 1990 . 
+c. , m. luby , construct 
+permutation function . 
+siam journal 
+computing , vol . 
+17 , # 2 , 373 -- 386 , 1988 . 
+j. massey , introduction contemporary cryptology . 
+ieee proceedings , 76 5 , 533 -- 549 , 1988 . 
+r. merkle , fast software encryption function . 
+proceedings 
+crypto ' 90 , menezes vanstone ed. , 476 -- 501 , 1991 . 
+c. meyer , 
+dependence vs. number round datum encryption 
+standard . 
+conference proceedings , 47 , 1119 -- 1126 , 
+1978 . 
+datum encryption standard . 
+national bureau standards , 
+fip pub 46 , washington , dc , january 1977 . 
+j. reeds , ` crack ' random number generator . 
+1 1 , 20 -- 26 , 1977 . 
+j. a. reeds p. j. weinberger , file security unix 
+crypt command . 
+at&t bell laboratories technical journal , 
+vol . 
+63 # 8 , part 2 , 1673 -- 1684 , october , 1984 . 
+c. shannon , communication theory secrecy systems . 
+bell 
+system technical journal 28 4 , 656 -- 715 , 1949 . 
+b. kaliski , r. rivest , a. sherman , datum encryption 
+standard group . 
+journal cryptology , vol . 
+1 , # 1 , 
+1 -- 36 , 1988 . 
+a. shimizu , s. , fast datum algorithm 
+feal . 
+' 87 , 267 -- 278 , 1988 . 
+a. sorkin , lucifer : cryptographic algorithm . 
+, 8 1 , 22 -- 35 , 1984 . 
+journals , conference proceedings 
+crypto 
+
+ieee transaction information theory 
+: cryptology journal , quarterly since jan 1977 . 
+; rose-hulman institute technology ; terre haute 
+indiana general : system , analysis , history , ... 
+journal cryptology ; international association cryptologic 
+research ; publish springer verlag quarterly since 
+1988 . 
+cryptogram journal american cryptogram association ; 
+west hickory street ; mundelein , il ; primarily 
+puzzle cryptogram various sort 
+cryptosystems journal , publish tony patti , p.o. box 188 , 
+newtown pa , usa . 
+publisher 's comment : include complete cryptosystem 
+source executable program diskette . 
+tutorial . 
+
+typical cryptosystem support key galois 
+field arithmetic . 
+inexpensive hardware random number 
+generator detail . 
+computer communication security review , publish ross anderson . 
+sample issue available various ftp site , include 
+. 
+editorial . 
+publisher 's 
+comment : review conference proceedings field , 
+include crypto , regional gathering 
+like . 
+also abstract 50 journal , 
+cover computer security well cryptology , reader 
+see research trend application well theory . 
+
+address note : aegean park press , p.o. box , laguna hills , ca 
+. 
+answer machine . 
+`` orange book '' dod , publish december 1985 
+part `` rainbow book '' series . 
+write department defense , 
+national security agency , attn : , 9800 savage road , fort meade , md 
+, ask trusted computer system evaluation 
+criterion . 
+call . 
+bamford , puzzle palace . 
+penguin books , ? 
+. 
+i. j. good , good thinking : foundation probability 
+application . 
+university minnesota press , 1983 . 
+d. e. knuth , art computer programming , volume 2 : 
+algorithm . 
+addison-wesley , 1981 . 
+soloman , information theory statistics . 
+dover , 1968 . 
+a. yao , computational information theory . 
+complexity 
+information theory , ed . 
+, 1988 . 
+may one obtain copy fip standard cite herein ? 
+many textbook cryptography contain complete reprint fip 
+standard , copyright . 
+follow standard may order 
+u.s. department commerce , national technical information service , 
+springfield , va . 
+fip pub 46-1 `` datum encryption standard '' des 
+fip pub 74 `` guideline implement use nbs des '' 
+fip pub 81 `` des modes operation '' 
+fip pub 113 `` computer data authentication '' use des 
+follow standard may order 
+american national standards institute sale office , 
+1430 broadway , new york , ny 10018 . 
+phone 
+`` data encryption algorithm '' identical fip 46-1 
+`` dea mode operation '' identical fip 113 
+note : figure 3 fips pub 46-1 error , figure 3 
+correct . 
+text correct publication . 
+electronic source 
+anonymous ftp : 
+: . 
+
+: . 
+
+: 
+: 
+: ? 
+. 
+: . 
+
+ftp .3 : 
+: 
+: . 
+
+: 
+: 
+: . 
+
+: . 
+
+: . 
+zip 
+rfc available 
+1424 kaliski , b. privacy enhancement internet electronic mail : part iv : 
+key certification related services . 
+1993 february ; 9 p. format : 
+txt byte 
+1423 , d. privacy enhancement internet electronic mail : part 
+iii : algorithm , mode , identifier . 
+1993 february ; 14 p. format : 
+txt byte rfc 1115 
+1422 kent , s. privacy enhancement internet electronic mail : part ii : 
+key management . 
+1993 february ; 32 p. format : 
+txt byte rfc 1114 
+1421 linn , j. privacy enhancement internet electronic mail : part : 
+message encryption authentication procedure . 
+1993 february ; 42 p. 
+format : txt byte rfc 1113 
+relate newsgroup 
+newsgroup reader might want also 
+read . 
+faq well . 
+discussion compression algorithm code 
+general security discussion 
+index 
+discussion pgp 
+discussion 
+general civil liberty , include privacy 
+news report eff 
+discussion eff related issue 
+discussion patent , include rsa 
+mention crypto wiretapping 
+general privacy issue 
+announcement security hole 
+
+general math discussion 

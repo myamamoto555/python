@@ -1,0 +1,22 @@
+: todd w. arnold 
+subject : re : sensible des towards ? 
+organization : ibm cryptographic facility development 
+disclaimer : post represent poster 's view , ibm 
+: 3.1 
+lines : 15 
+< > axel dunkel write : 
+> sensible des encrypted datum towards bit error ? 
+much datum per 
+> bit lose average assume still correct key ? 
+depend mode use . 
+single 64-bit input block , 
+error 50 percent chance corrupt 64 
+output bit - word , essentially turn output block 
+random number . 
+encrypt datum cbc mode , however , 
+one 64-bit block affect . 
+next block , follow 
+decrypt properly . 
+good idea kind error correction system 
+corrupt bit likely . 
+- todd 

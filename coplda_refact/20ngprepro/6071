@@ -1,0 +1,28 @@
+subject : re : lw iig factory default 
+: robert grape < > 
+organization : massey university 
+: mon , 19 apr 93 gmt 
+: v1 d17 
+lines : 21 
+article < > jurgen botz , 
+write : 
+> laserwriter iig disappear completely 
+> network , i.e. name show zone . 
+print 
+> serial interface , tho ! 
+see discussion 
+> change zone iig ... include ps code 
+> let change zone . 
+maybe ps code 
+> use go back factory default setting ? 
+
+> feeling need heal . 
+follow postscript work laserwriter iig 's version 2 rom 
+% ! 
+0 begin 
+true 
+begin 
+realtime 10000 add 
+dup realtime le pop exit loop 
+quit 
+rob . 

@@ -1,0 +1,36 @@
+: donald pugsley 
+subject : c7 problem call run-time function 
+summary : need help incorrect link run-time lib function 
+keyword : c7 link runtime segment 
+organization : naval surface warfare center 
+lines : 40 
+small windows program get work ; 
+program look vaguely like : 
+
+char f1 80 ; 
+int ... 
+
+f1 , `` hello '' ; 
+... 
+
+long far pascal ... 
+
+f1 , `` hello '' ; 
+... 
+
+
+use large model windows 3.1 ; link without 
+error , rc program say 
+sort preload segment resource section 
+copying segment 1 byte 
+rc : fatal error : segment 1 
+relocation information large load 
+optimization . 
+make segment 
+rerun rc use - k switch segment must 
+preload . 
+use - k switch seem interfere proper function 
+second call ... anybody explain go 
+fix ? 
+thanks ... 
+pugsley 

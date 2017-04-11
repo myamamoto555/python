@@ -1,0 +1,25 @@
+: niclas mattsson 
+subject : want : grayscale dither routine 
+: 
+organization : chalmers university technology 
+lines : 15 
+color gif would like archive much smaller 
+size use grayscale palette 16 shades . 
+quantization 16 gray 
+introduce ugly band picture , nicely eliminate 
+dither . 
+use xv process image , 
+would like automate procedure . 
+problem xv think convert image automatically , 
+obvious alternative even get close 
+xv 's quality . 
+apparently dither rgb , even though image 
+grayscale . 
+dither routine xv seem use natural image 
+color dither . 
+similar routine available 
+public domain ? 
+, ? 
+-- 
+niclas mattsson 
+

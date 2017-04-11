@@ -1,0 +1,12 @@
+: dan reznik 
+subject : correction last post glx & lack dialog widget 
+organization : u. wisconsin-madison , robotics laboratory 
+: message 22 apr 93 cdt 
+lines : 13 
+code send , please replace line : 
+, , , ; 
+
+button , , , ; 
+-- 
+rest question remain ... 
+dan 

@@ -1,0 +1,544 @@
+: liam r. e. quin 
+subject : list program open look user interface 
+organization : softquad inc. , toronto , canada 
+expire : 2 jun 1993 gmt 
+lines : 576 
+$ id : . 
+faq , v 1.17 lee exp locker : lee $ 
+contents : 
+subject : application : application builder 
+subject : application : graphing tool 
+subject : application : utility 
+subject : application : 
+subject : tool : terminal emulator 
+subject : commercial application 
+subject : application : toolkit extension 
+subject : 3 port 
+subject : 3 port 
+subject : 2 port 
+subject : games free commercial 
+subject : application : application builder 
+commercial : 3.0 
+contact : 
+let use drag drop create open look application 
+, , uit tnt . 
+easy use . 
+free : dirt 
+_ might _ port uus builder . 
+commercial : 
+contact : expert object 
+one first third-party gui builder support open look , 
+use toolkit . 
+review magazine 
+1990 . 
+commercial : 
+contact : , debra frances +1 
+user interface builder support building application 
+support open look motif . 
+generate code 
+'s ous c + + toolkit make use user create 
+subclass . 
+note : ` ous ' also display guus runtime . 
+free : wcl 
+use x resource specify xt widget hierarchy action 
+user-defined callback . 
+use , xt motif . 
+commercial : 
+contact : systems +1 
+let write code common subset open look , motif , microsoft 
+windows , macintosh gui , even terminal use curse . 
+buy 
+toolkit environment . 
+subject : application : graphing tool 
+free : 
+program plot lorenz attractors chaotic thing 
+real time . 
+also include mathematical expression interpreter . 
+ftp : 
+free : -- graph analysis program , 
+ftp : ; .09 . 
+
+handle x-y , , , fft analysis , run 
+average , polynomial fit , etc. . 
+free : robot - scientific graph plot datum analysis tool 
+contact : robin corbet < > 
+description : 
+graph plot various style & axis ; datum manipulation - arithmetic , 
+function , smoothing , folding , sort ; fit datum use gaussians , 
+polynomial , , user define function ; annotation 
+graph ; log file ; command loop etc. ; colour ; postscript output . 
+ftp : 
+ftp : file : .35 . 
+- everything 
+ftp : file : - documentation . 
+ftp : file : 4 . 
+z - binary build sparcstation . 
+requirement : 
+robot base . 
+user interface portion code write 
+` c ' . 
+datum manipulation code write fortran . 
+hence fortran 
+compiler also require public domain package . 
+alternatively , sparc binary available anonymous ftp . 
+subject : application : utility 
+free : boss 
+description : 
+open look ui casio boss scheduler 
+free : prop 
+ftp : prop 
+description : 
+property editor , appear choose 
+properties ... item workspace menu . 
+free : 
+ftp : 
+description : 
+special-purpose filter take special 
+action specify console message ; write chuck . 
+requirement : 
+free : face 
+description : 
+display picture people send electronic mail . 
+violate data protection act u.k. 
+subject : application : 
+commercial : 400 
+contact : bim +32 -2 
+: c ; rtt ;p bim horizon ; ; g patrick 
+note : 
+complete x. 400 electronic mail system . 
+consist 
+user interface give access x. 400 service 
+consistent look feel , message transfer agent mta system 
+transfer message x. 25 , tp .4 use rfc 1006 . 
+gateway smtp mail also available . 
+free : 
+description : 
+year calendar almanac . 
+ftp : : .2 . 
+
+contact : bill randle , tektronix , inc. < > 
+free : 
+description : 
+program convert , include 
+gnu emac distribution . 
+free : 
+contact : ian darwin < > 
+genealogy program , write c use guide . 
+incomplete jan ' 93 ; inquire detail . 
+free : workman - audio cd player x11 sun , ultrix 
+requirement : library 
+ftp : ultrix binary : workman 
+ftp : `` incoming '' - database 750 cd 
+contact : steven grimm 
+free : pan - note 
+free : wai 
+ftp : 
+description : 
+networked , distribute system . 
+front end . 
+note : 
+might need add - lce . 
+free : - rolodex card book 
+free : 
+description : 
+program show text file , like 1 . 
+commercial : 1.0 
+contact : sunsoft 
+us : ; uk : 0800 89 88 88 
+germany : 01 30 81 61 91 ; france : 05 90 61 57 
+platform : sparc , solaris 1 . 
+x 
+price : $ 249 
+note : 
+full text search retrieval application design 
+improve individual group productivity . 
+make index file 
+later retrieve document word phrase , rank result 
+relevance order . 
+commercial : 
+contact : sunsoft 
+note : 
+conference software let multiple connected user share 
+draw screen , bitmap capture moveable pointer . 
+requirement : 
+run one per computer , cpu per 
+conference member . 
+free : - man pages viewer 
+free : - todo list manager 
+ftp : -4.0 . 
+, -4.0 - readme 
+requirement : library 
+contact : mike jipping bitnet : 
+organisation : hope college department computer science 
+free : 
+contact : +1 
+ftp : _ .2 . 
+. 
+patches : _ .2 . 
+1 . 
+requirement : 3.0 , c + + 2.1 greater recompile 
+description : 
+orginally design replacement name finder 
+miss version 3.0 . 
+since grow 
+tool several electronic mail related activity include : 
+interaction local listserv robot handle mail list , 
+request style mail alias local postmaster , 
+provide mailbox status information alum finger 1 . 
+write c + + 2.1 use + + version 1.1 . 
+access c + + compiler , precompiled sparc 
+executable include distribution . 
+free : interface bibtex database 
+requirement : 
+ftp : . 
+
+ftp : include source sparc binary suno . 
+version : 1.11 
+description : 
+gui mantain bibliography database use 
+latex , tex framemaker 
+free : -- interface ftp . 
+ftp : file . 
+. 
+contact : bill jones 
+requirement : x11 , motif athena widget 
+note : 
+formerly call . 
+compile least ultrix , aix , aix 3.2 , convex os , sunos , 
+unicos , irix . 
+use . 
+bug : also use athena widget . 
+free : -- open look virtual window manager 
+contact : scott oaks 
+ftp : directory 
+patches : two patch 
+requirement : 3 
+description : 
+version manage ` virtual desktop ' hence 
+` v ' name . 
+show little map screen , 
+currently display area represent little rectangle . 
+
+move around drag rectangle arrow key . 
+
+let run several client application move display around 
+one . 
+derive 3.0 . 
+free : -- open look front-end ftp 
+requirement : 
+ftp : 
+free : 
+contact : turing institute 
+requirement : 3 run server , x11 
+hypertext package write entirely news . 
+runtime 
+pub .5 - 
+maestro ftp 
+multimedia authoring tool , include support sound , text & video . 
+ftp 
+newsreader . 
+free : 
+ftp : : . 
+archive 
+ftp : : 
+ftp : : . 
+. 
+z 
+ftp : : . 
+
+description : 
+emulator , version . 
+include 
+button pf key , etc. . 
+subject : postscript graphics viewer 
+commercial : - postscript 
+contact : include part . 
+note : 
+type 1 support solaris 2.1 . 
+support - color 3 try - aa - 150 
+note use server interpret postscript , 
+thus run x terminal server . 
+enough run open look uus tm window manager 
+. 
+commercial : xps - postscript program editor 
+contact : include 2.0 demo 
+note : 
+run 2 . 
+commercial : psh 
+contact : include 
+simple interface news server 
+free : 
+ftp : 
+note : 
+crispin goswell 's postscript interpreter , much hack . 
+open look compliant . 
+type 1 font support . 
+version call ` xp ' , ` postscript ' , etc. ; 
+confuse ` xp ' one mention . 
+free : ghostscript 
+free software foundation 
+support type 1 font . 
+open look base . 
+subject : tool : terminal emulator 
+free : , 
+requirement : 3 toolkit 
+note : 
+include source distribution 
+; also include sun 's 
+. 
+commercial : 
+contact : micro resources inc. , , ohio , usa , +1 
+note : 
+version open look ui , print interface , 
+x3 .64 color escape sequence , etc. . 
+commercial : 
+contact : bristol group ltd. , +1 germany 
+requirement : 3 ?? 
+products : , , power base 
+note : 
+terminal emulator . 
+could get demo version 
+give shell prompt , although look like pretty fll 
+emulation , double-height character , color , font , 
+forth . 
+union flag british flag logo somehow expect 
+english address , perhaps bristol ... 
+subject : commercial application 
+contact sunsoft sun ask catalyst open look guide , 
+list 200 page application . 
+also get free , contain demo version 
+several popular open look ui application . 
+, 
+often simply contact vendor concern license 
+upgrade demo , receive full product documentation . 
+product name : - text processor 
+company name : softquad inc. , +1 , 
+description : 
+word processor text editor manipulate iso sgml document . 
+interface : open look ui , , mac , 
+subject : application : toolkit extension 
+product name : xtra 
+company name : graphical software technology 
+e-mail : 
+phone : ; fax : 
+keyword : graphic , library , widget , spreadsheet , help 
+interface : open look , motif 
+platform : sparc , , ibm , interactive 386 
+requirement : x11 , xt , xol xm library header ; x11 
+price : $ user , $ , $ 
+: $ call 
+: yes 
+description : 
+xtra library contain set widget subclass 
+compatible either motif widget . 
+library 
+include widget implement following : spreadsheet , bar graph , 
+stacked bar graph , line graph , pie chart , xy plot , hypertext , hypertext 
+base help system , data entry form . 
+widget successfully 
+integrate builder 
+ic . 
+free demo available support platform . 
+product name : 
+company name : kl group 
+e-mail : , 
+phone : +1 
+description : 
+graph object extend toolkit ; 
+also xt version motif . 
+support line plot , 
+, , bar chart , stack bar chart , pie chart 
+chart , singly combination . 
+support real-time 
+update , true postscript output , intelligent user feedback . 
+come 
+builder , graph prototyping tool , support code & resource 
+file generation . 
+free demo available . 
+free integration kit , , builder 
+progress . 
+availability : 
+available sparc . 
+motif available dozen platform . 
+free : slingshot extension 
+slingshot provide rectangle like xt ' gadget , 
+drag-and-drop support , image , icon text , tree , line , arrow ... 
+get ftp , .0 . 
+
+remember use binary mode ftp ! 
+. 
+also get send mail 
+body message contain line like 
+send .0 
+go 
+send .0 
+send .0 
+send .0 
+ask one file time reduce impact intermediate 
+mail site . 
+ask mail server help subject line : `` help '' . 
+human reach . 
+add line message 
+path 
+think normal automatic reply address might work . 
+ada binding 
+sun ada 1.1 include among thing ada source code generator 
+. 
+use ada binding . 
+yet july 1992 support gfm guide file manager . 
+c + + binding 
+'s xv + + . 
+uit 
+subject : 3 port 
+sun : sparc , sunos 4.1 
+sun : sparc , solaris 2 actually ? 
+: none far ... 
+say sun two three port either 
+available progress . 
+contact anthony flynn open vistas 
+international information . 
+originally 
+say 35 , perhaps mean 3.5 
+source available - commercially , cost $ 5,000 
+server , include toolkit ; etc 
+another $ 25,000 ; $ 40,000 . 
+subject : 3 port 
+: 3 
+system : apple 
+porter : lou jones 
+ftp : 
+note : 
+library utility , , etc available 
+anonymous ftp . 
+use gcc 2.1 compile 
+source . 
+enough interest , make diff 
+available . 
+system : concurrent 7000 68040 base 
+porter : sinan karasu 
+system : 
+porter : dave scott 
+ftp : . 
+: ~ - 
+note : 
+let stress fully test , seem work 
+pretty well . 
+please let know problem find . 
+problem already know : 
+large button x server ; i.e. 
+standard mit 45 server bottom button 
+chop . 
+work one . 
+: - 
+3 also available dec freeware cd , decus . 
+actually seem dave scott 's port ; please accept apology 
+list incorrectly . 
+correct entry appear soon get 
+necessary information . 
+-- lee 
+system : hp 720 
+porter : ? 
+ftp : , pub 
+note : 
+include hp 720 build , hp patch file , . 
+system : series 
+porter : tim chown 
+system : series 
+ftp : -3 . 
+part 123 . 
+
+system : intel 
+porter : david dawes 
+ftp : , hierarchy 
+note : 
+patch work dell , isc intel 
+svr4 worry . 
+file 3 . 
+. 
+see also : linux 
+system : ibm 
+porter : tom mcconnell 
+compiler : 
+ftp : : . 
+
+note : 
+still problem tty support . 
+
+instance , work . 
+still , everything else work . 
+already install previous patch , 
+put separate patch share library problem . 
+file 
+. 
+. 
+system : linux 
+porter : kenneth osterberg < > 
+: gcc , .2 
+ftp : . 
+
+ftp : 
+note : 
+, uit 
+system : sgi 
+porter : rainer < > 
+ftp : : . 
+
+note : 
+system : series 5 
+porter : tom mcconnell 
+subject : 2 port 
+general , point use 2 3 available ; 
+good idea look 3 port first . 
+move 2 
+3 usually simply matter recompiling , unless 
+`` dirty trick '' use undocumented call . 
+system : stellar 1000 1500 & 3000 
+porter : andy 
+ftp : directory 
+note : 
+kubota pacific kpc 
+system : harris nighthawk 4000 system unix 
+porter : andy warner 
+status : commercial 
+system : 
+porter : ? 
+ftp : : 
+system : 
+porter : tgv inc ? 
+note : 
+steven fenger < > write : 
+company call tgv make product call `` vms '' . 
+make 2.0 library . 
+see advertising 
+3.0 library yet . 
+subject : games free commercial 
+commercial : aviator - flight simulator sparcstation 
+contact : artificial horizons inc , +1 
+requirement : 2 3 , suno 4.1 later , sparc gx 
+free : - minesweeper game base hexagon 
+contact : include subject 
+requirement : 3.0 later 
+toolkit : tnt 3 
+free : 
+free : - pacman game 
+ftp : . 
+
+open look pacman tm surrogate 
+appear debugger - bad guy code bug 
+move around screen ; good guy chase 
+19 '' monitor eat bug . 
+commercial : simcity 
+contact : dux software , los altos , ca 
+price : us$ 89 
+requirement : 3 use news . 
+run : - 
+free : spider include ` demo ' ` ' 
+card game two pack card 
+excellent bitmap card . 
+suggest recompile allow card round edge . 
+free : ftp -2.1 . 
+
+base tool construct get ready casino . 
+-- 
+liam quin , manager contract , softquad inc , +1 
+open look uus faq ; metafont list ; news game ; text retrieval 

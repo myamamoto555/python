@@ -1,0 +1,25 @@
+: marcus schnell 
+subject : re : save 
+organization : international institute applied systems analysis 
+: tin version 1.1 
+lines : 24 
+hans bos write : 
+: follow problem server . 
+: 
+: window obscure pop window 
+: save attribute set , window restore . 
+: normally , redrawn parent window get expose 
+: event , save attribute use pop window 
+: obscure window , expose event send . 
+problem machine work use 
+backing store instead save . 
+marcus 
+
+marcus schnell 
+international institute applied systems analysis iiasa 
+laxenburg austria 
+phone : 2236 715 21 487 
+fax : 2236 731 48 
+australian rules internet 
+football league 1992 , 1993 , ... 
+

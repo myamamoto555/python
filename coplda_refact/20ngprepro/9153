@@ -1,0 +1,68 @@
+: andre beck 
+subject : re : cute x client 
+organization : dept. computer science , tu dresden , germany . 
+lines : 69 
+distribution : world 
+: 
+: . 
+de 
+try : 
+
+
+< . 
+h > 
+< . 
+h > 
+display ; 
+int screen ; 
+, ; 
+cmap ; 
+int cell , , j , red , green , blue , get ; 
+main 
+
+null ; 
+screen ; 
+cell , screen ; 
+cmap , , screen , , screen ,1 ; 
+cell ; 
+; 
+0 ; < cell ; + + - > pixel ; - > flag 7 ; + + ; ; 
+, , screen , , cell ; 
+, cmap , , cell ; 
+, cmap ; 
+get 1 ; 
+get 
+; 
+get 0 ; 
+0 ; < cell ; + + 
+- > red < - > red + 256 ; get 1 ; ; 
+- > green < - > green + 256 ; get 1 ; ; 
+- > blue < - > blue + 256 ; get 1 ; ; 
++ + ; 
+
+, cmap , , cell ; 
+, cmap ; 
+
+get 1 ; 
+get 
+; 
+get 0 ; 
+0 ; < cell ; + + 
+- > red > 256 - > red - 256 ; get 1 ; ; 
+- > green > 256 - > green - 256 ; get 1 ; ; 
+- > blue > 256 - > blue - 256 ; get 1 ; ; 
++ + ; 
+
+, cmap , , cell ; 
+, cmap ; 
+
+
+
+work . 
+hopefully : 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

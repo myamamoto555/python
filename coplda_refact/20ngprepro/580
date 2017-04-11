@@ -1,0 +1,30 @@
+: mike mpu 
+subject : re : permanent swap file 
+organization : mitsubishi electric research laboratories , inc. . 
+lines : 26 
+article < > martin write : 
+
+> first setup window use self load mode grab 
+> 20 meg swap file space , 120 meg hd nearly empty time . 
+> delete window time recently reload , hd nearly full 
+> window take 4 meg . 
+one rule permanent swap file must contiguous 
+space . 
+suspect responsible 
+difference amount free disk , case . 
+> read somewhere best rule thumb 
+> permanent swap file size regular ram size . 
+4 meg 
+> ram window take 4 meg perm swap file . 
+works well . 
+> fact available hd space , 20 meg let make 
+> swap file bigger . 
+> change virtual mem swap file 8 meg think 
+> say ram . 
+depend run . 
+increase swap 
+file think application could 
+run without everything else close . 
+-- 
+mike work 
+mitsubishi electronic research laboratory home 

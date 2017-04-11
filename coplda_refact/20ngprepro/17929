@@ -1,0 +1,159 @@
+: tor 
+subject : program ' 93 , may 23-27 , lofthus , norway 
+organization : university southern california , los angeles , ca 
+lines : 223 
+distribution : world 
+: 
+program ' 93 , may 23-27 , lofthus , norway 
+------------------------------------------------ 
+general chair : kaare 
+email : 
+program chair : tor 
+department informatics 
+university bergen 
+bergen 
+norway 
+email : 
+
+monday , may 24 
+--------------- 
+session 1 : authentication 
+-------------------------- 
+chair : j. 
+9.00 - 9.30 welcome open remark 
+.00 relation code correct independent 
+error , t. johansson , b. smeets lund university , sweden , 
+g. institute problem information 
+transmission , russia 
+.20 optimal authentication systems , r. l. tombak 
+university wollongong , australia 
+.50 coffee tea 
+session 2 : public key 
+---------------------- 
+chair : a. odlyzko 
+.10 factoring integer use simd sieves , b. dixon princeton 
+university , usa a.k. lenstra bellcore , usa 
+.30 new elliptic curve base analogue rsa , 
+n. telecom research laboratories , australia 
+.50 weakness public-key cryptosystem base factorization 
+finite group , j. stern ens , france 
+.00 lunch 
+session 3 : block ciphers 
+------------------------- 
+chair : a. de santis 
+.20 differentially uniform mappings cryptography , 
+k. nyberg technical university vienna , austria 
+.40 permutations differential cryptanalysis , 
+t. beth c. ding eiss , university karlsruhe , germany 
+.10 two new class bent function , 
+c. inria , france 
+.30 boolean function satisfy higher order strict avalanche 
+condition , t.w. cusick suny , buffalo , usa 
+.00 coffee tea 
+session 4 : secret sharing 
+-------------------------- 
+chair : y. 
+.30 size shares probability cheating threshold scheme , 
+m. , a. de santis u. vaccaro university 
+salerno , italy 
+.00 secret share scheme matroid , k. kurosawa , 
+k. okada , k. , w. ogata s. tsujii tokyo institute 
+technology , japan 
+tuesday , may 25 
+--------------- 
+session 5 : 
+
+chair : t. 
+.00 norwegian , e. selmer university 
+bergen , norway invite talk 
+.20 linear complexity products sequence , 
+r. h. austrian academy sciences , 
+vienna , austria 
+.50 coffee tea 
+session 6 : ii 
+---------------------------- 
+chair : d. 
+.20 weakness synchronous stream ciphers , 
+j. daemen , r. j. vandewalle esat , ku leuven , 
+belgium 
+.40 blind synchronization even span , 
+r. games j.j. mitre , usa 
+.10 constructions nonlinearity correlation immune function , 
+j. , x. zhang y. zheng university wollongong , 
+australia 
+.00 lunch 
+session 7 : digital signature 
+
+chair : c. schnorr 
+.30 practical provable secure release secret exchange 
+signature , i.b. aarhus university , denmark 
+.50 subliminal communication easy use dsa , 
+g.j. simmons 
+.10 oss repair , d. naccache gemplus , france 
+.40 coffee tea 
+session 8 : protocol 
+----------------------- 
+chair : k. kurosawa 
+.00 limitations logical analysis cryptographic protocols , 
+c. boyd w. mao university manchester , united kingdom 
+.30 practical anonymous secure voting scheme , k. itoh , c. park 
+k. kurosawa tokyo institute technology , japan 
+.50 rights server environment , 
+j. university barcelona , spain 
+.20 interactive hashing simplify zero-knowledge protocol design , 
+r. ostrovsky uc berkeley , usa , r. venkatesan bellcore , usa 
+m. yung ibm t. watson , usa 
+rump session 
+------------- 
+chair : i. 
+.00 accepted paper : 
+security digital mobile communication systems , 
+c. park , k. kurosawa , t. okamoto s. tsujii tokyo 
+institute technology , japan 
+wednesday , may 26 
+----------------- 
+session 9 : hash function 
+
+chair : b. 
+9.00 - 9.20 one-way accumulator : decentralized alternative digital 
+signature , j. m. de mare clarkson university , usa 
+9.20 - 9.40 attack arl hash function , i.b. 
+l.r. knudsen aarhus university , denmark 
+.10 collision compression function md5 , b. den boer 
+a. esat , ku leuven , belgium 
+.30 find avoid collision knapsack hash function , 
+j. bull , france 
+.00 coffee tea 
+session 10 : payment system 
+
+chair : i.b. 
+.20 single term off-line coins , n.t. ferguson cwi amsterdam , 
+netherlands 
+.40 improve privacy wallet observer , 
+cramer cwi amsterdam , netherlands 
+t.p. pedersen aarhus university , denmark 
+.10 prevent mafia fraud use protocol , 
+s. brands d. chaum cwi amsterdam , netherlands 
+.00 lunch 
+session 11 : cryptanalysis 
+-------------------------- 
+chair : g.j. simmons 
+.20 distribution characteristic bijective mapping , 
+l. o'connor university waterloo , canada 
+.40 security idea block cipher , 
+w. meier htl , switzerland 
+.10 linear cryptanalysis method des cipher , 
+m. matsui mitsubishi , japan 
+.40 new types cryptanalytic attack use related key , 
+e. biham technion , israel 
+.10 coffee tea 
+session 12 : protocol ii 
+------------------------- 
+chair : p. 
+.40 reconciliation secret key public discussion , 
+g. brassard l. university montreal , canada 
+.10 global , unpredictable bit generation without broadcast , 
+d. beaver n. penn state university , usa 
+.40 business meeting 
+
+keyword : 

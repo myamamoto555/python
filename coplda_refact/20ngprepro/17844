@@ -1,0 +1,69 @@
+: william cheng 
+subject : re : want : diagram draw program 
+: 
+organization : ucla , computer science department 
+lines : 51 
+article < > lennart benschop write : 
+> 
+> look program draw various kind diagram linux 
+> system . 
+> 
+> - must free . 
+> - must run standard monochrome x small screen size 800x600 
+> etc. . 
+> - must compile linux + + . 
+generic unix software 
+> work ok . 
+> - must produce postscript file include latex document 
+> . 
+tell another free program convert one 
+> support format p . 
+> - must produce drawing larger window size . 
+> 
+> know several program , , . 
+tgif . 
+
+> experience . 
+feature would like program . 
+> 
+> - ability draw circle , arc , straight line , box arrow . 
+> - support dash solid line style object . 
+> - support text size . 
+> - ability rotate part drawing . 
+> - ability turn part draw library component 
+> e.g. transistor symbol compose three line , arrow circle 
+> - aid numeric coordinate , screen grid align part drawing . 
+> - less essential , fact handy : preservation connection . 
+> move one part drawing , line connect part 
+> rest drawing , stay connect . 
+> 
+> ideally want tool general flexible comfortable 
+> draw electronic schematic , flow chart , logic diagram , datum flow diagram 
+> block diagram . 
+> 
+> want know program offer feature 
+> program ? 
+demand program 
+> respect disk space , memory cpu usage ? 
+program 
+> know work linux monochrome x ? 
+list mention , tgif handle everything except rotation 
+size text . 
+support 90 degree rotation . 
+currently , 
+support 11 standard font size . 
+however , allow arbitrary 
+scaling entire drawing . 
+effectively , allow font size , 
+11 different size per drawing . 
+tgif take compile - o option sparcstation . 
+tell 
+compile linux , try yet . 
+work 
+color monochrome x. 
+-- 
+bill cheng ucla computer science department 
+hall los angeles , california usa 
+... ! 
+uunet | ! 
+

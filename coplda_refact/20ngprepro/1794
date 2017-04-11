@@ -1,0 +1,32 @@
+: daniel mccoy 
+subject : re : compile 
+: 
+organization : inc. . 
+lines : 27 
+article wilson swee < > write : 
+| > piece x code compile fine , , 
+| > well , whenever compile , give 
+| > undefined ld error : 
+| > _ sin 
+| > _ cos 
+| > _ pow 
+| > _ floor 
+| > _ 
+| > _ 
+| > 
+| > follow library link : 
+| > - - - - - 
+| > 
+| > generate template . 
+| > anyone give pointer miss compile 
+| > ? 
+well , first 2 easy . 
+need math library . 
+try add - lm 
+- . 
+know whole problem start . 
+-- 
+daniel j. mccoy | > space < , inc. . 
+nasa mail code | > < tel : 
+space center | > < fax : 
+houston , texas | > future < 

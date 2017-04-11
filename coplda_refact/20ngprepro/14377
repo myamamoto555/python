@@ -1,0 +1,25 @@
+: independent quorum distributor computer seller shipper 
+subject : window 3.1 restart computer ? 
+: 
+organization : indiana university 
+would like know cause window 3.1 problem . 
+every time 
+lines : 22 
+file 30 
+buffer 30 
+device c : \ window \ 
+device c : \ window \ 
+stack 
+also autoexec.bat 
+c : \ 
+c : \ window \ l 
+rem 5.0 setup 
+path c ; c : \ ; c : \ window ; c : \ fax ; c : \ mouse ; c : \ \ ; 
+set temp c : \ windows \ temp 
+mouse ser 2 
+rem 
+c : \ \ share 
+see problem ? 
+please help ... 
+thanks 
+hadi 

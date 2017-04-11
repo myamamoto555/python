@@ -1,0 +1,28 @@
+: tim 
+subject : re : 32-bit box gateway 
+: 
+organization : motorola , inc. , cellular infrastructure group 
+lines : 29 
+article < > scott linn write : 
+> play around gateway 2000 machine last 
+> night , become apparent windows 3.1 give option 
+> 32-bit access virtual memory . 
+> 
+> use permanent swap file , disk drive local 
+> bus interface . 
+> 
+> expect , investigate 32-bit 
+> option appear ? 
+need massage switch . 
+virtual memory section , flip switch 
+associate driver switch . 
+enable 
+access , sure use , hard drive 
+controller support ! 
+... seriously fast disk access : 
+1 throw 
+2 install 
+weekend - incredible . 
+finally real os 
+humble pc : 
+-- tim 

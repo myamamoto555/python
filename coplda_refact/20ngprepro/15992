@@ -1,0 +1,60 @@
+: 
+subject : re : soundblaster irq port setting 
+organization : university helsinki 
+lines : 52 
+paul bartholomew write : 
+
+> interesting . 
+would care explain , soundblaster 
+> pro card printer card share irq 7 successfully ? 
+assure 
+> set irq 7 problem . 
+
+> computer ibm clone . 
+run derivative os , obviously . 
+please take note 
+follow exactly happen , slightly simplify 
+explanation . 
+technically , irq line means device printer 
+adapter , soundblaster , modem , hard disk , ... signal cpu 
+`` something 's happen , please take note . '' 
+cpu 
+program handle signal usually operating system . 
+, `` interrupt vector '' use store address 
+function handle interrupt . 
+, basic dos care whether printer report ready 
+print stuff - simply ignore interrupt . 
+
+dos print , look lpt buffer . 
+character , 
+wait check . 
+, copy new character 
+lpt port . 
+since irq 7 ignore printer interrupt , 
+free use adapter - case , sb . 
+multitasking otherwise advance os , kind printing 
+approach work precisely , waste lot cpu 
+cycle . 
+hence , `` share '' irq 7 sb ` re 
+run unix whatnot . 
+another issue sb digitized sound use 
+interrupt . 
+sb play plain music , cpu simply tell 
+play tell otherwise . 
+digitize sound interrupt 
+require notify cpu output end new datum 
+need . 
+, however , hook two com port one interrupt , use 
+one time . 
+interrupt handling routine 
+port , see port datum come 
+. 
+, course , apply device like lpt well . 
+remember , greatly simplify part , think give 
+general picture correctly enough . 
+cheers , 
+-- 
+juha , aka 
+university helsinki , dept. lose soul 
+`` trust , know . '' 
+- sledge hammer 

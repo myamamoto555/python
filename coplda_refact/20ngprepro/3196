@@ -1,0 +1,30 @@
+: 
+subject : re : ad conversion 
+organization : city college new york - science computing facility 
+lines : 33 
+work datum acquisition analysis program collect datum 
+insect sensory organ . 
+another alternative use sound input port . 
+> 
+> really make due non-existent dynamic range 8-bit 
+> converter , probably dubious linearity monotonicity , perhaps 
+> well ? 
+would depend requirement poster 's datum , 
+purpose resolution without calibration curve . 
+otherwise possibility would : 
+1 get digital serial output & connect serial 
+port mac , collect datum communication program . 
+2 buy chip analog device , , etc , connect 
+parallel serial converter , use serial port acquisition 
+nah . 
+much soldering trouble shooting : - 
+3 get board national instruments , data translation , omega , 
+etal . 
+finest solution , possibly costly . 
+original poster : signal large , 
+use voltage divider ? 
+two resistor , cost cheap ... 
+-- 
+- george 
+
+

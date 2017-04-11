@@ -1,0 +1,45 @@
+: david c blume 
+subject : move datum fast enough !? 
+summary : disk - > buffer - > network card 
+keywords : nubus , scsi , disk , throughput 
+organization : videos 
+lines : 43 
+want achieve overall throughput rate around 5 megabyte sec 
+large datum transfer . 
+around 5 mb . 
+quadra 950 . 
+nubus network card pump datum mac memory 8.5 . 
+use transfer 
+high-speed disk array asynchronous pb call 
+achieve 6.8 . 
+let 's say transfer go disk buffer network card . 
+enough first transfer datum disk buffer , 
+transfer datum buffer card . 
+6.8 8.5 
+result overall 3.8 . 
+slow ! 
+try follow scheme : transfer , 
+step 1 : load 1st mb disk buffer . 
+step 2 : send 1st mb card , load 2nd mb disk buffer . 
+step 3 : send 2nd mb card , load 3rd mb disk buffer . 
+... 
+step n : send n-1 mb card , load nth mb disk buffer . 
+step n +1 : send nth mb card . 
+even though code apparently execute card transfer asynchronously , 
+card use mac cpu , use buffer , tho ' 
+step 2 n take long two transfer 
+execute one another . 
+improvement rate . 
+? 
+mac ram ? 
+nubus card disk driver 
+access datum time . 
+problem two device , card disk driver , use 
+bus mac ram ? 
+anything ? 
+-- david 
++ + 
+| david blume | `` get tired thinking thing | 
+| | want . '' 
+-- bukowski , _ barfly _ | 
++ + 

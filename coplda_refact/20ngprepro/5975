@@ -1,0 +1,42 @@
+: edward bolson 
+subject : re : sphere 4 point ? 
+organization : university washington , seattle 
+lines : 33 
+distribution : world 
+: 
+plan post summary response soon work 
+code , also include . 
+intersection 3 plane method 
+look best , implementation base short article 
+graphics gem work . 
+may misinterpret , course . 
+avoid simultaneous solution plane equation favor 
+dot cross product , former may actually better . 
+either 
+case matrix determinant need compute implicitly solution 
+linear equation . 
+get plane , take midpoint line , say , 
+p1 p2 , set normal `` normalize '' vector p1 p2 . 
+plug graphics gem . 
+however , result 
+center point occasionally equidistant 4 test point 
+different test . 
+math rusty , look like 
+need verify , use simultaneous equation solution , 
+require bring another routine easy 
+find . 
+another method first find center circle define 2 set 
+3 point , intersect normal . 
+would also define 
+circle center . 
+however , small numerical imprecision would make 
+line intersect . 
+supposedly 3 plane intersect unique 
+point parallel . 
+ed 
+thanks answer far . 
+-- 
+ed bolson 
+university washington cardiovascular research 
+prefer 
+must 

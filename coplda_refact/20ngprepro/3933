@@ -1,0 +1,154 @@
+: robert grant 
+subject : virtual reality x cheap ! 
+organization : , los angeles 
+lines : 187 
+distribution : world 
+: robert grant 
+: 
+hus everyone , 
+think people may interested vr 
+software group : 
+announce release 
+multiverse multi-user , , base virtual reality 
+system , primarily focus . 
+feature : 
+client-server base model , use berkeley sockets . 
+limit number user apart performance . 
+generic client . 
+customizable server . 
+object allow attachment camera light source . 
+multiple light source ambient , point spot . 
+object extension code , handle unique functionality , easily 
+attach . 
+functionality : 
+client : 
+client build around ` fast ' render loop . 
+basically change thing 
+tell server render image user 's 
+viewpoint . 
+also provide server information user 's 
+action - communicate client therefore 
+user . 
+client design generic - word need 
+develop new client want enter new world . 
+mean 
+resource spend enhance client software rather adapt 
+. 
+adaptation , explain moment , occur server . 
+release client software support follow functionality : 
+o hierarchical object associate address 
+o multiple light source type ambient , point spot 
+o user interface panels 
+o colour polygonal render phong shading optional wireframe 
+faster frame rate 
+o mouse keyboard input 
+people may disappoint software support 
+input device - , 
+one ! 
+, however , one first enhancement ! 
+server : 
+customization take place . 
+follow basic support 
+provide release potential world server developer : 
+o transparent client management 
+o client message handling 
+may sound like much , take away headache 
+accept 
+terminate client receive message - 
+application writer 
+work assumption thing happen locally . 
+thing get interesting object extension functionality . 
+
+provide allow animate object : 
+o server selectable extension installation : 
+mean decide object extend 
+functionality world . 
+basically call extension 
+want . 
+o event handler registration : 
+develop extension object basically write callback 
+function event want object respond . 
+current event support : init , move , change , collide & terminate 
+o collision detection registration : 
+want object respond collision event provide 
+basic information collision detection management software . 
+callback activate collision occur . 
+software keep separate application 
+application developer want build library extended object 
+choose . 
+following need make world server application : 
+o provide function : 
+choose object extension support , plus 
+initialization want . 
+o provide function : 
+determine place new client . 
+o provide function : 
+load world . 
+file new client . 
+o provide function : 
+tell new client persona . 
+o provide function : 
+go wild ! 
+minimum let object 
+move call move function let server sleep bit 
+avoid outrun client . 
+! 
+prove line count 
+three world server provide : 
+generic - 81 line 
+dactyl - 270 line complicated collision detection due 
+stair ! 
+probably improve future 
+version 
+dogfight - 72 line 
+location : 
+software located follow site : 
+
+directory : 
+
+file : 
+. 
+
+future : 
+client : 
+o texture mapping . 
+o realistic render : i.e. similar , gouraud shade 
+o hmd support . 
+o etc , etc. ... 
+server : 
+o physical modelling gravity , friction etc . 
+o enhance object 
+o etc , etc. ... 
+: 
+o improved comms !!! 
+hope provide people good understanding multiverse 
+software , 
+unfortunately come practically zero documentation , sure 
+whether ever able rectify ! 
+: - 
+hope people enjoy software useful exploration 
+virtual universe - certainly find fascinating develop , 
+would love add support ... hmd !! 
+finally one major disclaimer : 
+totally amateur code . 
+mean support code 
+, kindness heart , , pure 
+desperation , provide . 
+hold responsible anything good bad 
+may happen use code - use risk ! 
+disclaimer ! 
+course love , would like . 
+anyone 
+positive also encourage contact . 
+anyone 
+hate : > ! 
+
+
+anyone want let living : know 
+write ! 
+
+
+thanks , 
+robert . 
+
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 

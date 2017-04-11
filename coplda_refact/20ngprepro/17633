@@ -1,0 +1,20 @@
+: 
+subject : re : leak memory resource 3.1 
+: 
+organization : colorado supernet , inc. . 
+: tin 1.1 
+lines : 13 
+daniel mittleman write : 
+: may faq , please direct known answer 
+: get frustrated look help . 
+: 
+: run win 3.1 2.2 8 meg memory 
+: 6 meg perm swap file get exceedingly frustrated 
+: application give back system resource close . 
+: 
+notice also . 
+way explain windows 
+clear upper memory block program . 
+anyone 
+know ? 
+: 

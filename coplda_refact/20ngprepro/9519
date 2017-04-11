@@ -1,0 +1,52 @@
+: karen rogers 
+subject : remapping key dialog 
+organization : dupont central research & development 
+lines : 58 
+new x programming , please bear ... 
+try dialog box return value upon 
+user enter new value hit key . 
+want 
+`` '' button . 
+piece code work 
+exclude argument work . 
+someone 
+shed light suggest better way ? 
+ultimately 
+several area active time allow user modify 
+parameter program . 
+thanks help , 
+karen rogers 
+dupont 
+
+code start 
+void doit 
+
+printf `` enter doit function \ n '' ; 
+exit ; 
+
+main , 
+int ; 
+char ; 
+
+widget ; 
+widget outer ; 
+; 
+widget sample ; 
+arg arg 3 ; 
+static 
+
+`` doit '' , doit , 
+; 
+& , `` test '' , null , 0 , 
+& , , null , null ; 
+outer `` pan '' , , , 
+null , zero ; 
+, , ; 
+arg 0 , , `` enter value '' ; 
+arg 1 , , `` 0 '' ; 
+sample `` sample '' , , outer , arg ,2 ; 
+sample , 
+'' return : doit '' ; 
+; 
+; 
+

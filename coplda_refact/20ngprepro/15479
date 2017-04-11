@@ -1,0 +1,47 @@
+: 
+subject : re : ir remote control receiver 
+lines : 37 
+: 
+organization : yale university , department computer science , new haven , ct 
+article < > , duane p write : 
+> marc dion write : 
+> 
+> 
+project , would like build infra-red remote control 
+receiver regular vcr tv remote . 
+anybody info 
+tip build receiver ? 
+particular , 
+photo detector use wavelength remote use ? 
+b ic circuit use ? 
+c suggestion circuit layout 
+> 
+> another suggestion - find brand tv use ir remote , 
+> go look sam . 
+often find 
+> detailed schematic part list receiver 
+> transmitter well , include carrier freq . 
+spec . 
+tone decoding 
+> spec . 
+system use . 
+> 
+probably help . 
+would willing bet _ every _ manufacturer 
+use little self-contained module . 
+think sharp make . 
+radio shack use sell buck maybe still . 
+module 3 lead : power , ground demodulated output . 
+
+contain , amplifier , integrator demodulator 
+tiny metal . 
+want buy one , try radio shack , else tv repair shop 
+probably order one . 
+btw - carrier frequency 40 khz , 
+different manufacturer use unique pulse 
+scheme perform different function equipment . 
+jim ritterbusch 
+- - temp , rf 
+art , guide say , rather knack fly . 
+
+knack lie learn throw ground miss . 

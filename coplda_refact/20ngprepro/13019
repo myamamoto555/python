@@ -1,0 +1,17 @@
+: steinert d 
+subject : event - > multiple client 
+: steinert d 
+organization : oak ridge national laboratory 
+lines : 14 
+capture event multiple client ? 
+want know user still display lock screen . 
+get pointer motion event , user 
+press mouse button location mouse move 
+capture event . 
+o'reilly xlib programming manual vol . 
+1 say page 252 ; 
+`` one client select button event one window one time , 
+due grab automatically take place . '' 
+help would appreciate . 
+steinert 
+

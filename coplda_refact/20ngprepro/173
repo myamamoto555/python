@@ -1,0 +1,67 @@
+: cornelis wessels 
+subject : point within polygon 
+organization : 
+lines : 71 
+article < > write : 
+> 
+> look algorithm determine give point bind 
+> polygon . 
+anyone code reference book contain 
+> information subject ? 
+> 
+> regards 
+> 
+> simon 
+> 
++ + 
+| | 
+| function : | 
+| | 
++ + 
+| | 
+| auteur : cornelis wessels | 
+| | 
+| datum : | 
+| | 
+| : de p op de | 
+| rand van het p . 
+| 
+| | 
++ + 
+| | 
+| : - | 
+| | 
++ + 
+p , p 
+
+o , v , w ; 
+index , n , n ; 
+0 ; 
+n p ; 
+p , n , & o ; 
+n 1 ; n < n ; n + + 
+
+p , n , & v ; 
+> p - > x & & < p - > x | | 
+< p - > x & & > p - > x 
+
+p - > x ; 
+& o , & v , & w ; 
+p - > x & & p - > y 
+return ; 
+else > p - > y 
++ + ; 
+
+& v , & o ; 
+
+% 2 0 
+return ; 
+else 
+return ; 
+
+cornelis wessels 
+14 
+zt rotterdam 
+netherlands 
+
+

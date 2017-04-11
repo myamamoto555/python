@@ -1,0 +1,18 @@
+: ian hawkins 
+subject : make odd resistor value require filter 
+organization : manchester computing centre 
+lines : 14 
+construct active filter , odd value resistor often require 
+i.e. something like 3.14 k ohm resistor . 
+seem best choose common 
+capacitor value cope strange resistance demand . 
+pd program work best make 
+resistance , give fix resistor standard 12 value per decade ? 
+. 
+1 , 
+etc . 
+common enough problem , yet cant 
+recall seing program tell rx + ry rz give rq , start 
+q finding prefer value x , y z. 
+cheers 
+ian h 

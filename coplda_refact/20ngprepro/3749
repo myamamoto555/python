@@ -1,0 +1,23 @@
+: terry maclean 
+subject : modify key map ? 
+organization : national capital freenet , ottawa , canada 
+lines : 35 
+hello folk , 
+see error try modify key map : 
+mwm : invalid accelerator , line x 
+add line start file line 
+start mwm . 
+look like following : 
+
+mwm 
+think problem conflict 
+function key f1 f7 already assign 
+function e.g. move , minimize , etc . 
+odd thing see error run 
+
+. 
+anyone suggest way modify key map , specifically 
+f1 f7 mwm motif window manager complain . 
+realize bit stupid , time 
+implement , time learn implement . 
+terry 

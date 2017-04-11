@@ -1,0 +1,23 @@
+: david 
+subject : re : pink noise 
+: david 
+organization : carderock division , , bethesda , md 
+lines : 18 
+, tony wayne write : 
+> pink noise use sound experiment ? 
+pink noise constant power per geometric frequency increment 
+octave , octave , etc . 
+thus octave 
+amount noise power octave . 
+white noise constant power per arithmetic frequency increment 
+hz , khz , etc . 
+thus .1 khz band amount 
+noise power band band wide . 
+pink noise make pass white noise thru -3 
+filter usually approximate network several rc pair . 
+note : get -3 use half -6 network 
+: - 
+pink noise commonly use audio power response measurement . 
+show audio spectrum analyzer band 
+flat line across band . 
+

@@ -1,0 +1,23 @@
+: wout 
+subject : re : pink noise 
+: 
+organization : delft university technology , dept. electrical engineering 
+lines : 23 
+tony wayne write : 
+> pink noise use sound experiment ? 
+> - tony 
+pink noise random signal low-frequency component 
+white noise . 
+look frequency spectrum white noise frequency 
+analyzer , find spectrum power density flat , 
+means every frequency present noise signal . 
+often pink noise obtain white noise integrate low-pass 
+filter white noise signal . 
+therefore pink noise contain much 
+low-frequency component . 
+effect pink noise sometimes use simulate thunder roaring 
+animal . 
+additional low-pass filter variable cutoff frequency 
+explain . 
+enjoy . 
+wouter . 

@@ -1,0 +1,305 @@
+subject : diff frequently ask question 
+: jon leech 
+expire : 6 may 1993 gmt 
+organization : university north carolina , chapel hill 
+supersedes : < > 
+: 
+lines : 294 
+: 
+diff since last faq posting post order 
+context diff ; attempt use patch 
+old copy faq . 
+
+diff - - c - r1 .18 
+tmp , thu apr 1 1993 
+-- thu apr 1 1993 
+
+
+nasa langley technical reports 
+nasa 
+national space science data center 
+- space planetary image facility 
+space telescope science institute electronic info . 
+service 
+
+astronomical database 
+-- -- 
+
+
+-- -- 
+llnl `` great exploration '' 
+lunar prospector 
+lunar science activity 
++ orbiting earth satellite history 
+spacecraft model 
+rocket propulsion 
+spacecraft design 
+
+diff - - c - r1 .18 
+tmp , thu apr 1 1993 
+-- thu apr 1 1993 
+
+
+-- -- 
+element send list dr. kelso , jsc , source 
+release . 
+email join . 
++ gps digest moderate list discussion global positioning 
++ system satellite navigation position system . 
+email 
++ join . 
++ 
+list information relevant invest 
+space-related company . 
+email vincent cate join . 
+
+
+-- -- 
+1030 . 
+fact learn unauthorized access , contact 
+nasa personnel . 
++ claim make news group fraud waste . 
+none 
++ ever substantiate significant degree . 
+reader 
++ detect fraud , waste , abuse , mismanagement contact nasa 
++ inspector general 24-hours anonymous write 
++ 
++ nasa 
++ inspector general 
++ p.o. box 
++ l'enfant plaza station 
++ washington dc 
+next : faq # - online offline source image , datum , etc. . 
+
+diff - - c - r1 .18 
+tmp , thu apr 1 1993 
+-- thu apr 1 1993 
+
+
+telephone : 
+email address : 
+- 
+- 
+- space planetary image facility 
+- 
+- available 24 hour day via anonymous ftp . 
+
+- approximately 150 cd-rom 's full imagery , raw , tabular datum . 
+
+- start , get file : 
+- 
+- : 
+- 
+- hopefully give information need get datum 
+- machine . 
+translate 
+- language , look inside particular language 
+- meet need . 
+- 
+- contact . 
+space telescope science institute electronic information service 
+-- -- 
+
+diff - - c - r1 .18 
+tmp , thu apr 1 1993 
+-- thu apr 1 1993 
+
+
+-- -- 
+give series compute position accurate 1 arc minute 
+period + - 300 year . 
+pluto include state 
+accuracy 15 arc minute . 
++ 
++ _ multiyear interactive computer almanac _ mica , produce us 
++ naval observatory . 
+valid year 1990-1999 . 
+$ 55 $ 80 outside us . 
++ available ibm order macintosh order 
++ . 
+nti sale desk , 703 . 
+believe 
++ intend replace usno 's interactive computer ephemeris . 
+_ interactive computer ephemeris _ us naval observatory 
+distribute ibm-pc floppy disk , $ 35 . 
+cover date 
+
+diff - - c - r1 .18 
+tmp , thu apr 1 1993 
+-- thu apr 1 1993 
+
+
+us naval observatory 
+usno bulletin board via modem 
+general 
+- nautical almanac office info interactive 
+- computer 
+
+p.o. box 
+-- -- 
+
+
+sdi 's single stage rocket technology project fund 
+suborbital technology demonstrator call fly 
+mid-1993 . 
+development towards operational single-stage 
+! 
+orbit vehicle uncertain present ; considerably detail 
+! 
+program , get document 
+! 
+: 
+! 
+anonymous ftp email server . 
+name star person 
+official name decide committee international 
+-- -- 
+sdi 's single stage rocket technology project fund 
+suborbital technology demonstrator call fly 
+mid-1993 . 
+development towards operational single-stage 
+! 
+orbit vehicle call delta clipper uncertain present . 
+! 
+collection picture file relate available 
+! 
+anonymous ftp email server directory 
+! 
+: 
++ chris w. johnson maintain archive . 
++ 
+name star person 
+official name decide committee international 
+
+
+-- -- 
+university press , 1970 . 
+information lunar orbiter mission , 
+include map coverage lunar nearside farside 
+various orbiter . 
++ 
++ 
++ orbiting earth satellite histories 
++ 
++ list earth orbit satellite still orbit 
++ available anonymous ftp : 
++ 
++ : satellite 
+spacecraft model 
+
+diff - - c - r1 .18 
+tmp , thu apr 1 1993 
+-- thu apr 1 1993 
+
+
+-- -- 
+latter , sf 171 useless . 
+employee caltech employee , 
+contractor , part similar responsibility . 
+offer alternative funding nasa centers . 
++ 
++ fact sheet description jpl available anonymous 
++ ftp 
++ 
++ : 
+nasa johnson manned space center jsc 
+houston , tx 
+
+diff - - c - r1 .18 _ probe 
+tmp , thu apr 1 1993 
+-- _ probe thu apr 1 1993 
+
+
+-- -- 
+team , launch schedule , press kit . 
++ asuka - isa japan x-ray astronomy satellite , launch 
++ earth orbit . 
+equip large-area 1-20 
++ angstrom x-ray telescope , x-ray ccd camera , imaging gas 
++ scintillation proportional counter . 
++ 
++ 
+cassini - saturn orbiter titan atmosphere probe . 
+cassini joint 
+project design accomplish exploration saturnian 
+system cassini saturn orbiter huygens titan probe . 
+cassini 
+
+
+magellan - venus radar mapping mission . 
+map almost entire 
+! 
+surface high resolution . 
+currently map cycle 4 , 
+! 
+collect global gravity map . 
+mar observer - mars orbiter include 1.5 resolution camera . 
+! 
+launch titan booster . 
+mo currently 
+transit mars , arrive . 
+operations start 
+one martian year 687 day . 
+! 
+- joint earth observe satellite , launch 
+! 
+august 1992 ariane 4 booster . 
+primary objective 
+project make precise accurate global 
+observation sea level several year , substantially 
+increase understanding global ocean dynamics . 
+satellite also 
+-- -- 
+magellan - venus radar mapping mission . 
+map almost entire 
+! 
+surface high resolution . 
+currently collect global gravity 
+! 
+map . 
+mar observer - mars orbiter include 1.5 resolution camera . 
+! 
+launch titan booster . 
+mo currently 
+transit mars , arrive . 
+operations start 
+one martian year 687 day . 
+! 
+- joint earth observe satellite , launch 
+! 
+ariane 4 booster . 
+primary objective 
+project make precise accurate global 
+observation sea level several year , substantially 
+increase understanding global ocean dynamics . 
+satellite also 
+
+diff - - c - r1 .18 
+tmp , thu apr 1 1993 
+-- thu apr 1 1993 
+
+
+specific standard : 
+distant visual acuity : 
+! 
+better uncorrected , 
+correctable , eye . 
+blood pressure : 
+measure sit position . 
+! 
+3 . 
+height 60 76 inch . 
+pilot astronaut candidate : 
+-- -- 
+specific standard : 
+distant visual acuity : 
+! 
+better uncorrected , 
+correctable , eye . 
+blood pressure : 
+measure sit position . 
+! 
+3 . 
+height 58.5 76 inch . 
+pilot astronaut candidate : 

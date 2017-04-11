@@ -1,0 +1,45 @@
+: larry d. 
+subject : re : mix gl x xlib , xt , mwm 
+: 
+organization : texaco 
+lines : 36 
+article < > , jay graham write : 
+| > 
+| > develop x xt , xm application include graphic window 
+| > sort move symbol among thing . 
+pure x application 
+| > could implement motif widget , one would 
+| > draw xlib . 
+would like take advantage 
+| > graphics library gl available ibm sgi 's gl believe . 
+| > 
+| > possible mix x gl one application program ? 
+| > use gl subroutine x window open 
+| > ? 
+widget already define gl . 
+motif 
+athena widget . 
+similar , except 
+allow use gl call render window . 
+look , 
+, , man page . 
+| > never use gl , doc gl say first 
+| > time call open connection server . 
+also , 
+| > gl call require display gc , unlike x call . 
+
+| > initial information appear x gl mixed easily . 
+
+| > true ? 
+widget work pretty well . 
+opengl improvement . 
+| > pex ? 
+functionality gl ? 
+think gl little easier use little powerful , 
+opinion . 
+mileage may vary . 
+-- 
+larry d. view express 
+internet : employer anyone 
+voice : know possible 
+exception . 

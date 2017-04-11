@@ -1,0 +1,44 @@
+: s. 
+subject : re : , linux , risc ? 
+: turing 
+organization : computing laboratory , u newcastle upon tyne , uk ne1 . 
+lines : 47 
+article < > , write : 
+> article < > write : 
+
+dear friend , 
+risc mean `` reduce instruction set computer '' . 
+risc usually 
+small instruction set reduce circuit complex increase 
+clock rate high performance . 
+read book 
+computer architecture information risc . 
+> 
+> hmm ... authority risc clearly remember 
+> reading instruction set risc cpus rather large . 
+> difference address mode - risc instruction set 
+> orthogonal cisc . 
+> 
+hope clear : 
+take one lecture note 
+'' ... alternative approach cisc , 
+adopt many 
+recent year , come know `` risc '' : reduce 
+instruction set computer . 
+characterise simply 
+`` simpler faster '' ; simplify design e.g. reduce 
+variety instruction & address mode , hardware 
+design run faster . 
+even cost need 
+instruction , task quickly simpler , 
+faster design . 
+typical risc processor : 
+o provide large number register e.g. 32 ; 
+o perform datum operation register ; 
+o provide address mode e.g. immediate ` register + offset ' ; 
+o allow load & store operation access memory ; 
+o use instruction format ; 
+o support datum type e.g. integer , unsigned , float . 
+steffi janet : 
+odds million one something occur , chance 
+50-50 . 

@@ -1,0 +1,89 @@
+: steve bollinger 
+subject : re : stereo sound problem ? 
+mac game 
+organization : apple computer , inc. . 
+lines : 68 
+article < > ingemar , 
+write : 
+enter game developer . 
+sound driver current sound manager 
+inconveniently lame make game . 
+> 
+> sound driver pretty ok , since fast . 
+sound manager use 
+> book useless . 
+disposing sound channel soon sound 
+complete 
+> question game smooth animation . 
+slow . 
+would dispose channel go play 
+sound soon ? 
+try write game , 
+use . 
+instead , make channel use 
+play sound . 
+work great . 
+add callbacks 
+channel also let know channel get 
+empty . 
+get empty . 
+> 
+> sound driver much snappier sound manager . 
+unfortunately , 
+> system 7 support poorly , make program crash occasionally . 
+> 
+moral story developer : cheat ! 
+> 
+> well , want code work old system . 
+know sy 
+7.1 , 
+> least , bug sound manager cause 
+> channel hang error message . 
+happend keep 
+> channel open long period - necessary performance - play many 
+> sound , stop sound halfway . 
+callbacks seem reliable . 
+> way safely tell sound stop play 
+> inspect private variable channel , think , 
+> way find tell channel hang inspect 
+> undocumented flag modify . 
+callback reliable , find 100 % reliable , even 
+system 4.1 . 
+continuous background sound 
+interrupt sound effect system 6.0 
+documentation . 
+probably cancel callback command 
+channel , course get call . 
+general , 
+problem sound work play one per 
+channel close channel related 
+slowdown , play one 
+work , add one synthesizer 
+channel , possibly one multiple time . 
+might 
+call channel 
+sound resource add sample sound synthesizer 
+channel first thing play . 
+sample sound 
+command start . 
+need 
+sound remove command , create 
+channel , specify sample sound synthesizer 
+channel 's synth . 
+use 's 
+want . 
+'ll probably want switch 's , since 
+go use anyway add callback . 
+go ahead tell full , 
+sound manager work game , remember , spectre use 
+. 
+work great . 
+spectre spare cpu time , 
+. 
+one little disclaimer : say 
+sound manager make work right . 
+
+sure either way , know sure make 
+sound work 100 % correctly every machine use 
+sound manager . 
+- steve 

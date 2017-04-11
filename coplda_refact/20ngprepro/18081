@@ -1,0 +1,27 @@
+: t. 
+subject : re : scsi vs. ide 
+: 
+organization : university colorado , boulder 
+lines : 17 
+article < > mika write : 
+> write : 
+scsi card dos system require separate device driver 
+load memory device hook ? 
+> 
+> . 
+see also on-board bio enable 
+> use 2 hard drive directly dos 2 drive 
+> limitation problem ide 
+> standard matter . 
+software driver often allow better 
+> performance , though . 
+use want use 
+> device besides hard disk 2 disk . 
+> 
+. 
+always , among require driver 7 
+hard drive . 
+dos 2 drive maximum , already 3 . 
+
+hardware , software driver . 
+

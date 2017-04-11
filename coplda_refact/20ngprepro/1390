@@ -1,0 +1,8 @@
+: 
+subject : re : drawing lines 
+organization : portal system tm 
+< > < > 
+lines : 3 
+also set foreground xor foreground background 
+color : ... , fg ^ bg ; work great least 
+visual . 

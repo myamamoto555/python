@@ -1,0 +1,51 @@
+: steve 
+subject : re : colours ? 
+summary : illumination equation 
+organization : kubota pacific computer , inc. . 
+lines : 44 
+adrian secchia write : 
+| incident ray strike object point p ... reflect 
+| ray r transmitted ray calculate formula . 
+| 
+| call routine recursively r return color 
+| along ray r . 
+object 
+| color light source 1 < < n . 
+| 
+| question : 
+| combine , , 's get 
+| correct result color return along ray ? 
+first snide response , confuse 
+issue , stumble lot thing well . 
+suggest 
+weakness reference material . 
+get `` introduction ray 
+trace '' andrew glassner good coverage 
+algorithm . 
+could also refer 2nd edition foley & van dam . 
+question . 
+simple answer keep add 
+contribution clamp maximum intensity . 
+
+example , intensity value range 0.0 1.0 , keep add 
+clamp resultant value 1.0 might clamp lower 
+bind 0.0 dark bulb , another issue ^ . 
+, 
+get illumination equation like : 
++ light n + + 
+contribution due reflection sum light 
+intensity , light due transparency . 
+, slightly less 
+illumination equation : 
++ light n + + 
+, component illumination equation govern 
+material constant ka , kd , kr kt . 
+maximum get 
+transparency give object , example , might 0.4 , 0.1 , 0.5 
+glass object . 
+hopefully answer question . 
+'ll forward `` illumination 
+equation sermon '' also . 
+
+steve kubota pacific computer , inc. . 
+santa clara , california 

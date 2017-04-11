@@ -1,0 +1,98 @@
+: chris lilley 
+subject : re : colour transform colour blindness 
+: 
+organization : computer graphics unit , mcc 
+lines : 96 
+article < > , 
+geoffrey warren hicks write : 
+> post behalf craig access 
+> net account : 
+> 
+> anyone provide color space transform would 
+> emulate effect color blindness ? 
+
+> quick look computer graphic literature result . 
+> perhaps someone access medical information could help ? 
+certainly . 
+reference follow . 
+bear mind least two condition may call 
+color blind . 
+one , , cause lack major 
+dysfunction l cone , respond best long 
+wavelength . 
+give much reduce discrimination 
+also mean red look dimmer people normal vision . 
+, , due miss dysfunctional m cone although 
+also cause lack cone difference signal retina . 
+also give reduce discrimination unaffected . 
+unlike , red dimmer normal . 
+uniform chromaticity diagram - horseshoe shape one see computer 
+graphic book - single confusion point type color 
+deficiency . 
+colours confuse lie straight line radiate 
+point . 
+point u ' 0.61 , v ' 0.51 , close far red 
+corner . 
+, point u ' , v ' 1.31 
+note different experimental investigation literature give slightly 
+different value depend precise detail experimental 
+setup , random error , . 
+value quote typical . 
+color line see , color actually see ? 
+problem solve . 
+test people one normal eye one 
+affect eye show axis type disorder onto 
+color collapse . 
+join 
+spectral locus edge horseshoe ; line 
+similar , join . 
+convert color normal vision simulated 
+: 
+1 plot color uniform chromaticity diagram 
+2 construct line point appropriate confusion point 
+3 find intersection line appropriate axis line 
+4 new chromaticity . 
+best reference meyer , g.w. & greenberg , d.p. 1988 ` colour 
+defective vision computer graphic display ' , ieee computer graphics 
+application 8 5 . 
+also need decent reference basic color science 
+familiar cie xyz color model uniform chromaticity scale diagram . 
+> would like write program probably ppm filter allow 
+> preview image check sufficient contract color 
+> blind user . 
+color blind , bit difficult ! 
+yes certainly possible . 
+need chromaticity red 
+green blue phosphor monitor intend display image , 
+chromaticity white point . 
+information measure , 
+obtain manufacturer . 
+post list monitor chromaticity 
+couple week ago . 
+procedure , pixel ! 
+follow . 
+lookup table might 
+help . 
+convert rgb cie xyz . 
+simple 3 3 matrix multiplication 
+monitor datum . 
+b retain y component later , convert xyz chromaticity coordinate u ` v ' 
+use u ' 4x x +15 y +3 z , v ' x +15 y +3 z 
+c find equation line step 2 
+d find intersection step 3 
+e convert back u ` v ' xyz , use y value step 
+f ensure new color display monitor ; , move 
+along line xyz space towards neutral gray ie half way black 
+white . 
+> please email reply - summarise repost 
+> sufficient interest 
+; also post rest . 
+-- 
+chris lilley 
+
+technical author , computer graphics visualisation training project 
+computer graphics unit , manchester computing centre , oxford road , 
+manchester , uk . 
+m13 internet : 
+voice : +44 0 fax : +44 0 janet : 
+

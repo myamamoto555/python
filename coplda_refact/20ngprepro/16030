@@ -1,0 +1,12 @@
+: rick turner 
+subject : re : ? 
+disclaimer : post represent poster 's view , necessarily ibm . 
+: 
+organization : ibm uk labs 
+lines : 5 
+use pbm 's ` ' convert three raw r , g , b file pgm format . 
+use convert pgm file composite ppm file , 
+feed compression . 
+slow , circuitous , 
+work . 
+rick 

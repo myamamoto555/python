@@ -1,0 +1,19 @@
+: pond scum 
+subject : re : get color frame ? 
+organization : island graphics corp. . 
+lines : 17 
+alok mathur write : 
+> would like know set depth frame 24 bit . 
+> try use follow xlib code : 
+> use completely wrong approach ? 
+possible set depth 
+yes . 
+> window create ? 
+wrong ? 
+look . 
+also , might want try use segment 
+instead xlib stuff . 
+probably easier 
+use , since use visual , 
+lose anything compare straight xlib . 
+- jonathan 

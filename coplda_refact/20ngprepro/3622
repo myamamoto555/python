@@ -1,0 +1,32 @@
+: paul 
+subject : interface question 
+: paul 
+organization : data general corporation , westboro , ma 
+lines : 26 
+interface simple circuit run 9v 
+cpu board run . 
+. 
+lead side , put signal want 10k resistor 
+base . 
+transistor side , tie 
+cpu input line collector pull-up resistor 
+. 
+function ok , seem slow . 
+detect pulse 
+occur , much faster . 
+
+time device , something like ? 
+
+able detect target , get . 
+use wire go cpu 
+test pin 8 inch long , 
+anything high-speed . 
+art electronics , mention tie base 
+ground resistor improve 
+speed . 
+need ? 
+calculate 
+resistor value ? 
+-- 
+paul 
+@ 

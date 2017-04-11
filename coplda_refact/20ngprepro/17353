@@ -1,0 +1,46 @@
+: mark a. davis 
+subject : re : blinking cursor ??? 
+organization : lake taylor hospital computer services 
+lines : 38 
+michael elbel write : 
+> < > write : 
+quote < > bernward : 
++ --------------- 
+> back day x11 .1 analyze code . 
+cursor 
+> implement draw rectangle around character . 
+
+> seem change 'til . 
+> source could add blinking cursor via 
+> similar . 
+server overhead mildly ridiculous , though see also , 
+dos window . 
+really want wake every 
+half second whack server ? 
+> ? 
+run emu 25 mhz 68020 box . 
+make 
+> difference performance whether cursor set blinking 
+> think bit , cycle 400 m hell lot 
+> time even slowest pc . 
+since would course enable 
+> blinking text cursor input focus , 
+> application active anyway . 
+repeat , blinking text cursor 
+> cost almost nothing performance , need think 
+> design software . 
+stick distribute system feedback loop ! 
+
+run net another machine ? 
+
+load problem occur . 
+machine 20 attach 
+blinking cursor 's , could represent considerable 
+ethernet bandwidth waste . 
+pick , people keep forget lot life 
+besides distribute `` workstation '' ! 
+-- 
+\ 
+| mark a. davis | lake taylor hospital | norfolk , va 804 | 
+| | computer services | | 
+\ 

@@ -1,0 +1,20 @@
+: harry wolfson 
+subject : re : 1.2 color problem 
+keyword : mac x color window 
+organization : mit lincoln laboratory 
+lines : 16 
+stan kerr write : 
+> type client window display , part window 
+> wrong color ; window move slightly , force server 
+> repaint , repaint correct color . 
+happen 
+exact problem run hewlett packard 's microwave design 
+system md hp 380 unix box run 1.2 , sy . 
+normally , md draw window deep blue backround , occasionally 
+become light blue text , etc , inside window become 
+`` wash '' nearly invisible . 
+think something 
+brain dead subtle conflict another app init . 
+slightly move window , force , color get correct . 
+harry wolfson 
+

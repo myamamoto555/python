@@ -1,0 +1,23 @@
+: ethan 
+subject : re : force window manager accept specific coordinate window 
+organization : columbia university department computer science 
+lines : 18 
+article < > tobias ` dope ' write : 
+> 
+> know mwm resource specify position use 
+> border window `` user '' window . 
+maybe window manager 
+> similar option . 
+> another way figure difference `` user '' window position 
+> window manager decoration window position subtract 
+> position . 
+use remember window manager 
+> decoration window parent window . 
+unfortunately , 
+> figure decoration width height window map 
+> way . 
+> 
+another way would use find 
+relative frame , find 
+window 's corner really . 
+-- ethan 

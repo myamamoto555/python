@@ -1,0 +1,113 @@
+: doug acker 
+subject : re : build aix e 
+organization : western geophysical exploration product 
+lines : 36 
+: . 
+. 
+
+: message 21 apr 1993 gmt 
+> 21 apr 1993 gmt , doug acker say : 
+doug > : . 
+. 
+
+big problem try build mit 
+one bundle aix e . 
+almost linker 
+work properly shared library . 
+build problem . 
+. 
+headache . 
+example , client complain doesnt bunch 
+xt routine miss something like . 
+
+build link really perplexed 
+go . 
+... follow , specific error get : 
+could load program . 
+
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+symbol . 
+. 
+. 
+. 
+. 
+. 
+undefined 
+could load library 
+error : exec format error 
+-- 
+douglas western geophysical exploration products 
+____ ____ ____ division western atlas international inc. . 
+\ \ \ \ litton dresser company 
+\ \ \ \ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+\ \ \ \ internet : 
+\ ___ \ ___ \ ___ \ voice : 

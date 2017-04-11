@@ -1,0 +1,24 @@
+: g. chen 
+subject : help bitmap 
+summary : bitmap size 
+keywords : bitmap , window 3.1 , sdk 
+organization : prentice centre , university queensland 
+lines : 18 
+wonder anyone tell whether create bitmap 
+size ? 
+follow bitmap creation example sdk manual 
+specify bitmap set 24 supply 
+byte string 72 char . 
+get right bitmap 
+image . 
+change use value 
+string pad zero make right size 
+get image . 
+example manual size , multiple 2 byte . 
+define bitmap image size ? 
+thanks much . 
+g chen 
+-- 
+g. chen , centre information technology research , university 
+queensland , australia 
+tel : 7 365 , fax 7 365 

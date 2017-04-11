@@ -1,0 +1,22 @@
+: richard krehbiel 
+subject : re : ide vs 
+: message 18 apr 1993 gmt 
+lines : 14 
+organization : timesharing , inc. . 
+article < > grubb write : 
+> richard krehbiel write : 
+> stuff connection ide ida 
+> > clock , 16 bit width , . 
+> ide speed come ida 8.3 sight ide 
+> come ? 
+well , quick math part show 8.3 mhz bus , 16 bit 
+wide , perform transfer every two clock cycle provide 8.3 m 
+. 
+someone say really take 3 clock cycle 
+perform transfer , reduce transfer rate 5.5 , 
+figure isa bus speed . 
+however , 
+believe transfer possible 0 wait state . 
+-- 
+richard krehbiel 
+2.0 386 come along ... 

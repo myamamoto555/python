@@ -1,0 +1,1013 @@
+: david b. lewis 
+subject : frequently ask question faq 
+summary : useful information x window system 
+: .97 p 
+expire : sun , 2 may 1993 gmt 
+: x faq maintenance address 
+organization : visual , inc. . 
+lines : 968 
+: 
+: 
+
+subject : 80 ! 
+get plot program ? 
+usually available uucp site uunet site 
+marked ; please consult archie server find recent version . 
+x , postscript bunch driver . 
+elsewhere : .1 . 
+
+x output ? 
+
+graph + 
+: + . 
+
+
+, 2d 3d x , ps 
+: . 
+
+: . 
+
+: . 
+
+uunet : ~ . 
+
+plot , zoom . 
+outputs ps . 
+: -11 . 
+
+. 
+de : -11 . 
+
+: -11 . 
+
+
+many site 
+formerly xy plot tool 
+
+version : .09 . 
+
+motif version : .09 . 
+
+mirror export 
+interactive dynamic tool bellcore 
+: log email 
+password ; send email contain 
+one-line message `` send general '' 
+information : debby swayne , . 
+robot scientific graph plot datum analysis tool 
+: .46 . 
+
+multi-purpose plotter 
+: . 
+
+. 
+thanks part : ed ; 
+geoffrey leach ; paul a. scowen ; 
+mike black 
+
+subject : 81 get spreadsheet ? 
+version `` sc '' x support lotus file available 
+.0 . 
+. 
+also include graphing function . 
+information : . 
+gnu package oleo available : . 
+; 
+generate postscript rendition spreadsheet . 
+also : 
+several part integrate tool may 
+also include word-processing , email , conferencing , image processing , 
+, among feature . 
+vendor product contact information 
+------ ------- ------------------- 
+access technology 
+informix 
+quality software products ca 
+
+, 
+digital 
+applix aster x , . 
+ais , 
+bbn software products 
+software systems 
+sas sas institute spreadsheet module ; x version 
+available current popular risc platform . 
+
+subject : 82 get software ? 
+vendor product contact information 
+------ ------- ------------------- 
+productivity solutions ultra planner 
+quality software products masterplan version , 
+digital tools , inc. . 
+, 
+nasa compass , 
+
+gec-marconi software systems plus 
+gec-marconi software systems size plus 
+tei , inc vue 
+cascade 
+advanced management solutions schedule publisher 
+auburn university ?? 
+?? 
+thanks pete phillips ; 
+thanks atul chhabra ; 
+
+subject : 83 get postscript ? 
+ghostscript distribute free software foundation 
+include postscript interpreter library graphic 
+primitive . 
+version available ; major site . 
+
+computing laboratory university kent 
+canterbury x user interface ghostscript 2.4 .1 
+interpreter . 
+source available anonymous ftp 
+. 
+. 
+tim theisen , user 
+interface ghostscript . 
+check 
+. 
+. 
+also several executable available 
+: various architecture . 
+also : 
+harlequin 's software package preview print 
+postscript r description text graphic image ; x 
+available . 
+information call send email 
+. 
+image network 's xps support full postscript language render 
+color , grayscale , monochrome . 
+font display . 
+info : 
+image network , +1 . 
+digital 's run uw 2.1 2.2 . 
+sun 's run server . 
+
+subject : 84 get gk package ? 
+latest obtain 
+2c implementation derive 
+ibm university illinois . 
+release 
+. 
+. 
+
+addition , available advanced technology center 
+. 
+available c department . 
+
+2b implementation include driver variety device . 
+
+pass x window id use . 
+package include c fortran binding . 
+produce neil bowers 
+; latest conform new version 
+2.4 . 
+available export . 
+. 
+
+subject : 85 get pex package ? 
+first official release pex ; bring 
+sample implementation server version 5.1 . 
+final pex 5.1 protocol specification available via anonymous 
+ftp , directory . 
+change make public review draft list file `` 5.1 '' 
+directory . 
+
+final 5.1 document export . 
+
+available university illinois 
+implementation pex 4.0 specification call . 
+contain `` near - 
+complete '' implementation plus . 
+file 
+. 
+; port platform 
+rt run 4.3 . 
+question comment go . 
+addition , toolkit rich thomson 
+available export ; include pex widget make easier 
+include pex program . 
+
+subject : 86 get tex dvi ? 
+tex file available number archive 
+site , include uunet ; current version usually 
+. 
+; font also 
+machine . 
+distribution include `` '' convert pk , gf , 
+font bdf format , compile use local x 
+server . 
+fairly comprehensive easy use . 
+
+also available number site , include uunet ; 
+current version 16 . 
+
+subject : 87 get troff ? 
+two device-independent troff : support 
+client , . 
+earlier 
+version also appear r3 contribute source . 
+also 
+r5 distribution . 
+addition , xman client use preview troff document 
+use - man macro i.e. man page . 
+use output view postscript . 
+addition : 
+, x contribute marvin 
+solomon ; version 3.5 available export 
+. 
+
+elan computer group ca : produce , modify 
+troff implementation , , x11 . 
+softquad ; usa , 
+offer softquad publishing software , include substantially - 
+rewrite troff formatter , better intermediate language backwards 
+compatibility , x11 r3 , r4 . 
+package adopt 
+at&t 's mi department , use re-sold many part at&t . 
+information ian darwin , softquad 
+image network ; ca : offer 
+package , include fine modify troff implementation set 
+page . 
+package oem ` ed several hardware 
+vendor . 
+mostly courtesy mark moraes 
+
+subject : 88 ! 
+get wysiwyg interface builder ? 
+new release dirt interface builder richard hesketh work 
+include support motif widget set . 
+readme : 
+builder allow interactive creation rapid prototyping x user 
+interface use x toolkit number widget sets . 
+dirt generate 
+`` wc - widget creation '' resource file distribution also include 
+widget creation library version 1.06 , exception demo 
+source code kind permission author david e. smyth . 
+check , 2.0 . 
+, . 
+interviews c + + toolkit contain interface builder 
+call . 
+generate code interviews application complete 
+file . 
+documentation . 
+p 
+. 
+quest windows 's c + + package include 
+interactive building tool . 
+druid rapid user interface development run sparc 
+machine use 1.0 ; intend eventually full uim 
+apparently support create presentation component , 
+generate code . 
+info : singh g , kok ch , ngan ty , `` druid : system 
+rapid user interface development '' . 
+proc . 
+acm siggraph 
+user interface software technology uist ' 90 . 
+acm , ny , 1990 , pp . 
+byo interface builder implement tcl . 
+also : 
+addition , commercial product unsorted available 
+final prerelease form follow product name indicate 
+product know allow designer specify widget whether 
+particular resource hard-coded write application default file , 
+least one form output . 
+much user-interface tool ; 
+full user interface management system ; information 
+up-to-date : 
+product name code output vendor 
+hp interface motif 1.1 c xm edge 
+architect 
+open look express open look c xol + helper lib at&t 
+visual edge 
+2.0 motif 1.1 c xm + helper code visual edge 
+
+& distributor 
+2.0 motif 1.1 dec 
+
+1.1 motif 1.1 c xm ; imperial 
+software 
+technology , ltd 
+
+
+motif 1.0 c ; c-like procedural 
+language ; 
+nsl 
+33 1 43 36 77 50 
+
+builder 2.0 motif 1.1 c xm ; ic 
+ada 
+
+1.1 motif 1.0 c xm ; nixdorf 
+
+
+motif 1.1 c xm ; software 
+
+-69 
+2.1 motif c xm ; 
+
+
+
+3.2 motif 1.1 c xm + helper lib ; ; ada 
+sunrise 
+
+
+motif 
++33 1 
+developers open look gil - > sun 
+guide 3.0 gil - > c + + 
+gil - > 
+gil - > tnt 
+motif c xm expert object 
+open look 
+ta + xw ; motif c xw , xm ; tae control language , 
+like uil need helper library ; 
+vax fortran ; ada ; c + + 
+nasa goddard 
+
+mob , motif ; , uil ; 
+
+psm pm , msw 3.0 , 
+motif , mac pty ltd. . 
+3 629 
+fax : 629 1296 
+australia 
+motif 1.0 | c xm aka 
+0 -0 
+0 -40 fax 
+open c + + ous 
++1 
+look magazine review complete comparison format , 
+documentation , real ease-of-use , etc ; unix world unix review often carry 
+article . 
+addition , neuron data 1 make open interface , 
+object toolkit support interface 
+resemble superset mac , windows , motif open look ; package 
+include interface builder . 
+addition , builder support development 
+application use set object plan motif 
+look . 
+write ada generate ada spec stub body . 
+. 
+addition , related product may help goal 
+rapid prototyping application interface : 
+wcl : widget creation library . 
+basically describe widget 
+hierarchy action resource file ; available fine archive server 
+everywhere , include pub . 
+wcl provide 
+thin layer xt without internal tweaking . 
+version 2.5 current 
+. 
+: motif toolkit allow interpretive 
+programming . 
+copy r4 tape ; get copy export 
+email . 
+serpent uim permit building user-interface without 
+specific knowledge code understanding attribute set 
+particular motif widget . 
+beta release 1.2 available 
+find . 
+serpent 
+also available . 
+email 
+question go . 
+commercial version serpent 
+available `` agora '' aset , 221 woodhaven drive , pittsburgh , pa . 
+garnet common gui toolkit . 
+information available 
+. 
+application development environment 
+similar corporation 's hypercard . 
+
+available via anonymous ftp , , 
+. 
+
+subject : 89 find x tool callable shell script ? 
+want shell script pop menu dialog box user 
+run x. 
+several tool r3 area develop satisfy 
+need : yorn pop box , display string , etc. . 
+
+several version tool ; , , make r4 
+area , though may still available various archive site . 
+addition , richard hesketh post 
+package `` : '' choice . 
+
+two version post , latter 
+unauthorized rewrite . 
+r. forsman , 
+version available ; 
+work likely re-release . 
+.1 . 
+, .0 . 
+.0 . 
+export 's 
+tool act x version 
+simple display tool . 
+
+let user build panel contain interactive object 
+button , slider , text field , etc. , either command line use 
+simple scripting language . 
+available anonymous ftp 
+. 
+may also find 
+archive . 
+
+subject : 90 get debugger ? 
+, x interface dbx debugger , available via ftp 
+export . 
+current version 2.1 2 . 
+x interface gdb call like . 
+part 
+volume 11 ; .06 . 
+export . 
+motif interface gdb jim 
+; version release . 
+ups debugger run x11 
+window system sun dec platform . 
+available export 
+. 
+also .45 - to-2 . 
+
+try mail 
+. 
+unofficial fix rod armstrong 
+
+. 
+also : 
+mips produce visual debugger . 
+able use sun 's server . 
+debugger , available 
+major platform , include interface . 
+at&t offer examine graphical interface , x11 interface dbx 
+c + + dbx sdb sdb + + 386 platform . 
+call 
+contact information . 
++1 offer pdb , debugger c , c + + 
+fortran . 
+pdb use oi toolkit run either open look motif 
+mode . 
+sco offer part several development 
+system . 
+lucid 's energize programming system , tightly integrate development 
+environment c c + + program , incorporate graphical user interface 
+top extend version gdb . 
+info : 
+. 
+
+subject : 91 ! 
+`` tee '' x program identically several display ? 
+several protocol multiplexer tool provide 
+simultaneous display x client number machine . 
+x protocol available 
+. 
+work independently server 
+affect application share ; develop use 
+electronic classroom . 
+conference program use duplicate 
+`` chalkboard '' several display . 
+release 1 available 
+tape ; recent version . 
+r2 . 
+. 
+michael digital equipment gmbh cec karlsruhe 
+also ; `` '' see see package 
+context computer-based tool provide online help 
+remote tutor also useful general window sharing . 
+information : 
+. 
+find export 
+: , 
+: 
+modification color mapping private color allocation 
+mark j. handley 
+. 
+. 
+implement extension use 
+record replay x session . 
+available : 
+. 
+
+_ . 
+
+use `` paint program '' . 
+available 
+. 
+implement simple shared whiteboard , without 
+mechanism . 
+available . 
+. 
+sketchpad 1.0 distribute interactive graphical editor 
+particularly design sketch . 
+source post 
+available ~ . 
+nestor project describe `` upgrading window system 
+tutor function '' , michael et al. , proceedings 
+conference . 
+also use : 
+hewlett-packard co. commercial product , `` hp '' work 
+hp-ux currently 300 , 400 , 700 series workstation 
+hp x stations . 
+machine receive shared window x server . 
+hp consist server extension motif base user interface 
+process . 
+contact local hp sale rep. information . 
+ibm offer commercial product . 
+sun offer multi-user software call . 
+mechanicsburg , pa , usa offer multi-user software 
+call communique . 
+thanks part tim scott , , peter 
+, 
+
+subject : 92 topic : building x distribution topic need update r5 
+
+subject : 93 good source information configure x build ? 
+faq include information number `` gotcha '' bite 
+particular system . 
+however , best source general information 
+build x11 release find release notes . 
+file bundle 
+separately rest release , become separate 
+source ftp another copy separately : file . 
+m , ps , txt 
+top distribution . 
+file also available 
+mail server . 
+addition , o'reilly & associates 's volume 8 x administration 
+include information configure build x. 
+
+subject : 94 sun work r5 ? 
+apparently gcc problem ; seem produce fine code 
+sun display except . 
+new distribute 
+may fix problem note : know work solaris . 
+
+subject : 95 sun suno 4.1 know _ , etc. . 
+? 
+get error _ _ _ undefined , link 
+. 
+add '' - ldl '' eventually . 
+may want 
+surround '' - - ldl - '' add 
+variable , since `` '' get add eventual 
+compilation command ; otherwise may shared . 
+compile 
+stub share . 
+thanks joe , 
+
+subject : 96 strange problem building x client suno 4.1.2 ? 
+suno 4.1.2 sun fix bug ld conflict 
+way build shared library , cause symbol 
+undefined build x11 client : 
+_ 
+_ 
+compile '' - - - '' appear work . 
+solve problem use 3.0 xt , please 
+contact local sun office request follow patch : 
+patch i.d. description 
+4.1 . 
+x 3.0 jumbo patch 
+4.1 . 
+x 3.0 undefined symbol use 
+share 
+greg earle , 
+source patch use mit library develop conrad 
+kimball ; retrofit r4 fix make r5 
+get around problem . 
+patch export 
+_ _ . 
+z 
+
+subject : 97 gcc compile sparc ? 
+use gcc compile whole distribution , get several segmentation 
+fault run x. 
+note first gcc risc machine necessarily result 
+performance increase ; certainly noticeable 
+vax platform . 
+problem : gcc cc use incompatible method pass 
+structure argument return function value , 
+part x link function pass 
+return struct , run-time error occur . 
+affect program include rgb 
+server . 
+gcc manual : 
+sparc , gnu cc use incompatible call convention 
+structure . 
+pass include contents argument 
+list , whereas standard compiler pass effectively 
+reference . 
+really ought fix , call convention yet 
+support gnu cc , straightforward fix . 
+convention structure return also incompatible , 
+` - ' help . 
+duck problem either use cc throughout use 
+routine cause incompatibility ; problem solve 
+compilation flag . 
+file need compile use cc include : 
+.2 . 
+c 
+. 
+c 
+addition , several `` inet _ '' function use struct arg 
+return value : 
+. 
+c 
+. 
+c. 
+call . 
+c . 
+c possibly 
+harmless involve struct . 
+collect bashford ; 
+
+subject : 98 error run x build gcc ? 
+try run server get error 
+`` get interface configuration : operation support socket . 
+fatal server bug ! 
+screen find . '' 
+run gcc script apparently work . 
+
+simple test : 
+< . 
+h > 
+
+run cc - e gcc - e. last line output piece 
+interest ; identical modulo irrelevant difference like 
+whitespace . 
+gcc version ` x ' cc version ` ' , 
+run work reason ; go back gcc 
+source run ` ` ; rebuild x distribution . 
+
+identical , try run make clean rebuilding , make 
+sure everything get compile proper include file . 
+courtesy der mouse , 
+
+subject : 99 problem compile older ? 
+. 
+c , find `` miss '' define 
+, , , . 
+? 
+r4 errata list distribute mention add 
+line file older suno version e.g. 3.5 compile : 
+128 1024 
+
+
+
+however , actually ever device , 
+reference remove . 
+c 
+. 
+
+
+subject : 100 problem compile x server suno ? 
+file < . 
+h > find . 
+sun omit < . 
+h > suno . 
+remove 
+. 
+c replace line 
+
+file change earlier version suno copy 
+another distribution . 
+
+subject : 101 problem use r4 share library suno 4 ? 
+executable try run following result : 
+: .4 : find 
+even : 
+: call undefined procedure __ 
+build share library sun , remember 
+need run `` '' root install shared library ` ve 
+install x , run server 's client , . 
+
+building install distribution , need careful avoid 
+link exist x share library might e.g. 
+distribute . 
+make sure 
+set environment build installation . 
+go keep program , please note 
+shared library must install , , 
+program work else program must link 
+statically . 
+courtesy mit x consortium 
+note also program run part build ; 
+attempt , however , use shared library install . 
+avoid error build statically pass - 
+c compiler . 
+
+subject : 102 program run r5 xt ? 
+_ undefined 
+bug . 
+_ external symbol exist 
+upon ow 3.0 's base . 
+document 
+remove mit 's guarantee upward compatibility r4 r5 
+library apply document interface . 
+workaround temporarily set point 
+xt library link program . 
+; barry margolin ; jeff francis 
+
+
+subject : 103 get around suno 4.1 security hole ? 
+security problem certain r4 client 
+run suno 4.1 install root use 
+share library ; avoid problem , one : 
+1 make program . 
+consult system 
+administrator concern protection resource e.g. use 
+program , make sure create additional security 
+problem site . 
+2 relink program statically use - . 
+3 install library link link absolute path 
+library . 
+bob , 
+r5 version automatically rebuild 
+library install ; prevent suid 
+program build library specify relatively . 
+note 
+may cause inconvenience installation disk . 
+rewrite avoid problem . 
+
+subject : 104 get around security hole ? 
+many system unsecured default ; permit 
+anyone log workstation peek windowing session 
+access directly , , less privacy issue perhaps 
+annoying , accidentally start second x session console 
+display . 
+check man page 5 . 
+thanks art mulder ; . 
+
+subject : 105 topic : building x program 
+
+subject : 106 ? 
+replacement make program ; instead , 
+take advantage macro - 
+process capability c preprocessor cpp generate 
+suitable build software particular system . 
+although 
+specific x , x release use help solve number 
+configuration issue arise make large system widely portable . 
+fairly steep learning curve , part process 
+configuration file , configuration 
+file , individual meld produce 
+obvious . 
+several different version ; r3 , r4 , 
+r5 version different . 
+obtain information source : 
+- r4 r5 release note man page include information 
+use build x 
+- r4 r5 file also contain useful information 
+- r4 tape , mark moraes ' 
+guide . 
+- r5 . 
+m contain paper jim 
+fulton early version 
+- paul dubois write useful 
+explanation work use configure x non - 
+support system ; document available 
+directory ~ ; look . 
+m troff 
+. 
+p postscript . 
+supplemental appendix nearby . 
+: document version 1.06 papers available email ; 
+mail message body `` send help '' . 
+- see `` system administration - : friend foe ? '' 
+dinah mcnutt 
+november 1991 issue . 
+- german reader expect june 1992 article `` das 
+make , make '' rainer klute `` ix 
+'' , direct application programmer need 
+write . 
+english-language derivative article 
+x journal , issue 2:1 . 
+- o'reilly x resource issue # 2 contain paul davey 's article 
+demystify . 
+- alain brossard 's work document full tip 
+. 
+: .1 . 
+z. 
+; ; ; 
+
+subject : 107 get ? 
+version distribute r4 r5 release . 
+earlier 
+version distribute release ; third-party toolkit 
+redistribute version along implementation 
+template configuration file . 
+real standard 
+configuration file , although current contribute software expect 
+template distribute . 
+export contain r5 distribution unpacked , pick 
+without pick entire distribution . 
+stand-alone version , one stem , 
+: . 
+. 
+
+subject : 108 program . 
+? 
+r4 r5 install system , run `` '' . 
+
+script run correct argument . 
+output 
+configure system base . 
+run make , 
+use new compile program . 
+
+subject : 109 link xlib shape routine ? 
+try compile certain program , get follow link error : 
+undefined : 
+_ 
+_ 
+routine actually part shape extension x shape 
+introduce mit distribution allow 
+window . 
+like sample server extension , shape extension 
+run server support . 
+server , well many 
+server , support shape extension , case 
+display rectangular window anyway . 
+order use shape extension , must link library 
+. 
+distribution , library associate include 
+directory . 
+file , 
+despair : many freeware program use shape extension also 
+compile without remove - define ; 
+probably compile successfully older x 
+library . 
+john b. melby , 
+
+subject : 110 problem '' _ find '' sun ? 
+run x program write suno 4.1 machine get 
+error `` : symbol find _ '' . 
+see side-effect kludge r4 
+get sun share library work . 
+apparently , share function 
+call compare , _ . 
+handle put 
+_ file function always use , thereby 
+guarantee would load -- , , 
+reside . 
+routine would normally 
+call . 
+probably see error program normal 
+program call anywhere . 
+1 may program use xt function never open 
+connection x server . 
+'s uil problem ; call 
+xt function . 
+solution add call 
+program ; function execute , link . 
+2 alternatively , program need xt function 
+correct call -- may xlib 
+program . 
+case , remove - link command . 
+necessary link shared library statically , 
+although certainly solve problem . 
+jordan hayes danny ; 
+
+
+subject : 111 compile r3 program new x ? 
+program work well . 
+try link 
+current version x , get message : 
+undefined : 
+_ 
+_ 
+_ 
+several name change athena widget set addition 
+header file move < > ; mention r4 
+release note . 
+case , function really xt function 
+part text widget rename xt . 
+
+
+subject : 112 topic : programming problem puzzle 
+
+subject : 113 program get keystroke select sic ? 
+window manager control input focus transfer one 
+window another . 
+order get keystroke , program must ask 
+window manager input focus . 
+, must set 
+call `` hint '' window manager . 
+application , 
+use something like following : 
+; 
+... 
+; 
+true ; 
+, window , & 
+application base xt , set 
+resource true probably want case ; 
+source , start application resource ' input : true ' . 
+certain window manager , notably , picky 
+. 
+use sun 's , also add resource 
+default file use client . 
+: true 
+mostly courtesy dave lemke ncd stuart marks sun 
+
+subject : 114 figure window manager run ? 
+reliably tell ; whatever mechanism could use could 
+spoof case . 
+case , care window manager run , 
+long thing manner . 
+case 
+particular window manager know thing wrong ; check 
+particular hint place window window manager 
+sidestep problem may appropriate case . 
+alternatively , may 
+appropriate determine window manager run order take 
+advantage specific add feature 's menu order 
+give program add functionality . 
+beware usurp window 
+manager 's function provide functionality even miss ; 
+surely lead future compatibility problem . 
+
+subject : 115 skeleton x program available ? 
+general framework program 
+macintosh handle lot odds end overhead development 
+window system use platform additional 
+development . 
+x , problem typically solve use interactive 
+application builder tool use cut & paste exist x application . 
+good 
+application might look manipulate want `` test 
+one little thing '' include , simple r4 program 
+put window allow sketch offer start point 
+quick hack , example example directory r3 r4 
+distribution , xlib `` hello world '' example r3 
+r4 ; update version program use r4 
+xlib call current convention post 
+glenn widener tektronix . 
+
+addition , sample xt program xm rainer klute 
+show open multiple display catch broken display 
+connection available . 
+. 
+
+
+subject : 116 work sic ? 
+interface retrieve resource widget 
+sensitive type variable . 
+code may something like : 
+
+arg arg 3 ; 
+int ; 
+int sensitive ; oop ; wrong datum type 
+0 ; 
+arg , , & sensitive ; + + ; 
+widget , arg , ; 
+... 
+
+boolean , machine single byte ; 
+declare variable `` sensitive '' boolean work properly . 
+problem 
+come often use particular toolkit redefine xt type 
+dimension position ; code assume int similar 
+problem type actually short . 
+general : safe 
+use actual type resource , appear widget 's man page . 
+
+
+subject : 117 work ? 
+probably try use function application code . 
+use internally widget ; function 
+parent widget change geometry child . 
+promising 
+function , , also use 
+widget , case child request change parent . 
+way application request geometry change 
+widget issue call set geometry resource . 
+although result function ' call , 
+application code must use standard interface risk 
+widget ' datum become corrupt . 
+xlib call similarly 
+avoid ; use change , , , . 
+
+subject : 118 call like ? 
+although various detail current implementation 
+xt internal make difficult , major reason 
+call exist remain undefined set resource 
+`` new '' widget . 
+resources typically set base location 
+instance hierarchy ; resource change instance move ? 
+happen widget 's child ? 
+time semantics 
+define , would probably little advantage destroy old 
+widget create new widget correct location desire 
+resource , set resource correctly majority work 
+create new widget . 
+note possible oi toolkit . 
+
+david b. lewis 
+`` faq , ma'am . '' 
+-- joe friday 
+-- 
+david b. lewis temporarily speak visual , inc. . 
+day : evening : 

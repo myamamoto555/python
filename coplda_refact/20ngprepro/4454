@@ -1,0 +1,35 @@
+: 
+subject : re : share optimization tip 
+organization : at&t 
+lines : 33 
+article < > john bodnar write : 
+> accord edgar pearlstein : 
+another one : 
+
+5 . 
+computer arrive follow statement 
+config.sys file : stack . 
+change 
+stack save 1296 byte . 
+maybe could 
+lower even , try . 
+> 
+> exactly . 
+> 
+> regardless microsoft say , set stack 0,0 every single 
+> computer install windows simple 
+> eisa motherboard , ndi volante tiga adapter , intel ethernet express 
+> card , cache scsi controller dpt dtc . 
+> 
+> problem yet , extra 2k + gain mean lot conventional 
+> memory gobbling program like tango pcb . 
+> -- 
+> john bodnar : `` like develop windows 
+> university texas austin : application , never inhale . '' 
+> internet : : 
+> uucp : ... ! 
+- : -- borland ceo philippe kahn 
+remember read somewhere qemm manual , think 
+stack need windows setup program . 
+otherwise , use stack 0,0 . 
+rich 

@@ -1,0 +1,18 @@
+: guy kuo 
+subject : quadra clock chip - followup 
+organization : university washington 
+lines : 10 
+: 
+summary : result quadra modification 
+keyword : quadra , clock , oscillator 
+recently modify quadra 700 socket clock oscillator 
+complete nearly 40 hour error free operation 32 mhz 64 mhz 
+clock oscillator . 
+also try 55 mhz cmo clock work well . 
+stupid side , discover use 40 mhz clock make 
+slow centris 610 . 
+however , 25 mhz clock would 
+yield 12.5 mhz quadra 700 would want one ? 
+work . 
+impatiently await 66 mhz clock , 
+guy kuo < > 

@@ -1,0 +1,33 @@
+: yeh 
+subject : re : need polygon splitting algo ... 
+organization : university southern california , los angeles , ca 
+lines : 25 
+distribution : world 
+: 
+keyword : polygon , splitting , clipping 
+article < > , coronado emmanuel abad write : 
+| > 
+| > idea clip one polygon use another polygon 
+| > necessarily rectangular window . 
+problem 
+| > finding new vertex result `` '' 
+| > first one . 
+simply matter extend 
+| > usual algorithm whereby edge one polygon check 
+| > another polygon ??? 
+simpler way ?? 
+| > 
+| > comment welcome . 
+| > 
+| > noel . 
+depend kind polygon . 
+convex - simple , concave - trouble , concave loop 
+inside - big trouble . 
+cause , use box test avoid checking 
+edge . 
+accord experience , 
+simple way go . 
+headache stuff deal 
+special case , example , overlapped line . 
+yeh 
+usc 

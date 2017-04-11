@@ -1,0 +1,51 @@
+: chris brinton 
+subject : re : recommendation local bus cache 
+: 
+organization : teradyne , inc. . 
+boston ma 
+lines : 38 
+article penev write : 
+> 15 apr 1993 gmt divya sundaram write : 
+> 
+> | would like hear ide controllers . 
+> | would get ide controller card vlb 66 motherboard . 
+> | good option preferably $ 200 . 
+must also work 
+> | compatible stacker disk compression . 
+> 
+> maxtor isa ide controller , although machine 
+> vlb . 
+save transfer rate regardless 
+> variation isa bus speed . 
+test speed 
+> 5.5 mhz 8.33 mhz . 
+_ _ difference . 
+problem 
+> interface controller memory . 
+> 
+> advice : buy ram , save $ 70 enjoy performance . 
+> 
+> -- 
+> penev w internet : 
+> 
+> disclaimer : mine . 
+also maxtor 212 . 
+local bus ide controller generic get 
+985 . 
+try swap local bus ide controller isa ide controller 
+transfer rate go 830 . 
+spec drive show maximum platter controller 
+transfer rate 2.83 . 
+dont know get . 
+local bus interface 
+get little , certainly much hope . 
+also look way 
+improve disk performance , im convinced controller bottleneck 
+although im willing entertain possibility . 
+already run big 
+main memory disk cache , im really interested solution either . 
+-- 
+chris brinton 
+teradyne , inc. . 
+
+`` opinion , welcome . '' 

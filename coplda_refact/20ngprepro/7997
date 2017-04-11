@@ -1,0 +1,1550 @@
+: landon c. noll 
+subject : reposting : 10th international obfuscated c code contest rule 2 2 
+expire : 8 may 93 gmt 
+: landon c. noll 
+distribution : world 
+organization : nebula consultants san francisco 
+lines : 1409 
+keyword : 
+receive number request reposting 
+international obfuscated c code contest rule guideline . 
+also 
+people request rule post wider set 
+group . 
+sorry cross post . 
+technical clarification make rule guideline . 
+see diff mark right hand edge rule guideline 
+year remain , people already 
+process submit entry 1993 need worry 
+change . 
+chongo \ cc \ 
+larry bassel 
+- 
+# ! 
+
+# part 02 multipart archive 
+# 
+echo `` x - extract text '' 
+sed 's ^ x ' ` ' > & & 
+x @ # 1.25 
+x 
+x copyright c landon curt noll & larry bassel , 1993 . 
+x rights reserve . 
+permission personal , education non-profit use 
+x grant provide copyright notice include 
+x entirety remain unaltered . 
+use must receive prior 
+x permission write landon curt noll larry bassel . 
+x 
+x 
+x - make international obfuscated c code contest entry 
+x 
+x usage : 
+x - r remark - b build - p - o 
+x 
+x - r remark file remark entry 
+x - b build file contain build 
+x - p obfuscate program source file 
+x - o entry output file 
+x 
+x compile : 
+x cc - o 
+x 
+x 
+x place public domain landon curt noll , 1992 . 
+x 
+x software provide `` '' without express imply 
+x warranty , including , without limitation , imply warranty 
+x fitness particular purpose . 
+x 
+x 
+x warning : 
+x 
+x program attempt implement rule . 
+every attempt 
+x make make sure program produce entry 
+x conform contest rule . 
+case , program 
+x differ contest rule , contest rule use . 
+
+x sure check contest rule submit entry . 
+x 
+x information : 
+x 
+x may contact judge send email follow address : 
+x 
+x ... ! 
+apple , pyramid , sun , uunet ! 
+address 
+x submit entry 
+x 
+x questions comment contest welcome . 
+x 
+x rule guideline may often change year 
+x year . 
+sure current rule guideline 
+x prior submit entry . 
+obtain , send email address 
+x use subject ` send rule ' . 
+x 
+x one may obtain winner previous contest 1984 date , via ftp : 
+x 
+x host : 
+x user : anonymous 
+x pass : 
+x dir : ~ 
+x 
+x last resort , previous winner may obtain send email 
+x address . 
+please use subject ` send year winner ' , 
+x year single 4 digit year , year range , ` ' . 
+x 
+x contest rule change year year , one use 
+x program year intend . 
+sure 
+x define match current year . 
+x 
+x 
+x 
+x 
+x 
+x < . 
+h > 
+x < . 
+h > 
+x 
+x logic 
+x true 
+x # define true 1 
+x true 
+x false 
+x # define false 0 
+x false 
+x true 
+x false 
+x 
+x global limit 
+x 1993 note : match current year 
+x `` 0:00 utc '' first confirmation receive 
+x 79 max column line hit 
+x 256 max build size 
+x max program source size 
+x 1536 max program source size count 
+x whitespace ; follow 
+x whitespace eof 
+x 12 max char title 
+x 1 max length entry input line 
+x 8 max number entry per person per year 
+x 1024 max filename length info file 
+x 
+x send entry 
+x '' ... ! 
+apple , pyramid , sun , uunet ! 
+'' 
+x `` '' 
+x 
+x process - assume ascii 
+x c int c & 
+x 45 max chunk size 
+x mode info file 's file 
+x mode build file 's file 
+x `` build '' name build file 's file 
+x mode program 's file 
+x `` '' name program 's file 
+x 
+x char val character val 
+256 +1 '' ` ! 
+\ '' # $ % & ' + , - . 
+: ; < > ? 
+\ \ ^ _ ! 
+\ '' # $ % & ' + , - . 
+: ; < > ? 
+\ \ ^ _ ! 
+\ '' # $ % & ' + , - . 
+: ; < > ? 
+\ \ ^ _ ! 
+\ '' # $ % & ' + , - . 
+: ; < > ? 
+\ \ ^ _ '' ; 
+x 
+x global declaration 
+program ; name 
+; startup time 
+x 
+x forward declaration 
+; 
+usage ; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+x 
+, 
+x int ; arg count 
+x char ; arg 
+x 
+x file remark null ; open remark stream 
+x file build null ; open build file stream 
+x file prog null ; open program stream 
+x file output null ; open output stream 
+x char null ; file remark entry 
+x char null ; file contain build 
+x char null ; obfuscate program source file 
+x char null ; entry output file 
+x struct tm tm ; startup time structure 
+x 
+x 
+x check year 
+x 
+x time long 0 ; 
+x tm & ; 
+x tm - > ! 
+
+x , 
+x '' % : warning : program apply % d , may differ % d \ n \ n '' , 
+x 0 , , 1900 + tm - > ; 
+x 
+x 
+x 
+x parse command line arg 
+x 
+x , , & , & , & , & ; 
+x 
+x 
+x input output file 
+x 
+x open truncate output file first , case 
+x one input file . 
+x 
+x output ; 
+x remark ; 
+x build ; 
+x prog ; 
+x output null | | remark null | | build null | | prog null 
+x exit 1 ; 
+x 
+x 
+x 
+x output section 
+x 
+x output , ; 
+x output , , remark , ; 
+x output , ; 
+x output , ; 
+x output , , build , ; 
+x output , , prog , ; 
+x output , ; 
+x 
+x 
+x flush output 
+x 
+x output eof 
+x , '' % : flush error % : '' , program , ; 
+x '' '' ; 
+x exit 2 ; 
+x 
+x 
+x 
+x final word 
+x 
+x printf '' \ entry find % s. check file \ n '' , 
+x ; 
+x printf `` correct problem verify utility \ n '' ; 
+x printf `` correctly decode build file program . 
+\ n \ n '' ; 
+x printf `` program provide guide submitter . 
+\ n '' ; 
+x printf `` case conflict rule , rule shall apply . 
+\ n '' ; 
+x printf `` responsibility ensure entry conform \ n '' ; 
+x printf `` current rule . 
+\ n \ n '' ; 
+x printf `` email entry : \ n '' ; 
+x printf '' \ % \ n '' , ; 
+x printf '' \ % \ n \ n '' , ; 
+x printf `` please use follow subject email entry : \ n '' ; 
+x printf '' \ entry \ n \ n '' ; 
+x 
+x exit 0 ; 
+x 
+x 
+x 
+x - parse command line arg 
+x 
+x give command line arg , function parse set 
+x require name flag . 
+function return command 
+x line syntax correct . 
+x 
+
+, , , , , 
+x int ; arg count 
+x char ; arg 
+x char ; file remark entry 
+x char ; file contain build 
+x char ; obfuscate program source file 
+x char ; entry output file 
+x 
+x char ; - flag option operand 
+x int ; name - flag 
+x int ; 
+x 
+x 
+x everyone , must parse arg hand . 
+x 
+x program 0 ; 
+x 1 ; < ; + + 
+x 
+x determine 
+x 0 ! 
+' - ' 
+x usage 1 ; 
+x 
+x 
+x int 1 ; 
+x 
+x determine flag 's operand 
+x ! 
+' \ 0 ' & & 2 ! 
+' \ 0 ' 
+x & 2 ; 
+x else 
+x +1 > 
+x usage 2 ; 
+x 
+x else 
+x + + ; 
+x 
+x 
+x 
+x save flag 's operand correct global variable 
+x switch 
+x case ` r ' : 
+x ; 
+x break ; 
+x case ` b ' : 
+x ; 
+x break ; 
+x case ` p ' : 
+x ; 
+x break ; 
+x case ` o ' : 
+x ; 
+x break ; 
+x default : 
+x usage 3 ; 
+x 
+x 
+x 
+x 
+x 
+x verify require flag 
+x 
+x null | | null | | null | | null 
+x usage 4 ; 
+x 
+x 
+x return ; 
+x 
+x 
+x 
+x usage - print usage message exit 
+x 
+x function return . 
+x 
+
+
+x int ; exit value 
+x 
+x , 
+x `` usage : % - r remark - b build - p - o \ n \ n '' , program ; 
+x , '' \ remark \ remark entry \ n '' ; 
+x , '' \ build \ contain build \ n '' ; 
+x , '' \ \ tthe obfuscate program source file \ n '' ; 
+x , '' \ \ entry output file \ n '' ; 
+x exit ; 
+x 
+x 
+x 
+x - remark file 
+x 
+x remark file indent 4 space , extend 
+x beyond column . 
+requirement , warn . 
+x 
+x function return null format error . 
+x 
+
+filename 
+x char filename ; 
+x 
+x file stream ; open file stream 
+x char buf +1 ; input buffer 
+x int 0 ; number line long 
+x int 0 ; number line indent 4 space 
+x 
+x 
+x open remark input file 
+x 
+x stream filename , `` r '' ; 
+x stream null 
+x , '' % : open remark file : % : '' , 
+x program , filename ; 
+x '' '' ; 
+x return null ; 
+x 
+x 
+x 
+x look line 
+x 
+x buf , , stream ! 
+null 
+x 
+x count line start 4 space 
+x buf 0 ! 
+' \ n ' & & buf , '' '' , 4 ! 
+0 
+x + + ; 
+x 
+x 
+x count long line 
+x buf > 
+x find line long 
+x + + ; 
+x 
+x 
+x 
+x watch error 
+x stream , filename , ; 
+x 
+x note long line need 
+x > 0 
+x , 
+x '' % : warning : % d line % extend beyond 80th column \ n '' , 
+x program , , filename ; 
+x , 
+x '' % : ok , would nice avoid \ n \ n '' , 
+x program ; 
+x 
+x 
+x note line , need 
+x > 0 
+x , 
+x '' % : warning : % d line % indent 4 space \ n '' , 
+x program , , filename ; 
+x , 
+x '' % : ok , would nice avoid \ n \ n '' , 
+x program ; 
+x 
+x 
+x return open file 
+x rewind stream ; 
+x return stream ; 
+x 
+x 
+x 
+x - build file 
+x 
+x build file must longer byte . 
+x 
+x function return null size error . 
+x 
+
+filename 
+x char filename ; 
+x 
+x file stream ; open file stream 
+x struct stat ; status open file 
+x 
+x 
+x open build input file 
+x 
+x stream filename , `` r '' ; 
+x stream null 
+x , '' % : open build file : % : '' , 
+x program , filename ; 
+x '' '' ; 
+x return null ; 
+x 
+x 
+x 
+x determine size file 
+x 
+x stream , & < 0 
+x , '' % : stat build file : % : '' , 
+x program , filename ; 
+x '' '' ; 
+x return null ; 
+x 
+x _ size > 
+x , 
+x '' % : fatal : build file : % , % d byte long \ n '' , 
+x program , filename , _ size ; 
+x , 
+x '' % : may longer % d byte \ n '' , 
+x program , ; 
+x return null ; 
+x 
+x 
+x return open file 
+x return stream ; 
+x 
+x 
+x 
+x - program source file 
+x 
+x program source file must < byte . 
+number 
+x ; char follow whitespace must 
+x < 1536 byte . 
+x 
+x function return null size error . 
+x 
+
+filename 
+x char filename ; 
+x 
+x file stream ; open file stream 
+x struct stat ; status open file 
+x int count ; special count size 
+x int c ; character read 
+x 
+x 
+x open program source input file 
+x 
+x stream filename , `` r '' ; 
+x stream null 
+x , '' % : open program source file : % : '' , 
+x program , filename ; 
+x '' '' ; 
+x exit 7 ; 
+x 
+x 
+x 
+x determine size file 
+x 
+x stream , & < 0 
+x , '' % : stat program source file : % : '' , 
+x program , filename ; 
+x '' '' ; 
+x return null ; 
+x 
+x _ size > 
+x , 
+x '' % : fatal : program source file : % , % d byte long \ n '' , 
+x program , filename , _ size ; 
+x , 
+x '' % : may longer % d byte \ n '' , 
+x program , ; 
+x return null ; 
+x 
+x 
+x 
+x count , non ; follow whitespace char 
+x 
+x count 0 ; 
+x c 0 ; 
+x c stream ! 
+eof 
+x look 
+x ! 
+c | | ! 
+c 
+x switch c 
+x case ' ' : count follow eof whitespace 
+x case ' ' : 
+x case ' ; ' : 
+x peek next char 
+x c stream ; 
+x c ! 
+eof & & c & & ! 
+c 
+x follow whitespace eof , count 
+x c , stream ; 
+x + + count ; 
+x 
+x break ; 
+x default : 
+x + + count ; 
+x break ; 
+x 
+x 
+x 
+x 
+x watch error 
+x stream , filename , ; 
+x 
+x look special size 
+x count > 
+x , 
+x '' % : fatal : number byte , \ n '' , 
+x program ; 
+x , 
+x '' % : ' ' , ' ' , ' ; ' follow whitespace \ n '' , 
+x program ; 
+x , 
+x '' % : eof must < % d byte \ n '' , 
+x program , ; 
+x , 
+x '' % : % , % d byte find \ n '' , 
+x program , filename , count ; 
+x return null ; 
+x 
+x 
+x return open file 
+x rewind stream ; 
+x return stream ; 
+x 
+x 
+x 
+x - entry output file 
+x 
+x function return null open error . 
+x 
+
+filename 
+x char filename ; 
+x 
+x file stream ; open file stream 
+x 
+x 
+x open entry output file 
+x 
+x stream filename , `` w '' ; 
+x stream null 
+x , '' % : open entry file output : % : '' , 
+x program , filename ; 
+x '' '' ; 
+x exit 8 ; 
+x 
+x 
+x return open file 
+x return stream ; 
+x 
+x 
+x 
+x - output -- entry -- section 
+x 
+x read need information form , write entry section . 
+x 
+
+output , 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x 
+x char title +1 +1 ; entry 's title 
+x char buf +1 +1 ; buffer 
+x int entry 0 ; entry number 
+x int ret ; field process 
+x int 0 ; 0 > line ok 
+x char skip ; input skip 
+x file ; pipe date command 
+x ; seconds since epoch 
+x char p ; 
+x 
+x 
+x write start section 
+x 
+x output , '' -- entry -- \ n '' ; 
+x output , , ; 
+x 
+x 
+x write rule year 
+x 
+x output , `` rule : \ % d \ n '' , ; 
+x output , , ; 
+x 
+x determine fix 
+x printf `` fix , update '' ; 
+x printf `` previous entry enter y n ? '' 
+; 
+x buf , 1 +1 , 0 < 0 | | ! 
+buf 0 ` y ' | | buf 0 'n' 
+x printf '' \ answer y n : '' ; 
+x 
+x buf 0 ` y ' 
+x output , `` fix : \ ty \ n '' ; 
+x output , , ; 
+x printf '' \ nbe sure title entry number give \ n '' ; 
+x printf `` entry replace \ n '' ; 
+x else 
+x output , `` fix : \ tn \ n '' ; 
+x output , , ; 
+x 
+x 
+x 
+x write title 
+x 
+x printf `` follow 0 % d _ + - character . 
+\ n \ n '' , 
+x ; 
+x printf `` suggest , require , title \ n '' ; 
+x printf `` incorporate username ; \ n '' ; 
+x printf `` case multiple author , consider use part username \ n '' ; 
+x printf `` author . 
+\ n \ n '' ; 
+x printf `` enter title : '' ; 
+x 
+x prompt read line 
+x title , +1 , < 0 
+x printf '' \ long , please re-enter : '' ; 
+x continue ; 
+x 
+x 
+x verify pattern , everyone , hand 
+x ! 
+int title 0 | | 
+x ! 
+int title 0 | | title 0 | | title 0 ' 
+x printf '' \ first character title \ n \ n '' ; 
+x printf `` enter title : '' ; 
+x 0 ; 
+x else 
+x p & title 1 ; p ! 
+' \ 0 ' & & p ! 
+' \ n ' ; + + p 
+x ! 
+int p | | 
+x ! 
+int p | | 
+x p | | p ' ' | | p ' + ' | | p ' - ' 
+x printf '' \ character title \ n \ n '' ; 
+x printf `` enter title : '' ; 
+x 0 ; 
+x 
+x 
+x 
+x < 0 ; 
+x output , `` title : \ % '' , title ; 
+x output , , ; 
+x 
+x 
+x write entry number 
+x 
+x printf '' \ person may submit % d entry per year . 
+\ n \ n '' , 
+x ; 
+x printf `` enter entry number 0 % d inclusive : '' , ; 
+x 
+x get valid input line 
+x ; 
+x ret , '' % d \ n '' , & entry ; 
+x , `` '' , ; 
+x skip input newline find 
+x 
+x skip ; 
+x , `` '' , ; 
+x skip ! 
+' \ n ' 
+x bad text input , invalidate entry number 
+x entry -1 ; 
+x 
+x skip ! 
+' \ n ' ; 
+x 
+x check number , range 
+x ret ! 
+1 | | entry < 0 | | entry > 
+x printf 
+x '' \ entry number must 0 % d inclusive \ n \ n '' , 
+x ; 
+x printf `` enter entry number : '' ; 
+x 
+x ret ! 
+1 | | entry < 0 | | entry > ; 
+x output , `` entry : \ % d \ n '' , entry ; 
+x output , , ; 
+x 
+x 
+x write submission date 
+x 
+x return newline 
+x time null ; 
+x output , `` date : \ % '' , & ; 
+x output , , ; 
+x 
+x 
+x write host information 
+x 
+x printf 
+x '' \ machine os entry test . 
+\ n '' ; 
+x output , , `` host : '' ; 
+x 
+x 
+x 
+x - output -- remark -- section 
+x 
+x read need information form , write entry section . 
+x 
+
+output , , remark , 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x file remark ; stream file contain remark text 
+x char ; name remark file 
+x 
+x char buf +1 ; buffer 
+x 
+x 
+x write start section 
+x 
+x output , '' -- remark -- \ n '' ; 
+x output , , ; 
+x 
+x 
+x copy remark file section 
+x 
+x buf , , remark ! 
+null 
+x buf , output ; 
+x output , , ; 
+x 
+x remark , , ; 
+x 
+x sure remark section end newline 
+x buf buf -1 ! 
+' \ n ' 
+x ' \ n ' , output ; 
+x output , , ; 
+x 
+x 
+x 
+x 
+x - output -- author -- section 
+x 
+x read need information , write author section . 
+x multiple author exist , multiple author section write . 
+x 
+
+output , 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x 
+x char buf +1 +1 ; buffer 
+x int ; true > author note 
+x int 0 ; number author process 
+x 
+x 
+x prompt user author section 
+x 
+x printf '' \ information author . 
+entry \ n '' ; 
+x printf '' % contest deadline , judge \ n '' , ; 
+x printf `` attempt email back confirmation first author \ n '' ; 
+x 
+x 
+x place author information author individual section 
+x 
+x 
+x 
+x write start section 
+x output , '' -- author -- \ n '' ; 
+x output , , ; 
+x 
+x write author 
+x printf '' \ # % d name : '' , + + ; 
+x buf , +1 , < 0 
+x printf '' \ long , please re-enter : '' ; 
+x 
+x output , `` name : \ % '' , buf ; 
+x output , , ; 
+x 
+x write organization 
+x printf '' \ author # % d \ n '' , 
+x ; 
+x printf '' \ # % d org : '' , ; 
+x buf , +1 , < 0 
+x printf '' \ long , please re-enter : '' ; 
+x 
+x output , `` org : \ % '' , buf ; 
+x output , , ; 
+x 
+x write address 
+x printf 
+x '' \ postal address author # % d. sure include \ n '' , 
+x ; 
+x printf `` country include name . 
+\ n '' ; 
+x output , , `` : '' ; 
+x 
+x write email address 
+x printf 
+x '' \ email address author # % d. use address \ n '' , 
+x ; 
+x printf 
+x `` registered domain well known site . 
+give several \ n '' ; 
+x printf `` form , list one per line . 
+\ n '' ; 
+x output , , `` email : '' ; 
+x 
+x write anonymous status 
+x printf '' \ author # % d remain anonymous enter y n ? '' 
+, 
+x ; 
+x buf , 1 +1 , 0 < 0 | | ! 
+buf 0 ` y ' | | buf 0 'n' 
+x printf '' \ answer y n : '' ; 
+x 
+x output , `` anon : \ % '' , buf ; 
+x output , , ; 
+x 
+x determine another author 
+x printf '' \ ni another author enter y n ? '' 
+; 
+x buf , 1 +1 , 0 < 0 | | ! 
+buf 0 ` y ' | | buf 0 'n' 
+x printf '' \ answer y n : '' ; 
+x 
+x buf 0 ` y ' 
+x true ; 
+x else 
+x false ; 
+x 
+x true ; 
+x return ; 
+x 
+x 
+x 
+x - output -- info -- section 
+x 
+x read need information , write info section . 
+x multiple info file exist , multiple info section write . 
+x 
+
+output , 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x 
+x char +1 ; filename buffer 
+x char yorn 1 +1 ; y n answer 
+x char ; name 
+x file ; info file stream 
+x 
+x 
+x prompt user info information 
+x 
+x printf '' \ file use supplement entry . 
+\ n '' ; 
+x printf `` example , info file may provide sample input detailed \ n '' ; 
+x printf `` information entry . 
+supplemental , \ n '' ; 
+x printf `` entry require exist . 
+\ n \ n '' ; 
+x 
+x 
+x another info file save , 
+x 
+x printf `` info file include enter y n ? '' 
+; 
+x yorn , 1 +1 , 0 < 0 | | ! 
+yorn 0 ` y ' | | yorn 0 'n' 
+x printf '' \ answer y n : '' ; 
+x 
+x yorn 0 ` y ' 
+x 
+x read filename 
+x printf '' \ info filename : '' ; 
+x , +1 , 0 < 0 
+x printf '' \ filename long , please re-enter : '' ; 
+x 
+x 
+x compute info filename 
+x remove trail newline 
+x & -1 ; 
+x ' \ 0 ' ; 
+x avoid issue , hand 
+x -- ; > ; -- 
+x ' ' 
+x + + ; 
+x break ; 
+x 
+x 
+x 
+x attempt open info file 
+x , `` r '' ; 
+x null 
+x , '' \ n % : open info file : % : '' , 
+x program , ; 
+x '' '' ; 
+x continue ; 
+x 
+x 
+x 
+x write start section 
+x 
+x output , '' -- info -- \ n '' ; 
+x output , , ; 
+x 
+x info file 
+x output , , , , , ; 
+x 
+x printf '' \ ndo another info file include enter y n ? '' 
+; 
+x yorn , 1 +1 , 0 < 0 | | ! 
+yorn 0 ` y ' | | yorn 0 'n' 
+x printf '' \ answer y n : '' ; 
+x 
+x ; 
+x return ; 
+x 
+x 
+x 
+x - output -- build -- section 
+x 
+x read need information , write build section . 
+x 
+
+output , , build , 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x file build ; open build file stream 
+x char ; name build file 
+x 
+x 
+x write start section 
+x 
+x output , '' -- build -- \ n '' ; 
+x output , , ; 
+x 
+x 
+x program file 
+x 
+x output , , build , , , ; 
+x return ; 
+x 
+x 
+x 
+x - output -- program -- section 
+x 
+x read need information form , write program section . 
+x 
+
+output , , prog , 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x file prog ; open program stream 
+x char ; name program file 
+x 
+x 
+x write start section 
+x 
+x output , '' -- program -- \ n '' ; 
+x output , , ; 
+x 
+x 
+x program file 
+x 
+x output , , prog , , , ; 
+x return ; 
+x 
+x 
+x 
+x - output -- end -- section 
+x 
+x read need information form , write ` end section ' . 
+x 
+
+output , 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x 
+x 
+x write final section terminator 
+x 
+x output , '' -- end -- \ n '' ; 
+x output , , ; 
+x return ; 
+x 
+x 
+x 
+x - get answer 
+x 
+x function flush , case prompt pend , 
+x read answer . 
+x 
+x function return 0 line long , length 
+x line include newline line ok . 
+function 
+x return error eof . 
+x 
+
+buf , , 
+x char buf ; input buffer 
+x int ; length input , include newline 
+x int ; max col allow , 0 > disable check 
+x 
+x int length ; length input line 
+x 
+x flush terminal output 
+x ; 
+x 
+x read line 
+x buf , +1 , null 
+x report problem 
+x , `` '' , ; 
+x 
+x 
+x look newline 
+x length buf ; 
+x buf ! 
+' \ n ' 
+x int ; char eat 
+x 
+x newline find , line must long , eat rest line 
+x 
+x ; 
+x ! 
+eof & & ! 
+' \ n ' ; 
+x , `` '' , ; 
+x 
+x report situation 
+x return 0 ; 
+x 
+x 
+x watch long line , need 
+x > 0 & & length > | | buf > 
+x report situation 
+x return 0 ; 
+x 
+x 
+x return length 
+x return length ; 
+x 
+x 
+x 
+x - output set line ' . ' 
+read 
+x 
+x routine read set line include 
+x single line ' . ' 
+read . 
+format output : 
+x 
+x leader : \ line 
+x \ line 
+x \ line 
+x ... 
+x 
+x routine return error eof . 
+x 
+
+output , , leader 
+x file output ; entry 's output file stream 
+x char ; name output file 
+x char leader ; lead text first line 
+x 
+x char buf +1 ; input buffer 
+x int count ; line read 
+x int false ; true > finish reading input 
+x 
+x instruct user input 
+x printf '' \ nto end input , enter line single period . 
+\ n '' ; 
+x 
+x read line ' . ' 
+eof 
+x count 0 ; 
+x ! 
+
+x issue prompt 
+x printf '' % \ '' , count > 0 ? '' '' 
+: leader ; 
+x ; 
+x 
+x get line 
+x buf , , < 0 
+x printf '' \ long , please re-enter : \ n \ '' ; 
+x continue ; 
+x 
+x 
+x note ' . ' 
+read 
+x buf , '' . 
+\ n '' 0 
+x true ; 
+x 
+x 
+x write line read something 
+x ! 
+
+x output , '' % \ % '' , count + + > 0 ? '' '' 
+: leader , buf ; 
+x output , , ; 
+x 
+x 
+x 
+x line read , least output something 
+x count < 0 
+x output , '' % \ t. \ n '' , leader ; 
+x output , , ; 
+x 
+x return ; 
+x 
+x 
+x 
+x - determine highest string would reach 
+x 
+x give string , routine return string would reach 
+x string print column 1 . 
+tab stop assume 
+x start 9 , 17 , 25 , 33 , ... 
+x 
+
+string 
+x char string ; string examine 
+x 
+x int col ; current column 
+x char p ; current char 
+x 
+x scan string 
+x col 0 , p string ; p ! 
+' \ 0 ' & & p ! 
+' \ n ' ; + + p 
+x note column shift 
+x col p ' \ ' ? 
+1 + col +8 8 8 : col +1 ; 
+x 
+x p ' \ n ' 
+x -- col ; 
+x 
+x 
+x return highest column 
+x return col ; 
+x 
+x 
+x 
+x - check eof error stream 
+x 
+x return eof error . 
+x 
+
+stream , name , 
+x file stream ; stream check 
+x char name ; name stream 
+x int ; 
+x 
+x test error 
+x stream 
+x , '' % : error % : '' , program , name ; 
+x '' '' ; 
+x exit 1 ; 
+x 
+x test eof 
+x else & & stream 
+x , '' % : eof % \ n '' , program , name ; 
+x exit 1 ; 
+x 
+x return ; 
+x 
+x 
+x 
+x - file 
+x 
+x perform process identical process perform 
+x 1 utility . 
+x 
+x routine implement algorithm describe 5 
+x 4.3 bsd reno man page . 
+x 
+
+output , , , iname , , 
+x file output ; output file stream 
+x char ; output filename 
+x file ; input file stream 
+x char iname ; input filename 
+x int ; mode put file 
+x char ; name put file 
+x 
+x char buf +1 ; buffer 
+x int ; actual number char read 
+x int val ; 6 bit chunk buf 
+x char filler 0 ' ; filler pad text 
+x char p ; 
+x 
+x 
+x output initial header 
+x 
+x output , `` begin % o % \ n '' , , ; 
+x output , , ; 
+x 
+x 
+x clear input buffer 
+x 
+x p buf ; p < & buf buf buf 0 ; + + p 
+x p ' \ 0 ' ; 
+x 
+x 
+x 
+x process char time , form 
+x single output line time . 
+x 
+x buf , buf 0 , , > 0 
+x 
+x 
+x first character length character 
+x 
+x , output ; 
+x output , , ; 
+x 
+x 
+x convert 24 bit time . 
+thus convert 
+x 3 set 8 bit 4 set 6 bit . 
+x 
+x p buf ; > 0 ; - 3 , p + 3 
+x 
+x bit 0 5 
+x val p 0 2 & ; 
+x val , output ; 
+x output , , ; 
+x 
+x bit 6 11 
+x val p 0 4 & | p 1 4 & ; 
+x val , output ; 
+x output , , ; 
+x 
+x bit 12 17 
+x val p 1 2 & | p 2 6 & ; 
+x val , output ; 
+x output , , ; 
+x 
+x bit 18 23 
+x val p 2 & ; 
+x val , output ; 
+x output , , ; 
+x 
+x 
+x end line 
+x ' \ n ' , output ; 
+x output , , ; 
+x 
+x 
+x clear input buffer depend 
+x 
+x p buf ; p < & buf buf buf 0 ; + + p 
+x p ' \ 0 ' ; 
+x 
+x 
+x 
+x check last read input file 
+x , iname , ; 
+x 
+x write end file 
+x output , '' % c \ \ n '' , filler ; 
+x output , , ; 
+x 
+
+| | 
+echo `` restore fail '' 
+set ` wc - c ` ; $ 1 
+test `` $ '' ! 
+`` '' ; 
+echo original size , current size $ 
+fus 
+# 
+echo `` x - extract text '' 
+sed 's ^ x ' ` ' > & & 
+obfuscated contest information 
+x 
+c landon curt noll & larry bassel , 1993 . 
+rights reserved . 
+permission personal , education non-profit use 
+provide copyright notice include entirety 
+remain unaltered . 
+use must receive prior permission write 
+landon curt noll larry bassel . 
+x 
+international obfuscated c code contest , sprit 
+, willing mention programming contents , space 
+. 
+x 
+contest include file : 
+x 
+x wish judge include contest file , 
+x send request : 
+x 
+x 
+x 
+x request contest description limit 50 line 
+x exceed 2500 byte . 
+typically request contest 
+x include current description . 
+x 
+x order include file give year , must 
+x receive current description earlier jan 1 utc 
+x later feb 15 utc . 
+agreement publish 
+x contest must also obtain prior feb 15 . 
+annual contest 
+x fail submit new entry drop file . 
+x 
+disclaimer : pardon 
+x 
+x contents note , , affiliate 
+x , endorse . 
+reserve 
+x right refuse print information give contest . 
+x 
+x information provide particular contest 
+x organizer print permission . 
+please contact 
+x contest organizer directly regard contents . 
+x 
+official notice give , present enjoyment , follow 
+contents : 
+x 
+x 
+x 
+x 10th international obfuscated c contest 
+x 
+x `` original obfuscated contest '' 
+x 
+x obfuscate : . 
+- cate , - , - cate . 
+1 . 
+a. render obscure . 
+x b. darken . 
+2 . 
+confuse : emotion obfuscate 
+x judgment . 
+. 
+, darken : ob intensive + 
+x lat . 
+, darken < fuscus , dark . 
+- obfuscation n. 
+x adj. 
+x 
+x goal contest : 
+x 
+x write c program rule . 
+x show importance programming style , ironic way . 
+x stress c compiler unusual code . 
+x illustrate subtlety c language . 
+x provide safe forum poor c code . 
+: - 
+x 
+x grandfather usenet programming contest . 
+since 
+x 1984 , contest demonstrate program simply work 
+x correctly sufficient . 
+also much add 
+x arcane word ` obfuscate ' back english language . 
+x see `` new hacker 's dictionary '' eric raymond 
+x 
+x strongly encourage read new contest rule 
+x send entry . 
+rule , sometimes contest email 
+x address , change time . 
+valid entry one year may 
+x reject later year due change rule . 
+typical 
+x start date contest early march . 
+contest rule normally 
+x finalize post beginning contest . 
+typical 
+x closing date contest early may . 
+x 
+x rule guideline may often change year 
+x year . 
+sure current rule guideline 
+x prior submit entry . 
+obtain , send email address 
+x use subject ` send rule ' . 
+x 
+x one may obtain winner previous contest 1984 date , via ftp : 
+x 
+x host : 
+x user : anonymous 
+x pass : 
+x dir : ~ 
+x 
+x last resort , previous winner may obtain send email 
+x address . 
+please use subject ` send year winner ' , 
+x year single 4 digit year , year range , ` ' . 
+x 
+x 
+x 
+x 0th international obfuscated perl contest 
+x : landon noll & larry wall 
+x 
+x content plan . 
+someday landon & larry 
+x busy , actually get around post first set rule ! 
+x 
+x landon say : `` yes , know say would contest 1993 , 
+x exist project get way . 
+hopefully 
+x something develop nov 1993 . '' 
+x 
+x 
+x 
+x 2nd international obfuscated postscript contest 
+x jonathan monsarrat 
+x alena 
+x 
+x contest programming skill knowledge , exclusively 
+x postscript programming language . 
+purpose : 
+x 
+x spread knowledge postscript detail . 
+x applaud best trick . 
+x prove human beat damnable machine generator 
+x game write obscure mysterious postscript 
+x program ever . 
+x 
+x winner receive fame attention go 
+x program entry post winner programmer world-wide . 
+x 
+x 1993 contest rule result available ftp 
+x `` : . 
+shar '' , individually 
+x obfuscate directory . 
+judge post 1994 rule 
+x november usenet , place . 
+x send question . 
+x 
+x category include : best obfuscate postscript , best artwork , 
+x compact , best interactive program , useful , 
+x anything unusual creative deserve award . 
+x 
+x judge choose winner category . 
+x 
+x alena system administrator institute high 
+x energy nuclear physics netherlands . 
+author 
+x postscript chaos programs , draw julia set , mandelbrot set 
+x kind fractal function . 
+x 
+x jonathan monsarrat graduate student mit brown university 
+x u.s.a. . 
+faq maintainer usenet newsgroup 
+x author postscript zone . 
+x . 
+x 
+
+| | 
+echo `` restore fail '' 
+set ` wc - c ` ; $ 1 
+test `` $ '' ! 
+`` '' ; 
+echo original size , current size $ 
+fus 
+exit 0 
+-- 
+sunnyvale resident : vote landon noll sunnyvale city council seat 1 . 

@@ -1,0 +1,64 @@
+: paul woodman 
+subject : help : failure 
+organization : praxis , bath , u.k. 
+lines : 60 
+repost - due net problem 
+hus , 
+problem ekg report rom 
+revision 376 . 
+report mac trouble 
+format disk time get , would 
+respond although function fine . 
+check voltage external drive connector pin 
+6 show volt 7 8 give unloaded . 
+power 
+supply send away repair . 
+power supply reinstall , get follow error : 
+internal connect , mac boot fine completion 
+boot cycle alert display `` disk unreadable - 
+want eject ? '' 
+. 
+every combination response , alert 
+reappear within approx 2 seconds error continuous . 
+
+spin head seek incapable 
+eject disk . 
+error sequence occur regardless whether 
+floppy drive . 
+pin 6 external 
+connector show 1.2 v , pin 7 8 show 10.75 v. 
+internal disconnect , mac boot fine work great 
+report error . 
+external connector show 
+voltage pin 6 pin 7 8 show 10.75 v. 
+, internal may fubar , apple external 
+drive give exactly symptom internal drive 
+connect either external internal connector 
+suitable surgery external drive . 
+voltage 
+internal disconnect follow : 
+pin volt pin volt 
+1 - 2 5 
+3 - 4 5 
+5 - 6 5 
+7 - 8 - 
+9 - 10 5 
+11 - 12 - 
+13 10.75 14 5 
+15 10.75 16 5 
+17 10.75 18 - 
+19 10.75 20 5 
+machine swim think ekg test . 
+test 
+diode pica fuse find problem . 
+anybody 
+idea ? 
+best wish , 
+woody . 
+paul woodman 
+praxis plc , 
+\ | software engineering company touche ross , 
+\ ___ ___ _ | 20 manvers street , bath , ba1 , uk . 
+\ \ | \ tel 
+\ \ __ __ __ | \ fax . 
+

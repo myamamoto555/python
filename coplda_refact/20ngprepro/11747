@@ -1,0 +1,28 @@
+: john d. irish 
+subject : button sensitivity problem : motif app 
+: . 
+
+organization : network systems corporation 
+lines : 25 
+motif application consist multiple transient shell child 
+single shell : 
++ ----------- + + --------------- + + ---------------- + 
+| | -- | | -- | | 
++ ----------- + + --------------- + | + ---------------- + 
+| 
+| + ---------------- + 
+| - | | 
+| + ---------------- + 
+| 
+transient shell , application modify 
+sensitivity button shell hide 
+transient shell window . 
+transient shell , 
+button sensitivity correct button text remain unchanged 
+i.e. , . 
+subsequent selection button cause 
+text revert correct visual state . 
+trace event message send application , many event 
+see mwm present . 
+anyone suggestion solution please post send mail . 
+thanks ! 

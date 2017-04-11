@@ -1,0 +1,54 @@
+: chris lilley 
+subject : re : 48-bit graphic ... 
+keyword : 48-bit alpha channel image 
+lines : 41 
+: 
+organization : computer graphics unit , mcc 
+article < > , 
+sane write : 
+> recently talk possible employer mine ! 
+make 
+> reference 48-bit graphic processing system . 
+seem 
+> remember call image something akin . 
+anyway , claim 
+> 48-bit color + 12-bit alpha channel . 
+60 bit info -- 
+> could possibly ? 
+specifically 48-bit color ? 
+280 
+> trillion color , many human eye resolve . 
+
+> anti-aliasing thing ? 
+magic number make work better 
+> certain processor . 
+well 48 bit color could improve resolution 16 bit per channel 
+seem like bit excessive . 
+see paper quote 10 bit per channel 
+12 bit computational precision . 
+would seem waste . 
+perhaps frame buffer use another need bit 
+represent full range - rgb cube compact encoding . 
+likely however two separate 24 bit 8 bit per component 
+frame buffer . 
+set , call double buffer , allow complex 3d picture 
+build one buffer buffer contain previous 
+frame display . 
+make smoother animation . 
+> sadly , access none . 
+dec . 
+sigh . 
+well hey want brag number , 5000 range take turbo + 
+card 96 bit per pixel . 
+full double buffering two 24 bit buffer , 24 
+bit z buffer extra 24 bit buffer screen image storage . 
+mind card cost workstation . 
+-- 
+chris lilley 
+
+technical author , computer graphics visualisation training project 
+computer graphics unit , manchester computing centre , oxford road , 
+manchester , uk . 
+m13 internet : 
+voice : +44 0 fax : +44 0 janet : 
+

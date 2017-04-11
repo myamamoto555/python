@@ -1,0 +1,30 @@
+: stephen c. gilardi 
+subject : need postscript info 
+summary : seek algorithm endpoint `` snap '' 
+keyword : postscript emulation adjust stroke 
+organization : sq software via world public access unix , brookline , ma 
+lines : 31 
+need information display postscript feature . 
+feature adjust endpoint line display line 
+look better low resolution device . 
+postscript literature explain process extent . 
+
+also give example `` emulate '' postscript 
+environment absent . 
+suggest emulation modify coordinate endpoint 
+line use follow coordinate : 
+round - 0.25 + 0.25 
+end coordinate end '' .25 '' . 
+
+read think might actually : 
+2 2 + 0.25 
+result coordinate end either `` 0.25 '' `` 0.75 '' 
+whichever closer . 
+actual comparison display postscript , find 
+neither dps really use . 
+since like dp 
+result look better stuff look , would like know 
+anyone know dps tell . 
+thanks , 
+-- steve 
+

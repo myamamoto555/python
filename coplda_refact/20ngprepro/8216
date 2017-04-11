@@ -1,0 +1,44 @@
+: arnaud 
+subject : 3.2 g available 
+keywords : 
+organization : koala project , bull research france 
+lines : 44 
+directory , directory : 
+.2 .2 
+.2 
+copyright 1990-93 groupe bull -- see license condition file copyright 
+\ 
+
+history change 
+
+
+3.2 g 
+enhancement : 
+- much faster close color 
+- piping compress file handle gnu 's gzip . 
+z format 
+- add attribute - ability specify visual 's 
+color use ie : possible read 
+color visual , use color specify monochrome . 
+- add - mono , - , - gray - color option demonstrate 
+attribute . 
+- jason patterson < > 
+bug correct : 
+- fix bug redefine `` none '' pixel stop mask generation 
+- minor svr4 define 
+- fix annoying bug related color cell 
+- fix minor bug color value - > pixel overload 
+- manual update include new closeness attribute 
+- jason patterson < > 
+- top miss depend target 
+- fix - l. . 
+lib set standard 
+library location . 
+- vivek khera < > 
+- . 
+h define vms require recent 
+version vms 
+- j. daniel smith < > 
+- work . 
+-- 
+arnaud le hors - - bull research france , koala project 

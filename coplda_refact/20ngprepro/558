@@ -1,0 +1,56 @@
+: 
+subject : 2 level brightness xmas light set easter ? 
+keyword : 
+organization : at&t 
+lines : 54 
+yes , know nowhere near christmas time , gon na loose 
+net access day maybe week 2 lucky , want 
+post interested people save 'till xmas . 
+: - 
+note : bell labs good place phd good boss , 
+neither . 
+
+subject : xmas light set 2 level brightness 
+another version variable brightness xmas light set : 
+set start 2 blinker 35 bulb string . 
+diagram : orginal 2 way set 
+-- + -- b - - - - - - - -- ! 
+! 
+-- b - - - - - - - - ! 
+! 
+! 
+modify set 2 level brightness : 
+string 1 
+--------- - - - - - - - -- ! 
+\ _ 10k _______ - - - - - - - - ! 
+5w ! 
+string 2 ! 
+b ________________ ! 
+rtn __ ! 
+___ ! 
+^ note : mod wiring right point . 
+one blinker use . 
+note blinker would much current thru 
+string 1 bulb , second string bulb 
+parallel . 
+use 10k 5w resistor 
+add extra current thru blinker make 
+current shunt thru second string blinker glowing 
+second string glowing . 
+blinker go open , 
+resistor slight effect brightness 
+string , s1 slightly dimmer , s2 slightly brighter . 
+use 3w bulb place 10k resistor get 
+one . 
+caution , replace standard c9 bulb , 
+draw much current burn blinker . 
+c9 approx 7w . 
+'ll see work : powerup , string 1 light 
+full brightness , b light , bypass current 
+second string , make light . 
+b open , place 
+string series , make string glow 
+low brightness , string glow 
+reduce brightness . 
+sure wire insulate splice , resistor lead , cut wire 
+safe manner ! 

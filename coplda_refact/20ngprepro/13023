@@ -1,0 +1,35 @@
+: 
+subject : intel design kit 
+: 1.41 
+: 
+organization : university texas arlington 
+lines : 33 
+kit include following : 
+1 -5 
+clock generator driver 
+processor 
+2 
+64k uv erasable prom 
+3 
+low power 64k x 4 
+dynamic ram 
+4 
+programmable interrupt controller 
+5 
+bus controller 
+fro processor 
+6 -2 
+8-bit microprocessor 
+7 
+programmable peripheral interface 
+8 
+programmable interval timer 
+9 
+dynamic ram controller 
+chip complete manual box . 
+know whether 
+still work , really know . 
+mainly know use 
+probably ee stuff since use belong ee student 
+anyone interested , please make offer . 
+

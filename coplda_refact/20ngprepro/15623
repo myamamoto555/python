@@ -1,0 +1,39 @@
+: steve 
+subject : re : kubota spec 
+summary : clarification 
+organization : kubota pacific computer , inc. . 
+lines : 35 
+
+> okay , get enough reply kubota system 
+> post summary capability . 
+... 
+> 
+> graphic 
+> 
+> transform modules 1-6 1-6 
+> frame buffer modules 
+> frame buffer 
+> double buffer double buffer 
+> z-buffer 24-bit 24-bit 
+> 8-bit 8-bit 
+paul martz : 
+| mean either alpha stenciling , 
+| simultaneously ? 
+
+> stereo support yes yes 
+> : machine double buffer 
+> stereo output per window . 
+
+> auxiliary video output , 
+> ntsc , pal 
+paul martz : 
+| question , mean either double 
+| buffering stereo , simultaneously ? 
+question , inclusive . 
+alpha plus stencil 
+support separate , stereo . 
+
+steve kubota pacific computer , inc. . 
+santa clara , california 
+-- barbie right ; math hard . 
+-- 

@@ -1,0 +1,107 @@
+subject : trident 8900 switch setting someone archive ! 
+: 
+organization : mankato state university 
+lines : 109 
+. 
+txt - jeffrey e. 
+switch setting trident 
+\ ----------------- | 
+| --------- | 
+| 9 -- | 
+| xx 8 8 8 8 ------- ------- | 1 
+| xx | 6 | | 10 | | -- | 
+| | | 4 ------- | 2 
+| xx ------ j1 j2 | -- | 
+| xx 8 8 8 8 ------- -------- | 3 
+| | 5 | | 5 | | -- | 
+| -------------- | ------- | - | -------- 7 | - | | 
+| ----------- | | ------------------- | | ----------- 
+vga graphics adapter layout # 1 
+\ ----------------- | 
+| --------- 4 j3 | 
+| ------- 9 -- | 
+| 11 8 8 8 8 | | -------- | 1 
+| | 6 | | 10 | | -- | 
+| ------- 4 ------- -------- | 2 
+| j2 | 5 | | -- | 
+| 11 8 8 8 8 ------- | 3 
+| | 5 | 4 j1 | -- | 
+| -------------- | | - | -------- 7 | - | | 
+| ----------- | | ------------------- | | ----------- 
+vga graphics adapter layout # 2 - dram 
+\ ----------------- | 
+| --------- 4 j3 | 
+| ------- 9 -- | 
+| 11 8 8 8 8 | | -------- | 1 
+| | 6 | ------- | 10 | | -- | 
+| ------- 4 | 5 | -------- | 2 
+| j2 ------- | -- | 
+| 11 8 8 8 8 | 5 | | 3 
+| 4 j3 ------- | -- | 
+| -------------- | | - | | - | 4 j1 | 
+| ----------- | | ------------------- | | ----------- 
+vga graphics adapter layout # 3 - dram 
+1 . 
+dip switch 
+2 . 
+connector : analog monitor . 
+3 . 
+connector : ttl monitor . 
+note # 1 
+4 . 
+j1 , j2 , j3 , j4 j3 layout # 2 # 3 , j4 layout # 3 
+5 . 
+video bios : basic system . 
+6 . 
+8900 chip : vga graphics chip . 
+7 . 
+edge connector : ibm , compatible system . 
+8 . 
+video dram : 1mb 
+9 . 
+feature connector : special application . 
+10 . 
+video dac 
+11 . 
+jumper blocks board 
+note # 1 - hardware option . 
+feature present board version . 
+switch setting 6 switch dip box # 1 figure . 
+switch 3 : scan rate 
+- less default 
+- 
+switch 5 : fast slow address decode 
+- fast address decode default 
+- slow address decode 
+switch 6 : bit datum path 
+- 16-bit datum path default 
+- 8-bit datum path 
+jumper setting 
+j1 : setting 
+1 2 3 1 2 3 
+xxx xxx 
+def 
+j2 : setting bus size detection 
+1 1 x 
+2 x 2 x 
+3 x 3 
+standard interface 
+def 
+j3 : setting dram configuration 
+1 2 3 1 2 3 1 2 3 
+-- | | -- 
+-- | | -- 
+4 5 6 4 5 6 4 5 6 
+two dram four dram eight dram 
+j4 : dram clock select 
+1 2 3 1 2 3 
+xxx xxx 
+40 mhz 48 mhz 
+two dram dram 
+sw1 & 
+| sw1 | 
++ ----- + -- 
+vga mode default | | 
+ega mode | | 
+cga mode | | 
+mode | | 

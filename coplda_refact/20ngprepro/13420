@@ -1,0 +1,42 @@
+: glenn sullivan 
+subject : re : long distance ir detection 
+summary : fact long distance ir detection 
+organization : arizona state university 
+distribution : na 
+lines : 34 
+write : ... 
+> > design build hardware 1988 would output logic level 
+> > 567 tone detector upon detect 500 lead 28 foot away . 
+> > use motorola , bias linearly loop servo 
+> > variation sunlight light . 
+use lens . 
+> > allen sullivan 
+> would interested know sense hardware . 
+
+> use detector ? 
+could detect angle location , 
+> system simply respond presence transmitter sensor 
+> field view ? 
+- > x100 - > x100 - > 
+limiter 
+feedback base 
+control operate point expect really hurt noise figure ! 
+
+comment expert ? 
+intend use atop stepper motor , provide heading 
+beacon . 
+plan 3 4 beacon , different frequency , 
+room , tell 567 frequency . 
+. 
+one challenge available stepper 8 degree step ! 
+know heading beacon , would use surveyor 
+technique resection determine robot location . 
+, go 
+explain resection net . 
+give hindsight , would digitize amplify output 
+circuit , correlate in-phase & quadrature 
+several expect frequency , extract amplitude beacon . 
+numerous step , even 8 degree step , knowledge 
+angular response , able 
+rather accurately determine head beacon . 
+allen sullivan 

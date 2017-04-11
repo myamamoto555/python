@@ -1,0 +1,27 @@
+: stefan hartmann 
+subject : genoa graphic board drivers ftp site ! 
+: .1 $ 
+organization : 
+lines : 29 
+: . 
+de 
+hus , 
+well open ftp site get latest software driver 
+genoa graphic card . 
+access : 
+ftp 
+login : ftp 
+password : ftp 
+cd 
+ls - l 
+binary 
+prompt 
+hash 
+wan na latest driver 7900 board 
+cd 
+
+quit 
+sequence get driver . 
+question , please email . 
+best regard , stefan hartmann 
+email : 

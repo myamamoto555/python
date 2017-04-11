@@ -1,0 +1,28 @@
+: joel kolstad 
+subject : re : want : d hardware pc 
+: doug 
+organization : u wisconsin-madison college engineering 
+lines : 22 
+> < > brad wright write : 
+> 
+know much pc 's ibm comp might try joystick 
+port . 
+though try , tell port 
+build a-d converter . 
+would allow joystick couple 
+pot . 
+could find spec might work ... 
+believe `` a-d converter '' find joystick port really 
+timer tick long take circuit r 
+paddle charge something like vcc . 
+game work 
+pretty well , certainly would want try take lab 
+measurement something non-linear . 
+hmm ... suppose could software , real problem 
+precision measurement longer constant higher 
+voltage would precise . 
+hand , could wrong perhaps game card designer 
+splurge extra $ .50 make cheap constant current source 
+op amp . 
+would expect ... 
+-- joel kolstad 

@@ -1,0 +1,446 @@
+subject : space faq - datum source 
+: jon leech 
+expire : 6 may 1993 gmt 
+organization : university north carolina , chapel hill 
+keyword : frequently ask question 
+supersedes : < > 
+: 
+lines : 463 
+: 
+: $ date : $ 
+online source image , data , etc. . 
+introduction 
+wide variety image , datum , catalog , information release , 
+material deal space astronomy may find net . 
+site offer direct dialup access remote login access , 
+remainder support form file transfer . 
+many site list 
+provide ` anonymous ftp ' . 
+refer file transfer protocol 
+internet . 
+site connect internet use ftp 
+directly , automated ftp server operate via 
+email . 
+send mail contain word help 
+server send instruction 
+make request . 
+source broadest selection material nasa ames 
+space archive national space science data center . 
+even ask image post net . 
+datum volume 
+huge nobody want spend time . 
+view image 
+possible combination image format machine 
+large , attempt cover common format gif , etc. . 
+
+read pd vicar many format unix system run x , 
+use xv 2.11 , available anonymous ftp 
+. 
+standard x11 ftp 
+site . 
+faq usenet group discuss image 
+format get image viewing software . 
+copy document 
+available anonymous ftp usenet faq archive 
+. 
+, directory 
+. 
+. 
+online archive 
+nasa ames 
+extensive archive maintain nasa ames available via 
+anonymous ftp email server . 
+archive include many image 
+wide variety document include faq list , nasa press 
+release , shuttle launch advisory , mission status report . 
+please 
+note maintain official basis . 
+ftp user connect look 
+. 
+contain listing file available 
+archive index 200k . 
+access archive email , send letter 
+- server . 
+
+subject letter body , use command like : 
+send space index 
+send space . 
+capitalization subdirectory name important . 
+
+cap . 
+text file handle email server present ; use 
+one ftp email server describe introduction 
+section image program . 
+magellan venus voyager jupiter , saturn , uranus cd-rom image 
+disk put online cdrom directory . 
+
+disk rotate weekly basis . 
+thousand image 
+available collection . 
+gif directory contain image gif format . 
+vicar directory 
+contain magellan image vicar format also available 
+gif directory . 
+pc program capable display file 
+find directory see item `` view image '' . 
+nasa media guide describe various nasa center 
+contact public affair officer ; may useful pursue 
+specific information . 
+. 
+guide . 
+problem archive server report peter yee 
+. 
+nasa astrophysics data system 
+ads distribute datum retrieval system easy use 
+provide uniform access ground-based space-based astronomy datum 
+nasa datum center across country . 
+currently 140 
+datum catalog radio , , optical , uv , x-ray datum 
+query position parameter catalog . 
+ads 
+also provide tool manipulate plot tabular result . 
+addition , 
+ads beta version abstracts service allow user 
+query 125,000 abstract astronomy papers since 1975 author , 
+keyword , title word , abstract text word . 
+ads use require direct internet access . 
+info sign 
+become user , email . 
+user 's guide 
+`` quickstart '' guide available anonymous ftp . 
+
+directory _ postscript file . 
+contact carolyn stern grant . 
+nasa jet propulsion lab mission information image 
+anonymous ftp site operate 
+jpl public information office , contain news release , status 
+report , fact sheet , image , datum jpl mission . 
+may 
+also reach modem 818 parity , 8 datum bit , 1 
+stop bit . 
+contact phone 818 . 
+nasa langley technical report 
+anonymous ftp site offer technical 
+report . 
+get start , cd directory 92 
+retrieve file readme abstract .92 . 
+file compress 
+postscript . 
+report also wai database follow 
+description : 
+: source 
+: version 3 
+: `` '' 
+: 210 
+: `` '' 
+: cost 0.00 
+: : free 
+: maintainer `` '' 
+: description `` nasa langley research center technical reports 
+contact . 
+nasa 
+online service located marshall space flight center 
+huntsville , alabama . 
+system specifically design 
+teacher . 
+datum base arrange provide easy access current 
+historical information nasa aeronautics , space research , 
+technology transfer information . 
+also include suggest classroom 
+activity incorporate information nasa project teach 
+number scientific principle . 
+unlike bulletin board system , nasa 
+provide interaction caller . 
+however 
+allow teacher caller leave question comment 
+nasa may answer regular mail . 
+message answer 
+electronically , even acknowledge request fulfil 
+mail . 
+message generally handle next work day except 
+mission turnaround time increase . 
+mail system closed-loop 
+user nasa . 
+also offer downloadable shareware public domain program 
+useful science educator well space graphic gif image 
+nasa 's planetary probe hubble telescope . 
+dial 205 9600 v. 32 baud , 8 
+bit , parity , 1 stop bit , telnet 
+, also know 
+internet . 
+anonymous ftp capability password guest available . 
+information also available ames server 
+directory . 
+national space science data center 
+national space science data center official clearinghouse 
+nasa datum . 
+datum catalog datum available online . 
+internet user telnet 
+log ` ' password . 
+also get catalog send 
+email ` . 
+also dial 301 300 , 1200 , 2400 baud , 8 bit , 
+parity , one stop . 
+`` enter number : '' prompt , enter md 
+carriage return . 
+system respond `` call complete , '' enter 
+carriage return get `` username : '' log ` ' 
+password . 
+system ; topic available : 
+1 - master directory - nasa & global change 
+2 - personnel information management system 
+3 - grid toms data 
+4 - interplanetary medium data omni 
+5 - request datum information 
+6 - geophysical model 
+7 - canopus newsletter 
+8 - international ultraviolet explorer data request 
+9 - browse order utility 
+10 - astronomical data center adc 
+11 - step bulletin board service 
+12 - standards technology information system 
+13 - planetary science & magellan project information 
+14 - online data services 
+15 - cd-roms available 
+user internet access , dataset make available via 
+anonymous ftp select desire dataset online 
+catalog . 
+user , datum may order cd-rom 
+format . 
+among many type datum available voyager , magellan , 
+planetary image , earth observation datum , star catalog . 
+viewer macintosh ibm system also available . 
+example 
+cost , 8 cd set voyager image $ 75 . 
+datum may order 
+online , email , physical mail . 
+postal address : 
+national space science data center 
+request coordination office 
+goddard space flight center 
+code 633 
+greenbelt , md 
+telephone : 
+email address : 
+space telescope science institute electronic information service 
+large amount information 
+hubble space telescope available anonymous ftp , status 
+report newsletter , addition material orient towards hst 
+observer proposer . 
+get top level readme file begin . 
+contact pete reppert chris o'dea 
+. 
+
+space telescope european coordination facility , 
+provide on-line access huge astronomical database , feature 
+- observation log file several 
+iue , iras , hst , ntt ... . 
+- spectra image iue , hst . 
+- astronomical catalogue sao , hr , ngc , ppm , iras , 
+veron , gsc many , 50 convenient 
+way give center + radius + kind object , get 
+corresponding file ! 
+. 
+log `` '' password node 
+decnet . 
+file create 
+ftp . 
+contact : benoit pirenne , phone 
+89 320 06 433 
+astronomical database 
+full sao stellar database available online , probably due 
+40 mb size . 
+may order magnetic tape . 
+
+subset contain position magnitude available ftp see 
+`` astronomy programs '' . 
+large collection astronomical 
+program many type computer , database star deep sky 
+object , general astronomy information directory . 
+
+site mainly european user , overseas connection 
+possible . 
+ames archive contain database galaxy include name , 
+ra , declination , magnitude , radial velocity . 
+dat . 
+supply wayne hayes . 
+. 
+number gif voyager , 
+hubble , source available anonymous ftp 
+datum also ames server . 
+please restrict 
+access 5pm - 8am atlantic time . 
+yale bright star catalog anonymous ftp 
+directory . 
+. 
+contact james 
+. 
+hubble guide star catalog available cd-rom mac pc 
+$ 49.95 us catalog # . 
+astronomical society pacific 
+390 ashton ave. 
+san francisco , ca 
+phone : 9 - 3 pm pacific time 
+fax : 
+german possibly european reader , jost jahn 
+service distribute astronomical datum interested amateur cost . 
+30-40 catalog available dm 6 . 
+.8 disk . 
+several floppy disk 
+format available . 
+expense receive email 
+system , ask contact physical mail : 
+jost jahn 
+strasse 11 
+
+germany 
+phone : 
+astronomy program 
+various program database post net 
+past archive anonymous ftp multiple site , include 
+. 
+also see list post 
+monthly , complete list . 
+source interest : 
+volume 8 : phoon moon phase date routine 
+volume : program & yale star datum 
+volume 15 : show moon phase picture suns 
+volume 16 : sao reduce sao catalog 
+source interest : 
+volume 8 : moon another moon phase program 
+volume 11 : program , version 3.2 
+volume 11 : orbit : track earth satellite 
+volume 12 : program , update version 
+volume 13 : plotter jupiter 's major moon perl 
+volume 13 : lunisolar lunisolar sure 
+volume 14 : .21 astronomical , v4 .21 
+volume 14 : patch orbit 3.7 
+volume 18 : planet planet generation simulator 
+elwood downey , author 
+`` '' , offer mail copy people find one 
+archive . 
+, x window system base satellite tracking program , 
+available anonymous ftp 
+.0 . 
+. 
+contact dave curry 
+information . 
+, computerized sky atla x window system , available 
+anonymous ftp directory . 
+
+. 
+contact terry r. 
+information . 
+`` variable stars analysis software archive '' available via 
+anonymous ftp directory 
+. 
+intend specialist field , 
+would appreciate people outside new zealand confine ftp 
+access directory , pay significant amount 
+internet access . 
+contents relatively sparse present due 
+youth archive - contribution encourage . 
+contact archive 
+administrator , timothy bank 
+information . 
+`` idl astronomy users library '' available anonymous ftp 
+. 
+central repository 
+general purpose astronomy procedure write idl , commercial image 
+processing , plot , programming language . 
+contact wayne landsman 
+information . 
+orbital element set 
+recent orbital element nasa prediction bulletin 
+carry celestial bb , 513 . 
+documentation tracking 
+software also available system . 
+celestial bb may 
+access 24 300 , 1200 , 2400 baud use 8 datum bit , 1 
+stop bit , parity . 
+orbital element set available via anonymous ftp 
+follow site : 
+nasa , , shuttle 
+directory : 
+nasa , , , , 
+directory : satel shuttle 
+nasa , 
+directory : 
+space digest archive 
+copy back issue space digest archive 
+. 
+send mail contain message `` index space '' 
+get index file ; send message `` get filename '' 
+get particular file . 
+landsat nasa photos 
+get black-and-white 1:1 m print , negative , positive 
+$ 10 , $ 18 , $ 12 respectively landsat datum 2 year old 
+edc , eros earth resources orbiting satellite data center . 
+call 
+605 . 
+get 80 meter resolution mss 
+scanner , kilometer picture mm size . 
+think 
+select one band green , red , near ir , second near ir , 
+sure . 
+digitial datum also available higher price . 
+transparency nasa photo available public 
+borrow nasa photo archive ; copy print 
+make . 
+nasa audio-visual facility 
+918 north ave 
+mountain view , ca 
+415 
+planetary map 
+usgs address map planet : 
+u.s. geological survey , 
+distribution branch , 
+box , federal center , bldg. 41 
+denver , co 
+map cost $ 2.40 $ 3.10 per sheet come set 2 3 sheet . 
+best global map mars base viking image 
+scale 3 sheet . 
+map : 
+2 sheet - relief , albedo , name 
+
+3 sheet - relief , name 
+3 sheet - relief , topographic contour 
+, b , c 3 sheet - geology 
+many map well : 30 sheet scale 
+relief , albedo , geology , form 30 sheet available 
+format ; 140 sheet scale 
+whole planet , 100 sheet interesting site scale 
+format , lot special sheet . 
+map mercury , venus , moon , four galilean 
+satellite , six moon saturn five uranus . 
+phil 
+, author item , offer 
+respond email request information topic relate lunar 
+planetary map . 
+cometary orbit data 
+central bureau astronomical telegrams minor planet 
+center announce sixth edition catalogue cometary orbits 
+iau circular . 
+catalogue contain 1292 entry represent 
+know comet november 1989 96 page long . 
+circulars may purchase catalogue $ 15.00 
+cost subscriber $ 7.50 . 
+basic catalogue ascii 
+along program extract specific orbit calculate 
+available 5.25-inch diskette cost 
+$ 75.00 program require 8087 math coprocessor . 
+catalogue 
+alone also available e-mail $ 37.50 magnetic tape 
+$ 300.00 . 
+except print version catalogue , various magnetic 
+media e-mail form catalogue specifically 
+. 
+possible form catalogue may 
+available price may 
+expensive give . 
+mail request specific information 
+order : 
+central bureau astronomical telegrams 
+smithsonian astrophysical observatory 
+cambridge , ma 02138 , usa 
+next : faq # - perform calculation interpret datum format 

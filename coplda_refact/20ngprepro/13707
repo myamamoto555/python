@@ -1,0 +1,58 @@
+: rainer klute 
+subject : re : : look beta tester 
+organization : cs department , dortmund university , germany 
+lines : 59 
+distribution : world 
+: . 
+de 
+article < > , 
+rainer klute write : 
+| > announce x technical conference january , would like 
+| > 
+| > make , support use tex typesetting system , 
+| > publically available . 
+currently beta test 
+| > computer science department dortmund university , look 
+| > 
+| > beta tester , preferably different tex 
+| > installation . 
+judge response far , make clear enough 
+article quote install tex , 
+use . 
+, never fiddle around 
+call latex various utility program , bibtex . 
+simply 
+type `` make '' document 's dvi file up-to-date . 
+
+write simple let generate suitable 
+. 
+: 
+`` '' 
+
+document 
+generate provide follow command : 
+make depend : searching tex source file dependency like 
+\ input 
+make dvi : generate up-to-date dvi file 
+make : display screen 
+make p : generate postscript version document 
+make : display 
+make clean : remove unnecessary thing 
+make : remove even dvi file 
+make : generate subdirectory 
+... 
+... seem attractive , 
+b ... willing test send short test report , 
+c ... willing cope rudimentary english documentation 
+however , german version complete include , 
+invite beta tester . 
+look forward e-mail . 
+-- 
+. 
+rainer klute r b : immer 
+univ. . 
+dortmund , irb 
+| | tel. : 
+dortmund 50 | \ | \ fax : 
+new address june 30th : univ. . 
+dortmund , dortmund 

@@ -1,0 +1,73 @@
+: david willmore 
+subject : re : ide vs 
+organization : iowa state university , ames ia 
+lines : 61 
+wayne smith write : 
+> write : 
+> ide also use dma technique . 
+believe floppy controller also use dma , 
+> board also use dma . 
+dma big deal , nothing 
+> directly . 
+. 
+simple $ 25 style ide controller use dma . 
+cpu perform 
+datum transfer string move instruction . 
+require 
+cpu stop transfer datum . 
+smart drive 
+controller , ide scsi , transfer via dma . 
+controller 
+tend cost wether ide scsi . 
+get dma benefit , 
+ide must sacrifice price advantage controller . 
+example , rewind format tape , command 
+issue controller bus release allow access 
+device bus . 
+greatly increase productivity , least , 
+something else back hard drive . 
+happen 
+read group . 
+> thank software . 
+dos brain , 
+> could format floppy etc. something else . 
+
+> hardware support , dos least . 
+, 
+> nothing . 
+floppy ide bus , arguement make sense , 
+ide issue . 
+floppy processor controller 
+board handle command . 
+difference ide scsi 
+intelligent . 
+controller . 
+depend 
+cpu fewer thing , i.e. ide drive need processor 
+transfer datum . 
+long story , still use ide 486 except cdrom , 
+thanks scsi , move machine . 
+, , scsi 
+better standardized support machine , plan 
+completely get rid ide . 
+> stick dos 'll wonder multitask . 
+> ask unix type os miraculous thing 
+> ide harddrive single hard drive . 
+mechanism cpu make request 
+device scsi bus go business . 
+later , device , issue callback say 
+datum arrive function complete . 
+card 
+also dma datum memory without cpu , therefore 
+allow continue work . 
+ide support concept 
+. 
+see would win multitasking system ? 
+-- david willmore 
+-- 
+
+| `` death dishonor '' | `` better dead greek '' | 
+david willmore | `` ever notice much look like orchid ? 
+lovely ! '' 
+| 
+

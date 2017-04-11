@@ -1,0 +1,54 @@
+: chiu 
+subject : ow server 
+organization : gateway 
+lines : 43 
+distribution : inet 
+: 
+program write motif . 
+run fine sun 
+server . 
+program run sparc 2 
+ow server , program crash along server . 
+crash 
+first window show . 
+get follow error x. 
+: fatal io error 32 broken pipe x server `` perot '' 
+62 request 59 known process 0 event remain . 
+connection probably break server shutdown . 
+run program last twenty line 
+program server crash . 
+... ... . 
+. 
+request : 
+delete : false 
+window : win 
+property : atm 
+type : atm 
+: 
+... ... ... reply : 
+format : 00 
+type : 
+: 
+... ... . 
+. 
+request : 
+... ... ... reply : 
+: parent 
+focus : win 
+... ... . 
+. 
+request : 
+mode : replace 
+window : win 
+property : atm 
+type : atm 
+format : 08 
+datum : 42 00 00 01 00 00 00 10 00 00 00 75 00 00 00 00 
+... ... . 
+. 
+request : 
+please email idea problem . 
+thanks advance . 
+-- 
+mw chiu 
+

@@ -1,0 +1,41 @@
+: eric j balog 
+subject : switch 3.5 '' : ? 
+organization : university pennsylvania 
+lines : 39 
+: 
+hus ! 
+would like switch floppy drive 3.5 '' b : drive become : , 
+5.25 '' : become b : . 
+problem , though . 
+know ribbon cable must switch , well cmo setting , 
+reflect change , think correctly . 
+however , 
+drive operate correctly configuration . 
+c : > prompt , 
+type : , 5.25 '' drive light come ; type b : , light 
+5.25 '' 3.5 '' drive come . 
+jumper drive : 
+5.25 '' label original po . 
+po . 
+change 
+
+ds1 
+
+ds3 
+io 
+
+
+ms2 
+fg 
+3.5 '' 
+ds1 
+
+ds3 
+mm 
+dc 
+md 
+8 
+help suggestion would greatly appreciate . 
+thanks advance . 
+eric balog 
+

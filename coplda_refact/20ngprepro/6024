@@ -1,0 +1,46 @@
+: brian v. hughes 
+subject : re : quadras vram question 
+: 
+organization : dartmouth college , hanover , nh 
+lines : 39 
+disclaimer : personally , really care think speak . 
+moderator : 
+daniel < > write : 
+> question regard quadras vram . 
+try find info 
+> could get precise answer . 
+> one hand , quadra 950 16 '' monitor , capable 
+> 32-bit color . 
+much vram ? 
+display million color 16 '' monitor need 2mb vram 
+. 
+> hand , quadra 800 16 '' monitor , capable 
+> 8-bit color , must 512 ko vram . 
+correct . 
+amount on-board vram come 
+. 
+> would like take vram simm 950 put 800 
+> machine 16-bit color capability . 
+> possible , yes , many vram simm take 950 ? 
+yes possible . 
+technically , need take 2 
+vram simm leave two get anything 
+950 really anything 1.5 mb vram . 
+
+know 1mb 2mb . 
+> documentation , quadra 800 must get 1 mo vram 
+> 16-bit color , correct ? 
+yes , correct . 
+get 1mb put 2 256k vram simm 
+vram simm slot 's motherboard . 
+> bonus question : vram simm hide ? 
+950 documentation , 
+> seem behind power supply . 
+really take power 
+> supply access vram simm ? 
+yup . 
+take power supply . 
+couple 
+screw ok . 
+make sure everything 
+disconnect watch static discharge . 

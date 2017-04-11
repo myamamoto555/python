@@ -1,0 +1,15 @@
+distribution : world 
+: 
+organization : bbs , doncaster , victoria , australia 
+: 
+subject : re : lc ram upgrade slow ! 
+lines : 9 
+yes ! 
+say true , fail mention 
+fact use new 72 pin simm allow 32 bit access 
+simm . 
+case lc iii , one simm slot , access 
+32 bit wide . 
+
+view express post individual author . 
+

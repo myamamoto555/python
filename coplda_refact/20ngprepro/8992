@@ -1,0 +1,117 @@
+: ian ameline 
+subject : fact : 30 bit serial number , possibly fix s1 s2 
+organization : development , ibm canada lab . 
+disclaimer : post represent poster 's view , ibm 
+lines : 106 
+> hmmm . 
+must assume generate unit key u serial 
+> number n rather generate randomly select u1 u2 
+> intentional way assure `` fail safe '' government -- 
+> u determine give s1 , s2 n. s1 s2 
+> change constitute effective `` master key '' along f , 
+> theft possession various authority 
+> completely obviate security system . 
+however , 
+> interestingly , know , fact s1 s2 fix 
+> matter u 2 ^ 30 . 
+pick u1 
+> u2 random ? 
+interesting restriction key space 
+> provide additional back door ? 
+> 
+> find disturbing best security dependant 
+> approximately 30 byte worth information could write 
+> back napkin . 
+> 
+> even s1 s2 change periodically , rationale behind 
+> restriction size seem strange one 
+> assume goal security -- make perfect sense 
+> goal illusion security . 
+> 
+> s1 s2 change , even remain secret wonder 
+> somehow give enough unit number 
+> pair . 
+assure happen -- one 
+> understand skipjack work outside government official , 
+> soon , foreign intelligence service gain information via 
+> espionage . 
+presumably eventually information well 
+> -- reverse engineering get advanced every year -- 
+> time know may late . 
+perhaps trust escrow agency one come 
+s1 s2 , agency really trust aclu & nra 
+interesting example , hope 'll use physical 
+process come truly random number . 
+nsa come 
+number , trap door could drive truck . 
+> none make feel least bit secure . 
+either . 
+seem follow start 
+question : 
+
+april 16 , 1993 
+washington , dc 
+computer professional call public 
+debate new government encryption initiative 
+computer professional social responsibility 
+today call public disclosure technical datum 
+underlie government 's `` public encryption 
+management '' initiative . 
+new cryptography scheme 
+announce today white house national institute 
+standards technology nist , implement 
+technical specification plan . 
+nist spokesman 
+acknowledge national security agency nsa , super - 
+secret military intelligence agency , actually develop 
+encryption technology around new initiative build . 
+accord nist , technical specification 
+presidential directive establish plan classify . 
+
+open initiative public review debate , today 
+file series freedom information act foia request 
+key agency , include nsa , nist , national security 
+council fbi information relate encryption 
+plan . 
+request keep spirit 
+computer security act , congress pass 1987 order 
+open development non-military computer security standard 
+public scrutiny limit nsa 's role creation 
+standard . 
+previously question role nsa 
+develop so-called `` digital signature standard '' dss , 
+communication authentication technology nist propose 
+government-wide use 1991 . 
+sue nist 
+lawsuit last year , civilian agency disclose first 
+time nsa , fact , develop security standard . 
+nsa due file papers federal court next week justify 
+classification record concern creation 
+dss . 
+david sobel , legal counsel , call 
+administration 's apparent commitment privacy 
+electronic communication , reflect today 's official 
+statement , `` step right direction . '' 
+question 
+propriety nsa 's role process apparent 
+secrecy thus far shield development process 
+public scrutiny . 
+`` time move towards 
+development new information infrastructure , vital 
+standard design protect personal privacy 
+establish openly full public participation . 
+
+appropriate nsa -- agency long tradition 
+secrecy opposition effective civilian cryptography -- 
+play lead role development process . '' 
+national public-interest alliance computer 
+industry professional dedicate examine impact 
+technology society . 
+21 chapter u.s. 
+maintain office palo alto , california , cambridge , 
+massachusetts washington , dc . 
+additional information 
+, call e-mail < > . 
+----------------------------------------------- 
+regards , 
+ian ameline . 

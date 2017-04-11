@@ -1,0 +1,27 @@
+: mike tipton 
+subject : character codes problem 
+: 
+: . 
+
+organization : power systems control , division siemens ea 
+lines : 15 
+help ! 
+work project involve use text foreign language 
+character case norwegian . 
+manipulate datum 
+excell 4.0 export datum comma seperate variable 
+file workstation . 
+norwegian character show fine 
+windows , appear `` funny '' character workstation . 
+
+workstation setup national language support problem 
+enter norwegian character workstation keyboard . 
+investigation find character code use 
+windows different character specify 
+code page . 
+code seem 
+workstation . 
+give , get around . 
+please reply e-mail office next day 
+read news . 
+thanks . 

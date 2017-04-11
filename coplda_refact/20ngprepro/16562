@@ -1,0 +1,45 @@
+: mark jackson 
+subject : re : 3rd 
+originator : 
+organization : physical chemistry laboratory , south parks road , oxford 
+lines : 41 
+article < > , mike figueroa write : 
+> 
+> anyone know problem possible 
+> add third hard drive pc . 
+> 
+> currently 386 pc future domain board 2 
+> maxtor drive install . 
+work great , 
+> problem ! 
+> 
+> well , want disk space go get another 
+> larger hard disk think add 
+> chain ribbon 3 connector run 
+> fdisk program disk . 
+> 
+> happen . 
+pc boot , prom shoot 
+> back device attach board target 
+> . 
+three disk see . 
+> 
+> run fdisk program format disk , choose 
+> select another disk option 5 , . 
+> first two disk show problem , third disk 
+> find ... 
+> 
+> 
+> 
+> argh ! 
+> 
+> idea anyone ????? 
+> 
+> thanks advance ! 
+get adaptec scsi card , come version fdisk . 
+problem see two hard disk , need 
+device driver . 
+-- 
+mark 
+
+

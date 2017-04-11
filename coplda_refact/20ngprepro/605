@@ -1,0 +1,21 @@
+: zack t. smith 
+subject : strange exposure problem 
+organization : netcom on-line communication services guest 
+lines : 19 
+hus , 
+try write motif program interactive unix machine , 
+observe strange behavior program attempt expose 
+. 
+namely , xlib operation work , . 
+
+particular , expose consist two call follow 
+call , reason unknown point call fail 
+whenever pulldown popup menu click move 
+rightward direction draw area , move , still 
+part draw area . 
+also happen less consistently 
+move leftward direction . 
+assume code anything incredibly odd , server 
+bug ? 
+thanks , 
+zack t. smith 

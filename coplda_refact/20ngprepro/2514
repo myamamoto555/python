@@ -1,0 +1,35 @@
+: gerrit 
+subject : re : compatibility 
+distribution : world 
+organization : project private uucp site 
+lines : 31 
+article < > , internet surfer write : 
+> one know compatible . 
+. 
+, able operate 2 mhz system , 
+take 1 mhz without problem . 
+see make mo csg , take , . 
+> seem bug handshake need 
+> suitable pin replacement put serial card ... possibly buffer 
+> version perhaps ? 
+know fix version . 
+different possibility 
+work around bug . 
+easiest tie _ ct gnd 
+use _ dsr _ dcd _ ct . 
+easy fix software , 
+_ dsr bit 6 dcd ist bit 5 status register read 
+rs1 low high . 
+use _ lead big trouble . 
+_ instantly _ 
+stop transmission _ ct go high . 
+mean , may 
+get half byte ... 
+gerrit 
+-- 
+gerrit 16 germany 
+logical adress : uucp : fido : 106.9 
+ever visit alien , hard explain , 
+lifeform , intelligent enough build atomic weapon stupid 
+enough . 
+take geo special space , page 

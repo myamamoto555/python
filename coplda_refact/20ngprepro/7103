@@ -1,0 +1,39 @@
+: terje 
+subject : re : problem toshiba 3401 cdrom 
+organization : norsk hydro a.s 
+lines : 26 
+distribution : world 
+: 
+: . 
+
+article < > , imad m write : 
+| > hus ! 
+| > recently purchase toshiba 3401 cdrom . 
+adaptec 
+| > card , far fail get cdrom work dos . 
+
+| > work well , know drive faulty . 
+| > config.sys , . 
+sy , , . 
+
+| > autoexec.bat , , come 6.0 . 
+seem find 
+| > install drive drive f : , switch drive try 
+| > dir , get error message tell drive ready something 
+| > like . 
+cdrom lock , adaptec utility seem 
+| > recognize cdrom point . 
+| > anyone ever problem ? 
+something 
+| > miss ? 
+finally , wonder anyone use setup could 
+| > kindly post config.sys autoexec.bat . 
+| > 
+hus ! 
+one think support 
+, mean reset scsi bus load . 
+
+fix problem friend mine adaptec + tosh 
+3401 . 
+regards , 
+- terje 

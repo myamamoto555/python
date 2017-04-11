@@ -1,0 +1,24 @@
+: voss 
+subject : get window draw ? 
+: . 
+de 
+organization : bielefeld 
+keyword : window , widget 
+lines : 23 
+task program x application first time severe difficulty create window draw something . 
+unfortunately basic book topic x application programming available moment . 
+run 8.07 , vue use xt . 
+: 
+initialize x intrinsic top level widget . 
+pass name ` ' . 
+set argument value window height width use 
+pass widget . 
+call , get window specify size , idea draw something . 
+anybody send help perhaps basic information use widget ? 
+situation useful use ? 
+thanks much advance 
+
+voss faculty economics 
+university bielefeld 
+germany 
+

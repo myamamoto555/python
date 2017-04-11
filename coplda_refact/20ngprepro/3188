@@ -1,0 +1,40 @@
+: 
+subject : re : truetype font display print . 
+summary : adjust 
+organization : at&t 
+distribution : na 
+lines : 30 
+article < > avinash write : 
+> install new truetype font 3.1 
+> though application display font correctly 
+> screen , quite fail print document correctly 
+> laserjet 4 - printer . 
+... 
+> use windows accessory write , printer print square 
+> box place character new font . 
+yet , write 
+> display font correctly screen . 
+common problem highly complex truetype font . 
+microsoft 
+admit problem older version postscript printer driver , 
+find pretty generic . 
+get around problem adjust parameter 
+truetype section win.ini . 
+entry specify number 
+windows render truetype font outline font 
+instead bitmap font . 
+default 256 . 
+generally able 
+get font work set 160 . 
+depend 
+printer resolution point size use , may need 
+different value . 
+windows resource kit warn go 300 . 
+presumably , 
+might cause font print square box something . 
+
+smile . 
+-- 
+bob nichols 
+at&t bell laboratories 
+

@@ -1,0 +1,32 @@
+: carlos m. puig 
+subject : re : analog 
+organization : minimax research corp. . 
+: v0 .98 
+lines : 26 
+michael fulbright write : 
+> try build synchronous demodulator hit snag . 
+> application want able change gain 
+> op amp amplifier 1 -1 , via digital input . 
+> obvious way come use analog switch 
+> adjust gain op amp . 
+analog switch 
+> experience . 
+unfortunately want switch 
+> ac signal go -5 v 5v , 
+> positive signal . 
+> 
+recently use switch bipolar signal . 
+simply 
+run bipolar supply , + - 8v case . 
+long 
+analog input signal stay supply rail , work fine . 
+course , control logic input must use -8 v logic low 
++8 v logic high reference , either 1 driving logic 
+must 4000 cmo bipolar supply 2 must provide 
+kind voltage level shift circuit 
+control logic . 
+case , able use bipolar supply 
+way . 
+-- 
+carlos puig , 
+san jose , ca 

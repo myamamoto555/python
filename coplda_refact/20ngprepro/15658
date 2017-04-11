@@ -1,0 +1,25 @@
+: gordon 
+subject : re : view postscript file x window 
+organization : nippon motorola ltd. , tokyo , japan 
+lines : 16 
+< > write : 
+> ow 3.0 . 
+, definition break relative . 
+
+> require dsc compliant postscript file , order stop page break . 
+> consider break . 
+say program put 
+> postscript file dsc compliant break . 
+well may true . 
+however , man page ow 2.0 
+mention dsc compliance . 
+event , point 
+try display ps file use 
+find practical tool . 
+-- 
+... v. ... 1 ... v. ... 2 ... v. ... 3 ... v. ... 4 ... v. ... 5 ... v. ... 6 ... v. ... 7 . 
+. 
+gordon t. 
+csic mcu design email : 
+nippon motorola ltd. . 
+voice : 81 3 , fax : 81 3 

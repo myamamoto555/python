@@ -1,0 +1,18 @@
+: eric dittman 
+subject : question 
+organization : texas instruments component test facility 
+lines : 9 
+8-bit serial card two port . 
+port option 
+use irq 2,3,4 5 . 
+also two serial port card , 
+port set irq 9 . 
+post read , 
+get impression 8-bit card 
+card . 
+right ? 
+-- 
+eric dittman texas instruments - component test facility 
+
+disclaimer : even opinion . 
+find side road . 

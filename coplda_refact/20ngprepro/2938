@@ -1,0 +1,42 @@
+: eric behr 
+subject : asante hang scsi device 
+: eric behr 
+organization : central illinois surfing club 
+lines : 31 
+hook mac relatively old 1 year ? 
+asante 
+adapter . 
+10base-t connection work like charm . 
+install 
+newest driver asante 's ftp server . 
+problem begin attach one device chain - 
+specifically drive . 
+power drive , mac . 
+mac 
+test memory , etc. . 
+`` happy mac face '' normally show , 
+power light go , boot process stop . 
+use 
+network , external drive , . 
+make 
+asante box pretty much unusable . 
+look like purely electrical problem , turn 
+drive second late , get notice 
+initial polling , mac boot normally adapter 
+work , even though hard disk power connect . 
+mac 
+never fail boot internal drive 
+year . 
+try : change scsi id 's disk -- 
+several permutation ; change order device , i.e. 
+head tail chain ; external terminator 
+device internal one ; , i.e. remove internal 
+resistor hard disk ; try another box ; try another 
+identical drive ; try several different cable . 
+anybody see ? 
+importantly , anyone solution ? 
+thanks lot . 
+e. 
+-- 
+eric behr , illinois state university , mathematics department 
+please avoid ! 

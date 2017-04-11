@@ -1,0 +1,1221 @@
+: tom lane 
+subject : jpeg image compression : frequently ask question 
+summary : useful info jpeg jpg image file program 
+keyword : jpeg , image compression , faq 
+supersedes : < > 
+: 
+: 
+organization : school computer science , carnegie mellon 
+expire : mon , 14 jun 1993 gmt 
+lines : 1041 
+: 
+: 16 may 1993 
+faq article discuss jpeg image compression . 
+suggestion 
+addition clarification welcome . 
+new since version 2 may 1993 : 
+add info next . 
+article include follow section : 
+1 jpeg ? 
+2 use jpeg ? 
+3 use jpeg , stick gif ? 
+4 well jpeg compress image ? 
+5 good `` quality '' setting jpeg ? 
+6 get jpeg software ? 
+6a `` '' software , viewer , etc. . 
+6b source code 
+7 hoopla color quantization ? 
+8 jpeg work ? 
+9 lossless jpeg ? 
+10 argument file format ? 
+11 recognize file format , ? 
+12 arithmetic code ? 
+13 loss accumulate repeat ? 
+14 rule thumb convert gif image jpeg ? 
+section 1-6 basic info every jpeg user need know ; 
+section 7-14 advanced info curious . 
+article post every 2 week . 
+always find latest version 
+archive . 
+ftp , fetch 
+. 
+; ftp , send e-mail 
+body `` send . 
+'' . 
+many faq article also store archive . 
+
+instruction use archive , send e-mail address 
+word `` help '' `` index '' quote separate line . 
+get 
+reply , server may misread return address ; add line 
+`` path '' specify correct e-mail address reply . 
+---------- 
+1 jpeg ? 
+jpeg pronounced `` '' standardized image compression mechanism . 
+jpeg stand joint photographic expert group , original name 
+committee write standard . 
+jpeg design compress either 
+full-color digital image `` natural '' , real-world scene . 
+work well image , cartoon line 
+drawing . 
+jpeg handle black-and-white image , 
+handle motion picture compression . 
+standards compress type 
+image work committee , name mpeg 
+respectively . 
+jpeg `` lossy '' , mean image get decompression 
+quite identical originally put . 
+algorithm achieve much 
+compression exploit known limitation human eye , notably 
+fact small color detail perceive well small detail 
+. 
+thus , jpeg intend compress image 
+look human . 
+plan image , 
+small error introduce jpeg may problem , even 
+invisible eye . 
+useful property jpeg degree vary 
+adjust compression parameter . 
+mean image maker trade 
+file size output image quality . 
+make extremely small 
+file mind poor quality ; useful indexing image 
+archive , make thumbnail view icon , etc. etc. . 
+conversely , 
+happy output quality default compression setting , 
+jack quality satisfied , accept lesser compression . 
+2 use jpeg ? 
+two good reason : make image file smaller , store 
+color datum instead datum . 
+make image file smaller big win transmit file across 
+network archive library image . 
+able compress 
+2 full-color file 100 make big difference 
+disk space transmission time ! 
+compare gif jpeg , 
+size ratio like four one . 
+detail . 
+viewing software support jpeg directly , 'll 
+convert jpeg format view manipulate image . 
+even 
+viewer , take longer decode view jpeg image 
+view image simpler format gif , instance . 
+thus , use 
+jpeg essentially tradeoff : give time order 
+store transmit image cheaply . 
+worth note network phone transmission involve , 
+time savings transfer shorter file much greater 
+extra time decompress file . 
+'ll let arithmetic . 
+reason jpeg gradually replace gif standard usenet 
+post format jpeg store full color information : 24 
+16 million color instead 8 less 256 fewer color . 
+
+8-bit display hardware may seem like much advantage 
+. 
+within couple year , though , 8-bit gif look obsolete 
+black-and-white macpaint format today . 
+furthermore , reason detail 
+section 7 , jpeg far useful gif exchange image among 
+people widely vary color display hardware . 
+hence jpeg considerably 
+appropriate gif use usenet post standard . 
+3 use jpeg , stick gif ? 
+jpeg go displace gif entirely ; type image , 
+gif superior image quality , file size , . 
+one first 
+thing learn jpeg kind image apply . 
+rule thumb , jpeg superior gif store full-color 
+image `` realistic '' scene ; mean scanned photograph 
+similar material . 
+jpeg superior even 24-bit display 
+hardware , lot superior . 
+see section 7 detail . 
+gif significantly better image distinct color , 
+cartoon line drawing . 
+particular , large area pixel 
+exactly color compress efficiently indeed 
+gif . 
+jpeg squeeze file much gif without 
+introduce visible defect . 
+sort image best keep gif form . 
+particular , border quite cheap gif file , 
+avoid jpeg file . 
+jpeg also hard time sharp edge : row pixel 
+adjacent row pixel , example . 
+sharp edge tend 
+come blur unless use high quality setting . 
+, 
+sort thing find scanned photograph , show fairly 
+often gif file : border , overlaid text , etc. . 
+blurriness 
+particularly objectionable text pixel high . 
+gif lot small-size overlaid text , jpeg . 
+image scene , instance usually fall 
+scan image cartoon term complexity . 
+complex 
+subtly render image , likely jpeg well . 
+go artwork fantasy drawing . 
+plain black-and-white two level image never convert jpeg . 
+need least 16 gray level jpeg useful 
+image . 
+also note gif lossless image 
+256 level , jpeg . 
+exist library gif image , may wonder whether 
+convert jpeg . 
+lose little image quality . 
+section 7 , argue jpeg image quality superior gif , 
+apply format start full-color original . 
+start 
+gif , already irretrievably lose great deal information ; jpeg 
+make thing worse . 
+however , disk space savings may justify 
+convert anyway . 
+decision 'll make . 
+convert gif library jpeg , see section 14 hint . 
+
+prepare leave image gif format , since gif 
+convert well . 
+4 well jpeg compress image ? 
+pretty darn well . 
+sample file size image 
+handy , full-color image ship harbor . 
+first three 
+file comparison purpose ; rest create free jpeg 
+software describe section 6b . 
+file size byte comment 
+original file ppm format compression ; 24 bit 
+3 byte per pixel , plus byte overhead 
+ppm file pass unix compress 
+compress accomplish lot , 'll note . 
+compressor give similar result . 
+convert gif - f 256 | 
+savings result lose color 
+info : gif save 8 , 24 . 
+see sec . 
+7 . 
+95 - q 95 highest useful quality setting 
+indistinguishable 24-bit original , 
+least nonprofessional eyeball . 
+75 - q 75 default setting 
+look mighty darn close distinguish 
+original , even on-screen . 
+50 - q 50 
+slight defect ; know look 
+, could tell without see 
+original . 
+still good image quality many 
+recent posting usenet picture group . 
+25 - q 25 
+jpeg 's characteristic `` '' become apparent 
+setting - help . 
+still , see plenty usenet posting 
+poorer image quality . 
+5o - q 5 - optimize - optimize cut table overhead 
+blocky , perfectly satisfactory preview 
+indexing purpose . 
+note file tiny : 
+compression ratio original ! 
+case jpeg make file factor four five smaller 
+gif comparable quality - q 75 file every bit good 
+gif , better full-color display . 
+seem typical 
+ratio real-world scene . 
+5 good `` quality '' setting jpeg ? 
+jpeg compressor let pick file size vs. image quality tradeoff 
+select quality setting . 
+seem widespread confusion 
+meaning setting . 
+`` quality 95 '' mean `` keep 95 % 
+information '' , claim . 
+quality scale purely arbitrary ; 
+percentage anything . 
+name game use jpeg pick lowest quality setting 
+smallest file size decompress image indistinguishable 
+original . 
+setting vary one image another one 
+observer another , rule thumb . 
+default quality setting - q 75 often best choice . 
+
+setting lowest go without expect see defect 
+typical image . 
+try - q 75 first ; see defect , go . 
+except 
+experimental purpose , never go - q 95 ; say - q 100 produce 
+file two three time large - q 95 , hardly better quality . 
+image less perfect quality begin , might able 
+go - q 50 without objectionable degradation . 
+hand , 
+might need go higher quality set avoid degradation . 
+second case seem apply much time convert gif jpeg . 
+default - q 75 right compress 24-bit image , - q 85 
+95 usually better convert gif see section 14 info . 
+want small file say preview indexing purpose 
+prepare tolerate large defect , - q set range 5 10 
+right . 
+- q 2 may amusing `` op art '' . 
+note : quality setting discuss article apply free jpeg 
+software describe section 6b , many program base . 
+
+jpeg implementation , image alchemy , may use completely different 
+quality scale . 
+program even provide numeric scale , 
+`` high '' `` medium '' `` low '' - style choice . 
+6 get jpeg software ? 
+program describe section available ftp . 
+know use ftp , see faq article `` find source '' . 
+direct access ftp , read server 
+article . 
+article appear regularly , 
+get send e-mail 
+`` send . 
+'' body . 
+`` anonymous ftp 
+list faq '' may also helpful -- . 
+
+archive . 
+note : list change constantly . 
+copy couple 
+month old , get latest jpeg faq archive . 
+6a look `` '' software , viewer , etc : 
+first part list program run one 
+kind system . 
+see want machine , check 
+portable jpeg software describe end list . 
+note 
+list concentrate free shareware program obtain 
+internet ; commercial program list . 
+x windows : 
+xv shareware , $ 25 excellent viewer jpeg , gif , many 
+image format . 
+also format conversion simple image 
+manipulation . 
+available ftp , 
+file -3.00 . 
+. 
+version 3.00 major upgrade support 
+24-bit display many improvement ; however , brand new 
+still bug lurk . 
+prefer bleeding 
+edge , stick version 2.21 , also available export . 
+note 
+version 2.21 good choice 24-bit display 'll get 
+8-bit color , convert 24-bit image jpeg . 
+2.21 work 
+fine convert gif 8-bit image jpeg . 
+caution : 
+glitch version 2.21 : sure check `` save normal size '' checkbox 
+save jpeg file , file blurry . 
+another good choice x windows john cristy 's free package , 
+also available , file . 
+. 
+package handle many image processing conversion task . 
+
+viewer handle 24-bit display correctly ; 
+display , better though slower color quantization xv 
+basic free jpeg software . 
+large , complex package . 
+want simple 
+image viewer , try xli . 
+support jpeg latest 
+release , 3.03 . 
+free available , 
+file . 
+. 
+xli variant version , 
+say fan somewhat faster robust original . 
+current xli indeed faster robust current 
+, least respect jpeg file , ijg v4 
+decoder 3.03 use v1 . 
+next 
+release fix . 
+xli also free available 
+, file . 
+. 
+program say 
+right thing 24-bit display . 
+: 
+cover plain ; windows program , see next heading . 
+one good choice eric 's free , view jpeg gif file . 
+current version , 2.5 , available ftp 
+, file . 
+zip . 
+good basic 
+viewer work either 286 machine . 
+user interface 
+flashy , functional . 
+another freeware viewer mohammad rezaei 's . 
+
+current version , 1.2 , available mirror site see note 
+, file . 
+zip . 
+require 386 better cpu 
+memory manager work ; windows 
+. 
+currently fastest viewer image 
+bigger screen . 
+larger image , scale image fit 
+screen rather use viewer . 
+may may prefer approach , deny 
+slow loading large image considerably . 
+note : installation 
+bit tricky ; read direction carefully ! 
+shareware alternative dos $ 30 . 
+easier 
+install either two freeware alternative . 
+user interface 
+also much , although personally find harder use -- 
+keystroke , inconsistent behavior . 
+faster 
+little slower , least hardware . 
+image larger 
+screen size , seem speed , 
+faster . 
+current version 2.1 , available 
+mirror site see note , file . 
+zip . 
+require vesa graphic driver ; one , look . 
+zip 
+. 
+zip directory . 
+many recent pc built-in 
+vesa driver , try load vesa driver unless complain 
+driver miss . 
+second shareware alternative , kick around 
+net , know stable archive location . 
+current rather old version inferior viewer anyway . 
+author tell new version shortly 
+submit archive time . 
+well-known gif viewer support jpeg latest 
+revision , 8.60 a. however , 's jpeg implementation good : 
+slow half speed viewer image quality 
+poor except display . 
+bad ... would nice see 
+good jpeg capability . 
+shareware , $ 25 . 
+available 
+mirror site see note , file . 
+zip . 
+due remarkable variety pc graphic hardware , one 
+viewer might work particular machine . 
+get 
+work , 'll need use one follow conversion program 
+convert jpeg gif , view favorite gif viewer . 
+
+hardware , use gif intermediate format ; try 
+find viewer instead . 
+.0 repute right 
+thing display . 
+independent jpeg group 's free jpeg converter 
+mirror site see note , file . 
+zip 
+. 
+zip 386 extend memory . 
+file dos 
+compilation free source code describe section 6b ; 
+convert jpeg gif , targa , ppm format . 
+handmade software offer free jpeg < > gif conversion tool , . 
+slow limit conversion gif format ; 
+particular , get 24-bit color output jpeg . 
+major 
+advantage tool read write hsus 's proprietary 
+jpeg format well format . 
+since 
+file rather widespread bbs , useful capability . 
+version 
+2.0 tool free prior version shareware . 
+get 
+mirror site see note , file . 
+zip . 
+note : use hsus format file post internet , since 
+readable platform . 
+handmade software also shareware image conversion manipulation 
+package , image alchemy . 
+translate jpeg file hsus 
+format many image format . 
+also display image . 
+demo version image alchemy version available 
+mirror site see note , file . 
+zip . 
+note : internet 's key archive site program 
+, full name . 
+. 
+
+run system weird directory name ; document 
+refer directory eg `` '' , really mean 
+`` : '' . 
+physically , 
+expect rather slow ftp transfer rate . 
+several 
+internet site maintain copy mirror archive ; 
+ftp user go one mirror site instead . 
+popular usa 
+mirror site , keep file 
+eg '' '' . 
+ftp capability , 
+retrieve file e-mail ; see informational posting 
+find . 
+outside usa , 
+consult newsgroup learn nearest mirror . 
+microsoft windows : 
+several windows program capable display jpeg image . 
+windows viewer generally slower viewer hardware , 
+due windows ' system overhead . 
+note run dos conversion 
+program describe inside windows dos window . 
+newest entry , free extremely fast . 
+version 1.0 
+available , file . 
+zip . 
+require windows 3.1 mode . 
+no-frills 
+viewer bad habit hog machine completely 
+decode ; image quality noticeably worse viewer . 
+fast 'll use anyway , least preview ... 
+freeware , fairly fast , good on-line help , write 
+decompress image windows bmp format ; create new jpeg 
+file , view gif . 
+also lack useful 
+feature shareware viewer brightness adjustment , 
+excellent basic viewer . 
+current version , 0.9 , available 
+, file . 
+zip . 
+mirror archive find internet site , 
+include . 
+shareware , $ 20 display jpeg , gif , targa , tiff , bmp image file ; 
+write format , use converter . 
+nifty feature include adjustment 
+slideshow . 
+current version 2.1 , available mirror 
+site see note , file . 
+zip . 
+slow 
+version ; register , 'll get version , 
+roughly 25 % faster . 
+another shareware entry $ 30 . 
+early promising 
+contender , update time , point 
+real advantage . 
+want try anyway , 
+current version 0.97 , available , file 
+. 
+zip . 
+understand new version 
+appear author finish dos . 
+see dos head also work windows , full-screen 
+mode , window . 
+: 
+follow file available . 
+note : check recent version -- moderator 
+fast move upload permanent directory . 
+. 
+. 
+zip 
+32-bit version free ijg conversion program , version 4 . 
+-16 . 
+zip 
+16-bit version , 1 . 
+x. 
+. 
+. 
+zip 
+image archiver 1.02 : image pm graphical interface . 
+strong conversion function , viewing bit weaker . 
+shareware , $ 15 . 
+. 
+. 
+zip 
+1.1 : 2 . 
+x port , popular viewer windows 
+see description windows section . 
+shareware , $ 20 . 
+. 
+. 
+zip 
+0.85 : viewer . 
+gif view fast , 
+jpeg viewing roughly speed two program . 
+
+image manipulation & slideshow function . 
+shareware , $ 20 . 
+macintosh : 
+mac jpeg program rely apple 's jpeg implementation , part 
+quicktime system extension ; need quicktime install . 
+use quicktime , need 68020 better cpu need run 
+system later . 
+run system 6 , must also install 
+32-bit quickdraw extension ; built-in system 7 . 
+get 
+quicktime ftp , file . 
+, file contain quicktime 1.5 , better qt 1.0 
+several way . 
+respect jpeg , marginally faster 
+considerably less prone crash feed corrupt jpeg file . 
+however , 
+application seem compatibility problem qt 1.5 . 
+mac user keep mind quicktime 's jpeg format , , 
+jpeg format . 
+see section 10 
+detail . 
+post image usenet , make sure format . 
+program mention generate either format . 
+first choice probably , free program view image 
+format , format , gif format . 
+also 
+convert two jpeg format . 
+current version , 2.0 , big 
+improvement prior version . 
+get . 
+
+, file -20 . 
+. 
+require system 7 
+quicktime . 
+8-bit display , usually produce best color 
+image quality currently available mac jpeg viewer . 
+
+view large image much less memory mac viewer ; fact , 
+one deal jpeg image much 640x480 pixel 
+typical 4mb mac . 
+give large image , automatically scale 
+fit screen , rather present scroll bar like 
+viewer . 
+zoom desire portion , though . 
+people 
+like behavior , . 
+overall , 's user interface 
+well think . 
+, shareware $ 40 image , support 
+, well gif several image format . 
+latest 
+version . 
+get . 
+, file 
+. 
+. 
+require system later . 
+better plain viewer , 
+much extensive image manipulation format conversion 
+capability , may find worth shareware fee lot 
+play around image . 
+also , newest version 
+load save image without quicktime , best bet 
+machine old run quicktime . 
+faster quicktime . 
+note : run memory try load large jpeg , try 
+convert file gif jpeg convert , view gif version . 
+jpeg convert , mac version free ijg jpeg conversion utility , 
+available . 
+, file -10 . 
+. 
+run mac , file conversion , view . 
+use conjunction gif viewer . 
+previous version faq recommend imagery jpeg v0 .6 , jpeg < > gif 
+converter base old version ijg code . 
+use 
+program , definitely replace jpeg convert . 
+apple 's free program view image , quicktime jpeg , 
+gif format , convert format . 
+get 
+, file qt . 
+. 
+. 
+require quicktime . 
+intend developer 's tool , 
+really best choice unless like fool around quicktime . 
+drawback require lot memory , produce 
+relatively poor color image quality anything less 24-bit display , 
+relatively unfriendly user interface . 
+worse , 
+unsupported program , mean minor bug apple 
+intend fix . 
+old version , call 
+, float around net . 
+trash 
+, even . 
+also , quicktime starter kit include much 
+descendant call picture compressor . 
+note 
+picture compressor free may distribute net . 
+storm technology 's picture decompress free jpeg . 
+rather old program inferior program many way , 
+run without system 7 quicktime , may force use 
+older system . 
+need 32-bit quickdraw , really old machine 
+use . 
+get . 
+, file 
+. 
+. 
+must set file type 
+download image file ` jpeg ' allow picture decompress open . 
+machine old run 32-bit quickdraw mac plus instance , 
+choice jpeg viewing . 
+
+want pay , use jpeg convert free gif viewer . 
+commercial mac application support jpeg , although 
+deal format . 
+adobe photoshop , version 
+later , read write jpeg file use jpeg 
+plug-in acquire menu . 
+must set file type download 
+jpeg file ` jpeg ' allow photoshop recognize . 
+amiga : 
+program list section store archive 
+. 
+many mirror site 
+archive try use closest one . 
+usa , good 
+choice ; look . 
+... 
+plus excellent jpeg , well 
+general image manipulation tool . 
+cheap shareware , $ 20 read 
+several format besides jpeg . 
+current version . 
+demo version 
+available mirror site , file 
+. 
+lha . 
+demo version crop image larger 
+, otherwise fully functional . 
+shareware , $ 30 image renderer display jpeg , , 
+gif image . 
+program use create animation , even 
+capture frame on-the-fly render package like lightwave . 
+
+current version 1.05 , available mirror 
+site , file . 
+lha . 
+note : although directory 
+supposedly 3.0 program , program also run 
+1.3 , 2.04 2.1 . 
+free anim viewer . 
+current version 1.04 , 
+available mirror site , file 
+. 
+lha . 
+willing spend real money , several commercial package 
+support jpeg . 
+two write thomas krehbiel , author 
+. 
+, standalone image morph package , 
+, impressive 24-bit image capture , conversion , editing , painting , 
+effect prepress package also include . 
+
+distribute great valley products . 
+art department professional , 
+inc , widely use commercial image manipulation 
+software amigas . 
+, black belt systems , another 
+well-regarded commercial graphic package jpeg support . 
+free ijg jpeg software available compile amigas 
+mirror site directory , file 
+. 
+lha . 
+program convert jpeg ppm , gif , targa format . 
+amiga world heavily infested jpeg program , many 
+base ancient version free ijg jpeg software thanks 
+certain magazine publish , without 
+much notify author . 
+among `` '' , `` '' , 
+`` '' , probably even hear . 
+opinion , 
+anything older ijg version 3 march 1992 worth disk space 
+store ; program , trash get something newer . 
+atari st : 
+free ijg jpeg software available compile atari st , tt , etc , 
+, file . 
+zoo . 
+program convert jpeg ppm , gif , targa format . 
+monochrome st monitor , try , manage achieve four-level 
+grayscale effect flicker . 
+version 4.1 read jpeg file . 
+available 
+, file . 
+zoo . 
+hear free shareware viewer 
+ataris , surely must ? 
+pointer appreciate . 
+acorn archimedes : 
+! 
+, supply risc os 3 version 3.10 , convert view 
+jpeg format . 
+provision also make convert image jpeg , 
+although must cli rather . 
+recent version since 7.11 shareware program translator handle 
+jpeg , along 30 image format . 
+older version 
+find archimedes , current version available 
+register author , john , 31 , wj , enschede , 
+netherlands . 
+price 35 dutch guilder $ 22 10 pound . 
+also commercial product call ! 
+jpeg provide jpeg 
+functionality direct jpeg viewing , well host image 
+format conversion processing option . 
+expensive 
+necessarily better program . 
+contact : dt software , , 
+cambridge , uk . 
+tel : . 
+next : 
+pd utility display image format 
+conversion . 
+current version read jpeg write . 
+available standard next archive 
+, somewhere 
+currently re-organize , hard point specific 
+. 
+note older version float around 
+support jpeg . 
+portable software almost system : 
+none fit situation , obtain compile free 
+jpeg conversion software describe 6b . 
+'ll also need viewer program . 
+display 8 bit less , gif viewer fine ; 
+display color capability , try find viewer read targa 
+ppm 24-bit image file . 
+numerous commercial jpeg offering , pop every 
+day . 
+recommend spend money one unless find 
+available free shareware software vastly slow . 
+case , 
+purchase product . 
+ask pointed question whether 
+product comply final jpeg standard whether 
+handle file format ; many earliest commercial release 
+never compatible anyone else 's file . 
+6b look source code work : 
+free , portable c code jpeg compression available independent 
+jpeg group , lead . 
+package contain source code , 
+documentation , small test file available several place . 
+`` official '' archive site source code 
+. 
+look directory ; current release 
+4 . 
+. 
+compress tar file ; forget 
+retrieve binary mode . 
+retrieve file ftp uucp . 
+pc know cope . 
+format , may 
+prefer zip format , find mirror site see note 
+, file . 
+zip . 
+file also available 
+compuserve , forum go pic , library 15 , . 
+zip . 
+ftp access , retrieve source nearest 
+archive ; version 4 appear issue volume 34 . 
+know retrieve posting , see faq 
+article `` find source '' , refer top section 6 . 
+free jpeg code provide conversion jpeg `` '' format image 
+file gif , , utah rle , targa file format . 
+core compression decompression module easily reuse 
+program , image viewer . 
+package highly portable ; 
+test many machine range pc crays . 
+release software noncommercial commercial use . 
+company welcome use basis product . 
+ask royalty , although ask acknowledgement 
+product literature see readme file distribution detail . 
+hope make software -- although , 
+anything free , offer warranty accept liability . 
+independent jpeg group volunteer organization ; would like 
+contribute improve software , welcome join . 
+7 hoopla color quantization ? 
+people full-color 24 bit per pixel display hardware . 
+typical display hardware store 8 fewer bit per pixel , display 
+256 fewer distinct color time . 
+display full-color image , 
+computer must map image appropriate set representative 
+color . 
+process call `` color quantization '' . 
+something 
+misnomer , `` color selection '' would better term . 
+stick 
+standard usage though . 
+clearly , color quantization lossy process . 
+turn 
+image , detail color quantization algorithm much impact 
+final image quality error introduce jpeg except 
+lowest jpeg quality setting . 
+since jpeg full-color format , convert color jpeg image display 
+hardware require color quantization . 
+true 
+color jpeg : even feed gif jpeg , 
+come decompressor 256 color , thousand color . 
+happen jpeg 's affect pixel little 
+differently , two pixel start identical color probably 
+come slightly different color . 
+original color get `` smear '' 
+group nearby color . 
+therefore quantization always require 
+display color jpeg display , regardless image 
+source . 
+way avoid quantization ask output . 
+incidentally , effect nearly meaningless talk 
+number color use jpeg image . 
+even attempt count 
+number distinct pixel value , different jpeg decoder would give 
+different result roundoff error difference . 
+occasionally see 
+post image describe `` 256-color jpeg '' . 
+tell poster 
+read faq b probably convert jpeg gif . 
+jpeg classify color like photograph , 
+number color useful concept jpeg . 
+hand , gif image definition already quantize 
+256 fewer color . 
+gif definite number color 
+palette , format allow 256 palette entry . 
+purpose usenet picture distribution , gif advantage 
+sender color quantization , recipient . 
+also disadvantage gif : stick sender 's 
+quantization . 
+sender quantize different number color 
+display , , result much poorer 
+image quality quantize full-color image . 
+furthermore , sender use high-quality color quantization 
+algorithm , luck . 
+reason , jpeg offer promise significantly better image quality 
+user whose machine match sender 's display hardware . 
+jpeg 's full color image quantize precisely match user 's display 
+hardware . 
+furthermore , able take advantage future 
+improvement quantization algorithm lot active research 
+area , purchase better display hardware , get better view jpeg 
+image already . 
+gif , stick forevermore 
+send . 
+also worth mention many program include rather 
+shoddy quantization routine . 
+view 256-color gif 16-color ega 
+display , example , probably get much worse image 
+need . 
+partly inevitable consequence two color 
+quantization one create gif , one display , often 
+also due sloppiness . 
+jpeg conversion program force use 
+high quality quantizer order get acceptable result , 
+normal use quantize directly number color 
+display . 
+thus , jpeg likely provide better result average 
+gif program display well high-resolution one ! 
+finally , ever-growing number people display 
+hardware already : `` '' pc display , true 24-bit display 
+workstation macintosh , etc. . 
+people , gif already 
+obsolete , represent image full capability 
+display . 
+jpeg image drive display much effectively . 
+thus , jpeg all-around better choice gif represent image 
+fashion . 
+8 jpeg work ? 
+know chrominance subsampling , discrete cosine 
+transform , coefficient quantization , huffman arithmetic entropy 
+code . 
+article 's long enough already , go say 
+. 
+technical information , see faq . 
+available archive , file 
+. 
+1-3 . 
+need help 
+use archive , see top article . 
+9 lossless jpeg ? 
+great deal confusion subject . 
+jpeg committee 
+define truly lossless compression algorithm , i.e. , one guarantee 
+final output identical original input . 
+however , 
+lossless mode almost nothing common regular , lossy jpeg 
+algorithm , offer much less compression . 
+present , 
+implementation lossless jpeg exist , commercial . 
+say '' - q 100 '' free jpeg software get lossless image . 
+get rid deliberate information loss coefficient 
+quantization step . 
+still good deal information loss 
+color subsampling step . 
+v4 free jpeg code , also say 
+'' - sample 1x1 '' turn subsampling . 
+keep mind many commercial 
+jpeg implementation cope result file . 
+even quantization subsampling turn , regular jpeg 
+algorithm lossless , subject roundoff error 
+various calculation . 
+maximum error count one pixel 
+value ; highly unlikely could perceive human eye , 
+might concern machine processing image . 
+setting , regular jpeg produce file perhaps 
+half size uncompressed image . 
+true lossless jpeg 
+provide roughly amount compression , guarantee 
+accuracy . 
+application require lossless storage image less 
+6 bit per pixel per color component , may want look 
+bilevel image compression standard . 
+perform better jpeg 
+lossless image . 
+jpeg lossless superior image 
+6 bit per pixel ; furthermore , jpeg public domain least 
+huffman back end , technique heavily cover patent . 
+10 argument file format ? 
+strictly speak , jpeg refer family compression algorithm ; 
+refer specific image file format . 
+jpeg committee 
+prevent define file format turf war within international 
+standard organization . 
+since actually exchange image anyone else unless agree 
+common file format , leave problem . 
+absence 
+official standard , number jpeg program writer go 
+`` thing '' , result program compatible 
+anybody else 's . 
+closest thing de-facto standard jpeg format work 
+coordinate people microsystems . 
+define 
+two file format : 
+jpeg file interchange format , `` low-end '' format transport 
+pixel much else . 
+, aka tiff 6.0 , extension aldus tiff format . 
+tiff 
+`` high-end '' format let record everything 
+ever want know image , lot besides . 
+tiff 
+lot complex , may well prove less transportable , 
+different vendor historically implement slightly different 
+incompatible subset tiff . 
+likely add jpeg 
+mix anything improve situation . 
+format develop input major vendor 
+product ; reasonably likely future commercial 
+product adhere one standard . 
+believe usenet adopt replacement gif 
+picture posting . 
+simpler tiff available ; 
+tiff 6.0 spec recently officially adopt , still 
+vague crucial detail . 
+even well 
+define , format likely widely support `` lowest common 
+denominator '' ; file may never transportable . 
+particular case people may interested apple 's quicktime 
+software macintosh . 
+quicktime use format wrap 
+inside pict structure . 
+conversion 
+quicktime jpeg pretty straightforward , several mac program 
+available see mac portion section 6a . 
+editor 
+handle binary file , strip quicktime jpeg pict 
+hand ; see section 11 detail . 
+another particular case handmade software 's program 
+image alchemy . 
+program capable reading write 
+format . 
+default , though , write proprietary format develop 
+hsus . 
+format readable program 
+use usenet posting . 
+use - j switch get output . 
+
+apply old version program ; current release emit 
+format default . 
+still careful post 
+file , unless want get flame people platform . 
+11 recognize file format , ? 
+alleged jpeg file software read , likely 
+hsus format proprietary format . 
+tell 
+inspect first byte file : 
+1 . 
+file start character hex ff d8 ff e0 , 
+follow two variable byte often hex 00 10 , follow ` ' . 
+2 . 
+see ff d8 start , rest , may 
+`` raw jpeg '' file . 
+probably decodable as-is software -- 
+worth try , anyway . 
+3 . 
+hsus file start ` ' . 
+luck unless hsus 
+software . 
+portion file may look like plain jpeg datum , 
+decompress properly program . 
+4 . 
+macintosh pict file , , couple hundred 
+byte header follow header scan ` ' . 
+strip 
+everything ff d8 able read . 
+5 . 
+anything else : proprietary format , jpeg . 
+
+lucky , file may consist header raw jpeg datum stream . 
+identify start jpeg datum stream look ff d8 , 
+try strip everything . 
+usenet posting , characteristic pattern 
+`` begin '' line 
+m _ ... 
+whereas hsus file start 
+`` begin '' line 
+m : ' - ... 
+learn check former , save trouble 
+download file . 
+12 arithmetic code ? 
+jpeg spec define two different `` back end '' module final output 
+compress datum : either huffman code arithmetic coding allow . 
+choice impact image quality , arithmetic code usually 
+produce smaller compress file . 
+typical image , arithmetic coding 
+produce file 5 10 percent smaller huffman code . 
+
+number previously cite huffman code . 
+unfortunately , particular variant arithmetic code specify 
+jpeg standard subject patent ibm , at&t , mitsubishi . 
+thus legally use arithmetic code unless obtain 
+company . 
+`` fair use '' doctrine allow people implement 
+test algorithm , actually store image dubious 
+best . 
+least short run , recommend people worry 
+arithmetic coding ; space savings great enough justify 
+potential legal hassle . 
+particular , arithmetic code 
+use image exchange usenet . 
+small chance legal situation may change 
+future . 
+stay tune detail . 
+13 loss accumulate repeat ? 
+would nice , compress image jpeg , could 
+decompress , manipulate crop border , say , 
+without image degradation beyond lose initially . 
+unfortunately case . 
+general , altered 
+image lose information , though usually much lose 
+first time around . 
+next best thing would decompress image 
+without change loss , i.e. , get 
+identical jpeg file . 
+even true ; least , current 
+free jpeg software . 
+essentially problem accumulation roundoff 
+error . 
+repeatedly compress decompress , image eventually 
+degrade see visible change first-generation 
+output . 
+usually take many cycle get visible change . 
+one thing to-do list see accumulation error 
+avoid limit , optimistic . 
+case , could possibly guarantee would 
+compress unmodified full-color output , original 
+quality setting , would introduce loss . 
+even simple change 
+crop border could cause degradation . 
+wonder , boundary move . 
+crop multiple 16 pixel , might safe , 
+mighty limited capability ! 
+bottom line jpeg useful format archival storage 
+transmission image , want use intermediate 
+format sequence image manipulation step . 
+use lossless format 
+ppm , rle , tiff , etc work image , jpeg 
+ready file away . 
+aside avoid degradation , save lot 
+time way . 
+14 rule thumb convert gif image jpeg ? 
+state earlier , lose amount image information 
+convert exist gif image jpeg . 
+obtain original 
+full-color datum gif make , far better make jpeg 
+. 
+need save space gif work , 
+suggestion get maximum space savings minimum 
+loss quality . 
+first rule convert gif library look jpeg , 
+make sure happy , throw away corresponding gif ; 
+give chance conversion higher quality 
+set necessary . 
+gif may better leave gif , explain 
+section 3 ; particular , gif sixteen fewer color 
+convert well . 
+may find jpeg file reasonable quality 
+larger gif . 
+check size . 
+experience date suggest large , gif best 
+candidate conversion jpeg . 
+chew storage offer 
+potential savings , convert jpeg least degradation . 
+waste time convert gif much 100 . 
+also , 
+expect jpeg file convert gif small create 
+directly full-color original . 
+maintain image quality may 
+let convert file much twice big straight-through 
+jpeg file would i.e. , shoot size gif file , 
+suggest earlier comparison . 
+many people develop odd habit put large 
+border around gif image . 
+useless , nearly free term 
+storage cost gif file . 
+free jpeg file , sharp 
+border boundary create visible artifact `` ghost '' edge . 
+
+favor crop border . 
+x windows 
+system , xv 's manual automatic crop function painless 
+way . 
+'s default q setting 75 appropriate full-color input , 
+gif input , q setting 85 95 often seem necessary avoid 
+image degradation . 
+apply smoothing suggest , higher 
+q setting may necessary . 
+color gif photograph complex artwork usually `` dither '' fool 
+eye see 256 color gif actually store . 
+enlarge image , see adjacent pixel often 
+significantly different color ; normal size eye average pixel 
+together produce illusion intermediate color value . 
+
+trouble dither , jpeg , look like 
+color noise ; jpeg compress noise well . 
+result jpeg 
+file larger lower image quality would 
+get original full color image . 
+get around , want `` smooth '' gif image compression . 
+smooth average together nearby pixel , thus approximate color 
+think see anyway , process get rid rapid 
+color change give jpeg trouble . 
+appropriate use smoothing 
+often let avoid use high q factor , thus reduce size 
+compress file , still obtain output image 
+would get without smoothing . 
+v4 free jpeg software product base , simple smoothing 
+capability build . 
+try '' - smooth 10 '' convert gif . 
+value 10 25 seem work well high-quality gif . 
+heavy-handed 
+dither may require larger smoothing factor . 
+see regular 
+pattern gif image even without enlargement , strong 
+smoothing definitely call . 
+large smoothing factor blur 
+output image , want . 
+image processing 
+wizard , also smooth separate filter program , 
+package . 
+however , 's built-in smoother 
+lot faster ... 
+upshot `` - quality 85 - smooth 10 '' probably 
+good start point convert gif . 
+really care 
+image , 'll want check result maybe try setting . 
+--------------------- 
+information jpeg general free jpeg software 
+particular , contact independent jpeg group . 
+-- 
+tom lane 
+organizer , independent jpeg group 
+internet : bitnet : 

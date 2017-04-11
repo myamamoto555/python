@@ -1,0 +1,9 @@
+organization : university illinois chicago , academic computer center 
+: alan hinds < > 
+subject : disk datum compression interleave 
+lines : 5 
+anyone enough experience report whether disk datum 
+compression effect optimal disk sector interleave ? 
+offhand , expect time require decompress disk datum 
+would increase optimum disk sector interleave . 
+- alan hinds 

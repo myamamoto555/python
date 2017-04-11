@@ -1,0 +1,25 @@
+: christopher r. bailey 
+subject : cause timeout ? 
+summary : force strip chart update 
+: 
+organization : university colorado , boulder 
+lines : 20 
+problem athena strip chart widget call 
+get value function . 
+pretty sure happen 
+use , deal event via socket . 
+ya ya . 
+anyway , want cause timeout strip chart widget 
+call get value callback . 
+someone know another fast way around 
+way matter let know . 
+think 
+call callback value 
+third parameter get value proc . 
+word , want force strip chart widget update . 
+idea anyone ? 
+-- 
+christopher r. bailey | internet : 
+university colorado boulder | compuserve : 
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+ride fast , take chance ! 

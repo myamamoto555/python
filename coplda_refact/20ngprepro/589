@@ -1,0 +1,18 @@
+: wayne smith 
+subject : re : ide vs 
+organization : john p. robarts research institute , london , ontario 
+: 
+lines : 15 
+article < > richard krehbiel write : 
+> 
+> heck , ide use dma , would hear kind complaint 
+> isa bus system 16m ram work ide 
+> drive . 
+16m dma address limit isa bus , ide 
+> dma would trouble . 
+would problem long os set dma transfer 
+area 16 mb area dma controller probably 
+program way anyways , probably isi problem 
+besides , like say , fdd controller use dma channel # 2 . 
+yet believe hdd controller , mfm , rll , 
+etc also use dma . 

@@ -1,0 +1,43 @@
+: wout 
+subject : re : 0.022 uf different two 0.047 series ?! 
+: 
+organization : delft university technology , dept. electrical engineering 
+lines : 43 
+< > michael golan write : 
+> look amp diagram sony receiver , 
+> amaze find difference us canadian model 
+> capacitor hang output speaker : 
+> ------ \ \ \ ----- speaker identical model 
+> amp --------------- | 
+> model > 
+> < 10 
+> > 
+> | 
+> ----- 
+> | | 
+> 0.022 -- -- canadian model ! 
+> us model -- -- 0.047 
+> world-wide | | 
+> model . 
+| -- candian model ! 
+> | -- 0.047 
+> | | 
+> ----------- 
+> board also identical , room three cap . 
+
+> version clearly indicate place . 
+> make sense ? 
+0.047 2 , essentially 0.022 cap 
+> standard cap , special . 
+> please explain 
+> michael golan 
+> 
+explanation think two capacitor series 
+handle twice output voltage . 
+sometimes two elco 
+know , positive side face eachother use obtain large 
+capacitor handle positive negative voltage well . 
+probably reason , 
+one . 
+best 73 's 
+wouter 

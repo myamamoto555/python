@@ -1,0 +1,51 @@
+: 
+subject : mwm crash x server 
+organization : computer science department , blacksburg , va 
+lines : 55 
+environment : 
+: ipx 
+os : suno 
+x11 : 22 
+motif : 
+bring x server use ` ' . 
+following sequence 
+action crash x server , 32 , ` ' report connexion 
+x server lose : 
+1 . 
+-- 
+2 . 
+start mwm 
+3 . 
+start client font . 
+4 . 
+move window drag title bar . 
+server dump core due . 
+one two message print : 
+`` connection x server lose '' 
+
+`` connection broken 32 '' 
+believe first report client second server . 
+next , run debug level 5 . 
+set action , report : 
+select return -1 
+server :0 terminate unexpectedly : status 2560 
+note : 
+problem occur window manager twm . 
+set . 
+run font server . 
+start client fix width font , see problem . 
+font path : 
+, , , 
+, , 
+, , 
+. 
+problem seem occur ipx machine . 
+see 
+problem ipc workstation . 
+question : 
+hell goin ? 
+: - 
+`` status 2560 '' mean server . 
+would greatly appreciate hint cause problem . 
+-- 
+ramakrishnan , cs dept , mcbryde hall , vatech 

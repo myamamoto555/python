@@ -1,0 +1,28 @@
+: allan schwartz 
+subject : re : make internal hard disk external 
+organization : auspex systems , santa clara 
+lines : 29 
+: 
+> difficult operation -- cable standard , 
+> except scsi id . 
+scsi id usually three jumper pad -- label 
+> quantum . 
+try put drive lc case . 
+conner 
+. 
+figure jumper scsi id jumper . 
+anyone familiar drive ? 
+end drive 50 pin connector , 
+eleven pin look like : 
+o o o o o o 1 
+o o o o o 2 
+l5 
+`` o '' pin , `` l5 '' represent 
+silk screen notation near pin . 
+elsewhere board four jumper pad marked e1 , e2 , e3 , e4 
+silk screen . 
+anyone know scsi id a0 , a1 , a2 pin , 
+drive activity light led plug ? 
+- allan 
+-- 
+allan m. schwartz +1 

@@ -1,0 +1,50 @@
+: joel kolstad 
+subject : re : 8x cd player 
+organization : u wisconsin-madison college engineering 
+keyword : oversampling , cd , digitized audio 
+lines : 40 
+article < > h. c. bowman write : 
+> 
+> hello -- 
+> 
+> buy new portable cd player office , notice 
+> proudly proclaim `` 8 time oversampling '' box . 
+think 
+> understand oversampling rate discrete `` sample '' 
+> exceed highest frequency component interest factor , 
+> understand `` 8 time '' business ... seem 
+> buy first cd player really 10 year ago ?! 
+, spec 
+> say `` 4 time '' ... could someone please tell whether get 
+> senile ? 
+, good player take 
+> sample higher rate ? 
+really want better fidelity , would 
+> higher rate sampling recording 
+> process ? 
+furthermore , wrong interpret sampling rate 
+> player 's point view thing datum 
+> rate bit stream come optical medium ? 
+mean 
+> datum rate related rotational speed disk 
+> change since 1983 ? 
+note : try figure stuff month ago , 
+various people net , could wrong . 
+datum ever read bar , course , 
+eventually get turn 44.1 khz , 16 bit , two channel datum . 
+take two discrete datum point , interpolate n-1 point 
+n time . 
+ask , people say 
+interpolation simply linear interpolation , significantly 
+complicate . 
+anyway , , purpose oversampling move `` effective '' 
+sampling rate n time 44.1 khz , order use higher frequency 
+filter . 
+quality filter , higher oversampling 
+let build cheaper filter , whereas price filter , higher 
+oversampling let build better filter . 
+, assume quality 
+component cd player remain , 
+allow manufacturer produce _ slightly _ better sound due 
+filter . 
+-- joel kolstad 

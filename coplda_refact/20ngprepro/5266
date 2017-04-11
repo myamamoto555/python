@@ -1,0 +1,81 @@
+: tom 
+subject : re : repost : 
+keywords : accelerator , case 
+: 
+organization : boulder 
+lines : 68 
+article < > , trevor bourget write : 
+| > < > write : 
+| > 
+| > > post ago receive one reply , 
+| > > another bug report subject . 
+anybody help ? 
+| > 
+| > problem motif use implement menu accelerator , 
+| > grab specific modifier apply . 
+unfortunately , 
+| > specification allow combine 
+| > modifier , exactly would desire case : 
+| > `` ctrl q '' . 
+| > 
+| > > ora vol . 
+6 , section accelerator say `` information 
+| > > specify translation table see vol . 
+4 ... '' , 
+| > > know put resource . 
+go 
+| > > vol . 
+4 say , `` likewise , modifier specify , 
+| > > nothing prohibit modifier present well . 
+
+| > > example , translation : 
+| > > shift q : quit 
+| > > take effect even ctrl key hold time 
+| > > shift key q key . 
+| > 
+| > true accelerator mnemonic , implement use 
+| > event handler instead grab ; true menu accelerator . 
+
+| > motif implementor , would suggest lobby get xlib semantics 
+| > change support feature describe . 
+otherwise , change 
+| > documentation menu accelerator properly set user 's 
+| > expectation , menu accelerator thing 
+| > translation . 
+| > 
+| > > possible supply > 1 accelerator menu entry ? 
+| > 
+| > mean `` menu accelerator '' , possible . 
+accord 
+| > definition resource manual page . 
+| > 
+| > > keep mind answer question use motif 
+| > > use . 
+| > 
+| > think reason . 
+| > 
+| > > ensure accelerator work independent 
+| > > case ? 
+want ctrl + o ctrl + o accelerator one 
+| > > menu entry . 
+find thread motif accelerator amazing . 
+
+write interface keyboard accelerator , would one 
+resource call `` accelerator '' take translation table , period . 
+would also implement programmer never work 
+get accelerator install . 
+soon end-user specify 
+one , would active automatically install . 
+get multiple accelerator single menu item would something like : 
+: \ n \ 
+ctrl m : fire \ n \ 
+shift l : fire \ n 
+accelerator would work exactly like translation would 
+automatically see `` ctrl m '' show object . 
+world motif stuff complicated many different 
+special case depend type widget deal ? 
+
+reason . 
+sorry political tone message ... 
+-- 
+tom 

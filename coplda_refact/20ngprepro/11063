@@ -1,0 +1,101 @@
+: access bus industry gp 
+subject : re : software creator 's contest 
+organization : netcom on-line communication services guest 
+lines : 92 
+intro re : software creator 's 
+contest announcement 
+? 
+new open industry standard computer 
+peripheral connectivity . 
+serial protocol 
+use simple , low-cost i2c technology link multiple device 
+single pc port . 
+peripheral device keyboard 
+keypad , locator mouse , trackballs , joysticks , printer , vr 
+glove , digitizer , sensor , actuator datum transmitter 
+easily daisy chained host pc . 
+application 
+, data acquisition , simulation , virtual reality , 
+pc games , education many , many 
+take advantage , technology put 
+plug play every pc . 
+offer advantage end-user developer 
+system peripheral . 
+multiple device connect host 
+computer one port . 
+common communication method 
+number device type lead simplify hardware software 
+development . 
+open standard , enable cross - 
+platform use device . 
+technological description : 
+
+technology open specification , enable anyone 
+implement host system peripheral device without 
+fee royalty . 
+bus topology architecture . 
+, single 
+host accommodate 125 peripheral device . 
+
+datum rate 100 . 
+physical layer 
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+serial bus architecture , base i2c hardware 
+protocol , one datum line one clock line . 
+standard low-cost i2c microcontrollers handle 
+handshaking , include automatic arbitration clock 
+synchronization . 
+software protocol 
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+communication protocol compose three 
+level : i2c protocol , base protocol , application protocol . 
+i2c protocol : simple efficient protocol define 
+arbitration among contend master without lose datum . 
+i2c 
+provide cooperative synchronization bus partner 
+different clock rate . 
+bus transaction include address , 
+framing bit byte , byte acknowledgment 
+receiver . 
+base protocol : establish asymmetrical interconnect 
+host computer multiple peripheral . 
+host become 
+manager . 
+base protocol define format 
+message envelope , i2c bus transaction 
+additional semantics , include checksum . 
+unique feature base protocol hot 
+plug . 
+assign device unique bus 
+address , without need set jumper switch . 
+hot 
+plug ability attach detach device 
+system run , without reboot . 
+application protocol : highest level 
+protocol define message semantics specific particular 
+type device . 
+type require different application 
+protocol . 
+three broad device type identify : 
+keyboard , locator , text device . 
+support pc 
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+three level protocol support 
+pc . 
+add-on card implement physical layer use 
+base protocol communicate physical device . 
+manager - tsr dos dll windows 3.1 
+- control operation physical layer interact 
+device driver . 
+driver available 
+multiple keyboard , locator printer dos 
+windows 3.1 . 
+also available c language source code example 
+interface application device driver . 
+contact industry group : 
+------------------------------------------------ 
+postal address : 
+370 altair way , suite 215 , sunnyvale , ca 
+internet email : 
+fax : 
+voice : 

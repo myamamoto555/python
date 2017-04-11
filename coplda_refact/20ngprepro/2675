@@ -1,0 +1,49 @@
+: steve harrold 
+subject : re : need info diamond viper video card 
+organization : hewlett packard , cupertino 
+lines : 46 
+experience diamond viper vlb video card 
+several problem : 
+1 ad specify 16.7 million color 640x480 resolution 1mb 
+vram , . 
+color depth support 
+video bio version 1.00 driver version 1.01 . 
+max 
+color support 800x600 resolution 1mb 
+vram . 
+2 color choice notice two minor irritation : 
+, entry list highlight 
+open menu , faint vertical line often 
+remain left edge highlight rectangle use 
+. 
+b word windows , use shade table , 
+display show inverse shading ; example , 
+shade cell 10 % , display 90 % printout ok . 
+3 big killer bug use borland c + + integrated development 
+environment . 
+problem occur click turbo debugger 
+icon use debugger option run command , 
+debugger application go vga character mode design 
+. 
+screen go haywire , largely unreadable . 
+
+turbo debugger display garbled . 
+trial error , find disrupt screen 
+display follow letter 
+`` r '' . 
+instruct turbo debugger refresh screen , 
+satisfactorily . 
+wish . 
+bug diamond driver . 
+disruptive 
+behavior happen standard vga driver come 
+windows . 
+must something video card mishandle 
+vga mode . 
+problem monitor . 
+bug show use 
+another monitor place usual one . 
+still like video card , hope problem 
+remedy offer 5 year warranty . 
+-- 
+, 

@@ -1,0 +1,23 @@
+: joseph o'rourke 
+subject : re : need good concave - > convex polygon algorithm 
+organization : smith college , northampton , ma , us 
+lines : 16 
+article < > richard write : 
+> need good concave - > convex polygon conversion routine . 
+> try couple without much luck . 
+please e-mail response 
+> post summary reply . 
+thank . 
+> 
+> richard 
+> 
+problem precisely define , need find 
+smallest convex polygon enclose give polygon , 
+seek convex hull original polygon . 
+
+two way : use somewhat tricky well 
+examine algorithm exploit polygon boundary , 
+feed vertex original polygon convex hull 
+routine accept o n log n . 
+method discuss 
+shamos , example . 

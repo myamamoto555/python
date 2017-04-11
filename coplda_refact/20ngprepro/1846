@@ -1,0 +1,31 @@
+: 
+subject : x interactive performance 
+keywords : benchmark 
+organization : at&t 
+lines : 21 
+recently get ncd evaluate . 
+run 
+serial line . 
+want get measurement response time , write small xlib 
+program simply create window , map send first expose 
+event . 
+program time delay send event , 
+receive . 
+think simplest way test 
+round-trip delay . 
+similar concept ping 8c program . 
+valid test perform ? 
+also try program , available 
+, bombard server graphic operation , 
+want get measure `` acceptable '' interactive 
+response time . 
+anyone get idea subject ? 
+thanks . 
+andrew . 
+
+-- 
++ + + 
+| andrew fielden . 
+at&t network systems uk | tel : | 
+| information systems group sun support | email : | 
++ + + 

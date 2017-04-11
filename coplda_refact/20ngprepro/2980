@@ -1,0 +1,26 @@
+: thomas j bilan 
+subject : & novell 
+organization : dept. computer science , michigan state university 
+lines : 23 
+distribution : world 
+: 
+originator : 
+install windows workgroups network problem 
+map drive . 
+situation : 
+put z config.sys , run access 
+drive f : log novell . 
+put z config.sys access 
+drive . 
+seem way make work 
+statement config.sys . 
+would appreciate help . 
+probably easy problem 
+windows guru 's solve many many moon ago ... 
+thanks , 
+tom bilan 
+-- 
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
+$ department death engineering ^ surgeon general 's warning : $ 
+$ michigan state university ^ graduate school may cause brain $ 
+$ ^ damage sporadic loss hair $ 

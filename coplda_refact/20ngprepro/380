@@ -1,0 +1,20 @@
+: harry j 
+subject : 
+: 
+organization : picker international , inc. . 
+distribution : na 
+lines : 13 
+try run sun sparcstation ipx 
+suno 4.1.2 3.0 . 
+use 
+motif window manager . 
+unsuccessful 
+use motif . 
+get follow 
+- 
+x error fail request : invalid window parameter 
+major opcode fail request : 73 
+resource id fail request : 
+serial number fail request : 213 
+current serial number output stream : 213 
+anyone insight ? 

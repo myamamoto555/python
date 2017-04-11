@@ -1,0 +1,209 @@
+: greg 
+subject : re : let 's build software internet ... 
+organization : sun microsystems computer corporation , mtn . 
+view , california 
+lines : 229 
+distribution : usa 
+: cheer 
+< > graham toal < > write : 
+> article < > hal finney write : 
+> : try code yesterday . 
+sparcstation elc take 
+> seconds compress 22 seconds ' worth speech . 
+mean 
+> : need `` optimize '' factor 10 usable 
+> : even half-duplex mode . 
+> ouch ! 
+thanks try . 
+follow program quick hack create month 
+ago determine whether sun sparcstation ipc could perform 
+real-time , full-duplex encrypted audio result datum rate 
+sustainable today 's modem . 
+test program read audio audio device , 
+compress gsm compress frame 160 sample 
+record 260 bit result 50 hz frame rate , encrypt 
+des , reverse process send reconstructed audio 
+back audio device . 
+compress , encrypted audio stream 
+13 ! 
+. 
+sparcstation ipc exactly fast machine day , 
+certainly slower elc would barely sustain activity 
+audio would speech intelligible . 
+
+run real-time process get best result . 
+remember , 
+though , program quick hack performance 
+certainly improve . 
+audio compression routine ftp would . 
+de , 
+believe look gsm toast . 
+use eric young 's des 
+implementation longer know get . 
+
+< cut ----------------------------- > 
+
+test program see much cpu take secure digital audio . 
+write g. . 
+
+write sun ipc run solaris 2.2 sun isdn card 
+. 
+
+
+
+
+
+< . 
+h > 
+< . 
+h > 
+
+
+
+
+int fd , 
+
+info ; 
+! 
+null 
+fd , , < 0 
+`` '' ; 
+return ; 
+
+
+& info ; 
+; 
+; 
+_ rate 8000 ; 
+; 
+1 ; 
+16 ; 
+_ rate 8000 ; 
+; 
+1 ; 
+16 ; 
+_ size 320 4 ; 
+fd , , & info < 0 
+`` '' ; 
+return ; 
+
+fd , , < 0 
+`` '' ; 
+return ; 
+
+& info ; 
+; 
+; 
+fd , , & info < 0 
+`` '' ; 
+return ; 
+
+return ; 
+
+
+int ifd , gsm handle , buf 
+
+sample 160 ; 
+read ifd , sample , sample ! 
+sample 
+, `` : short read \ n '' ; 
+return ; 
+
+handle , sample , buf ; 
+return ; 
+
+
+int ofd , gsm handle , buf 
+
+sample 160 ; 
+handle , buf , sample < 0 
+, `` : fail \ n '' ; 
+return ; 
+
+write ofd , sample , sample ! 
+sample 
+, `` : short write \ n '' ; 
+return ; 
+
+return ; 
+
+main 
+
+gsm handle ; 
+frame ; 
+int ; 
+int option ; 
+key , , ; 
+, ; 
+4 , 4 , 4 ; 
+open '' '' , ; 
+< 0 
+`` open '' ; 
+exit 4 ; 
+
+
+initialize gsm compression code 
+
+handle null 
+, `` sv : fail \ n '' ; 
+exit 4 ; 
+
+option ; 
+handle , , & option < 0 
+, `` sv : fast fail \ n '' ; 
+exit 4 ; 
+
+
+initialize des code 
+
+& key ; 
+& key , < 0 
+, `` sv : fail \ n '' ; 
+exit 4 ; 
+
+& key , < 0 
+, `` sv : fail \ n '' ; 
+exit 4 ; 
+
+, 0 , ; 
+, 0 , ; 
+
+open audio device configure 
+
+! 
+, null 
+exit 3 ; 
+; 
+
+get 160 sample 16-bit linear 
+convert 33 byte frame 
+
+! 
+, handle , frame 
+exit 1 ; 
+
+block 
+
+frame , , long 32 , , , 
+; 
+, , long 32 , , , 
+; 
+frame , , 32 ; 
+0 
+, , 32 ! 
+0 
+, `` sv : fail \ n '' ; 
+exit 4 ; 
+
+
+
+take 33 byte frame convert 160 sample 
+play 
+
+! 
+, handle , frame 
+exit 2 ; 
+
+handle ; 
+
+< cut ----------------------------- > 

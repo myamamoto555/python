@@ -1,0 +1,139 @@
+: kenneth sloan 
+subject : re : remove distortion bitmapped drawings ? 
+organization : ci , university alabama birmingham 
+lines : 135 
+article < > earl write : 
+> let 's say scan image line drawing ; case 
+> boat , could anything . 
+draw set 
+> reference point whose true x , y position know . 
+> 
+> digitize drawing manually case , use yaron 
+> danon 's excellent digitize program . 
+, use program 
+> convert cursor position x , y save value click 
+> mouse . 
+> 
+> upon digitize notice reference point value come 
+> digitize process differ small significant way 
+> known true value . 
+understandable 
+> scan drawing reproduction original 
+> successive source distortion differential expansion 
+> contraction paper , error introduce printing process , 
+> scanner error . 
+> 
+> error uniform entire drawing , `` global '' 
+> adjustment uniformly x y , 
+> rotate whole drawing , satisfactory . 
+> 
+> question : kind soul know algorithm 
+> remove distortion ? 
+particular , three set 
+> point 
+> 
+> reference x , y know true value 
+> 
+> x , y point , known error 
+> 
+> x , y point , unknown error 
+> 
+> function reference distorted could apply 
+> remove error . 
+> 
+> suspect problem could solve treat distorted 
+> reference point result projection `` bumpy '' 3d 
+> surface , solve surface `` flatten '' remove 
+> error datum point . 
+help idea source distortion - least 
+reasonable model class distortion . 
+short 
+description process use ; question , 
+feel free poke via e-mail . 
+
+assume : locally smooth distortion 
+0 compute delaunay triangulation x , y point . 
+
+define set neighbor point . 
+datum 
+naturally convex , may long edge convex hull . 
+consider delete edge . 
+1 , two goal : 
+move x , y reference x , y 
+b keep length e measure current x , y 's 
+close possible e measure 
+use digitized x , y 's . 
+2 every point , compute displacement base b . 
+
+example : 
+x , y point know reference x , y , 
+move reference x , y - current x , y . 
+
+slowly move x , y towards 
+reference x , y . 
+b point , examine current length edge . 
+edge , compute displacement would make edge 
+correct length `` correct '' . 
+take vector sum edge displacement , move 
+point . 
+keep 
+triangulate mesh consistent digitized mesh . 
+3 iterate 2 happy example , point move much . 
+need determine experimentation . 
+consider 
+much believe reference x , y - i.e. , absolutely insist 
+final point exactly match reference , want 
+balance error match reference change length 
+edge . 
+warning : couple geometric invariant must 
+observe essentially , allow convex hull change , 
+allow triangle `` fold '' neighbor triangle . 
+
+handle either special case check motion 
+individual point , periodically point use 
+current position - still calculate 
+original position . 
+first , triangulation time 
+prohibitive , . 
+motivate try 
+change code work production mode 5 year , 
+might go back every iteration . 
+
+compute power know , might consider 
+every point interact every point ... first read 
+linear solution n-body problem . 
+lot papers last 10 year siggraph proceedings 
+spring , constraint , energy calculation relevant . 
+
+method describe , less detail : 
+, 
+author `` sloan , jr. , kenneth r. david meyers christine a. ~ curcio '' , 
+title `` reconstruction display retina '' , 
+`` proceedings : graphics interface '86 vision interface ' 86 '' , 
+address `` vancouver , canada '' , 
+page `` 385 -- 389 '' , 
+month `` may '' , 
+year 1986 
+, 
+author `` christine a. ~ curcio kenneth r. ~ sloan david meyers '' , 
+title `` computer method sampling , reconstruction , display , 
+analysis retinal whole mount '' , 
+number `` tr '' , 
+institution `` department computer science , university washington '' , 
+address `` seattle , wa '' , 
+month `` december '' , 
+year 1987 
+, 
+author `` christine a. ~ curcio kenneth r. ~ sloan david meyers '' , 
+title `` computer method sampling , reconstruction , display , 
+analysis retinal whole mount '' , 
+journal `` vision research '' , 
+volume 29 , 
+number 5 , 
+page `` 529 -- 540 '' , 
+year 1989 
+-- 
+kenneth sloan computer information sciences 
+university alabama birmingham 
+campbell hall , uab station 
+fax birmingham , al 

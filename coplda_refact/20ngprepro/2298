@@ -1,0 +1,31 @@
+: john whitmore 
+subject : re : help timing 
+: shelley .1 
+distribution : world 
+organization : university washington , seattle 
+lines : 25 
+: 
+article < > john haddy write : 
+> article < > , michael covington write : 
+> | > 1 use big capacitor . 
+unreliable timing due 
+> | > leakage . 
+true especially electrolytic capacitor high temperature . 
+> | > instead , use quartz crystal divide frequency 2 40 time 
+> | > something like . 
+> ... would crystal affect cold ? 
+gut feeling , 
+> mechanically resonate device , extreme cold likely affect 
+> compliance ? 
+terminology ? 
+quartz , hence resonant frequency . 
+low power quartz oscillator usually 32 khz 
+significant temperature drift , one often notice 
+wear watch one 's wrist . 
+low temperature sensitivity 
+available crystal type , unfortunately 
+larger higher frequency 1 mhz take 
+battery power . 
+programmable timer might less accurate , 
+suitable crystal oscillator . 
+john whitmore 

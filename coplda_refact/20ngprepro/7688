@@ -1,0 +1,40 @@
+: richard krehbiel 
+subject : re : ide vs 
+: message sat , 17 apr 1993 gmt 
+lines : 30 
+organization : timesharing , inc. . 
+article < > wayne smith write : 
+> article < > grn 1.16 f mike schwartz & michael b. smith write : 
+> 
+> still want know intrinsically better 
+> ide , isa bus come multi-tasking os 's 
+> managing datum single scsi hard drive . 
+> > 
+> > controller transfer datum dma allow cpu request datum 
+> > hard drive continue work controller get datum 
+> > move memory . 
+> 
+> ide also use dma technique . 
+believe floppy controller also use dma , 
+> board also use dma . 
+dma big deal , nothing 
+> directly . 
+ide dma . 
+like te pc hard disk 
+interface . 
+controller move sector buffer memory 
+controller card , cpu move datum buffer main 
+memory need . 
+ide work way , 
+compatible . 
+heck , ide use dma , would hear kind complaint 
+isa bus system 16m ram work ide 
+drive . 
+16m dma address limit isa bus , ide 
+dma would trouble . 
+btw , signal ide cable spec , 
+last report hear never implement , 
+would require different kind ide adapter different driver . 
+-- 
+richard krehbiel 
+2.0 386 come along ... 

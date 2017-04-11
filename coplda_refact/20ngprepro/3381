@@ -1,0 +1,67 @@
+: christopher lee 
+subject : help ! 
+set app 
+keywords : glx , 
+organization : dsg , stanford university , ca , usa 
+lines : 71 
+dear sgi netter expert , 
+write mixed model application create couple different 
+color map different window , trouble get 
+window manager reliably honor request . 
+environment 
+entry level indigo w window get properly 
+connect designate color map , iris 4d ; 
+also different entry level indigo color mapping unreliable 
+change behavior compile different time . 
+common 
+problem window fail display accord 
+. 
+application start create three top-level 
+window ; case first also fail 
+display . 
+spectacularly aggravating . 
+would dearly appreciate 
+1 . 
+explanation standard , right , correct way give window 
+window manager honor obey ; 
+2 . 
+advice problem could cause failure get 
+desire . 
+exhaust attempt , try everything 
+reasonable imaginable . 
+example code give schematic try 
+. 
+please , please , please somebody tell 
+right !!! 
+, 
+chris lee 
+
+display ; declare data ... 
+; 
+; 
+window win ; 
+cwa ; 
+int ; 
+window ; 
+nb : brevity , showing code line -- schematic 
+, , vis - > visual , ; 
+store bunch colors using 
+, , & ; ... 
+; 
+win , parent , x , y , w , h , 
+, vis - > depth , , vis - > visual , 
+| , & cwa ; 
+list sub window , parent win , ; 
+counter entries . 
+nb : static storage rely go away 
+corrupt . 
+think ! 
+anyone know 
+set wm property datum copy , reference pointer ? 
+ie . 
+acceptable pass datum property , free 
+datum ? 
+
+, , , ; 
+, win ; 
+later handle normally ... typical 

@@ -1,0 +1,77 @@
+: trevor bourget 
+subject : re : repost : 
+keywords : accelerator , case 
+organization : group , san diego , ca , usa 
+lines : 75 
+< > write : 
+> post ago receive one reply , 
+> another bug report subject . 
+anybody help ? 
+problem motif use implement menu accelerator , 
+grab specific modifier apply . 
+unfortunately , 
+specification allow combine 
+modifier , exactly would desire case : 
+`` ctrl q '' . 
+> ora vol . 
+6 , section accelerator say `` information 
+> specify translation table see vol . 
+4 ... '' , 
+> know put resource . 
+go 
+> vol . 
+4 say , `` likewise , modifier specify , 
+> nothing prohibit modifier present well . 
+
+> example , translation : 
+> shift q : quit 
+> take effect even ctrl key hold time 
+> shift key q key . 
+true accelerator mnemonic , implement use 
+event handler instead grab ; true menu accelerator . 
+
+motif implementor , would suggest lobby get xlib semantics 
+change support feature describe . 
+otherwise , change 
+documentation menu accelerator properly set user 's 
+expectation , menu accelerator thing 
+translation . 
+> possible supply > 1 accelerator menu entry ? 
+mean `` menu accelerator '' , possible . 
+accord 
+definition resource manual page . 
+> keep mind answer question use motif 
+> use . 
+think reason . 
+> ensure accelerator work independent 
+> case ? 
+want ctrl + o ctrl + o accelerator one 
+> menu entry . 
+workaround motif user . 
+addition normal menu 
+accelerator install gadget , set 
+resource shell application . 
+install shell 's 
+accelerator descendant 
+shell , shell . 
+example , 
+- - - 
+-- - 
+- 
+ctrl o 
+ctrl + o 
+ctrl q 
+ctrl + q 
+\ n \ 
+ctrl o : , \ n \ 
+ctrl q : , 
+write add application action , 
+implement use first argument 
+rest argument . 
+test something similar . 
+shorten development time , 
+use 's resource install accelerator 
+shell , directly invoke open quit d action instead 
+ask pushbutton , general approach 
+describe work . 
+-- trevor bourget 

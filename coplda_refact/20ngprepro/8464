@@ -1,0 +1,47 @@
+: elliot b 
+subject : help plus ii card need 
+: elliot 
+organization : at&t tax systems development , maitland fl 
+lines : 36 
+try help friend mine get second serial port 
+plus ii card working want cooperate . 
+documentation 
+help . 
+example , say ` serial port change 
+move jumper . ' 
+say jumper move !! 
+: - 
+2 bank jumper . 
+first one label follow : 
+c1 
+c2 
+s2 
+p2 
+p1 
+g 
+second bank label `` irq '' follow label : 
+5c 
+5 
+4 
+3 
+3 
+2c 
+2 
+determine c1 & c2 jumper tell address first 
+serial port . 
+p1 , p2 jumper tell use printer 
+port . 
+guess `` g '' enable game port 
+`` s2 '' enable second serial port , get work . 
+
+try numerous setting irq bank without success . 
+assume 
+bank must tell card irq 's use port , ; 
+know . 
+suggestion would greatly appreciate !! 
+ebd 
+-- 
+elliot `` real poncho ... mean mexican poncho 
+sears poncho ? 
+hmmm ... foolin ' ... '' -- f. zappa 
+w h 

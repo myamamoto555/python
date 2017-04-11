@@ -1,0 +1,109 @@
+: 
+subject : create , i.e. lookup table x11 r4 
+lines : 99 
+hello , 
+copy source use setup user-specified color - 
+map x r11 v4 . 
+attempt create user define color term 
+rgb color range . 
+call prove ineffective . 
+variable define follow : 
+int , j , k , 
+, ; 
+image , , start , end , jump , 
+lut 512 ; 
+unsigned long pixel ; 
+double red , green , blue ; 
+
+datum structure use color operation 
+
+struct 
+unsigned long pixel ; 
+unsigned short red , green , blue ; 
+char flag ; - , , - 
+char pad ; 
+; 
+
+, ; 
+define double red , double green , double blue . 
+need know set possible value 
+work within call : 
+int 255 . 
+red ; 0 . 
+.255 
+int 255 . 
+red ; 0 . 
+.255 
+int - 7 ; 
+int 255 . 
+green ; 0 . 
+.255 
+int 255 . 
+green ; 0 . 
+.255 
+int - 7 ; 
+int 255 . 
+blue ; 0 . 
+.255 
+int 255 . 
+blue ; 0 . 
+.255 
+int - 7 ; 
+0 ; 
+0 ; < 8 ; + + 
+j 0 ; j < 8 ; j + + 
+k 0 ; k < 8 ; k + + 
+
+0 | | < 1 
+lut . 
+red ; 
+else 
+lut . 
+red - 1 ; 
+j 0 | | < 1 
+lut . 
+green ; 
+else 
+lut . 
+green j - 1 ; 
+k 0 | | < 1 
+lut . 
+blue ; 
+else 
+lut . 
+blue k - 1 ; 
+short lut . 
+red ; 
+short lut . 
+green ; 
+short lut . 
+blue ; 
+; 
+printf `` : % d : % d % d % d : pixel % d \ n '' , , , 
+, , ; 
+status , , & ; 
+printf `` : % d : % d % d % d : pixel % d \ n '' , , , 
+, , ; 
+status ! 
+0 
+
+, gc , ; 
+, win , gc , 1 , 1 , , ; 
+; 
+sleep 10 ; 
+printf '' % d : % f % f % f % d \ n '' , , lut . 
+re 
+lut . 
+green , lut . 
+blue , 
+; 
+
++ 1 ; 
+
+thanks advance anyone help problem . 
+sincerely , 
+john f. duggan 
+
+john f. duggan alia : genghis khan 
+engineering computer services , internet : 
+univ. massachusetts , amherst , ma bitnet : 

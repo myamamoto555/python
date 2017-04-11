@@ -1,0 +1,218 @@
+: 
+subject : experience 6 
+summary : microsoft botch ! 
+: 
+organization : university new south wales , kensington , australia 
+lines : 236 
+trouble post article within tin 
+week . 
+get multiple copy , apology . 
+challenge microsoft supporter defend 
+pathetic state dos 6 upgrade distribution -- long story 
+would make good reading interested know 
+potential pitfall `` upgrade '' dos 6 able 
+notice week play around . 
+
+
+ti travelmate 4000 4m ram 120m disk 
+system bios version 1.03 texas instruments 
+vga bios v 1.03 a1 cirrus logic & 
+advance power manager v b6 .00 texas instruments 
+smart drive cache .1 parameter : 2048 1024 - b - 
+windows benchmark tm v 3.11 zd labs 
+`` '' dos 6 , could understand certain thing 
+become slow , especially decide try ` ' . 
+
+process find , discover interesting thing . 
+disk performance double space smart drive 
+
+thing appear slow time , certain 
+application appear run much slower . 
+interesting 
+command like ` chkdsk ' ` defrag ' run far slowly 
+consider useful standard . 
+suspect double space d 
+decide measure impact system use tm . 
+real disk original system ship 
+factory 5 3.1 become `` upgrade '' 
+dos 6 d . 
+thus effective performance degradation 
+50 percent really surprise know 
+d compression must cost something . 
+specifically , short sequential read 512 byte , d actually 
+improve transfer rate 10 % cpu faster 
+, cpu cycle need d compensate savings 
+cycle . 
+however , case , particularly large 
+random write , transfer take three time long . 
+performance depend type access i.e random 
+sequential , small large transfer unit , average base 
+'s assumption , disk slow half speed . 
+test alone , ` real mode ' see 
+, say much except help put subjective 
+statement like ` noticable difference performance ' 
+even ` speed disk access fast cpu 
+slow disk ' . 
+explain application run markedly slower , 
+` chkdsk ' ` defrag ' latter especially long . 
+double space windows 
+
+run within window , even 
+want get information , modify anything , 
+matter even check usage -- try `` '' box 
+within window see mean error message 
+get . 
+narrow mind get , wonder . 
+yes , information obtain add-on 
+file manager , ` ' dll understand compress 
+floppy ! 
+use dos 6 supplement utility create compress 
+floppy dont know . 
+dos 6 defragmenter incompatible ti apm 
+
+defragmentation seem take much time . 
+even , wait 
+patiently till finish run confirm . 
+confirmation ` def ' command 120m drive take 
+30 seconds much faster defragmenter use 
+take 12 minute . 
+discover move mouse , defragmentation checking run 
+faster % figure tick rapidly . 
+dawn 
+ti 's battery saver advanced power management apm 
+module slow clock think cpu idle , 
+obviously think d defragmentation idle process ! 
+
+disable ti 's power saver , operation take 20 seconds . 
+microsft programmer think gateway nomad user idiot 
+
+file , find follow 
+run microsoft backup gateway nomad computer 
+
+avoid conflict turbo feature microsoft backup 
+windows ms-dos , add l0 switch device command 
+config.sys load file . 
+, 
+run microsoft backup , type l0 command prompt . 
+check ti 's manual l0 option , realize 
+means `` disable power saving feature notebook '' . 
+would 
+anyone want run driver disabled ! 
+find , 
+ti 's power management interfere microsoft backup 
+claim , ` chkdsk ' ` ' know 
+else cripple ti 's power saver . 
+obvious thing apm specification . 
+
+indeed thing , either microsoft programmer ti 
+programmer dont know read specification . 
+dont 
+guess idiot . 
+way , run advance power management utility , 
+, check status , say : 
+power management status 
+----------------------- 
+set adv : max 
+cpu : idle 60 % time . 
+figure 60 % seem steady state value notebook 
+run nothing window program manager 
+form . 
+mean windows take 40 % cpu 
+, best 60 % leave useful work ? 
+
+overhead justified whether windows operating 
+system another user interface ? 
+alone , report 99 % 
+idle time . 
+look like windows good example busy wait type 
+package like student study classical ` negative ' 
+example time ! 
+microsoft programmer know batch programming 
+
+like structure startup script thus equivalent 
+statement like : 
+set path c : \ 
+... 
+set path c : \ etc \ bin ; % path % ; c : \ bin 
+... 
+set path c : \ etc \ window ; % path % ; c : \ window 
+... 
+set path % path % ; c : \ bcc \ bin 
+... 
+set path % path % ; % mouse % 
+even though new install directory old 
+one i.e. c : \ , dos 6 installation program every 
+path statement , c : \ dos value . 
+result , 
+resultant path many dos 's . 
+installation program want remove old dos path , add 
+new dos path , clearly scan path statement 
+old dos directory replace new dos path . 
+even new dos install 
+directory different old one ` upgrade ' . 
+instead , microsoft programmer call person one 
+decide meddle every path statement 
+value . 
+wonder microsoft desparate 
+would fire programmer incapable thought process . 
+start thread dos 4 come , microsoft 
+representative singapore call poster . 
+fact 
+specifically say us counterpart see poster relay 
+information access internet . 
+change one bit . 
+fact , path statement 
+% path % already , obvious statement 
+touch reason ? 
+another example inability microsoft programmer 
+understand batch programming -- mouse driver invoke : 
+set mouse c : \ etc \ mouse 
+set path % path % ; % mouse % 
+
+guess ? 
+replace last statement 
+lh ... c : 
+difficult replace lh 
+parameter , without touch rest line , understand . 
+dos 6 software quality 
+
+dos 6 operating system know , , normal usage , 
+end create file get rid use 
+command come . 
+deliberately cryptic : challenge microsoft 
+use programmer catch bug publish . 
+dont 
+within week , post create `` ghost '' file . 
+surely pick bug without even look use 
+particular command twice , sure two dozen microsoft idiot 
+programmer randomly bang keyboard week could find 
+-- tell microsoft `` test quality '' 
+product . 
+think funny microsoft find way `` test quality '' 
+accept industry quality test , 
+build product . 
+wonder provide 
+form guarantee product , even decent list bug 
+prevent score user destroy disk beyond 
+repair ! 
+also , run ` def ' often enough , repeatedly disk 
+fully defragment , may get error , create 
+defragmenter . 
+get file size error get truncate 
+chkdsk . 
+happend five successive 
+defragmentation first one supposedly job 
+new file creation since . 
+microsft , dont dare reply poster network 
+admit d bug , willing let know 
+watch already use d . 
+jaya 
+-- 
+dr. cse , , unsw | sign paris hotel : 
+p.o. box 1 , kensington , nsw 2033 | 
+: 2 | `` sport jacket may worn dinner , 
+internet : | trousers . '' 
+dr. cse , , unsw | sign norwegian cocktail lounge : 
+p.o. box 1 , kensington , nsw 2033 | `` ladies request 
+: 2 | child 
+internet : | bar . '' 

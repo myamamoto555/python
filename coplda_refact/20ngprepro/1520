@@ -1,0 +1,39 @@
+: jay graham 
+subject : mix gl x xlib , xt , mwm 
+organization : internet 
+lines : 38 
+: 
+: 
+develop x xt , xm application include graphic window 
+sort move symbol among thing . 
+pure x application 
+could implement motif widget , one would 
+draw xlib . 
+would like take advantage 
+graphics library gl available ibm sgi 's gl believe . 
+possible mix x gl one application program ? 
+use gl subroutine x window open 
+? 
+never use gl , doc gl say first 
+time call open connection server . 
+also , 
+gl call require display gc , unlike x call . 
+
+initial information appear x gl mixed easily . 
+
+true ? 
+pex ? 
+functionality gl ? 
+environment : 
+
+motif 1.1 
+gl available 
+aix sys v 3.2 
+ibm 360 
+thanks advance . 
+jay graham 
+jade simulations international corp. . 
+14 colonnade road , suite 150 
+nepean , ontario , canada 
+
+

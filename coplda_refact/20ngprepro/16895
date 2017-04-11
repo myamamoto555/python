@@ -1,0 +1,44 @@
+: han n. nguyen 
+subject : action translation table implementation 
+organization : naval ocean systems center , san diego , ca 
+distribution : usa 
+lines : 51 
+hello , 
+application require capture keypad press window 
+number application . 
+try use action translation 
+table implement . 
+succeed assign 
+translation table every individual widget window single 
+application . 
+xt call make include . 
+would much convenient could assign translation 
+table class widget rather individual widget instantiation , 
+also accomplish multiple application . 
+someone could 
+describe would greatly appreciate . 
+platform : sun sparc w & motif 
+
+static 
+`` '' , , 
+`` right '' , , 
+`` middle '' , , 
+`` left '' , , 
+`` '' , , 
+`` bye '' , quit , 
+; 
+static char 
+'' : \ n \ 
+: right \ n \ 
+: middle \ n \ 
+: leave \ n \ 
+: \ n \ 
+: bye '' ; 
+, ; 
+... 
+, ; 
+; 
+widget `` msg '' , , 
+form , warg , n ; 
+widget , ; 
+

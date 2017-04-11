@@ -1,0 +1,37 @@
+: richard lee 
+subject : re : pulldown menu periodically hang application 3.0 
+organization : sterling software imd . 
+vienna , va 
+lines : 26 
+distribution : inet 
+: 
+: tin version 1.1 
+skip write : 
+: 
+: anyone find fix follow problem ? 
+: 
+: client software : suno , 
+: server hardware : sun ipc 
+: server software : suno , open windows 3.0 w patch 
+: 
+: motif application periodically hang run 
+: 3.0 server . 
+pulldown display 
+: button action effect . 
+sometimes press 
+: unstick application usually . 
+look like pulldown 
+: grab focus never let go . 
+window display 
+: continue get update server hang . 
+log 
+: another terminal kill motif application everything get 
+: back normal . 
+application run x server 
+: include mit , , tektronix x terminal 
+: problem . 
+obviously problem need 
+: since customer user . 
+see problem use sparcstation 10 , solaris 2.1 , ow 3.1 . 
+case , happen far often `` periodically '' . 
+help ? 

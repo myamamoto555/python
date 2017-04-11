@@ -1,0 +1,97 @@
+: germano 
+subject : question : revise summary 
+organization : swiss federal institute technology eth , zurich , ch 
+lines : 90 
+> revise version summary correct error 
+> provide additional information explanation . 
+thank much . 
+read text distinct question 
+arise , guess also ask people . 
+perhaps 
+would interesting find answer question ? 
+> clipper chip : technical summary 
+> n , 30-bit serial number length subject change 
+shorter longer ? 
+> session key k establish , clipper chip use 
+> encrypt conversation message stream m digitized voice . 
+
+> telephone security device feed k m chip produce two 
+> value : 
+> e m ; k , encrypted message stream , 
+> e e k ; u + n ; f , law enforcement field , 
+> transmit telephone line . 
+law enforcement 
+> field thus contain session key k encrypt unit key u 
+> serial number n , encrypt family 
+> key f. law enforcement field decrypt law enforcement 
+> authorize wiretap install . 
+first question : transmit , 
+remote clipper chip handle ? 
+transmit periodically 
+stream encrypted block , beginning ? 
+
+phone side discard packet via protocol whatsoever , 
+try turn ? 
+would disturbing 
+> beginning session , trust agent two key 
+> escrow agency enter vault . 
+agent 1 enter secret , random 
+> 80-bit value s1 laptop agent 2 enter secret , random 
+> 80-bit value s2 . 
+random value serve seed generate unit 
+> key sequence serial number . 
+thus , unit key 
+> function 160 secret , random bit , agent know 80 . 
+second question : 
+strange procedure use , 
+real rng ? 
+turn s1 , s2 kind bottleneck system - 
+security . 
+> law enforcement authorize tap encrypted line , 
+> first take warrant service provider order get 
+> access communication line . 
+let assume tap 
+> place determine line encrypt 
+> clipper chip . 
+law enforcement field first decrypt 
+> family key f , give e k ; u + n. documentation certify tap 
+> authorize party associate serial number n 
+> send e.g. , via secure fax key escrow agent , 
+> return e.g. , also via secure fax u1 u2 . 
+u1 u2 
+> together produce unit key u , e k ; u decrypt get 
+> session key k. finally message stream decrypt . 
+
+> accomplish special black box decoder . 
+technical provision take place ` timeout ' 
+warrant ? 
+would unique possibility realize technical 
+restriction , let perform decoding 
+session key . 
+take instead secure fax . 
+
+bad idea ? 
+> successor clipper chip , call `` capstone '' government 
+> `` '' , already develop . 
+include 
+> skipjack algorithm , digital signature standard dss , 
+> secure hash algorithm sha , method key exchange , fast 
+> , . 
+available 
+> testing april 22 , chip expect ready 
+> delivery june july . 
+wow ! 
+work ? 
+sha key exchange secret , 
+publicly know ? 
+dh , guess ? 
+seem oppose chip shall tough time , 
+government realy mean act . 
+: - 
+friendly greeting , 
+germano 
+-- 
+instruments register thing design register . 
+space still contain infinite unknown . 
+
+germano 

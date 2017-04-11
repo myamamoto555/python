@@ -1,0 +1,299 @@
+: jon leech 
+subject : space faq - calculation 
+supersedes : < > 
+organization : university north carolina , chapel hill 
+lines : 334 
+distribution : world 
+expire : 6 may 1993 gmt 
+: 
+keyword : frequently ask question 
+: 
+: $ date : $ 
+perform calculation interpret data format 
+computing spacecraft orbit trajectory 
+reference frequently recommend net : 
+`` fundamental '' roger bate , donald mueller , jerry white 
+1971 , dover press , $ 8.95 us paperback . 
+isbn 
+nasa spaceflight handbook date 1960 
+orbital flight handbook 3 part 
+lunar flight handbook 3 part 
+planetary flight handbook 9 part 
+might find university aeronautics library order 
+us govt . 
+print office gpo , although 
+information would probably need order . 
+m. a. , _ determination characteristic ballistic 
+interplanetary trajectories influence multiple planetary 
+attraction _ , technical report , jet propulsion laboratory , 
+pasadena , calif. , oct , 1963 . 
+title say . 
+start basics work way . 
+good . 
+companion article : 
+m. , _ utilize large planetary design 
+deep-space ecliptic trajectories _ , technical 
+report , jpl , pasadena , calif. , 1965 . 
+need read first one first realy understand one . 
+include _ short _ summary find second . 
+contact jpl availability report . 
+`` spacecraft attitude dynamics '' , peter c. hughes 1986 , john wiley 
+son . 
+`` celestial mechanics : computational guide practitioner '' , 
+lawrence g. taff , , new york , 1985 . 
+start basics problem , coordinate work 
+orbit determination , perturbation , differential correction . 
+taff also briefly discuss stellar dynamics include short 
+discussion n-body problem . 
+computing planetary position 
+net reference : 
+van flandern & , _ formulae planetary 
+position _ , astrophysical j. supp series , , 1979 . 
+look 
+astronomy physics library ; also say available 
+. 
+give series compute position accurate 1 arc minute 
+period + - 300 year . 
+pluto include state 
+accuracy 15 arc minute . 
+_ multiyear interactive computer almanac _ mica , produce us 
+naval observatory . 
+valid year 1990-1999 . 
+$ 55 $ 80 outside us . 
+available ibm order macintosh order 
+. 
+nti sale desk , 703 . 
+believe 
+intend replace usno 's interactive computer ephemeris . 
+_ interactive computer ephemeris _ us naval observatory 
+distribute ibm-pc floppy disk , $ 35 . 
+cover date 
+. 
+`` planetary programs tables '' , & simon 
+1986 , . 
+floppy disk available separately . 
+`` fundamental celestial mechanics '' 2nd ed , danby 1988 , 
+. 
+good fundamental text . 
+include basic program ; companion set 
+floppy disk available separately . 
+`` astronomical formula calculator '' 4th ed . 
+, j. meeus 1988 , 
+. 
+`` astronomical algorithm '' , j. meeus 1991 , . 
+actively use one edition `` astronomical formula 
+calculator '' , want replace `` astronomical 
+algorithm '' . 
+new book orient towards computer 
+calculator contain formula planetary motion base 
+modern work jet propulsion laboratory , u.s. naval 
+observatory , bureau des longitudes . 
+previous book 
+base formula mostly develop last century . 
+algorithm available separately diskette . 
+`` practical astronomy calculator '' 3rd ed . 
+, p. 
+1988 , cambridge university press . 
+`` orbit amateurs microcomputer '' , d. tattersfield 1984 , 
+stanley thornes , ltd. . 
+include example program basic . 
+`` orbit amateurs ii '' , d. tattersfield 1987 , john wiley & sons . 
+`` astronomy scientific software '' - catalog shareware , public domain , 
+commercial software ibm pc . 
+astronomy software 
+include planetarium simulation , ephemeris generator , astronomical 
+database , solar system simulation , satellite tracking program , 
+celestial mechanic simulator , . 
+andromeda software , inc. . 
+p.o. box 605 
+amherst , ny 
+compute crater diameters asteroids 
+gene shoemaker propose follow , base 
+study crater cause nuclear test . 
+.4 
+d c k w : crater diameter km 
+g p f n 
+
+g g : gravity correction factor body 
+g e earth , g 9.8 ^ 2 g surface 
+e 
+gravity target body . 
+scaling 
+cite lunar crater may hold true 
+body . 
+.4 
+p p : correction factor target density p , 
+p 
+p 1.8 ^ 3 alluvium jangle u 
+
+crater site , p 2.6 ^ 3 average 
+rock continental shield . 
+c : crater collapse factor , 1 crater < 3 km 
+diameter , 1.3 larger crater earth . 
+.4 
+k : km kt tnt equivalent 
+n empirically determine jangle u 
+nuclear test crater . 
+3 2 19 
+w pi d delta v 12 10 
+: projectile kinetic energy kt tnt equivalent 
+give diameter d , velocity v , projectile 
+density delta cgs unit . 
+delta around 3 
+^ 3 fairly good asteroid . 
+rms velocity v 20 may use 
+asteroid . 
+assumption , body create barringer meteor 
+crater arizona 1.13 km diameter would 40 meter 
+diameter . 
+generally , one use gehrels , 1985 : 
+asteroid number object impact probability impact energy 
+diameter km 5 10 ^ 20 erg 
+10 10 10 ^ -8 10 ^ 9 
+1 1 000 10 ^ -6 10 ^ 6 
+0.1 100 000 10 ^ -4 10 ^ 3 
+assume simple scaling law . 
+note 5 10 ^ 20 erg 13 000 ton tnt 
+equivalent , energy release hiroshima a-bomb . 
+reference : 
+gehrels , t. 1985 asteroid comet . 
+_ physics today _ 38 , . 
+
+excellent general overview subject layman 
+shoemaker , e.m. 1983 asteroid comet bombardment earth . 
+_ ann . 
+rev. earth planet . 
+sci . 
+_ 11 , . 
+long fairly 
+technical comprehensive examination 
+subject 
+shoemaker , e.m. , j.g. williams , e.f. helin & r.f. wolfe 1979 
+asteroid : orbital class , collision rate 
+earth , origin . 
+_ asteroids _ , t. gehrels , ed. , pp. , 
+university arizona press , tucson . 
+cunningham , c.j. 1988 _ introduction asteroids : next frontier _ 
+richmond : , inc. cover aspect asteroid 
+study excellent introduction subject people 
+experience level . 
+also extensive reference 
+list cover essentially reference material 
+field . 
+map projection spherical 
+two source map projection `` encyclopaedia 
+brittanica '' , particularly older volume tutorial appear 
+_ graphics gems _ academic press , 1990 . 
+latter write 
+simplicity exposition suitability digital computation mind 
+spherical trig formula also appear , example . 
+ever care know map projection john 
+snyder 's usgs publication `` map projections -- working manual '' , usg 
+professional paper 1395 . 
+contain detailed description 32 
+projection , history , feature , projection formula 
+spherical earth ellipsoidal earth , numerical test case . 
+
+neat book , 382 page worth . 
+one 's $ 20 . 
+might also want companion volume , snyder philip , 
+`` album map projection '' , usgs professional paper 1453 . 
+
+contain less detail 130 projection variant . 
+formula 
+back , example plot front . 
+$ 14 , 250 page . 
+order 2 way . 
+cheap , slow way direct usgs : 
+earth science information center , us geological survey , 507 national 
+center , reston , va . 
+800 - . 
+quote price 
+tell send money . 
+expect 6-8 week turnaround time . 
+much faster way 1 week timely discount topos , 
+303 , w. 119th drive , suite 9 , broomfield , co . 
+call 
+tell want . 
+'ll quote price , send 
+check , go usgs customer service counter pick 
+. 
+add $ 3-4 service charge , plus shipping . 
+perhaps accessible mapping article : 
+r. miller f. reddy , `` mapping world pascal '' , 
+byte v12 # 14 , december 1987 
+contain turbo pascal procedure five common map projection . 
+
+demo program , , small 6,000 point coastline datum 
+available compuserve , genie , many bbss . 
+reference spherical : 
+_ spherical astronomy _ , w.m. smart , cambridge u. press , 1931 . 
+_ compendium spherical astronomy _ , s. newcomb , dover , 1960 . 
+_ spherical astronomy _ , r.m. green , cambridge u. , 1985 update 
+smart . 
+_ spherical astronomy _ , e woolard , academic 
+press , 1966 . 
+perform n-body simulation efficiently 
+`` computer simulation use particles '' 
+r. w. hockney j. w. eastwood 
+adam hilger ; bristol philadelphia ; 1988 
+`` rapid evaluation potential field particle system '' , 
+l. greengard 
+mit press , 1988 . 
+breakthrough o n simulation method . 
+. 
+l. greengard v. rokhlin , `` fast algorithm particle 
+simulation , '' journal computational physics , , 1987 . 
+`` o n algorithm three-dimensional n-body simulation '' , 
+thesis , feng zhao , mit technical report 995 , 1987 
+`` galactic dynamics '' 
+j. binney & s. tremaine 
+princeton u. press ; princeton ; 1987 
+include o n ^ 2 fortran code write aarseth , pioneer 
+field . 
+hierarchical n log n tree method describe papers : 
+a. w. appel , `` efficient program many-body simulation '' , siam 
+journal scientific statistical computing , vol . 
+6 , p. 85 , 
+1985 . 
+barnes & hut , `` hierarchical o n log n 
+algorithm '' , nature , # , 4-10 dec 1986 . 
+l. , `` hierarchical n-body method '' , computer physics 
+communications , vol . 
+48 , p. 107 , 1988 . 
+interpret fit image format 
+need examine fit image , use ppm package see 
+faq convert preferred format . 
+
+information format software read write , see 
+faq . 
+sky unix ephemeris program 
+6th edition unix operating system come several software 
+system distribute older media capacity limitation . 
+include , satellite track , speech synthesis 
+software . 
+, sky 6 , available within at&t site 
+possess unix source code license . 
+program regard unix 
+source code . 
+sky < 0.5 mb . 
+send proof source code license 
+e. miya 
+m 
+nasa ames research center 
+moffett field , ca 
+
+three-dimensional coordinate 
+generate 3d coordinate astronomical object , first obtain 
+astronomical database specify right ascension , declination , 
+parallax object . 
+convert parallax distance use 
+part 6 faq , convert ra declination coordinate 
+unit sphere see reference planetary position 
+spherical earlier section detail , 
+scale distance . 
+two database useful purpose yale bright star catalog 
+source list faq section 3 `` catalogue stars within 25 
+parsec sun '' 
+. 
+next : faq # - reference specific area 

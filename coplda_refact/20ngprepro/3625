@@ -1,0 +1,168 @@
+: 
+subject : revise technical summary clipper chip 
+distribution : world 
+organization : georgetown university 
+lines : 167 
+revise version summary correct error 
+provide additional information explanation . 
+clipper chip : technical summary 
+dorothy denning 
+revise , april 21 , 1993 
+introduction 
+april 16 , president announce new initiative bring 
+together federal government industry voluntary program 
+provide secure communication meet legitimate need 
+law enforcement . 
+heart plan new encryption 
+chip call `` clipper chip '' together approach 
+escrow key . 
+two escrow agency use , key part 
+need reconstruct key . 
+chip contents 
+clipper chip contain classified 64-bit block 
+encryption algorithm call `` skipjack . '' 
+algorithm use 80 bit key 
+compare 56 des 32 round scramble 
+compare 16 des . 
+support 4 des mode 
+operation . 
+algorithm take 32 clock tick , electronic 
+codebook ecb mode run 12 mbit per second . 
+chip include follow component : 
+skipjack encryption algorithm 
+f , 80-bit family key common chip 
+n , 30-bit serial number length subject change 
+u , 80-bit secret key unlock message encrypt chip 
+chip program , inc. , call 
+`` . '' 
+silicon supply vlsi technology inc. . 
+
+implement 1 micron technology initially sell 
+$ 30 quantity 10,000 . 
+price drop 
+technology shrink .8 micron . 
+encrypt chip 
+see chip use , imagine embed at&t 
+telephone security device . 
+suppose call someone 
+device . 
+push button start secure 
+conversation , security device negotiate 80-bit session key k 
+device end . 
+key negotiation take place 
+without clipper chip . 
+general , method key exchange 
+use diffie-hellman public-key distribution method . 
+session key k establish , clipper chip use 
+encrypt conversation message stream m digitized voice . 
+
+telephone security device feed k m chip produce two 
+value : 
+e m ; k , encrypted message stream , 
+e e k ; u + n ; f , law enforcement field , 
+transmit telephone line . 
+law enforcement 
+field thus contain session key k encrypt unit key u 
+serial number n , encrypt family 
+key f. law enforcement field decrypt law enforcement 
+authorize wiretap install . 
+ciphertext e m ; k decrypt receiver 's device use 
+session key : 
+d e m ; k ; k m . 
+chip programming escrow 
+clipper chips program inside scif secure compartmented 
+information facility , essentially vault . 
+scif contain 
+laptop computer equipment program chip . 
+300 chip 
+program single session . 
+scif located 
+. 
+beginning session , trust agent two key 
+escrow agency enter vault . 
+agent 1 enter secret , random 
+80-bit value s1 laptop agent 2 enter secret , random 
+80-bit value s2 . 
+random value serve seed generate unit 
+key sequence serial number . 
+thus , unit key 
+function 160 secret , random bit , agent know 80 . 
+generate unit key serial number n , 30-bit value n 
+first pad fix block produce 64-bit block n1 . 
+s1 s2 use key n1 , produce 
+64-bit block r1 : 
+r1 e d e n1 ; s1 ; s2 ; s1 . 
+similarly , n pad two block produce n2 
+n3 , two additional 64-bit block r2 r3 compute : 
+r2 e d e n2 ; s1 ; s2 ; s1 
+r3 e d e n3 ; s1 ; s2 ; s1 . 
+r1 , r2 , r3 together , give 192 bit . 
+
+first 80 bit assign u1 second 80 bit u2 . 
+
+rest discard . 
+unit key u xor u1 u2 . 
+u1 u2 
+key part separately escrow two escrow 
+agency . 
+sequence value u1 , u2 , u generate , 
+write onto three separate floppy disk . 
+first disk contain 
+file serial number contain corresponding key part 
+u1 . 
+second disk similar contain u2 value . 
+third 
+disk contain unit key u. agent 1 take first disk agent 
+2 take second disk . 
+thus agent walk away know 
+80-bit seed 80-bit key part . 
+however , agent 
+know 80 bit use generate key 80-bit 
+key part . 
+third disk use program chip . 
+chip 
+program , information discard vault agent 
+leave . 
+laptop may destroy additional assurance 
+information leave behind . 
+protocol may change slightly four people 
+room instead two . 
+first two would provide seed s1 s2 , 
+second two escrow agent would take disk back 
+escrow agency . 
+escrow agency yet determine , 
+nsa , cia , fbi , law enforcement agency . 
+one 
+may independent government . 
+law enforcement use 
+law enforcement authorize tap encrypted line , 
+first take warrant service provider order get 
+access communication line . 
+let assume tap 
+place determine line encrypt 
+clipper chip . 
+law enforcement field first decrypt 
+family key f , give e k ; u + n. documentation certify tap 
+authorize party associate serial number n 
+send e.g. , via secure fax key escrow agent , 
+return e.g. , also via secure fax u1 u2 . 
+u1 u2 
+together produce unit key u , e k ; u decrypt get 
+session key k. finally message stream decrypt . 
+
+accomplish special black box decoder . 
+capstone : next generation 
+successor clipper chip , call `` capstone '' government 
+`` '' , already develop . 
+include 
+skipjack algorithm , digital signature standard dss , 
+secure hash algorithm sha , method key exchange , fast 
+, . 
+available 
+testing april 22 , chip expect ready 
+delivery june july . 
+acknowledgment distribution notice . 
+article base 
+information provide nsa , nist , fbi , . 
+permission 
+distribute document grant . 

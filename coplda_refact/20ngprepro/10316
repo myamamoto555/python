@@ -1,0 +1,68 @@
+: bram 
+subject : create 8 bit window 24 bit display . 
+. 
+? 
+organization : , university amsterdam 
+lines : 75 
+: 
+greeting , 
+use x server provide 3 visual : 
+8 bit , 24 bit 24 bit . 
+problem occur try create window visual different 
+visual parent use default visual . 
+xlib reference guide ' o reilly one read 
+section , something like : 
+`` current implementation x11 : use visual 
+parent 's , sure create find suitable use 
+window attribute create , else occur . '' 
+warning , strangely enough , mention newer edition 
+guide . 
+however , even pass along suitable , still get 
+create window visual . 
+code look like : 
+------------------ cut 'll destroy crt ---------------- 
+window , width , height 
+display ; 
+int width , height ; 
+
+window win ; 
+; 
+; 
+, `` opening 8 bit window ... \ n '' ; 
+! 
+, ,8 , , & 
+, `` display handle 8 bit . 
+\ n '' ; 
+exit 1 ; 
+
+, `` use visual : % x \ n '' , - > ; 
+cmap 
+, 
+, 
+, 
+
+; 
+, false ; 
+, cmap ; line give result 
+cmap ; 
+win 
+, 
+, 
+, 
+width , height , 
+, border width 
+8 , depth 
+, class 
+, visual 
+, 
+& 
+; 
+return win ; 
+
+-- cut 'll destroy crt ----- 
+execute piece code result error . 
+anybody know ? 
+, please drop line . 
+take care , 
+bram stolk 
+

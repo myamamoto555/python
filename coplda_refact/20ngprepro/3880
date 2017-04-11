@@ -1,0 +1,35 @@
+: richard gooch 
+subject : re : animation ? 
+organization : csiro division telescope national facility 
+lines : 27 
+article < > , ken whaley write : 
+> one image large , end 
+> grow size server process hold . 
+> 
+correct . 
+x server use version 3 return 
+memory os ie . 
+x server might free 3 , heap 
+shrink . 
+> one disadvantage , sample implementation , 
+> provision elegantly clean share memory segment 
+> client die sudden , violent death e.g. , `` kill '' . 
+
+> mindful clutter system zombie share memory segment . 
+> 
+well , part routine mention dirty little trick get around 
+problem . 
+first , create shared memory segment , attach client , 
+attach x server , remove ! 
+segment . 
+read man 
+page remove share memory segment , see segment 
+die attachment go . 
+, client die , one attachment go os clean 
+since x server notice client die , free resource , 
+include detach segment : go last attachment . 
+
+share memory segment . 
+terrible , work . 
+regards , 
+richard gooch ... 

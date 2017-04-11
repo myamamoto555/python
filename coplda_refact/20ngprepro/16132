@@ -1,0 +1,130 @@
+: anthony thyssen 
+subject : re : automatically configure display variable 
+keyword : display , x windows , . 
+unix 
+organization : griffith university . 
+lines : 114 
+andrew douglas inman write : 
+| anyone know way unix machine automatically 
+| set display variable use 
+| machine serve x ? 
+| 
+| best able come rather convoluted 
+| script extract ip # command , 
+| frequently fail , mention require user 
+| name add . 
+| 
+| -- andrew inman , consultant , itd consulting support services 
+| university michigan 
+| 
+| 
+note subject ... 
+method automatically authorization one machine another . 
+also include problem remote host current 
+display use . 
+1 use ... method manual 
+set . 
+file home directory remote 
+machine password require execute command . 
+extract - $ display | rsh merge - 
+method also use pass authorization . 
+vampire 
+program also use variation , however wrap part remote 
+command sequence eg : add $ auth 
+include method use ` ' ` ' 
+job . 
+program newer one allow 
+pass list environment variable include 
+` display ' copy authorization code require . 
+` xon ' program available enable sun machine also 
+pass environment variable , well current directory . 
+
+however require store authority variable 
+pass . 
+unless also share home directory . 
+warning : environment variable command line argument visible 
+` p ' listing flag . 
+pass authorization 
+information environment variable argument . 
+recommend method give manual show safe 
+view user . 
+2 wrap part term environment variable . 
+method use fact remote command executor pass 
+term environment variable remote host . 
+matter 
+script remote . 
+login file extract information 
+term environment variable set thing . 
+version script available network 
+. 
+basically change term environment variable 
+actual call perform , include display 
+authorization . 
+remote machine extract information return 
+term environment variable normal use 
+terminal . 
+-- 8 < -- 
+script launch : 
+# ! 
+
+# ~ -- display : 
+- n `` $ display '' ; 
+case `` $ display '' 
+display ` hostname ` $ display ; ; 
+esac 
+term `` $ term & $ display & ` - $ display ` '' 
+export term 
+fus 
+$ 
+-- 8 < -- 
+add . 
+. 
+login 
+$ ? 
+term 
+` echo $ term | tr - cd ' & ' ` ! 
+'' 
+echo `` $ term '' | cut ' - d & ' - f3 | - 
+display ` echo `` $ term '' | cut ' - d & ' - f2 ` 
+term ` echo `` $ term '' | cut ' - d & ' - f1 ` 
+
+
+-- 8 < -- 
+command use 
+- hostname - e ~ hostname 
+-- 8 < -- 
+3 nf . 
+write file shared nf partition access . 
+note home directory nfs mount , authorization 
+automatically pass , still pass 
+display environment variable via file means . 
+ie : 
+login host : echo $ display > ~ . 
+
+remote host : display ` cat ~ . 
+` 
+4 finger info . 
+plan file 
+involve encrypt information ` . 
+plan ' 
+` . 
+project ' remote machine finger information . 
+disadvantage information anyone finger 
+user . 
+thus require encryption method 
+individual . 
+ie : method must share know 
+, easy determine . 
+use ` finger ' technique give 
+information remote account anyone 
+ask . 
+last method develop last year second year , untill 
+explain need encryption , point give 
+method . 
+however valid method . 
+2 
+less secure . 
+anthony thyssen - @ griffith university 
+
+`` magic real -- unless declare integer '' -- john 
+

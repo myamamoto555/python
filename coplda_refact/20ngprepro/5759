@@ -1,0 +1,17 @@
+: lucas adamski 
+subject : re : fast polygon routine need 
+keyword : polygon , need 
+organization : university illinois urbana-champaign 
+lines : 11 
+article < > joseph o'rourke write : 
+> article < > lucas adamski write : 
+may fairly routine request , look fast 
+polygon routine use 3d game . 
+> 
+> fast polygon routine ? 
+draw polygon course . 
+vga mode 13h game , c 
+asm . 
+need faster way draw concave polygon method right 
+, slow . 
+lucas . 

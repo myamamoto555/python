@@ -1,0 +1,29 @@
+: joel aycock 
+subject : re : page setup notepad 
+: message tue , 13 apr 1993 gmt 
+organization : uk infrared telescope , joint astronomy centre , hawaii 
+: vms news 1.20 
+lines : 22 
+< > write : 
+> often use notepad view print `` '' type file . 
+often find 
+> rush get print manager stop printer delete 
+> file print queue forget reset print 
+> margin .75 inch left right 0 inch . 
+result print 
+> text look chop hard return source file . 
+> 
+... 
+struggle margin problem age well , 
+finally get hold shareware binary editor , dig 
+setup facility force notepad default 
+0.0 margin - code !!! 
+. 
+search '' .75 '' , change offend byte '' .00 '' , 
+et viola . 
+guy `` option '' anyway ? 
+interested whether problem rear ugly head 
+certain printer - use old epson ? 
+never 
+remember . 
+aloha . 

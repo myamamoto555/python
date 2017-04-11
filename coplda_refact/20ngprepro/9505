@@ -1,0 +1,56 @@
+: richard krehbiel 
+subject : re : ide vs 
+: message thu , 15 apr 1993 gmt 
+lines : 38 
+organization : timesharing , inc. . 
+article < > wayne smith write : 
+> article < > grubb write : 
+> point view , scsi advantage come - 
+> tasking ? 
+datum datum , could anywhere drive . 
+
+> find faster ? 
+get drive computer 
+> faster ? 
+better cache system ? 
+think scsi good 
+> manage datum bus multiple device attach . 
+
+> talk single drive , explain scsi inherently 
+> faster manage datum hard drive . 
+adaptec use bus mastering . 
+mean cpu 
+sit wait datum byte , go 
+computing - advanced multi-tasking os , . 
+dos 
+sit wait anyway . 
+> 
+> > ide : integrated device electronics 
+> > currently common standard , mainly use 
+> > medium size drive . 
+one hard drive . 
+> > asynchronous transfer : ~ max . 
+> 
+> start isa bus first ? 
+> quote scsi spec till blue face , 
+> exceed isa bus capability , point ? 
+> 
+> say ide limit 5 ? 
+? 
+anyone 
+> know perform ? 
+start isa bus first ? 
+ide 
+design plug isa virtually unaided - essence , ide 
+isa , ribbon cable . 
+therefore spec isa - 
+clock , 16 bit width , . 
+conclude ide waste fast 
+slot . 
+card 's job would slow transaction isa 
+speed . 
+heck , isa slot - 'll use one 
+instead . 
+-- 
+richard krehbiel 
+2.0 386 come along ... 

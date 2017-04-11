@@ -1,0 +1,24 @@
+: gonzalo perez c. 
+subject : re : compile .8 sco . 
+: 
+organization : centro de cec , universidad de chile 
+: tin version 1.1 
+lines : 21 
+jesse w. asher write : 
+> try get mh compile problem . 
+> get .8 , use gcc sco . 
+mh file list . 
+
+> anyone suggestion add get compile ?? 
+> 
+> bin 
+. 
+. 
+> cc gcc 
+> - o - ansi - d __ __ 0 - - - - 
+think - traditional option gcc would help . 
+personally use - traditional - o2 - compile 
+. 
+hope help ... 
+gonzalo 
+

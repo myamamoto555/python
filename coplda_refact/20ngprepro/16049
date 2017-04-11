@@ -1,0 +1,62 @@
+: fong 
+subject : sun , 3.0 problem : static link x library 
+originator : 
+: 
+organization : nec research institute 
+lines : 66 
+build two executable application . 
+let 's call papp use share lib statically link . 
+problem get problem try build static one , 
+dynamic one . 
+see trace . 
+btw , static one run fine despite ominous error message . 
+someone clue static one bomb link time ? 
+thanks much , 
+
+dr. fong 
+nec research institute inc. . 
+4 independence way 
+princeton nj 
+
+fax 
+link stage ... 
+.1 ld - e start - \ 
+-4 \ 
+-4 \ 
+.1 \ 
+- - - lm - - - - \ 
+- - - - - lc - - o 
+undefined : 
+_ 
+_ 
+_ 
+_ 
+_ 
+_ 
+_ 
+_ 
+_ 
+_ 
+_ 
+_ 
+error code 1 
+make : fatal error : command fail target ` ' 
+ldd 
+: statically link 
+shared lib version link exactly way save omission 
+- . 
+ldd papp 
+- .1 > 
+- .2 > 
+- .0 > 
+- .3 > 
+- .3 > 
+- .4 > . 
+
+- lcp .1 > 
+- lc .1 > . 
+
+- .2 > . 
+
+- ldl .1 > . 
+

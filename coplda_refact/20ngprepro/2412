@@ -1,0 +1,48 @@
+: je pelkey 
+subject : multi-screen app window manager 
+originator : 
+organization : battelle pacific n.w. labs 
+lines : 50 
+work project provide emergency management 
+information system . 
+keep classic command 
+control type system , consider develop dual screen monitor 
+system order provide status board monitor . 
+number x level question regard : 
+unix system use . 
+platform 
+predominantly sun 's , probably port well . 
+assume standard dual monitor system configure 
+talk one x display multiple screen , 
+multiple x display . 
+give : 
+- change input focus one screen simple 
+track mouse one screen ? 
+
+nothing special need shift focus 
+screen ? 
+- run separate window manager separate 
+screen multiscreen window manager ? 
+; sell ... 
+- multi-screen window manager way grab 
+window frame move window one screen next ? 
+- way application transparently see 
+multiple screen one logical x-y plane , hardware 
+provide screen start 0,0 ? 
+- thought difficulty involve design 
+system capable use either multiple screen single 
+screen perhaps run virtual window manager simulate 
+multiple screen instead ? 
+assume major issue - rely 
+provide config file specify 
+configuration screen placement window 
+application . 
+thought suggestion past experience 
+welcome . 
+
+jo pelkey phone : 
+battelle pacific northwest labs fax : 
+mail stop email : 
+p.o. box 999 
+richland , wa 
+

@@ -1,0 +1,57 @@
+: jamie cox 
+subject : re : serial port problem 
+: . 
+
+: jamie cox 
+organization : harris govt . 
+aerospace systems division 
+keyword : serial port , powerbook 
+lines : 41 
+article < > write : 
+> 
+> 
+> friend ask build cable connect hp fetal heart monitor 
+> . 
+problem , sez i. 
+> 
+> ... 
+> want demo pb 170 , work ! 
+> 
+> pb use run kermit use internal external 
+> modem ; think powerbook per se . 
+> 
+> send '' ^ 51 '' hp respond '' ^ 55 ^ aa '' -- test serial 
+> port . 
+work ; . 
+> 
+> think connect earth ground hp . 
+
+> connect chassis hp pw audio ground connector ; still 
+> ng . 
+> 
+> thought ? 
+battery power device like powerbook sometimes sensitive 
+serial port weirdness . 
+trouble connect mac plus hp 
+handheld . 
+everything else work okay port , hp . 
+run 
+two battery . 
+turn plus accident 
+design flaw ? 
+put 4 volt bias serial port 
+weird thing hp 3v dc ! 
+. 
+hp work fine 
+connect printer port . 
+pb screen get dim anything connect device ? 
+
+try use printer port ? 
+good luck . 
+-- jamie 
+jamie cox | phone : 1 work 
+harris space systems corp. . 
+| 1 home 
+m , 295 barnes blvd. . 
+| macintosh meet drink society 
+rockledge , florida usa | `` speak . '' 

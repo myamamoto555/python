@@ -1,0 +1,69 @@
+: steve verity 
+subject : need help video detection circuit 
+organization : systems 'n' software 
+lines : 55 
+try build circuit detect presence video v. 
+blank screen monitor r , g , b output graphic 
+card . 
+able detect presence single pixel 
+65 mhz , would mean detect 15 n pulse . 
+also 
+able tell difference blank screen 300 mv 
+dim screen say , around 310 mv . 
+oh yes , also need 
+cheap . 
+first circuit dismal failure . 
+use 3 ; 
++ input go one gun , - input 
+go reference create voltage divider potentiometer . 
+first problem way slow . 
+. 
+
+need get several pixel row would fire 
+, could whole screen full text , 
+circuit would detect . 
+second problem noise reference 
+smallest difference blank screen dim screen . 
+
+fact difference completely black completely white 
+650 mv . 
+wonder go amplify 
+video signal make work . 
+faster , expensive , require 
+split supplies . 
+would need replace .49 quad 
+three 1.89 , create whole new power supply 
+circuit . 
+point , think need sort transistor 
+circuit . 
+transistor fast cheap trick ... 
+unfortunately , way league come design 
+transistor circuit , appeal net help . 
+
+idea , tip , circuit , pointer , reference , etc. would greatly 
+appreciate . 
+oh yes , sample output thing every second , 
+need fast response time , however , find 
+way take advantage fact . 
+thanks lot help anybody might able give . 
+course , 
+undying gratitude . 
+steve verity 
+-- 
+... ... > ... ... > ... ... > ... . 
+> ... > ... > . 
+. 
+> . 
+. 
+> . 
+. 
+> . 
+. 
+> . 
+> . 
+> . 
++ . 
+steve verity + + ... max midi + . 
++ + . 
+. 
++ 

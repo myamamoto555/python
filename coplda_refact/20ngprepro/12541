@@ -1,0 +1,31 @@
+subject : re : debugging possible hardware problem 
+organization : andrews university 
+: aldy hernandez 
+lines : 27 
+suspect external cache , real evidence . 
+
+. 
+suggestion cause problem 
+> 
+> bad memory , bad motherboard , bad cache . 
+
+. 
+suggestion debug problem 
+
+> 
+> turn cache . 
+gcc big program seem crash 15 % time . 
+gcc give something like `` program get fatal signal 11 '' 
+anything past complexity elvi , kermit , etc , get kernel general 
+protection fault least session . 
+disable cache suggest , bingo , linux stable rock 
+give core dump kernel error yet . 
+one know cache would something like ? 
+aldy 
+-- 
+
+-------------------- 
+programmer pay hour , suppose array 
+x 1 . 
+.1000 initialize ? 
+-- `` program pearl '' 

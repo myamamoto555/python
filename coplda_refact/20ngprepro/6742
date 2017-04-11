@@ -1,0 +1,533 @@
+: marc conrad 
+subject : re : list large integer arithmetic package 
+organization : computational linguistics dept. , u saarbruecken 
+lines : 530 
+: . 
+de 
+mark riordan write : 
+comprehensive list delete 
+comprehensive list , 
+detailed description many package . 
+especially , mark , update list 
+: 
+available systems 
+list currently develop distribute software 
+symbolic math application . 
+information supply system longer 
+support like : saint , , , altran , , sin , sac , , 
+, , sheep , , , smp . 
+detailed info system , look directory 
+_ math anonymous ftp `` '' . 
+particular 
+recommendation make . 
+want price contact 
+company . 
+program list . 
+reverse order number 
+machine run , class , general purpose system first . 
+information add list know miss 
+& felix please send : 
+
+paulo ney de souza 
+department mathematics 
+university california 
+berkeley ca 
+general purpose 
+
+maple : : 
+type : commercial 
+machine : impressive list machine see program : 
+workstation dec , hp , ibm , mips , sun , sgi , apollo , 
+386 pc 's , mac , amiga , atari , at&t , gould , convex , 
+ncr , pyramid , sequent , unisys cray 's . 
+contact : 
+waterloo maple software , 160 columbia street west , 
+waterloo , ontario , canada 
+phone : 
+version : 5 release 1 
+comment : general purpose , source available routine , 
+graphic support 5.0 . 
+demo program 
+obtain anonymous ftp 
+: 
+mathematica : : 
+type : commercial 
+machine : cray mac 's pc 's 
+contact : phone : 
+wolfram research , inc. . 
+100 trade center drive , champaign il 
+version : 2.1 
+comment : general purpose , notebook interface next , mac , 
+nice graphic . 
+macsyma : : 
+type : commercial 
+machine : , sparc , vax unix vms , apollo , 
+hp 9000 , dec risc , , symbolics computer , 
+486 sx 's pc 's . 
+contact : phone : 
+macsyma inc , 20 academy st. , arlington ma 
+version : depend machine : latest , hp , 
+dec risc , pc 's 
+comment : general purpose , many diverse capability , one 
+oldest around . 
+include improvement 
+symbolics macsyma inc. . 
+descendant mit 's macsyma . 
+: 
+type : distribution fee 
+machine : , symbolics , ti explorer lisp machine . 
+nil 
+version run vax use vms system . 
+public 
+domain franz lisp version , run unix machine , include 
+suns use unix . 
+contact : - energy science & technology software center 
+p. o. box 1020 oak ridge tn 
+phone : 
+comment : help , general help issue 
+obtain support , new version , etc : 
+leon harten paradigm assoc. paradigm associates , inc. . 
+29 putnam avenue , suite 6 cambridge , ma . 
+maxima : : 
+type : licence fee . 
+get licence download . 
+machine : unix workstation sun , mips , hp , pc 's beta . 
+contact : bill schelter 
+version : 
+comment : general purpose - mit macsyma family . 
+common lisp 
+implementation william f. schelter , base kyoto 
+common lisp . 
+modify version available 
+doe site . 
+get licence phone : 
+software 
+dos : : . 
+zip 
+unix : : -4 . 
+
+currently charge 1 machine license $ 165 
+university . 
+site also available . 
+aljabr : : 
+type : commercial 
+machine : mac 's ram . 
+contact : phone : , fort pond research . 
+15 fort pond road , acton ma us 
+version : 1.0 
+comment : mit macsyma family descendant , use franz lisp . 
+: : 
+type : commercial 
+machine : , , , sgi mac 's work 
+contact : 
+version : ??? 
+comment : ??? 
+: : 
+type : distribution fee 
+machine : 
+contact : see 
+version : ??? 
+comment : general purpose - mit macsyma family descendant . 
+include source binary assembler macsyma 
+franz lisp opus 38 
+reduce : : 
+type : commercial 
+machine : unix workstation , variety mainframe , 
+atari st. 
+contact : 
+version : 3.34 
+comment : general purpose 
+form : : 
+type : public domain 1 , version 2 commercial 
+machine : , , mac , , , apollo , next , 
+, , decstation , 
+contact : jos 
+binary version version 1 available 
+anonymous ftp 
+version : 1 2 . 
+comment : general purpose , design big problem , 
+interface 
+axiom : : 
+type : commercial 
+machine : ibm r 6000 's ibm 
+contact : phone : fax : 
+nag - numerical algorithms group , inc 
+1400 opus place , suite 200 , downers grove , il 
+version : ??? 
+comment : general purpose . 
+: : 
+type : anonymous ftp 
+machine : suns , apollo dn siemens workstation . 
+contact : 
+version : 3.5 
+comment : general purpose 
+derive : : 
+type : commercial 
+machine : run pc 's hp 95 's . 
+contact : 
+soft warehouse inc. harding ave , suite 505 
+honolulu , hawaii 
+version : 2.01 
+comment : said robust , get problem larger 
+program fail . 
+low cost . 
+theorist : : 
+type : commercial 
+machine : mac 's 
+contact : phone 415 fax 415 
+prescience corp , 939 howard st # 333 , san francisco , ca 94103 
+version : 1.11 
+comment : general purpose , graphics , like mac interface 
+'ll love , fix precision 19 digit , run 
+smaller mac 's mma . 
+mas : : 
+type : anonymous ftp 
+machine : atari st spc modula-2 compiler , ibm 
+modula-2 compiler commodore 
+amiga compiler . 
+contact : h. . 
+computer algebra group 
+university passau , germany 
+version : 0.60 
+comment : ma experimental computer algebra system combine 
+imperative programming facility algebraic 
+specification capability design study algebraic 
+algorithm . 
+mas available via anonymous ftp : 
+. 
+de 
+: : 
+type : anonymous ftp 
+machine : anywhere run common lisp . 
+contact : 
+version : 
+comment : matematica ! 
+. 
+weyl : : 
+type : anonymous ftp 
+contact : 
+version : 
+comment : intend incorporate larger , specialize 
+system . 
+flac : : 
+type : ??? 
+machine : ibm pc 's 
+contact : victor l. , institute control sciences , 
+65 , moscow , ussr 
+version : ??? 
+comment : functional language 
+group theory 
+
+cayley : : 
+type : cost recovery 
+machine : sun 3 , sun 4 , ibm aix vm machine , apollo , dec 
+, mac run 2.01 higher convex . 
+contact : 
+phone : 61 , fax : 61 
+computational algebra group 
+university sydney 
+nsw 2006 australia 
+version : 
+comment : design fast computation algebraic 
+combinatorial structure group , ring , 
+field , module graph . 
+although begin 
+group theory system recently evolve 
+general abstract algebra system . 
+gap : : 
+type : anonymous ftp free , pd ; basically gnu copyleft 
+machine : unix workstation , atari st , ibm pc mac 
+contact : 
+ftp site : . 
+de & 
+version : 3.1 3.2 release dec 92 
+comment : group theory calculation . 
+algebra & number theory 
+
+pari : : 
+type : anonymous ftp 
+machine : workstation , mac next 
+contact : 
+anonymous ftp 
+directory 
+version : 1.35 
+comment : number theoretical computation , source available , key 
+routine assembler , graphic . 
+version available anonymous ftp 
+: 
+macaulay : : 
+type : anonymous ftp 
+machine : complete source available , binary mac version available 
+contact : anonymous ftp 
+version : ??? 
+comment : focus algebra type computation polynomial ring 
+finite field , thing like . 
+kant : : 
+type : ??? 
+machine : ??? 
+contact : kant group 
+prof. dr. m. e. dr. johannes graf v. 
+institut , \ `` 
+\ `` . 
+1 , d \ `` 1 
+
+version : 1 & 2 
+comment : kant computational algebraic number theory 
+subroutine package algorithm geometry 
+number algebraic number theory . 
+two 
+version kant : kant v1 write 77 , 
+kant v2 build cayley platform write 
+. 
+lie : : 
+type : commercial 
+machine : unix workstation sun , dec , sgi , ibm , next , pc 's , 
+atari mac 's . 
+contact : phone : , fax : 
+expertise centre , 413 , 
+1098 sj amsterdam , netherlands 
+version : 2 
+comment : lie group computation 
+: : 
+type : anonymous ftp . 
+zip 
+machine : mac ibm pc 's 
+contact : phone : 
+donald e. g. malm , department mathematical sciences 
+oakland university , rochester , mi 
+version : 8.30 
+comment : environment number theory . 
+collection 
+program write one find : 
+malm collection number theory programs 
+donald e. g. malm copyright , include : 
+lucas pseudoprime test , algorithm 
+chinese , elliptic curve method n , 
+fermat 's method factoring , general periodic continue 
+fraction quadratic routine , evaluate carmichael 's 
+function & d. h. lehmer 's method solve x ^ 2 q mod p . 
+prime factorization program number 80 
+digit . 
+zip , find wurst 
+archive . 
+number : : 
+type : free public domain , registration require . 
+machine : 
+contact : ivo phone : + 
+fax : + 
+bitnet : 
+
+w 4500 germany 
+version : 
+comment : number calculator number theory . 
+perform 
+various routine elementary number theory , 
+also usable algebra . 
+available anonymous ftp . 
+de 
+directory 
+cocoa : : 
+type : ??? 
+machine : mac 's 
+contact : 
+version : ??? 
+comment : computation commutative algebra 
+galois : : 
+type : commercial 
+machine : ibm-pc dos 
+contact : inc. , 26 , linz , austria 
+version : ??? 
+comment : algebra number theory microcomputer write 
+r. lidl , r. w. matthews , r. wells u. tasmania 
+turbo pascal v3 .0 . 
+: : 
+type : anonymous ftp 
+machine : system vanilla common lisp , x 11 , least 
+rudimentary interface . 
+contact : bajaj & andrew 
+department computer science , purdue university 
+west lafayette , 
+bajaj 
+version : 
+comment : algebraic geometry toolkit , computing 
+visualise solution system algebraic equation . 
+write common lisp c , run version 
+11 x window system . 
+available anonymous ftp 
+file . 
+
+tensor analysis 
+
+: : 
+type : ??? 
+machine : ??? 
+contact : mention . 
+comm . 
+8 , 1 1974 . 
+version : ??? 
+comment : hear program mention , design 
+large problem i.e. thousand term series 
+expansion . 
+develop cern ? 
+: : 
+type : ???? 
+machine : vax , sun , apollos , orion , atari & amiga 
+contact : 
+lars , physics department , university stockholm 
+.9 , 46 , stockholm , sweden 
+version : ???? 
+comment : system tensor calculus noncommutative algebra 
+lisp calculator 
+
+: : 
+type : gnu copyleft 
+machine : need lisp either common scheme 
+contact : available anon ftp 
+version : ??? 
+comment : ibm pc version floppy $ 50 available 
+aubrey jaffer , 84 pleasant st. wakefield ma , usa . 
+: : 
+type : gnu copyleft 
+machine : emac run . 
+contact : free software foundation 
+version : ??? 
+comment : run inside gnu emacs write entirely emac 
+lisp . 
+usual thing : arbitrary precision integer , 
+real , complex arithmetic write lisp , 
+scientific function , symbolic algebra calculus , 
+matrix , graphic , etc. display expression 
+square root sign integral draw 
+screen character . 
+come well write 
+600 page online manual . 
+ftp gnu site . 
+differential equation 
+
+delia : : 
+type : informal distribution 
+machine : ibm pc 's 
+contact : a. v. bocharov , program systems institute , 
+ussr academy science , , 
+p.o. box 11 , ussr , : boat 
+version : ???? 
+comment : equation computation 
+pc shareware 
+
+: : 
+type : shareware , student advance version . 
+machine : ibm pc 
+contact : 
+version : 
+comment : run plain machine . 
+shareware version 
+available file . 
+zip wurst archives . 
+capable version available mail-order 
+author . 
+clum : : 
+type : anonymous ftp 
+machine : 
+contact : ???? 
+version : 2.0 
+comment : linear matrix algebra package compute 
+rank , determinant , echelon form , jordan 
+canonical form , characteristic equation , eigenvalue , 
+etc. matrix . 
+file . 
+zip wurst archives . 
+xpl : : 
+type : anonymous ftp 
+machine : 
+contact : david meredith , department mathematics 
+san francisco state university 
+san francisco , ca 
+
+version : 4.0 
+comment : formerly call . 
+well-integrated graphic 
+numerical matrix manipulation routine . 
+intend 
+calculus student . 
+prentice hall sell book 
+isbn -- call , 
+also available without manual 
+comprehensive help system anonymous ftp 
+: . 
+zip . 
+amp : : 
+type : commercial , evaluation copy available anonymous ftp 
+machine : 
+contact : mark garber ph : 
+cerebral software , po box , chamblee , ga 
+version : 3.0 
+comment : algebraic manipulation program amp write 
+modula-2 symbolic calculation tool . 
+amp function 
+interpreter mode program mode . 
+tensor 
+manipulation use index notation . 
+evaluation copy 
+available anonymous ftp : 
+. 
+de : . 
+zip 
+mercury : : 
+type : shareware 
+machine : 
+contact : ??? 
+version : 2.06 
+comment : limited symbolic capability , extremely adept 
+numerically solve equation produce publication 
+quality graphical output . 
+use borland 's eureka ! 
+, 
+borland abandon , original author start 
+sell shareware name mercury . 
+available 
+anonymous ftp 
+: . 
+zip 
+: : 
+type : public domain 
+machine : 
+contact : ??? 
+version : 5.46 
+comment : available anonymous ftp 
+: . 
+zip 
+lie : : 
+type : public domain 
+machine : 
+contact : a. k. head 
+csiro division materials science technology 
+melbourne australia 
+lock bag 33 , clayton , vic , australia 
+phone : telex : aa fax : 
+version : 3.3 
+comment : lie program write language 
+package lie analysis differential equation . 
+available anonymous ftp 
+: 
+calculus : : 
+type : shareware 
+machine : ega 
+contact : byoung keum , dept. mathematics 
+university il . 
+urbana , il . 
+version : 9.0 
+comment : program calculus differential equation . 
+
+symbolic diff . 
+& integration simple function , graph . 
+unstable program - reason use , except 
+price suggest registration fee $ 30.00 . 
+available anonymous ftp 
+: . 
+arc 
+-- 
+\ | marc conrad , des 
+\ luxemburg | 
+france \ | germany | opinion necessarily 
+\ x < -- ! 
+| maybe even mine . 

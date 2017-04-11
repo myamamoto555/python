@@ -1,0 +1,33 @@
+: jun 
+subject : hold control window object ? 
+: 
+organization : mcmaster university , hamilton , ontario . 
+lines : 28 
+hope right group ! 
+use bc + + 's version 3.1 , 
+try get date process window object . 
+however , invoke 
+window object , call program give control window 
+object , keep execute next statement . 
+source code may look 
+like following : 
+class : public 
+
+... 
+; 
+void ... could call program c function ? 
+... 
+; 
+new ... ; 
+- > ; 
+- > show ; 
+next statement ; want program wait close 
+... get datum back . 
+... specify window style , 
+... help . 
+way execute window object 
+... call program give control ? 
+help would appreciate . 
+thanks ! 
+-- jun 
+talk lord 

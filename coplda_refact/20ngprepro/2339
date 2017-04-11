@@ -1,0 +1,21 @@
+: ferdinand 
+subject : re : distance two curve 
+organization : node groningen , nl . 
+lines : 14 
+pekka write : 
+> suppose two cubic curve control point v1 , . 
+. 
+, v4 w1 , . 
+. 
+, w4 
+> equal first last control point v1 w1 , v4 w4 . 
+
+> get upper bind distance curve . 
+distance ? 
+distance one point ti first curve 
+point curve parameter u ti ? 
+> 
+> reference appreciate . 
+thanks . 
+> 
+> pekka 

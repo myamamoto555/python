@@ -1,0 +1,81 @@
+: dave mc mahan 
+subject : re : 8x cd player 
+keyword : oversampling , cd , digitized audio 
+organization : dave mcmahan @ netcom services 
+lines : 63 
+previous article , joel kolstad write : 
+> article < > h. c. bowman write : 
+
+buy new portable cd player office , notice 
+proudly proclaim `` 8 time oversampling '' box . 
+think 
+understand oversampling rate discrete `` sample '' 
+exceed highest frequency component interest factor , 
+understand `` 8 time '' business ... seem 
+buy first cd player really 10 year ago ?! 
+, spec 
+say `` 4 time '' ... could someone please tell whether get 
+senile ? 
+, good player take 
+sample higher rate ? 
+> datum ever read bar , course , 
+> eventually get turn 44.1 khz , 16 bit , two channel datum . 
+> oversampling take two discrete datum point , interpolate n-1 point 
+> n time . 
+ask , people say 
+> interpolation simply linear interpolation , significantly 
+> complicated . 
+quite correct understanding . 
+filter 
+interpolation , would distort frequency content signal 
+listen . 
+generally , player run sample thru 
+filter network . 
+ecg waveform person 's 
+heart , effect rather spooky . 
+actually reconstruct peak 
+correctly , ! 
+fill gap 
+properly compute value , real sample take 
+point . 
+use cpu math . 
+take decent 
+unreasonable amount cpu time . 
+keep thing 
+realtime write efficient code . 
+case care , filter method use fir finite impulse response 
+filter . 
+would guess cd maker use kind method . 
+anybody 
+know real answer ? 
+would say use tap delay line 
+weighting accomplish filter . 
+strike 
+cost effective method volume production run . 
+> anyway , , purpose oversampling move `` effective '' 
+> sampling rate n time 44.1 khz , order use higher frequency 
+> filter . 
+quality filter , higher oversampling 
+> let build cheaper filter , whereas price filter , higher 
+> oversampling let build better filter . 
+, assume quality 
+> component cd player remain , 
+> allow manufacturer produce _ slightly _ better sound due 
+> filter . 
+actually , think reason say 
+. 
+would guess cheaper 
+filter signal . 
+use sloppier component 
+give filter roll-off sharp . 
+bad 
+charge something think actually less costly build . 
+seriously doubt filter cost better . 
+
+build price spec , spec say `` cheap possible ! '' 
+. 
+> -- joel kolstad 
+- dave 
+-- 
+dave mcmahan 
+

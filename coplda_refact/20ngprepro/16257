@@ -1,0 +1,24 @@
+: scott frost 
+subject : draw invert mode color 
+organization : chemical abstracts service 
+lines : 21 
+draw object specify color object vary color 
+erase without redraw everything else ? 
+happen , 
+draw use , draw specify color . 
+erase 
+use foreground background reverse , erase 
+whatever overlay . 
+need redraw 
+item cross . 
+. 
+draw use draw random color - nothing 
+resemble request . 
+properly restore color 
+underlie object erase mode . 
+solution ? 
+-- 
+scott k. frost uucp : ! 
+
+: bitnet : inet : 
+personal : shrewsbury rd , upper arlington oh 

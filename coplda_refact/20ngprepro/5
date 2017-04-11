@@ -1,0 +1,52 @@
+: mark lanzo 
+subject : re : title 
+: mark lanzo 
+organization : tekelec inc. , raleigh nc 
+lines : 65 
+prior article sergei write : 
+> hey guy ! 
+> work many station would like name current 
+> title open machine name 
+> close . 
+word , want $ host $ appear 
+> title open $ host close . 
+> ? 
+apology answer something already answer faq . 
+news feed lose lot article lately - 
+see faq lately check . 
+two way : 
+1 start , use command line option : 
+- n set icon label 
+- set window title 
+- title equivalent - 
+2 use escape sequence change thing fly : 
+basic escape sequence : 
+esc ; < > bel 
+esc bel ascii escape bell character , 
+ascii decimal digit -- ' 2 ' , ' 1 ' , ' 0 ' , depend 
+whether try set window icon title , 
+, < > desire label string . 
+hence , command set window & icon title : 
+echo '' \ 033 0 ; \ 007 \ c '' 
+set icon title : 
+echo '' \ 033 1 ; \ 007 \ c '' 
+set window title : 
+echo '' \ 033 2 ; \ 007 \ c '' 
+course , may fiddle exact syntax , 
+depend echo command work system 
+shell use show semantics 
+bourne korn shell . 
+hint sun os user : use instead 
+csh 's built-in echo . 
+otherwise 'll 
+embed literal esc bel character string 
+instead use convenient octal sequence . 
+want update continously , say show 
+current directory , hostname , , ` ll 
+see coerce shell spit 
+appropriate escape sequence prompt command . 
+sometimes put appropriate escape sequence 
+prompt string , sometimes ... 
++ ------------------------------------------------------- + ------- ----- + 
+| mark lanzo | \ \ \ | 
++ ------------------------------------------------------- + -- \ xx ------- + 

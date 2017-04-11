@@ -1,0 +1,49 @@
+: marcel aio 
+subject : re : bw hardcopy color window ? 
+keywords : color hardcopy print 
+: 
+organization : , university amsterdam 
+lines : 38 
+martin stein write : 
+use dist . 
+various program 
+- tool print hardcopy color x window . 
+problem , 
+like . 
+give least , version 
+output : hardcopy look grainy . 
+instead , use . 
+take full advantage postscript , 
+let printer dirty job dither 
+image black white dot . 
+: postscript printer , try : 
+| # convert ppm 
+| # . 
+. 
+smaller file print 
+- | # . 
+. 
+postscript 
+lpr # print 
+several neat option , use care : 
+want image 4 '' wide , use : 
+- - scale 100 - width 4 
+- prevent image rotate wider 
+high 
+- width 4 specify paper width image width - see 
+- scale 100 use image small , may fit within 
+width less 4 '' , thus print smaller 4 '' wide . 
+first scale lot , certainly fit 4 '' , 
+scale automatically fit specify 
+paper width . 
+short : scale image fit paper size , 
+blow automatically . 
+hope help . 
+marcel . 
+-- 
+x marcel aio 
+| x | faculty mathematics computer science 
+x university amsterdam netherlands 
+life stink . 
+fortunately , get cold . 
+

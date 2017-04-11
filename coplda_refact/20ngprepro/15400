@@ -1,0 +1,28 @@
+: michael b. taylor 
+subject : re : help add scsi drive coexist ide ? 
+- 
+yes 
+< > 
+organization : dartmouth college , hanover , nh 
+lines : 21 
+: internews 
+article < > 
+eric bosco write : 
+> > dont think mix two type drive , unless one 
+> 
+> > card available . 
+turn ide . 
+> > 
+> 
+> true ??? 
+impression people net 
+> ide work together . 
+ide drive work together year . 
+scsi supposedly pretty transparent type drive 
+, rll , ide , etc - oftentimes need get correct driver 
+get work odd environment . 
+information purpose , : 
+card + drive maxtor drive generic ide 
+controller run together . 
+also setup work 
+combination rll drive , drive . 

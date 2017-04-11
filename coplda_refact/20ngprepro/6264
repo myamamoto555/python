@@ -1,0 +1,64 @@
+subject : netware server sft netware 286 level ii v2 .0 serialisation 
+: wayne mcdougall 
+organization : code works limited , po box 10 155 , auckland , new zealand 
+lines : 60 
+fact : 
+
+- netware server roughly move new location leave power 
+three month . 
+- memory 80 mb hard drive . 
+- manual original disk sft netware 286 level ii v2 .0 
+- power , cmos wipe . 
+technician examine 
+pronounce disk drive unusable . 
+investigation indicate drive c type 27 1024 cylinder , 9 side . 
+cmos set way , run happily , 13 bad block . 
+use prepare hotfix one internal drive . 
+install proceed `` successfully '' , try boot server , 
+report software hardware . 
+internal examination indicate keycard present , one 
+disk drive least one large single unit . 
+attempt configure second drive cmos result drive ready 
+error . 
+question : 
+
+software netware 286 level ii see burnt screen 
+sft netware 286 level ii v2 .0 a. however , configure netware level ii 
+mirror duplex disk require second disk , yes ? 
+novell server normally configure ? 
+1 . 
+install sft netware 286 level ii v2 .0 level , 
+cause serialisation error ? 
+2 . 
+novell server normally equip two hard drive , one 
+fail ? 
+3 . 
+would mean install network software 
+hardware fail drive ? 
+4 . 
+else cause serialisation error ? 
+5 . 
+happen keycard fail ? 
+6 . 
+something wrong ? 
+someone knowledgeable offer comment 
+guide . 
+thanks time . 
+apology : 
+
+appreciate post request somewhat widely . 
+
+deal somewhat archaic hardware software hope cast 
+net , likely capture someone meet system 
+. 
+believe justify group post . 
+please 
+feel free correct feel inappropriate place post 
+. 
+-- 
+post definitive . 
+` chugh . 
+wayne mcdougall : : keeper list show better star trek tm : : 
+ask auckland festival missions , 18-25 april , 1993 
+always change mind new evidence available . 
+method use ? 

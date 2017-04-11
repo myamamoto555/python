@@ -1,0 +1,73 @@
+organization : university illinois chicago , academic computer center 
+: pankaj saxena < > 
+subject : windows 3.1 
+lines : 52 
+know much computer , please bear . 
+'s question : 
+context : use package call slip home computer connect 
+university mainframe ibm 3090 run , log 
+account . 
+install slip computer , configure 
+modem 14.4 kb internal supply phone 
+number dial reach mainframe . 
+way work 
+type `` telnet '' `` '' either work dos 
+prompt . 
+node name mainframe . 
+program 
+dial mainframe , establish protocol , give logon 
+screen . 
+`` telnet '' `` '' name batch file slip 
+directory . 
+tell kermit protocol use 
+session . 
+problem : would like able windows 3.1 
+hardly ever use dos directly . 
+slip run windows . 
+
+talk people computer center , suggest 
+use packet driver call slip . 
+give 
+instruction load start windows , 
+modify batch file slip directory 
+ensure would work . 
+could run slip 
+windows , problem . 
+one thing , slip 
+would hang phone exit . 
+run - 
+cation program hang phone reboot computer 
+work . 
+another , many error . 
+often 
+take 3-4 try connect mainframe . 
+computer center 
+support slip windows , keep go back 
+question . 
+question : shareware package run windows 
+slip suppose ? 
+need package 
+expensive , look shareware . 
+hear 
+regular commercial package , cost 
+hundred dollar . 
+main requirement : 
+1 . 
+must able run windows 3.1 
+2 . 
+must allow vt100 ibm terminal emulation 
+3 . 
+must allow ftp file transfer , since kind 
+mainframe allow . 
+etc. . 
+believe ftp 
+transfer make kermit protocol , hazy 
+. 
+subsidiary feature would nice true 
+windows program rather dos program modify run 
+windows ability run session window concurrently 
+application cut paste telnet 
+session application . 
+information receive appreciate . 
+pankaj saxena 
+

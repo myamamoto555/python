@@ -1,0 +1,33 @@
+: nicholas 
+subject : : strange size summary line 
+lines : 25 
+: 
+organization : research 
+notice something strange recently . 
+usually , line bottom status bar , 
+guess display total disk space total number byte 
+current selection . 
+select whole bunch file , get 
+exact byte count . 
+recently , notice incorrectly display count ; truncating ! 
+select file , say , 532 byte , correctly display ' 532 byte ' . 
+select select file byte , display byte ' , 
+23 , 23 byte ! 
+select report 
+893 byte selection . 
+select meg worth file , say 
+report 3 byte ! 
+get problem display 
+3 character ! 
+system : , 8m memory , stacker 3.0 , dos 5 , win 3.1 . 
+run 
+latest virus scanner , report anything . 
+could unknowingly altered something control formatting 
+status bar ? 
+
+_ _ _ _ _ _ _ _ nicholas , 
+_ _ _ _ _ _ _ research , ottawa 
+_ _ _ _ _ _ _ fax 
+_ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ opc development operations 
+

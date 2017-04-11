@@ -1,0 +1,40 @@
+: c.m. hicks 
+subject : re : di box work ? 
+organization : 
+lines : 36 
+: . 
+
+lewis foskett write : 
+> sound couple band around need direct 
+> input box keyboard . 
+little box take 
+> line level keyboard transform run 
+> mixer . 
+sadly cost like $ 50 go 
+indeed one function , sophisticated one level control 
+separate keyboard mixer earth aswell . 
+> need like 5 10 ! 
+look inside one belong 
+> another band look like transformer . 
+anyone 
+simple one - transformer . 
+decent quality audio tran - 
+former cost $ 50 . 
+wire thus ... 
+hot -------------- | | ----------------- hot 
+| | 
+input | | balanced mixer 
+keyboard | | 
+| | ----------------- cold 
+| 
+gnd -------------- | -------------------- gnd 
+switch disconnect gnd line mixer . 
+
+transformer ratio depend precise application , around 10:1 
+turn ratio may good place start . 
+christopher 
+-- 
+
+christopher hicks | paradise linear gaussian world 
+| also report taste hot sweaty 
+

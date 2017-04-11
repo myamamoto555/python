@@ -1,0 +1,41 @@
+: der mouse 
+subject : re : screen 
+organization : mcgill research centre intelligent machine 
+lines : 42 
+article < > , rainer write : 
+> see lot different term , seem mean 
+> thing . 
+give exact definition term mean : 
+> - multi-screen 
+> - 
+> - 
+> - zaphod mode 
+apply server , first three fuzzy term . 
+`` '' 
+tend use system multiple monitor , sometimes even 
+multiple screen even multiplex onto monitor eg , 
+sun display . 
+`` multi-screen '' `` '' would , 
+take strictly , mean different thing , since strict meaning 
+`` '' would refer system multiple keyboard 
+pointer , use probably refer thing 
+`` multi-screen '' would : system provide multiple screen . 
+`` zaphod '' term apply way mit server switch 
+pointer one screen another slide side 
+screen . 
+> limit many single server handle 
+> read something upper limit 12 ? 
+protocol limitation restrict give display 
+255 screen . 
+know server handle multiple display 
+single invocation , unless possibly kludge r4 server 
+look upon ; system necessarily 
+limit display per machine , limitation 
+inherent x. 
+read likely talk limit particular 
+implementation probably mit one . 
+claim limit 
+12 inherent x , author article business write 
+x. 
+der mouse 
+

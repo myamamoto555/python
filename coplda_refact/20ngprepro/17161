@@ -1,0 +1,84 @@
+: kenneth robert ballou 
+subject : re : soundblaster irq port setting 
+organization : oberon software , inc. . 
+lines : 55 
+distribution : world 
+: 
+article < > paul bartholomew write : 
+> article < > , andrew 
+> write : 
+
+
+
+`` , , disk controller call device . 
+
+device require exclusive interrupt ownership , eg . 
+disk 
+controller i6 keyboard i1 . 
+also device 
+require exclusive ownership , ie . 
+share 
+interrupt another device , eg . 
+'' 
+
+. 
+standard isa bus , one almost pc use , 
+two separate interface card share interrupt . 
+due 
+screwup bus design . 
+example , soundblaster want 
+drive interrupt number 7 , must hold certain bus wire 0 
+1 time , depend whether want interrupt . 
+preclude let another card assert interrupt number 7 . 
+
+two device isa bus pc share interrupt , 
+implement single card . 
+> 
+> interesting . 
+would care explain , soundblaster 
+> pro card printer card share irq 7 successfully ? 
+assure 
+> set irq 7 problem . 
+
+> computer ibm clone . 
+simple . 
+first , andrew correct , although see might 
+confusion . 
+indeed possible two card configure use 
+interrupt . 
+share interrupt sense 
+possible card active time . 
+example . 
+time , short `` free interrupt . '' 
+
+tape controller `` floppy tape '' need one . 
+
+old tape drive . 
+solution use also use , 
+modem . 
+reason would never use modem 
+tape simultaneously . 
+kermit run , install interrupt 
+handler use serial port . 
+tape drive generate 
+interrupt , kermit would clue tape 
+controller . 
+since tape controller would service , would 
+likely `` hang . '' 
+likewise , tape backup software run , 
+install interrupt handler . 
+handler anything 
+serial port . 
+dos , printing . 
+instead , bios poll 
+status parallel port determine another byte may send . 
+sound card configure use . 
+try nt see far 'll get . 
+: - 
+-- 
+kenneth r. ballou voice : 
+oberon software , inc. . 
+fax : 
+one memorial drive , cambridge , ma internet : 
+view opinion express necessarily 
+reflect employer . 

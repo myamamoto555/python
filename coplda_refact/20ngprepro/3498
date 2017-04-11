@@ -1,0 +1,51 @@
+: 
+subject : adapter cable vga monitors 
+lines : 51 
+anyone know make cable adapter wire accord 
+apple 's spec force external output lc 's powerbook 's 
+duo 230 true vga style output signal ? 
+nec adapter 
+since monitor multisync route signal 
+correct pinout switch macs output vga mode . 
+make one someone already one made-up ?? 
+following apple spec lc cpu vga cable adapter . 
+assume 
+work adapter ? 
+; 
+macintosh lc vga 
+macintosh lc supply 640 x 480 , vga time signal use vga 
+monitor use adapter cable . 
+standard macintosh lc support vga 
+16 color , optional 512k vram simm , vga monitor support 
+256 color . 
+note : macintosh lc supply signal capable drive ttl level 
+input . 
+however , low impedance input vga monitor work 
+macintosh lc . 
+connect macintosh lc vga monitor , need make adapter cable 
+macintosh lc video connector vga monitor . 
+follow 
+pinout description adapter cable : 
+macintosh lc vga 
+video connector pin signal name 
+--------------- -- ----------- 
+1 6 red ground 
+2 1 red video signal 
+5 2 green video signal 
+6 7 green ground 
+9 3 blue video signal 
+13 8 blue ground 
+15 13 
+12 14 
+14 10 ground 
+nc & tie together 
+vga monitor identify short pin 7 pin 10 macintosh lc 
+video connector . 
+macintosh lc grounds pin 7 video connector , 
+result pull pin 10 give correct monitor id vga 
+monitor . 
+
+message create mcw bbs jointly support 
+new orleans mac user group & national home & school user group 
+view express post individual author . 
+

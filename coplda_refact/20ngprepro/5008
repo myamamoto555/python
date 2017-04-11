@@ -1,0 +1,39 @@
+: 
+subject : re : xt intrinsic : slow popup 
+organization : department computer science , university york , england 
+lines : 36 
+bryan boreham write : 
+: article < > , write : 
+: > application create window button `` quit '' `` press '' . 
+: > button `` press '' pop dialog box . 
+strange feature 
+: > program always pop dialog box much faster 
+: > first time . 
+try pop 2nd time 3rd , 4th ... time , 
+: > much slower . 
+: 
+: shell wait respond 
+: position request . 
+respond 
+: think window already right place . 
+: 
+: exactly two component get sulk unclear 
+: ; information greatly receive . 
+thanks clue , thanks derek ho also pointer 
+direction . 
+one solution , due derek ho : popup pop , 
+location -- repeat popup unchanged 
+previous popup . 
+slow response avoid call 
+first , use require location different . 
+problem also avoid make tiny alteration 
+location popup , really change 
+location popup . 
+try double check 
+source problem . 
+solution try successfully follow : 
+1 use `` twm '' `` mwm '' rather `` '' 
+2 use `` '' , resource '' : 10 '' 
+3 reset location popup window truely change . 
+obviously work around bug somewhere . 
+thanks -- chris 

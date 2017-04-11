@@ -1,0 +1,24 @@
+: ted hoang 
+subject : wcl 2.02 
+organization : litwin process automation 
+lines : 17 
+hus , 
+problem compile wcl 2.02 sco odt 2.0 : 
+cc - c - ox - i. . 
+- . 
+c 
+. 
+c 
+. 
+c 47 : error : ' _ ' : undefined 
+error code 1 
+although follow instruction file build wcl sco 
+platform , problem resolve . 
+question relate matter : 
+1 . 
+_ exist sco odt 2.0 ? 
+_ use 
+& ? 
+release sco odt 2.0 use , ? 
+2 . 
+, someone know work around ? 

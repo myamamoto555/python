@@ -1,0 +1,25 @@
+: geoff thomas 
+subject : re : help ! 
+256 color display c. 
+keyword : graphic 
+: . 
+
+organization : university canterbury , christchurch , new zealand 
+lines : 21 
+: 
+'ll probably set palette try draw 
+new color . 
+use bio interrupt call set r g & b value range 
+card particular palette color 
+range 256 color mode . 
+able draw pixel palette value 
+result ok . 
+might bit compress 
+256 unique rgb triplet , 256 color mode . 
+geoff thomas 
+computer science dept. . 
+university canterbury 
+private bag + ------- + 
+christchurch | ! 
+| 
+new zealand + ------- + 

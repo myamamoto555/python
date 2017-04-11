@@ -1,0 +1,42 @@
+: joel kolstad 
+subject : re : multiple input pc 
+organization : u wisconsin-madison college engineering 
+lines : 31 
+article < > < > write : 
+> anyone offer suggestion problem ? 
+> several board whose sole purpose decode dtmf tone send 
+> resultant ascii pc . 
+board run serial interface . 
+> need run board simultaneously . 
+need able ho 
+> ok pc > problem , hook 8 + serial device one 
+> pc , send datum close ? 
+> help would greatly appreciate ! 
+board intelligent ? 
+i.e. , run microcontrollers ? 
+
+easiest thing would another line say one 
+board talk pc . 
+line true , board 
+could hold send datum . 
+perfect solution , 
+though , since worry little make sure two board 
+decide talk _ exact time _ . 
+, think need hook board `` something '' 
+speak rs-232 . 
+actually hard expensive ! 
+
+use , though . 
+assume board talk relatively slowly 9600 bp 
+slower , pic coordinate thing multiplex 
+datum . 
+really add suggestion first 
+paragraph system . 
+assume board talk 
+time , long , since pic go 
+able buffer , maybe 20-some byte ! 
+might want check price card pc , 
+though . 
+recently buy boca research 2x4 card 2 parallel port , 4 
+rs-232 port reasonable $ 85 . 
+-- joel kolstad 

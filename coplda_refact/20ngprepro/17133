@@ -1,0 +1,45 @@
+: gordon lang 
+subject : re : 2 
+organization : ford motor company research laboratory 
+lines : 33 
+: . 
+
+: tin 1.1 
+volker write : 
+: 
+: hello 
+: 
+: problem combine two ide hard disk 
+: seagate quantum . 
+single hard disk 
+: work fine , connect together 
+: controller work . 
+: 
+: question : 
+: 
+: - anybody ever succesful use hard disk 
+: together jumper setting bio 
+: use ? 
+: 
+: - possible controller reason trouble ? 
+: thing know 
+: . 
+many controller 
+: control ? 
+case one ? 
+: 
+: 
+: thanks advance 
+: 
+: volker 
+: 
+ide drive jumper indicate master slave . 
+master , second jumper indicate slave present . 
+must set correctly accord drive 's manufacturer spec - 
+. 
+cmos setup almost positively problem . 
+
+probably controller - ide controller support exactly two 
+drive maximum . 
+check jumper . 
+gordon lang 

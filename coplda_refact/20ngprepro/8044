@@ -1,0 +1,66 @@
+: stefan eckart 
+subject : . 
+zip info : another dos mpeg post 
+keywords : mpeg , dos 
+: 
+organization : technische muenchen , germany 
+lines : 74 
+post dos mpeg . 
+short description technical information , take 
+accompany documentation : 
+v1 .0 
+public domain mpeg decoder 
+stefan eckart 
+0 . 
+feature 
+
+another mpeg pc : 
+- decode nearly full mpeg video standard 
+, p , b frame , frame size least support 
+- save decode sequence 8 raw file later display 
+- optional on-screen display decoding require vga 
+- several dither option : order dither , , grayscale 
+- selection 
+- run dos , ram , require 
+- compact small code small datum model , 16 bit arithmetic 
+- real time display raw file separate player 
+vga many 
+... 
+4 . 
+technical information 
+
+player rather straightforward implementation mpeg spec 1 . 
+base 13 multiplication algorithm 2 
+quite optimum , know . 
+block eight non-zero 
+coefficient use direct 
+sound great , ? 
+, turn faster ` fast ' 
+algorithm quite common case . 
+dither pretty standard . 
+main 
+difference berkeley decoder except fewer number support 
+algorithm use 256 instead 128 color , default option 
+use restricted implementation color saturation 
+dominant order dither . 
+lead significantly superior quality 
+dithered image claim , judge . 
+restricted mean u v component clip 
++ -0.25 instead + -0.5 display point distribute 
+restricted space . 
+since distance point 
+thus reduce factor two , color resolution double 
+expense able represent fully saturated color . 
+saturation dominant order dither method color , lie 
+somewhere point display color space , approximate 
+primarily alternate two point constant hue instead 
+constant saturation . 
+yield better quality due 
+lower sensitivity human viewing system saturation change 
+hue change reasoning use pal tv standard improve 
+ntsc . 
+improvement particularly visible dark brown 
+area . 
+... 
+-- 
+stefan eckart , 

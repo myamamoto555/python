@@ -1,0 +1,179 @@
+: guy kuo 
+subject : quadra clock modification - long 
+summary : quadra 700 clock acceleration instruction 
+keywords : quadra , clock , acceleration , oscillator 
+: shelley .1 
+organization : university washington 
+lines : 149 
+: 
+modify quadra 700 higher speed . 
+previously 
+use variable speed overdrive accelerate cpu 
+modification test stable higher speed . 
+mileage may vary . 
+top speed achieve predict 
+hand . 
+personal test fine 32 mhz thus far . 
+higher speed clock oscillator hand test higher 
+speed . 
+part 
+clock oscillator 4 pin ttl variety need selection 
+speed begin 50 mhz . 
+cpu run 
+oscillator speed . 
+original one 50 mhz unit . 
+recommend 
+get 50 mhz clock case damage exist one . 
+obtain clock oscillator 
+less $ 5.00 . 
+part number : 
+50 mhz ttl clock oscillator part # 
+62 mhz ttl clock oscillator part # 
+66 mhz ttl clock oscillator part # 
+get half size clock oscillator . 
+fit . 
+also cmos clock oscillator . 
+try one 
+quadra . 
+work fine 's 
+socket : obtain 4 pin socket form factor 
+14 pin dip package . 
+alternatively , use 4 machined socket pin 
+augat style socket . 
+cut socket . 
+cool fan : small 12 volt fan keep cpu cool 
+must . 
+vso come specially modify heatsink 
+fan build onto . 
+pass-through connector 
+tap hard drive power cable . 
+rig 
+something similar risk frying cpu . 
+procedure 
+1 insert usual disclaimer antistatic warning . 
+2 remove top lid machine . 
+see floppy disk 
+hard drive mount plastic tower . 
+follow usual 
+precaution course make sure machine 
+. 
+unplug cable , wall monitor power supply cord 
+back mac . 
+3 remove power supply pull plastic interlocking tab 
+tower forward simultaneously pull power supply straight . 
+tab piece plastic left posterior aspect 
+tower extend downward hook power supply . 
+may 
+also feel horseshoe shaped piece right portion power 
+supply . 
+leave alone . 
+plastic tab tower 
+need release . 
+4 look rear tower assembly . 
+see flat ribbon 
+scsi connector hard drive , power cable flat ribbon cable 
+lead floppy drive . 
+disconnect motherboard . 
+hard drive power cable connector tab must squeeze 
+release . 
+5 unplug drive activity lead clear plastic mount 
+6 look posterior , cylindrical section plastic tower . 
+
+phillip head screw base . 
+remove , take care drop 
+case . 
+bit gummy glue screwdriver helpful 
+. 
+7 remove tower assembly pull medially plastic tab 
+right side tower . 
+tab prevent tower slide 
+posteriorly . 
+slide entire tower assembly 1 cm posteriorly 
+lift tower assembly straight case . 
+8 remove interrupt switch assembly . 
+strangely shaped plastic 
+device left , front edge motherboard . 
+pull middle , 
+rear plastic prong forward . 
+entire device release . 
+9 unplug speaker cable . 
+squeeze plastic tab speaker 
+free swing backwards free case . 
+10 remove motherboard form case . 
+lift front right corner 
+motherboard 1 mm . 
+allow clear clear plastic 
+power light guide . 
+slide motherboard forward 1 cm . 
+
+motherboard come directly . 
+11 locate 50 mhz clock crystal . 
+small metal box near 
+cpu chip . 
+note remember orientation . 
+new clock oscillator 
+must align pin 1 orientation . 
+carefully remove old clock oscillator . 
+
+pin may bent . 
+simply . 
+sure 
+iron hot enough heat board . 
+use suction iron accomplish task . 
+
+appropriate first soldering experience . 
+motherboard 
+multi-layer design fine trace - easily damage without 
+proper care . 
+12 install socket socket pin old oscillator . 
+13 put 50 mhz clock oscillator new socket . 
+could use 
+old clock solder pin . 
+may come inside 
+socket cause corrosion problem later . 
+suggest use new 
+50 mhz clock . 
+14 install cooling fan system complete modification . 
+14 reinsert motherboard slide place . 
+15 snap interrupt switch assembly speaker lock mother 
+board firmly . 
+plug speaker wire back motherboard . 
+16 reinstall tower assembly first place right wall 
+tower right wall case tower assembly 
+1 cm posterior intended position . 
+lower tower assembly 
+place maintain contact right wall case . 
+fully , slide tower assembly anteriorly click 
+place . 
+17 reconnect motherboard end cable . 
+dont ' forget floppy 
+drive cable . 
+18 replace phillip head screw 
+19 drop power supply straight place click . 
+20 plug hard drive activity light back clear plastic mount . 
+21 reattach cable power cord . 
+cross finger turn 
+mac . 
+make usual power chord . 
+, 
+something amiss . 
+immediately turn power recheck 
+handiwork . 
+well , sincere condolence . 
+hopefully , work normally . 
+turn machine back 
+replace 50 mhz clock oscillator faster one . 
+reboot 
+astounded . 
+need fully test machine many hour decide 
+particular speed truly usable . 
+vso , machine lock-up 
+might take 8 hour operation occur . 
+brief time since 
+modify clock oscillator 36 hour single 
+problem . 
+good luck attempt modification . 
+small real 
+risk , could well reach quadra 950 speed higher less 
+$ 50 part . 
+guy kuo < > 

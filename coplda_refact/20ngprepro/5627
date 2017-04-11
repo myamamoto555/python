@@ -1,0 +1,20 @@
+: jon 
+subject : access 24-bit color ? 
+: 
+organization : lewis & clark college , portland 
+lines : 15 
+: tin version 1.1 
+sun acquire frame buffer card . 
+suppose support 24-bit color visual monochrome visual . 
+default visual server monochrome , unable change 
+24-bit visual . 
+try use get visual depth 24 , 
+success . 
+give information 24-bit deep visual , monochrome . 
+two possible solution : 
+someone patch server , could forward ? 
+otherwise , could someone instruct access 24-bit color ? 
+-- 
+jon email : 
+lewis & clark college 
+portland , 

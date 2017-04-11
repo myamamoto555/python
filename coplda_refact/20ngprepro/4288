@@ -1,0 +1,26 @@
+: john ngai 
+subject : disable reverse video 
+: 
+organization : bellcore 
+lines : 22 
+well sure right newsgroup ask , let try anyway . 
+run like unix user , run man . 
+recently , 
+switch solaris 2.1 , man page litter '' . 
+'' directive 
+somehow translate reverse video display man . 
+result output admittedly personal taste annoying look . 
+back use suno 4.1.2 , remember man page keyword 
+display underline ... 
+question change 's behavior '' . 
+'' directive 
+man page , perhaps underline , least disable . 
+'' . 
+b '' 
+directive fine , like . 
+course , want go edit 
+man page input ... somehow , allow one specify normal font 
+bold font , italic font ?? 
+pointer , suggestion greatly appreciate . 
+thanks -- john 
+p.s. run - rv work , try ... 

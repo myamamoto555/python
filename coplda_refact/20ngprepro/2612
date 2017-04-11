@@ -1,0 +1,45 @@
+: david h. chien 
+subject : orbit datum - help need 
+organization : , university california , los angeles 
+lines : 43 
+`` osculating element perigee '' orbit , need 
+convert something useful , preferably distance earth 
+evenly space time interval . 
+gsm coordinate system preferable , 
+convert system . 
+c , pascal , fortran code , 
+point book something would great . 
+first line file . 
+0 
+1 2x , a3 , 7x , a30 
+2 2x , i5 , 2x , a3 , 2x , e24 .18 
+3 4x , a3 , 7x , e24 .18 
+1 sma semi-major axis 
+1 ecc eccentricity 
+1 inc inclination 
+1 omg ra ascending node 
+1 pom argument 
+1 tra true anomaly 
+1 hap height 
+1 hpe height 
+2 3 beg e 
+3 sma e 
+3 ecc e +00 
+3 inc e 
+3 omg e 
+3 pom e 
+3 tra e 
+3 hap e 
+3 hpe e 
+2 1 ref e 
+3 sma e 
+3 ecc e +00 
+3 inc e 
+3 omg e 
+3 pom e 
+3 tra 
+3 hap e 
+3 hpe e 
+thanks advance , 
+larry 
+

@@ -1,0 +1,127 @@
+: david e. smyth 
+subject : re : r5 table widget cause trouble 
+: pop 
+organization : jet propulsion laboratory nasa 
+lines : 102 
+get bug report fix exact problem 
+greg fisher : 
+> ... serious problem identify 
+> incorporate . 
+problem occur table widget 's 
+> invoke child . 
+work correctly 
+> table widget parent comply xt protocol . 
+however , 
+> , case motif widget , ignore 
+> , size incorrect . 
+> order see problem , follow event must 
+> happen : 
+> 1 . 
+child table widget must request new size . 
+> 2 . 
+table widget must query parent new size set 
+> . 
+> 3 . 
+parent must ignore bit resize table 
+> widget . 
+part resize , 
+> call . 
+set tw - > _ col 
+> tw - > _ row zero . 
+> 4 . 
+table continue set new size , work 
+> assumption work propose actual 
+> layout . 
+end , call . 
+
+> save tw - > tw - > restore 
+> value tw - > _ col tw - > _ row . 
+> however , already set zero . 
+> 5 . 
+since table widget already resize , need 
+> second resize . 
+> 6 . 
+next , another widget manage ancestor table 
+> resize . 
+result parent table request 
+> table prefer size . 
+since tw - > tw - > 
+> zero , return preferred size . 
+> 7 . 
+parent likely grant request , result 
+> loss whole table display . 
+> 
+isolate problem propose workaround seem precisely 
+correct . 
+new implementation 
+release next update 5 week : 
+. 
+c : 
+void tw 
+tw ; 
+
+tw ; 
+tw ; 
+tw ; query , resize 
+
+since make query , still need continue . 
+however , motif break actually may already 
+resize . 
+case , propose layout already 
+forget , quietly exit . 
+
+tw - > _ status 
+
+tw ; 
+tw ; 
+tw ; 
+tw ; 
+
+else resize already . 
+propose layout would 
+forget process . 
+
+
+fix identical , except course name : 
+. 
+c : 
+void tw 
+tw ; 
+
+tw ; 
+tw ; 
+tw ; query , resize 
+
+since make query , still need continue . 
+however , manager widget break actually may 
+already resize . 
+case , propose layout 
+already forget , quietly exit . 
+
+tw - > _ status 
+
+tw ; 
+tw ; 
+tw ; 
+tw ; 
+
+else resize already . 
+propose layout would 
+forget process . 
+
+
+
+david smyth 
+senior software engineer , use yet ! 
+cccp , x object guru . 
+office : 
+jet propulsion lab , oak grove drive , pasadena , ca 
+
+`` sun windows thingy , call ? 
+know , 
+really awful . 
+x ? 
+motif ? 
+- motif ! 
+yuck ! '' 
+

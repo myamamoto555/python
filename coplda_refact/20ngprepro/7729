@@ -1,0 +1,26 @@
+: john collins 
+subject : problem 
+organization : boston university 
+lines : 27 
+try write image display program use 
+mit share memory extension . 
+shared memory segment 
+get allocate attach process problem . 
+program crash first call , 
+follow message : 
+x error fail request : invalid shared segment parameter 
+major opcode fail request : 133 
+minor opcode fail request : 3 
+segment id fail request 
+serial number fail request : 741 
+current serial number output stream : 742 
+like say , error checking call 
+necessary create shared memory 
+segment , well check . 
+
+problem . 
+anybody problem use without 
+problem , please let know . 
+way , run 3.0 sun . 
+thanks advance -- 
+john c. 

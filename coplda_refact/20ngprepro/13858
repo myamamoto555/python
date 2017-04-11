@@ -1,0 +1,34 @@
+: gordon lang 
+subject : re : laplink serial & parallel cable 
+organization : ford motor company research laboratory 
+lines : 24 
+distribution : world 
+: . 
+
+: tin 1.1 
+serial cable : 
+three output signal : td , dtr , rts . 
+five input signal : rd , dsr , dcd , cts , rus . 
+many null modem dictate software . 
+ibm bio require assert dtr rts wait dsr 
+ct send . 
+bio recieve call make , assert dtr 
+wait dsr become true time return 
+error dsr never become true . 
+require cts true send 
+recieve . 
+communication package bypass replace 
+protocol . 
+key comm . 
+package could 
+well different requirement . 
+favorite cable work many case : short rts cts end , 
+also run rts dcd opposite end . 
+td run rd 
+dtr run dsr dte 's course sg go 
+sg . 
+never trouble null modem even though use 
+comm . 
+package expect rts go cts instead dcd . 
+advantage cable also work ibm bios . 
+gordon lang 

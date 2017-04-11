@@ -1,0 +1,55 @@
+: robert lansdale 
+subject : advice seek : turn font outline polygon 
+organization : , university toronto 
+distribution : na 
+lines : 53 
+seek alternate solution turn postscript type 1 
+truetype font outline polygon subsequently scan convert 
+3d scanline renderer . 
+study problem font conversion year 
+never need implement system . 
+well , 
+opportunity write font rendering software would like 
+question answer jump deep end . 
+main problem face use rule 
+turn outline single outline polygon renderer handle 
+complex polygon need reduce polygon simple 
+polygon . 
+example , letter `` o '' two outline : 
+1 outside outline clockwise truetype font 
+2 inside outline counterclockwise . 
+one common solution use number render package simply 
+connect inner outline outer outline point 
+two outline closest . 
+equivalent `` polygon 
+hole '' . 
+renderer make appropriate hole since interior 
+polygon edge opposite direction outside edge . 
+want use simplistic system since : 
+1 handle outline font properly simple 
+matter connect outer outline inner outline 
+fancy font . 
+2 properly handle rule . 
+research year proper solution use trapezoid 
+decomposition algorithm scan convert outline trapezoid 
+postscript truetype font . 
+trapezoidal 
+polygon easily properly render 3d scanline renderer . 
+question : better solution turn outline 
+trapezoid ? 
+fond solution 
+since create excess number polygon . 
+another question , know : best algorithm create 
+bevel offset curve font outline ? 
+dozen papers 
+subject tell method best implement . 
+thanks pointer . 
+-- > rob lansdale 
+-- 
+robert lansdale - dynamic graphics project 
+internet : computer systems research institute 
+uucp : . 
+. 
+! 
+university toronto 
+bitnet : toronto , ontario m5 , canada 

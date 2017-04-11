@@ -1,0 +1,74 @@
+: rusty sanders 
+subject : re : screen 
+organization : corporation , san diego , california 
+lines : 61 
+article < > , timothy e. neto : 
+> rainer write : 
+
+see lot different term , seem mean thing . 
+give exact definition term mean : 
+
+- multi-screen 
+- 
+- 
+- zaphod mode 
+
+limit many single server handle 
+read something upper limit 12 ? 
+
+capability call , want move cursor one 
+another . 
+> 
+> many client may display server , believe limit 
+> would much memory available server allocate 
+> server . 
+> 
+sound suspiciously like company might something 
+. 
+background first : series framebuffer design 
+x accelerator . 
+part design sun sbus 
+sun vendor 's vme system . 
+say , product support multi-screen 
+sigle workstation . 
+card port 
+use provide additional display . 
+example , say 
+hade sparcstation sbus expansion chassis . 
+could 
+put six , allow total six screen system . 
+could attach 1 6 , allow 
+mix match combination screen display . 
+could 
+1 display , 3 display , 6 display , 
+1 display 1 display . 
+basically 
+combination . 
+, try careful use 
+word multi-screen . 
+quite different 
+meaning , least x exact definition . 
+reason ramble like mention upper limit 12 
+screen display . 
+happen , define server 
+determine screen support . 
+h , 
+. 
+release mit , 3 . 
+release , 
+12 . 
+, screen support single display i.e. 
+x server 12 . 
+someone construe limitation x 
+sorry , clearly point well mr. neto 
+case . 
+nobody ever ask . 
+
+course , could say `` buy want , 'll support . '' 
+-- 
+-- 
+rusty sanders , corp. -- > ... 
+... ucsd ! 
+... - sdd ! 
+... ! 
+... uunet ! 

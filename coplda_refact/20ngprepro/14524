@@ -1,0 +1,303 @@
+: ho 
+subject : 
+organization : national chiao tung university 
+: tin version 1.1 
+lines : 299 
+post . 
+zip . 
+upload package later . 
+may distribute program freely non-commercial use 
+fee gain . 
+warranty . 
+author responsible 
+damage cause program . 
+important change since version 1.35 : 
+add support iris . 
+support . 
+two image . 
+add support ` batch conversion ' . 
+add support ` palette table ' . 
+add support ` edge enhance ' . 
+add support ` crop one line ' . 
+add support ` negate image ' . 
+new color quantization option . 
+fix minor bug . 
+1 introduction : 
+program let read , write display image different 
+format . 
+also let special effect rotation , dithering ... 
+image . 
+main purpose let convert image among different 
+. 
+include simple file management system . 
+support ` slide show ' . 
++ support ` batch conversion ' . 
+limit image size . 
+currently program support 8 , 15 , 16 , 24 bit display . 
+want use , must vesa driver . 
+want modify video driver , please read section 8 . 
+2 hardware requirement : 
+pc 386 better . 
+3.3 higher . 
+min amount ram 4m byte maybe less memory also work . 
+recommend min 8m byte better performance . 
+hard disk swap virtual memory . 
+follow description borrow . 
+support wares : 
+extend memory expand 
+disk space use swap 
+256-color mode 1024x768 
+
+xms & memory allocation strategy 
+program , qemm , , 
+unsupported : 
+
+microsoft windows 
+feature : emulator , 32-bit environment , flat memory 
+model , svga graphic . 
+3 installation : 
+video driver , . 
+exe borrow . 
+use western digital vga chip , read 
+. 
+exe modify version vesa completely compatible 
+original version 
+people report . 
+exe compatible 
+program system . 
+encounter problem , 
+put . 
+exe within search path . 
+please read run program . 
+choose video driver , add ` nc 256 ' environment 
+. 
+example , driver x : . 
+grn nc 256 
+, add 'em u x : ' environment . 
+example , driver x : . 
+grd emu x : 
+notes : 1 . 
+test . 
+grn , . 
+grn . 
+driver test . 
+2 . 
+modify . 
+grn support 8 , 15 , 16 , 24 bit 
+display . 
+need use vesa driver . 
+. 
+grn work , please try . 
+3 . 
+want use display , 
+please use except user . 
+find vesa bio driver : 
+: 
+: 
+4 command line switch : 
+usage : display - d | -- display 
+- | -- sort 
+- h | - ? 
+display type : 8 svga , default , 15 , 16 , 24 
+sort method : ` name ' , ` ext ' 
+5 function key : 
+f2 : change disk drive . 
+-- : change disk drive . 
+f3 : change filename mask . 
+see 
+f4 : change parameter . 
+f5 : effect picture , eg . 
+flip , rotate ... 
+f7 : make directory . 
+: tag file . 
++ : tag group file . 
+see 
+: tag file . 
+u : untag file . 
+- : untag group file . 
+see 
+u : untag file . 
+: change display type ` read ' & ` screen ' menu . 
+f6 , m , m : move file . 
++ : move single file ignore tag . 
+f8 , d , d : delete file . 
++ : delete single file ignore tag . 
+r , r : rename file . 
+c , c : copy file . 
++ : copy single file ignore tag . 
+z , z : display first 10 byte ascii , hex dec mode . 
+f , f : display disk free space . 
+page : move one page . 
+tab : change processing target . 
+arrow key , home , end , page , page : scroll image . 
+home : leave . 
+end : right . 
+page : top . 
+page : bottom . 
+` screen ' & ` effect ' menu : 
+leave , right arrow : change display type 8 , 15 , 16 , 24 bit . 
++ key : crop image one line graphic mode . 
+, : slide show show tag file . 
+escape terminate . 
++ b , b : batch conversion convert tag file single format . 
++ w , w : slide show . 
+: quit program without prompt . 
+alt-a : reread directory . 
+escape : abort function return . 
+6 support format : 
+read : gif . 
+gif , japan mag . 
+mag , japan pic . 
+pic , sun raster . 
+ra , 
+jpeg . 
+jpg , . 
+, utah rle . 
+rle , pbm . 
+pbm , pgm . 
+pgm , 
+ppm . 
+ppm , pm . 
+pm , pcx . 
+pcx , japan mki . 
+, tiff . 
+tif , 
+targa . 
+tga , . 
+, mac paint . 
+mac , . 
+img , 
+. 
+lbm , window bmp . 
+bmp , ray trace . 
+, 
+mac pict . 
+pct , vi . 
+vis , pd . 
+pd , viking . 
+vik , vicar . 
+vic , 
++ fit . 
+fit , usenix face . 
+fac , iris . 
+. 
+extension standard extension . 
+write : gif , sun raster , jpeg , , pbm , pgm , ppm , pm , tiff , targa , 
+, mac paint , ascii , laser jet , , window bmp , 
++ mac pict , vis , fit , face , pcx , , iris . 
+support full color 8 bit , gray scale , dither , 
+24 bit image , allow format . 
+7 detail : 
+initialization : 
+set default display type highest display type . 
+find allowable screen resolution . 
+grn video driver . 
+1 . 
+run program , enter ` read ' menu . 
+
+menu press function key . 
+move copy 
+file , enter ` write ' menu . 
+` write ' menu much like 
+` read ' menu , allow change directory . 
+header line ` read ' menu include '' d : xx , f : xx , : xx '' . 
+d : display type . 
+f : number file . 
+: number tag file . 
+press space ` read ' menu let select format use 
+read current file . 
+press return ` read ' menu let read current file . 
+
+program automatically determine format file . 
+procedure : first , check magic number . 
+fail , check 
+standard extension . 
+still fail , report error . 
+press ` read ' menu ` slide show ' . 
+delay time 0 , program wait hit key 
+except escape . 
+error occur , program make beep . 
++ ` w ' ` w ' pause , key continue . 
+escape terminate . 
+press ` read ' menu change display type . 
+press ` read ' menu quit program without prompt . 
++ press f5 turn ` effect ' menu . 
+2 . 
+image file successfully read , enter ` screen ' menu . 
+special effect image . 
+press return : show image . 
+graphic mode , press return , space escape return text 
+mode . 
+press tab : change processing target . 
+program allow 
+special effect 8-bit 24-bit image . 
+press leave , right arrow : change display type . 
+8 , 15 , 16 , 24 bit . 
+press space : save current image file . 
+dither : save image 1 bit . 
+grey scale : save gray image 8 bit . 
+full color : save color image 8 bit . 
+true color : save 24-bit image . 
+program ask question want write image 
+file . 
+question . 
+finally program 
+prompt filename . 
+want save file another 
+directory current directory , please press space . 
+
+press space , enter ` ' menu . 
+change 
+directory want . 
+, 
+press space : program prompt ` original ' filename . 
+press return : program prompt ` select ' filename 
+filename bar . 
+3 . 
+program support 8 , 15 , 16 , 24 bit display . 
+4 . 
+program memory greedy . 
+enough memory , 
+performance poor . 
+5 . 
+want save 8 bit image : 
+try gif tiff lzw targa sun raster bmp ... 
+want save 24 bit image lossless : 
+try tiff lzw targa sun raster 
+one better true image 
+6 . 
+recommend jpeg store 24 bit image , even 8 bit image . 
+7 . 
+subroutine fully test 
+8 . 
+document well write . 
+problem , suggestion , 
+comment program , 
+please send . 
+need suggestion improve program . 
+anonymous ftp site 
+8 tech . 
+information : 
+program user interface subroutine write ho . 
+subroutine borrow xv 2.21 dec 91 . 
+tiff v3 .2 jpeg v4 public domain 
+library . 
+compile . 
+get whole package mirror site . 
+example , : 
+9 want modify video driver : 
+1 . 
+get source code mirror site . 
+2 . 
+: 
+15 bit : # color set . 
+16 bit : # color set . 
+24 bit : # color set . 
+acknowledgment : 
+would like thank author xv permission 
+let use subroutine . 
+also thank author write tiff jpeg library . 
+thank dj . 
+without thing pc . 
+ho 
+

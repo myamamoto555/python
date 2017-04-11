@@ -1,0 +1,35 @@
+: conrad winchester 
+subject : re : motorola 
+keyword : motorola , fpu , , 68030 , mhz , problem fpu exception 
+: 
+organization : imperial college science , technology , medicine , london , england 
+lines : 25 
+article < > , stich , christian e. write : 
+- | install motorola fpu amiga board 25 mhz 
+- | 68030 + capability clock fpu separately . 
+previously 
+- | install everything work perfectly . 
+
+- | system display yellow screen indicate exception check 
+- | fpu . 
+reinstall system work 
+- | fine , even 25 mhz work . 
+designer 
+- | board mention put pullup resistor 470 ohm 
+- | might help , change anything . 
+anybody 
+- | suggestion could ? 
+look like communication 
+- | problem particular chip dead pull , new ? 
+- | moreover , place buy send . 
+think 
+- | label mc xc finalize mask design . 
+- | ? 
+- | 
+- | thanks 
+- | christian 
+- | 
+change crystal clock fpu . 
+
+work . 
+conrad 

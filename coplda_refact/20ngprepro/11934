@@ -1,0 +1,104 @@
+: dale stephenson 
+subject : hit stolen -- leave field 1992 
+keyword : defense leave 
+organization : university illinois , dept. comp . 
+, urbana , il 
+lines : 105 
+disclaimer -- fun . 
+computerized baseball game , keep track category call 
+`` steal hit '' , define play make `` average fielder would 
+make average effort . '' 
+use 1992 defensive averages post 
+sherri nichols thanks sherri ! 
+, figure defensive stats 
+leftfielder . 
+hit stolen redefine `` plays kevin 
+bass would make . '' 
+ok , realize unfair . 
+kevin 's probably victim pitch staff , 
+fluke shot , monster park factor . 
+let 's put way : 
+replace every leftfielder league someone kevin 's 49.4 % 
+make ability , many extra hit would go ? 
+try correlate reality little , calculate net 
+hit stolen , base number make compare league 
+average fielder would make . 
+method calculate net extra 
+basis double triple let . 
+finally , throw call defensive contribution , 
+: - > . 
+basically , represent defensive contribution player . 
+add number op get dop defense + plus slug , 
+represent player 's total contribution team . 
+
+take seriously . 
+appear end 
+article . 
+short version -- definition term 
+h -- hit stolen -- extra compare kurt stillwell 
+nh -- net hit stolen -- extra compare average fielder 
+ndp -- net double plays -- extra double play turn compare avg fielder 
+neb -- net extra basis -- extra basis prevent compare avg . 
+fielder 
+-- defensive contribution -- basis hit prevent , rate . 
+dop -- + op -- quick & dirty measure player 's total contribution . 
+national league 
+name h nh neb dop 
+gonzalez , l. 63 28 20 .192 
+gilkey , b. 52 23 14 .150 
+clark , g. 46 11 11 
+alou , m. 20 3 12 
+bond , b. 54 9 -7 1.099 
+may , d. 21 0 -7 .659 
+gant , r. 31 -5 -2 
+bass , k. 0 -24 -4 .600 
+order dop 
+1.099 bond 
+gilkey 
+gonzalez 
+alou 
+clark 
+nl average 
+gant 
+.659 may 
+.600 bass 
+american league 
+--------------- 
+name h nh neb dop 
+raines , t. 53 22 20 .111 
+anderson , b. 65 30 8 
+henderson , r. 43 20 4 
+vaughn , g. 55 27 -3 .095 
+gladden , d. 25 4 8 
+hall , m. 29 6 -2 
+mack , s. 38 6 -8 .005 
+polonia , l. 10 -11 10 .647 
+mcreynolds , k. 13 -8 -9 
+, c. 9 -21 -12 .714 
+reimer , k. 5 -18 -16 .671 
+order dop 
+henderson 
+anderson 
+raines 
+mack 
+vaughn 
+hall 
+.733 al average 
+.714 
+
+gladden 
+.671 reimer 
+.647 polonia 
+discussion -- 
+: nh + ndp pa + nh + ndp + neb ab 
+bizzare ? 
+basically , design add 
+op , idea `` run prevent important run score '' . 
+extra factored obp , extra basis remove 
+factored slg . 
+use pa ab divisor . 
+discussion see post hit stolen -- first base 1992 
+-- 
+dale j. stephenson | | | | baseball fanatic 
+`` consider good look wise , especially 
+overburdened information '' -- j. golden kimball 

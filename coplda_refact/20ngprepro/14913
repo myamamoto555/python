@@ -1,0 +1,27 @@
+: mark 
+subject : 
+: ; id ; wed , 19 may 93 
+: . 
+; id ; wed , 19 may 93 
+: ; ; wed , 19 may 93 pdt 
+: 
+: 
+lines : 22 
+help , 
+get application series pushbutton across 
+top toolbar . 
+want add 
+pushbutton 
+put descriptive text function 
+pushbutton pointer cross . 
+fine , turn follow problem : 
+pushbutton sensitive get callback 
+event , sensitive get 
+callback event . 
+seem odd . 
+would 
+expect all-or-nothing type thing . 
+bug ? 
+, someone explain behavior ? 
+thanks , 
+mark 

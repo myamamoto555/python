@@ -1,0 +1,47 @@
+: andrew jaffe 
+subject : key definition emac + x 
+organization : university chicago , astronomy astrophysics 
+lines : 42 
+hus . 
+use emacs want customize keyboard better . 
+set stuff . 
+emac , 
+access certain key 's 
+keyboard . 
+get e.g. f10 , home , end , , ; 
+seem either . 
+feeling 
+fix emac , need 
+stuff . 
+someone help ? 
+way , check post similar message 
+response . 
+currently follow . 
+emac file inside ` cond ' : 
+'' ^ '' `` term '' 
+; ; aj . 
+know ... 
+`` special key '' 
+'' '' ` 
+` 
+; ; key f1 f12 
+`` '' ` ; f1 
+`` '' ` ; f2 
+`` '' ` ; f3 
+`` '' ` ; f4 
+`` '' ` ; f5 
+`` '' ` ; f6 
+`` '' ` yank ; f7 
+`` '' ` ; f8 
+`` '' ` ; f9 
+`` '' ` ; f11 
+`` '' ` ; f12 
+; ; key f10 , , , etc. 
+get key 
+'' -1 z '' ` 
+
+-- 
+andrew jaffe 
+dep ' astronomy astrophysics , u. chicago 
+s. ellis ave 
+chicago , il fax 

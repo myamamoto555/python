@@ -1,0 +1,38 @@
+: 
+subject : re : interface access separate appl . 
+organization : university new mexico , albuquerque 
+lines : 27 
+: 
+article < > write : 
+< dear : 
+< 
+< 's problem : design several related x 
+< application one separate executable would like 
+< build single control window would allow user 
+< access application instead locate correct 
+< icon . 
+control window would contain button 
+< application press , application 's main window 
+< would appear . 
+would also like use application 's button 
+< color status indicator . 
+anyone 
+< good idea ?? 
+separate executable 
+< seem like communication nightmare , maybe 
+< wrong . 
+would appreciate idea ! 
+use motif . 
+< 
+< thanks , 
+< 
+think two different method could try . 
+1 use fork 
+2 use `` system '' call program . 
+assume ` re 
+run unix os course . 
+-- 
+_ -- _ steve 
+o o \ 
+| \ ___ | 
+say vms !! 

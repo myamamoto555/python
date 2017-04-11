@@ -1,0 +1,26 @@
+: wally bass 
+subject : re : ide vs 
+organization : auspex systems , santa clara 
+lines : 20 
+: . 
+
+article < > 
+wayne smith write : 
+stuff delete 
+> lowly low-density original pc fdd card use dma 
+> hdd controller 
+make real sense . 
+actually , make reasonable amount sense . 
+fix disk 
+sector buffer controller , transfer 
+memory ` rep ' whatever instruction call 
+quite efficient single instruction , go fast 
+know use bus . 
+since 286 cache , 
+bus likely critical resource relative cpu performance , 
+possible dma bus interference would cause much 
+loss cpu cycle ` computing ' ` rep ' sequence . 
+floppy , hand , buffer , use cpu 
+floppy datum transfer pc jr , way really 
+stink . 
+wally bass 

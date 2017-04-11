@@ -1,0 +1,90 @@
+: ron 
+subject : galileo update - 
+organization : jet propulsion laboratory 
+lines : 84 
+distribution : world 
+: 
+keyword : galileo , jpl 
+: 1.41 
+forward neal ausman , galileo mission director 
+galileo 
+mission director status report 
+post-launch 
+april 16 - 22 , 1993 
+spacecraft 
+1 . 
+april 19 , cruise science memory readout mro perform 
+extreme ultraviolet spectrometer euv , dust detector dd , magnetometer 
+mag instrument . 
+preliminary analysis indicate datum receive 
+properly . 
+2 . 
+april 19 , command detector unit signal-to-noise ratio test 
+radio frequency subsystem automatic gain control test 
+perform use low gain antenna # 1 madrid 70 meter 
+antenna madrid 34 meter antenna , respectively . 
+datum analysis 
+process . 
+test periodically perform provide detailed 
+information relative telecom command hardware integrity . 
+3 . 
+april 19 , command send reset command loss timer 
+264 hour , plan value mission phase . 
+4 . 
+april 21 , first two suppress deep space network 
+advanced receiver characterization test perform goldstone 
+70 meter antenna . 
+spacecraft modulation index vary 43 degree 
+90 degree range ground receiver bandwidth setting . 
+5 . 
+ac bus imbalance measurement exhibit significant change 
+greater 25 dn throughout period dc bus imbalance 
+measurement . 
+ac measurement read 20 dn 4.5 volt . 
+dc 
+measurement range 43 dn 4.6 volt 138 dn 16.2 volt 
+currently read 138 dn 16.2 volt . 
+measurement consistent 
+model develop special anomaly team . 
+6 . 
+spacecraft status april 22 , 1993 , follow : 
+system power margin - 68 watt 
+b spin configuration - 
+c spin - 3.15 scanner 
+d spacecraft attitude approximately 21 degree 
+lagging 5 degree lead 
+e downlink telemetry - code 
+f general thermal control - temperature within 
+acceptable range 
+g rpm tank pressure - within acceptable range 
+h orbiter science - instruments power pws , 
+euv , uvs , epd , mag , hic , dd 
+- power , temperature within 
+acceptable range 
+j cmd loss timer setting - 264 hour 
+time initiation - 184 hour 
+trajectory 
+noon thursday , april 22 , 1993 , galileo spacecraft trajectory 
+status follow : 
+distance earth km 1.14 au 
+distance sun km 1.92 au 
+heliocentric speed km per hour 
+distance jupiter km 
+round trip light time 18 minute , 58 seconds 
+special topic 
+1 . 
+april 22 , 1993 , total real-time command 
+transmit galileo since launch . 
+, initiate 
+sequence design process initiate real-time command process . 
+past week , one real time command transmit : one initiate 
+sequence design process none initiate real time command 
+process . 
+command activity command reset command loss 
+timer . 
+___ _____ ___ 
+_ | ____ \ _ | ron | 
+| | | | __ \ | | | | jet propulsion lab | 
+___ | | | | | __ | | | | __ telos | new zealand 
+___ | | | | ___ | | __ | pasadena , ca | part caterpillar 
+| _____ | | _ | | _____ | | part vegetable . 

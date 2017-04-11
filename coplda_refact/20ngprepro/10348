@@ -1,0 +1,50 @@
+: andre beck 
+subject : re : need shade program example x 
+: 
+organization : dept. computer science , tu dresden , germany . 
+lines : 43 
+: . 
+de 
+article < > , patrick l. mahan write : 
+| > 
+| > # 
+| > anyone know shade program base xlib public domain ? 
+| > need example allocate correct program . 
+| > # 
+| > help . 
+| > # 
+| > 
+| > know might help , start play program 
+| > call persistance vision also display output 
+| > via x windows . 
+fairly good job allocate 
+| > display . 
+get source site canda . 
+| > person retrieve david buck . 
+| > 
+think original post search exist implementation 
+triangle . 
+fairly complex plain 
+x. simpler shade model implement already , x3d ask archie 
+get latest version . 
+, fast implementation possible utilize extension 
+, either shade image fast update window 
+, able shade . 
+portable 
+` vanilla x ' way would shade normal use , 
+would good enough static thing fractal landscape 
+stuff . 
+speak , x come original source 
+package good , especially speed , 
+compliance . 
+look , preview code . 
+
+: 
+readme state point better 
+1.0 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

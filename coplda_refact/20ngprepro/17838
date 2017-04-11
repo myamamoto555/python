@@ -1,0 +1,18 @@
+: glenn sullivan 
+subject : re : long distance ir detection 
+summary : result ir beacon track hardware test 
+organization : arizona state university 
+lines : 15 
+stan burton write : ... ... 
+> would like able detect angular position low accuracy 
+> ir emit source distance 100 meter better 
+> daylight . 
+ir source could emit signature ; lean toward 
+> 30 khz square wave 50 % duty cycle . 
+> 
+design build hardware 1988 would output logic level 
+567 tone detector upon detect 500 lead 28 foot away . 
+use motorola , bias linearly loop servo 
+variation sunlight light . 
+use lens . 
+allen sullivan 

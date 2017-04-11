@@ -1,0 +1,35 @@
+: ron 
+subject : re : & novell 
+organization : malaspina college 
+lines : 29 
+article < > , nick fitzgerald , pc software consultant , csc , uoc , nz write : 
+> article < > , thomas j 
+> bilan write : 
+> 
+put z config.sys , run access 
+drive f : log novell . 
+put z config.sys access 
+drive . 
+
+seem way make work 
+statement config.sys . 
+> 
+> first , use think change ! 
+. 
+> 
+> problem command way netware general 
+> case particular add drive device chain . 
+> set z mean `` unassigned '' oppose 
+> `` unused '' drive letter netware use , tack drive 
+> mapping - onto end - exist list drive . 
+obviously 
+> attach network drive `` exist , unused '' drive letter . 
+> 
+> would guess next thing would try something like m , 
+> machine leave fair swathe drive still 
+> allow 13 netware drive mapping well . 
+require dos drive . 
+use j make first novell drive 
+k leave drive g , h , j . 
+local dos drive use a-f . 
+ron 

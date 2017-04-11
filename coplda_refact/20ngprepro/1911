@@ -1,0 +1,42 @@
+: darcy mccallum 
+subject : keyboard mapping window placement question 
+: . 
+
+organization : mentor 
+keyword : 
+lines : 27 
+two common subject hope someone deal 
+specific question . 
+1 . 
+application depend modifier , best lookup method ? 
+choice call key press 
+modifier , make call init app store modifier 
+lookup table . 
+would like second way , seem 
+get notify user use remap modifier . 
+know 
+app call event generate 
+pick modify internal table . 
+, 
+seem get notify event user use . 
+use xt , 
+o'reilly say ' ... automatically handle xt ... ' . 
+use xlib , alum , get nothing . 
+stem problem user 
+sun keyboard ; plus various . 
+modifier 
+requirement . 
+2 . 
+would like place popup immediate right 
+main window . 
+want y , 
+side touch . 
+need ask x , y window 
+manager 's border main window . 
+ring bell anyone 
+call , immediately check x , y move 
+see right , next callback ask x , y 
+see offset wm border . 
+help would appreciate . 
+darcy 
+

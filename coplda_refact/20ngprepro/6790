@@ -1,0 +1,189 @@
+: 
+subject : cryptography faq - miscellany 
+organization : crypt cabal 
+lines : 174 
+expire : 22 may 1993 gmt 
+: 
+: . 
+
+summary : part 9 10 faq , miscellany . 
+national security agency . 
+us export restriction . 
+tempest 
+electromagnetic interference monitoring . 
+beale cipher , hoax ? 
+american cryptographic association . 
+rsa public-key patent . 
+: 
+: 
+: 
+faq , part 9 : miscellany 
+ninth ten part faq . 
+part 
+mostly independent , read first part rest . 
+time send miss part mail , ask . 
+note `` '' refer reference list last part . 
+section faq available via anonymous ftp 
+. 
+xx . 
+cryptography 
+faq post newsgroup , , 
+every 21 day . 
+contents : 
+national security agency nsa ? 
+us export regulation ? 
+tempest ? 
+beale ciphers , hoax ? 
+american cryptogram association , get touch ? 
+rsa patent ? 
+voynich manuscript ? 
+national security agency nsa ? 
+nsa official security body u.s. government . 
+
+give charter president truman late 40 's , 
+continue research cryptology till present . 
+nsa 
+know largest employer mathematician world , 
+also largest purchaser computer hardware 
+world . 
+government general always prime employer 
+cryptologist . 
+nsa probably possess cryptographic expertise many 
+year ahead public state art , undoubtedly break 
+many system use practice ; reason national 
+security almost information nsa classify . 
+bamford 's book give history people operation 
+nsa . 
+follow quote massey highlight 
+difference public private research cryptography : 
+`` ... one regard cryptology prerogative government , 
+one accept cryptologic research conduct 
+behind closed door . 
+without doubt , number worker engage 
+today secret research cryptology far exceed 
+engage open research cryptology . 
+10 
+year fact widespread open research 
+cryptology . 
+, continue , conflict 
+two research community . 
+open research common 
+quest knowledge depend vitality open 
+exchange idea via conference presentation publication 
+scholarly journal . 
+government agency , charge 
+responsibility break cipher nation , 
+countenance publication cipher break ? 
+
+researcher good conscience publish cipher might 
+undermine effectiveness government 's ? 
+one might argue publication cipher would 
+force government behave like stimson 's ` gentleman ' , one 
+must aware open research cryptography fraught 
+political ethical consideration severity 
+scientific field . 
+wonder conflict 
+occur government agency open researcher 
+cryptology , rather conflict least 
+aware mild . '' 
+us export regulation ? 
+nutshell , two government agency control 
+export encryption software . 
+one bureau export 
+administration department commerce , authorize 
+export administration regulations ear . 
+another office 
+defense trade controls dtc state department , authorize 
+international traffic arm regulations itar . 
+rule 
+thumb , work cocom less stringent 
+requirement , dtc take order nsa want see 
+everything first refuse transfer jurisdiction . 
+newsgroup carry many interesting 
+discussion law surround cryptographic export , 
+people think law , many complex issue 
+go beyond scope technical group like . 
+make sure 
+consult lawyer anything get throw 
+jail ; lucky , lawyer might know lawyer 
+least hear itar . 
+tempest ? 
+tempest standard electromagnetic shield computer 
+equipment . 
+create response discovery 
+information read computer radiation e.g. , crt 
+quite distance little effort . 
+needless say , encryption much good 
+available way . 
+beale ciphers , hoax ? 
+thanks jim gillogly information john king 
+correction . 
+story pamphlet j. b. ward 1885 go : thomas 
+jefferson beale party adventurer accumulate huge mass 
+treasure bury bedford county , virginia , leave 
+three cipher innkeeper ; cipher describe 
+location , contents , intended beneficiary treasure . 
+ward give decryption second cipher contents call b2 ; 
+encrypt book cipher use initial letter 
+declaration independence dous key . 
+b1 b3 unsolved ; 
+many document try key b1 . 
+aficionado join group attempt solve b1 various 
+means eye toward splitting treasure : 
+beale cypher association 
+p.o. box 975 
+beaver falls , pa 
+get cipher include 
+line : 
+send index 
+message follow direction . 
+apparently several different version cipher 
+float around . 
+correct version base 1885 pamphlet , 
+say john king < > . 
+believe story hoax . 
+give long list 
+problem story . 
+gillogly decrypt b1 doi 
+find unexpected string , include . 
+hammer president beale cypher association agree 
+string could appear chance , feel must 
+explanation ; gwyn expert unimpressed 
+string . 
+american cryptogram association , get touch ? 
+aca organization devote cryptography , emphasis 
+cryptanalysis system attack either 
+computer . 
+organ `` cryptogram '' include 
+article challenge cipher . 
+among 50 cipher type 
+english language simple substitution , playfair , 
+, bifid , , grille , homophonic , . 
+due $ 15 one year 6 issue ; outside north america ; 
+less student 18 senior . 
+subscription send 
+aca treasurer , west hickory st. , mundelein , il . 
+rsa patent ? 
+yes . 
+patent number , file , grant . 
+discussion patent , whether 
+grant , algorithm patent general , related legal moral 
+issue , see . 
+information 
+league programming freedom see . 
+note one 
+original purpose collect question 
+`` rsa patent ? '' 
+, often flood 
+technical newsgroup , appropriate forum . 
+voynich manuscript ? 
+nelson minar say mailing list 
+subject . 
+address write subscribe vms mailing list 
+: < > 
+ftp archive : : 
+sort information manuscript , 
+course . 
+good bibliography find ftp site . 
+kahn 's 
+`` codebreakers '' give good introduction . 

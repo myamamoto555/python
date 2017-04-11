@@ -1,0 +1,23 @@
+: mike bell 
+subject : cursor size problem 
+organization : computer science , liverpool university 
+lines : 19 
+: 
+apologies read no-one solve 
+one yet post ! 
+sorry 
+problem create cursor bigger , use motif 1.1 
+run hp-ux 8.07 - function return valid result 
+cursor appear bitmap bigger aforementioned size . 
+try 
+use follow code : 
+unsigned int w , h ; 
+, , 72 , 71 , & w , 
+& h ; 
+return nearest size require however return 72 71 
+width height respectively . 
+wrong ? 
+
+get round problem !! 
+thanks advance 
+mike 

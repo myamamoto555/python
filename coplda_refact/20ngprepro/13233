@@ -1,0 +1,49 @@
+: michael turok 
+subject : ` ' problem 
+organization : information resources inc. . 
+lines : 46 
+hus , netter : 
+problem ` ' : know correctly process 
+clause c preprocessor statement . 
+evaluate everything 
+true matter conditional . 
+example , choke one x11 include file distribute 
+sun - namely : 
+! 
+define | | define __ __ 
+# include 
+# define index 
+# define 
+bsd & & ! 
+__ __ 
+# include 
+! 
+| | __ __ 
+` ' evaluate corresponding statement 
+` true ' try open file exist 
+. 
+also lot statement legacy code . 
+get build ` ' net - fix problem . 
+fairness note ` ' sun 's 
+distribution mention problem : 
+bug 
+source cpp , berkeley c 
+preprocessor , compile way 
+directive evaluate `` true '' regardless 
+actual value . 
+may cause wrong 
+directive evaluate . 
+simply 
+parser write expression . 
+anybody come ` ' 
+... willing share ? 
+since often experience delay newsfeed - please reply 
+directly e-mail address - > 'll post summary . 
+thanks advance . 
+
+michael turok 
+information resources , inc. . 
+e-mail : 
+200 fifth avenue voice : ext. 
+waltham , ma , usa fax : 
+

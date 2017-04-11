@@ -1,0 +1,40 @@
+: brian noble 
+subject : x server scanline padding question 
+: 
+organization : school computer science , carnegie mellon 
+lines : 42 
+almost port xfree86 1.2 new piece display 
+hardware , run snag think may somewhat 
+commonplace , send . 
+display , memory map , 1-bit 
+display . 
+server 's view world , obtain via | 
+, seem exactly . 
+however , display 
+version framebuffer give impression server 
+use scanline long . 
+bit experimentation , 
+seem problem server pad line 
+word , scanline size buffer 90 byte , 
+exactly divisible four . 
+change follow define 
+: 
+-- 
+32 
+5 
+2 
+-- 
+: 
+-- 
+16 
+4 
+2 
+-- 
+exactly right solution . 
+tell server either 
+pad scan line 'cause server 
+build run particular display , pad byte 
+? 
+use customize version .2 , mach 3.0 . 
+thanks 
+brian 

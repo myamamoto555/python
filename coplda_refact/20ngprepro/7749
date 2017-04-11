@@ -1,0 +1,34 @@
+: 
+subject : re : compile 
+organization : communications services -- 
+lines : 27 
+article < > write : 
+> article wilson swee < > write : 
+> | > piece x code compile fine , , 
+> | > well , whenever compile , give 
+> | > undefined ld error : 
+> | > _ sin 
+> | > _ cos 
+> | > _ pow 
+> | > _ floor 
+> | > _ 
+> | > _ 
+> | > 
+> | > follow library link : 
+> | > - - - - - 
+> | > 
+> | > generate template . 
+> | > anyone give pointer miss compile 
+> | > ? 
+> 
+> well , first 2 easy . 
+need math library . 
+try add - lm 
+> - . 
+know whole problem start . 
+> 
+> -- 
+`` think '' try link . 
+instead 
+- . 
+least solve problem ! 

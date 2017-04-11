@@ -1,0 +1,29 @@
+: andre beck 
+subject : re : encapsulated postscript x 
+keyword : ep 
+: 
+organization : dept. computer science , tu dresden , germany . 
+lines : 29 
+: . 
+de 
+ep _ _ plain postscript . 
+wrap comment strip 
+dubious command compatibility . 
+simply 
+% ! 
+save 
+def 
+% include ep file 
+restore 
+
+% end file 
+way show natural page position size . 
+program may use % % : comment eps file 
+arbitrary scale , rotate translate include complicated 
+way . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

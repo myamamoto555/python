@@ -1,0 +1,17 @@
+: coronado emmanuel abad 
+subject : need polygon splitting algo ... 
+organization : university wollongong , nsw , australia . 
+lines : 11 
+: 
+keyword : polygon , splitting , clipping 
+idea clip one polygon use another polygon 
+necessarily rectangular window . 
+problem 
+find new vertex result `` '' 
+first one . 
+simply matter extend 
+usual algorithm whereby edge one polygon check 
+another polygon ??? 
+simpler way ?? 
+comment welcome . 
+noel . 

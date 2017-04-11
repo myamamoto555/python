@@ -1,0 +1,24 @@
+: dan anderson 
+subject : re : m mouse driver 8.2 
+: 
+organization : technologies , inc. . 
+lines : 20 
+article < > carlos g. write : 
+> anyone documentation m mouse driver 8.2 ? 
+get 
+> get windows 3.1 , windows manual come documentation . 
+> particular need know turn , speed 
+> outside window . 
+greater sensitivity need play various 
+> game , esp x-wing : 
+> 
+sensitivity change use , v , h parameter . 
+command following : 
+v - vertical sensitivity 
+h - horizontal sensitivity 
+- 
+follow parameter number 1 100 1 - slowest , . 
+default 50 . 
+type command `` mouse '' right 
+keyboard add autoexec.bat . 
+hope help . 

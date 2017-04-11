@@ -1,0 +1,9 @@
+: 
+subject : re : need source old radio shack ste 
+: : : 
+: apr 21 1993 
+lines : 5 
+make rohm . 
+part . 
+call ask 
+get sample like $ 2 part . 

@@ -1,0 +1,47 @@
+: ralph mor 
+subject : re : tom gaskins vs programming manuals o'reilly 
+organization : x consortium , mit laboratory computer science 
+lines : 49 
+merlin write : 
+> could someone explain difference tom gaskins ' two book : 
+> o programming manual 
+> o programming manual 
+> would want buy one book vs book ? 
+80386 
+> run sco unix desktop , sun lab , 
+> access variety system alliant , cray 
+> network . 
+mostly , would like 3d 
+> rat , rabbit , monkey , human brain structure . 
+rather decide book want buy , need decide 
+programming interface want use , buy appropriate book . 
+write article x resource discuss difference 
+appear issue 6 
+pretty soon . 
+brief summary ... 
+graphic apus design portable many 
+device . 
+implementation support x window system take 
+advantage 3d extension x call `` pex '' . 
+slightly 
+`` lower '' level apus design efficiently support pex 
+extension x. 
+advantage use ... 
+- integrate xlib , xt , motif , etc. better 
+- provide immediate mode capability 
+- free `` policy '' 
+- pex support , currently extend support 
+feature find like texture mapping , anti-aliasing . 
+give access feature . 
+advantage use ... 
+- support multiple device , x base one 
+- support archiving , metafile , hardcopy output 
+- input device make input easier 
+- handle exposure event resize 
+- help . 
+work strictly x care thing like 
+archiving , would go . 
+either way , find 
+api 's lot common . 
+ralph mor 
+mit x consortium 

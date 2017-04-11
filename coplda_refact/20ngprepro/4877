@@ -1,0 +1,46 @@
+: nancie p. marin 
+subject : re : question 
+organization : internet 
+lines : 36 
+: 
+: 
+article < > buzz moschetti write 
+> article < > ken whaley write : 
+actually , must also ask faq 's # 1 popular reason graphic 
+show : wait expose event draw 
+rectangle ? 
+> 
+> suppose idle app realize map window contain 
+> xlib graphic . 
+button widget , press , cause new item 
+> draw window . 
+action clearly call 
+> directly ; instead , register existence new 
+> item memory structure let expose event handler take care 
+> render image time guarantee 
+> window map . 
+> 
+> problem , course , expose event generate window 
+> visible map . 
+know best way `` tickle '' window 
+> expose event handler invoke draw new item ? 
+> 
+original question ??? 
+previously 
+state screen 
+make sure image datum , . 
+
+problem expose event , 
+work !!! 
+anyone code fragment could send demonstrate 
+work ??? 
+would helpful ! 
+thanks ! 
+
+nancie p. marin net : 
+ensco inc. . 
+mail : 445 pineda ct . 
+melbourne , fl . 
+
+fax : 
+

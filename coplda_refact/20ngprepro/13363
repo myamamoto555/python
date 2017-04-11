@@ -1,0 +1,22 @@
+: daniel ortmann 
+subject : re : vga graphics library 
+keyword : c , library , graphic 
+: ns1 . 
+. 
+
+organization : north dakota higher education computing network 
+lines : 11 
+: 
+article < > bill sheppard write : 
+many high-end graphic card come c source code basic graphic 
+sort thing change color , draw fill , etc. . 
+
+library exist generic vga graphic , hopefully 
+public domain ? 
+would purpose compile 
+operating system run standard pc . 
+check server code . 
+`` xfree86 '' 
+-- 
+daniel `` '' ortmann ndsu electrical engineering 
+shalom fargo , north dakota 

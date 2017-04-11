@@ -1,0 +1,55 @@
+: dick 
+subject : re : build problem .1 
+organization : ahold nv , zaandam , netherlands , eec 
+lines : 24 
+doug acker write : 
+: . 
+. 
+continue build problem , get stick build ... 
+: 
+: gcc - - o - o2 - . 
+$ + \ : $ - l. . 
+. 
+. 
+. 
+- - l. . 
+. 
+. 
+. 
+- - l. . 
+. 
+. 
+. 
+- - l. . 
+. 
+. 
+. 
+- - l. . 
+. 
+. 
+. 
+- - . 
+- - - 
+: undefined first reference 
+: symbol file 
+: index . 
+
+: . 
+
+: ld : fatal : symbol reference error . 
+output write 
+: error code 1 
+: make : fatal error : command fail target ` ' 
+: 
+: clue help ? 
+either : 
+add - - list 
+
+index respectively . 
+use arg . 
+former bsd , latter . 
+-- 
++ ahold nv + 
+| room 146 , 2 , 1506 ck zaandam , netherlands , eec | 
+| - tel : , fax : | 
++ + 

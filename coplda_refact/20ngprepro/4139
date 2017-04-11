@@ -1,0 +1,55 @@
+: ingemar 
+subject : re : stereo sound problem ? 
+mac game 
+organization : dept ee , university linkoping 
+lines : 45 
+steve bollinger < > write : 
+> enter game developer . 
+sound driver current sound manager 
+> inconveniently lame make game . 
+sound driver pretty ok , since fast . 
+sound manager use 
+book useless . 
+disposing sound channel soon sound complete 
+question game smooth animation . 
+slow . 
+sound driver much snappier sound manager . 
+unfortunately , 
+system 7 support poorly , make program crash occasionally . 
+> story developer : cheat ! 
+> really , absolutely , positively allow 
+> , 
+> go say anyway . 
+> stop cheating sound ! 
+> really soon , sorry , even without external speaker 
+> disappoint sound future hardware . 
+grace period 
+> end . 
+> sound manager understandable , work pretty well 
+> work 
+> even better soon , use . 
+well , want code work old system . 
+know sy 7.1 , 
+least , bug sound manager cause 
+channel hang error message . 
+happend keep 
+channel open long period - necessary performance - play many 
+sound , stop sound halfway . 
+callbacks seem reliable . 
+way safely tell sound stop play 
+inspect private variable channel , think , 
+way find tell channel hang inspect 
+undocumented flag modify . 
+happy ? 
+nope . 
+consider write simply get 
+rid bug . 
+better suggestion ? 
+silent game among | e solution . 
+-- 
+ingemar 
+dept. electrical engineering ... ! 
+
+. 
+. 
+university linkoping , sweden 

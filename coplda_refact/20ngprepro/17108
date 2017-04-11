@@ -1,0 +1,32 @@
+: markus 
+subject : re : soundblaster irq port setting 
+organization : reg . 
+computing center , university cologne 
+lines : 21 
+distribution : world 
+: 
+: . 
+de 
+article < > , paul bartholomew write : 
+| > > two device isa bus pc share interrupt , 
+| > > implement single card . 
+| > 
+| > interesting . 
+would care explain , soundblaster 
+| > pro card printer card share irq 7 successfully ? 
+assure 
+| > set irq 7 problem . 
+
+| > computer ibm clone . 
+| > 
+| > paul bartholomew 
+| > 
+| > 
+configure device irq long use 
+simultaneously , dos least . 
+: sb sit 
+tell something . 
+configure soundblaster 
+get ethernet card hit irq thousand time per 
+second . 
+markus 

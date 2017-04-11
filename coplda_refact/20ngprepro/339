@@ -1,0 +1,32 @@
+: 
+subject : vanishing font problem ... 
+organization : department mathematics , queen 's university kingston 
+lines : 25 
+colleague bizarre font problem new mips workstation . 
+first log via , single window appear 
+mwm window manager run . 
+configuration , x window 
+application particularly work fine . 
+however , open 
+second application , suddenly start either window , 
+give error : unable load iso 8859-1 font . 
+difference two window initial 
+one reference different name file , prettier 
+color slight change . 
+investigation show 
+open default cause behavior , significant , 
+x application longer load font invoke 
+command line either window . 
+start different 
+font use - fn option , problem . 
+would seem 
+default load font somehow cause server lose 
+font . 
+note : either window show 
+font available , appear problem font 
+. 
+rewrite file use different 
+font hope best , anyone idea ? 
+info : recent mips workstation r4000 believe , 
+current operating system run . 
+mwm 's fault , problem occur twm , etc. . 

@@ -1,0 +1,91 @@
+: nikolay 
+subject : news re : list image processing system ? 
+distribution : 
+: 
+organization : moscow scientific industrial ass . 
+spectrum 
+lines : 137 
+moscow scientific association `` spectrum '' offer 
+videoscan vision system , wich include software set 
+controller . 
+software 
+support videoscan family program kit develop . 
+kit 
+include 200 different function image processing . 
+kit work interactive regime , include help 
+non professional user . 
+next possibility : 
+- input frame board videoscan family ; 
+- read - white image - disk ; 
+- print image printer ; 
+- make arithmetic 2 frame ; 
+- filter image ; 
+- work ; 
+- edit image . 
+- include user exe module . 
+controller 
+function controller load . 
+controller allow one load fragment 
+field pixel . 
+clock rate mhz load image 512 pixel 
+line mhz load 256 pixel image . 
+
+provide equal pixel size input image horizontal 
+vertical direction . 
+number gray level input mode 256 . 
+video signal capture time - 2.5 s. 
+controller 
+purpose controller enter tv image ibm 
+pc machine type . 
+controller 
+create base modern element , include user 
+programmable gate array . 
+controller allow digitize input signal different 
+resolution . 
+flexible architecture make possible change 
+technical parameter . 
+instead tv signal one process 
+analog signal include signal slow-speed scanning 
+device . 
+controller follow technical characteristic : 
+- memory volume - 256 k 2 mb ; 
+- resolution work standard video signal - 
+pixel ; 
+- resolution work slow input regime - 
+pixel ; 
+- video signal capture time - 40 ms. 
+- maximum size screen memory volume 2mb - 
+pixel ; 
+- number gray level - 256 ; 
+- clock rate input - 30 mhz ; 
+- 4 input video multiplexer ; 
+- lookup table lut ; 
+- possibility realize `` scroll '' `` zoom '' ; 
+- 8 line external synchronization input use external 
+control signal ; 
+- electronic adjustment black white reference analog - 
+digital converter ; 
+- possibility output image color rgb monitor . 
+one change list function parameter 
+controller reprogram . 
+image processor 
+image processor allow digitize process tv 
+signal real time . 
+possible digitize tv signal 
+512 512 8 resolution realize arithmetic logic operation 
+two image . 
+processor create base modern element 
+include user programmable gate array design board 
+pc . 
+memory volume allow write 256 frame 512 512 8 
+format . 
+possible accumulate 16 image . 
+processor follow technical characteristic : 
+- memory volume 64 mb ; 
+- number gray level - 256 ; 
+- 4 input video multiplexer ; 
+- lookup table ; 
+- electronic adjustment black white adc reference ; 
+- image size 256 256 8192 8192 ; 
+- possibility color black white output ; 
+- possibility input video source . 

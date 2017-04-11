@@ -1,0 +1,59 @@
+: eric dujardin 
+subject : re : accented character ... 
+keyword : accent 
+organization : inria 
+lines : 57 
+able configure type accented character . 
+use , font , shell follow 
+definition : 
+
+
+, add follow . 
+file : 
+: true 
+: true 
+vt100 . 
+translation : \ 
+meta ' : \ n \ 
+meta ` : grave \ n \ 
+meta ^ : circ \ n \ 
+meta \ \ , : ced 
+vt100 . 
+: \ 
+~ shift e : string none \ n \ 
+e : string none \ n \ 
+~ shift c : string \ n \ 
+c : string 
+vt100 . 
+: \ 
+~ shift e : string none \ n \ 
+e : string none \ n \ 
+~ shift u : string none \ n \ 
+u : string none \ n \ 
+~ shift : string none \ n \ 
+: string none 
+vt100 . 
+: \ 
+~ shift e : string none \ n \ 
+e : string none \ n \ 
+~ shift u : string none \ n \ 
+u : string none \ n \ 
+~ shift : string none \ n \ 
+: string none \ n \ 
+~ shift o : string none \ n \ 
+o : string none 
+vt100 . 
+: \ 
+~ shift c : string none \ n \ 
+c : string none 
+make meta - ' , ` , ^ key behave dead key . 
+course , work . 
+emac , solution install 
+lucid version 19 , load library . 
+hope help , 
+eric 
+-- 
+eric dujardin - 
+inria , projet rodin `` les bon gong font 
+bp 105 , le les amis '' 
+tel : 33 1 39 63 56 19 gotlib 

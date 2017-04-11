@@ -1,0 +1,55 @@
+: george ross 
+subject : twm & greyscale 
+organization : department computer science , edinburgh university 
+lines : 55 
+distribute , twm think everything three cell must 
+color screen . 
+patch use screen 's visual class . 
+wed may 12 1993 
+-- wed may 12 1993 
+
+
+-- -- 
+scr - > unsigned long 1 scr - > - 1 ; 
++ 
+, < 3 
+scr - > monochrome monochrome ; 
+else 
+scr - > monochrome color ; 
++ 
++ template ; 
++ ; 
++ int ; 
++ 
++ , ; 
++ ; 
++ ; 
++ , | , 
++ & template , & ; 
++ 1 
++ switch - > class 
++ case : 
++ case : 
++ case : 
++ case : 
++ scr - > monochrome color ; 
++ break ; 
++ 
++ default : scr - > monochrome monochrome ; 
++ break ; 
++ 
++ 
++ else 
++ void , 
++ '' % d visual match e , assume mono \ n '' , 
++ ; 
++ scr - > monochrome monochrome ; assume 
++ 
++ 
++ 
+setup default color 
+scr - > true ; 
+-- 
+george d m ross , department computer science , university edinburgh 
+king building , mayfield road , edinburgh , scotland , 
+mail : voice : fax : 

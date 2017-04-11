@@ -1,0 +1,138 @@
+: germano 
+subject : re : technical detail 
+organization : swiss federal institute technology eth , zurich , ch 
+lines : 120 
+hmm , followup post ... well , care . 
+first let try work fact get know 
+, hellman denning able tell : 
+chip confine digital telephony , perform 
+general encryption symmetric manner . 
+chip support cfb ofb 
+ecb whatever fourth mode operation des , algorithm 
+consist 32 round whatever , take 80-bit key . 
+input datum 
+seem 64 bit ? 
+yes . 
+two people want secure communication whatever mean 
+clipper involve first agree one secret key . 
+one key per direction ? 
+exchange key via however . 
+somehow two feed win secret key 
+ready work . 
+clipper chip carry unique 30 bit 's , 160 . 
+160 seem gain encrypt 
+160 . 
+seem store chip 
+beginning communication perhaps certain ?? 
+send fist real 64-bit output first encryption clipper 
+chip put 's packet guess 3 represent serial number , 
+session key . 
+might look like 
+x e k ; + k2 , serial number 
+x transformation 3 ? 
+packet involve . 
+family sp ? 
+- key equal chip . 
+x might simple xor ??? 
+, digital ? 
+usual , every packet 
+encrypt decrypt clipper . 
+denning describe k1 k2 shall generate , use seed 160 
+bit 's . 
+, leave alone politics , concern much , 
+american tm , weak point 
+scheme , might exploit several party . 
+far know generation k1 , k2 ; s1 s2 look like 
+obvious backdoor . 
+could use generate know 
+also chip . 
+really 
+imagine seed would need otherwise , true 
+generation k1 , k2 buy much money . 
+, escrow . 
+get 80 bit key . 
+security 
+could little existant maximize give 
+, together give k1 , k2 . 
+let 's simply 
+assume escrow trustworthy , fool criminal 
+law agency . 
+quarrel escrow 
+would hinder duty , 
+key surrender , corresponding 
+chip compromise forever . 
+clever , . 
+send encrypted 
+police whoever want 's listen ? 
+escrow could simply decode 
+send back police . 
+would naturally 
+warrant expire ... would better technical solution , 
+guess politics work way . 
+apparently miss dennings state one perform actually decode 
+intercept message shall fbi . 
+great . 
+local guy inter - 
+cept understand traffic anymore . 
+mean fbi monopolize 
+right legal wiretap ? 
+law , idea 
+allow tap , certainly mean watch - 
+cation route automatically company 
+fbi , watch one . 
+mean far 
+understand know switching - 
+company , provide . 
+
+secret , thus call readable 
+anybody care . 
+_ like _ ! 
+guess , happen , use chip ecb mode , 
+first packet chip somehow lose garble ? 
+session 
+key would actually broadcast line ? 
+hmmm . 
+
+difficult : ^ 
+last point , side . 
+read hear 
+clipper programming language dbase , ? 
+seem 
+many advantage , oversee ! 
+afterthought rights . 
+please note idea 
+talk !!! 
+: 
+> amendment 1 
+> 
+> congress shall make law respect establishment religion , 
+> prohibit free exercise thereof ; abridge freedom speech , 
+> press ; right people peaceably assemble , 
+> petition government redress grievance . 
+text actually bill rights , overrule ? 
+: ` freedom speech ' ` secrecy speech ' 
+maybe need extend amendment # 4 cover information 
+communication ? 
+sure position government actually legally 
+try ban cryptography arm amendment say may , 
+condition . 
+hmm , tricky situation : - 
+actually make much sense discuss topic ... 
+discussion technical detail system highly 
+suggest appreciate : - 
+friendly greeting , 
+germano 
+disclaimer : everything derive thing hear read 
+person , everything could wrong . 
+opinion thought 
+mine , subject change without notification . 
+warranty , 
+neither implicit explicit etc. etc. etc. ad nauseam . 
+p.s. please ask political opinion , might bother re - 
+ply . 
+information read last line p. signature 
+-- 
+instruments register thing design register . 
+space still contain infinite unknown . 
+
+germano 

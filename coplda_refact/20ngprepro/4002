@@ -1,0 +1,65 @@
+: randall elton ding 
+subject : re : adcom ir sensor & repeater spec 's ? 
+organization : computing services division , university wisconsin - milwaukee 
+lines : 48 
+: 
+article < > john t. write : 
+> anyone know detail interface 5 wire din 
+> ir remote sensor & 2 wire ir repeater adcom 
+> preamp ? 
+adcom part number , , 
+> . 
+> 
+> cursory physical examination connector indicate 
+> connector 5 pin din may provide : view connector front 
+> 
+> | 
+> 5 1 pin ? 
++ ? 
+v @ ??? 
+ma 
+> 4 2 pin ? 
++ - ? 
+v @ ??? 
+ma 
+> 3 pin 3 signal ground 
+> pin ? 
+demodulated signal ? 
+, ? 
+polarity , ? 
+ma drive 
+> pin ? 
+signal drive repeater led drive 
+> resistor ? 
+
+> 
+> assume repeater connector drive ir repeater 
+> led 's directly . 
+true ? 
+> 
+> anyone fill ? 
+'s . 
+thanks . 
+> 
+scoop . 
+get home brew receiver work , would 
+willing share rest ? 
+always want 
+build never time fool around design . 
+pin 1 : signal ground 
+pin 2 : signal 
+pin 3 : always hot +6 volt 
+pin 4 : +6 volt , hot preamp turn 
+pin 5 : repeater connector 
+infrared repeater jack back preamp connect 
+anything inside preamp except 5 pin connector pin # 5 . 
+
+150 ohm resistor two jack , 1.5 k pin 5 
+ground . 
+signal pin # 2 preamp sum build ir receiver . 
+use chip call bjt amplify signal . 
+would 
+imagine logical way would duplicate circuit use 
+external receiver . 
+need info , let know . 
+randy 

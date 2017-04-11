@@ -1,0 +1,46 @@
+: samir k patel 
+subject : background processing x application 
+organization : computer science department , texas a&m university 
+lines : 31 
+distribution : world 
+: . 
+
+write server program make socket connection many node 
+collect datum node periodically . 
+need display datum 
+x application . 
+try 
+invoke server use work ok . 
+
+problem time delay collect datum . 
+
+return time application remain busy 
+respond user input . 
+button press event queue 
+server finish task . 
+go try 
+call . 
+read pipe something read pipe . 
+thinking create one pipe server write client 
+x application read . 
+doubt may 
+able clarify . 
+1 fork process . 
+create copy process . 
+right !! 
+two copy mean ? 
+two shell . 
+fork 
+application . 
+responsibility process . 
+
+call process . 
+? 
+2 fork one process . 
+read 
+one server input . 
+thanks 
+samir patel 
+
+
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 

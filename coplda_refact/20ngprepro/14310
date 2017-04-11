@@ -1,0 +1,35 @@
+: michael elbel 
+subject : re : blinking cursor ??? 
+organization : pcs computer systeme gmbh 
+lines : 28 
+< > write : 
+> quote < > bernward : 
+> + --------------- 
+back day x11 .1 analyze code . 
+cursor 
+implement draw rectangle around character . 
+
+seem change 'til . 
+source could add blinking cursor via 
+similar . 
+> server overhead mildly ridiculous , though see also , 
+> dos window . 
+really want wake every 
+> half second whack server ? 
+? 
+run emu 25 mhz 68020 box . 
+make 
+difference performance whether cursor set blinking 
+think bit , cycle 400 m hell lot 
+time even slowest pc . 
+since would course enable 
+blinking text cursor input focus , 
+application active anyway . 
+repeat , blinking text cursor 
+cost almost nothing performance , need think 
+design software . 
+michael 
+-- 
+michael elbel , gmbh , muenchen , germany - 
+nur wat fuer - mia 
+fermentation fault coor dump 

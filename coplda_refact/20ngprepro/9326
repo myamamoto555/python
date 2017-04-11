@@ -1,0 +1,33 @@
+: markku 
+subject : raster text widgets view ! 
+, .3 version 
+organization : technical research centre finland 
+lines : 18 
+distribution : comp 
+: markku 
+: . 
+
+: 1.0 
+: ; charset iso-8859-1 
+: 
+version 1.3 widget available 
+: -1.3 . 
+
+: -1.3 . 
+readme 
+better detail , check readme . 
+extensive detail , 
+.1 . 
+, still time update one . 
+new functionality add since 1.2 version . 
+raster widget 
+handle expose event slightly intelligently 
+really add simple program use 
+athena porthole panner widget . 
+program . 
+c 
+simple demonstration usage copy 
+` ' actually : - 
+-- 
+markku , technical research centre finland 
+telecommunications laboratory , 7 b , espoo , finland 

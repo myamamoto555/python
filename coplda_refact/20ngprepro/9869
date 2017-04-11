@@ -1,0 +1,52 @@
+: rik turnbull 
+subject : string widget resource converter 
+organization : computer science , liverpool university 
+lines : 52 
+: 
+anybody tell use function `` '' . 
+
+want specify widget name resource file connect 
+two widget together . 
+ie . 
+: 
+however , run program , get message : 
+warning : type converter register ` string ' ` window ' conversion . 
+like manual sez . 
+manage find bit code seem correct way 
+go : 
+static 
+
+, 
+, , 
+
+
+; 
+, , , 
+, , , null ; 
+however , get clue put ! 
+example code seem 
+suggest create widget ; elsewhere 
+say add widget 's `` '' function . 
+? 
+
+one ? 
+: - 
+anybody code , please let know trick - sure 
+faq . 
+thanks advance , 
+rik . 
+ps : header file `` '' `` '' - use 
+`` '' `` '' ok know : - 
+. 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - . 
+| | | 
+| richard turnbull | | 
+| | dept. . 
+computer science | 
+| e-mail : | university liverpool | 
+| | liverpool | 
+| | england | 
+| phone : | | 
+| | | 
+. 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - . 

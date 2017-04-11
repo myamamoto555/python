@@ -1,0 +1,18 @@
+: jv ramsdell 
+subject : re : add second ide drive 
+: oracle 
+organization : battelle pacific northwest labs , richland , wa 
+lines : 11 
+originator : 
+> buy western ide drive want add 
+> system already ide drive . 
+controller say 
+> support 2 hard drive , plug cable , bio setup , 
+> try start system , pause get invalid drive d : 
+> error message . 
+system boot , access new hard drive . 
+... 
+jumper drive must set work . 
+c : set master drive , d : must set slave drive . 
+actual setting info drive available 
+western digital . 

@@ -1,0 +1,25 @@
+: ian finch 
+subject : x event generate application exit ? 
+organization : knee deep sky high 
+lines : 18 
+: 
+: tin version 1.1 
+write application run x use motif , need 
+stuff application quit . 
+, shut x windows 
+session , seem send whatever signal 
+application trapping various signal like . 
+therefore , think 
+could use x signal check top level window destroy . 
+however seem get event whenever move window . 
+
+way check window actually destroy 
+field check combination event ? 
+. 
+replies e-mail please summarise . 
+thanks help , 
+ian 
+-- 
+
+
+

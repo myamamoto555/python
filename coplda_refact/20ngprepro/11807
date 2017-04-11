@@ -1,0 +1,19 @@
+: jeffrey s. weber 
+subject : , sun , performance problem 
+organization : hrb systems , inc. . 
+lines : 16 
+write application sparcstation 2 gx + , 3.0 . 
+application use stuff create window , sun 
+graphic library render canvas . 
+application real-time 2-d animation , update 
+display fast enough . 
+use call periodically kick 
+update routine , happen fast enough . 
+want 
+update 25 time second . 
+11 . 
+also , appear 
+compute bind , run anything else 
+, update rate slow even . 
+idea ? 
+thanks . 

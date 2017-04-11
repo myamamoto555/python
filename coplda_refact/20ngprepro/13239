@@ -1,0 +1,81 @@
+: doug bank 
+subject : re : revise technical summary clipper chip 
+: 
+organization : motorola land mobile products sector 
+: 
+lines : 53 
+article < > , write : 
+| > chip program , inc. , call 
+| > `` . '' 
+silicon supply vlsi technology inc. . 
+
+| > implement 1 micron technology initially sell 
+| > $ 30 quantity 10,000 . 
+price drop 
+| > technology shrink .8 micron . 
+. 
+$ 30 seem bit expensive . 
+big chip ? 
+kind 
+package use ? 
+3 volt 5 volt technology ? 
+much 
+current draw ? 
+think many practical question 
+answer , especially since chip already exist ! 
+| > clipper chips program inside scif secure compartmented 
+| > information facility , essentially vault . 
+scif contain 
+| > laptop computer equipment program chip . 
+300 chip 
+| > program single session . 
+scif located 
+| > . 
+| > 
+| > beginning session , trust agent two key 
+| > escrow agency enter vault . 
+agent 1 enter secret , random 
+| > 80-bit value s1 laptop agent 2 enter secret , random 
+| > 80-bit value s2 . 
+random value serve seed generate unit 
+| > key sequence serial number . 
+thus , unit key 
+| > function 160 secret , random bit , agent know 80 . 
+ok , get big problem . 
+world 
+expect sell chip even $ 30 overhead involve 
+programming procedure ? 
+2-4 people , laptop , 300 chip 
+time : give break . 
+long take ? 
+even 
+minute per chip , take greater part day 
+turn 300 thing . 
+long suppose take 
+program 10,000 chip mention ? 
+highly impractical ! 
+| > see chip use , imagine embed at&t 
+| > telephone security device . 
+suppose call someone 
+| > device . 
+push button start secure 
+| > conversation , security device negotiate 80-bit session key k 
+| > device end . 
+find info at&t device ? 
+kind vocoder 
+use ? 
+require isdn phone line ? 
+, full 
+duplex ? 
+sound ? 
+kind synchronization scheme 
+use ? 
+little black box conform at&t choice 
+protocol , etc. ? 
+anybody else allow build box 
+conform specification ? 
+-- 
+doug bank private systems division 
+motorola communications sector 
+schaumburg , illinois 
+

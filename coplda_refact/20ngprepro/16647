@@ -1,0 +1,69 @@
+: guy dawson 
+subject : re : ide : bottom line 
+originator : 
+organization : ibm austin 
+lines : 73 
+article < > , randy ellingson write : 
+> would choose , ? 
+! 
+ide dro box ide unix box . 
+ide dro box ` co hard disk , unix box ` co 
+scsi hard disk , cd-rom tape . 
+buy scsi make add many device easier . 
+price one 
+irq dma three different type device connect . 
+faster drive also available scsi - dec realy 
+average seek time . 
+i.e find datum 25 % faster 12m 
+toshiba drive . 
+> 
+> like lot people , would really like increase datum transfer rate 
+> hard drive . 
+right ide drive seagate , 
+> standard ide controller card isa . 
+think scsi increase datum transfer much isa bus : - 
+> 
+> currently think add another hd , range . 
+> think hard buy drive future benefit . 
+> believe get something like transfer right accord 
+> nu . 
+pretty good ... 
+> 
+> would number compare buy state-of-the-art scsi card 
+> isa pc , state-of-the-art scsi hard drive best system could 
+> hope ? 
+many state art disk use mechanical many state 
+art ide drive . 
+interface differ - look 
+drive example ! 
+> 
+> obviously money factor choice well , would 
+> want use isa system ? 
+much would cost ? 
+use adaptec unix box no-name ide card . 
+> 
+> along line , kind transfer rate could see ide hd 's 
+> buy top-of-the-line ide caching controller , hd ? 
+> much would cost ? 
+cache controller ! 
+? 
+give dos 
+? 
+extra lower memory ! 
+. 
+properly configure main memory cache produce better result caching 
+controller ! 
+unix read read datum main memory cache 8.5 ! 
+
+faster standard isa bus ever sustain ! 
+> 
+> thanks comment . 
+> 
+> randy 
+> 
+guy 
+-- 
+-- 
+guy dawson - hoskyns group plc. . 
+tel hoskyns uk - 
+tel ibm austin usa - 

@@ -1,0 +1,11 @@
+: 
+subject : re v. ??? 
+organization : gateway 
+lines : 5 
+: 
+> difference uart uart ? 
+thanks ! 
+bug !!!!! 
+without would sometimes get extra character fifo . 
+render fifo useless . 
+get . 

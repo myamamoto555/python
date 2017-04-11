@@ -1,0 +1,78 @@
+: jeff 
+subject : re : digital voltmeter - work ? 
+organization : hewlett-packard 
+lines : 66 
+distribution : world 
+: . 
+
+: tin version 
+, alexander valentino write : 
+: hello , 
+: 
+: let introduce problem : 
+: 
+: measure sinusoidal wave voltage digital voltmeter , use 
+: ac mode , output rm value peak value 2 square . 
+right ? 
+
+: measure square wave mode ac , output equal 
+: peak value , actually , upper flat boundary wave . 
+: assume , digital voltmeter make kind integration 
+: input value , divide wave period . 
+right ? 
+
+: , use measure square wave , distorted 
+: high-frequency harmonic . 
+ideally , output , ... 
+: output value 10 % previous one ! 
+: ? 
+nature output value ? 
+voltmeter 
+: actually measure ? 
+show ? 
+re : rms reading 
+unless dvm say measure rms , probably average voltage . 
+input diode rectify measure dc . 
+say rms 
+measure . 
+incorrectly , measure 
+average correction true sine wave 
+i.e. 0.63 . 
+want correct rms 
+waveform , need `` '' literally 
+calculation either analog digital circuitry . 
+: 
+: relate question less important : 
+: advantage disadvantage digital voltmeter compare 
+: analog one ? 
+last significant advantage analog imo able 
+`` see '' signal change time e.g. checking 
+electrolytic capacitor . 
+anymore , dmm , etc. duplicate . 
+: 
+: thank attention , could mail opinion 
+: open discussion . 
+would appreciate either 
+: way . 
+: 
+: 
+: alexander v. 
+: 
+: 
+: power system automation laboratory < > phone office 
+: department electrical engineering < > phone home 
+: texas a&m university < > fax 
+: college station , tx , usa < > internet : 
+: 
+: 
+-- 
+
+jeff 
+semiconductor test equipment 
+systems engineer 
+hewlett-packard 
+
+415 
+
+
+

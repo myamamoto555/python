@@ -1,0 +1,48 @@
+: marc < > 
+subject : re : technical detail 
+organization : computer science dept , indiana university 
+lines : 43 
+> encrypt k , k encrypt unit key uk , 
+> serial number unit add produce three part 
+> message encrypt system key sk 
+> produce 
+> 
+> e e m ; k , e k ; uk , serial number ; sk 
+> 
+> understanding e m ; k encrypt sk call 
+> `` family key '' decrypt key correspond sk hold 
+> law enforcement . 
+anyone first hand knowledge ? 
+
+> also check , 7am sunday want wait . 
+ok , fact two distinct component transmit 
+chip ; real message encrypt `` conventional '' key , 
+serial number encrypted `` conventional '' key encrypted 
+kind bogus , whole concept `` one key million 
+people use change '' seem reasonable `` family 
+key '' . 
+suppose analyze output chip able determine 
+bit encrypted packet contain serial number 
+session key . 
+suppose also design simple algorithm base 
+information take datum contain encrypted session 
+key twiddle bit several send line . 
+mind , sure nsa thought along dozen 
+attack imagine , system probably somehow design 
+manipulation information cause compliant 
+receive chip somehow fail decrypt successfully . 
+? 
+two party agree advance kind consistent 
+scheme , decryption chip see restore 
+`` proper '' bitstream eavesdropper get e k ; uk packet 
+wrong ? 
+suppose could easily defeat chip `` send '' 
+information many time slightly different way , make 
+effectively impossible certain know information 
+send . 
+-- 
+marc mime & accept 
+theory predict different outcome depend whether use 
+discrete mathematics continuous mathematics , get wrong 
+theory . 
+- bruce maclennan 

@@ -1,0 +1,89 @@
+: rainer menes 
+subject : re : quadra clock chip - followup 
+keyword : quadra , clock , oscillator 
+originator : 
+organization : technische muenchen , germany 
+lines : 87 
+replace 66 mhz yesterday . 
+quadra work 33 mhz stable 14 hour . 
+also try 70 mhz , hour quadra 700 die . 
+sure reason , 
+risky run fast . 
+quadras 700 work 33 mhz without problem . 
+safety tip backup befor start upgrade . 
+35 mhz test damage get work . 
+backup befor start 
+speedometer result replace . 
+speedometer report mene rainer . 
+prepare april 22 , 1993 . 
+machine record version # : 5 
+user comment : 
+quadra 700 ram disk 
+20 ram + 2 vram 
+system information : 
+computer : mac quadra 700 
+cpu : 
+fpu : integral fpu 
+mmu : integral mmu 
+color quickdraw : 2.30 32 bit qd 
+system version : 
+finder version : .1 
+appletalk version : 57 
+laserwriter version : 
+laser prep version : find 
+version : 
+rom version : $ 
+rom size : 1024 
+bit depth : 1 
+horizontal : 72 
+vertical : 72 
+primary screen size : 832 x 624 
+physical ram : 
+logical ram : 
+p.r. result use mac classic 1.0 : 
+cpu : 
+graphic : 
+disk : name hard disk test : ram disk 
+math : 
+performance rating pr : 
+benchmark result use mac classic 1.0 : 
+: 
+: 
+towers : 
+quicksort : 
+bubble sort : 
+queens : 
+puzzle : 
+permutation : 
+fast fourier : 
+f.p. matrix multiply : 
+integer matrix multiply : 
+sieve : 
+benchmark average : 
+fpu test use mac ii 1.0 : 
+fast fourier : 
+fpu : 
+fpu f.p. matrix : 
+fpu test average : 
+color test use mac ii 1.0 : 
+black & white : 
+4 colors : 
+16 color : 
+256 color : 
+color test average : 
+interesting graphic result graphic could belief , true . 
+two point cause problem 4 ram solder board . 
+rams run 33 mhz . 
+next part may cause trouble video rams . 
+vram apple quadra , also chip run run . 
+part quadra board run o 
+wn wont make . 
+question neat new heat sink . 
+would say . 
+run quadra 14 hour heat sink really cool . 
+33 mhz 486 heat sink mutch warmer 68040 quadra , see problem . 
+room 22 celsius 72 f . 
+live area hot 100 f 45 c room mutch would suggest new heat sink ventilator stay safe side . 
+hope success , 
+rainer 
+email : 

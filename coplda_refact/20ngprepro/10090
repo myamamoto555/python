@@ -1,0 +1,103 @@
+: kaneda 
+subject : summary : strings 
+keyword : , , string 
+lines : 90 
+: . 
+
+write : 
+> recently get modem . 
+great , still 
+> problem figure string use application . 
+> basically need string , client , 
+> client . 
+able get working use 
+> another modem 's setting copy . 
+> however , still problem - , example , list ` error ' 
+> first time try dialing start problem . 
+cancel 
+> try , work fine . 
+even worse - get 
+> even wake modem . 
+, anyone use 
+> program , would greatly appreciate send setup string use 
+> thanks advance ! 
+write : 
+> , initially following : 
+> 
+> & d0 
+> & w0 
+> set init string . 
+> ! 
+rod smith write : 
+> help , use 
+
+> close two week . 
+: 
+> 
+> , set hardware handshaking bp rate 57,600 . 
+` ve 
+> probably already . 
+type : 
+> 
+> & d0 
+> & w 
+> 
+> first line set modem ignore dtr line necessary 
+hardware 
+> handshake , though , mac hardware handshaking cable . 
+
+> second store setting non-volatile memory modem , 
+> default modem start . 
+modem preference dialog , 
+> modem initialization string set `` & z0 ^ m '' , insure 
+> store setting use useful start use something like 
+
+> fax software , change setting way . 
+> alternatively , could leave factory default way 
+set 
+> initialization string `` & d0 ^ m '' , would accomplish 
+
+> thing modem always start , 
+program 
+> modify setting . 
+`` & z0 & d0 ^ m '' would work even 
+program 
+> modify modem 's setting . 
+way sometimes 
+forget 
+> turn modem launch , way assure 
+
+> correct dtr handle modem 's power . 
+compare string command reference guide , 
+come : 
+& 50 ^ m 
+enter ` initialize ' box ` modem preferences ' . 
+quick summary : 
+z0 - reset modem user profile 0 . 
+l2 - speaker volume 2 fairly quiet 
+n2 - ring volume 2 fairly quiet 
+x5 - display connect info accord set 5 see manual 
+& d0 - assume dtr computer always 
+s11 50 - dial speed 50 fast handle 
+, use string , addition s0 0 right 
+s11 command , setup box . 
+disable 
+function modem . 
+base modem setting supra 
+14.4 fax , change mention string . 
+, base setting zoom - hh setting . 
+change 
+` modem initialization ' string one use , 
+everything seem work fine . 
+sorry take long get summary . 
+someone want forward 
+directory , might save 
+newbie user like trouble set string , 
+also save net redundant message . 
+anyone else something 
+add , feel free . 
+marcus 
+
+-- 
+marcus 
+\ \ \ \ \ \ 

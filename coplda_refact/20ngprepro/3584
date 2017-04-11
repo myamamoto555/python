@@ -1,0 +1,33 @@
+: des herriott 
+subject : woe 
+keyword : , 
+lines : 22 
+: 
+organization : micro focus ltd. . 
+: 
+manage get run ncr 3000 svr4 486 box 
+run xfree86 1.2 ncd . 
+pretty much working , 
+encounter weird error . 
+attempt start 
+. 
+file , nothing happen . 
+redirect file 
+use ` exec 2 > $ home . 
+' . 
+reveal error message : 
+`` : error 14 , 1 : owner '' 
+, start window manager , command line , 
+work fine . 
+start client , like window manager mwm , 
+clock , . 
+also work . 
+anyone encounter ? 
+suggestion ? 
+
+-- 
+des herriott , wise man say , 
+micro focus , newbury . 
+
++44 0635 `` take lot brain smart , 
+take neck giraffe . '' 

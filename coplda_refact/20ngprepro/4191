@@ -1,0 +1,35 @@
+: david scheck 
+subject : cpp problem aix 
+keyword : 
+organization : prc , inc. . 
+lines : 29 
+try build use ibm run aix v3 .2 . 
+follow 2 problem . 
+1 many 's like 
+
+start line pass comment thru c 
+preprocessor . 
+c preprocessor 
+use treat # appear start 
+line . 
+thus c preprocessor treat hash symbol 
+start directive . 
+however ibm cpp strip comment treat hash symbol 
+start directive . 
+cpp fail determine 
+`` '' known directive . 
+temporarily hack 
+handle situation would like come better 
+fix . 
+2 several use parameter macro particular 
+use macro need value parameter . 
+aix cpp 
+give warning situation continue work ok . 
+familiar problem solution , would appreciate 
+information solution . 
+perhaps , solve later 
+version review . 
+also , know cpp 's 
+behave similarly ? 
+since easy access news , response 
+` would appreciate . 

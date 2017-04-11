@@ -1,0 +1,175 @@
+: steven bellovin 
+subject : re : clipper consider harmful 
+organization : at&t bell laboratories 
+lines : 127 
+article < > , john kelsey write : 
+> 
+> clipper chip 's user key form : 
+> 
+> r1 e d e n1 ; s1 ; s2 ; s1 
+> r2 e d e n2 ; s1 ; s2 ; s1 
+> r3 e d e n3 ; s1 ; s2 ; s1 
+> 
+> use ? 
+gain effective 
+> increase defeat potential ? 
+, use 
+> 80 bit key ? 
+know anything skipjack algorithm , 
+> really possible guess whether make harder easier 
+> guess s1 , s2 . 
+> 
+> n1 , n2 , n3 form ? 
+would 
+> see skipjack algorithm , look way attack require 
+> three ciphertext block form odd way . 
+> 
+> constant value 
+> serial number form n1 , n2 , n3 come ? 
+change chip 
+> chip , session session ? 
+even publish ny times , 
+> skipjack resistant attack , use triple - 
+> encryption , break security . 
+allow kind 
+> weird format ? 
+three value bit , 
+> maybe use ensure attack skipjack , 
+> exist , easily use derive s1 s2 whole production 
+> run chip ... 
+answer question detail , take stab 
+. 
+form operation compute r1 , r2 , r3 , course , 
+famous `` triple encryption '' suggest use des . 
+much 
+stronger single encryption , effective key length 
+160 bit . 
+reason discuss des first 
+standardized , simple double encryption would 
+strength . 
+triple encryption use ibm since less 
+begin encrypt key . 
+recommend anything 
+high value . 
+think agree fit 
+description . 
+, , ? 
+well , need different plaintext value . 
+
+idea 'll disclose . 
+guess , ` re 
+construct differ many bit position possible . 
+goo cryptosystem scramble thing lot even 1-bit change 
+-- value n series fairly similar bit 
+pattern , might , conceivably , weakness . 
+
+value -- guess -- choose increase ham 
+distance . 
+event , quite convinced one go back 
+, let alone u. observe : nsa u , 
+need find . 
+even , get . 
+
+theory , never even see value , even warrant . 
+real question , think , use scheme , oppose 
+hardware random number generator . 
+answer 
+much verifiable . 
+look -- suppose nsa , nist , aclu , 
+eff , nra combine build really good random number 
+generator , pass every test could think . 
+
+come back next week program chip , still work 
+well ? 
+component change value ? 
+component 
+change ? 
+still work well 
+presence focused microwave beam tend bias towards 
+select 1 bit ? 
+yes , run detailed statistical test 
+, hard . 
+consider , hand , software solution . 
+bring 
+floppy , run cryptographic checksum , etc. . 
+
+lot easier verify software unchanged , word . 
+yes , think way cheat software , . 
+think ` re 
+lot harder . 
+three issue clipper . 
+first whether 
+architecture whole scheme capable work . 
+answer , 
+one significant exception , yes . 
+really think nsa 
+nist design scheme well , assume 
+real objective state : permit wiretapping , 
+certain circumstance , minimum risk 
+abuse . 
+exception u exist outside chip , 
+programming diskette . 
+seriously wrong . 
+
+load onto chip separately . 
+disagree 
+claim answer obvious , though find reasoning 
+sufficiently persuasive force rewrite conclusion 
+section technical analysis paper -- originally blast 
+scheme , issue invitation : assume charge 
+implement system , complete regard civil rights 
+due process . 
+would differently ? 
+answer 
+question , please accept nsa 's fundamental assumption : 
+strong cryptography outsider , ability wiretap 
+domestic user , necessary . 
+feel necessary 
+challenge assumption , context last issue 
+present . 
+right , discuss technical 
+aspect . 
+, means claim 
+something , . 
+second issue whether whole architecture actually 
+go use . 
+clipper chip make way 
+mean way 'll make . 
+maybe nsa 
+substitute chip programming facility 
+ship dock . 
+'ll generate bogus warrant request , 
+escrow agent wonder never call . 
+`` sorry , 
+guy ; terrorist drug dealer pedophile seem 
+buy phone instead . 
+would ` ' thunk ? '' 
+
+answer question , moment , see way 
+answer . 
+concern part reasoning answer 
+final question , . 
+third , serious issue , whether clipper good 
+idea even carry strictly accord letter law . 
+think answer , no-brainer . 
+civil 
+libertarian , libertarian , reason explain great 
+length net elder day , energy 
+repeat . 
+mean willing accept 
+law necessary , long respect essential rights 
+individual . 
+government already ability -- 
+system -- right issue search warrant , power 
+certainly abuse , also use quite properly fairly 
+case . 
+key escrow sufficiently different ? 
+think -- 
+, easy question . 
+easy libertarian 
+answer , course , since clipper completely alien much 
+rest philosophy . 
+also easy 
+give unreserved trust government , group much 
+distant . 
+-- steve bellovin 

@@ -1,0 +1,48 @@
+: martin 
+subject : re : permanent swap file 
+organization : case western reserve university , cleveland , oh usa 
+lines : 39 
+: martin 
+: 
+previous article , mike mpu say : 
+> article < > cliff write : 
+
+swap file purge every time exit window . 
+shut 
+computer without exit window swap file remain . 
+20 mb large 
+side , run application really need time ? 
+> 
+> , course , true . 
+temporary swap file purge 
+> every time exit window . 
+permanent file permanent 
+> change adjust virtual memory . 
+> 
+> suspect either original poster `` tinker '' 
+> adjust swap file forget 
+> somebody `` help '' . 
+> 
+> -- 
+> mike work 
+> mitsubishi electronic research laboratory home 
+> 
+first setup window use self load mode grab 
+20 meg swap file space , 120 meg hd nearly empty time . 
+delete window time recently reload , hd nearly full 
+window take 4 meg . 
+read somewhere best rule thumb 
+permanent swap file size regular ram size . 
+4 meg 
+ram window take 4 meg perm swap file . 
+works well . 
+fact available hd space , 20 meg let make 
+swap file bigger . 
+change virtual mem swap file 8 meg think 
+say ram . 
+... \ \ artin 
+-- 
+communication send \ \ artin university arizona tucson 
+
+
+death dead 2,000 year follow king kings 

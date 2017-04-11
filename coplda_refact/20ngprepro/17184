@@ -1,0 +1,40 @@
+: dale adams 
+subject : re : quadra 950 marginal video ? 
+organization : apple computer , inc. , cupertino , ca 
+lines : 32 
+article < > 
+carlo tiana write : 
+> problem quadra 950 stump couple 
+> tech send vendor , well : - 
+> quadra ` stuff ' 64mb ram , 2mb vram large disk 
+> think . 
+happen certain variable interval time 
+> video circuitry ` lose ' vertical sync . 
+quite apparent 
+> mac cpu still ok , problem really seem lie video 
+> circuitry , since still save document , quit , 
+> even pull menu etc. display scroll lik crazy , 
+> pretty hard hit menu item ; - 
+... info delete ... 
+> anyone idea ? 
+please ? 
+please email well post cause seem 
+> spend lot time reboot mac lately lot less 
+> time available read news ! 
+: - 
+sure problem cause software ? 
+see sort 
+effect runaway program could cause init 
+conflict , instance accidentally wack register video 
+hardware . 
+try boot extension let 
+sit finder ? 
+might also want try change 
+24-bit address yes , know access full 64 mb ram - 
+experiment video hardware register access 
+. 
+another thing try ` recovery ' measure use something like 
+change pixel depth display . 
+reprogram 
+video hardware register may allow sync restore . 
+- dale adams 

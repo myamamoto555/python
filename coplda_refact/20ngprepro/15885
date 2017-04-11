@@ -1,0 +1,1707 @@
+: peter j. mckinney 
+subject : re : look x window pc long list known server 
+: 
+organization : colorado state university 
+keyword : ibm pc , x window , window 
+lines : 1835 
+> mark wilkinson - ext write : 
+> 
+hus , 
+first time post net , hope 
+go right people . 
+look software package run ibm pc clone 
+allow display motif window pc . 
+idea use pc cheap x window terminal use 
+process engineer work . 
+listing come accross ago . 
+question seem 
+come often enough figure would interest . 
+note 
+server `` x appeal '' dos available demo form internet via 
+anonymous ftp . 
+one way quickly check feasability 
+use system x server . 
+enjoy ! 
+- pete 
+begin enclosure ---------------------------- 
+: daniel j. mccoy 
+newsgroup : , 
+subject : x server dos , microsoft windows , , macs , amigas , atari 
+: daniel j. mccoy 
+organization : inc. . 
+summary : guide list x server use sic network machine display x client run unix machine . 
+: 
+: 
+version : 12.0 
+
+x server dos , microsoft windows , , macs , amigas , atari 
+
+april 1 , 1993 - volume 12.0 
+
+author : daniel j. mccoy 
+inc. . 
+software technology branch 
+information systems directorate 
+space center 
+post mail : nasa mail code 
+space center 
+houston , texas 
+e-mail : 
+
+monthly guide x server use 
+networked machine display x client run unix machine . 
+
+use name unix loosely . 
+know run x. 
+source information come many place : faq 
+, blurb info packet vendor , user manual 
+product , conversation sale representative , 
+personal experience , article , etc. . 
+please forward correction update address . 
+file also available anonymous ftp : 
+. 
+
+. 
+txt 
+
+. 
+txt . 
+zip 
+x server dos : 
+
+ibm 
+micro 
+micro 
+pc motif v3 .0 
+pc 
+pc 
+
+sage 1280 adapter x windows display server 
+
+
+x appeal 
+
+
+dos 
+
+x server microsoft windows : 
+
+excursion windows 
+exodus m windows 
+
+
+
+
+
+
+
+
+
+x server : 
+ibm 
+x server macintosh : 
+exodus 
+
+x server amiga : 
+unknown 
+x window system version 11 release amiga computer 
+x server atari : 
+server 
+
+
+
+
+vendor : 
+melinda 
+quarterdeck office systems , inc. . 
+150 pico boulevard 
+santa monica , ca 
+tel : 
+fax : 
+price : 
+$ 275 
+latest version : 
+1.0 
+cpu : 
+higher 286 version available 
+memory : 
+4 
+operate system : 
+dos 3.0 higher 
+dr 6 higher 
+mouse : 
+optional - m compatible point device 
+graphic : 
+ega , vga , super vga , , 256 color dgi 
+ethernet card : 
+network software : 
+disk space : 
+40 hard drive 
+feature : 
+incorporate x multi-tasking dos environment 
+add graphical 3d look feel 
+give user choice window manager look feel 
+provide growth path character mode industry standard 
+graphical user interface 
+run regular dos application 
+run dos extended application 
+display dos application within graphical window 
+multitask dos application x client either locally remotely 
+provide simple port application x system 
+vice versa 
+give developer choice application appearance , base toolkit 
+choose 
+support toolkit provide feature require developer 
+push button , , pop dialogue box , etc. . 
+adobe type manager scalable font scalable dos window 
+
+
+ibm 
+
+vendor : 
+ibm 
+part # 
+price : 
+latest version : 
+2.1 
+cpu : 
+memory : 
+operate system : 
+dos 
+mouse : 
+graphic : 
+ethernet card : 
+network software : 
+disk space : 
+feature : 
+
+
+micro 
+
+vendor : 
+communications corporation 
+lawrence expressway 
+santa clara , ca 
+tel : 
+fax : 
+
+price : 
+$ 1 unit 
+$ ea . 
+5 pack greater discount larger quantity 
+upgrade 25 % original price 
+educational discount 10 % 
+latest version : 
+
+cpu : 
+386 , 486 
+memory : 
+2 
+operate system : 
+dos 3.1 higher 
+mouse : 
+2 3 button mouse m compatible driver 
+graphic : 
+ahead 
+
+everex vp vga 
+genoa 6400 
+paradise 
+stb 
+trident 
+tseng labs 
+
+western digital 
+
+vesa 
+
+ethernet card : 
+
+3com 
+cabletron 
+
+western digital 
+novell 2000 
+national semiconductor 
+board packet driver manufacturer 
+network software include : 
+integrate 
+ncsa telnet , ftp , lpr , etc. . 
+packet driver 
+network software supported : 
+beame & whiteside - 
+ftp software - 
+sun - 
+disk space : 
+3 9 font 
+1.2 1.44 need 
+feature : 
+
+intelligent installation program 
+built-in 
+support motif , open look , dec 
+support clarkson packet driver 
+
+
+micro 
+
+vendor : 
+communications corporation 
+lawrence expressway 
+santa clara , ca 
+tel : 
+fax : 
+
+price : 
+$ 75.00 
+latest version : 
+
+cpu : 
+286 , 386 , 486 
+memory : 
+640 
+operate system : 
+dos 3.1 higher 
+mouse : 
+2 3 button mouse m compatible driver 
+graphic : 
+ahead 
+
+everex vp vga 
+genoa 6400 
+paradise 
+stb 
+trident 
+tseng labs 
+
+western digital 
+
+vesa 
+
+ethernet card : 
+
+3com 
+cabletron 
+
+western digital 
+novell 2000 
+national semiconductor 
+board packet driver manufacturer 
+network software include : 
+integrate 
+ncsa telnet , ftp , lpr , ... 
+packet driver 
+network software supported : 
+beame & whiteside - 
+ftp software - 
+sun - 
+disk space : 
+2 
+1.2 1.44 need 
+feature : 
+
+intelligent installation program 
+built-in 
+8 client screen time 
+fix font orient variable font available 
+support motif , open look , dec 
+support clarkson packet driver 
+
+
+pc motif v3 .0 
+
+vendor : 
+dennis 
+pc development 
+digital equipment corporation 
+30 porter rd. . 
+littleton , ma 
+price : 
+latest version : 
+v3 .0 
+cpu : 
+286 , 386 
+memory : 
+15 
+operate system : 
+
+mouse : 
+point device m mouse v6 .0 later interface 
+graphic : 
+ega 16 color mono 
+
+vga 16 color mono 
+enhance vga 800x600 16 color mono 
+1024x768 color 
+pseudo color visual 
+ethernet card : 
+network software : 
+decnet 
+disk space : 
+feature : 
+x11 release 4 server 
+integrate virtual memory manager 
+standard ibm-compatible keyboard digital 's 
+session manager client integrate server 
+suspend session feature run dos command 
+font compiler adobe bitmap distribution file 
+compiler customize keyboard default 
+mapping ; 70 pre-defined keyboard mapping file 
+configuration utility define hardware environment user 
+preference 
+support decnet . 
+available dec. . 
+
+
+
+
+vendor : 
+network computing devices inc. . 
+
+sw gemini drive 
+beaverton , 
+tel : , 
+fax : 
+also 15 ncd technical sale office around united 
+states international office 
+price : 
+dos $ 1 $ 5 
+annual maintenance $ 150.00 1 $ 5 
+update $ 125.00 1 $ 5 
+latest version : 
+dos version 4.0 
+cpu : 
+286 , 386 386 recommend 
+memory : 
+1 2 recommend 
+operate system : 
+dos 3.2 higher 
+mouse : 
+graphic : 
+cga , ega , vga , svga , xga , tiga 
+video standard support extend memory 
+japanese graphic mode 
+high resolution graphic board : , dell , hp , nec , 
+squeegee , 50 
+ethernet card : 
+35 ethernet communication board support 
+network software needed : 
+
+decnet 
+disk space : 
+5 7 recommend 
+feature : 
+unix application support traditional application 
+window manager motif open look 
+off-load graphic processing unix host 
+dos 
+access local peripheral dos utility 
+easy well-documented installation procedure 
+pop-up control panel 
+motif compliant local window manager 
+ability run windows pif window 
+x longer exit tsr 
+compatibility 
+enhance protocol trace 
+support protocol 
+
+
+pc 
+
+vendor : 
+intelligent decision inc. . 
+536 weddell dr. suite 2c 
+sunnyvale , ca 
+tel : 
+fax : 
+price : 
+$ 295 
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+1 recommend lot 
+operate system : 
+dos 3.1 higher 
+mouse : 
+m compatible mouse 
+graphic : 
+vga , svga 
+ethernet card : 
+network software : 
+ftp software 's 
+wollongong 's 
+disk space : 
+4 hard disk 
+feature : 
+port mit server 
+shape extension 
+
+
+font compiler 
+font supply 
+motif , open look , vm ultrix demonstrate work 
+server interop last year . 
+
+
+pc 
+
+vendor : 
+pc 
+locus computing corporation 
+9800 la cienega blvd. . 
+inglewood , ca 
+tel : 
+ca : 
+uk : 
+price : 
+latest version : 
+cpu : 
+8088 , 8086 , 286 , 386 
+memory : 
+640 base memory 512 available 
+896 extend memory 
+operate system : 
+dos 3.1 later 
+mouse : 
+2 3 button mouse driver 3 button mouse recommend 
+graphic : 
+ega , vga , hercules , at&t 6300 
+ethernet card : 
+205 
+3com 
+western digital 
+micom 
+acer 
+network software : 
+disk space : 
+- inch high-density - inch diskette drive 
+1 
+feature : 
+
+
+sage 1280 adapter x windows display server 
+
+vendor : 
+sigma design , inc. . 
+landing parkway 
+fremont , ca 
+tel : 
+fax : 
+telex : 
+price : 
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+operate system : 
+dos 3.0 higher unix system 
+mouse : 
+graphic : 
+high end fix frequency 64 khz monitor 
+ethernet card : 
+network software : 
+disk space : 
+feature : 
+installation configuration program 
+resolution 
+, ai emulation 
+cga , mda , hercules , vga pass-through emulation mode 
+256 color simultaneously palette 16.7 million 
+
+
+
+
+vendor : 
+
+tel : +44 
+price : 
+latest version : 
+cpu : 
+memory : 
+operate system : 
+mouse : 
+graphic : 
+ethernet card : 
+network software : 
+disk space : 
+feature : 
+ibm clone allow toggle x 
+
+
+
+
+vendor : 
+control data corporation 
+vista distribute computing 
+largo drive west 
+suite 250 
+landover , md 
+tel : 
+price : 
+
+plus 
+
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+640 1 dos server 
+1.64 plus 
+operate system : 
+3.0 higher 
+mouse : 
+2 3 button m compatible mouse 
+graphic : 
+ega , vga , svga 
+color analog monochrome monitor 
+ethernet card : 
+support transport list 
+network software : 
+network software dos ftp software inc. . 
+sun microsystems , inc. . 
+group , inc. . 
+pathway access group , inc. . 
+lan workplace transport system 
+3 + open tcp 3com corporation 
+hp arpa services hewlett packard corporation 
+tcp , inc. . 
+telnet package beame & whiteside software ltd. . 
+disk space : 
+hard disk 
+feature : 
+may 16 available client processing 
+emulate mouse mouse 
+full interactive support x font name alias ' scheme 
+locally modify keyboard mapping 
+
+
+x appeal 
+
+vendor : 
+giovanni novelli 
+xtreme s.a.s. - livorno , italy 
+fax : 
+
+
+price : 
+$ 350 quantity discount : 
+23 % 20 copy 
+39 % 50 copy 
+51 % 100 copy 
+additional 30 % discount educational institution 
+demo copy available anonymous ftp : 
+. 
+zip readme executable 
+. 
+zip local server font 
+. 
+zip packet driver 
+latest version : 
+1.3 
+cpu : 
+higher 
+memory : 
+2 4 recommend 
+operate system : 
+3.30 later 
+mouse : 
+point device m mouse compatible driver 
+graphic : 
+svga board 256 color mode 
+ahead 
+
+chips & technologies 
+genoa 6400 
+ncr 
+oak technologies 
+paradise 
+trident 8900 , 
+tseng labs , 
+western digital 
+ethernet card : 
+model compatible packet driver 
+network software : 
+include 
+disk space : 
+least 2 
+feature : 
+full server implementation , include pex font server support 
+screen painting exceed 6000 1024x768 resolution 256 color 
+without 387 
+support color class , grayscale , , 
+, 
+run-time resolution switch panning virtual screen 
+emulate mouse mouse 
+fast cursor tracking 
+full support european keyboard layout 
+memory limitation use virtual memory 
+32 bit protected mode application 
+built-in support , use packet driver ethernet 
+board free packet driver collection include 
+interactive configuration utility 
+x display manager control protocol support host run 
+
+shape extension window 
+font compiler rgb database utility 
+x11 font provide , include font sun open windows 
+unix application support traditional application 
+window manager motif open look 
+built-in server , allow file transfer execution 
+useful dos function without leave x environment 
+
+
+
+
+vendor : 
+
+ca 
+tel : 
+price : 
+latest version : 
+cpu : 
+286 , 386 
+memory : 
+operate system : 
+mouse : 
+graphic : 
+ethernet card : 
+network software : 
+disk space : 
+feature : 
+8 client 
+
+
+
+
+vendor : 
+jerry norman 
+nth graphics , ltd. . 
+tel : 
+x server project abandon 
+price : 
+cpu : 
+286 , 386 
+memory : 
+operate system : 
+dos 3.3 higher 
+mouse : 
+graphic : 
+ethernet card : 
+network software : 
+
+disk space : 
+feature : 
+support 1024x768 resolution monitor 256 color 
+16m hardware acceleration graphic text 
+operation 
+
+
+dos 
+
+vendor : 
+age logic , inc. . 
+pacific heights blvd. . 
+san diego , ca 
+tel : , 
+fax : 
+email : 
+bert shure 
+tel : ext. 104 
+email : 
+price : 
+$ 
+$ 
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+2 extend 
+operate system : 
+dos 3.1 higher 
+mouse : 
+2 3 button mouse m compatible driver 
+graphic : 
+ega , vga , svga 
+ethernet card : 
+compatible network software 
+network software : 
+3com 3 + open tcp 1.2 higher 
+dec 1.1 higher 
+ftp 2.05 higher 
+novell lan workplace 4.01 higher 
+sun 3.5 higher 
+wollongong pathway access 2.05 higher 
+disk space : 
+2 
+1.2 1.44 floppy need 
+feature : 
+mit compliant age extension 
+hotkey dos m windows 
+passive , telnet , rsh , , startup mode 
+motif , , support 
+virtual screen support 
+international keyboard support 
+full font library snf format 
+bdf snf font compiler 
+complete documentation 
+support update service 
+
+
+
+
+vendor : 
+age logic , inc. . 
+pacific heights blvd. . 
+san diego , ca 
+tel : , 
+fax : 
+email : 
+bert shure 
+tel : ext. 104 
+email : 
+price : 
+$ 
+$ 
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+512 
+operate system : 
+dos 3.0 higher 
+mouse : 
+2 3 button mouse m compatible driver 
+graphic : 
+texas instruments graphic accelerator tiga 2.0 
+higher whith dram 
+ethernet card : 
+compatible network software 
+network software : 
+3com 3 + open tcp 1.2 higher 
+dec 1.1 higher 
+ftp 2.05 higher 
+novell lan workplace 4.01 higher 
+sun 3.5 higher 
+wollongong pathway access 2.05 higher 
+disk space : 
+2 
+1.2 1.44 floppy need 
+feature : 
+mit compliant age extension 
+hotkey dos m windows 
+passive , telnet , rsh , , startup mode 
+motif , , support 
+virtual screen support 
+international keyboard support 
+full font library snf format 
+bdf snf font compiler 
+complete documentation 
+support update service 
+optimize tiga graphic accelerator 
+
+
+
+
+vendor : 
+melinda 
+quarterdeck office systems , inc. . 
+150 pico boulevard 
+santa monica , ca 
+tel : 
+fax : 
+price : 
+$ 275 
+latest version : 
+1.0 
+cpu : 
+higher 286 version available 
+memory : 
+4 recommend 
+operate system : 
+pc m 3.0 higher 
+dr 6 higher 
+mouse : 
+m compatible point device 
+graphic : 
+ega 
+vga 
+super vga 
+
+256-color dgi 
+ati 800x600 
+c&t 
+c&t 1024x768 
+tseng 800x600 
+tseng 1024x768 
+genoa 6400 800x600 
+wd 640x480 
+640x480 
+800x600 
+revision headland vega headland 1024x768 
+ethernet card : 
+network software : 
+disk space : 
+40 hard drive 
+feature : 
+incorporate x multi-tasking dos environment 
+add graphical 3d look feel 
+give user choice window manager look feel 
+provide growth path character mode industry standard 
+graphical user interface 
+run regular dos application 
+run dos extended application 
+display dos application within graphical window 
+multitask dos application x client either locally remotely 
+provide simple port application x system 
+vice versa 
+give developer choice application appearance , base toolkit 
+choose 
+support toolkit provide feature require developer 
+push button , , pop dialogue box , etc. . 
+run dos text m windows graphic program locally remotely 
+adobe type manager scalable font scalable dos window 
+
+
+excursion windows 
+
+vendor : 
+digital equipment corporation 
+maynard , massachusetts 
+price : 
+latest version : 
+1.0 
+cpu : 
+286 , 386 , 486 
+memory : 
+2 
+operate system : 
+dos 
+m windows 3.0 later 
+mouse : 
+m windows support mouse 
+graphic : 
+m windows support card 
+ethernet card : 
+network software : 
+decnet dos 
+dos 
+ftp software , inc. . 
+3com tcp demand protocol architecture 
+disk space : 
+7-15 hard desk 
+.2 floppy drive 
+feature : 
+seperate application window x display x 
+server 
+excursion setup utility install excursion m windows 
+control panes provide easy way start x application 
+customize environment 
+online help 
+ability cut paste text graphic x m windows 
+ability compile new font 
+ability redefine key keyboard 
+personal password security access excursion 
+three button mouse emulation 
+
+
+exodus m windows 
+
+vendor : 
+white pine software , inc. . 
+40 simon street , suite 201 
+nashua , hn 
+tel : 
+fax : 
+email : 
+: 
+price : 
+$ 449 
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+2 4 recommend 
+operate system : 
+dos 
+m windows 3.0 higher 
+mouse : 
+recommend 
+graphic : 
+ega , vga , svga , 
+ethernet card : 
+card 
+network software : 
+disk space : 
+feature : 
+
+color monochrome x screen support include 
+back store save option 
+full support 
+access control support 
+online help 
+3 button mouse emulation 
+text graphic transfer m windows macintosh clipboard 
+
+
+
+
+vendor : 
+hummingbird communications ltd. . 
+2900 john street , unit 4 
+markham , ontario , canada 
+tel : 
+fax : 
+price : 
+$ 595 1 copy 
+$ 536 2-4 copy 
+$ 476 5-9 copy 
+$ 417 10 copy 
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+2 recommend 
+operate system : 
+dos 
+m windows version 3 standard 386 enhance mode 
+mouse : 
+m compatible point device 
+graphic : 
+ega , vga , vga + 
+ethernet card : 
+compatible networking product choose 
+network software : 
+disk space : 
+feature : 
+make full use high resolution graphic card 
+redesign m windows implementation mit x 
+copy & paste m windows 
+interactive configuration utility 
+full interactive support font naming & alias scheme 
+font compiler 
+log file message 
+backing store save 
+virtual screen support 
+seven start-up method 
+full support european keyboard 
+font , host access & rgb database load 
+x protocol trace & functionality 
+
+
+micro 
+
+vendor : 
+communications 
+lawrence expressway 
+santa clara , ca 
+tel : 
+fax : 
+
+price : 
+micro $ 1 unit 
+$ 300.00 ea . 
+greater discount larger quantity 
+upgrade 25 % original price 
+educational discount 10 % 
+latest version : 
+x11 release 5 
+cpu : 
+386 , 486 
+memory : 
+4 
+operate system : 
+3.1 higher 
+m windows 3.1 higher 
+mouse : 
+2 3 button m compatible driver 
+graphic : 
+m windows support card 
+ethernet card : 
+
+3com 
+cabletron 
+
+western digital 
+novell 2000 
+national semiconductor 
+board packet driver manufacturer 
+network software include : 
+winsock compatible 
+network software supported : 
+ftp software - 
+- 
+sun - 
+winsock compatible stack 
+disk space : 
+5 
+1.2 1.44 need 
+feature : 
+
+integrated display result 
+auto start-up 
+easy additional session start-up 
+panning 
+support motif , open look , 
+
+
+
+
+vendor : 
+computer systems ltd. . 
+cheshire house , castle street , macclesfield 
+cheshire , england , 
+tel : 
+corporation 
+108 whisper pine drive , suite 115 
+scotts valley , california 
+tel : , 
+fax : 
+price : 
+latest version : 
+cpu : 
+memory : 
+operate system : 
+dos 
+m windows 
+mouse : 
+graphic : 
+ethernet card : 
+network software : 
+r 232 direct connection , r 232 modem connection , , 
+beame & whiteside , d-link dos , ftp , 
+hp arpa services dos , ibm aix access dos user , 
+icl int 5b , locus pci , locus dos , 
+m lan manager unix , m lan manager unix v2 .1 , ncr token ring , 
+novell lan workplace dos , sco , sun , 
+, , 
+wollongong pathway access dos , wollongong dos , 
+3 com 3 + open tcp 
+disk space : 
+feature : 
+provide character server character application 
+emulation dec vt100 , dec , dec , sco console , 
+, interactive unix console , at&t unix console 
+automatically invoke x server x client select 
+passive , telnet , rsh , , startup mode support 
+full font library provide standard windows format 
+bdf windows compiler 
+copy paste text available 
+single iconic desktop 
+
+
+
+
+vendor : 
+network computing devices inc. . 
+
+sw gemini drive 
+beaverton , 
+tel : , 
+fax : 
+also 15 ncd technical sale office around united 
+states international office 
+price : 
+windows $ 1 $ 5 
+annual maintenance $ 150.00 1 $ 5 
+update $ 125.00 1 $ 5 
+latest version : 
+3.1 
+cpu : 
+286 , 386 386 recommend 
+memory : 
+2 4 recommend 
+operate system : 
+3.0 higher 
+m windows 3.0 3.1 windows nt 
+mouse : 
+recommend need 
+graphic : 
+compatible m windows 
+ethernet card : 
+network software needed : 
+
+decnet 
+disk space : 
+7 10 recommend 
+feature : 
+run m windows application alongside x client 
+cut paste x client m windows 
+application use windows clipboard 
+full support feature , include shape extension 
+off-load graphic processing host computer 
+run standard enhance mode m windows 
+manage x client standard remote window manager 
+m windows 
+full x11 font provide , include font sun open windows 
+
+windows-based compiler convert bitmap description format 
+bdf font m windows format fon font 
+windows-based file transfer program 
+print file remote host local printer 
+built-in client starter 
+windows-based installation configuration 
+ddl support network interface 
+easy installation procedure 
+x display manager control protocol support 
+support multiple network package 
+comprehensive well organize user 's guide 
+graphics cut & paste 
+virtual screen support 
+support protocol develop ncd 
+
+
+
+
+vendor : 
+control data corporation 
+vista distribute computing 
+largo drive west 
+suite 250 
+landover , md 
+tel : 
+price : 
+
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+2 m windows server 
+operate system : 
+dos 3.0 higher 
+m windows 3.0 
+mouse : 
+2 3 button m compatible mouse 
+m windows support mouse 
+graphic : 
+ega , vga , svga 
+support m windows 
+ethernet card : 
+support transport list 
+network software : 
+network software dos ftp software inc. . 
+sun microsystems , inc. . 
+group , inc. . 
+pathway access group , inc. . 
+lan workplace transport system 
+3 + open tcp 3com corporation 
+hp arpa services hewlett packard corporation 
+tcp , inc. . 
+telnet package beame & whiteside software ltd. . 
+disk space : 
+hard disk 
+feature : 
+may 16 available client processing 
+emulate mouse mouse 
+full interactive support x font name alias ' scheme 
+locally modify keyboard mapping 
+
+
+
+
+vendor : 
+intergrated inference machines , inc. . 
+computer products division 
+1468 east katella avenue 
+anaheim , ca 
+tel : 
+fax : 
+price : 
+latest version : 
+cpu : 
+286 , 386 , 486 
+memory : 
+640 base memory 
+2 extend memory 
+operate system : 
+3.1 later 
+m windows 3.0 later 
+mouse : 
+graphic : 
+graphic card support m windows - ega vga resolution , 
+better , recommend 
+cga color graphics adapter 
+compaq portable iii portable 386 plasma display 
+ega high-resolution color display 
+ega whith low-resolution color display 
+hercules high-resolution monochrome display 
+ibm display 
+olivetti monochrome pvc display 
+olivetti oec display 
+wyse high resolution monochrome 
+viking monochrome 
+vga video graphics array 
+ethernet card : 
+also compatible , 3com , bass , western digital , 
+tiara , iim 's , 
+network software : 
+either 's driver set ftp inc. . 
+driver set 
+include 
+disk space : 
+least 2.5 storage capacity available software , 
+exclude optional x font ; use x font supply , 
+total 5.5 require 
+feature : 
+concurrent & x windows operation 
+concurrent x windows & telnet operation 
+cut & paste utility , ftp utility 
+font compiler font 
+telnet ftp utility include 
+compatible follow ftp software program , operate 
+m windows : 
+ftp , file transfer protocol client 
+, file transfer protocol server 
+, network file system nf 
+ping , network test 
+, telnet virtual terminal client 
+
+
+
+
+vendor : 
+
+1485 saratoga avenue 
+san jose , ca 
+tel : 7:30 pst , 
+fax : 
+
+price : 
+free demo copy 
+latest version : 
+cpu : 
+386 , 486 
+memory : 
+2 
+operate system : 
+dos 3.1 higher 
+m windows 
+mouse : 
+2 3 button mouse 
+graphic : 
+vga 
+super vga 
+
+tiga 
+vga board s3 chip set 
+ethernet card : 
+network software : 
+'s include 
+disk space : 
+feature : 
+
+on-screen setup 
+builtin 
+support local client window , setup window , 
+rsh window , local window manager 
+dos windows version one product 
+hot key dos 
+90 day telephone technical support 
+
+
+
+
+vendor : 
+limited white pine 
+57 cardigan lane exodus windows 
+leeds 40 simon street , suite 201 
+united kingdom nashua , hn 
+tel : tel : 
+fax : 
+fax : 
+: 
+
+price : 
+$ 1 user $ 30 user 
+$ 5 user $ 40 user 
+$ 10 user $ 50 user 
+$ 20 user educational discount available 
+add user least 10 install - $ 
+support per pc : bundle - $ 95.00 upgrade - $ 150.00 
+full documentation - $ 60.00 evaluation copy - $ 60.00 
+latest version : 
+4.1 
+cpu : 
+286 , 386 , 486 
+memory : 
+2 4 recommend 
+operate system : 
+dos 3.0 later 
+m windows 3.0 later 
+mouse : 
+recommend require 
+graphic : 
+m windows compatible graphic 
+ethernet card : 
+network software : 
+ftp 
+lan workplace dos 
+locus dos 
+bass 
+wollongong dos 
+beame & whiteside 
+sun 
+hp lan manager arpa services dos 
+3com 3 + open 
+disk space : 
+- inch high-density - inch high-density 
+feature : 
+copy paste x m windows 
+use host window manager allow m windows control x client 
+support color class , grayscale , , 
+, 
+several user option performance enhancement 
+x11 release 5 server 
+font server extension include 
+compliant 
+x client may also use m windows font 
+easy configuration system via dialog box 
+provide functionality mouse 
+support international keyboard support windows 
+host access control 
+setup on-line help 
+iconic control panel configure 
+dynamic server optimization run test pc install 
+time see best draw display 
+support : ncd , decnet , shape extension , 24-bit color , 
+m windows font manager , color class , rsh , 
+
+
+
+
+vendor : 
+age logic , inc. . 
+pacific heights blvd. . 
+san diego , ca 
+tel : , 
+fax : 
+email : 
+bert shure 
+tel : ext. 104 
+email : 
+price : 
+$ 
+$ 
+latest version : 
+cpu : 
+386 , 486 
+memory : 
+2 extend 
+operate system : 
+dos 3.1 higher 
+windows 3.0 higher 
+mouse : 
+m windows compatible mouse 
+graphic : 
+card m windows driver 
+ethernet card : 
+network software : 
+beame & whiteside 2.2 higher 
+ftp 2.05 higher 
+dec 4.0 higher 
+hp arpa services 2.1 higher 
+novell lan workplace 4.01 higher 
+sun 3.5 higher 
+tcp 16.5 higher 
+wollongong pathway access higher 
+wollongong 1.1 higher 
+3com 3 + open tcp 1.2 higher 
+disk space : 
+2 
+1.2 1.44 floppy need 
+feature : 
+mit compliant age extension 
+context sensitive on-line help system 
+cut paste x m windows 
+start x application m windows icon 
+single multiple window mode 
+m window manager use x application 
+virtual screen 
+passive , telnet , rsh , , startup mode 
+backing store save 
+motif , , support 
+full font library fon format 
+bdf m windows fon font compiler 
+log file optionally save system message 
+tutorial x window system 
+
+
+ibm 
+
+vendor : 
+ibm solutions center 
+voice : 
+fax : 
+price : 
+$ 150 plus $ 200 ibm require 
+latest version : 
+version 
+part number 
+
+cpu : 
+higher 
+memory : 
+6 recommend 4 minimum 
+operate system : 
+ibm 2.0 higher 
+mouse : 
+compatible point device 
+graphic : 
+ega , vga , super vga , , xga , support card 
+ethernet card : 
+compatible ndi 
+network software : 
+ibm require 
+disk space : 
+80 hard drive 
+feature : 
+incorporate x advance pc operating system 
+provide full server , x font library , x font compiler , 
+x client utility 
+run another object workplace shell wps desktop 
+cut paste , dos , windows application run 
+full implementation include ftp , telnet , , 
+ping , finger , slip , rsh , remote printing , , , 
+many 
+module available , include nfs , programmer 's toolkit include 
+kerberos , rpc , dpi , ncs , ftp apus , socket api , resolver api , 
+
+
+macintosh macintosh macintosh macintosh macintosh macintosh macintosh macintosh 
+exodus 
+
+vendor : 
+white pine software , inc. . 
+40 simon street , suite 201 
+nashua , hn 
+tel : 
+fax : 
+email : 
+: 
+price : 
+$ 295 
+latest version : 
+3.0 
+cpu : 
+macintosh computer 
+exodus ii run macintosh computer 68020 68030 processor 
+floating point co-processor 
+memory : 
+2 
+operate system : 
+version 6.0 later 
+version later plan use communications toolbox 
+network connection 
+mouse : 
+graphic : 
+ethernet card : 
+network software : 
+- apple computer , inc. part 
+- workplace novell , inc. formerly 
+access 
+decnet - thursby software systems , inc. special version 
+distribute part 
+decnet - distribute everex , inc. . 
+decnet - decnet macintosh part digital equipment 
+corporation 
+- distribute digital equipment corporation 
+appletalk 
+disk space : 
+feature : 
+support 
+, client server run macintosh 
+macintosh operating system , client run another computer 
+conform macintosh human interface guideline 
+user standard macintosh pull-down menu 
+function macintosh program macintosh operating system 
+handle macintosh event 
+use normal macintosh environment 
+macintosh macintosh macintosh macintosh macintosh macintosh macintosh macintosh 
+macintosh macintosh macintosh macintosh macintosh macintosh macintosh macintosh 
+
+
+vendor : 
+apple computer , inc. . 
+cupertino , ca 
+tel : 
+: 
+apple dealer , microage , etc. . 
+price : 
+order . 
+?? 
+manual set order . 
+?? 
+update product order . 
+?? 
+mac x x11 site license order . 
+?? 
+latest version : 
+1.2 
+cpu : 
+macintosh 
+memory : 
+2 
+operate system : 
+system software later 
+mouse : 
+graphic : 
+1-bit 8-bit graphic 
+ethernet card : 
+network software : 
+localtalk , ethernet 
+disk space : 
+least two floppy disk later 
+3.5 hard disk tor 7.0 
+feature : 
+x11 release 4 server 
+cut paste text graphic 
+macintosh x11 
+shape extension include shaped window macintosh desktop 
+optional built-in window manager 
+built-in bdf font compiler 
+built-in standard 
+built-in window manager 
+support system software version 7.0 
+support multiple monitor 
+copy paste text graphic 
+macintosh macintosh macintosh macintosh macintosh macintosh macintosh macintosh 
+amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga 
+unknown 
+
+vendor : 
+price : 
+latest version : 
+cpu : 
+memory : 
+operate system : 
+mouse : 
+graphic : 
+ethernet card : 
+network software : 
+disk space : 
+feature : 
+amiga 3000 machine offer x server open look tool library 
+full svr4 implementation 
+amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga 
+amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga 
+x window system version 11 release amiga computer 
+
+vendor : 
+, inc. . 
+dale luck 
+1881 drive 
+milpitas , ca 
+tel : 
+fax : 
+usenet : 
+bix : duck 
+
+price : 
+$ $ 90.00 yearly maintenance fee 
+latest version : 
+4.1 
+cpu : 
+amigados computer : 
+
+a2000 
+
+
+
+
+a500 
+
+memory : 
+1 server display 
+ram require local client 
+operate system : 
+amigados operating system v1 .3 later 
+mouse : 
+amiga 2 button mouse , optical 3 button mouse , tablet , trackball , 
+international keyboard 
+graphic : 
+ntsc , pal 50 hz 
+overscan , interlace support 
+1 , 
+super screens smaller display 
+productivity screen - 640x480 interlace 
+two color palette 4096 select . 
+cursor two 
+separately control color 
+color server : color 4096 . 
+1 - 4 gray 
+scale . 
+resolution restricted 
+640x480 , 800x600 , 
+ameristar , 
+ethernet card : 
+commodore 
+network software : 
+commodore decnet ethernet serial 
+connection , sana local 
+disk space : 
+7-14 
+feature : 
+contain client , font , etc. . 
+amiga use standard amiga printer device technology 
+support 50 different type printer . 
+black 
+white color 
+r4 monochrome color server 
+optional programmer 's toolkit include header file , library , 
+sample program 
+optional mwm window manager 
+optional motif , , hp 
+amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga amiga 
+atari atari atari atari atari atari atari atari atari atari atari atari atari 
+server 
+
+vendor : 
+michael 
+division 
+8 
+
+germany 
+tel : 
+fax : 
+email : 
+price : 
+server computer dm 
+computer dm 
+option 030 68030 68040 processor dm 98.00 
+option 030 option pex 
+overseas order handle dm 100.00 
+european order handle dm 50.00 
+latest version : 
+502 . 
+
+cpu : 
+atari mega st , ste , tt 
+68000 68040 
+memory : 
+2 4 recommend 
+operate system : 
+1.4 higher 
+mouse : 
+atari mouse 
+graphic : 
+server : 
+monochrome , 
+monochrome tt , 
+: 
+monochrome , 
+monochrome tt , 
+color 
+color 
+color 
+color 
+ethernet card : 
+atari card mega vme bus 
+mega vme bus 
+--------------------------------- end enclosure ----------------------------- 
+
+| peter j. mckinney | 
+| laboratory | 
+| fluid mechanics wind engineering program | 
+| civil engineering department | 
+| colorado state university | 
+

@@ -1,0 +1,31 @@
+: paul roberts 
+subject : mask left button ? 
+organization : informix software , inc. . 
+lines : 32 
+originator : 
+post friend whose news service `` usual '' . 
+forward reply , want try reply directly , 
+try : : < > pr 
+event handler work like : 
+- > display , , false , 
+, ; 
+would like able two type action : one occur 
+left mouse , right , perhaps one 
+middle . 
+event handler would look like : 
+- > display , , false , 
+, ; 
+- > display , , false , 
+, ; 
+however know make . 
+seem 
+one event mask list hand although 
+look promising . 
+reference also mention use '' | '' two 
+mask event . 
+use '' & '' two mask ? 
+would want 
+case ? 
+help would appreciate . 
+thanks , 
+- lrm 

@@ -1,0 +1,27 @@
+: adrian godwin 
+subject : re : single chip receiver fsk ? 
+organization : acorn computers ltd , cambridge , uk 
+lines : 26 
+article < > john ackermann x write : 
+> goal come inexpensive design receiver `` back 
+> end '' input one end fsk . 
+
+> particularly interested way use higher 10.7 -- 
+> current chip work , say internal 
+> normal filter use ? 
+> 
+specify series fm demodulator etc use 
+satellite tv receiver : 150 , baseband video . 
+think also related datum slicer clock recovery circuit intend 
+use decoder , though use common 
+implementation - may volume production . 
+easily available component probably vary local satellite 
+standard , think european system vary rather widely 
+us - may worth investigate receiver 
+design find common use . 
+- adrian 
+-- 
+adrian godwin : : : 
+: believe rubbish . 
+. 
+imagine anyone else . 

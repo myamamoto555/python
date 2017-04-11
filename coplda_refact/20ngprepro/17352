@@ -1,0 +1,35 @@
+: bryan olson ; g 
+subject : advanced one time pad : re : one time pad stuff 
+organization : university maryland , baltimore county campus 
+lines : 35 
+distribution : world 
+: . 
+
+o.k. - read group , know 
+, question see . 
+ideal security , well-known flaw 
+authentication . 
+suppose use random bit stream pad , 
+encryption operation . 
+adversary know 
+plaintext message , change message . 
+'s work . 
+alice send bob plaintext p , key stream 
+alice compute ciphertext c xor p , send bob . 
+eve know p , want message appear p ' . 
+eve intercept c , compute c ' c xor p xor p ' xor p ' . 
+eve send c ' bob . 
+bob decrypt c ' compute p ' , thus receive 
+false message substitute eve . 
+question attack defeat information 
+theoretic security , computational security . 
+define something like `` ideal authentication '' 
+analog ideal security . 
+obtain ideal authentication ? 
+, much limit eve 's control message ? 
+achieve ideal authentication , solution use 
+key bit expand message ? 
+show solution 
+optimal one parameter ? 
+anyone know question ? 
+

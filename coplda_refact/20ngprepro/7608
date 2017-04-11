@@ -1,0 +1,32 @@
+: john a. slagel 
+subject : re : joystick slow ... 
+organization : university illinois urbana 
+lines : 25 
+write : 
+> use read joystick , hideously slow . 
+something 
+> like 90 % cpu time spend read joystick , 
+> program nothing printf . 
+> problem lot program trap like 
+> slow hell interface . 
+read joystick port 
+> reasonably safe fashion via polling ? 
+platform 
+> specific ? 
+joystick read value digital port . 
+? 
+send command port read , time long 
+take joystick port set certain bit . 
+time 
+proportional joystick position . 
+obviously , since time 
+use position , get rid waste 
+time . 
+write routine instead bio , 
+would speed , time would still . 
+-- 
+
+john a. slagel `` old man use tell , leave 
+shitty world , never chase bus woman - 
+always get leave behind . '' 
+- marlboro man 

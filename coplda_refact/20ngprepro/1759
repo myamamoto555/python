@@ -1,0 +1,35 @@
+: stephen bokor 
+subject : re : : drive wo boot 
+organization : royal melbourne institute technology 
+lines : 36 
+: 
+eric j balog write : 
+> hus ! 
+> recently switch 3.5 '' drive : . 
+problem , read 
+> write new : b : correctly , boot floppy : . 
+> check cmo setting ; set floppy seek boot boot 
+> order : , c : . 
+> , floppy system file : . 
+get 
+> message tell put disk system disk drive . 
+work . 
+> system disk : drive , happen : 
+> 1 power-on memory test ; 
+> 2 : light come 
+> 3 b : light come , follow short beep ; 
+> 4 hd light come instant ; 
+> 5 b : light come , nothing happen 
+> light go , disk activity kind , screen 
+> blank . 
+even use . 
+> suggestion . 
+check : 1 setting drive : 1.44 m floppy . 
+2 setting drive b : 1.2 m . 
+3 cable connect two drive 
+controller card remember 
+two wire swap , determine 
+drive : & b . 
+hope help : - 
+steve 
+

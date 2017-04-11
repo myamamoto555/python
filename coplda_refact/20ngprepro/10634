@@ -1,0 +1,976 @@
+: david b. lewis 
+subject : frequently ask question faq 
+summary : useful information x window system 
+: x faq maintenance address 
+organization : visual , inc. . 
+expire : sun , 2 may 1993 gmt 
+lines : 929 
+: 
+: 
+
+subject : 24 ! 
+make print application ? 
+client x11 distribution use select window 
+background . 
+produce file image window . 
+file something useful print 
+client local printing mechanism . 
+use command : 
+csh % sleep 10 ; - root > & 
+spend 10 seconds set screen ; entire current 
+display save file . 
+note also 
+undocumented r5 - id flag specify window id 
+command-line . 
+also unofficial patch export 
+specify delay portion screen capture . 
+two program allow interactive definition 
+arbitrary portion display built-in delay . 
+several version ; version 2.2 , available export 
+recent . 
+include feature supersede ; also render 
+output version unknown . 
+available export ; 
+see . 
+. 
+program combine feature 
+available .0 . 
+. 
+information : 
+. 
+, alberto available 
+.1 . 
+. 
+output tool , use , 
+part x11 distribution . 
+also several archive 
+, produce encapsulated postscript trimming suitable 
+use presentation see : . 
+
+. 
+. 
+also useful package many archive 
+server ; xim package contain level 2 color postscript output . 
+xv program grab portion x display , manipulate , 
+save one available format . 
+similar capability . 
+also : 
+bristol technology offer 
+2.0 , xlib api postscript pcl printer ; demo 
+. 
+offer package include screen - 
+capture facility , , support postscript 
+printer . 
+vendor ' implementation x e.g. 
+include session manager desktop program include `` print portion 
+screen '' `` take snapshot '' option . 
+platform also tool 
+use grab directly ; sun system , example , 
+` ' program produce sun raster file . 
+x terminal 
+local utility write postscript local serial printer . 
+vendor ' implementation lpr e.g. sony include direct 
+support printing file , 'll typically need package 
+massage output useful format get printer . 
+
+subject : 25 make color postscript x display ? 
+need color postscript particular , 
+- grab use program produce color 
+postscript , xv 
+- grab use color ps . 
+use program 
+distribution . 
+package also good , xim package . 
+
+subject : 26 make include x cursor ? 
+unless x server extend . 
+consider 
+instead mechanism , e.g. , capture . 
+
+subject : 27 fax image x ? 
+likeliest program incarnation jef 's useful + + 
+portable bitmap toolkit , include number program convert 
+among various image format . 
+include support many type bitmap , 
+image , full-color image . 
+update recently ; 
+recent version export . 
+. 
+another tool san diego supercomputing center 's ` ' 
+particular , package functionality pbm single binary . 
+available anonymous ftp . 
+useful view jim frost 's , 
+version r4 directory ; 
+later version available , include . 
+export . 
+graeme gill 's update earlier version also export ; 
+see ; version 1.14 release . 
+xv x image viewer , write john bradley , 
+read display picture sun raster , pgm , pbm , ppm , x11 bitmap , tiff , 
+gif jpeg . 
+manipulate image : adjust , color , intensity , 
+contrast , aspect ratio , crop . 
+save image aforementioned 
+format plus postscript . 
+grab portion x display , manipulate 
+, save one available format . 
+program update ; 
+see file . 
+. 
+fuzzy manipulation , michael mauldin < > . 
+conversion manipulation package , similar . 
+version 1.0 available 
+via ftp : , : . 
+, 
+: . 
+. 
+img software set , paul raveling < > , read 
+write image format , display x11 screen , image 
+manipulation . 
+version 1.3 available via ftp 
+_ 1.3 . 
+, along large collection color image . 
+utah rle toolkit conversion manipulation package similar 
+. 
+available via ftp : - , 
+: - , : - . 
+xim , x image manipulator , philip thompson , essential 
+interactive display , editing , filter , converting image . 
+
+version area ; recent version use r4 
+motif 1.1 available . 
+xim gif , 
+, , tiff , rle , xim , write level 2 ep format also 
+library command-line utility build application . 
+2.3 ; retrieve 
+export 's area . 
+collection utility transform display 
+image x server . 
+tool use miff format ; filter miff 
+popular format ppm , tiff , gif , sun raster , etc include . 
+tool view tiff file x window . 
+write 
+handle many different kind tiff file possible remain 
+simple , portable efficient . 
+illustrate common problem 
+building use different visual class . 
+distribute 
+part sam leffler 's package also available 
+, . 
+,10 90 
+2.0 announce ; include xlib xt version . 
+version lee iverson 's tool 
+available . 
+. 
+package 
+also include widget widget . 
+; 
+material larry carroll , 
+
+subject : 28 change window ? 
+solution involve send escape sequence 
+cause update property window manager rely upon 
+string appear window . 
+solution easy typing run shell : 
+echo `` esc 2 ; text ^ g '' 
+esc escape key , text string wish display , 
+^ g bel character . 
+complicated csh alias change 
+current work directory change directory : 
+alias ` cd \ ! 
+; echo - n esc 2 \ ; $ cwd ^ g ' 
+digit ' 2 ' string indicate 
+change title window ; change title name 
+use icon , use digit ' 0 ' instead , use ' 1 ' change 
+icon name . 
+note : another way , prevent incorrect display 
+local directory modify ` cd ` use subshell , wrap 
+escape sequence ps1 prompt . 
+note : ibm may necessary begin sequence 
+^ v. 
+
+subject : 29 find control sequence ? 
+best source information r5 source file 
+; postscript version . 
+o'reilly 's volume 3 , x user 's guide , include r5 version control 
+sequence ; standard volume available , motif version 
+book available . 
+current r4 guide include outdated version 
+control sequence . 
+
+good source information include r4 version document 
+also file r4 source call . 
+txt , 
+compilation put together skip montanaro ge list vt100 
+sequence . 
+date r3 fairly accurate . 
+hardcopy version 
+publish december 1989 newsletter . 
+pinch , vt100 manual . 
+last update 
+
+subject : 30 - r3 , et al , fail r4 server ? 
+
+subject : 31 use character ascii 127 ? 
+order use special character , need 
+`` '' also use font , 
+font : - - - - - - - - c - - 
+: - - - - - - - - c - - 
+family intentionally unspecified example . 
+addition , may want set shell : 
+
+give character 127 , determine key use 
+alt modifier find equivalent character 127 try use 
+` man ` . 
+example , v section character ' 
+alt - ' . 
+thanks greg holmberg stephen gildea 
+; 
+
+subject : 32 menu small ? 
+probably set geometry small accidentally . 
+give 
+resource specification like : 
+geometry : 
+ask widget geometry set 
+. 
+main window , ok , use character size . 
+popup menu ; pixel show small . 
+set 
+terminal widget specify geometry , name explicitly : 
+vt100 . 
+geometry : 
+
+subject : 33 print current selection ? 
+could paste execute lpr command . 
+however , program richard hesketh specifically 
+manipulate selection help ; e.g. 
+% primary | lpr 
+find primary selection print . 
+command place 
+menu . 
+also permit setting 
+selection property . 
+version export . 
+also available : _ , 
+adapt . 
+
+subject : 34 xt use environment variable load resource ? 
+use several environment variable control resource 
+load program -- , , 
+. 
+environment variable control xt look 
+file application initialize . 
+xt load 
+one file path define another 
+path define . 
+set software install system 
+way file appear several different directory hierarchy . 
+suppose , example , run sun 's open windows , also 
+r4 x application install . 
+could 
+set value like , would cause xt look 
+file wherever 
+located : 
+% % n : $ % % n 
+value environment variable list . 
+contain replacement character follow see 
+: 
+% n value filename parameter , 
+application 's class name . 
+% value file `` type '' . 
+case , 
+literal string `` '' 
+% c customization resource r5 
+% suffix . 
+none . 
+% l language , locale , e.g. `` . 
+euc '' 
+% l language part % l e.g. `` ja '' 
+% territory part display 's language string 
+% c part display 's language string 
+let 's take apart example . 
+suppose application 's class name 
+`` '' . 
+also , suppose open windows install . 
+notice 
+example omit lookup . 
+% % n mean 
+$ % % n mean 
+application initialize , xt try open 
+file , order show . 
+soon find one , read 
+use , stop look . 
+effect path 
+search first , . 
+let 's consider another example . 
+time , let 's set 
+look file current working 
+directory , directory ~ . 
+. 
+% : $ % n 
+first path list expand . 
+. 
+second expand 
+$ . 
+convenient setting debug 
+follow convention name file 
+application 's source directory , run application 
+directory work still resource load 
+properly . 
+note : look file , 
+bizarre reason , neither type file suffix define % 
+% useless . 
+r5 , another twist . 
+may specify customization 
+resource value . 
+example , might run `` '' application like : 
+- '' customization : - color '' 
+one specification value 
+'' % % n % c '' expand would 
+'' '' % c substitution character 
+take value customization resource . 
+default , compile xt , : 
+% l % % n % c r5 
+% l % % n % c r5 
+% % n % c r5 
+% l % % n : \ 
+% l % % n : \ 
+% % n 
+note : site replace 
+batch default setting . 
+default , also compile xt , 
+% l % n % c r5 
+% l % n % c r5 
+% n % c r5 
+% l % n : \ 
+% l % n : \ 
+% n : 
+either value user 's home directory 
+set . 
+set value 
+default , xt ignore altogether . 
+notice quick dirty way make application find 
+file current work directory set 
+'' . '' 
+, single dot . 
+r3 , machinery work differently ; r3 
+, many people set value '' . 
+'' , dot follow 
+slash . 
+thanks oliver jones ; . 
+
+subject : 35 r4 put picture behind log-in window ? 
+answer lie change 's resource file run 
+program change background load resource ; example , 
+file may add line 
+.0 . 
+authorize : false 
+permit unrestricted access display log-in beware ! 
+also 
+: . 
+
+file something connection along line : 
+# ! 
+
+argument : - display :0 - load 
+- display $ 2 - bitmap . 
+bitmap 
+$ 
+substitute xv , taste . 
+note 
+general hack use invoke console window client . 
+thanks jay bourland , 
+
+subject : 36 path set run . 
+file ? 
+run . 
+source . 
+. 
+login 
+file . 
+set path explicitly normally could sh script ; 
+place statement separate file 
+source . 
+file shell configuration file ; , 
+set path . 
+file , normal place , make 
+. 
+path set simply make csh script , i.e. start 
+. 
+file '' # ! 
+'' . 
+work , also try start : 
+# ! 
+
+# reset path : 
+path ` csh - c ` echo $ path ' ` ; export path 
+
+subject : 37 keep $ display another machine ? 
+several way avoid `` display ... '' 
+whenever log another networked unix machine run x. 
+one solution use r5 tape . 
+
+include , script start x application remote machine , 
+, script start local run remote machine . 
+recent version export .4 . 
+shar . 
+one solution use program der mouse 
+. 
+ftp version 
+, . 
+c . 
+c. program package $ term 
+$ display single string , stuff $ term . 
+
+propagate $ term normally ; . 
+remote machine contain 
+eval ` ` 
+program check $ term special 
+format recognize , unpack spit command 
+recreate environment variable . 
+
+addition , need start remote x process 
+another host , find 
+rsh - n - display $ display 
+simple display must real hostname , version 
+use start remote x process . 
+equivalent usage would 
+
+# ! 
+
+# start x11 process another host 
+# date : 8 dec 88 gmt 
+# : chris < > 
+# rsh $ host - n `` display $ display ; exec $ @ < > & '' 
+# 
+# improve version : 
+# suggest john robinson , 
+# generalize sh , ksh keith boyer , 
+# 
+# put 's leave zombie . 
+
+# script combine best . 
+case $ # 
+01 echo `` usage : $ 0 host arg ... '' ; ; 
+
+case $ shell 
+csh host `` $ 1 '' ; shift 
+`` $ host '' > 
+rsh `` $ host '' - n \ 
+`` term ; display ` hostname ` :0 ; \ 
+exec $ < > & '' & 
+; ; 
+sh 
+host `` $ 1 '' ; shift 
+`` $ host '' > 
+rsh `` $ host '' - n \ 
+`` term export term ; \ 
+display ` hostname ` :0 export display ; \ 
+export ; \ 
+path $ path : : : ; \ 
+export path ; \ 
+exec $ < > 2 > & 1 '' & 
+; ; 
+esac 
+; ; 
+esac 
+
+subject : 38 design font ? 
+one way use `` bitmap '' client e.g. 
+sun 's tool , design individual 
+character large amount post-processing 
+bdf format . 
+see ollie jones 's article november 91 x 
+journal information . 
+r3 area contain 
+number useful utility , include convert bdf font format 
+simple character format edit text editor . 
+easier way use `` '' client modify exist font ; 
+version r4 r5 tape . 
+
+available anonymous ftp . 
+de , 
+possibly file . 
+produce 
+font compile variety x server . 
+client group bull permit creation bitmap , cursor , 
+, font . 
+binary common machine 
+pub ; addition , source old xlib implementation place 
+export : . 
+metafont user use `` '' 
+distribution convert pk , gf , font bdf format ; distribution 
+. 
+gnu package .4 . 
+include , 
+font editor , number utility massage font format . 
+o'reilly x resource issue # 2 contain article use 
+tool modify font . 
+font resize hiroto 's ; new version 
+: . 
+
+subject : 39 add font server work sic ? 
+build font use system 's , 
+install directory , run ` ` system 's equivalent 
+e.g. directory , sure use ` + fp 
+$ dir ` add full server 's , 
+directory already path , use ` fp rehash ` new font 
+directory actually find ; last step probably 
+leave . 
+also use ` q ` make sure directory 
+path . 
+sometimes `` + fp $ dir '' command fail error : 
+x error fail request : 
+integer parameter range operation 
+major opcode fail request : 51 
+mean x server find read font directory , 
+directory look like font directory server . 
+
+mention `` integer parameter '' message spurious . 
+-- font directory specify readable server 's file 
+system ? 
+remember , server , client , interpret 
+font directory . 
+trouble area especially likely issue 
+command shell e.g. `` + fp ~ '' 
+server x terminal manage . 
+-- directory really font directory ? 
+run mit server 
+variety vendor server look directory file 
+`` '' . 
+find file , run 1 . 
+` re 
+run , look file `` '' . 
+find 
+, run 1 . 
+-- site people run server run 
+proprietary server nonstandard font format , 
+example , make sure font directory right server use . 
+hint : directory contain . 
+pcf . 
+snf file , work 
+open windows . 
+directory contain . 
+ff . 
+fb file , work 
+. 
+thanks der mouse oliver jones 
+; 
+
+subject : 40 convert '' . 
+snf '' font back '' . 
+bdf '' font ? 
+tool call `` 1.4 '' part package , 
+available : . 
+
+: . 
+. 
+
+
+subject : 41 general method get font usable format ? 
+der mouse 's one solution ; connect server 
+produce . 
+bdf file font server willing let . 
+
+use converter , require access server 
+understand font file , thus less powerful tool 
+. 
+. 
+c available via mail 
+. 
+
+addition , r5 program `` '' produce bdf font 
+r5 server access . 
+
+subject : 42 use font server ? 
+font typically exist installation , 
+rewrite rule use alia font use application 
+standard mit font similar characteristic size . 
+pick file 
+_ . 
+alias ; file 
+standard mit r4 server . 
+also serve start point 
+create similar alias file open windows server server 
+use mit font scheme . 
+
+subject : 43 add '' . 
+bdf '' font server ? 
+format font prefer dec 's x server '' . 
+pcf '' format . 
+produce compile format . 
+bdf format use dec 's 
+. 
+note dec server also use raw . 
+bdf font , 
+performance hit . 
+
+subject : 44 ! 
+set default file ? 
+? 
+want able something like : 
+: 
+. 
+resource 
+depth screen , bitmap depth 1 . 
+
+, write generic string converter impossible , since 
+accept convention file format . 
+therefore , 
+neither x toolkit athena widget set define string 
+converter , converter specify value 
+resource . 
+athena widget set define string bitmap converter 
+use many widget , however . 
+courtesy chris d. peterson , 
+however : 
+specific converter encapsulate much functionality 
+package jim frost post sebastian 
+; permit loading number 
+image format . 
+lead general-purpose format format use 
+groupe bull several program , include window manager , 
+at&t editor , ic interface builder . 
+
+distribution , available export . 
+, include 
+routine easily adapt converter new widget want 
+allow specification resource manner . 
+see information 
+mailing list . 
+3.0 f announce 
+available ; older version 
+r5 tape . 
+set icon collect anthony thyssen 
+export . 
+
+subject : 45 override translation ? 
+first item work . 
+probably extra space specification first 
+item , like : 
+basic : \ 
+ctrl : \ n \ 
+ctrl e : 
+^ extra space 
+newline space end translation definition . 
+thanks timothy j. horton , 
+
+subject : 46 show different timezone ? 
+one solution , volume 6 , show 
+time timezone local one . 
+alternatively , probably set timezone shell 
+invoke , use script similar : 
+# ! 
+
+tz - name `` '' 2 > & 
+tz - name `` '' 2 > & 
+
+subject : 47 , work . 
+get mh ? 
+require rand mh handle system , 
+part unix software distribution many machine . 
+list 
+various ftp , uucp , e-mail site mh give 
+monthly mh faq ; one source file -6.7 . 
+. 
+receive newsgroup mailing list , 
+request copy faq , also include section , 
+send mail contain request 
+`` send . 
+'' . 
+
+subject : 48 suddenly unable connect sun x server ? 
+seemingly random amount time x server start , 
+client able connect . 
+default cron cleanup job supply sun , least 
+delete `` old '' unreferenced file tmp -- include tmp . 
+, 
+contain socket descriptor use x. solution add '' ! 
+- type '' 
+find exclusion cron job . 
+
+
+subject : 49 r5 pex demo work mono screen ? 
+r5 sample server implementation work color screen , sorry . 
+
+subject : 50 ! 
+get sun type - 45 keyboard fully support ? 
+many user want num lock key light num lock lead 
+appropriate effect numeric keypad . 
+server distribute mit 
+two different patch available . 
+first patch write jonathan lemon fix num lock related 
+problem . 
+available file 
+5 . 
+. 
+z . 
+second write martin fix num lock compose key 
+add support different national keyboard layout 
+keyboard . 
+patch available 
+. 
+via email . 
+thanks martin , 
+set patch william bailey post newsgroup 
+provide support keyboard . 
+
+subject : 51 report bug x ? 
+generally , report bug find organization supply 
+x window system . 
+receive r5 source distribution directly 
+mit , please read file instruction . 
+look 
+r4 . 
+thanks stephen gildea < > , ; 
+
+subject : 52 get `` warning : widget class version mismatch '' ? 
+error , typically go say , `` widget vs. 
+intrinsic '' indicate header file include building 
+program match header file xt library link 
+build ; check - include path - l sure . 
+however , problem also occur link version 
+xt library patch 10 ; version number wrong . 
+sun ow 
+system , particular , ship flaw version library , 
+application link library typically give warning 
+see . 
+
+subject : 53 find dictionary server ? 
+webster 's still copyright on-line copy webster 's 
+dictionary find various university site . 
+become aware 
+site act server site run 
+, ask server site close external access . 
+next machine apparently also license dictionary . 
+
+webster daemon next machine available 
+`` -2.0 '' . 
+unless want get legal on-line copy find site 
+grant access , probably luck . 
+however , legitimate site , 'll want pick 
+latest , as-is export : . 
+; file 
+include discussion availability , illegality , 
+non-availability dictionary server . 
+courtesy steve miller niel 
+mayer 
+
+subject : 54 topic : obtaining x related software hardware 
+
+subject : 55 x public-domain software ? 
+. 
+x software copyright various institution 
+`` public domain '' , specific legal meaning . 
+however , x 
+distribution available free redistribute without fee . 
+contribute software , though , may place public domain 
+individual author . 
+
+subject : 56 compatible , r4 , r5 ? 
+change ? 
+release notes mit release x11 specify change 
+previous release . 
+x consortium try hard maintain compatibility 
+across release . 
+place incompatible change necessary , 
+detail give release notes . 
+x11 distribution site 
+network also offer release notes go release offer ; 
+file typically find top distribution tree . 
+stephen gildea , 
+list xt difference among version . 
+
+subject : 57 ! 
+get source binary ? 
+information mit 's distribution source tape 
+distribution hardcopy document available 
+software center , technology licensing office , massachusetts institute 
+technology , 28 carleton street , room , cambridge ma , 
+phone : . 
+need 100mb disk space hold core hold 
+software donate individual company . 
+please use site close network . 
+note release note generally available separately 
+directory ; note list change previous version x offer 
+guide distribution . 
+north america anonymous ftp : 
+california 
+
+california 
+
+indiana 
+
+maryland 
+
+good site 
+massachusetts 
+
+massachusetts 
+
+better 
+michigan 
+
+missouri 
+
+montana . 
+
+
+new mexico 
+
+new york 
+
+north carolina 
+
+ohio . 
+edu . 
+
+
+ontario 
+
+washington dc . 
+
+
+washington dc . 
+
+
+anonymous ftp : 
+australia 
+
+denmark 
+
+united kingdom . 
+
+
+
+
+finland 
+
+france 
+
+germany 
+
+israel 
+
+italy 
+
+netherlands 
+
+norway 
+
+norway 
+
+switzerland 
+
+japan anonymous ftp : 
+kanagawa 
+
+. 
+
+
+kyushu . 
+
+
+. 
+
+
+tokyo 
+
+tokyo 
+
+uucp : 
+uunet uunet customer ~ 
+exist neighbor ~ 
+~ 
+online ~ 9 sept 
+exist neighbor ~ 
+netherlands ~ 
+nf : 
+missouri 
+mount point : archive 
+afs : 
+pennsylvania . 
+
+, cpf , fcp , ... : 
+united kingdom 
+
+user `` guest '' 
+anon : 
+united kingdom janet 
+internet 
+
+: 
+australia 
+please fetch one file 
+time , check 
+copy available 
+closer site . 
+; update 
+anyone europe get copy mit distribution , include 
+core contribute software official patch , free charge . 
+requirement agree return tape , equivalent new tape . 
+qic tk format cartridge provide . 
+contact : jamie watson , 
+ag , 104 , , switzerland . 
+tel : 31 62 ; fax : 62 ; . 
+uk site obtain x11 software distribution service , 
+department computing , imperial college , london , several tape format . 
+may also obtain source via janet therefore pss use host : 
+name : guest password : . 
+query 
+direct lee mcloughlin , # , 
+send subject line `` want '' . 
+also offer 
+copy , doc area 
+announce freely distributable package . 
+source along code , prebuilt x binary 
+major platform , source code example o'reilly 's book available 
+cd-rom o'reilly & associates . 
+. 
+source available cd-rom member japan 
+unix society hiroaki obata , . 
+source along gnu source , archive , sparc 
+binary available cd-rom pdq software , 
+robert a. bruce , . 
+source available automata design associates , +1 . 
+various user ' group e.g. sug offer x source cheaply , typically cd-rom . 
+source andrew user interface system 5.1 binary common system 
+available cd-rom . 
+information : 
+, fax . 
+binary , share , 
+available : . 
+patches 
+compile gcc share library also available . 
+john l. coolidge 
+binary rich kaul run 
+suno available please after-hours usa est . 
+binary available 
+. 
+binary tree next douglas scott 
+; miss server , though . 
+binary : . 
+binary . 
+source binary hp-ux 8 . 
+9.0 800 domain 10.4 68k , 
+dn 10k available users group ; contact carol relph 
+, fax , . 
+patches solaris 2.1 casper h.s. dik et al 
+export r5 . 
+. 
+, r5 . 
+. 
+. 
+patches sun type 5 keyboard keyboard 
+available william bailey . 
+also : 
+binary available , , 
+probably sun platform . 
+
+david b. lewis 
+`` faq , ma'am . '' 
+-- joe friday 
+-- 
+david b. lewis temporarily speak visual , inc. . 
+day : evening : 

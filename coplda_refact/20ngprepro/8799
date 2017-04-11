@@ -1,0 +1,29 @@
+: graeme gill 
+subject : re : look circle algorithm faster 
+organization : australia pty. ltd. , melbourne , australia 
+lines : 28 
+article < > , michael dillon write : 
+> algorithm similar line draw algorithm , 
+> draw line step along minor axis draw slice like 
+> aaaa , , cccc follow diagram . 
+> 
+> aaaa 
+> 
+> cccc 
+> 
+yes , know `` run length slice algorithm 
+incremental line '' . 
+see fundamental algorithm computer graphics , 
+springer-verlag , berlin heidelberg 1985 . 
+> try extrapolate circle figure 
+> determine length slice . 
+idea ? 
+hmm . 
+think help , might 
+take look following : 
+`` incremental generation lines circles '' , 
+x. wu j. g. , computer graphics image processing , 
+vol 37 , no. 4 , mar. 1987 , p. 
+`` generation ellipses '' , x. wu j. g. , 
+ieee computer graphics & application , may 1989 , p. 
+graeme gill . 

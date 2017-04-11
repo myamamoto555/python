@@ -1,0 +1,25 @@
+: nadia morgaine 
+subject : dump login screen 
+keyword : dump 
+: 
+organization : sistemi s.p.a. 
+lines : 23 
+: gea 
+run hp-ux 8.07 hp vue 2.01 need hardcopy 
+login window one ask login password 
+include manual . 
+try : 
+- display hostname :0 - root - 
+login remote terminal , work . 
+seem wait window server , window 
+server answer . 
+suggestion ? 
+must use access 
+ftp obtain another program grab screen . 
+thanks advance 
+nadia 
+-- 
+------------------------------------------------------- 
+- nadia sistemi s.p.a. - 
+- via g.b. grassi , 93 - milano italy - 
+- e-mail : - 

@@ -1,0 +1,23 @@
+: 
+subject : re : microcontroller questions newcomer 
+organization : university louisville 
+lines : 18 
+: 
+anyone recommendation whether smart datum print spooler , 
+digital sampling , etc. would better implement dma chip 
+dedicated microcontroller ? 
+essentially try decide best 
+way handle move datum port automatic handshaking 
+memory area accessible main system processor use 
+smart datum . 
+dma microcontroller chip would best use ? 
+fast , cheap , easy 
+obtain would nice , limit choice fit 
+characteristic . 
+even $ 5 would want , 
+sure better alternative -- like microcontroller 
+e eprom . 
+essentially want hear dma microcontrollers simple 
+interface move datum one place another monitor 
+line . 
+jeff white 

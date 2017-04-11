@@ -1,0 +1,51 @@
+: wayne long 
+subject : observation : floppy copy work pgm mgr , dos shell . 
+organization : motorola austin , tx 
+lines : 51 
+: 
+anyone observe ? 
+copy large , say + file large pkzip 
+file instance floppy drive 3.5 '' m windows 3.1 via either 
+program manager dos shell , file copy dos shell 
+error whereas file copy within program manager . 
+corruption detect execute `` - b : \ '' 
+copy . 
+file copy via dos shell always show corruption . 
+kicker : 
+many window open ; dos window app . 
+supposedly window ' app share time slice , whereas 
+dos app get equal time slice unless . 
+, example , 5 window ' app open , 2 multitask dos session run , 
+one dos shell inactive . 
+
+scenario , cpu time divide two major slice : one windows 
+app one slice run app . 
+copy windows pgm mgr , 'll assume windows dos task 
+essentially inactive . 
+thus pgm mgr get , say , 80 % windows slice 
+95 % dos shell 's slice . 
+thus get .8 .95 ^ 2 
+.72 72 % total available cpu time . 
+copying dos shell , activate mode dos shell 
+dos background task allow , full screen , windows task 
+manager . 
+cpu time available shell would 80 % windows slice 
+inactive windows application 100 % dos slice : 
+1.0 .8 .8 80 % total available cpu time . 
+get copy error dos greater amount cpu 
+time ? 
+program manager work pre-emptive mode floppy 
+copy ? 
+must ! 
+miscellaneous datum : run windows top dos 5.0 , qemm 5 . 
+x , , 
+2.0 delay write , two , 
+logitech mouse driver 6.2 , full motherboard ram , 
+motherboard cache , 386 dx 33 mhz . 
+run . 
+com tsr dos shell . 
+-- 
+
+wayne long - internet : 
+6501 william cannon drive west uucp : 
+austin , texas phone fax : 

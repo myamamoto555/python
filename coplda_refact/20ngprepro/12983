@@ -1,0 +1,34 @@
+: michael carr 
+subject : digital - > ac scaling 
+organization : ohio northern university 
+: tin version 1.1 
+lines : 28 
+`` visualization '' stage circuit design right , 
+wonder best way `` scale '' ac voltage use 8-bit 
+digital word . 
+thinking use common method send 
+word adc compare ac voltage convert 
+sawtooth wave get duty cycle . 
+however , leary 
+method require lot part , , importantly , b 
+create lot interference switching entire ac line . 
+
+realize correct filter could cancel interference , 
+would require part boost price . 
+someone mention see ic input 8 
+bit datum directly scale ac voltage come on-chip . 
+unfortunately , could remember chip number manufacturer ; 
+anyone else hear chip , please e-mail . 
+build project `` dimmer box '' light 
+controller circuit important cost box remain 
+low one dimmer require light user 
+wish control well , channel , least . 
+therefor , box 
+cost $ 150 , doubt end user want dish $ 150 x 16 
+$ 2400 sixteen channel ... something notice 
+today 's dimmer box ; expensive ! 
+anyway , help someone could offer either method 
+easily info chip always 
+preferred method ... greatly appreciate ! 
+michael carr 
+

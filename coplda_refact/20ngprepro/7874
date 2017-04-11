@@ -1,0 +1,35 @@
+: marc < > 
+subject : re : clipper chip -- technical detail 
+organization : computer science dept , indiana university 
+lines : 24 
+thus say d. j. bernstein : 
+> short summary bellovin say hellman say nsa say : 
+> global key g , plus one key chip c. user choose 
+> new session key phone call p make . 
+chip c know three 
+> key : g , , user 's . 
+government whole 
+> know g every . 
+apparently message m encrypt 
+> e _ , c , e _ m . 
+. 
+> 
+> system describe possibly work . 
+happen 
+> someone plug ciphertext receive chip ? 
+get m 
+> receive chip need ; get receive chip need . 
+> information work c. compute 
+> c system cryptographically useless `` key 
+> escrow '' bullshit . 
+otherwise message decrypt ? 
+give description algorithm give , plausible 
+find must agree bandwidth 
+advance two party ; i.e. standard shared symmetric 
+key . 
+-- 
+marc mime & accept 
+security diversion : n. theory state public 
+availability good computer game vital maintain system 
+safety . 
+contrast security obscurity . 

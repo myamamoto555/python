@@ -1,0 +1,42 @@
+: bram 
+subject : re : 48-bit graphic ... 
+keyword : 48-bit alpha channel image 
+: 
+organization : , university amsterdam 
+lines : 32 
+howdy , 
+sane write : 
+> recently talk possible employer mine ! 
+make reference 
+> 48-bit graphic processing system . 
+seem remember call image 
+> something akin . 
+anyway , claim 48-bit color + 12-bit alpha channel . 
+
+> 60 bit info -- could possibly ? 
+specifically 48-bit color ? 
+280 
+> trillion color , many human eye resolve . 
+anti-aliasing thing ? 
+
+> magic number make work better certain processor . 
+hmm ... 48 bit aye ? 
+well , beat 32-bit design thee sake . 
+48 bit mean 16 bit per primary color . 
+2 ^ 48 nr color bit misleading . 
+make sense see 
+65536 possible shades pure red . 
+might actually make sense , since 256 shades red 24 bit color 
+may produce visible ` jump ' intensity . 
+, byte per primary color pixel elegant way 
+color graphic , leave ya tidy fast program 
+code . 
+take care , 
+bram 
++ + + 
+| `` flying nack ... trick | bram stolk | 
+| throw ground , | dept. math . 
+& computer science | 
+| miss ... '' - douglas adams | university amsterdam | 
++ + + 
+, dont use , prefer linux ! 

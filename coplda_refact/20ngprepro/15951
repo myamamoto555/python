@@ -1,0 +1,35 @@
+: alejandro cifuentes 
+subject : re : mouse jumpy ? 
+m mouse 
+: 
+organization : pontificia universidad catolica de chile 
+: tin 1.1 
+lines : 28 
+: sean write : 
+: 
+: > microsoft serial mouse use 8.00 use 8.20 
+: > think , switch 8.00 see better . 
+vertical motion 
+: > nice smooth , horizontal motion bad sometimes click 
+: > something mouse jump around . 
+move mouse 
+: > right relatively uniform motion mouse move smoothly 
+: > bit , jump right , move smoothly bit jump 
+: > maybe time leave .5 inch ! 
+. 
+crazy ! 
+
+: > never much trouble mouse . 
+anyone solution ? 
+another hint : 
+really jump mouse ps2 type , finally mouse 
+stop jump change yes , ! 
+, use : 
+device m : x 
+x 1,2 , ... ,8 course computer appear list 
+parameter 
+maybe , mouse stop jump ... problem look 
+like dirty mouse ... 
+hope help anybody ! 
+alejandro cifuentes h. 
+

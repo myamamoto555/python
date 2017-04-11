@@ -1,0 +1,206 @@
+: steve bollinger < > 
+subject : re : stereo sound problem ? 
+mac game 
+: v1 d20 
+: mon , 19 apr 93 gmt 
+: < > 
+organization : apple computer , inc. . 
+lines : 192 
+article < > doug p. book , 
+write : 
+> hus . 
+think problem stereo sound output quadra 
+> 900 , totally sure problem 
+> powerbook 170 . 
+info experience would 
+> greatly appreciate . 
+> 
+> hook quadra home stereo system , following type 
+> sound mono , far tell play fine 
+> speaker : 
+> 
+> system beep already provide one indigo one record 
+> 
+> armor alley 
+> spectre 
+> spaceward ho ! 
+> 
+> 
+> , follow game play left channel : 
+> 
+> lemming 
+> world awesome game , btw 
+> glider 4.0 
+> oid 
+> 
+> 
+> still , stereo system beep play stereo , speaker . 
+> one specifically beginning , 
+> roommate download ftp site ? 
+> 
+> 
+> symptom 170 run 
+> color . 
+> 
+> run system 7.1 
+> 
+> 
+> 
+> anyone lemming three game mention get 
+> sound speaker mac ii class , quadra , lc , powerbook 140 
+
+> greater , centris , , etc. . 
+. 
+stereo machine ? 
+> 
+> use mac ii , sort lemming play 
+> stereo machine , left channel . 
+could 
+> mistaken , though . 
+problem quad 900 's pb 
+> 170 's , wonder system beep still play stereo ? 
+
+
+> problem machine , wonder 4 game 
+> apparantly write support one channel stereo 
+> could use mono sound mono sound would least come 
+> speaker like spectre , etc. ? 
+> 
+> quadra 900 's powerbook 170 's rom knowledge , 
+> maybe rom problem ? 
+, though , would system 7.1 
+> patch problem ? 
+> 
+> 
+> 
+> 
+> thanks help provide ! 
+article < > jon , 
+write : 
+> mac sound hardware diverse ; mac play stereo 
+> mix output instance play 
+> stereo left channel speaker , 
+> `` truly '' mono like lc 
+> 
+> developer know stuff play left channel 
+> guarantee hear , right channel . 
+
+> send datum , send datum left channel 
+> first , course 
+okay , guess time quick explanation mac sound . 
+original documentation sound hardware document 
+make sound directly access hardware . 
+basically , jam value 
+even byte +0 . 
+
+
+mac 128 later machine generate sound 
+scanning 
+block every even byte odd byte go floppy 
+machine . 
+mac ii apple sound chip invent , design 
+generate stereo sound . 
+also design compatible 
+
+document . 
+store byte even value mean `` 
+want 
+play mono sound '' emulate . 
+apple since retract 
+
+documentation decide document lowest layer 
+
+sound generation . 
+apple never explain stuff byte 
+want 
+make stereo sound . 
+enter game developer . 
+sound driver current sound manager 
+inconveniently lame make game . 
+furthermore , people port 
+
+ibm want learn api . 
+, become popular game 
+writer write make sound , since easy . 
+since mac ii , apple many different kind sound output 
+hardware , 
+thing common write 
+work . 
+hardware , mac ii , iix , , least , write 
+get mono sound speaker . 
+mac quadra 
+
+least write get mono sound left channel 
+. 
+technically correct interpretation original 
+specification , 
+one obviously preferable reason . 
+developer use sound manager think sound driver , mono 
+sound typically come channel regardless 
+underlie hardware . 
+possible specify want generate left 
+channel , one . 
+developer write sound base , 
+game come leave game . 
+problem , original mac ii produce left channel sound 
+internal speaker , mix , really related . 
+due post generation amplification use motherboard 
+different machine . 
+affect true stereo sound . 
+sound 
+actually mono , play internal speaker , matter 
+machine 
+. 
+, directly address question , game list : 
+> lemming 
+> world awesome game , btw 
+> glider 4.0 
+> oid 
+also 
+hellcats , 
+super tetris 
+
+many , test 
+cheat write left channel quadras . 
+game list : 
+> armor alley 
+> spectre 
+> spaceward ho ! 
+also 
+pga tour golf 
+civilization 
+, personal experience 
+use sound manager work fine machine . 
+story developer : cheat ! 
+really , absolutely , positively allow 
+, 
+go say anyway . 
+stop cheating sound ! 
+really soon , sorry , even without external speaker 
+disappoint sound future hardware . 
+grace period 
+end . 
+sound manager understandable , work pretty well 
+work 
+even better soon , use . 
+conclusion : 
+doug , hardware problem , least , bug . 
+jon , choice developer whether want send 
+sound 
+channel . 
+right way , take care 
+automatically . 
+cheat , way make work 
+hardware . 
+fun . 
+disclaimer number 1 : 
+work sound apple , pretty well inform . 
+write sound question . 
+disclaimer number 2 : 
+say write anything like `` grace period 
+end '' bug news feed , since 
+allow say anything like . 
+know mean . 
+disclaimer number 3 : 
+speak apple , . 
+- steve bollinger 

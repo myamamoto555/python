@@ -1,0 +1,87 @@
+: timothy williams 
+subject : re : view postscript file x window 
+organization : night vision labs , ft belvoir , va 
+lines : 97 
+: opinion express necessarily arl 
+: snoopy 
+article < > kin cho write : 
+> 
+> wonder anybody know postscript file 
+> viewer run suno prefered , , ibm aix . 
+> reason look utility download 
+> large postscript document would like know useful 
+> long commit printer potentially 
+> waste 200 page paper hog printer hour . 
+> 
+get ghostscript . 
+postscript 
+use ghostscript . 
+readme : 
+-- x11 user interface ghostscript . 
+full function user interface ghostscript 2.4 . 
+brief list feature : 
+- parse known version adobe 's document structure 
+convention . 
+- page size automatically determine document structure 
+comment . 
+user able override value comment . 
+- window size set bound box encapsulated postscript figure . 
+- default page size letter change via 
+application default file a4 valid size 
+european friend . 
+- appear necessary . 
+- page orientation automatically determine document structure 
+comment . 
+user able override value comment . 
+- ability view 4 orientation : portrait , landscape , upside-down , 
+seascape rotate landscape direction . 
+- ability preview support visual . 
+preview 
+color color monitor . 
+- ability mark page printing , saving . 
+good people 
+print 100 page document lose page 59 due printer jam . 
+- popup zoom window printer resolution 
+1 display dot 1 printer dot . 
+distribution include widget people 
+encourage use program . 
+.3 available via anonymous ftp : 
+: -1.3 . 
+
+: -1.3 . 
+
+ghostscript readme : 
+
+file describe version ghostscript . 
+
+
+
+overview ghostscript 
+
+ghostscript name set software provide : 
+- interpreter ghostscript language , 
+closely resemble postscript tm language ; 
+- set c procedure ghostscript library 
+implement graphic capability appear primitive 
+operation ghostscript language . 
+ghostscript language interpreter library write entirely 
+c , accelerator platform . 
+currently , ghostscript know run follow platform 
+family : 
+- ibm pc compatible ega , vga , , compatible 
+graphic 3.1 , 3.3 , 5.0 ; 
+- wide variety unix system use x windows version 11 , 
+release 3 , 4 , 5 , include , , , 
+sun sparcstation 1 ; generic 80386 machine run ; 
+; decstation 2100 3100 ; vax 
+run ultrix ; sequent symmetry ; convex c1 c2 ; 
+tektronix 4300 ; sgi iris indigo ; 
+- sun workstation , sparc , run ; 
+- vax , vms , gcc dec c compiler dec c compiler 
+version 3.1 later require . 
+get ghostscript ftp site get . 
+-- 
+tim williams com : 
+night vision & electronic sensors directorate dsn : 
+williams fax : 
+ft. belvoir , va e-mail : 

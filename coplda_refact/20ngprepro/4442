@@ -1,0 +1,34 @@
+: paul martz 
+subject : re : animation ? 
+: 
+: paul martz 
+organization : evans & sutherland computer corp. , salt lake city , ut 
+lines : 28 
+article < > , derek c. richardson write : 
+> hus , new group please bear ! 
+> 
+> two year ago write application fast animation 
+> raster file . 
+become rapidly , ` ve 
+> finally decide rewrite everything scratch . 
+> put together quick test , find 
+> considerably slower factor 2 average ? 
+
+> command move image datum memory 
+> canvas . 
+sparc ipx . 
+seem : 
+> 1 x protocol communication slow thing ; 
+> 2 inefficient ... ! 
+use , source maintain client 
+destination maintain server , thus incur overhead 
+transport whatever client-server communication 
+mechanism use . 
+possible maintain source image ? 
+maintain server , copy window 
+much cheaper . 
+also make sure send unnecessary , run 
+mode . 
+-- 
+- paul 
+evans & sutherland 

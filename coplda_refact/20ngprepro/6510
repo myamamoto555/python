@@ -1,0 +1,311 @@
+: robert j. niland 
+subject : re : procomm plus window problem ... 
+: 
+organization : colorado supernet , inc. . 
+: tin 1.1 
+lines : 292 
+kent p. iler write : 
+: normal procomm plus , consider buy 
+: window version ... get really great review computer shopper . 
+: friend connect mainframe unix machine 
+: use , screen seem problem keep 
+: modem ... 14,400 modem 486 50 mhz machine . 
+
+: see trouble keep . 
+work great , 
+re : high speed modem arrive . 
+edition 01 apr 93 
+article apply windows 3.0 3.1 , nt , 
+dos app run windows . 
+one unadvertised limitation current windows pc 
+serial , com performance seriously deficient . 
+almost 
+everyone purchase high-speed modem v. , v. 32 , pep hst 
+discover problem first time try download file accept 
+incoming fax 9600 + upgrade modem . 
+overrun retry 
+error abound , even active application datacomm 
+fax program . 
+transfer complete , may take even longer 
+old modem . 
+three reason problem : 
+1 . 
+universal asynchronous uart use 
+pc primitive device fifo buffer . 
+
+operate read flush character high 
+interrupt rate , next incoming character overwrite fifo 
+previous one lose . 
+dos , fairly single-minded 
+environment datacomm , usually keep . 
+windows . 
+2 . 
+windows operate system overhead plain dos , 
+interrupt often take longer service . 
+overrun much likely 
+dos . 
+soon report vendor 
+lose datum , may advise `` need upgrade 
+'' . 
+likely , since seem conspiracy ignorance 
+issue , 'll get useful advice . 
+
+mail-order source speak attempt solve 
+problem never hear term `` '' many even 
+know uart . 
+3 . 
+even pc uart 's , upgrade 
+board add new com board , may still experience 
+error overrun standard microsoft windows com driver 
+take full advantage . 
+windows 3.1 improve 
+regard 3.0 , still recommend driver upgrade . 
+application 
+like procomm + win use get around problem 
+. 
+modem card , may problem , modem part 
+card design aware state uart , avoid 
+overrun ; however , would want bet card designer 
+clever , insist uart ever buy modem 
+card . 
+modem card even conventional uart , 
+work standard windows driver , need simulate one . 
+use see modem card , pretend . 
+hardware situation . 
+uart pc com port base national semiconductor 
+chip inside vlsi chip replace 
+. 
+id uart type system run microsoft 
+diagnostic program \ window \ . 
+sure run dos 
+bring windows . 
+windows serial apus may prevent msd 
+accurately identify run windows dos prompt . 
+uart separate transmit receive fifo 
+configurable trigger level , run reliably clock rate 
+bp , although current modem technology , point 
+push luck go bp . 
+short access 
+cycle time 8250 . 
+also dma capability , 
+clear pc driver ever use . 
+technical info , 
+see national semiconductor application note . 
+, uart component ? 
+try locate uart mother board , multi-function card , com 
+board modem card . 
+find socketed component 
+number `` 8250 '' `` '' , com port probably bury vlsi , 
+able perform chip replacement . 
+disable 
+vlsi com port choose , least add aftermarket 
+com board . 
+one socketed 8250 chip , buy plug-in 
+low power cmo version ic several 
+supplier typically $ 9 $ 15 . 
+`` n '' chip normal 
+package . 
+style available , avoid 
+chip without `` '' presumably ok . 
+early n chip bug , although national reportedly exchange 
+manufacture free . 
+clone chip available various 
+ic maker national . 
+manual driver state 
+support following apparently equivalent chip : 
+national semiconductor : , , 
+chips & technology : 
+texas instruments : 
+silicon systems : 
+vlsi 
+warn pre - `` '' western digital , 
+say problem report early ibm 70 
+system ibm reportedly upgrade . 
+socket chip , 'll need buy - 
+market com multi-function board . 
+modem card situation , 
+may hose . 
+add new com multi-function card , 'll need 
+either disable port replace , 
+although watch irq conflict without . 
+although cheaper card available , interest get 
+problem solve quickly elect buy modular circuit technology 
++ card : 
+
+2233 samaritan drive 
+san jose ca 
+voice us 
+voice 
+fax us 
++ '' + '' important sell $ 89.95 . 
+8-bit 
+isa card provide : 
+port type connector address irq comment 
+com com 1,2,3 irq socket 
+com ribbon com 2,3,4 irq socket 
+parallel ,2,3 irq 
+game ribbon 
+kit include ribbon cable connector secondary com 
+port , ribbon game port , two bulkhead plate 
+connector adaptor cable . 
+port 
+individually disabled , com port tx , rx , rts , cts , dtr , 
+dcd , dsr jumper . 
+also sell m-f card also ide . 
+hear several people less expensive m-f card 
+: 
+tsd systems 
+
+$ 19.95 card , plus $ 9.95 per . 
+greenfield trading distributors 
+voice , fax . 
+card $ 33 , $ 45 , sell $ 13 . 
+r&s data systems , inc. . 
+820 east highway 434 
+longwood , fl 
+phone : 
+fax : 
+card $ 39 
+personal experience firm except . 
+meanwhile , back mct card ... need two serial port , 
+run irq pc , disabled built-in 
+8250 port . 
+however , driver , could set 
+internal 4 , use irq sharing . 
+software situation 
+simply upgrade uart completely solve common overrun 
+problem . 
+standard m serial driver take full advantage 
+. 
+windows 3.0 driver even less capable , windows 3.1 
+driver follow limitation : 
+- enable receive fifo , rate 2400 bp . 
+- never enable transmit fifo , result interrupt 
+rate 10x upload . 
+- set trigger level 14 byte high - easy 2 
+byte arrive driver read fifo . 
+- port menu control panel allow speed . 
+v. modem , sparse datum text easily compress 3:1 
+, suggest host dte connect rate 57,600 bp would 
+effective . 
+- api accept rate `` '' . 
+- api let dos program know , even 
+, dos program get little benefit 
+port standard driver . 
+- allow irq share ,4 . 
+- bio initialize ,4 properly many system . 
+- windows provide workaround app provide port 
+speed option bp . 
+problem reportedly solve windows nt dos 6.0 , may 
+may address windows release 3.1 4.0 . 
+rumor suggest `` may '' solve windows `` 4.0 '' . 
+get replacement driver solve problem buy 
+copy `` '' , current version 1.2 , : 
+research 
+pacific division 
+180 beacon hill lane 
+ashland 
+voice 
+fax 
+bb 
+: 
+compuserve : 
+price around $ 50 recall . 
+set accept credit 
+card , send check . 
+egghead list 
+far know , stock . 
+bio software company 
+per se . 
+apparently need reliable hi-speed serial connection 
+in-house instrument application , write driver , discover 
+market , revise general purpose com driver suite . 
+
+recently upgrade windows 3.1 . 
+run-time licensed . 
+host dte connect rate set 57,600 bp 
+datacomm app , zero problem download . 
+routinely 
+see transfer rate exceed 2,000 bp . 
+also use bp 
+link pc , lossless bi-directional . 
+upload various remote system another matter , many host 
+still use antique uart driver . 
+note still highest rate windows 3.1 port menu 
+control panel allow configure com port . 
+get 
+around allow specify , port , factor 
+set real uart rate multiple rate pass 
+windows api dialog box . 
+also hardware flow control enable , suggest 
+. 
+even ever transfer 7-bit ascii datum , 
+sufficiently reliable method flow control . 
+informal dec 
+standard hysteresis sender may transmit another 
+16 yes , sixteen byte receipt receive 
+system device . 
+16 byte fifo clearly big enough 
+let rely exclusively . 
+well-respected datacomm 
+engineer inform 's really 
+environment , use datum rate 
+may still risky . 
+even hardware flow control , still 
+experience overrun busy system , lot app run 
+serious swap progress . 
+situation , may need 
+buy com board , cost 
+upgrade . 
+review two board , review 
+, find feb '93 issue `` windows source '' magazine . 
+suggest try upgrade first , experiment 
+process priority time slice `` power user '' whose 
+thrashing system still run comm problem . 
+closing soapbox comment 
+state serial datacomm support embarrassment across 
+computer industry . 
+oldest standard interface , 
+job design hardware write software often seem 
+assign least senior lowest rank engineer computer 
+company . 
+design average serial port least ten year 
+behind state art . 
+last job , major workstation 
+vendor , lobby improve serial port 
+initial design new system . 
+family machine 
+subsequently introduce port . 
+however , 
+exception . 
+computer company seem champion decent 
+. 
+may well learn serial , 
+situation show sign improve soon . 
+arrive , expect 
+cry outrage windows user world-wide whose 8250 pc `` sort '' 
+work today v. 32 , fail miserably . 
+without 
+uart like without software driver 
+use uart best advantage , modem waste money . 
+regards , east harmony road 
+bob niland suite 503 
+internet : fort collins co 
+compuserve : 
+copyright 1993 robert j. niland 
+rights reserve 
+permission grant automatic redistribution article , via 
+electronic , magnetic optical media , unedited form , 
+usenet newsgroup article post author . 
+permission 
+grant compuserve usenet reader subscriber 
+person receive article compuserve , ftp site authorize 
+author via electronic mail author , retain one 
+electronic copy make hardcopy reproduction edition 
+article personal non-commercial use , provide material 
+change make article copyright statement . 
+
+copying , storage , reproduction redistribution article , 
+form , prohibit without express written consent 
+author , robert j. niland . 
+eof 

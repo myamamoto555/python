@@ -1,0 +1,33 @@
+: crowley 
+subject : re : 3.5 floppy read write 
+: 
+organization : coventry university 
+lines : 27 
+article < > peter dressner write : 
+> gateway 3.5 floppy . 
+drive read file 
+> write floppy . 
+floppy format 
+> contain file machine unreadable . 
+also , 3.5 floppy 
+> write defective floppy drive long time ago 
+> also unreadable . 
+> 
+> sound like head alignment problem . 
+one go 
+> fix ? 
+alignment screw adjust ? 
+> 
+> thanks advance response . 
+> 
+> peter 
+friend mine problem , turn floppy 
+set 1.2 mb drive instead 3.5 1.44 mb ... 
+might help ... 
+matt . 
+-- 
+
+crowley | ` remember 'll know , deep 
+| inside , enough bastard 
+worth liking . ' 
+__________________________________ 

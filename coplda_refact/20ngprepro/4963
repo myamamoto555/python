@@ -1,0 +1,51 @@
+: skip 
+subject : pulldown menu periodically hang application 3.0 
+: 
+: 
+organization : wollongong group east coast operations 
+lines : 47 
+anyone find fix follow problem ? 
+client software : suno , 
+server hardware : sun ipc 
+server software : suno , open windows 3.0 w patch 
+motif application periodically hang run 
+3.0 server . 
+pulldown display 
+button action effect . 
+sometimes press 
+unstick application usually . 
+look like pulldown 
+grab focus never let go . 
+window display 
+continue get update server hang . 
+log 
+another terminal kill motif application everything get 
+back normal . 
+application run x server 
+include mit , , tektronix x terminal 
+problem . 
+obviously problem need 
+since customer user . 
+try follow thing : 
+1 . 
+install latest version server patch 
+. 
+2 . 
+use mwm version instead . 
+3 . 
+apply patch specify motif faq question 110 . 
+effect disable point-and-click method 
+menu interaction oppose method , 
+screw menu mnemonic key . 
+seem help , 
+still able get application hang . 
+repeat : 
+intermittent problem 'll try several time . 
+click release menu head pulldown menu pop 
+click release menu item 
+repeat application hang 
+help would appreciate . 
+thanks advance . 
+-- 
+skip 
+

@@ -1,0 +1,32 @@
+: gary keim < > 
+subject : re : color x window 
+organization : school computer science , carnegie mellon , pittsburgh , pa 
+lines : 26 
+< > 
+: po4 . 
+
+: < > 
+excerpt : re : color x window 
+a. . 
+john 
+> problem need solution application . 
+although 
+> would love thing mention , somebody write 
+> . 
+would like see scenario : 
+widget , view , whatever , describe color via palette . 
+palettes share contain descriptive information . 
+directly tie object use . 
+palettes 
+hold server . 
+palette , , number 
+hardware color cell color descriptor . 
+input focus particular widget , widget access 
+color describe associate palette . 
+
+widget , transiently , get closest approximation 
+generate union color current palette free 
+color left . 
+widget specify color imaging provide index pixel 
+associate palette . 
+bold part hard would need server . 

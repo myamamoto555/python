@@ -1,0 +1,96 @@
+: greg rose 
+subject : authentication : re : advanced one time pad 
+summary : present base mac 
+organization : australian computing communications institute 
+lines : 93 
+article < > bryan olson ; g write : 
+> ideal security , well-known flaw 
+> authentication . 
+suppose use random bit stream pad , 
+> encryption operation . 
+adversary know 
+> plaintext message , change message . 
+> 's work . 
+> 
+> alice send bob plaintext p , key stream 
+> alice compute ciphertext c xor p , send bob . 
+> 
+> eve know p , want message appear p ' . 
+> eve intercept c , compute c ' c xor p xor p ' xor p ' . 
+> eve send c ' bob . 
+> 
+> bob decrypt c ' compute p ' , thus receive 
+> false message substitute eve . 
+firstly , aside : 
+agree weakness exist , lot trouble 
+believe represent difficulty real life . 
+give : 
+1 . 
+purpose one-time pad give unbreakable security , 
+expense key distribution etc. , imply client 
+really want level security 
+2 . 
+people want keep p secret 
+find hard believe eve might happen copy p 
+lie around . 
+aware argument apply eve know even small 
+part message , eve must know exactly byte 
+c known start , result garble . 
+find 
+least surprising . 
+back question : 
+resource use transmission , 
+would also append message authentication code message , use 
+next bit key perhaps . 
+original 
+question basically ask whether way authenticate 
+message degree security pad provide , 
+know answer . 
+however , would propose follow 
+discussion . 
+alice bob arbitrary number secret , random bit 
+share , eve know . 
+find effectively 
+know p corresponding c. fact 
+correspond cause problem . 
+message authentication code 
+create use operation eve could 
+know part mac affect part input , 
+would unable forge mac correspond . 
+require non-linear combiner part message . 
+non-linear simply subtract whatever 
+exactly effect . 
+, end encrypted message c , alice append mac 
+compute follow s2 mean next full chunk one time pad : 
+1 . 
+compute c2 p xor s2 , pad boundary 
+2 . 
+break c2 chunk 
+3 . 
+set mac 0 vector 
+4 . 
+chunk sequentially 
+set mac mac c2 
+end process mac message authentication code . 
+bob verify mac obvious manner ; recover 
+plaintext p , use pad reproduce mac 
+manner . 
+non-linear operator , rub . 
+simplest 
+non-linear operator think s-box ; , fix 
+even publish permutation integer , table 
+call , use : 
+x y x xor y . 
+practically speak , think solve problem , eve never 
+see intermediate output c2 , hence deduce s2 perform valid 
+substitution . 
+also practically speak , want mac fairly large , say 32 
+bit , might want 4 gigabyte say s-box , might 
+work 4 s-box , think irrelevant detail 
+discussion hand . 
+first point error , give pointer 
+literature ? 
+-- 
+greg rose australian computing communications institute 
+
+` use standard phrase `` hijack '' may inadvisable ' -- caa 

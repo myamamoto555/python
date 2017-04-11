@@ -1,0 +1,42 @@
+: gavin bell 
+subject : re : surface normal orientation 
+organization : silicon graphics , inc. . 
+mountain view , ca 
+lines : 38 
+: 
+< > stephen write : 
+> go orient normal direction , give 
+> set point , edge face ? 
+algorithm work well : 
+algorithm attempt find normal : 
+--------------------------------------------------- 
+first , mark face unknown . 
+create edge dictionary allow find 
+face share give edge edge two integer represent 
+two shared vertex . 
+pick arbitrary face mark . 
+use edge 
+dictionary , orient surround face base orientation 
+face . 
+surround face , consistently 
+orient entire surface . 
+find average vertex surface . 
+use point , 
+calculate volume measurement , take account face 's 
+orientation . 
+volume turn positive , assume face 
+orient correctly . 
+negative , reverse orientation 
+mark clockwise . 
+face still unknown , choose another face 
+go algorithm . 
+end , face marked clockwise must index reverse 
+facet normal find . 
+note : run silicon graphics machine buy 
+iris inventor 3d toolkit developer package source 
+algorithm -- see . 
+` re 
+... sorry , give source , even could 
+rely heavily inventor . 
+-- 
+-- gavin 

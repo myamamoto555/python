@@ -1,0 +1,77 @@
+: lawrence , waikato university 
+subject : quicktime performance re : rumours 3do ??? 
+organization : university waikato , hamilton , new zealand 
+lines : 67 
+ok , discussion observe playback speed quicktime , 
+effect scaling , think would test . 
+first , feel original speed test perhaps less 
+realistic . 
+movie use 18 frame 
+version first movie create compact video compressor . 
+decide something little longer would give closer real-world result 
+better worse . 
+pull copy `` 2001 : space odyssey '' record tv 
+back . 
+fifteen minute movie , sequence 
+earth shuttle approach space station . 
+specifically , digitize 
+portion 30 seconds ' duration , zoom rotate space 
+station . 
+figure would give reasonable amount movement 
+frame . 
+increase difference frame , digitize 
+5 frame per second , give total 171 frame . 
+capture raw footage resolution 384 288 pixel spigot 
+card centris 650 resolution pal source . 
+
+import premiere put compact video compressor , 
+keep 5 fp frame rate . 
+create two version movie : one scale 
+320 240 resolution , 160 120 resolution . 
+use default 
+`` 2.00 '' quality setting premiere , specify key frame every ten 
+frame . 
+run 320 240 movie `` raw speed test '' program use 
+result would report earlier . 
+result : playback rate 45 frame per second . 
+right , get much higher result first short 
+test movie . 
+fun , copy 320 240 movie external hard 
+disk quantum , run . 
+time playback rate 
+35 frame per second . 
+obviously internal hard disk 
+also quantum significant contributor speed playback . 
+modify speed test program allow specification optional 
+scale factor , try play back 160 120 movie scale 320 240 
+size . 
+time playback speed 60 fp . 
+clearly , poster 
+observe poor performance scale playback see quicktime 1.0 
+action , 1.5 . 
+would try test quicktime 1.0 , think 
+entirely compatible centris system 7.1 ... 
+, playback rate 160 120 movie 100 fp . 
+thing try save version 320 240 movie 
+`` prefer '' playback rate greater 1.0 , see well play 
+within ie quicktime 's normal synchronize playback . 
+preferred rate 9.0 > 45 fp work well : playback 
+jerky . 
+compare raw speed test , achieve 45 fp 
+ease . 
+believe quicktime 's synchronization code would add 
+much overhead : think slowdown come mac system 's task 
+switching . 
+preferred rate 7.0 > 35 fp seem work fine : could see 
+evidence stutter . 
+8.0 > 40 fp think could see slight 
+stutter , four key frame every second , hard tell . 
+guess could try recreate movie longer interval 
+key frame , make stutter noticeable . 
+course , also 
+improve compression slightly , speed playback performance 
+even ... 
+lawrence fone : -7 
+computer services dept fax : -7 
+university waikato electric mail : 
+hamilton , new zealand 37 ^ 47 ' 26 '' , 175 ^ 19 ' 7 '' e , gmt 

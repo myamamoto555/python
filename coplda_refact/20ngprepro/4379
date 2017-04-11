@@ -1,0 +1,42 @@
+: , alexander valentino 
+subject : digital voltmeter - work ? 
+organization : texas a&m university , academic computing services 
+lines : 34 
+distribution : world 
+: 
+: 1.41 
+hello , 
+let introduce problem : 
+measure sinusoidal wave voltage digital voltmeter , use 
+ac mode , output rm value peak value 2 square . 
+right ? 
+
+measure square wave mode ac , output equal 
+peak value , actually , upper flat boundary wave . 
+assume , digital voltmeter make kind integration 
+input value , divide wave period . 
+right ? 
+
+, use measure square wave , distorted 
+high-frequency harmonic . 
+ideally , output , ... 
+output value 10 % previous one ! 
+? 
+nature output value ? 
+voltmeter 
+actually measure ? 
+show ? 
+related question less important : 
+advantage disadvantage digital voltmeter compare 
+analog one ? 
+thank attention , could mail opinion 
+open discussion . 
+would appreciate either 
+way . 
+alexander v. 
+
+power system automation laboratory < > phone office 
+department electrical engineering < > phone home 
+texas a&m university < > fax 
+college station , tx , usa < > internet : 
+

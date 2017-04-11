@@ -1,0 +1,418 @@
+: steve lamont 
+subject : re : find equally space point sphere . 
+organization : university calif. , san imaging resource 
+lines : 326 
+: 
+article < > thomas e. deweese write : 
+> hello , know discuss . 
+time 
+> need sphere . 
+kind soul code 
+> alg , finally decide upon best recall 
+> nice , iterative subdivision , would 
+> appreciative . 
+one andrew `` graphics gems '' glassner get 
+mine . 
+think fiddle little bit make 
+deal whatever bizarre problem work time 
+know work . 
+spl 
+- - - - 
+sphere 
+asg 9 feb 85 
+spl thu mar 8 est 1990 
+
+
+
+pi 
+struct 
+double x , y , z ; 
+; 
+static double radius ; 
+static double ; 
+static double yorg ; 
+static double zorg ; 
+r , freq , x , y , z 
+double r ; 
+int freq ; 
+double x ; 
+double y ; 
+double z ; 
+
+int pole ; 
+double , , poley ; 
+double , , , , ; 
+double theta , , , den , ; 
+struct pnp ; 
+struct p1 , p2 , p3 , p4 , n1 , n2 , n3 , n4 , pt ; 
+radius r ; 
+x ; 
+yorg y ; 
+zorg z ; 
+north pole 
+30.0 .0 ; 
+radius sin ; 
+- radius sin ; 
+pole 0 ; pole < 2 ; pole + + 
+pole 0 
+poley radius ; 
+; 
+0.0 ; 
+
+else 
+poley - radius ; 
+; 
+36.0 ; 
+
+theta ; theta < ; theta + 60.0 
+theta .0 ; 
+theta .0 ; 
+p1 . 
+x 0.0 ; 
+p1 . 
+y poley ; 
+p1 . 
+z 0.0 ; 
+p2 . 
+x radius cos ; 
+p2 . 
+y ; 
+p2 . 
+z radius sin ; 
+p3 . 
+x radius cos ; 
+p3 . 
+y ; 
+p3 . 
+z radius sin ; 
+pole 0 
+make ring go way normal right 
+p3 . 
+x ; 
+p3 . 
+y ; 
+p3 . 
+z ; 
+p3 . 
+x p2 . 
+x ; 
+p3 . 
+y p2 . 
+y ; 
+p3 . 
+z p2 . 
+z ; 
+p2 . 
+x ; 
+p2 . 
+y ; 
+p2 . 
+z ; 
+
+den p1 . 
+x p1 . 
+x + p1 . 
+y p1 . 
+y + p1 . 
+z p1 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p1 . 
+x ; 
+p1 . 
+y ; 
+p1 . 
+z ; 
+
+den p2 . 
+x p2 . 
+x + p2 . 
+y p2 . 
+y + p2 . 
+z p2 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p2 . 
+x ; 
+p2 . 
+y ; 
+p2 . 
+z ; 
+
+den p3 . 
+x p3 . 
+x + p3 . 
+y p3 . 
+y + p3 . 
+z p3 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p3 . 
+x ; 
+p3 . 
+y ; 
+p3 . 
+z ; 
+
+& p1 , & p2 , & p3 , freq ; 
+
+
+body 
+theta 0.0 ; theta < ; theta + 60.0 
+theta .0 ; 
+theta .0 ; 
+theta .0 ; 
+theta .0 ; 
+p1 . 
+x radius cos ; 
+p1 . 
+y ; 
+p1 . 
+z radius sin ; 
+p2 . 
+x radius cos ; 
+p2 . 
+y ; 
+p2 . 
+z radius sin ; 
+p3 . 
+x radius cos ; 
+p3 . 
+y ; 
+p3 . 
+z radius sin ; 
+p4 . 
+x radius cos ; 
+p4 . 
+y ; 
+p4 . 
+z radius sin ; 
+den p1 . 
+x p1 . 
+x + p1 . 
+y p1 . 
+y + p1 . 
+z p1 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p1 . 
+x ; 
+p1 . 
+y ; 
+p1 . 
+z ; 
+
+den p2 . 
+x p2 . 
+x + p2 . 
+y p2 . 
+y + p2 . 
+z p2 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p2 . 
+x ; 
+p2 . 
+y ; 
+p2 . 
+z ; 
+
+den p3 . 
+x p3 . 
+x + p3 . 
+y p3 . 
+y + p3 . 
+z p3 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p3 . 
+x ; 
+p3 . 
+y ; 
+p3 . 
+z ; 
+
+den p4 . 
+x p4 . 
+x + p4 . 
+y p4 . 
+y + p4 . 
+z p4 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p4 . 
+x ; 
+p4 . 
+y ; 
+p4 . 
+z ; 
+
+& p1 , & p2 , & p3 , freq ; 
+& p3 , & p2 , & p4 , freq ; 
+
+return ; 
+
+v register double r v - > x v - > x + \ 
+v - > y v - > y + \ 
+v - > z v - > z ; \ 
+v - > x r ; \ 
+v - > y r ; \ 
+v - > z r ; \ 
+
+p1 , p2 , p3 , 
+struct p1 , p2 , p3 ; 
+int ; 
+
+struct n1 , n2 , n3 ; 
+struct p12 , p13 , p23 ; 
+double den , ; 
+> 0 
+p12 . 
+x p1 - > x + p2 - > x 2.0 ; 
+p12 . 
+y p1 - > y + p2 - > y 2.0 ; 
+p12 . 
+z p1 - > z + p2 - > z 2.0 ; 
+den p12 . 
+x p12 . 
+x + p12 . 
+y p12 . 
+y + p12 . 
+z p12 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p12 . 
+x ; 
+p12 . 
+y ; 
+p12 . 
+z ; 
+
+p13 . 
+x p1 - > x + p3 - > x 2.0 ; 
+p13 . 
+y p1 - > y + p3 - > y 2.0 ; 
+p13 . 
+z p1 - > z + p3 - > z 2.0 ; 
+den p13 . 
+x p13 . 
+x + p13 . 
+y p13 . 
+y + p13 . 
+z p13 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p13 . 
+x ; 
+p13 . 
+y ; 
+p13 . 
+z ; 
+
+p23 . 
+x p2 - > x + p3 - > x 2.0 ; 
+p23 . 
+y p2 - > y + p3 - > y 2.0 ; 
+p23 . 
+z p2 - > z + p3 - > z 2.0 ; 
+den p23 . 
+x p23 . 
+x + p23 . 
+y p23 . 
+y + p23 . 
+z p23 . 
+z ; 
+den den ; 
+den ! 
+0.0 
+radius den ; 
+p23 . 
+x ; 
+p23 . 
+y ; 
+p23 . 
+z ; 
+
+p1 , & p12 , & ; 
+& p12 , p2 , & ; 
+& p13 , & p23 , p3 , a-1 ; 
+& p12 , & p23 , & ; 
+else 
+n1 . 
+x p1 - > x ; 
+n1 . 
+y p1 - > y ; 
+n1 . 
+z p1 - > z ; 
+& n1 ; 
+n2 . 
+x p2 - > x ; 
+n2 . 
+y p2 - > y ; 
+n2 . 
+z p2 - > z ; 
+& n2 ; 
+n3 . 
+x p3 - > x ; 
+n3 . 
+y p3 - > y ; 
+n3 . 
+z p3 - > z ; 
+& n3 ; 
+nothing special poly 
+printf '' % f % f % f % f % f % f \ n '' , p1 - > x + , 
+p1 - > y + yorg , 
+p1 - > z + zorg , 
+n1 . 
+x , n1 . 
+y , n1 . 
+z ; 
+printf '' % f % f % f % f % f % f \ n '' , p2 - > x + , 
+p2 - > y + yorg , 
+p2 - > z + zorg , 
+n2 . 
+x , n2 . 
+y , n2 . 
+z ; 
+printf '' % f % f % f % f % f % f \ n '' , p3 - > x + , 
+p3 - > y + yorg , 
+p3 - > z + zorg , 
+n3 . 
+x , n3 . 
+y , n3 . 
+z ; 
+
+return ; 
+
+-- 
+steve lamont , -- -- 
+san diego microscopy imaging san jolla , ca 
+`` car car , . '' 
+- bumper strip see i-805 

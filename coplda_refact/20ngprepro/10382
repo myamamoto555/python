@@ -1,0 +1,37 @@
+: andre beck 
+subject : re : draw color - rectangular 
+organization : dept. computer science , tu dresden , germany . 
+lines : 27 
+distribution : world 
+: 
+: . 
+de 
+article < > , justin write : 
+| > write program need draw color file onto background without border show . 
+xor color stuff . 
+use single plane . 
+want able specify color use opaque color . 
+possible . 
+| > 
+| > games problem . 
+mouse pointer ? 
+| > 
+| > help would helpful ? 
+: - 
+| > 
+wan na masking . 
+build bitmap depth one pixel 
+name `` opaque '' 1 get copy 0 . 
+use 
+bitmap gc use , remember 
+adjust coordinate blit origin . 
+mouse pointer besides drive use analog 
+map hardware use mask , . 
+warn : blitt mask especially move around mask 
+annoying slow ... flicker even 40 mips ... 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

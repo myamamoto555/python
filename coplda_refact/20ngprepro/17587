@@ -1,0 +1,47 @@
+: d j nettleton 
+subject : help : rectangle parallelogram 
+: 
+organization : university newcastle upon tyne , uk ne1 
+lines : 56 
+hope someone help follow problem - sure 
+must known solution . 
+give rectangle define 
+- x < x < x - y < y < y x y constant 
+parallelogram define 
+- c1 < x + b y < c1 - c2 < c x + d y < c2 
+c1 , c2 , , b , c , d constant ! 
+i.e. 
+parallel line ^ ^ 
+equal 
+area intersection ? 
+general algorithm suitable rectangle 
+parallelogram describe equation . 
+
+moment look like go look possible case 
+examine seperately e.g. 
+1 rectangle enclose parallelogram . 
+2 parallelogram enclose rectangle . 
+3 two corner parallelogram inside rectangle 
+^ 
+\ 
+\ 
+\ 
+y y 
+| \ | 
+| \ \ | 
+| \ . 
+\ | . 
+origin 
+| \ \ | 
+| \ | 
+- y - y 
+- x \ x 
+\ 
+\ 
+'' 
+4 two corner parallelogram outside rectangle 
+hope someone help . 
+many thanks advance , 
+dave nettleton . 
+e-mail : 
+ps please cc reply e-mail . 

@@ -1,0 +1,60 @@
+: derek c. richardson 
+subject : re : animation ? 
+: . 
+
+: 
+organization : institute astronomy , cambridge 
+lines : 50 
+article john martin write : 
+> animation frequently copy client resident 
+> server resident use . 
+, original 
+> delete animation loop perform use window . 
+> 
+> hope . 
+> 
+> john 
+> 
+implement seem achieve display 
+rate 20 frame sec ipx get , though 
+bit `` choppy '' time . 
+also , load datum , make , 
+` ing bit cumbersome , animation 
+slower load . 
+better way load 
+datum ? 
+richard gooch write : 
+> need speed , client run host x server , 
+> use shared memory extension sample x server . 
+> tell server extension . 
+certainly 
+> available sample mit x server run suno . 
+> word warning : make sure kernel configure support shared 
+> memory . 
+another word warning : slower mit 
+> server . 
+> write imaging tool use gui , way 
+> yield 10 frame per second 512 512 8 bit image , run sparc 
+> ipc half cpu grunt ipx . 
+prove quite sufficient 
+> animation . 
+> 
+> regards , 
+> 
+> richard gooch ... 
+share memory also mention 
+nick look interesting , need someone point 
+documentation . 
+method likely give better result server - 
+resident ? 
+would also interested look code 
+mention ... 
+thanks help far . 
+get something decent put together , ` ll 
+definitely post net . 
+
+| derek c. richardson | tel : 0223 x | 
+| institute astronomy | fax : 0223 | 
+| cambridge , u.k. | | 
+| | e-mail : | 
+

@@ -1,0 +1,47 @@
+: andre beck 
+subject : re : x design choice color handling : question 
+keyword : color 
+: 
+organization : dept. computer science , tu dresden , germany . 
+lines : 41 
+: . 
+de 
+article < > , joseph write : 
+| > graphic system see draw routine also specify 
+| > color drawing , like 
+| > 
+| > x , y , color x1 , y1 , x2 , y2 , color 
+| > x1 , y1 , x2 , y2 , color 
+| > 
+| > x , something like 
+| > 
+| > d , w , x , y 
+| > 
+| > split two function ? 
+x designer decide associate 
+| > color object draw , instead associate 
+| > display draw ? 
+flexibility . 
+anyway , say really true . 
+color information 
+associate , display , gc _ _ 
+parameter draw routine . 
+, need fast switch green dot line blue one 
+width 2 , make 2 gc case simply 
+, win , , x1 , y1 , x2 , y2 ; 
+, win , , x3 , y3 , x4 , ; 
+effect . 
+eventually complicate programmer , also much 
+efficient flexible . 
+would include parameter 
+like line pattern , , cap , every 
+draw call , color ? 
+btw , stay away 
+really need draw random point , image transfer 
+image routine . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

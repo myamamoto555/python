@@ -1,0 +1,21 @@
+: 
+subject : pwm control thru software 
+lines : 17 
+: . 
+
+organization : nanyang technological university - singapore 
+currently use 8051 microcontroller external eprom . 
+. 
+order drive dc motor direction use pulse width 
+thru software control assembly language programming . 
+however afraid 
+overhead thus alter pulse timing . 
+question 
+software pwm control reliable ? 
+. 
+understand port 0 latch 
+vary duty cycle set high first desire 
+duty cycle set low . 
+. 
+? 
+? 

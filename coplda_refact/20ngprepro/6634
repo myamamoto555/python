@@ -1,0 +1,52 @@
+: phil neal 
+subject : wierd behavior 
+organization : u. washington dept. statistics 
+lines : 48 
+distribution : world 
+: 
+originator : 
+dear sun window people , 
+run sun workstation suno 
+vanilla x11 r5 . 
+bunch well . 
+today fail . 
+9:30 
+impossible login host . 
+message `` many retransmission '' . 
+file follow entry : 
+> error pid : server display :0 terminate unexpectedly : 
+> 256 
+> error pid : warning : keyboard display :0 could 
+> secure 
+> error pid : server display :0 terminate unexpectedly : 
+> 
+> also : 
+> 
+> error pid : warning : keyboard display :0 could 
+> secure 
+> error pid : server display :0 terminate unexpectedly : 
+> 256 
+> error pid : warning : keyboard display :0 could 
+> secure 
+> error pid : server display :0 terminate unexpectedly : 
+> 256 
+also , console , login box would come 
+2 seconds 
+would go away . 
+would continuously . 
+could login another workstation host question , 
+however , could login console . 
+try kill restart help . 
+finally reboot host . 
+hurt 
+middle day . 
+help would appreciate . 
+thanks , 
+phil 
+-- 
+phil neal , systems programmer , statistics department 
+university washington , seattle , wa . 
+usa | 
+
+`` look , another bit ! '' 
+-- repo man movie 

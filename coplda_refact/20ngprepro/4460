@@ -1,0 +1,40 @@
+: lei shao 
+subject : re : truetype font display print . 
+: 
+: lei shao 
+organization : columbia university 
+distribution : na 
+lines : 31 
+article < > avinash write : 
+> install new truetype font 3.1 
+> though application display font correctly 
+> screen , quite fail print document correctly 
+> laserjet 4 - printer . 
+> 
+> use font coreldraw , document print correctly , assume 
+> coreldraw know font download printer . 
+> 
+> use windows accessory write , printer print square 
+> box place character new font . 
+yet , write 
+> display font correctly screen . 
+> 
+> look windows laserjet manual , get nowhere . 
+> make statement truetype font print 
+> exactly see screen -- assume windows know font 
+> download automatically -- , make ???? 
+> 
+> appreciate help ... 
+assume use driver available cica . 
+zip . 
+bring setup screen printer control panel . 
+click 
+`` option '' button bring another screen choice . 
+change `` graphics 
+mode '' `` '' `` raster '' check box `` print truetype graphic 
+available choose `` raster '' . 
+able 
+print truetype font correctly . 
+good luck . 
+lei shao 
+

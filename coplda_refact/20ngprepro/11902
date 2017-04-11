@@ -1,0 +1,61 @@
+: michael elbel 
+subject : re : blinking cursor ??? 
+organization : pcs computer systeme gmbh 
+lines : 54 
+< > antonio write : 
+> article < > , mark a. davis write : 
+
+oh boy want . 
+however , believe cursor 
+server 's control could wrong ? 
+, 
+example , server one control cursor , try 
+get application blinking would cause needless 
+yucky network overhead consistantly . 
+
+> people write cursor blinking code implement simple case : 
+> straight cycle . 
+however , cursor work much 
+> better cursor blinking suppress i.e. cursor make visible 
+> time cursor move .5 1 sec thereafter . 
+, 
+> cursor hard track motion . 
+could port use emu : . 
+. 
+implement blinking text cursor reason people mention . 
+even configure actual size text cursor horizontal ver - 
+tical line cursor , smaller block cursor , turn blinking , 
+set blink rate . 
+even get blinking text - ok , enough 
+advertising . 
+look code respect , memory 
+decide whether start make 
+want mostly blinking text , would say easy , since 
+hairy mess understandable follow root back 
+x10 . 
+actual task get cursor blink difficult 
+provide right hook . 
+antonio mention , 'll show 
+cursor directly move , people become confused . 
+since good idea take cursor screen 
+anything screen anyway , complicate . 
+'ll 
+start blink process cursor show directly 
+map . 
+portability emu newest version . 
+one export 
+still r5 tape . 
+want get new 
+release six month , unfortunately drown work . 
+since change emu 's behavior much , would say 
+whoever want try emu wait new version . 
+, emu work bsd derive system e.g. suns anything else 
+csh . 
+fix , short remove one line 
+code . 
+'ll put export today . 
+michael 
+-- 
+michael elbel , gmbh , muenchen , germany - 
+nur wat fuer - mia 
+fermentation fault coor dump 

@@ -1,0 +1,60 @@
+: 
+subject : problem : maxtor spin reason 
+keywords : maxtor 340 , adaptec 1542 , 
+organization : university zurich , switzerland 
+: tin version 1.1 
+lines : 53 
+please help follow strange problem : 
+maxtor 340 drive 386 clone would time 
+time , obvious reason spin completely one 
+tell sound simply refuse access . 
+dos 
+react error drive d : access 
+something like . 
+unfortunately , reproduce 
+error . 
+sometimes occur often , sometimes 
+less . 
+last time happen want 
+demonstrate software colleague . 
+would like know anybody experience similar 
+problem . 
+like take thing dealer 
+tell nothing wrong . 
+
+check post group maxtor , 
+seem one problem . 
+however , 
+one describe problem , also 
+different configuration . 
+advance e-mailed help . 
+peter 
+list equipment 
+computer `` '' mainboard , 2mb 
+adaptec 1542 scsi master 
+maxtor hard drive 
+nec cd-rom reader problem remain cd-rom remove 
+vga card 
+config.sys 
+file 30 
+device c : \ \ 
+device c : \ window \ 
+device c : \ system \ . 
+sy 
+device c : \ system \ d : 
+high 
+country 041 , , c : \ \ 
+device c : \ \ con ega , ,1 
+
+c : \ window \ 
+path c : \ window ; c : \ 
+set temp c : \ 
+mode con codepage prepare 437 c : \ dos \ 
+mode con codepage select 437 
+sg , , c : \ dos \ 
+c : \ system \ d : l :d v 
+-- 
+peter schneider seminar \ 
+| e-mail : zurich | 
+| phone : 41 1 257 47 | 
+\ fax : 41 1 262 1204 

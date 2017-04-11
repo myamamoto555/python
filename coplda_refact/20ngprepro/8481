@@ -1,0 +1,34 @@
+: alan mimms 
+subject : re : uart need really break detect 
+organization : apple computer , inc. . 
+lines : 26 
+article < > , jerry 
+musselman write : 
+> 
+> need find uart interface 8051 following : 
+> k baud , 8 datum bit , 2 stop bit , parity 
+> - ability break detect irq output pin 
+> - irq character receive 
+> 
+> use dallas 16 mhz 8051 clone , 
+> break detect . 
+look , , 7201 , , etc. . 
+. 
+> 
+> help would !!! 
+actually detect break watch `` character '' contain 
+zero bit frame error result receipt . 
+
+means line stay zero bit state even past stop bit 
+time slot , basically indicate break . 
+special way 
+detect break find -- magic signal 
+generate uart , etc. . 
+alan mimms ... ! 
+| opinion generally 
+portable macintosh software group | pretty worthless , 
+apple computer | ... 
+art without engineering dream . 
+engineering without art 
+calculate . 
+-- steven k. roberts `` computing across america '' 

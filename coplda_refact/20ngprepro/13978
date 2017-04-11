@@ -1,0 +1,33 @@
+: peter k. campbell 
+subject : re : virtual reality x cheap ! 
+organization : telecom research labs , melbourne , australia 
+lines : 28 
+brian s. ridout write : 
+> article < > , steve sherwood write : 
+> | > anyone get multiverse work ? 
+> | > 
+> | > build 486 svr4 , mips svr4 sun sparcstation . 
+> | > 
+> | > seem many bug . 
+` dogfight ' ` dactyl ' simply nothing 
+> | > fix bug variable define twice two different module - one need 
+> | > set static - else client 
+> | > 
+> | > steve 
+> | > -- 
+> | > 
+> | > , ! 
+
+try compile several sparcstation gcc 2.22 . 
+
+fix bug 3 miss constant definition plus couple 
+thing get compile & link , start client 
+& server get black window ; sometimes client core dump , 
+sometimes server , sometimes get broken pipe , sometimes 
+sit nothing although occassionally get 
+cursor become , . 
+` ve 
+send word author plus fix last week , 
+reply yet . 
+peter k. campbell 
+

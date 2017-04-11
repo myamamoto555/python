@@ -1,0 +1,139 @@
+: 
+subject : clipper chip : technical summary 
+distribution : world 
+organization : georgetown university 
+lines : 139 
+follow document summarize clipper chip , use , 
+programming chip couple key generation 
+escrow process , law enforcement decrypt communication . 
+since speculation news group 
+involvement project , would like add 
+way involve . 
+find fbi brief 
+thursday evening , april 15 . 
+since spend considerable 
+time talk nsa fbi learn , 
+attend nist briefing department commerce april 16 . 
+document result effort . 
+dorothy denning 
+--------------- 
+clipper chip : technical summary 
+dorothy denning 
+april 19 , 1993 
+introduction 
+april 16 , president announce new initiative bring 
+together federal government industry voluntary program 
+provide secure communication meet legitimate need 
+law enforcement . 
+heart plan new encryption 
+chip call `` clipper chip '' together approach 
+escrow key . 
+two escrow agency use , key part 
+need reconstruct key . 
+chip structure 
+clipper chip contain classified 64-bit block encryption 
+algorithm call `` skipjack . '' 
+algorithm use 80 bit key compare 
+56 des 32 round scramble compare 16 
+des . 
+support 4 des mode operation . 
+throughput 
+16 mbit second . 
+chip include follow component : 
+skipjack encryption algorithm 
+f , 80-bit family key common chip 
+n , 30-bit serial number 
+u , 80-bit secret key unlock message encrypt chip 
+encrypt chip 
+see chip use , imagine embed at&t 
+telephone security device . 
+suppose call someone 
+device . 
+push button start secure 
+conversation , security device negotiate session key k 
+device end general , method key exchange 
+use . 
+key k message stream m i.e. , digitized voice 
+feed clipper chip produce two value : 
+e m ; k , encrypted message stream , 
+e e k ; u + n ; f , law enforcement block . 
+law enforcement block thus contain session key k encrypt 
+unit key u serial number n , 
+encrypt family key f. 
+chip programming escrow 
+clipper chips program inside scif secure computer 
+information facility , essentially vault . 
+scif contain 
+laptop computer equipment program chip . 
+300 chip 
+program single session . 
+scif located 
+. 
+beginning session , trust agent two key 
+escrow agency enter vault . 
+agent 1 enter 80-bit value s1 
+laptop agent 2 enter 80-bit value s2 . 
+value 
+serve seed generate key sequence serial number . 
+generate unit key serial number n , 30-bit value n 
+first pad fix block produce 64-bit block n1 . 
+s1 s2 use key n1 , produce 
+64-bit block r1 : 
+r1 e d e n1 ; s1 ; s2 ; s1 . 
+similarly , n pad two block produce n2 
+n3 , two additional 64-bit block r2 r3 compute : 
+r2 e d e n2 ; s1 ; s2 ; s1 
+r3 e d e n3 ; s1 ; s2 ; s1 . 
+r1 , r2 , r3 together , give 192 bit . 
+
+first 80 bit assign u1 second 80 bit u2 . 
+
+rest discard . 
+unit key u xor u1 u2 . 
+u1 u2 
+key part separately escrow two escrow 
+agency . 
+sequence value u1 , u2 , u generate , 
+write onto three separate floppy disk . 
+first disk contain 
+file serial number contain corresponding key part 
+u1 . 
+second disk similar contain u2 value . 
+third 
+disk contain unit key u. agent 1 take first disk agent 
+2 take second disk . 
+third disk use program chip . 
+chip program , information discard 
+vault agent leave . 
+laptop may destroy additional 
+assurance information leave behind . 
+protocol may change slightly four people 
+room instead two . 
+first two would provide seed s1 s2 , 
+second two escrow agent would take disk back 
+escrow agency . 
+escrow agency yet determine , 
+nsa , cia , fbi , law enforcement agency . 
+one 
+may independent government . 
+law enforcement use 
+law enforcement authorize tap encrypted line , 
+first take warrant service provider order get 
+access communication line . 
+let assume tap 
+place determine line encrypt 
+clipper . 
+first decrypt law enforcement block 
+family key f. give e k ; u + n. take 
+warrant identify chip serial number n key escrow 
+agent get back u1 u2 . 
+u1 u2 together produce 
+unit key u , e k ; u decrypt get session key k. 
+finally message stream decrypt . 
+accomplish 
+special black box decoder operate fbi . 
+acknowledgment distribution notice . 
+information base 
+information provide nsa , nist , fbi . 
+permission 
+distribute document grant . 

@@ -1,0 +1,25 @@
+: mike bell 
+subject : clipper proposal - key length ? 
+organization : promis systems corp. . 
+lines : 32 
+danny weitzner < > write : 
+> april 16 , 1993 
+> initial eff analysis clinton privacy security proposal 
+> detail proposal : 
+> escrow 
+> 80-bit key divide two escrow agent , 
+> hold 40-bit key . 
+manufacturer communication device 
+> would require register key two independent escrow 
+> agent . 
+key tie device , however , person use . 
+subvert one two escrow agent , 40-bit 
+space search ... 
+2 ^ 40 sound big - digital telephony subject know 
+plaintext attack ? 
+case half key seem need , two 
+agent escrow arrangement pointless . 
+course , unknown algorithm might turn gap speech 
+pseudo-random sequence , might magic involve , ... 
+-- 
+-- mike -- < > 

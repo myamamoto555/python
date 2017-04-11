@@ -1,0 +1,43 @@
+: tom 
+subject : re : force window manager accept specific coordinate window 
+: 
+organization : boulder 
+lines : 40 
+article < > , tobias ` dope ' write : 
+| > 
+| > try : 
+| > ----------------------------- 
+| > 
+| > < . 
+h > 
+| > 
+| > display display ; 
+| > window window ; 
+| > 
+| > 
+| > ; 
+| > - > flag | ; | 
+| > - > x 42 ; 
+| > - > y 42 ; 
+| > - > width 100 ; 
+| > - > height 100 ; 
+| > display , window , ; 
+| > ; 
+| > 
+| > 
+| > hint tell window manager position size window 
+| > specify user window manager accept 
+| > value . 
+use - > flag | , tell window 
+| > manager value prefered value program , user . 
+| > know window manager place window like prefer 
+| > specify position size like . 
+right please . 
+make brain hurt . 
+set user specify 
+position size . 
+say : `` tom , blow gasket , harm ? '' 
+window manager different thing besides position window 
+see rather . 
+-- 
+tom 

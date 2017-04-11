@@ -1,0 +1,68 @@
+: yamada 
+subject : re : blinking led ? 
+organization : aiken computation lab , harvard university 
+lines : 53 
+article < > seeker bear every minute . 
+write : 
+> 
+> 
+> buy blinking led besides radio shack ? 
+> 
+> 
+> anyone sell blinking led variable flash rate ? 
+voltage 
+> guess , hertz pulse rate adjustable set ? 
+> 
+> would like blinking led set approx 5 hz , 10 hz , 
+> 15 hz , 20 hz . 
+something like ... interested 
+> flash rate . 
+like idea led flasher 
+> circuit already . 
+hate soldering ic general . 
+guess 
+> hell lot patience . 
+> 
+> 
+> thanks , 
+> 
+> dana 
+> 
+want slow lead flash rate , adjustable switch 
+digitally controlled switch , suggest look 555 
+oscillator chip . 
+cost ~ $ 1 radio shack much cheaper 
+quantity quality place , able find good info 
+simple circuit 555 notebook think forest 
+mims one radio shack . 
+'ll toy 
+value use head little math 
+get right frequency . 
+engineer worth salt , make 
+555 ... book , leave see hate 
+ascii circuit graphic . 
+555 accurately go hz 
+500 khz think . 
+tape recorder gizmo , could alter stereo tape deck 
+use one channel data line flash led , one audio 
+line voice music . 
+would eliminate lot noise . 
+datum line probably easily 
+kind pll bandpass filter use op-amp . 
+565 
+chip good pll , hard work . 
+however nothing 
+pll work , suggest try . 
+op-amp 
+information also find forest mims radio shack 
+, popular 741 op-amp snap work . 
+set frequency bandpass filter value easy , 
+would suggest 555 method ... idea 
+go , really generalize ... 
+manufacture technique , goof , 
+suggest breadboard thing ... need solder . 
+would 
+next , permanent step . 
+lastly , making . 
+hope clear thing ... . 
+- 

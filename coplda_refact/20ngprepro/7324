@@ -1,0 +1,30 @@
+: yuri 
+subject : slider 
+organization : internet 
+lines : 31 
+: 
+: < > 
+hus netter , 
+use slider app , usually editable numeric 
+field . 
+seem control length field . 
+app appear long enough keep several character , 
+- keep even maximum value set 
+! 
+understand , , control 
+number character display text item , 
+work case slider , despite fact 
+contain follow bit : 
+, , 
+attribute 
+
+, 152 , 
+, 182 , 
+give hint attribute use slider . 
+1 set attribute give nothing , 2 ` ting 
+attribute give warning : bad attribute , return value 0 . 
+someone share experience manage slider , 
+clear problem ? 
+help much appreciate . 
+yuri 
+

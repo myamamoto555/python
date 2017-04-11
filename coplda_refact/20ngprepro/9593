@@ -1,0 +1,33 @@
+: thomas d. barrett 
+subject : re : rockwell chipset 14.4 's ... good ? 
+organization : advanced micro devices , inc. ; austin , texas 
+lines : 28 
+article < > joe write : 
+> word chipset ? 
+rom bug specific 
+> specific brand use rockwell , rockwell 
+> chipset ? 
+assortment firmware problem , pretty much 
+expect talk different fax modem 
+may also revise new . 
+pretty much 
+oblivious current firmware problem , 'll get 
+someone else . 
+however , tell stay clear board use 
+rockwell mpu oppose dpu internal implementation . 
+mpu use `` speed buffering '' instead 
+interface . 
+without 550 interface , number interrupt 
+still thus may get drop multitask 
+condition like window . 
+far know , `` speed buffering '' 
+work ok external modem 550 use internal serial 
+port board . 
+hope help ... 
+tom 
+-- 
+| tom barrett , sr. . 
+engineer | | v | 
+| amd pcd | 5900 e. ben white | austin , tx | f | 
+| ... take ' leave chance -- tasmin archer | 
+| view may company origin | 

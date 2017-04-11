@@ -1,0 +1,24 @@
+: leslie f. donaldson 
+subject : problem use graphic context athena widget 
+organization : rose-hulman institute technology 
+lines : 15 
+distribution : world 
+: . 
+edu 
+keywords : athena , , graphic 
+create graphic program use athena widget . 
+use 
+xlib routine install custom graphics obtain display , 
+window variable . 
+object one sub widget . 
+problem occur whenever button press menu select 
+graphic revert orginal one . 
+try move allocation 
+graphic context allocation button nothing 
+change . 
+preform manipulation call 
+. 
+thank help . 
+leslie donaldson 
+
+

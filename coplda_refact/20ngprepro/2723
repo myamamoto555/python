@@ -1,0 +1,30 @@
+: mark w 
+subject : common-mode noise small signal 
+keyword : noise common mode 
+organization : iowa state university , ames ia 
+lines : 20 
+never work really small signal 
+question low level noise . 
+notice waveform 
+synthesizer use analogic 2020 relatively large 
+common mode noise . 
+use synthesizer ` null ' another 
+transient waveform amplify difference ~ several hundred 
+time . 
+2020 1-3 common mode noise tend 
+make measurement hard repeat . 
+noise quite sync 
+line frequency , spectrum analyzer , main component . 
+get rid noise ? 
+look spectrum use 
+hp audio range analyzer , noise go away minute switch 
+` isolation ' input . 
+guess diff amp 
+input since read accurately dc . 
+also , use differential amplifier ia solve problem , 
+important use one ` shield driver ' amp connect 
+shield sort feedback loop remove trouble cause 
+different cable capacitance ? 
+anyone suggest good ic ia 
+use transient signal content , would 
+appreciate . 

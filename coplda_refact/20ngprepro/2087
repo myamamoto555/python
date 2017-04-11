@@ -1,0 +1,43 @@
+: guy singh 
+subject : re : > mouse button 1,2 & 3 urgent ! 
+: message 5 apr 93 gmt 
+: view ltd unless explicitly state . 
+lines : 29 
+: 
+organization : lot 
+: author assert right paternity message . 
+> 5 apr 93 gmt , say : 
+ik > : elm 
+ik > know sound stupid , ... 
+ik > anyone know control individual mouse button . 
+ik > write application , currently make use 
+ik > , however invoke press 
+ik > mouse button . 
+want able restrict 
+ik > one 3 button . 
+try , 
+ik > get undefined error . 
+know , 
+ik > pretty sure easy answer , know 
+ik > . 
+ik > `` time essence ... '' 
+event mask particular mouse button press . 
+however 
+event handler use event structure pass query find 
+button press i.e. 
+void 
+widget w , datum , event 
+
+catch button 1 usually leave button 
+event - > 
+action 
+else 
+nothing exit function 
+
+
+-- 
+- guy singh , internet : 
+vision park uucp : 
+cambridge bang : ... ! 
+
+cb4 , uk tel : 

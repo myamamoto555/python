@@ -1,0 +1,22 @@
+: andy moore 
+subject : q : avoid hang ? 
+keyword : xlib 
+: 
+organization : hughes stx , lanham , md 
+lines : 13 
+write ` ' , simple x version ` wall ' , want 
+put message default list display . 
+problem 
+hang one display currently 
+control login screen . 
+manual 
+faq see simple way see display ` ' 
+ahead time , get fail short period 
+time . 
+hint , suggestion , clue , pointer info ? 
+thanks ... 
+-- 
+andy moore 
+
+`` could say lose faith politician 
+seem like game show host ... '' - sting 

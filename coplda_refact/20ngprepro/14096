@@ -1,0 +1,59 @@
+: grubb 
+subject : re : ide vs 
+organization : new mexico state university , las cruces , nm 
+lines : 45 
+distribution : world 
+: 
+dave write : 
+> talk device e.g. hd controller 
+> 
+> talk controller chip upgrade 
+> use chip controller board . 
+talk device e.g. hd controller . 
+rewrite mac & info sheet section : 
+scsi : external device expansion interface common mac ibm . 
+allow use device : hard drive , printer , scanner , nubus card 
+expansion mac plus , monitor , cd-rom . 
+normal asynchronous 
+scsi 5 mhz ; fast synchronous scsi 10 mhz . 
+difference 
+mode mainly software driver . 
+main problem : lot external device internal 
+terminate cause problem two devise scsi port 
+chain suppose terminate begining end . 
+set cause problem either mac ibm . 
+: 8-bit ; 7 device per controller . 
+asynchronous ~ 1.5 ave 
+synchronous max transfer . 
+8-bit often mistaken 
+fast version see detail . 
+: fully compliant . 
+mode - 10 device per controller . 
+8-bit fast since run use 
+hardware software driver limit 7 device , 
+result sometimes mistakenly part . 
+16-bit 
+32-bit require different port , electronics , scsi software 
+driver make expensive 
+interface . 
+32-bit seem run synchronous mode , hence term 
+` wide fast ' transfer speed burst 8-bit , 
+burst 16-bit , burst 
+32-bit . 
+8-bit biggest headache due fact 
+know pump speed device software 
+. 
+main mac though see add 
+maximum throughput pc . 
+since 8-bit 
+need hardware include software 16-bit 32-bit 
+interface . 
+pop 
+pop 8-bit electronics . 
+people consider 
+16-bit really start use one 
+average though put theoretical burst 
+8-bit . 
+rule thumb : type . 
+8-bit scsi use part electronics reduce cost 
+compare 16 32-bit . 

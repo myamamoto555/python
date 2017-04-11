@@ -1,0 +1,51 @@
+: 
+subject : re : atari mono vga 
+: 
+organization : bbs , palmerston north , new zealand 6 357 
+lines : 52 
+alan osborn write : 
+> article < > , max w 
+> > anybody convert monitor 
+> > mono vga monitor . 
+please let know exactly 
+> > graphic card use . 
+> wish could help ! 
+post similar question two week ago ; 
+> get response . 
+ask locally friendly atari store . 
+> tell possible , idea 
+> might . 
+particularly care investigate . 
+ok , 's result far ... 
+1 : define monitor lcd - really support 
+analogue video input work , linear ... 
+2 : incoming sync pulse need invert . 
+best achieve 
+either cmo xor package transistor inverter . 
+know , even contemplate . 
+. 
+: - 
+3 : 'll work standard vga mode . 
+ok , say , try either find circuit ic 
+act universal sync decoder . 
+want basically detect lead sync 
+pulse edge , care polarity , output 
+- ve go pulse monitor require . 
+2 reason 
+1 : vga card change sync polarity depend mode ` re 
+- herc emulation + , - + , + example . 
+2 : mean put toggle switch back 
+monitor order able run 
+ibm . 
+currently 3 yes , 3 ! 
+monitor sit desk , 
+want get number much possible . 
+able use monitor vga 
+cut thing 2 . 
+forget atari color , 
+get 1 . 
+ultimately , best course action get multisync monitor , 
+press cash anyone else , 'll wait ... 
+-- 
+alan brown 
+

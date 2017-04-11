@@ -1,0 +1,40 @@
+: lars michael 
+subject : jpeg fif specification 
+: 
+organization : university stellenbosch , south africa 
+: tin version 1.1 
+lines : 37 
+recently get document describe jpeg fif file 
+format . 
+look thru , get idea 
+determine size pic pixel without decode 
+whole image . 
+get height width jpeg ? 
+determine wether color greyscale 
+picture ? 
+write small tool gif return 
+, picture size color resolution 
+header chunk . 
+output look like : 
+480 
+use create index file archive since 
+jpeg get popular would like 
+similar tool , output like : 
+480 
+please respond email , read news 
+group often . 
+'ll post summary useful . 
+advance , 
+larry 
++ + + 
+| lars `` larry '' michael mr. gif | `` murphy 's law | 
+| | go wrong , . '' 
+| 
+| + -------------- + --------------- + 
+| spec . 
+stud . 
+univ. stellenbosch south afrika | ham : | 
+| grad . 
+stud . 
+univ. germany | irc : pit | 
++ ---------------------------------------------------- + --------------- + 

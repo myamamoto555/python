@@ -1,0 +1,24 @@
+: 
+subject : re : kubota spec 
+organization : center instructional research computing activity 
+lines : 21 
+: 
+: 
+article < > , paul martz write : 
+| > mean either alpha stenciling , 
+| > simultaneously ? 
+know answer one , although 8-bit would assume 
+one . 
+| > 
+| stereo support yes yes 
+| : machine double buffer 
+| > ^ ^ 
+| stereo output per window . 
+
+| auxiliary video output , 
+| ntsc , pal 
+| > question , mean either double 
+| > buffering stereo , simultaneously ? 
+accord literature , quadruple buffer 
+double buffered stereo output . 
+brian 

@@ -1,0 +1,29 @@
+: bradley banko 
+subject : dos quick c 2.5 crash windows 3.1 ? 
+: 
+organization : university illinois urbana 
+lines : 22 
+use dos quick c 2.5 dos window windows 3.1 , 
+day run compiler , get general protection fault 
+immediately follow `` serious disk error '' . 
+reboot , find 
+15 file get `` cross-linked '' pretty serious 
+corruption hard drive file system . 
+concern quick c dos window somehow stray outside 
+protected mode world corrupt disk cache 
+cause disk problem . 
+think dos program run dos window pretty 
+windows . 
+true , maybe quick c compiler nothing 
+. 
+anybody else type problem ? 
+recently `` upgrade '' quick c 2.0 2.5 . 
+brad banko 
+-- 
+brad banko ; dept physics ; u illinois ; 
+
+see one . 
+one . 
+teach one . 
+73 de @ . 
+il 

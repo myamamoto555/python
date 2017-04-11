@@ -1,0 +1,50 @@
+: george 
+subject : strange message start windows 
+organization : university illinois urbana-champaign 
+lines : 50 
+distribution : usa 
+: . 
+
+recently acquire gateway 2000 machine , start windows , 
+three copyright statement flash screen right m logo 
+disappear take . 
+happen 
+machine , wonder whether 
+feature whether related several problem 
+machine . 
+system gateway 2000 , machine . 
+message appear : 
+c copyright 1989-1992 western digital corporation 
+rights reserve 
+c copyright 1985-1992 congruent corporation 
+rights reserve 
+c copyright 1985-1992 microsoft corporation 
+rights reserve 
+autoexec.bat file look like : 
+
+prompt $ g 
+set mouse c : \ 
+c : \ \ mouse 
+path c ; c : \ dos ; c : \ window ; c 123 ; c : \ ; f : \ app ; f : \ system ; f : \ ; f : \ public 
+set temp c : \ windows \ temp 
+lh - n 5 
+lh 
+lh ipx 
+lh 
+f : \ login \ login 
+win : 
+config.sys file look like : 
+device c : \ window \ 
+high , umb 
+device c : \ window \ . 
+exe noem x 
+stack 
+file 50 
+buffer 30 
+shell c : p e 
+anyone know go ? 
+help would much 
+appreciate . 
+-- 
+department urban regional planning | e-mail : 
+university illinois urbana-champaign | tel : 

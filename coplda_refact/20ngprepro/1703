@@ -1,0 +1,31 @@
+: michael salmon 
+subject : re : help building gcc 
+keyword : , gcc 
+: . 
+
+: michael salmon 
+organization : ericsson telecom ab 
+lines : 23 
+article < > 
+tim write : 
+| > people please send hint building gcc ? 
+
+| > pitfall avoid ? 
+hint ? 
+would appreciate hear 
+| > people ' story . 
+build x11 gcc since 2.1 time 
+trouble position independant code option break 
+could use gcc build sun share library . 
+important thing 
+follow tip give gcc release . 
+gcc generate code 
+require take account 
+decide compiler use library . 
+-- 
+michael salmon 
+
+
+
+ericsson telecom ab 
+stockholm 

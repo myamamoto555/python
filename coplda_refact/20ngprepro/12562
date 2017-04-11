@@ -1,0 +1,37 @@
+: inge 
+subject : tangent vector spline 
+organization : university trondheim 
+lines : 33 
+work system use give set 3d key frame 
+position x , y , z control imaginary camera movement . 
+
+use spline describe siggraph ' 84 
+proceedings create variable number inbetween 
+key frame . 
+want inbetween give form 
+x , y , z , dx , dy , dz last three x , y 
+z component view direction vector camera 
+position x , y , z . 
+method present bartels deal 
+position inbetween view point generate . 
+` ve 
+try set view direction view point equal 
+chord two adjacent view point general 
+key frame , cause discontinuity 
+view direction vector key frame position although 
+spatial movement seem work fine ; quite certain 
+- think - simply make implementation 
+error ... 
+wonder anyone use spline form 
+similar purpose decide viewing vector . 
+would appreciate reply email 
+
+anyone else interested answer send summary 
+reply contact . 
+-- 
+_________ 
+\ \ \ \ \ \ 
+\ \ n g e \ \ \ r k e d comp . 
+sc . 
+\ \ ________ \ \ \ \ _______________ nth norwegian institute technology 
+`` people play hard get , play hard want '' ford fairlane 

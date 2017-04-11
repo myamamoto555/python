@@ -1,0 +1,30 @@
+: brent a. peterson 
+subject : re : drag coefficient 
+organization : illinois institute technology , chicago 
+lines : 28 
+article < > gary w. mahan write : 
+> could someone explain make sense drag coefficient i.e cd mention magazine . 
+understand lower number signify better aerodynamics 
+> mean real world . 
+way calculate new top speed assume car rev limit top speed mileage benefit identical car cd reduce .34 .33 . 
+> 
+remember 's hand awhile since 
+take aerodynamics use stuff since . 
+cd relate drag force effect top speed 
+fuel consumption . 
+drag force car aircraft greater 
+vehicle 's engine overcome reach top speed . 
+auto course also overcome rolling resistance 
+since drag oppose vehicle 's motion , engine must make 
+burn fuel . 
+anyway , since auto rather 
+complex , drag , pressure , etc either find , 
+use numerical method . 
+anyway flow around cylinder drag : 
+cd d q 2r 
+d drag force , q flow velocity r radius 
+. 
+get rough rough estimate , set r car 's 
+width , q car 's speed know cd , find drag force 
+car would need overcome . 
+- bp 

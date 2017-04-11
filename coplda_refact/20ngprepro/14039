@@ -1,0 +1,50 @@
+: john chambers 
+subject : painting increase resolution 
+lines : 40 
+people work cube come need , 
+seem someone might already , 
+point tool would help . 
+would like : 
+give window take long time draw either 
+datum arrive slow link , $ display across slow 
+link , would like first paint low-resolution version 
+picture , repaint higher resolution . 
+thus , picture 
+might first generate resolution , 4x4 square 
+pixel fill single color . 
+next , 4x4 square 
+would replace 4 2x2 square ; finally 1x1 version would 
+paint . 
+since one scenario window side 
+slow link , version obviously would transmit 
+bitmap ; would help . 
+instead , would 
+process far end receive picture 
+small bitmap , blow pixel square sorta like 
+magnifier program . 
+bring question whether x 
+server help . 
+, window open , way 
+ask `` filter '' program run process pixel ? 
+
+way use something like rsh start remote process 
+`` permission deny '' , open local window ? 
+seem likely scenario library routine start 
+program remotely , accept bitmap , compress 
+one amount , send remote program expand . 
+something x help , nice 
+hear . 
+look several fm , , 
+obviously know keyword . 
+someone nifty tool 
+available package , might want get copy . 
+oh , yes ; run suns . 
+part idea build 
+demo show thing `` run across , say , 
+link , fast picture would appear . '' 
+
+customer would get feel speed need pay . 
+-- 
+auto industry like computer industry , car would 
+cost $ 5 , would get 5000 mile gallon , random time would 
+explode , kill passenger . 

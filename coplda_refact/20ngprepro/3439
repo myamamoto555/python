@@ -1,0 +1,52 @@
+: 
+subject : overriding window manager focus processing 
+organization : ge information services , rockville , md 
+lines : 44 
+: 
+keywords : window manager focus motif 
+work base application need 
+override window manager focus processing . 
+
+use motif 1.1 currently , although also 
+work open look future . 
+need certain circumstance prevent 
+user switching one window application 
+another window . 
+let 's say , example , window top 
+window b window hierarchy . 
+normally , user click 
+mouse window b bring top 
+window hierarchy place top window a. certain 
+circumstance user click mouse window b need 
+beep prevent window b raise top window 
+a. 
+research testing far , appear 
+window order handle window manager , 
+case motif . 
+find way override default 
+process standard x window function . 
+tell 
+switching occur focus change mapping 
+notify event , find way tell motif make 
+switch . 
+temporary solution currently come 
+partially work . 
+detect window switch 
+case switch allow , manually force 
+formerly top window back top call 
+beep function . 
+provide necessary 
+functionality look ugly window switch place 
+twice . 
+anyone know tell motif preferably 
+window manager want window order switch 
+actually take place ? 
+respond either e-mail post 
+newsgroup . 
+cheers ... randall 
+
+randall uunet : 
+ge information services internet : 
+401 n. washington st. genie : 
+rockville , md usa phone : +1 
+

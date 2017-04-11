@@ -1,0 +1,23 @@
+: steve 
+subject : escrow , escrow ok 
+organization : express access online communications , greenbelt , md usa 
+lines : 24 
+: 
+description something call `` fair crypto system '' 
+may 1993 issue byte , p. 134 , attribute mit professor silvio micali . 
+way work follow : 
+generate private key , break piece s1 , s2 , s3 , 
+s4 , s5 , s1 + s2 + ... + s5 mod p s. 
+give piece s1 , s2 , etc. different escrow agency . 
+agency compute g ^ sn mod p , forward result public 
+key telephone book keeper . 
+public key telephone book keeper multiply g ^ sn mod p , reduce 
+result mod p , user 's public key . 
+, several recognize escrow agency , user 
+could give piece key one trust , result would 
+something improvement propose clipper system . 
+still think key escrow good idea , philosophical 
+security reason , offer suggestion simply determine whether 
+escrow advocate interested consider alternative good 
+faith , whether goal insure use two agency select 
+spinelessness face official request . 

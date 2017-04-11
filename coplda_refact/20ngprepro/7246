@@ -1,0 +1,52 @@
+: ron `` asbestos '' 
+subject : re : need clipper cheap security ? 
+originator : 
+: 
+organization : qualcomm , inc. , san diego , ca 
+lines : 36 
+graham toal write : 
+> someone tell hardware compression need run 
+> digital speech 14.4 k ? 
+think ; hear . 
+let 
+> say 8 bit sample . 
+would raw datum corresponding sampling rate 
+> usable ? 
+, fancy compression need ? 
+good vocoder like give 8000 bit per second lock 
+full rate variable rate voice activity vocoder . 
+want 
+less quality , cut 4000 bp half rate . 
+full rate variable 
+could put two full-duplex conversation v. modem . 
+
+require dsp asics , though . 
+cpu could 
+probably real-time , 
+instruction dsp thing . 
+want speech real-time need 4000 sample 
+second good voice 8 bit sample isdn 8000 
+8-bit sample second , 32 kbp . 
+could fast 2:1 
+compression get 16 kbp , 
+v. . 
+quality point , work . 
+add time encryption method . 
+go need 
+sampling hardware , problem new mac , amiga . 
+
+pc soundblaster card popular cheap 
+- could also build simple adc . 
+problem 
+soundblaster seem full duplex - 
+sample play time , make two-way conversation 
+bit tough . 
+special hardware capable sound card may 
+require . 
+thing worry 2:1 compression - 
+soundblaster automatically hardware , 
+good feel processor intensive , 
+estimate fast pc would need . 
+-- 
+man drink poet . 
+drink poet . 

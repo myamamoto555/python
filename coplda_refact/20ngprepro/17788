@@ -1,0 +1,85 @@
+: bill 
+subject : re : rgb hv , back 
+: 
+lines : 83 
+: tin version 1.1 
+remco hartog write : 
+: little question : 
+: 
+: need convert color 
+: color . 
+anyone know formula 
+: use ? 
+let see right ... hsv hsb hsl ... none 
+hl . 
+hopefully , hv transposition hsv , 
+yet another color model ... 
+follow code hsv hsl coding try yet 
+thanks 
+another possibility 
+. 
+bill 
+
+---------------- 
+follow code starbase hp manual : 
+coordinate 0-1 interval 
+hue , saturation , luminosity , red , green , blue 
+float hue , saturation , luminosity ; input hsl 
+float red , green , blue ; output rgb 
+
+float frac , lx , ly , lz ; temporary 
+hue 6 hue ; 
+frac hue - int hue ; 
+lx luminosity 1 - saturation ; 
+ly luminosity 1 - saturation frac ; 
+lz luminosity 1 - saturation 1 - frac ; 
+switch int hue 
+case 0 : case 6 : 
+red luminosity ; green lz ; blue lx ; break ; 
+case 1 : 
+red ly ; green luminosity ; blue lx ; break ; 
+case 2 : 
+red lx ; green luminosity ; blue lz ; break ; 
+case 3 : 
+red lx ; green ly ; blue luminosity ; break ; 
+case 4 : 
+red lz ; green lx ; blue luminosity ; break ; 
+case 5 : 
+red luminosity ; green lx ; blue ly ; break ; 
+
+
+
+red , green , blue , hue , saturation , luminosity 
+max , b , c > : b > c ? 
+> : b : c 
+min , b , c < : b < c ? 
+< : b : c 
+float red , green , blue ; input rgb 
+float hue , saturation , luminosity ; output hsl 
+
+float x , , , ; temporary value 
+hue 0.0 ; 
+saturation 1.0 ; 
+luminosity max red , green , blue ; 
+x min red , green , blue ; 
+luminosity ! 
+0.0 calculate necessary 
+saturation luminosity - x luminosity ; 
+saturation ! 
+0.0 calculate necessary 
+luminosity - red luminosity - x ; 
+luminosity - green luminosity - x ; 
+luminosity - blue luminosity - x ; 
+red luminosity 
+hue green x ? 
+5 + : 1 - ; 
+else green luminosity 
+hue blue x ? 
+1 + : 3 - ; 
+else 
+hue red x ? 
+3 + : 5 - ; 
+hue 6 ; 
+
+
+

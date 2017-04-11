@@ -1,0 +1,95 @@
+: burt kaliski 
+subject : md5 
+organization : rsa data security , inc. . 
+lines : 89 
+distribution : sci 
+: 
+follow short note comment den boer ' 
+recent work md5 algorithm . 
+feel free email 
+question comment . 
+-- burt kaliski 
+rsa laboratories 
+
+\ article 
+\ begin document 
+\ title `` '' md5 algorithm 
+\ author burton s. kaliski jr. \ \ 
+\ tt \ 
+matthew j.b. robshaw \ \ 
+\ tt \ 
+rsa laboratories \ \ 
+100 marine parkway \ \ 
+redwood city , ca 
+\ date april 23 , 1993 
+\ 
+algorithm map message arbitrary length 
+`` digest '' fix length , three property : computing 
+digest easy , find message give 
+digest -- `` inversion '' -- hard , find two message 
+digest -- `` collision '' -- also hard . 
+algorithm 
+many application , include digital signature message 
+authentication . 
+rsa data security 's md5 algorithm , develop ron 
+rivest \ cite , map message 128-bit message digest . 
+computing digest message take little 
+second . 
+algorithm yet \ em prove 
+secure , md5 believe least good map 
+128-bit digest . 
+inversion take $ 2 ^ 128 $ 
+operation , collision take $ 2 ^ 64 $ operation . 
+
+one find faster approach inversion collision . 
+recent work den boer \ cite present 
+special kind `` '' md5 's 
+internal compression function , map 
+512-bit message block $ x $ 
+128-bit input state $ $ 128-bit output 
+state . 
+show find message block $ x $ 
+two related input state $ $ $ $ yield 
+output state : $ f x , $ $ f x , $ . 
+approach 
+exploit structural property collision function find 
+$ 2 ^ 16 $ operation , much less one 
+would expect . 
+practical implication work security 
+md5 evident . 
+real collision md5 imply 
+`` '' , 
+need imply real collision . 
+indeed , real 
+collision , since involve two different message , would almost 
+always involve \ em different message block $ $ $ $ 
+$ f , f , $ , 
+message block . 
+moreover , input state $ $ $ $ would 
+generally unrelated , ' input state 
+except four bit . 
+seem way 
+extend den boer ' approach anything beyond 
+special , limitation readily admit . 
+reasonable , therefore , believe md5 remain secure . 
+den 
+boer find interesting structural property 
+md5 , property seem lead special 
+anything approach real collision . 
+research , 
+course , give better understanding strength md5 
+algorithm , eventual hope 
+algorithm , sense , prove secure . 
+\ plain 
+\ begin 1 
+\ 
+bert den ~ boer antoon . 
+\ collision compression function md5 . 
+\ \ advance cryptology -- ' 93 , 1993 . 
+\ preprint . 
+\ 
+r.l. rivest . 
+\ \ rfc 1321 : md5 algorithm . 
+\ internet activity board , april 1992 . 
+\ end 
+\ end document 

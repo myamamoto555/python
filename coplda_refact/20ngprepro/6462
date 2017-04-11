@@ -1,0 +1,38 @@
+: anssi saari 
+subject : re : 80386 80486 : difference ? 
+organization : tampere university technology , computing centre 
+lines : 38 
+distribution : inet 
+: 
+< > lars write : 
+> except clock frequency , difference 
+> various type 386 486 processor ? 
+> follow list know perhaps 
+> think know ! 
+. 
+anybody extend & correct ? 
+> 80386 : true 32 bit processor . 
+> cache ? 
+cache . 
+> : emulate 80386 16 bit bus . 
+> 80486 : true 32 bit processor . 
+> internal mathematical coprocessor correct ? 
+correct . 
+> internal cache correct ? 
+big ? 
+. 
+> extend instruction set way ? 
+six instruction ? 
+> : probably sorta like 80486 ... 
+without mathematical coprocessor fpu . 
+> : probably sorta like 80386 ... 
+actually , 80486 describe . 
+separate 80486 80386 , either . 
+intel processor . 
+anyone complete 
+list cyrix ibm product ? 
+anssi 
+-- 
+anssi saari 
+tampere university technology 
+finland , europe 

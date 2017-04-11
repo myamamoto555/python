@@ -1,0 +1,54 @@
+: estes 
+subject : diamond stealth 24 give 9.4 ? 
+organization : mail group 
+: tin version 1.1 
+lines : 56 
+install diamond stealth 24 isa card 
+' system 256k cache , 16 meg memory , 
+get 126 si 6.0 cpu benchmark rating . 
+use 
+color driver windows , get 
+rating 9.5 million . 
+since 
+hear get million card , 
+assume something wrong setup . 
+possible cause card slow like ? 
+run asq diagnostic program memory , note 
+follow memory timing machine : 
+asq v1 .30 system analysis mon apr 19 , 1993 page : 1 
+
+access timing 
+hex kb kb access speed ratio % 
+start start size time 0 25 50 75 100 
+0 32 396 
+32 32 598 
+64 32 157 
+96 32 180 
+128 64 157 
+192 32 165 
+224 128 156 
+352 96 169 
+448 32 153 
+480 32 188 
+512 96 158 
+608 32 171 
+640 96 1221 
+736 32 1581 
+768 32 312 
+800 96 154 
+896 64 
+960 64 312 
+note two thing chart : 
+1 video memory appear many order magnitude slower 
+system memory . 
+wait state insert , would 
+cause ? 
+2 ems page frame seem ridiculously slow , even though 
+map fast xm memory system 
+. 
+go ? 
+note stealth 24 's video bio shadow 
+ami bios . 
+idea might happen ? 
+-- 
+estes internet : 

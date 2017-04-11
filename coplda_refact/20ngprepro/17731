@@ -1,0 +1,37 @@
+: kevin b. weinrich 
+subject : summary : make window 's input cap 
+organization : computer sciences corp. . 
+lines : 30 
+distribution : world 
+: 
+thanks bruce barnett , recommend , bernward 
+liam quin , recommend modifying . 
+get desire behavior 
+class . 
+, simply create key file look like : 
+`` '' `` '' 
+`` b '' `` b '' 
+`` c '' `` c '' 
+... 
+specify say key file command line . 
+translate 
+input case , . 
+works great , 
+get customizable right left side . 
+use solution , add . 
+: 
+vt100 . 
+translation : \ 
+: string `` '' \ n \ 
+... 
+: 
+100 . 
+translation : \ n \ 
+: \ n \ 
+b : b \ n \ 
+... 
+invoke : - name 
+thanks load ! 
+-- 
+kevin weinrich computer sciences corp. . 
+

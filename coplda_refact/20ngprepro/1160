@@ -1,0 +1,72 @@
+: aaron lung 
+subject : re : ic package 
+organization : corporation 
+lines : 58 
+article < > seema varma write : 
+> hus , 
+> look help choose package 
+> high-speed silicon adc 100mhz currently 
+> fabricate . 
+phd research project test 
+> chip speed pcb . 
+expect roughly 100 
+> package circuit dc , low-speed high-speed 
+> testing use 3 different set-up test chip . 
+> 
+> know sure dip work 
+> long lead line high inductance . 
+> get custom-made package expensive , 
+> try choose 
+> chip carrier . 
+would hard 
+> test since solder test 
+> setup would spend load time soldering 
+> keep change test chip . 
+chip 
+> carrier socket also long lead line may 
+> work high speed . 
+> 
+> anyone 
+> field ? 
+would greatly appreciate help ! 
+idea 
+> name company manufacture 
+> would help . 
+> 
+> p.s. . 
+multi-layer fancy gaa package seem like bit 
+> overkill ? 
+> 
+> -- seema varma 
+mention whether cost issue . 
+
+exactly run 100mhz ?? 
+digital side ? 
+ttl ? 
+ecl ? 
+run 100mhz ic test equipment 
+day long ecl domain , use dip 's along 
+'s , pitch 's name 
+. 
+see problem packaging long 
+adhere sound engineering practice . 
+good source information motorola 's system design 
+handbook . 
+latest ed . 
+date . 
+consider 
+one bible high-speed design . 
+fact need build test fixture mean 
+likely go need socket . 
+
+far inductance per pin package 
+testing , mention impedance discontinuity . 
+
+see big concern packaging 
+probably go make much difference 
+try get ttl run 100mhz , fun ... 
+ttl never design run 100mhz environment . 
+: - 
+aaron 
+p.s. opinion nothing company ... 
+standard disclaimer apply . 

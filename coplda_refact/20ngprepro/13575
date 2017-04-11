@@ -1,0 +1,18 @@
+: mark borges 
+subject : re : summary : virtual mouse ol v wm 
+: message fri , 30 apr 1993 gmt 
+: 
+organization : cire , university colorado 
+lines : 14 
+> regard re : summary : virtual mouse ol v wm ; 
+> mats larsson add : 
+: ow resource . 
+belong 1 . 
+, 1 .3 say call 
+'' boolean '' 
+resource control whether key marked 
+involve grab active . 
+
+resource set false , none binding 
+marked asterisk ever active . 
+default value : true 

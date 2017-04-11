@@ -1,0 +1,48 @@
+: ian farquhar 
+subject : re : atari 2600 processors 
+organization : macquarie university , sydney australia 
+lines : 47 
+: 
+article < > yamada write : 
+> atari 2600 use 6502 cpu , like entire 8-bit line 
+> 400 , , 1440 , , computer , well 5200 
+> game machine . 
+wrong , . 
+> 2600 extra asic chip basically 
+> modify graphic chip pia 's joystick . 
+one chip asic sense word understand : 
+tia sometimes know , although manufacturer list 
+cia complex interface adapter . 
+stand television 
+interface adapter , handle sound , paddle minimal video hardware 
+2600 possess . 
+also standard ram , , timer riot , plus voltage 
+regulator memory serve 555 timer . 
+. 
+> later model 2600 
+> might incorporate many chip one asci , weight 
+> machine part count decrease lot year . 
+accord servicing documentation . 
+2600 
+change much . 
+> additionally , think 2600 use 2k , 4k , 8k rom 
+> game . 
+rom map upper 4k 's address space . 
+2k 4k 
+game fine , later 8k 16k game need bank switching . 
+atari 
+make much `` huge '' cartridge . 
+> idea much ram work , 
+> would hazard guess 2 4k ram . 
+wrong , 128 byte ram riot . 
+multiply map 
+page 0 page 1 stack , also throughout 
+bottom 4k memory . 
+register also sit address space . 
+128 byte ram somewhat limit , later cartridge also carry 
+ram , interesting atari provide write line 
+cart . 
+manage map read ram one address 
+range , write another , time scheme eat 
+scarce rom address space . 
+ian . 

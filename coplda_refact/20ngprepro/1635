@@ -1,0 +1,51 @@
+: andre beck 
+subject : re : 24-bit static color : client like ? 
+organization : dept. computer science , tu dresden , germany . 
+lines : 37 
+distribution : world 
+: 
+: . 
+de 
+article < > , frederick roeber write : 
+| > 
+| > write x server equipment . 
+
+| > hardware `` '' yuv space ; x term 24-bit 
+| > static color visual . 
+would really like server 
+| > present static visual , sure 
+| > acceptable `` '' x client . 
+three problem see : 
+| > 
+| > 1 , though huge , static . 
+| > 2 pixel would 3 byte wide . 
+| > 3 hardware actually live yuv space , 
+| > translation rgb - > yuv introduce round error . 
+| > 
+| > server guy client guy , ask : 
+| > limitation thwart many x client ? 
+x stuff 
+| > float around blithely accept give ? 
+could write 
+| > server also present visual , e.g. , 8 bit , 
+| > would rather avoid necessary . 
+| > 
+even machine case run emulate 
+8 bit visual , get standard x client , motif app 
+run . 
+strongly suppose emulate least : 
+> 24 bit . 
+problem , translation . 
+round 
+make big misfit 
+> 8 bit . 
+problem , emulate , 
+pixel index , conversion stuff . 
+furthermore , run default 
+screen visual . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

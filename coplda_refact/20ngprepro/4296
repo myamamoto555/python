@@ -1,0 +1,94 @@
+: louis gonzalez 
+subject : sphinx : satellite image processing x11 
+organization : universite des sciences et technologie de lille , france 
+lines : 106 
+: 
+: tin version 1.1 
+sphinx 
+sphinx user-friendly , state-of-the-art image processing 
+analysis package run across spectrum high performance 
+computer platform operate unix system . 
+create meet daily research need scientist 
+conduct climate investigation use satellite datum remote 
+sense technique . 
+intuitive graphic interface 
+sphinx feature interactive interface pop-up menu 
+point-and-click dialog box make image processing 
+analysis simple fast . 
+accessible enable build attractive image 
+layout quickly also provide flexibility return 
+main menu conduct image analysis processing operation . 
+image format compatibility 
+use smart function , sphinx allow easily open 
+save image file variety format use bit , integer real 
+datum value . 
+sphinx also read write common tiff gif format 
+well compress decompress image format save disk space . 
+image analysis & processing 
+image pixel analysis , sphinx package include 
+assortment processing tool perform useful statistical 
+mathematical filter operation , fourier transform , convolution 
+product principal component analysis . 
+interactive interpreter algebraic equation image allow 
+user manipulate combine individual datum channel interactively . 
+standard fortran notation use entry trig 
+transcendental function . 
+satellite spectra & orbit analysis 
+sphinx possess function simulate satellite signal sensitivity 
+various meteorological satellite e.g. , go , , noaa , spot etc. . 
+simulation conduct selection standard atmospheric 
+surface condition instrument spectral band . 
+geometry model compute solar zenith angle , warping , orbit simulation , 
+3-d image projection . 
+easy external program interfacing 
+sphinx allow user flexibility integrate externally 
+develop software algorithm processing convert satellite 
+observation . 
+sphinx export import image file image parameter 
+external program use special interface function . 
+quick quality presentation 
+sphinx rapidly display , manipulate , enhance high-resolution 
+multispectral image color table . 
+use six 8-bit image 
+plane one graphic plane , package conveniently combine color image , 
+graphic text generate sharp digital image article report . 
+sphinx 's 2-d 3-d graphic editor provide complete flexibility modify 
+integrate vector graphic analysis plot image , 
+histogram radial graph . 
+package supplies color gray scale 
+output standard inkjet laser printer . 
+capability sphinx also perform image animation , external 
+graphic import , mosaic fitting ... else ? 
+software support & development 
+sphinx develop laboratoire loa 
+universite de lille , france . 
+package receive critical feedback support scientist 
+french national laboratory , centre national de recherche scientifique cnrs , 
+french space agency , centre national d'etudes cnes . 
+loa , sphinx undergo continue refinement development meet change 
+research need advance computer technology . 
+package , feature 
+on-line help , support internet address 
+question answer 
+version update provide without delay . 
+performance tested 
+cnes select sphinx analyze process satellite datum 
+collect satellite mission . 
+today , 
+sphinx package use nasa - goddard space flight center 
+widely use many french laboratory , include 
+centre de recherche en physique de l'environnement , ecole normale superieure , 
+laboratoire d' etudes et de recherches en , laboratoire 
+de . 
+test version sphinx available 
+anonymous bin : cd sphinx : get . 
+
+test version output file disable . 
+however 
+visualisation graphic function available . 
+
+sufficient work . 
+interested keep `` sphinx '' , send us email 
+receive news package evolution . 
+software change user suggestion 
+appreciate comment . 

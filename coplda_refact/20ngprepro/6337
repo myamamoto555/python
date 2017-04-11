@@ -1,0 +1,116 @@
+: germano 
+subject : re : technical detail 
+organization : swiss federal institute technology eth , zurich , ch 
+lines : 107 
+article < > steven bellovin write : 
+> correction addition hellman 's note , courtesy 
+> dorothy denning . 
+, repost permission . 
+> 
+> two request -- first , note role s1 s2 . 
+appear 
+> anyone know value construct unit 
+> key . 
+nature generation process k1 k2 
+> neither produce alone . 
+thus , scheme 
+> implement one repository generate first , 
+> another generate second . 
+ominous . 
+> 
+> second -- posting reveal scripture , 
+> spook posting . 
+attempt draw hide 
+> meaning oppose , say , official announcement clipper . 
+> leave denning ; give hellman 's record opposition des , 
+> go back folk newsgroup know read , 
+> think impugn integrity . 
+> 
+> oh yeah -- folk invent clipper stupid . 
+think 
+> something make sense , almost certainly 
+> understand goal . 
+> 
+addition post permission tech . 
+detail 
+. 
+??? 
+use s1 s2 . 
+
+date : mon , 19 apr 93 edt 
+: dorothy denning 
+subject : re : clipper chip 
+another conversation nsa clarify feature 
+clipper . 
+please feel free distribute message 
+clipper . 
+name encryption algorithm `` skipjack . '' 
+martin hellman write 
+serial number unit add produce three part 
+message encrypt system key sk 
+produce 
+e e m ; k , e k ; uk , serial number ; sk 
+respond : 
+understanding e m ; k encrypt sk call 
+`` family key '' decrypt key correspond sk hold 
+law enforcement . 
+anyone first hand knowledge ? 
+correct e m ; k encrypt sk . 
+however , skipjack 
+system , , course , separate decrypt key 
+family key sk . 
+unit key , also call `` chip key , '' generate 
+serial number n follow . 
+let n1 , n2 , n3 64 bit block 
+derive n , let s1 s2 two 80-bit seed use key . 
+compute 64-bit block 
+r1 e d e n1 ; s1 ; s2 ; s1 
+note like use des triple encryption mode 
+two key . 
+similarly compute block r2 r3 start n2 n3 . 
+whether key s1 s2 change . 
+fact 
+call seed suggest might . 
+r1 , r2 , r3 
+together give 192 bit . 
+first 80 bit form k1 
+next 80 bit form k2 . 
+remain bit discard . 
+seed s1 s2 change . 
+whole process perform 
+laptop computer , s1 s2 supply two independent people 
+one person know . 
+s1 s2 use 
+entire `` programming session '' generate key stream serial 
+number . 
+everything discard end computer could 
+throw desire . 
+serial number 30 bit value n1 , n2 , n3 form 
+pad serial number fix block separate padding 
+value . 
+result key k1 k2 output onto separate floppy disk , paired 
+serial number . 
+pair store separate file . 
+
+floppy disk take away two separate people behalf two 
+escrow agency . 
+dorothy denning 
+
+
+sure technical detail know time go . 
+please remark , post , automatically agree 
+contents implication . 
+swamp mailbox : - 
+think valuable addition less technical 
+discussion rise . 
+, , mind call 
+s1 s2 ` backdoor ' , could imagine process 
+work without seed dependency k1 , k2 
+. 
+friendly greeting , 
+germano 
+-- 
+instruments register thing design register . 
+space still contain infinite unknown . 
+
+germano 

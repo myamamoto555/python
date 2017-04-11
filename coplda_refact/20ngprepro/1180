@@ -1,0 +1,24 @@
+: robert l. mcmillin 
+subject : re : mix gl x xlib , xt , mwm 
+organization : surf city project 
+: message 19 apr 1993 -0400 
+lines : 21 
+19 apr 1993 -0400 , jay graham say : 
+> develop x xt , xm application include graphic window 
+> sort move symbol among thing . 
+pure x application 
+> could implement motif widget , one would 
+> draw xlib . 
+would like take advantage 
+> graphics library gl available ibm sgi 's gl believe . 
+> possible mix x gl one application program ? 
+> use gl subroutine x window open 
+> ? 
+sgi 's distribution indigo line well , possibly , 
+include source code gl widget fit top motif , 
+one xt base well . 
+may wish ask ibm whether 
+support . 
+-- 
+robert l. mcmillin | surf city software | | dude ! 
+

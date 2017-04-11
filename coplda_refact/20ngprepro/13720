@@ -1,0 +1,42 @@
+: gerhard van vught 
+subject : re : view jpeg file 
+: . 
+
+organization : computer science department , university cape town 
+lines : 36 
+< > write : 
+> view jpeg file without special hardware ? 
+> 
+> lucy wilson , access services librarian 
+> college engineering , university cincinnati 
+yup . 
+jpeg viewer seem require specific video driver since support 
+specific video card . 
+standard ibm bio video support 
+vga 256 color mode , leave card 
+hercules monochrome card way give good picture 
+quality dither work right . 
+remember name jpeg viewer since usually convert jpeg 's 
+gif 's view . 
+require vesa driver video card . 
+need special hardware view jpeg 's except perhaps vga 
+card maybe 286 + processor . 
+people day program 286 + 
+computer neglect rest 86 processor 8086 , 8088 . 
+
+8088 clone nec v20 processor hercules card , write 
+program view gif 's animation vga 
+color graphic board monochrome hercules card . 
+use 
+dither find one something neat color palette 
+result dithered image give much greater detail normally would 
+view monochrome system . 
+8.50 f dither 
+standard thing image palette dither , way 
+give brighter detailed image . 
+anyway , enough rambling wrong direction . 
+final point , 
+far know , need extra hardware view jpeg 's 
+vga perhaps 286 better 
+day ! 
+gerry . 

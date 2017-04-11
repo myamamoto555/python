@@ -1,0 +1,43 @@
+: andrew leahy 
+subject : run 's onto apollo dec 
+organization : university western sydney , nepean 
+: tin 1.1 
+lines : 36 
+help ! 
+try run 's dec ' decstation 
+ultrix 4.3 , , motif display variable set 
+apollo 10.3 , , motif ? 
+. 
+? 
+. 
+get error appear decstation : 
+> 
+x toolkit warning : convert string '' '' type 
+x toolkit warning : convert string '' '' type 
+x toolkit warning : convert string '' '' type 
+x toolkit warning : convert string '' '' type 
+x toolkit warning : convert string '' '' type 
+x toolkit warning : convert string '' '' type 
+x toolkit warning : convert string '' '' type 
+x toolkit warning : convert string '' '' type 
+segmentation fault 
+> 
+idea ? 
+motif problem ... dec apollo version motif 
+incompatible ? 
+something ? 
+run fine dec display apollo . 
+. 
+
+need run package use dec 's , oracle case , 
+use default , lab apollo workstation would like 
+run oracle . 
+andrew `` alf '' leahy , 
+-- 
+
+andrew `` alf '' leahy phone : w irc : 
+uni . 
+western sydney , nepean . 
+: 
+sydney , australia . 
+: alf 

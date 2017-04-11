@@ -1,0 +1,53 @@
+: brian dealy - csc 
+subject : re : monthly question expose event 
+organization : space flight center 
+lines : 43 
+distribution : world 
+: 
+originator : 
+| > 2nd post question seem get answer 
+| > 
+| > suppose idle app realize map window contain 
+| > xlib graphic . 
+button widget , press , cause new item 
+| > draw window . 
+action clearly call 
+| > directly ; instead , register existence new 
+| > item memory structure let expose event handler handle 
+| > `` regular '' expose event e.g. window exposure take care 
+| > render new image . 
+use expose event handler `` proper '' way 
+| > time handler call , xlib window 
+| > guarantee map . 
+| > 
+| > problem , course , expose event generate window 
+| > already visible map . 
+need somehow `` tickle '' 
+| > window expose handler hit argument enable 
+| > render part window contain new item . 
+| > 
+| > best way tickle window produce behavior ? 
+understand problem correctly , want way send 
+exposure manager widget code draw xlib 
+graphic window . 
+sound like might want send exposure use 
+specify region . 
+know region need 
+send exposure , generally bound rectangle object , 
+use create region , add 
+new object polygon region , either use region 
+clip gc redraw use test 
+object need redrawn . 
+keep mind stack order 
+overlap object affect look . 
+hope help 
+-- 
+brian dealy | | know 
+| | important , know 
+! 
+| | ... 
+-- 
+brian dealy | | know 
+| | important , know 
+! 
+| | ... 

@@ -1,0 +1,137 @@
+: mark stucky 
+subject : re : need pd x-y plot package 
+organization : internet 
+lines : 139 
+: 
+: 
+cc : 
+`` steve '' steve blue feather farm < > write : 
+steve > folk , 
+steve > look public domain x-y plot package x. 
+steve > need basic capability axis , label , log linear , & c . 
+steve > hard imagine someone put thing 
+steve > together , hope avoid reinvent wheel . 
+steve > thanks lead ! 
+steve > steve 
+might take look . 
+version 4.99 c actually beta v5 .0 
+find anonymous ftp , 
+directory . 
+-- mark 
+
+| mark stucky | email : | 
+| united technologies research center | | 
+| east hartford , ct . 
+| | 
+| | | 
+
+readme file version 4.99 c : 
+distribution . 
+scientific plot package 
+many system , small micro large super alike . 
+despite small size 
+quickness , enough power satisfy user , include : standard 
+x-y plot , plot , log-log plot , contour plot , 3d plot , mesh plot , 
+bar chart pie chart . 
+multiple graph different size 
+may place single page multiple line graph . 
+different 
+line style , width color support . 
+virtually infinite number 
+distinct area fill pattern may use . 
+almost 1000 character 
+extended character set . 
+include four different font , greek 
+alphabet host mathematical , musical , symbol . 
+font 
+scale size various effect . 
+many different output device 
+driver available system dependent , include portable metafile 
+format renderer . 
+package freely distributable , public domain . 
+source code , except header file file explicitly 
+grant permission , may use commercial software package without 
+consent author . 
+allow encourage include 
+object library header file commercial package provide : 1 
+explicitly prominently state library freely 
+available , 2 full copyright package display 
+somewhere documentation package . 
+welcome suggestion improve code , especially form 
+enhancement bug fix . 
+use 
+publish papers , please include acknowledgment citation work , 
+help continue improve . 
+also , please remember 
+commercial product , expect offer 
+kind support commercial product may . 
+great interest 
+extend fix bug , principal author 
+afford work part time . 
+improvements necessarily focus 
+help get work . 
+write c , enable run many platform practically 
+without modification . 
+fortran program may use transparently ; stub 
+routine provide handle c < - > fortran interface without 
+modification user program . 
+c program require include 
+header file `` '' ; see documentation detail . 
+main documentation doc directory form 
+several tex file ; please consult additional information ` latex 
+' . 
+unfortunately documentation tend lag actual improvement 
+code , surprise known feature explain 
+. 
+consult ` ' see list recent change . 
+present , know work follow system : 
+unix : suno 
+
+hp-ux 
+unicos 
+
+ultrix 
+
+linux 
+
+
+
+next 
+information get use system , see : 
+- appendix manual 
+- documentation appropriate sy directory . 
+become subscriber mailing list , send request 
+. 
+credit 
+------- 
+result effort many people , impractical 
+list contributor . 
+currently support otherwise 
+responsible package present form include : 
+maurice lebrun 
+please send comment , flame , patch , etc , . 
+responsible 
+kernel development well work 
+metafile , , , postscript , tektronix , amiga driver . 
+email 
+dr. maurice lebrun 
+institute fusion study 
+university texas 
+austin , tx 
+geoff furnish 
+please send question regard driver geoff . 
+email 
+geoff furnish 
+institute fusion study 
+university texas 
+austin , tx 
+tony richardson 
+creator 2.6 b , 3.0 
+please send question regard installation next tony . 
+email 
+tony richardson tony richardson 
+184 electrical engineering 2920 chapel hill road apt . 
+
+duke university durham , nc 
+durham , nc 
+ph ph 

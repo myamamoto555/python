@@ -1,0 +1,31 @@
+: nicholas a. hess 
+subject : raster format hrf ? 
+organization : usgs center spatial analysis technologies 
+lines : 19 
+: 
+keyword : hrf 
+shop use package call - good - scan 
+subsequently original map digital map . 
+problem 
+raster file load package , header add 
+. 
+hrf file make unreadable supply converter . 
+
+would like able ship raster image 
+use workstation . 
+, question : 
+1 hitachi format ? 
+- need format recognize 
+precisely strip . 
+strongly suspect compress 
+format - , might possible strip 
+offend header . 
+2 unix package read recognize hrf ? 
+would 
+really nice find sort `` '' converter . 
+; 
+already search well-known ftp site contain 
+graphic format documentation , luck . 
+, know , 
+someone know - please email ! 
+thanks . 

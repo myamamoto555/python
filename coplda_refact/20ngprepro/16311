@@ -1,0 +1,36 @@
+: derek c. richardson 
+subject : 3.0 window position problem 
+: . 
+
+: 
+organization : institute astronomy , cambridge 
+lines : 28 
+seem able get window position reliably 
+function : 
+x int , ; 
+y int , ; 
+example , set & frame come 
+correct position , top left corner size 
+handle . 
+return well . 
+later 
+return without intervene , 
+xv _ ? 
+. 
+frame fit around canvas , turn 
+measure screen position 
+first pixel canvas relative frame 's origin . 
+
+give ? 
+help appreciate ! 
+derek 
+p.s. related subject , way query 
+window manager thickness border put around 
+frame , etc. . 
+? 
+
+| derek c. richardson | tel : 0223 x | 
+| institute astronomy | fax : 0223 | 
+| cambridge , u.k. | | 
+| | e-mail : | 
+

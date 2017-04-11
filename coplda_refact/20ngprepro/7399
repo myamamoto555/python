@@ -1,0 +1,121 @@
+: steven bellovin 
+subject : technical detail 
+organization : at&t bell laboratories 
+lines : 116 
+correction addition hellman 's note , courtesy 
+dorothy denning . 
+, repost permission . 
+two request -- first , note role s1 s2 . 
+appear 
+anyone know value construct unit 
+key . 
+nature generation process k1 k2 
+neither produce alone . 
+thus , scheme 
+implement one repository generate first , 
+another generate second . 
+ominous . 
+second -- posting reveal scripture , 
+spook posting . 
+attempt draw hide 
+meaning oppose , say , official announcement clipper . 
+leave denning ; give hellman 's record opposition des , 
+go back folk newsgroup know read , 
+think impugn integrity . 
+oh yeah -- folk invent clipper stupid . 
+think 
+something make sense , almost certainly 
+understand goal . 
+-- steve bellovin 
+----- 
+date : sun , 18 apr 93 edt 
+: dorothy denning 
+subject : re : clipper chip 
+: long list folk 
+also brief nsa fbi , let add comment 
+marty 's message : 
+clipper chip secret crypto algorithm embed 
+algorithm operate 64-bit block like des chip support 
+4 des mode operation . 
+algorithm use 32 round scramble 
+compare 16 des . 
+addition system key , user get choose 
+key change often desire . 
+call key 
+plain old k. message send first 
+k session key share sender receiver . 
+method 
+e.g. , public key use establish session key . 
+
+at&t telephone security device , new chip , key 
+negotiate use public-key protocol . 
+encrypt k , k encrypt unit key uk , 
+serial number unit add produce three part 
+message encrypt system key sk 
+produce 
+e e m ; k , e k ; uk , serial number ; sk 
+understanding e m ; k encrypt sk call 
+`` family key '' decrypt key correspond sk hold 
+law enforcement . 
+anyone first hand knowledge ? 
+
+also check , 7am sunday want wait . 
+unit key 
+generate xor two 80-bit random number k1 
+k2 uk k1 + k2 keep two escrow 
+unit key , also call `` chip key , '' generate 
+serial number n follow . 
+let n1 , n2 , n3 64 bit block 
+derive n , let s1 s2 two 80-bit seed use key . 
+compute 64-bit block 
+r1 e d e n1 ; s1 ; s2 ; s1 
+note like use des triple encryption mode 
+two key . 
+similarly compute block r2 r3 start n2 n3 . 
+whether key s1 s2 change . 
+fact 
+call seed suggest might . 
+r1 , r2 , r3 
+together give 192 bit . 
+first 80 bit form k1 
+next 80 bit form k2 . 
+remain bit discard . 
+authority . 
+escrow authority still 
+decide attorney general , stress 
+nsa law enforcement agency , 
+must party acceptable user system unbiased . 
+marty right fbi ask suggestion . 
+please pass along reason . 
+addition marty 's 
+criterion , would add agency must established record 
+able safeguard highly sensitive information . 
+suggestion 
+receive far include , rand , mitre , national lab sandia , 
+lanl , los alamos , treasury , gao . 
+court order obtain k1 k2 , thence k , law 
+enforcement agency use sk decrypt information 
+flow suspect link aside : guess 
+may constantly link , without 
+court order , since almost impossible tell link 
+message flow . 
+understanding one decode box 
+operate fbi . 
+service provider isolate 
+communication stream pass fbi pass 
+decode box , key k. 
+`` wiretap authorization . '' 
+levy ask 
+detail could review case require 
+law , agent tell predecessor turn 
+40-50 blank , sign form every time . 
+levi 
+comply change system , lesson clear : 
+single person authority power 
+authorize wiretap 
+single person , least fbi tap . 
+complete mound 
+paperwork , agent must get approval several people chain 
+include fbi legal counsel request even take 
+attorney general final approval . 
+dorothy denning 

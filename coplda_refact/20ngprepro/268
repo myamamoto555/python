@@ -1,0 +1,43 @@
+: paul martz 
+subject : re : 24-bit static color : client like ? 
+: 
+: paul martz 
+organization : evans & sutherland computer corp. , salt lake city , ut 
+lines : 38 
+article < > , frederick roeber write : 
+> write x server equipment . 
+
+> hardware `` '' yuv space ; x term 24-bit 
+> static color visual . 
+would really like server 
+> present static visual , sure 
+> acceptable `` '' x client . 
+three problem see : 
+> 
+> 1 , though huge , static . 
+> 2 pixel would 3 byte wide . 
+> 3 hardware actually live yuv space , 
+> translation rgb - > yuv introduce round error . 
+try ship x server support 
+visual . 
+main problem encounter : 
+1 client write logic like following : 
+! 
+1 
+assume default depth 
+client need deep visual root window 
+run correctly . 
+2 client even bother much , 
+outright assume dynamic visual class , 
+dynamic . 
+work cmap 
+associate static visual class , 
+many client bother check , start 
+throw call . 
+though clearly client error , case many 
+client easier expose 
+default root window visual , ever would client 
+writer change client right thing . 
+-- 
+- paul 
+evans & sutherland 

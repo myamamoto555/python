@@ -1,0 +1,42 @@
+: bill mayhew 
+subject : re : dumb question : function generator 
+organization : northeastern ohio university college medicine 
+lines : 36 
+1 output offset : obtain service manual oscilloscope 
+adjust internal output offset . 
+virtual 
+certainty internal offset 
+control 's zero detent position . 
+2 verify function generator properly load . 
+many 
+generator expect supply 50 ohm load . 
+go 
+flea market scrounge around pass-through 50 ohm 
+terminator male female bnc whatever connector 
+. 
+tektronix scope design put 
+.4 v 1 meg load , .1 volt 50 ohm load . 
+may 
+also find load output function generator also 
+reduce harmonic distortion . 
+build attenuator . 
+use would want 
+use input impedance device test part 
+voltage divider drop input test voltage . 
+consider : 
+------ 10k -------- + --------- ? 
+ohm -- 
+| 
+gen 50 ohm 
+load | 
++ ------------------- 
+think ratio think accuracy 
+read voltage oscilloscope . 
+
+virtually discount loading also 
+test generator want . 
+good luck , 
+-- 
+bill mayhew computer services department 
+, oh usa phone : 
+: 

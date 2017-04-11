@@ -1,0 +1,30 @@
+: xiaoguang zhang 
+subject : need spec hard drive 
+: xiaoguang zhang 
+organization : oak ridge national laboratory 
+lines : 21 
+need info regard 3.5 '' half-height drive . 
+
+sticker follow , 
+model hda pcba unique tda 
+- 
+sticker biggest chip mfm interface , 
+model pcba tda 
+fxx 
+spec drive # cyl , head , etc ? 
+fast drive ? 
+use rll drive ? 
+also scsi interface seem match connector 
+drive . 
+description , 
+model pcba tda 
+axx 29a 
+replace mfm interface scsi interface use drive 
+drive ? 
+would drive size ? 
+set jumper 
+scsi interface `` '' besides . 
+use ? 
+could someone also send spec seagate 5 '' full-height drive ? 
+e-mail 
+thanks 

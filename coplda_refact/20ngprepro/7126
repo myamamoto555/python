@@ -1,0 +1,49 @@
+: grubb 
+subject : re : ide vs 
+organization : new mexico state university , las cruces , nm 
+lines : 39 
+distribution : world 
+: 
+richard krehbiel write : 
+stuff connection ide ida 
+> clock , 16 bit width , . 
+ide speed come ida 8.3 sight ide come ? 
+scsi complex . 
+way industry use talk . 
+three key difference scsi ; controller chip , port , 
+software . 
+. 
+let look stand point . 
+: asynchronous synchronous mode software driver 
+asynchronous slower synchronous mode vs. 
+synchronous speed reach 
+rewrite software driver case mac quadra . 
+8-bit : main source confusion . 
+differ 
+chip machine . 
+mac pc 
+call ` fast ' use port software driver 
+produce speed inspite even 
+slower asynchronous mode . 
+average speed asynchronous mode 
+see quadras higher end pc synchronous 
+mode allow higher burst rate 
+16-bit : two . 
+wide require two thing 
+8-bit : software driver wide port 
+machine external device . 
+fast also require two thing 8-bit : driver 
+software recieving devise support 16-bit fast . 
+speed : burst . 
+32-bit : also know wide fast . 
+8-bit 
+require : driver software , wide port , recieving 
+device also 32-bit mode chip . 
+expect 
+. 
+speed : burst 
+say simple . 
+seven version seperate software , 
+chip , port . 
+software drop 
+five version scsi seperate hardware chip port 

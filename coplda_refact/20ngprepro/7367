@@ -1,0 +1,54 @@
+: stephan neuhaus mattern 
+subject : re : need clipper cheap security ? 
+: . 
+de 
+organization : university kaiserslautern , germany 
+lines : 39 
+graham toal write : 
+> someone tell hardware compression need run 
+> digital speech 14.4 k ? 
+think ; hear . 
+let 
+> say 8 bit sample . 
+would raw datum corresponding sampling rate 
+> usable ? 
+, fancy compression need ? 
+note : cable freak , might completely 
+misunderstand say . 
+also , math frequently note 
+wrong , 'll better check calculation . 
+assume 14.4 k mean 14.4 k bit . 
+assume one start 
+one , protocol overhead , effective number byte 
+per second 1.44 k. 
+let 's also assume want transmit speech 
+stereo , send 1,440 . 
+correspond 
+nyquist frequency 720 hz , low , especially 
+think 8-bit low quality sound . 
+furthermore , 
+converter probably present signal 
+cut 720 hz , instead alia higher 
+frequency . 
+although definitely build filter overcome 
+problem . 
+hand , speech easily compressible . 
+example , 
+could form power spectrum , could simply band-pass filter 
+fourier transform . 
+cd quality sound , 
+'ll discernible . 
+power spectrum method good 
+respect . 
+program software compressor , 
+compression rate 90 % relative error due linearization 
+less 5 % common . 
+although must say musical 
+sound , speech . 
+fun . 
+-- 
+stephan < > 
+sig close inventory . 
+please leave pickaxe outside . 
+pgp 2.2 public key available request . 
+note expiration date . 

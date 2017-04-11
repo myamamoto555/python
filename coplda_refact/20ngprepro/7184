@@ -1,0 +1,54 @@
+: ted richards 
+subject : re : 
+distribution : usa 
+organization : isg technologies inc. . 
+mississauga ont . 
+canada 
+lines : 43 
+: tin version 1.1 
+follow note : 
+ted richards write : 
+: al devilbiss write : 
+: : 
+: : look like everything work advertise disappointed 
+: : speed . 
+use intel 400 internal 14.4 k modem pc 
+: : telebit 14.4 k unix end , currently limit 
+: : 19.2 unix com link . 
+get quantitative comparison , 
+: : ` cat file ' `` file '' 20 uncompressed text , 
+: : take 75 seconds scroll x window modem link , 
+: : 270 . 
+use identical hardware procomm + fw 
+: : `` cat file ' take 11 seconds , 1820 . 
+btw , use ncd pc 
+: : pc work hp every day unix access pc 
+: : lan like fine . 
+` cat file ' scroll 
+: : ~ 2 seconds lan connection . 
+try experiment . 
+cat file 471 line 
+various scenario : 
+dos full-screen window : 18 sec 
+window : 107 sec ! 
+full-screen window standard vga : 11 sec 
+windows 3.1 window : 30 sec 
+seamless window : give 4 min ! 
+windows 3.1 : faster , give 2 min 
+seamless window use pg 30 sec , could 
+little faster keep 
+hit space bar 
+use ati wonder xl video card , way . 
+dos look pretty good line-by-line scrolling 
+desktop look pathetic , although full-page redraw pretty 
+good . 
+try use normal font , 
+small font , difference time . 
+modem receive light pretty solidly , look like 
+bottleneck modem , screen drawing . 
+-- 
+ted richards ... ! 
+
+isg technologies inc. . 
+airport rd. , mississauga ont . 
+canada 

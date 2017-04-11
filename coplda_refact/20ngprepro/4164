@@ -1,0 +1,28 @@
+: mike yang 
+subject : re : monthly question expose event 
+: 
+organization : silicon graphics , inc. . 
+lines : 27 
+: 
+article < > , buzz moschetti write : 
+| > 2nd post question seem get answer 
+resist question say something like ? 
+| > problem , course , expose event generate window 
+| > already visible map . 
+need somehow `` tickle '' 
+| > window expose handler hit argument enable 
+| > render part window contain new item . 
+| > 
+| > best way tickle window produce behavior ? 
+expose event handler truly intelligent expose 
+rectangle information , use generate 
+expose event assume background pixel none 
+enclose rectangle new item . 
+still great , since item contain within 
+rectangle still unnecessarily redrawn . 
+expose event handler simply redraw everything , 'll 
+much work draw new item `` top '' 
+exist scene . 
+
+mike yang silicon graphics , inc. . 
+

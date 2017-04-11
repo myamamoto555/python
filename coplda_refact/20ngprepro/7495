@@ -1,0 +1,52 @@
+: rei 
+subject : xavier av extension interviews 
+: tsl 
+organization : c&c systems research labs , nec corporation , kawasaki , japan 
+lines : 58 
+: 
+dear folk : 
+pleasure able announce release new freeware program , 
+xavier , audio video extension interviews . 
+xavier extension av class interview c + + class library 
+add multimedia capability interviews . 
+allow composite 
+multimedia object build media object . 
+specifically , add audio video object class available 
+interviews 3.1 , without change 
+source code original class though several configuration 
+file interview need change via patch file . 
+currently , xavier audio class support sun 
+workstation audio interface , . 
+xavier test follow environment : 
+sun : 
+machine : 
+os : later 
+c + + : sun c + + .1 
+nec ews : 
+machine : ,230 
+os : .0 .1 , .2 
+c + + : c + + .1 
+obtain via anonymous ftp 
+
+. 
+tar , 
+prepare information regard xavier . 
+interested , please contact 
+. 
+add e-mail address list . 
+reference 
+o rei , sakagami , jun : 
+audio video extension graphical interface toolkits , 
+third international workshop network operating 
+system support digital audio video , san diego , 1992 
+
+_ 
+\ \ rei e-mail : 
+| o | 
+| o | c & c systems research laboratories 
+| o | __ nec corporation 
+o | | | 1-1 , miyazaki , tel : 
+o | | | | , kawasaki , fax : 
+o | \ | kanagawa 216 japan 
+\ __ 
+

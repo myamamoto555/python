@@ -1,0 +1,61 @@
+: john kelsey 
+subject : one-time pad authentication ? 
+: . 
+
+organization : university missouri 
+lines : 51 
+think couple way guarantee authenticity one-time 
+pad scheme , though sure prove kind 
+provide . 
+obvious might truly random unpredictable 
+eve block message , calculate crc include 
+random start block message . 
+could encrypt 
+message . 
+problem , sure impossible come 
+message hash crc regardless random start 
+block . 
+intuitively seem like ought hard , 
+sure ... clearly , hash like md5 sha would 
+stronger , , sure comfortable claim 
+unbreakable . 
+scheme use pad bit decide many bit 0 's 
+include plaintext stream go would bad , 
+either . 
+cost increase speed use 
+pad , could use give arbitrarily low probability 
+opponent could spoof message , since decipher plaintext 
+spot carry 0 's show something funny 's go 
+. 
+, message bit , use one random bit , , decide 
+whether insert 0 plaintext stream , would get total pad use 
+2.5 time message length . 
+would expand message size 
+half . 
+0 appear plaintext stream 
+guess would-be . 
+bit , guess . 
+try 
+see quantify chance make way 
+spoof message , get little complicated , get un - 
+synch , still happen 0 place spoofed message . 
+, see simple way get secure 
+one-time pad , cost use 4 time message length pad bit . 
+message bit , , use one random bit , , xor together 
+get . 
+, encrypt three bit one-time pad . 
+enemy 
+way guess , guess , either . 
+change make ciphertext stream involve guess 
+. 
+way without use many pad bit ? 
+spoof message equivalent correctly guess many random 
+bit bit message . 
+clearly , make spoof message 
+hard know whole message text know none . 
+fact , look like make hard generate spoofed 
+message ciphertext without , entirely sure 
+. 
+easier way provably secure 
+one-time pad ? 
+-- john kelsey 

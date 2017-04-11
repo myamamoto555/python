@@ -1,0 +1,38 @@
+: joel kolstad 
+subject : re : dumb question : function generator 
+organization : u wisconsin-madison college engineering 
+lines : 35 
+article < > david glen jacobowitz write : 
+> 
+> new scope think would save buck 
+> buy one function generator build . 
+hmm ... ad combination crank 
+see ? 
+: - 
+function generator offset , amplitude 's high 
+> way could make little box could 
+> solve little problem . 
+box would function generator 
+> input , lower voltage give output impedance 
+> low , unchanging number . 
+would want lower voltage factor 
+> one hundred . 
+could build little buffer amp , would 
+> like box active . 
+sure , already get right idea . 
+ignore 50 ohm internal resistance generator second , 
+run , say , voltage divider make 990 ohm series 10 
+ohm . 
+new circuit equivalent one put 
+original voltage , output negligibly 
+less 10 ohm . 
+may want monkey value little 
+depend whether care _ exact _ divide ratio 
+availability part . 
+sound ? 
+-- joel kolstad 
+p.s. -- high voltage probe multimeter 
+accurate still cheap . 
+something like 100 meg series 
+100k , load often high source much , well 
+keep probably 10 meg impedance multimeter happy . 

@@ -1,0 +1,55 @@
+: joe hildebrand 
+subject : re : help need : callback , action event 
+organization : internet 
+lines : 47 
+: voss 
+cc : 
+> 
+> understand two method connect application code 
+widget : 
+> 
+> callback action 
+> 
+> problem face quite long piece 
+application code 
+> perform lot draw window . 
+want connect 
+
+> widget . 
+problem far . 
+could use callback function 
+action , process event afterwards . 
+> 
+> drawing take , want application code 
+sequence 
+> able interrupt event . 
+want handle 
+event 
+> resume process application code point 
+> interrupted . 
+> seem possible , give user 
+
+> impression input immediately process ? 
+use . 
+see . 
+split draw small chunk 
+hard part . 
+, callback start drawing , 
+call call first time . 
+function return boolean ... 
+true finish , false want keep 
+processing . 
+return false , automatically 
+. 
+note method better use time-out loop , since 
+event get process manner . 
+
+use ada binding , however , hose , 
+look . 
+---------- 
+joe hildebrand 
+
+software engineer 
+systems concepts 
+
+standard disclaimer apply 

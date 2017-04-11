@@ -1,0 +1,33 @@
+: net noise owner 
+subject : re : fact : 30 bit serial number , possibly fix s1 s2 
+organization : university illinois @ 
+lines : 32 
+way view method generate unit key back-door . 
+else call key deterministically generate serial 
+number ? 
+generate unit key serial number n , 30-bit value n 
+first pad fix block produce 64-bit block n1 . 
+s1 s2 use key n1 , produce 
+64-bit block r1 : 
+r1 e d e n1 ; s1 ; s2 ; s1 . 
+similarly , n pad two block produce n2 
+n3 , two additional 64-bit block r2 r3 compute : 
+r2 e d e n2 ; s1 ; s2 ; s1 
+r3 e d e n3 ; s1 ; s2 ; s1 . 
+r1 , r2 , r3 together , give 192 bit . 
+
+first 80 bit assign u1 second 80 bit u2 . 
+
+rest discard . 
+unit key u xor u1 u2 . 
+u1 u2 
+key part separately escrow two escrow 
+agency . 
+happen need escrow house completely eliminate . 
+say , need _ access _ escrow house decrypt datum . 
+house still serve real purpose far generate illusion 
+protection , small-town cop let `` secret '' , 
+still go motion go escrow house , fact 
+__ federal government build chip generate unit 
+key encrypted serial number ! 
+__ ` nuff said . 

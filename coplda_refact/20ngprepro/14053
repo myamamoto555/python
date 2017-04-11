@@ -1,0 +1,29 @@
+: gabriel ibanez c. 
+subject : key event -- > window 
+originator : 
+: 
+organization : universidad de chile , . 
+de ciencias de la 
+lines : 34 
+hus , 
+someone program send key event 
+another window must appear window ... 
+use package !!! 
+example , get program execute : 
+-------------- 
+# ! 
+
+read something 
+... 
+... 
+echo $ something 
+... 
+... 
+-------------- 
+send key event '' , '' 
+window get : 
+something 
+thanks advance . 
+-- 
+gabriel iban ~ ez c. 
+

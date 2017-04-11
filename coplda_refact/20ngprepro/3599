@@ -1,0 +1,75 @@
+: stephan amann 
+subject : re : radiosity 
+: 
+organization : university berne , institute computer science applied mathematics , special interest group computer graphics 
+lines : 80 
+article xia zhao write : 
+> 
+> 
+> article < > , write : 
+> | > 
+> | > 
+> | > let 's serious ... work radiosity package , write c + + . 
+> | > would like make public domain . 
+'ll announce c.g. minute 
+> | > finish . 
+> | > 
+> | > good news . 
+bad news : 'll take another 2 month least 
+> | > finish . 
+> 
+> 
+> use traditional radiosity method , progressive refinement , 
+> something else package ? 
+> 
+package base several article non-standard radiosity 
+unpublished method . 
+main article : 
+- cohen , chen , wallace , greenberg : 
+progressive refinement approach fast radiosity image generation 
+computer graphics siggraph , v. 22 no. 4 , pp , august 1988 
+- , puech 
+general method integrating specular diffuse reflection 
+computer graphics siggraph , no. 3 , , july 1989 
+> need project patch surface , technique 
+> use ? 
+hardware facilitate projection ? 
+> 
+use . 
+special hardware sun sparcstation . 
+> 
+> | > 
+> | > meantime may look file 
+> | > . 
+
+> | > located 
+> | > . 
+
+> 
+> 
+> guest username password ftp site ? 
+> 
+use anonymous username e-mail address password . 
+> 
+> | > 
+> | > location ; look archie get nearest 
+> | > 
+> | > hope 'll help . 
+> | > 
+> | > 
+> | > 
+> | > stephan 
+> | > 
+> 
+> 
+> thanks , stephan . 
+> 
+> 
+> josephine 
+stephan . 
+
+stephan amann sig computer graphics , university berne , switzerland 
+
+tel 31 65 46 79 fax 31 65 39 65 
+projects : radiosity , , computer graphics 
+

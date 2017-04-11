@@ -1,0 +1,35 @@
+: . 
+
+subject : re : data segment memory model usage 
+organization : - - > public mailbox , braunschweig , germany 
+lines : 36 
+hello , write : 
+> firstly , windows 3.1 386 enhance mode anything special 
+> dll compile use large memory model ? 
+. 
+> tell even 386 enhance mode windows 
+> load dll real memory . 
+. 
+> second question relate static datum inside dll . 
+
+> way get multiple instance static datum 
+> segment ? 
+? 
+, ... 
+allocate real static datum within code segment ! 
+need dynamic memory allocate datum global heap . 
+forget write memory management . 
+3.1 
+page virtual memory . 
+lock every block without hamper 
+memory manager . 
+use far pointer everytime without always lock 
+unlock memory block . 
+besides : dll 's mostly disguise exe 's , happen call 
+another task . 
+karl . 
+
+. 
+, .50 , salzgitter 1 , 
+tel : fax : ci : bix : 
+## crosspoint v2 .1 ## 

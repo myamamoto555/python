@@ -1,0 +1,87 @@
+: grubb 
+subject : re : ide vs 
+organization : new mexico state university , las cruces , nm 
+lines : 60 
+distribution : world 
+: 
+wayne smith write : 
+> answer original question . 
+multi-user os ? 
+> mention make ether card either . 
+
+> point view , scsi advantage come - 
+> tasking ? 
+datum datum , could anywhere drive . 
+
+> find faster ? 
+get drive computer 
+> faster ? 
+better cache system ? 
+think scsi good 
+> manage datum bus multiple device attach . 
+
+> talk single drive , explain scsi inherently 
+> faster manage datum hard drive . 
+make mistake : confuse drive 
+interface data throughput interface . 
+mac & ibm info 
+sheet available ftp . 
+
+. 
+txt : 
+expansion 
+mac & ibm 
+scsi : external device expansion interface common mac ibm . 
+allow use device : hard drive , printer , scanner , nubus card 
+expansion mac plus , monitor , cd-rom . 
+apple develop 
+specification ibm exact controller 
+specification result add incompatibility ibm machine . 
+main problem : lot external device internal 
+terminate cause problem two devise scsi port 
+chain suppose terminate begining 
+end . 
+set cause problem either mac ibm . 
+: 7 device per controller . 
+8-bit asynchronous ~ 1.5 ave 
+synchronous max transfer base . 
+16-bit require 
+chip provide fast wide 
+16-bit interface see . 
+: 10 device per controller mode . 
+fully 
+tend fast since 
+need different controller interface hardware tend 
+software . 
+transfer speed burst 
+8-bit , burst 16-bit , burst 
+fast . 
+mode limit 7 device 
+reduce 8-bit 16-bit fast throughput due difference 
+wide port . 
+ibm 
+hd interface limit hard drive design lack development : 
+... 
+ide : integrated device electronics 
+currently common standard , mainly use medium size 
+drive . 
+one hard drive . 
+asynchronous transfer : ~ max . 
+lowest setting interface asynchronous mode average 
+put maximum ide asynchronous mode . 
+full mode 
+blow poor ide window , street , garbage . 
+problem become drive keep put 
+rate bottleneck cost come . 
+
+interface drive use 
+put . 
+cost scsi interface self 
+: people buy scsi pc , 
+turn make mass produce scsi would reduce 
+cost , . 
+effect 
+rule scale : item sell less item bare brunt 
+cost manufacture less item cost 
+allow drive put limit drive 
+ide limit put . 

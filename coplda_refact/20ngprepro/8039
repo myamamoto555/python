@@ -1,0 +1,14 @@
+: dr richard b wilkinson 
+subject : 
+organization : joint european torus 
+lines : 8 
+program produce continuous tone call 
+repeatedly interval equal duration bell . 
+
+run display , tone buffer x 
+server tone occurrence program 
+exit . 
+convenient way prevent , e.g. , 
+empty x server bell buffer program exit ? 
+- disclaimer : please note personal view 
+construe official comment jet project . 

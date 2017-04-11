@@ -1,0 +1,61 @@
+: catalin ivan 
+subject : coexistence 
+summary : make ide controller live together ??? 
+keyword : hd , controller , ide , esdi , disk 
+organization : universite de montreal 
+lines : 57 
+hello , 
+, net , last resort , 'll change job : - 
+might faq e.g. mix controller see . 
+sy : , ami bios , mill card 
+
+- ide controller `` clone '' 
+jumper affect hd : - 
+- quantum prodrive lp 3 '' 105m type 47 : , , . 
+pb : want bring 2nd hand , neat price : 
+- maxtor ~ , < , bio type 1 , manage 
+real geom : , , 
+- western digital esdi : floppy . 
+jumper set irq , hw port , 
+bio , stuff 
+goal : wd esdi disk 
+simultaneously work . 
+able boot esdi would 
+nice bonus expect . 
+ultimate goal : room linux et al. . 
+ex scheme mind : boot ide hd floppy mount 
+esdi root . 
+boot esdi , even hd , acceptable . 
+try numerous !! 
+combination avail . 
+work alone , 
+coexist access esdi ide , 
+depend . 
+useful suggestion might : 
+- tell bio setup two guess 2nd hd 
+expect hang 1st . 
+- need driver make work ? 
+- -- '' -- new card ? 
+- buy another controller make hds happy ? 
+ide 
+cheaper ; hard find rather costly . 
+
+rich wouldnt ' try scavenge around , soft sln prefer . 
+- adapter sort ; hold soldering iron , change 
+chip put jumper ! 
+also useful : 
+- bb western digital . 
+- ftp archive relevant info . 
+- expert store toronto , ontario area would miracle ! 
+
+see really knowledgeable ppl 
+- hint inner workings system ... 
+- anything else help similar situation prayer 
+direct post reply ok . 
+many thanks , 
+cat . 
+-- 
+
+catalin ivan - email : - tel 416 
+human-computer interaction 
+universite de montreal - informatique et recherche 

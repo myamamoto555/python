@@ -1,0 +1,70 @@
+: peter hansen < > 
+subject : re : help : 2 internal hd mac ii ? 
+: tue , 6 apr 93 gmt 
+: 
+organization : bnr 
+: v1 d17 
+lines : 54 
+article < > kurt netzer , 
+write : 
+> possible install 2nd '' 100 mb hd mac ii 
+> '' 40 mb hd ? 
+> 50 pin cable 3 connector internal motherboard 
+> 2 connectors . 
+first hd ` nt 
+terminate 
+> second . 
+> power supply . 
+connect '' 
+> supply '' hd ? 
+possible connect another internal hard disk 
+macintosh find space put . 
+come 
+quantum 80 meg drive . 
+run space problem , slap 
+another 40 meg quantum sit shelf . 
+. 
+first , concern space . 
+since drive quantum 
+quarter height drive , finally decide logical place 
+stack one upon . 
+fine , fit snugly . 
+
+problem heat yet , drive run together 
+two month . 
+next problem connect drive . 
+spare internal 
+hard disk power cable , half trouble . 
+
+splice extra cable get one square motherboard 
+connector two hard disk power connector . 
+spare 
+cable , buy wire connector find 
+good electronics store $ 10 . 
+would suggest properly 
+connection reduce possibility 
+shorts bad connection . 
+next , need ribbon cable connection . 
+, spare hard disk 
+ribbon cable , want careful case word 
+purchase crimp 50 pin cable connector give another 
+male connector middle spare cable . 
+part cost $ 10 , 
+easily attach good wood vice . 
+theory behind use 
+crimp connector work , original cable 
+damage , go back original setup . 
+, could bother check dev note 
+power consumption plug work like charm 
+day . 
+mac ii , everything work . 
+careful id 's 
+drive , ensure terminate resistor drive 
+intact . 
+try without terminate resistor 
+seem logical splitting scsi chain , signal 
+terminate end . 
+let know question . 
+peter hansen 
+bell northern research 
+

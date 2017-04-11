@@ -1,0 +1,34 @@
+: tony stewart 
+subject : re : make odd resistor value require filter 
+organization : inquiring mind bbs 1 
+lines : 29 
+ian hawkins write : 
+> construct active filter , odd value resistor often require 
+> i.e. something like 3.14 k ohm resistor . 
+seem best choose common 
+> capacitor value cope strange resistance demand . 
+> 
+> pd program work best make 
+> resistance , give fix resistor standard 12 value per decade ? 
+. 
+1 , 
+> etc . 
+common enough problem , yet cant 
+> recall see program tell rx + ry rz give rq , start 
+> q finding prefer value x , y z. 
+> 
+> 
+> cheers 
+> ian h 
+> 
+try choose resistor tolerance better 1 % , 
+need trimmer screen device , make add 2 
+1 % value parallel , since smaller device 
+error 1 % cope . 
+3 choice ; 
+live error 1 % tolerance device low q circuit low 
+sensitivity design 
+b buy resistor better 1 % tolerance 
+c use trimmer sot 's 
+
+inquiring mind bbs , winnipeg , manitoba 

@@ -1,0 +1,35 @@
+: 
+distribution : world 
+: deepak 
+subject : help develop interface gdb 
+organization : motorola , semiconductor products sector 
+lines : 39 
+hus , 
+try write base interface run top gdb . 
+could 
+anyone help understand way suppose `` fork '' gdb 
+?? 
+currently use pipe try debug program , 
+follow happen : 
+program : 
+main 
+
+int x ; 
+printf `` enter x : '' ; 
+'' % d '' , & x ; 
+printf `` x . 
+% d. \ n '' , x ; 
+
+output : 
+program hang without return output printf statement . 
+type 
+value like 5 , printf 's output come one time . 
+way , besides use pipe i.e. , like something else ?? 
+thanks , 
+deepak 
+
+deepak 
+advanced products research development laboratory 
+motorola , semiconductor products sector 
+austin , tx 
+

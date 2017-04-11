@@ -1,0 +1,41 @@
+: 
+subject : re : need help car stereo ... 
+organization : kernel mode systems , san diego , ca 
+lines : 38 
+article < > , 
+paul write : 
+> friend nice alpine car stereo , 2 channel , 
+> one work . 
+put current voltage 
+> , channel therefore blow ? 
+shut radio 
+> run continuity two speaker ouput channel , charge 
+> discharge know wire aint bad ... 
+probably tell dc block capacitor series 
+, single-ended audio amp speaker terminal . 
+> idea ? 
+open look power amp `` ic '' . 
+'ll fairly obvious . 
+replace one connect dead output . 
+> also , 
+> would locate signal unit 
+> get amplify , could hook rca output signal 
+> could use little amplifier ? 
+well , one thing poke around terminal power amp 
+chip . 
+use probe 10m resistor like scope probe connect 
+input small audio amp . 
+find input 
+chip , one chip bad probably replace pretty easily . 
+want pick signal , suitable feed 
+outboard amp , outer leg volume control pot often good 
+enough . 
+volume control usually tone 
+balance control . 
+take center ground leg 
+volume pot , volume control , probably 
+control . 
+unit modern type electronic volume control chip , 
+probably forget whole thing . 
+-- jamie hanrahan , kernel mode systems , san diego ca 
+internet : uucp : ci : 

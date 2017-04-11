@@ -1,0 +1,17 @@
+: 
+subject : click focus vs. point focus ? 
+organization : at&t 
+lines : 12 
+problem ensure mouse 
+cursor enter window application . 
+use interview , 
+may matter , seem generic problem x. 
+example , use , 
+set , generally work , always , depend 
+go window move cursor one shell 
+tool window another . 
+seem ... 
+question , , within x guarantee - 
+focus within application ? 
+thanks response . 
+dave 

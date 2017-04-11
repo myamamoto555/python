@@ -1,0 +1,38 @@
+: list , idv 
+subject : modal dialog 
+organization : internet 
+lines : 37 
+: 
+: 
+hus , 
+lot problem use library release 3.2 order 
+following : 
++ want create modal dialog block program flow 
+dialog , alum macintosh , notice panel 
+, text item , list item , object . 
++ modal dialog also must allow timer call 
+notice ? 
+. 
+problem : 
+- use `` '' function object dont work 
+list item , timer call . 
+- `` '' explicit problem : 
+'' ... never attempt direct within callback 
+routine ... '' say `` programming manual third edition '' 
+page 486 uhm ... know number !!! 
+: - > . 
+need dispatch inside callback routine ! 
+help , please !!! 
+thanks advance , 
+-- giovanni 
+p.s. please , send replay directly address 
+direct access internet . 
+giovanni 
+list s.p.a. dei facchini , 10 - pisa 
+fax 
+
+email address : 
+beware : address share many user , 
+put word `` : '' start subject 
+field follow real subject . 
+thanks . 

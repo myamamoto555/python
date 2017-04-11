@@ -1,0 +1,25 @@
+: martin preston 
+subject : problem grab block starbase screen . 
+keywords : starbase , hp 
+lines : 26 
+moment try grab portion starbase screen , store 
+area memory . 
+datum need 24-bit format 
+problem app run 24 bit screen , though 
+fussy exact format . 
+actually intend write datum tiff bit 
+problem 
+anyone know grab portion screen ? 
+
+call seem grab screen , 24 bit color , 
+whatever type get 1 byte per pixel . 
+thanks advance , 
+martin 
+-- 
+
+| martin preston , | computer graphics | 
+| computer graphics unit , manchester computing centre , | | 
+| university manchester , | load ball . 
+| 
+| manchester , u.k. , m13 phone : | | 
+

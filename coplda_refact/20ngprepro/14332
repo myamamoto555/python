@@ -1,0 +1,47 @@
+: baden de bari 
+subject : re : pc parallel ! 
+
+organization : system bbs , winnipeg manitoba canada 
+lines : 40 
+alan erickson write : 
+> try bring 8 + bit pc , would like 
+> use routine . 
+without buy io 
+> board make new port , _ _ bring 
+> bit ? 
+lpt seem input , hear 
+> rumor lpt bidirectional line . 
+anybody 
+> know fer sure ? 
+lpt , board 
+> 'll run new ? 
+yes , possible . 
+make 7 stepper controller board , 
+7 digital input , 18 digital output port . 
+one main thing tell whether port 
+bi-directional bus . 
+look chip 
+number . 
+, probably , 
+good read . 
+, ' 245 following : 
+first , find address port , decimal either 888 , 632 . 
+pascal , would `` write port xxx ; '' xxx address 
+either hex decimal . 
+status line , pin 14 , 16 , 17 , well 
+strobe , pin 1 , bi-directional line , read base address +2 , 
+888 , read status , read 890 . 
+also output 
+line fashion datum line . 
+pascal , 
+`` port xxx : value 
+'' . 
+hope help . 
+let know need help . 
+
+inspiration | ___ | 
+come | \ o | 
+| ^ | 
+unknown . 
+| | 
+------------------------------------------------- 

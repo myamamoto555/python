@@ -1,0 +1,69 @@
+: fred j mccall 
+subject : re : leak memory resource 3.1 
+organization : texas instruments inc 
+lines : 65 
+< > daniel mittleman write : 
+> may faq , please direct known answer 
+> get frustrated look help . 
+> run win 3.1 2.2 8 meg memory 
+> 6 meg perm swap file get exceedingly frustrated 
+> application give back system resource close . 
+> aware known problem ; look 
+> suggestion might mitigate . 
+> 1 . 
+software culprit ? 
+win 3.1 , , application ? 
+
+> mode win 3.1 standard , real , enhance better 
+> plug leak ? 
+application . 
+unfortunately , even applet 
+ship seem problem see 
+solitaire , example . 
+> 2 . 
+switch set help plug leak ? 
+none know . 
+application give back 
+resource , lose go forever , pend restart 
+windows . 
+> 3 . 
+people know patch third party software help 
+> ? 
+seem like increase better managing system resource 
+> great market third party memory company like qemm . 
+application free memory lot 
+, bugger piece software 
+. 
+> 4 . 
+run instead leak subside ? 
+
+> hope 2.2 would plug , seem different 
+> 2.0 deal memory resource . 
+. 
+problem application , usually . 
+> 5 . 
+write vb code thing make less 
+> likely code eat resource ? 
+book write one . 
+general , sure free 
+everything ask exit . 
+unfortunately , 
+understand vb internally lose resource , 
+way avoid entirely . 
+> 6 . 
+suggestion know enough ask 
+> specifically ? 
+> thanks help . 
+common problem see 
+> little discussion net probably 
+> would like read answer please publish rather send 
+> email . 
+little discussion ` inevitable ' m manage 
+come os garbage collection something 
+resource pool . 
+-- 
+`` insist perfect safety people ball live 
+real world . '' 
+-- mary shafer , nasa ames dryden 
+
+- speak speak . 

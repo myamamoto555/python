@@ -1,0 +1,17 @@
+subject : re : `` rom accelerate video '' ? 
+: 
+organization : royal institute technology , stockholm , sweden 
+lines : 18 
+< > james wang write : 
+> address mode . 
+command fill slightly faster 
+> since new instruction fetch 2 byte time versus one . 
+even 68000 fetch two byte time . 
+new instruction 68040 fetch 16 byte 
+time instead 4 68030 ; mean 4 
+pixel instead one . 
+cheers , 
+h + 
+-- 
+-- jon w tte , mac hacker deluxe -- 
+article print 100 % recycled electron . 

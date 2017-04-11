@@ -1,0 +1,112 @@
+: david koontz 
+subject : fed troll mutilate law enforcement block ? 
+originator : 
+organization : loral rolm computer systems 
+lines : 121 
+denning : 
+skipjack encryption algorithm 
+f , 80-bit family key common chip 
+n , 30-bit serial number 
+u , 80-bit secret key unlock message encrypt chip 
+e m ; k , encrypted message stream , 
+e e k ; u + n ; f , law enforcement block . 
+session key k , transmit encrypted unit key u. 
+along serial number n encrypt family key f. 
+presumably protocol recover nothing else , differential 
+analysis . 
+postulate , chip logic sit clipper chip 
+communication channel . 
+function spoof chip twofold : 
+1 transmit channel 
+spoof chip xor 30 bit encrypted serial number 
+secondary key variable . 
+render serial number 
+unrecoverable family key 
+2 receive channel 
+spoof chip xor incoming encrypted serial number 
+secondary key variable assume integrity 
+law enforcement block necessary local operation - 
+checksum , sequence control , etc. . 
+net result hide serial number . 
+probable 
+known plaintext pattern use filler block contain n 34 bit 
+use generate u , u1 , u2 correctness law enforcement block 
+determine family key f. whereas , one propose 
+federal agencies deny f , could recover , 
+correctness serial number test examine pad bit 
+n e n ; f . 
+one could selectively alter law enforcement block , 
+mutilation could detect . 
+better approach would mutilate 
+entire law enforcement block . 
+group encryption scheme 
+des presumably skipjack , chance law enforcement block 
+recover lessen . 
+want bet transmission protocol recognize 
+serial number decrypt target search ? 
+digital transmission 
+become widely available , would requirement clipper protocol 
+transmission refuse contain mutilate law enforcement block ? 
+one way avoid notice , would spoof protocol information block 
+contain m , well spoof law enforcement block . 
+goal use secure communication scheme , without redress 
+detection key k interception contain encrypted within law 
+enforcement block . 
+datum stream return original state 
+use clipper chip system require , proper operation . 
+somewhat improbable entire protocol contain within 
+clipper chip , yet likely sequence event test , 
+require valid law enforcement block receive accept 
+decrypt e m ; k ; 
+spoof chip could implement anywhere protocol , include 
+result serial datum stream . 
+exist clipper product could 
+. 
+, high security encryption system right ? 
+super could allow chip use without 
+redress detection use chip , disclosure serial 
+number . 
+security must adequate deny serial number , 
+recoverable means . 
+one see use cut 
+clipper phone , number unit high enough , 
+steal . 
+would mistake part authority , nice 
+point privacy , serial number n associate 
+particular clipper chip lot chip manufacturing 
+distribution process . 
+hopefully list known miss steal 
+clipper serial number n encrypt f , protocol 
+sufficient plaintext super encrypted clipper stream . 
+could make difficult alter temporal 
+spatial relationship clipper stream super encrypted 
+stream . 
+detection encrypted stream could tip use aforementioned 
+scheme . 
+
+could capture valid law enforcement block , use 
+codebook , point valid 
+law enforcement block store library utilize session key matching 
+remainder transmission , could simply lie , yet 
+deliver monitoring hostile force seemingly valid law enforcement 
+block . 
+capture law enforcement block would use authenticator , 
+manually key encryption system . 
+fend would require 
+escalation examine protocol block transmission . 
+m code stream might independently attack base knowledge 
+clipper chip protocol reveal plaintext . 
+could invalidate 
+change temporal spatial relationship clipper m stream 
+actual transmitted stream , control secure key 
+generator synchronize endpoint . 
+useful life time capture law enforcement block might limit 
+base hostile force use target follow transmission 
+interception . 
+would need large number , , hey 
+suppose million thing , right ? 
+add time stamp 
+encrypted law enforcement block probably impractical , want 
+encryption chip real time clock ? 
+
+entire idea law enforcement block invalidate . 

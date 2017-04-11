@@ -1,0 +1,27 @@
+: hans bos 
+subject : save 
+keyword : save , 
+organization : bv 
+lines : 26 
+follow problem server . 
+window obscure pop window 
+save attribute set , window restore . 
+normally , redrawn parent window get expose 
+event , save attribute use pop window 
+obscure window , expose event send . 
+set child window , window correctly 
+update popup window disappear , however application 
+get many expose event see extra redraw . 
+everything work fine . 
+something change obvious ? 
+something wrong ? 
+something popup window also mine ? 
+bug x11 release 5 ? 
+greeting , 
+-- 
+
+hans bos domain : 
+bv uucp : ... ! 
+! 
+
+postbus 88 phone : 

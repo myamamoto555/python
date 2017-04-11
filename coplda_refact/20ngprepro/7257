@@ -1,0 +1,20 @@
+: tristan tarrant 
+subject : paradise vga 
+organization : university sussex 
+lines : 13 
+paradise svga 1mb , chip 1d . 
+doc say 
+display follow mode : color col 
+chip . 
+check board 
+chip . 
+, problem get mode work ! 
+graphics workshop 6.1 claim display 24 bit image dither 
+15 bit color board , work . 
+try 
+write assembler code get mode work find 
+pixel address word 16 bit , lower 8 bit 
+consider happen 800x600 mode , 640x480 mode refuse 
+work i.e. remain text mode . 
+could someone please help . 
+tristan 

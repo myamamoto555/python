@@ -1,0 +1,299 @@
+: mark riordan 
+subject : list large integer arithmetic package 
+organization : michigan state university 
+lines : 285 
+: . 
+
+summary : c function 
+: tin version 1.1 
+file , last update april 1993 . 
+response email request , assemble list 
+arithmetic package hear . 
+c function library , available source form . 
+convenience , place copy 
+. 
+
+available anonymous ftp directory `` '' . 
+however , may current version case . 
+, particular order : 
+mp 
+multiple precision package come unix 
+multiple precision package access via - lmp flag 
+compiler . 
+provide + , - , , , gcd , exponentiation , 
+. 
+come suno , next mach , bbn mach 1000 , 
+probably . 
+see `` man mp '' . 
+object code , course . 
+parus 
+henri cohen , et al. , universite bordeaux , paris , france 
+multiple precision desk calculator library routine . 
+contain optimize assembly code motorola 68020 , 
+code sparc , apparently rather slow 
+generic c version . 
+integer real . 
+vector matrix well scalar . 
+contain number advanced function , ` ve 
+never hear . 
+`` weber 's function '' ? 
+factorization function , primality test , & related stuff . 
+plenty tex documentation . 
+public domain , distribute modify version . 
+available via anonymous ftp . 
+seem 
+mac - version addition : 
+filename : .35 
+arithmetic global fields 
+kevin r. coombes , david r. grant 
+package routine arbitrary precision integer 
+polynomial finite field . 
+include basic + , - , , 
+like gcd . 
+source code c. 
+distribute term gnu public license . 
+include man page tex documentation . 
+filename : 
+arbitrary precision math library 
+lloyd zusman los gatos , ca 
+c package support basic + , - , , . 
+provide radix 
+point i.e. , non-integer . 
+polished . 
+post october 1988 . 
+filename : 
+
+j. vuillemin , inria , france , . 
+distribute digital equipment paris research lab 
+`` portable efficient integer '' package . 
+c code , generic c `` kernel '' , plus assembly `` kernel '' 
+, intel , mips , , pyramid , course vax . 
+probably one better-known package type . 
+implement + , - , , , mod , plus logical operation , , xor . 
+sign unsigned arithmetic available . 
+available via email . 
+receive 5 shell archive . 
+give postal address 
+also receive print documentation france . 
+package include tex documentation . 
+publicly available non-commercial use . 
+remove archive hear rumor prl 
+like distribute . 
+however , 
+distribute part see . 
+lenstra 's package 
+arjen lenstra bellcore 
+portable unsigned integer package write entirely c. 
+include + , - , , , exponentiation , mod , primality testing , 
+, random number generator , . 
+package 
+undocumented ; try add enough 
+comment get . 
+package 
+actually use . 
+work well portable . 
+benchmark , code 
+look clever & lenstra accomplished number theorist . 
+unlike package , one require allocate 
+storage statically -- problem number really huge . 
+arjen place code public domain . 
+filename : 
+.1 
+arjen lenstra , bellcore 
+improve version arjen 's package . 
+one 
+sign arithmetic dynamic allocation turn 
+option . 
+new routine , . 
+`` .1 '' contain 
+minor `` '' `` '' . 
+filename : .1 . 
+c 
+bmp brent 's multiple precision ? 
+r. p. brent 
+1981 vintage fortran code extended precision float & 
+fix point arithmetic . 
+include mathematical 
+function would find fortran run-time library . 
+code acm algorithm , number 524 . 
+obtain , send mail message 
+contain line `` send bmp '' better yet , perhaps 
+start `` help '' . 
+spx 
+kannan & joseph tardo , dec 
+huge prototype public key authentication system 
+base rsa . 
+mention hear 
+spx probably correctly guess contain large 
+integer package want inform large integer 
+package contain indeed dec 's france . 
+get beta test copy spx . 
+use testing , `` may '' expire certain date . 
+know whether expire yet . 
+amp antti 's multiple precision ? 
+antti 
+multiple precision integer package c. include + , - , , , % , 
+pow , mod , mod y , random , , gcd . 
+available non-commercial 
+use . 
+package include `` '' , public key system base 
+diffie-hellman algorithm . 
+normally part well-known `` . 
+'' , 
+remove des part avoid deal 
+cryptographic export law , name result : 
+filename : 
+
+per u wisconsin-madison 
+c + + routine class generic arithmetic , 
+integer rational . 
+formerly available . 
+however , 
+seem disappear . 
+sorry . 
+miracl 
+someone dublin , ireland 
+integer fractional multiple precision package . 
+include factorization , primality testing , encryption . 
+public domain , apparently . 
+available austin 
+code works . 
+see ad byte magazine dr. dobbs . 
+precision 
+dave barrett 
+multiple precision integer package c + , - , , , , rand , 
+mod , pow , log . 
+simple vector support . 
+dynamic allocation memory . 
+free long sell program use . 
+filename : 
+
+prof. yuji kida , rikkyo university , 3 , tokyo 171 , japan 
+
+version basic programming language , 
+. 
+include float point . 
+said keith briggs 
+pretty fast . 
+object , think . 
+
+say : `` best package know 
+fast arithmetic . 
+version optimize 386 machine . 
+include 
+routine , fastest currently know general factoring 
+algorithm . 
+additional file site allow use 
+hard drive factor 80 digit . 
+many number 
+theoretical function include . 
+allow 2500 
+digit precision . '' 
+available via anonymous ftp . 
+edu , 
+. 
+, . 
+
+unknown 
+c-like language allow `` infinite '' precision . 
+nice intrinsic function . 
+report problem 
+change precision fly . 
+see . 
+
+keith briggs 
+turbo pascal 5 source routine 
++ , - , , , , gcd , factoring , rand integer ; also include 
++ , - , , rand rational number . 
+filename : . 
+pa 
+institute fur mathematik 
+dr gerhard schneider ? 
+fast c subroutine library . 
+know anything ; say 
+contact info . 
+postal address : 
+institute fur mathematik 
+29 
+germany 
+
+markus mueller 
+`` multi precision arithmetic write modula-2 , time critical 
+part write assembler . 
+include basic arithmetic + , - , , , % 
+well arithmetic modulo number . 
+additional module provide 
+collection procedure primality testing , gcd , multiplicative 
+inverse . 
+package part privacy enhance mail pem 
+package include pem mailer , rsa key generator certificate 
+generation tool . '' 
+source modula-2 , c , assembler sun 3 . 
+
+also port logitech modula-2 turbo 
+assembler . 
+availability : free university use research 
+education ; otherwise , source license require . 
+obtain , 
+write email : 
+markus mueller 
+7 
+dietikon 
+switzerland 
+email : 
+.2 
+
+package write portable c. future 
+conform common lisp function handle integer . 
+currently include + , - , , , exponentiation , `` '' , 
+comparison , random number , gcd . 
+filename : .2 
+gnu multiple precision 
+gnu free software foundation multiple precision package . 
+look yet . 
+current april 1992 , 
+may recent version time read 
+. 
+package widely available ftp site . 
+filename : .2 . 
+
+elliptic curve primality prove 
+francois , france . 
+large package prove primality prime . 
+include inria 's package . 
+obtain . 
+filename : . 
+
+pgp pretty good privacy 
+philip zimmermann 
+intel-based crypto package include routine c , 
+say quite fast intel processor . 
+unix mac 
+version also available . 
+crypto package violate rsa patent , routine 
+use without fear legal repercussion . 
+bell 's arbitrary precision calculator 
+david i. bell , australia 
+calculator good online help , c-like 
+language , many builtin function , support integer , 
+rational number work like float point , complex number , 
+matrix , string , list , file , `` object '' . 
+include 
+gcd , primality testing , even trig function . 
+recommend . 
+large package , though . 
+obtain . 
+filename : . 
+
+built-in support language 
+various 
+multiple precision arithmetic available number 
+programming language , lisp abc cf. . 
+perl larry wall , available 
+include source , perl , package , probably 
+suitable serious use . 
+, source code may available . 
+list 
+long enough , go pursue aggressively . 
+thanks ed several contribute list . 
+mark riordan 

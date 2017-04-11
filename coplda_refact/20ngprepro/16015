@@ -1,0 +1,22 @@
+: lei shao 
+subject : error building 
+keyword : 
+: 
+: lei shao 
+organization : columbia university 
+lines : 15 
+hus , , 
+try build mit core distribution sparcstation run 
+suno . 
+thing change . 
+
+`` make world '' process go `` cc - o ... '' , get follow error : 
+ld : undefined symbol 
+__ 
+error code 2 
+process continue finish . 
+anybody know wrong ? 
+
+info . 
+lei shao 
+

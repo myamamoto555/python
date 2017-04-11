@@ -1,0 +1,72 @@
+: john haddy 
+subject : re : help timing 
+organization : macquarie university 
+lines : 60 
+distribution : world 
+: 
+article < > , write : 
+| > project droop lap somewhat pain design . 
+| > look stable solid state timer . 
+want 
+| > place thing ice shelf measure amount 
+| > snow fall period six week . 
+every two week , want trip 
+| > discharge different color pellet gas pressure across 
+| > snow . 
+digging snow , snow fall amount measure 
+| > come different color pellet . 
+| > 
+| > problem try build timer would stand cold -40 degree 
+| > power source would drain . 
+look timer 
+| > standard dual timer , thier temp spec go low . 
+also , 
+| > two week equate seconds per firing , mean one big timing 
+| > cap ! 
+find 2.2 farad yes , farad ! 
+cap work voltage 
+| > 5 volt small size . 
+, time discharge -40 lower 
+| > degree linear . 
+think use several timer chained together 
+| > fire end timing period , blast cold 
+| > drain battery six week pain . 
+one possibility would 
+| > use solar panel , six month twilight . 
+anyone 
+| > good idea ? 
+| > 
+| > thanks advance ... 
+| > 
+| > - - - - 
+firstly , would never consider try make one-shot timer . 
+cap 
+design ram battery substitute , rather use 
+application wish drain cap constant current . 
+
+performance , respects , akin battery normal cap . 
+point big electro 's usually rate -5 % +20 % tolerance , 
+calculate exactly capacitance particularly consider 
+cold . 
+look design micropower oscillator divider chain , 
+`` roll '' zero maximum count , vice-versa every 
+seconds . 
+use something like clock , would 
+need divider chain 2 ^ 27 , give error less one percent 
+firing time six week period . 
+course , could trim 
+oscillator give exact time , oscillator 
+remain exactly constant -40 low anyway . 
+would suspect would far drain firing 
+solenoid would timer circuit . 
+caveat - experience low temperature electronics , 
+guarantee approach best inhospitable 
+condition . 
+
+
+| _ | _ _ | _ | _ _ | _ | electronics department 
+| _ | _ | | | | | | _ | _ | _ | \ school 
+--------------------------------- - macquarie university 
+sydney , australia 2109 
+email : ph : 2 805 , fax : 2 805 
+

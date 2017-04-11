@@ -1,0 +1,15 @@
+: oliver jones 
+subject : re : question found faq 
+organization : shawsheen software 
+lines : 11 
+article < > write : 
+> create window , use function 
+> draw clip line ... 300 
+... 
+> create window size . 
+> draw line p1 x1 270 , y1 100 p2 x2 500 , y2 800 . 
+> question , dose function finger correct 
+> p3 x3 y3 ? 
+calculate x3 y3 . 
+ask , `` x server perform clipping 
+correctly draw line , '' answer `` yes . '' 

@@ -1,0 +1,33 @@
+: graham toal < > 
+subject : re : let 's build software internet ... 
+originator : 
+: 
+: graham toal < > 
+organization : anonymous 
+lines : 21 
+article < > hal finney write : 
+: try code yesterday . 
+sparcstation elc take 
+seconds compress 22 seconds ' worth speech . 
+mean 
+: need `` optimize '' factor 10 usable 
+: even half-duplex mode . 
+ouch ! 
+thanks try . 
+: question whether celp best approach application . 
+produce 
+: great compression expense tremendous cpu load . 
+want 
+: something run ordinary workstation even high-end pc 's 
+: without dsp card . 
+guess algorithm go 
+: better starting point . 
+yes . 
+sure make , 
+find low sample rate 3300 8 bit per sample 
+plus pd ` shorten ' lossless sound compression code actually get 
+speech 14.4 k leave . 
+definitely worth 
+work , folk . 
+shorten work well real-time . 
+g 

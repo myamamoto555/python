@@ -1,0 +1,35 @@
+: cyberman 
+subject : re : analog 
+lines : 31 
+: 1.00 r 
+michael fulbright say 
+`` analog '' 
+
+mf > try build synchronous demodulator hit snag . 
+mf > application want able change gain 
+mf > op amp amplifier 1 -1 , via digital input . 
+mf > obvious way come use analog switch 
+mf > adjust gain op amp . 
+analog switch 
+mf > experience . 
+unfortunately want switch 
+mf > ac signal go -5 v 5v , 
+mf > positive signal . 
+use seperate ground 
+analog output . 
+would get 3 bit . 
+mf > another part catch eye analog devices . 
+
+mf > balanced demodulator appear fill exactly need 
+mf > . 
+datum sheet somewhat skimpy application note . 
+could 
+mf > someone comment use chip follow application ? 
+multiply ? 
+
+. 
+stephen 
+mangled fri 
+... catch blue wave ! 
+-- 
+blue v2 .12 

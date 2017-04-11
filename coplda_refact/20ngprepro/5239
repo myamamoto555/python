@@ -1,0 +1,41 @@
+: earl 
+subject : remove distortion bitmapped drawings ? 
+organization : 
+lines : 47 
+let 's say scan image line drawing ; case 
+boat , could anything . 
+draw set 
+reference point whose true x , y position know . 
+digitize drawing manually case , use yaron 
+danon 's excellent digitize program . 
+, use program 
+convert cursor position x , y save value click 
+mouse . 
+upon digitize notice reference point value come 
+digitize process differ small significant way 
+known true value . 
+understandable 
+scan drawing reproduction original 
+successive source distortion differential expansion 
+contraction paper , error introduce printing process , 
+scanner error . 
+error uniform entire drawing , `` global '' 
+adjustment uniformly x y , 
+rotate whole drawing , satisfactory . 
+question : kind soul know algorithm 
+remove distortion ? 
+particular , three set 
+point 
+reference x , y know true value 
+x , y point , known error 
+x , y point , unknown error 
+function reference distorted could apply 
+remove error . 
+suspect problem could solve treat distorted 
+reference point result projection `` bumpy '' 3d 
+surface , solve surface `` flatten '' remove 
+error datum point . 
+kind inform soul idea , better yet , 
+pointer treatment similar problem ? 
+thanks , 
+earl 

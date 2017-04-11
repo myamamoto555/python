@@ -1,0 +1,33 @@
+: carol 
+subject : re : windows 3.1 keep crash : please help 
+: ohsu 
+organization : oregon health sciences university 
+lines : 23 
+: 
+article < > write : 
+> 
+> 
+article < > eric bosco write : 
+> : eric bosco 
+> subject : windows 3.1 keep crash : please help 
+> date : fri , 16 apr 1993 gmt 
+> 
+> subject say , windows 3.1 keep crash gpf 
+> late . 
+never stable package , seem crash every 
+> day . 
+worst part crash consistently : ie 
+> 
+> way turn ram parity checking unfortunately , 
+> good windows reference home , standard win reference 
+> tell . 
+, email back . 
+weird memory 
+> may produce phony parity error . 
+danger , turn , 
+> run slight risk datum corruption due miss real error . 
+problem , ` work around ' turn parity checking , 
+work window , parity error would occur immediately exit 
+window , however , problem turn 3 chip simm vs 9 chip simm . 
+use 3 chip simm 
+computer , replace , problem vanish , forever . 

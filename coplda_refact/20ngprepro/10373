@@ -1,0 +1,40 @@
+: jim 
+subject : 
+summary : clipping character 's high order bit 
+: . 
+
+organization : 3m health information systems , wallingford ct 
+lines : 38 
+problem high order bit character 
+clip enter window motif . 
+reprogram 
+f1 key transmit character sequence use 
+follow line . 
+: 
+~ ctrl ~ shift ~ alt f1 : string string \ n \ 
+merge line - merge create new 
+remap f1 key . 
+problem arise 
+application recieve input time see < 7f > < 3e > 
+sequence , high order bit 
+character filter ignore . 
+run press f1 key , get correct value show 
+follow two key event : 
+keypress event , serial 14 , synthetic , window , 
+root , , time , , root , 
+state , 16 , f1 , yes , 
+give 0 character : '' '' 
+event , serial 16 , synthetic , window , 
+root , , time , , root , 
+state , 16 , f1 , yes , 
+give 0 character : '' '' 
+notice transmit correct ; . 
+use f1 key vi program write 
+spit back hex value keyboard input , get < 7f > < 3e > . 
+anyone know high order bit filter 
+make sure entire make 
+final application ? 
+help greatly appreciate . 
+please email response . 
+jim 
+

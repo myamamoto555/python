@@ -1,0 +1,25 @@
+: martin john gregory 
+subject : help : real time clock standby mode 
+organization : pax - public access unix adelaide 
+lines : 24 
+: 
+trouble obtain specify standby current drain 
+real time clock . 
+anyone experience 
+? 
+spec call sequence meet 
+standby mode activate , bit hard decipher , 
+think work . 
+however , crystal 
+lowest current drain acheive 3.7 v vcc . 
+
+three time specify maximum condition attempt 
+create . 
+follow thing : 
+1 make sure reset assert powerup , 
+low time . 
+2 make sure cycle negation rd 
+wr assert . 
+wrong ? 
+thanks much , 
+martin . 

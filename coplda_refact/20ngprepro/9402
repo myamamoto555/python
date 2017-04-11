@@ -1,0 +1,124 @@
+: greg earle 
+subject : re : & , sparcstation 10 keyboard 
+organization : personal usenet site , tujunga , ca usa 
+lines : 89 
+distribution : world 
+: 
+article < > david barr write : 
+> article < > write : 
+environment : sun sparc 10 , sunos . 
+patch level 23 . 
+x 
+process start . 
+> 
+> okay , good . 
+typing exactly setup . 
+> layout keyboard install patch , though . 
+... 
+ii open sparc 10 , key recognize 
+key keyboard send correct character . 
+> 
+> install patch ? 
+directory export . 
+> key keyboard send event properly , except following : 
+> end , , cluster recognize . 
+> even compose key work . 
+though seem get compose 
+> character get pass . 
+> 
+> anyone fix last two ? 
+know anything `` '' patch , use follow 
+. 
+file run . 
+via `` $ home . 
+'' , course 
+unix keyboard : bit `` brute force '' , however . 
+
+! 
+! 
+sun unix keyboard remapping 
+! 
+! 
+remap arrow key properly 
+! 
+! 
+default , arrow key keypad , leave , 
+! 
+right , work , arrow key 
+! 
+assign 
+! 
+27 
+31 leave 
+34 
+35 right 
+! 
+! 
+want back space key emit `` delete '' 
+! 
+50 delete 
+! 
+! 
+random mapping default 
+! 
+! 
+screen key 
+29 print 
+! 
+key 
+28 break pause 
+! 
+alt graph key 
+20 
+! 
+key 
+103 prior 
+! 
+key 
+130 next 
+! 
+insert key 
+51 insert 
+! 
+! 
+home , end key ??? 
+! 
+! 
+open look function 
+! 
+! 
+stop key cancel 
+8 
+! 
+key redo 
+10 
+! 
+prop key 
+32 
+! 
+undo key undo 
+33 
+! 
+front key 
+56 
+! 
+copy key 
+58 
+! 
+open key 
+79 
+! 
+paste key 
+80 
+! 
+find key find 
+102 
+! 
+cut key 
+104 
+-- 
+- greg earle 
+phone : fax : 
+internet : 
+uucp : a.k.a. ... ! 
+

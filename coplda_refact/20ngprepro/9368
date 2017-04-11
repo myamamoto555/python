@@ -1,0 +1,82 @@
+: george 
+subject : re : pc network traffic 
+organization : - cssc 
+lines : 71 
+distribution : world 
+: 
+: . 
+
+article technical support write : 
+> article < > write : 
+> 
+sort traffic generate ? 
+curious find 
+require bandwidth link must one machine run 
+support multiple user client require adequate response 
+time . 
+anyone idea ?? 
+> 
+> expect limit factor server machine , network 
+> . 
+give real-world example , quarterdeck 
+> roughly 100 people use dvx talk bunch unix box , novell 
+> file server , . 
+_ _ much load 
+> ethernet maybe 4 concentrator , 20-30 people 
+> segment . 
+badly loaded net , app want run 
+> network intensive , could run slowdown . 
+> 
+> biggest problem would machine . 
+say 486 
+> 33 plenty ram fast hard disk network card . 
+
+> 10 people run program , go see slowdown 
+> effectively 3.3 mhz 486 . 
+course , dvx 
+> attempt see task idle make sure give time 
+> slice , 10 work program run , 'll know . 
+> 
+well buy bigger powerful server machine 
+significant drop price year year . 
+link want use 
+though isdn 64k costly bandwidth limit . 
+
+interest lie see link use see traffic 
+go . 
+> say , tweak program run add 
+> call give time slice idle sort 
+> thing , could probably run 15-20 people give machine 
+> start see slowdown time network bandwidth . 
+hmmm . 
+anyone center monitor traffic ? 
+
+run standard program like word ? 
+sort 
+packet go blaze ? 
+size link 2mb 10mb ? 
+. 
+average traffic flow go network 
+high peak many low point ? 
+> really depend program ie . 
+go 
+> see slowdown lot sooner app 
+> network thing also ... 
+> -- 
+mean network thing ? 
+vision use m windows 
+windows application network process run 
+server get display . 
+wonder 
+good x subsequently protocol transfer 
+image display client 's machine . 
+> quarterdeck office systems - internet support - tom 
+> : | tech questions : 
+> bb : fax : compuserve : go quarterdeck 
+> : touch-tone phone demand ! 
+-- 
+__ __ george --------------------- pan metron ariston ---------- __ __ 
+__ __ telecom lane __ __ 
+__ __ sydney south -- fax 02 911 3 199 ---------------- __ __ 
+__ __ nsw , 2000 , australia . 
+------- voice 02 911 3 121 ---------------- __ __ 

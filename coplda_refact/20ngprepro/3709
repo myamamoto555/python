@@ -1,0 +1,14 @@
+: nils engstrom 
+subject : help : event propagation 
+organization : department scientific computing , uppsala university 
+lines : 19 
+follow problem really bug , 
+would appreciate help . 
+create two window : 
+w1 child root | ; 
+w2 child w1 | ; 
+keypress event w2 discard , event fall 
+w1 , set w2 . 
+fyi , use . 
+something fundamentally wrong ? 
+n 

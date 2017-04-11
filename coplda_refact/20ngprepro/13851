@@ -1,0 +1,39 @@
+subject : re : virtual reality x cheap ! 
+: tim potter 
+distribution : inet 
+organization : university college northern victoria bendigo 
+: 
+: tin 1.1 
+lines : 27 
+peter k. campbell write : 
+: brian s. ridout write : 
+: 
+: > article < > , steve sherwood write : 
+: > | > anyone get multiverse work ? 
+: > | > , ! 
+
+: 
+: try compile several sparcstation gcc 2.22 . 
+
+: fix bug 3 miss constant definition plus couple 
+: thing get compile & link , start client 
+: & server get black window ; sometimes client core dump , 
+: sometimes server , sometimes get broken pipe , sometimes 
+: sit nothing although occassionally get 
+: cursor become , . 
+` ve 
+: send word author plus fix last week , 
+: reply yet . 
+: 
+: peter k. campbell 
+: 
+discover bug . 
+c function generate segmentation fault . 
+appear gete corrupted somehow . 
+return random color instead everything work great except color problem know thing wrong . 
+color table somehow get couple null place `` name '' color compare crash . 
+find problem yet maybe someone else . 
+-- 
+adrian turner 
+university college northern victoria 
+

@@ -1,0 +1,17 @@
+: oliver jones 
+subject : re : xlib timeout ? 
+keyword : xlib timeout 
+organization : shawsheen software 
+lines : 12 
+article < > dave wilson write : 
+> process modify x application use xlib . 
+would 
+> like include facility network polling 
+sort thing xt main loop . 
+, rig timer queue , put 
+select 2 poll 2 call main loop . 
+obtain 
+file descriptor x display connection use 
+fd display ; 
+functionality main loop dispatcher xt quite useful . 
+good news , get source plagiarize ! 

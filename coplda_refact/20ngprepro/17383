@@ -1,0 +1,38 @@
+: sriram 
+subject : re : animation ? 
+organization : communications , inc 
+lines : 28 
+article < > , derek c. richardson write : 
+| > hus , new group please bear ! 
+| > 
+| > two year ago write application fast animation 
+| > raster file . 
+become rapidly , ` ve 
+| > finally decide rewrite everything scratch . 
+| > put together quick test , find 
+| > considerably slower factor 2 average ? 
+
+| > command move image datum memory 
+| > canvas . 
+sparc ipx . 
+seem : 
+| > 1 x protocol communication slow thing ; 
+| > 2 inefficient ... ! 
+question , 
+| > fastest way dump 8 plane image datum 
+| > window ? 
+take advantage fact client 
+| > run machine server ? 
+stick 
+| > case might well give ... ? 
+| > 
+| > help appreciate ... thanks ! 
+| > 
+| > derek 
+| > 
+fastest way use x server shared memory extension . 
+use 
+share memory local x server hence image duplicated , 
+default regular image routine either shared mem extension 
+available , localhost . 
+sriram 

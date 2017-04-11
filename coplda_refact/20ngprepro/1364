@@ -1,0 +1,45 @@
+: chris murphy 
+subject : re : need : plot package ... 
+: . 
+com 
+organization : alta analytics 
+lines : 38 
+article < > , glen fullmer write : 
+| > look package box 
+| > take file record like : 
+| > 
+| > n b p 
+| > 
+| > n count - integer 
+| > entity - string 
+| > b entity b - string 
+| > p type - string 
+| > 
+| > produce networked graph node represent box circle 
+| > vertex represent line width line determine 
+| > n. would different line type type . 
+box 
+| > need identify entity 's name . 
+number entity < 1000 
+| > vertex < 100000 . 
+would nice tool minimize line 
+| > cross-over good job layout . 
+; - 
+| > 
+| > look faq without success . 
+
+| > idea would appreciate ? 
+| > 
+| > thanks , 
+| > -- 
+| > glen fullmer , 
+| > 
+hus , 
+see roger 's response : 
+re : help network visualization 
+. 
+amongst thing , exactly ! 
+-- 
+chris murphy - 
+columbus . 
+oh . 

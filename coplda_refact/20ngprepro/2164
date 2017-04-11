@@ -1,0 +1,34 @@
+: steven collins 
+subject : sphere 4 point 
+organization : central research lab . 
+hitachi , ltd. . 
+lines : 24 
+: 
+> 
+> another method first find center circle define 2 set 
+> 3 point , intersect normal . 
+would also define 
+> circle center . 
+however , small numerical imprecision would make 
+> line intersect . 
+supposedly 3 plane intersect unique 
+> point parallel . 
+> 
+think , project 2 line onto 2d 
+plane form line . 
+intersection calculation plane 
+2d , guarantee unique solution unless parallel 
+happen case , use parametric distance along line 
+circle centre determine exact point interest . 
+
+bypass messy error require calculation 3d . 
+hope put foot ! 
+steve 
+-- 
+-- 
++ --------------------------------------- + -------------------------------- + 
+| steven collins | email : | 
+| visit computer graphics researcher | phone : -23 | 
+| hitachi central research lab . 
+tokyo . 
+| fax : -27 | 

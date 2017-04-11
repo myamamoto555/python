@@ -1,0 +1,39 @@
+: torgeir 
+subject : virtual sound 
+keyword : virtual sound , surround sound 
+organization : norway 
+lines : 31 
+look algorithm article virtual sound . 
+want 
+follow ; 
+fast source , eg . 
+cdrom , several sound source read , 
+define position attribute , eg . 
+direction etc. . 
+give 
+listener position direction , sum sound play back 
+listener earphone function position direction . 
+
+means simulation ear color sound relative 
+incoming direction sound source . 
+think 
+possible lookup table impulse response several angle 
+relative ear , interpolate impulse function give 
+angle . 
+impulse function could sound 
+source . 
+impulse function must change every time sound source 
+change position listener change orientation . 
+additionally 
+reflection , diffusion due environment wich define 
+could simulated , require sort sound 
+simulation , kinda like radiosity algorithm . 
+someone write article implement system ? 
+please post mail answer comment . 
+-- 
+torgeir 
+study university bergen 
+'' ... gona wave freak flag high ! '' 
+jimi hendrix 
+'' ... would okay day ! '' 
+police 

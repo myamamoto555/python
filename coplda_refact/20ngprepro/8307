@@ -1,0 +1,49 @@
+: richard gooch 
+subject : re : animation ? 
+organization : csiro division telescope national facility 
+lines : 41 
+article < > , paul martz write : 
+> article < > , derek c. richardson write : 
+> > hus , new group please bear ! 
+> > 
+> > two year ago write application fast animation 
+> > raster file . 
+become rapidly , ` ve 
+> > finally decide rewrite everything scratch . 
+> > put together quick test , find 
+> > considerably slower factor 2 average ? 
+
+> > command move image datum memory 
+> > canvas . 
+sparc ipx . 
+seem : 
+> > 1 x protocol communication slow thing ; 
+> > 2 inefficient ... ! 
+> 
+> use , source maintain client 
+> destination maintain server , thus incur overhead 
+> transport whatever client-server communication 
+> mechanism use . 
+> 
+> possible maintain source image ? 
+> maintain server , copy window 
+> much cheaper . 
+> 
+> also make sure send unnecessary , run 
+> mode . 
+need speed , client run host x server , 
+use shared memory extension sample x server . 
+tell server extension . 
+certainly 
+available sample mit x server run suno . 
+word warning : make sure kernel configure support shared 
+memory . 
+another word warning : slower mit 
+server . 
+write imaging tool use gui , way 
+yield 10 frame per second 512 512 8 bit image , run sparc 
+ipc half cpu grunt ipx . 
+prove quite sufficient 
+animation . 
+regards , 
+richard gooch ... 

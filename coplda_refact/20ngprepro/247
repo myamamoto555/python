@@ -1,0 +1,38 @@
+organization : penn state university 
+: < > 
+subject : re : 80386 80486 : difference ? 
+lines : 34 
+article < > , lars say : 
+> 
+> except clock frequency , difference 
+> various type 386 486 processor ? 
+> follow list know perhaps 
+> think know ! 
+. 
+anybody extend & correct ? 
+> 
+> 
+> 80386 : true 32 bit processor . 
+> cache ? 
+cache , also call . 
+> : emulate 80386 16 bit bus . 
+internal 386 , real 32-bit processor , 
+16 bit hookup outside world . 
+> 80486 : true 32 bit processor . 
+> internal mathematical coprocessor correct ? 
+yes , optimize 387 internal . 
+> internal cache correct ? 
+big ? 
+yes , 8k . 
+> extend instruction set way ? 
+yes , instruction , nothing noteworthy . 
+> : probably sorta like 80486 ... 
+486 coprocessor . 
+> : probably sorta like 80386 ... 
+nope . 
+another name 486 . 
+
+frank - - 
+computer useless ; give answer . 
+
+`` raise tax middle class pay program '' - 

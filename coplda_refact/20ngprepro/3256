@@ -1,0 +1,50 @@
+: gordon lang 
+subject : re : adaptec problem 
+organization : ford motor company research laboratory 
+lines : 40 
+: . 
+
+: tin 1.1 
+write : 
+: 
+: okay , configuration : 
+: 
+: gateway micronics isa 
+: ram 
+: ide hd drive c : 
+: ide hd drive d : 
+: adaptec scsi controller , scsi bios enable 
+: seagate scsi drive 
+: 
+: , boot get adaptec bios message , say 
+: something like : 
+: 
+: `` drive c : install '' 
+: `` drive d : install '' 
+: `` adaptec scsi bios install ! '' 
+: 
+: get seagate drive . 
+: 
+: go setup , remove entry drive d : , boom , 
+: access seagate . 
+way get two ide drive seagate 
+: time ? 
+. 
+sy , hang system . 
+: 
+: brian 
+: 
+simple answer . 
+memory serve bio 
+work first second drive . 
+`` built-in '' drive e.g. ide 
+install first bio run try install 
+next drive . 
+already two drive , . 
+solution simple : use device driver disable 
+bio useless case . 
+work like champ ! 
+
+see similar situation . 
+good luck 
+gordon lang 

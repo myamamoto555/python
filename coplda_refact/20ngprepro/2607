@@ -1,0 +1,32 @@
+: gopal venkatraman 
+subject : question regard overlaying graphic 
+: flop .1 
+distribution : world 
+organization : computer science department , oregon state university 
+lines : 32 
+: 
+hello ... 
+wonder one suggest answer follow question : 
+total x novice would appreciate suggestion may . 
+try create simple drawing tool ... 
+__________ 
+| | 
+| ___ | ___ 
+| _____ | __ | | 
+| | 
+| _____ | 
+let 's say two rectangle canvas see 
+one intersect ... 
+, would like delete one rectangle . 
+way create another gc wherein use 
+logical function simply redraw rectangle use newly 
+create graphic context thus delete apparent purpose . 
+problem approach point intersection pixel 
+location belong rectangle also become white , 
+something avoid . 
+way avoid problem without redraw 
+rectangle ? 
+also would like generate expose event affected area 
+degrade performance badly ... 
+thank ... 
+gopal 

@@ -1,0 +1,35 @@
+: john d wilson 
+subject : re : need rule 2 floppy twisted cable installation 
+organization : comp . 
+sci . 
+dept. , strathclyde univ. , glasgow , scotland . 
+lines : 26 
+: . 
+
+article < > timothy fredrick write : 
+> 
+> look information install 5.25 '' floppy drive 
+> : , 3.25 '' floppy drive b : , twisted cable twist 
+> two floppy connector , controller . 
+example , 
+> drive drive select 1 ? 
+depend fdc generally . 
+drive end twist 
+set drive 0 
+> terminate resistor pack 5.25 '' floppy ? 
+> connector go drive ? 
+since use 5.25 drive : end 
+twist resistor pack fit . 
+> connector always correspond floppy 
+> drive ? 
+yes 
+> stuff delete 
+hope help . 
+exactly problem . 
+unfortunately 
+change different machine problem start 
+different fdc . 
+seem flame , mainly guess work 
+experience fdc 's different thing 
+select . 
+john . 

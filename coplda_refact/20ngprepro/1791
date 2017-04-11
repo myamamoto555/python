@@ -1,0 +1,62 @@
+: rouben 
+subject : re : sunrise sunset time 
+organization : university maryland , baltimore county campus 
+lines : 60 
+: . 
+
+article < > joseph write : 
+> 
+> hello . 
+look program algorithm use 
+> compute sunrise sunset time . 
+computation long time ago compute length 
+daylight . 
+able convert information 
+sunrise sunset time . 
+-- 
+rouben telephone : 
+department mathematics statistics e-mail : 
+university maryland baltimore county bitnet : 
+baltimore , md , usa internet : 
+
+definition : 
+z tilt axis planet away normal 
+orbital plane . 
+case earth z 23.5 degree , think . 
+recall exact value . 
+case uranus , z almost 
+90 degree . 
+u latitude location length day measure . 
+paris 45 degree . 
+north pole 90 . 
+angular position planet around sun . 
+go 
+0 360 degree , planet make full circle around sun . 
+spring equinox occur 0 . 
+l daylight fraction duration daylight duration full day . 
+equator u 0 l always . 
+near north pole u 90 degree 
+l sometimes one sometimes zero , depend time year . 
+computation : 
+define auxiliary angle p q : 
+sin p sin sin z 
+cos q h tan u tan p , 0 < q < 180 degree 
+conclusion : 
+l q 180 q measure degree 
+l q pi q measure radian 
+wait ! 
+h ? 
+cutoff function h define follow : 
+h | | < 1 
+1 > 1 
+-1 < 1 
+interesting exercise , plot l versus a. graph show 
+length daylight vary time year . 
+experiment various choice latitudes tilt angle . 
+compare behavior function location 
+arctic circle . 
+-- 
+rouben telephone : 
+department mathematics statistics e-mail : 
+university maryland baltimore county bitnet : 
+baltimore , md , usa internet : 

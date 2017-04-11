@@ -1,0 +1,26 @@
+: james b. 
+subject : re : jumper setting ethernet card 
+: nntp 
+keywords : ub 
+lines : 14 
+: . 
+
+: 
+organization : ftp software , inc. , north andover , massachusetts 
+distribution : na 
+article < > dave platt write : 
+irq jumper pretty straightforward , 
+grok setting also label a15 a18 . 
+could somebody tell setting four jumper correspond 
+address ? 
+also oem ibm ethernet card 
+know use address . 
+interrupt share 
+memory . 
+jumper see control bit 15-18 base address 
+share memory . 
+recall 1 0 , easy 
+determine debug . 
+james b. 2 high st. , north andover , ma 
+ftp software inc. . 
+voice : fax : 

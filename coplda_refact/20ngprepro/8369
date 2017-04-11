@@ -1,0 +1,23 @@
+: prof. dr. klaus 
+subject : des : init vector additional key ? 
+keyword : des , cbc , cfb , key search 
+: . 
+de 
+organization : johannes gutenberg mainz 
+lines : 15 
+recent discussion news group suggest key search attack 
+des quite feasible . 
+normally des apply cbc cfb 
+mode one choose random init vector 8 byte . 
+question : 
+- make sense handle init vector additional key ? 
+
+56 + 64 120 bit key . 
+- yes : anything known security key scheme ? 
+
+break faster exhaustive search 120 bit key space ? 
+-- 
+klaus 
+institut fuer medizinische statistik und 
+der 
+obere strasse 69 , mainz , germany 

@@ -1,0 +1,29 @@
+: glenn sullivan 
+subject : re : need help video detection circuit 
+summary : build cheap video detector 
+organization : arizona state university 
+lines : 19 
+steve verity write : 
+> try build circuit detect presence video v. 
+> blank screen monitor r , g , b output graphic 
+> card . 
+able detect presence single pixel 
+> 65 mhz , would mean detect 15 n pulse . 
+also 
+> able tell difference blank screen 300 mv 
+> dim screen say , around 310 mv . 
+oh yes , also need 
+> cheap . 
+... ... ... 
+> fact difference completely black completely white 
+> 650 mv . 
+wonder go amplify 
+> video signal make work . 
+try differential amplifier . 
+put back-to-back diode collector 
+restrict voltage swing . 
+10 ma flow , 500 ohm collector r , 
+keep stray c 10 pf . 
+try . 
+run collector logic . 
+allen sullivan 

@@ -1,0 +1,39 @@
+: lucas adamski 
+subject : re : fast polygon routine need 
+keyword : polygon , need 
+organization : university illinois urbana-champaign 
+lines : 19 
+article < > ian d write : 
+> kind polygon ? 
+shade ? 
+? 
+hm ? 
+come play 
+> fast routine `` polygon '' . 
+would nice know 
+> system vga start , processor ? 
+specifics 
+> implementation . 
+need give info want get answer ! 
+: p 
+want texture map , cause would ask . 
+
+simple fast routine fill polygon . 
+processor , would 
+minimum 286 ... maybe 386 find good one 286 . 
+ideally , want function clip user-defined viewport , 
+write arbitrary location memory . 
+course chance 
+find something like pretty remote , guess would need source 
+. 
+oh , guess would need asm otherwise would 
+slow . 
+see polygon routine c , 
+slow . 
+3d vector graphic program . 
+hunting high low 
+function asm , find one anywhere use . 
+find one two function , asm pretty bad , 
+even try rewrite . 
+: 
+lucas . 

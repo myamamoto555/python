@@ -1,0 +1,35 @@
+: rod nussbaumer 
+subject : re : multiple input pc 
+organization : triumf : meson facility 
+lines : 24 
+distribution : world 
+: 
+: 1.41 
+article < > , < > write ... 
+> anyone offer suggestion problem ? 
+> several board whose sole purpose decode dtmf tone send 
+> resultant ascii pc . 
+board run serial interface . 
+> need run board simultaneously . 
+need able ho 
+> ok pc > problem , hook 8 + serial device one 
+> pc , send datum close ? 
+> help would greatly appreciate ! 
+> singla 
+modify design dtmf decoder , ideal 
+would system , like rs-485 . 
+rs-485 board available 
+pc 's , probably cheaper bunch rs-232 channel , rs-485 
+cheaper build onto satellite module , use single supply 
+dip driver chip . 
+software pc end would similarly complex 
+either rs-232 rs-485 , opinion . 
+higher datum rate possible 
+rs-485 would permit datum transmission . 
+hope help . 
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+rod nussbaumer , bitnet : 
+triumf -- university british columbia , internet : 
+vancouver , bc , canada . 
+phone : ext 510 
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 

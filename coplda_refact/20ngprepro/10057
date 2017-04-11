@@ -1,0 +1,41 @@
+: sean n. welch 
+subject : re : trouble compile 
+organization : experimental computing facility , u.c. berkeley 
+lines : 35 
+: 
+article < > bernhard schneck write : 
+> francisco j. ballesteros write : 
+> 
+> problem occur initial `` make world '' . 
+
+> get compile standard x client , seem find 
+> library . 
+right highly suspect program `` ld '' 
+> update . 
+> 
+> 
+yip , problem ; fix find link static 
+client , btw , use cc . 
+. 
+> 
+> use suno ld . 
+read fix 9 , 10 , 11 mit distribution . 
+known 
+problem - apply fix set yes 
+. 
+cf 3 . 
+: 
+| run suno apply sun 's ld patch , 
+| need edit add line 
+| section : 
+| 
+| yes 
+: 
+| run suno 4.1.2 , change . 
+cf 
+| value 2 . 
+: 
+| brief note patch fix : 
+| 
+| config : make suno 4.1.2 fail unless tree previously build 
+sean welch 

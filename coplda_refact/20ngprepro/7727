@@ -1,0 +1,57 @@
+: ralph brendler 
+subject : re : use microsoft foundation class borland c + + 3.1 
+organization : spss , inc. . 
+distribution : usa 
+lines : 53 
+article < > , m. write : 
+> hus , 
+> 
+> anybody try compile directory , 
+> compile bwc ? 
+> 
+> seem , bwc able distinguish pointer overload 
+> function . 
+> example , imagine follow 2 overload function : 
+> void void 
+> void int 
+> 
+> try whole day , think , bwc impossible take 
+> adress one two function assign properly define 
+> function pointer . 
+> right ? 
+anybody else problem ? 
+> 
+> 
+think may chase wrong problem . 
+think 
+function overloading -- sort thing time 
+bc + + without hitch . 
+big problem encounter 
+port mfc bc + + fact mfc _ depend _ couple 
+invalid c + + assumption . 
+never get _ entire _ app run bc + + , 
+reason m make bad assumption order 
+object initialize i.e. object 
+get access initialize . 
+problem 
+menu code somewhere -- comment section , 
+piece work fine . 
+two major gotcha find use mfc bc + + : 
+- : : enum use hard-coded number open mode , 
+rather manifest constant define differ 
+msc bc . 
+- mfc collection class depend another bad c + + 
+assumption -- reference base object use place 
+reference derive object true pointer , 
+reference . 
+sure problem along line , 
+encounter yet . 
+see mfc 2.0 yet , hope 
+address . 
+, m 's 
+hype portability vendor 's compiler . 
+-- 
+employer 's opinion , would post . 
+
+`` whoever say nothing last forever obviously # r. brendler 
+cubs fan ... '' - mike royko # spss , inc. - chicago il 

@@ -1,0 +1,52 @@
+: william ng 
+subject : re : q i.e. 2 hard drive 
+organization : university b.c. geophysics & astronomy 
+lines : 41 
+distribution : world 
+: 
+article < > 
+& bill barnes write : 
+anyone successfully put ide hard drive 
+system ? 
+> would like know well , since buy seagate ide 
+> drive want add computer four-year-old gateway 
+> , currently seagate scsi drive . 
+
+> controller doc tell specify cmo 
+> setup , i.e. hard drive setting list `` install , '' 
+> apparently scsi controller work wonder . 
+wonder 
+> problem . 
+also , remember , help cousin 
+> install second ide drive , define 
+> relationship ; need something similar ? 
+particularly interested scsi _ boot _ drive . 
+> . 
+> help would appreciate , since intend install drive 
+> asap ; would like know start . 
+> thanks ! 
+use ide mfm drive year . 
+2 
+ide 1 one system 2 ide , 2 scsi disk , 
+1 scsi cdrom . 
+currently use always scsi card , also 
+future domain , western digital scsi card , work 
+. 
+recall , card support boot floppy drive . 
+however , use controller ide , mfm ... boot drive 
+ide mfm . 
+boot scsi 
+controller system . 
+guy 2 drive 1 ide , 1 . 
+set ide cmo setup . 
+make sure boot . 
+, set scsi controller irq , dma , etc . 
+set drive 
+id 0 . 
+plug play card see far . 
+
+2 drive need driver third drive 
+. 
+question , email , try answer . 
+good luck ! 
+william 

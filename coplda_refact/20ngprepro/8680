@@ -1,0 +1,30 @@
+: ann marie barden 
+subject : config . 
+file question 
+organization : corporation , shalimar , fl 
+distribution : usa 
+lines : 19 
+question : 
+exact entry parameter syntax please , 
+configuration file load boot , add another system 
+access control list ? 
+background : 
+two unix system , 1 . 
+at&t run mit 's 
+2 . 
+sun ss10 without x. 
+want window sun ncd 
+time . 
+manually set network parameter 
+access control list , login telnet session . 
+great ! 
+try get `` '' work fail . 
+either syntax wrong 
+implementation bogus . 
+try edit ncd configuration file load 
+ncd boot . 
+matter entry add edit , ncd still boot 
+access control list contain . 
+manual worthless help would appreciate !! 
+thanks ! 
+ann marie barden 

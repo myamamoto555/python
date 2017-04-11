@@ -1,0 +1,1001 @@
+: david b. lewis 
+subject : frequently ask question faq 
+summary : useful information x window system 
+: x faq maintenance address 
+organization : visual , inc. . 
+expire : sun , 2 may 1993 gmt 
+lines : 938 
+: 
+: 
+article several follow contain answer frequently ask 
+question faq often see . 
+post help reduce 
+volume newsgroup provide hard-to-find information general 
+interest . 
+please redistribute article ! 
+article include answer follow question , loosely 
+group category . 
+question mark + indicate question new 
+issue ; significant change content since last issue 
+mark ! 
+: 
+0 topic : basic information sources definitions 
+1 ! 
+book article x good beginner ? 
+2 ! 
+course x various x toolkit available ? 
+3 ! 
+conference x come ? 
+4 public mailing list available ? 
+5 meet x developer ? 
+6 related faq available ? 
+7 ask maximize helpful response ? 
+8 publication discuss x available ? 
+9 common ? 
+10 ? 
+write application ? 
+11 x consortium , join ? 
+12 open look motif ? 
+13 ? 
+14 ? 
+15 pex ? 
+16 `` low-bandwidth x '' lbx ? 
+? 
+ppp ? 
+slip ? 
+? 
+17 topic : use x day-to-day life 
+18 ! 
+different window manager ? 
+19 x session exit kill window manager sic ? 
+20 save state x session , like ? 
+21 use another window manager dec 's session manager ? 
+22 change keyboard rate ? 
+23 remap key keyboard produce string ? 
+24 ! 
+make print application ? 
+25 make color postscript x display ? 
+26 make include x cursor ? 
+27 fax image x ? 
+28 change window ? 
+29 find control sequence ? 
+30 - r3 , et al , fail r4 server ? 
+31 use character ascii 127 ? 
+32 menu small ? 
+33 print current selection ? 
+34 xt use environment variable load resource ? 
+35 r4 put picture behind log-in window ? 
+36 path set run . 
+file ? 
+37 keep $ display another machine ? 
+38 design font ? 
+39 add font server work sic ? 
+40 convert '' . 
+snf '' font back '' . 
+bdf '' font ? 
+41 general method get font usable format ? 
+42 use font server ? 
+43 add '' . 
+bdf '' font server ? 
+44 ! 
+set default file ? 
+? 
+45 override translation ? 
+first item work . 
+46 show different timezone ? 
+47 , work . 
+get mh ? 
+48 suddenly unable connect sun x server ? 
+49 r5 pex demo work mono screen ? 
+50 ! 
+get sun type - 45 keyboard fully support ? 
+51 report bug x ? 
+52 get `` warning : widget class version mismatch '' ? 
+53 find dictionary server ? 
+54 topic : obtaining x related software hardware 
+55 x public-domain software ? 
+56 compatible , r4 , r5 ? 
+change ? 
+57 ! 
+get source binary ? 
+58 ! 
+get patch ? 
+59 ? 
+60 ! 
+get source binary ? 
+61 get ? 
+62 motif work ? 
+? 
+63 get toolkit implement open look ? 
+64 ! 
+get x source ? 
+include r5 modification 
+65 ! 
+get interesting widget ? 
+66 get good widget ? 
+67 widget appropriate use draw canvas ? 
+68 current state world x terminal ? 
+69 get x server touchscreen ? 
+70 get x server pc unix ? 
+71 get x server macintosh run macos ? 
+72 get x amiga ? 
+73 get fast x server workstation ? 
+74 ! 
+get server high-end sun graphic board ? 
+75 get `` x terminal '' server low-end sun ? 
+76 terminal emulator available ? 
+77 ! 
+get editor ? 
+78 get mailer ? 
+79 ! 
+get program ? 
+80 ! 
+get plot program ? 
+81 get spreadsheet ? 
+82 get software ? 
+83 get postscript ? 
+84 get gk package ? 
+85 get pex package ? 
+86 get tex dvi ? 
+87 get troff ? 
+88 ! 
+get wysiwyg interface builder ? 
+89 find x tool callable shell script ? 
+90 get debugger ? 
+91 ! 
+`` tee '' x program identically several display ? 
+92 topic : building x distribution topic need update r5 
+93 good source information configure x build ? 
+94 sun work r5 ? 
+95 sun suno 4.1 know _ , etc. . 
+? 
+96 strange problem building x client suno 4.1.2 ? 
+97 gcc compile sparc ? 
+98 error run x build gcc ? 
+99 problem compile older ? 
+100 problem compile x server suno ? 
+101 problem use r4 share library suno 4 ? 
+102 program run r5 xt ? 
+_ undefined 
+103 get around suno 4.1 security hole ? 
+104 get around security hole ? 
+105 topic : building x program 
+106 ? 
+107 get ? 
+108 program . 
+? 
+109 link xlib shape routine ? 
+110 problem '' _ find '' sun ? 
+111 compile r3 program new x ? 
+112 topic : programming problem puzzle 
+113 program get keystroke select sic ? 
+114 figure window manager run ? 
+115 skeleton x program available ? 
+116 work sic ? 
+117 work ? 
+118 call like ? 
+119 write widget use float resource value . 
+120 memory leak ?! 
+121 callback guarantee call order register ? 
+122 actually destroy widget ? 
+123 query user synchronously use xt ? 
+124 determine name exist widget ? 
+125 get error draw widget ? 
+126 get error call ? 
+127 application tell run x ? 
+128 make `` busy cursor '' application compute ? 
+129 fork without hang parent x program ? 
+130 make xt xlib call signal handler ? 
+131 `` xlib sequence lose '' error ? 
+132 xt program handle socket , pipe , file input ? 
+133 simulate button event widget ? 
+134 anything appear run simple program ? 
+135 difference screen screen ? 
+136 use c + + x11 ? 
+motif ? 
+? 
+137 obtain alternate language binding x ? 
+138 get window 's background ? 
+139 create transparent window ? 
+140 produce color value ? 
+141 every color allocate show black ? 
+142 program get standard ? 
+143 copy screen show garbage ? 
+144 check whether window id valid ? 
+145 two application draw window ? 
+146 program work swm ? 
+147 keep window resize user ? 
+148 keep window foreground time ? 
+149 make text bitmap blink x ? 
+150 + get xlib ? 
+151 ! 
+render rotate text ? 
+152 x registry ? 
+reserve name ? 
+suggestion correction answer 
+additional information , please send directly ; 
+information include next revision possibly one 
+; thanks many suggestion incorporate 
+yet . 
+version faq process r3 information replace 
+r5 information . 
+post intend distribute approximately beginning 
+month . 
+new version archive also 
+available 
+send `` help '' . 
+information contain herein gather variety source . 
+many case attribution lose ; would like claim 
+responsibility particular item , please let know . 
+convention use : telephone number tend unless 
+otherwise note ; price item include ; email address 
+work us . 
+x window system trademark massachusetts institute technology . 
+trademark property respective owner . 
+note : script george ferguson 
+faq available : . 
+
+subject : 0 topic : basic information sources definitions 
+
+subject : 1 ! 
+book article x good beginner ? 
+ken lee synoptics regularly post 
+bibliography contain cite know 
+reference book how-to manual also cite select technical 
+article x x programming ; 
+: 
+: 
+unordered set reference book tutorial useful 
+beginner ; appear list comment gather variety 
+place : 
+, paul j. , swick , ralph r. , `` x window system toolkit , complete 
+programmer 's guide specification '' , digital press , 1990 . 
+bible xt . 
+
+treasury information , excellent invaluable . 
+distribute digital 
+press , isbn , order number ; prentice-hall , 
+isbn . 
+also available dec direct . 
+example 
+. 
+. 
+also 
+post 1-5 . 
+jones , oliver , introduction x window system , prentice-hall , 1988 , 1989 . 
+isbn . 
+excellent introduction programming xlib . 
+write programmer mind , book include many practical tip 
+find anywhere else . 
+book broad o'reilly 
+xlib tutorial , jones experienced x programmer show 
+quality depth material book . 
+originally write , 
+recent printing include correction addition current material . 
+young , doug . 
+`` x window system : application program xt motif 
+version , '' prentice hall , 1989 isbn . 
+excellent tutorial 
+`` x window system programming application xt , '' isbn 
+update motif . 
+example available export ; one 
+motif version ~ . 
+. 
+young , doug john pew , `` x window system : programming application 
+xt , open look edition '' isbn . 
+tutorial rewrite 
+, new example information . 
+example export 
+3 distribution 
+$ . 
+heller , dan . 
+`` motif programmers manual '' . 
+6th volume o'reilly series 
+cover motif application programming ; full good example . 
+motif 
+reference page . 
+isbn . 
+example available uunet 
+nutshell archive . 
+motif 1.2 soon . 
+, robert , james gettys , jim flowers david rosenthal , `` x 
+window system : complete reference xlib , x protocol , , , x 
+version 11 , release 5 , third edition , '' digital press , 1992 . 
+`` bible '' 
+latest revision , enhance version x documentation author 
+xlib documentation . 
+complete publish description x 
+programming interface x protocol . 
+primary reference work 
+introductory tutorial documentation ; additional tutorial work usually 
+need new x programmer . 
+digital press order , isbn 
+. 
+nye , adrian , `` xlib programming manual , volume 1 '' `` xlib reference manual , 
+volume 2 , '' o'reilly associates . 
+superset mit x documentation ; 
+first volume tutorial broad coverage xlib , second 
+contain reference page xlib function many useful reference 
+appendix . 
+cover r4 . 
+isbn volume 1 isbn 
+volume 2 . 
+nye , adrian , tim o'reilly , `` x toolkit programming manual , volume 4 , '' 
+o'reilly associates , 1989 . 
+folk o'reilly give comprehensive 
+treatment programming mit ; r4 version 
+available , motif 1.1 version volume 4m . 
+o'reilly , tim , ed. , `` x toolkit reference manual , volume 5 , '' o'reilly 
+associates . 
+professional reference manual mit xt . 
+mansfield , niall . 
+`` x window system : user 's guide , '' addison-wesley , 1989 . 
+tutorial introduction use x , upgrade r4 . 
+isbn . 
+quercia , valerie tim o'reilly . 
+`` x window system user 's guide , '' o'reilly 
+associates . 
+tutorial introduction use x. isbn . 
+also available r4 motif flavor . 
+mui , linda eric pearce . 
+`` x window system administrator 's guide x11 r4 
+r5 '' ora volume 8 . 
+help x user administrator . 
+isbn . 
+prentice-hall order . 
+o'reilly order . 
+addition , check core distribution 
+useful papers tutorial , particularly file . 
+`` late 
+night 's top ten x11 question '' dave lemke stuart marks 
+answer common question 
+detail . 
+new r5 version o'reilly reference yet volume 6 available 
+. 
+single volume , `` programmer 's supplement r5 '' david flanagan , 
+provide overview new r5 feature ; include man page xlib , xt , 
+. 
+isbn 
+
+subject : 2 ! 
+course x various x toolkit available ? 
+advanced computing environment periodically offer least two-day 
+introduction course . 
+contact susie karlson information . 
+at&t offer training xlib xol set . 
+contact at&t corporate 
+education & training info ; usa . 
+bim educational services offer training x administration 
+programming open windows ; course give near 
+brussels . 
+info : voice +32 - 0 , fax +32 - 0 . 
+software consultants offer three-day hands-on course x 
+design x window system developer programmer . 
+contact chris 
+clarkson , telephone 61 8 , e-mail . 
+
+cora computer technologies offer several course . 
+offer one week course design 
+douglas young base book `` x window system : programming - 
+tion xt , edition '' . 
+information : brian stell 
+. 
+ghg offer range course x motif . 
+information : 
+. 
+hand learning live training self-paced video workshop 
+topic use program x , xlib , xm , xt , . 
+information : , . 
+hewlett-packard ; contact local hp center offer 
+2-day `` introduction x '' , 5-day xlib course , 1-day xt motif 1.1 
+seminar , 5-day motif lab course . 
+integrated computer solutions , inc. , offer several multi-day , hands-on 
+course x , xt , motif widget set , particular . 
+information 
+available . 
+intelligent visual computing teach several lab course on-site 
+motif . 
+ivc +1 
+. 
+iris computing laboratories offer five-day xlib xt course . 
+info : +1 . 
+limited offer regular x training course 
+programmer non-technical manager . 
+see also : , . 
+learning tree international offer four-day course x window system 
+application development , include xlib information motif . 
+
+info call ; canada . 
+course 
+offer major north american city ; also london , stockholm , tokyo , 
+elsewhere . 
+offer 4-day `` course '' xt ; course 
+port xm . 
+information available ca : . 
+mitch trachtenberg associates offer regular 5-day lab course 
+programming , usually limit cambridge , ma . 
+info : +1 , . 
+non standard logics +33 1 43 36 77 50 ; offer 
+course programming xlib , motif , create motif widget . 
+osf educational services offer one-day seminar 
+one-week motif lab course . 
+john a. pew offer 5-day course , possibly base book 
+subject ; . 
+sco , offer training open 
+desktop motif environment uk europe . 
+software pundits offer range course . 
+technology exchange offer 4-day course . 
+offer 1-day plus 3-day seminar x motif . 
+information : bruce sherman , . 
+offer osf 's 5-day motif course 1-day overview 
+x. information : training +44 952 , . 
+university edinburgh develop series course x 
+related topic primarily non-profit-making training academia also 
+commercial use . 
+information : cliff booth , ltd , phone +44 223 
+, fax . 
+various vendor also begin offer x training , usually 
+specific proprietary toolkit xt proprietary widget set : dec 
+offer xlib course ; sun offer course . 
+various university offer short x course overview : ucla , 
+dartmouth , university lowell , university canberra within australia : 
+... 
+uc berkeley extension one week class 
+programmer san francisco start july 29 . 
+class 
+hands-on lab . 
+information contact . 
+among best place find course various unix 
+conference -- , usenix , unix expo , , mit x technical 
+conference , acm tutorial week , & c. 
+addition , x consortium post approximately quarterly list 
+speaker consultant provide talk variety x 
+topic . 
+
+subject : 3 ! 
+conference x come ? 
+93 x trade show conference , tutorial , panel , 
+presentation , vendor exhibit , hold san jose convention 
+center june 7-11 , 1993 . 
+information : +1 , . 
+workshop hold berkeley june 10-11 , 1993 . 
+information : . 
+1993 andrew technical conference consortium annual meet 
+hold june 24-25 , 1993 , pittsburgh . 
+information : 
+. 
+european x user group hold annual conference typically 
+include include paper presentation vendor exhibit . 
+' 93 , `` x 
+real world multimedia '' hold -9 17 imperial college 
+science technology , london . 
+information : 
++44 0 , fax +44 0 . 
+motif show hold washington coincide 
+federal open systems conference usually december . 
+information : 
+, fax . 
+mit x technical conference typically hold january boston . 
+registration information available . 
+conference exhibition include tutorial , panel , 
+presentation vendor exhibit . 
+typically hold march new york 
+city . 
+information : sigs publication group . 
+trade show -- , , siggraph -- show increase 
+presence x , include tutorial exhibit . 
+
+subject : 4 public mailing list available ? 
+mailing list general , public mailing list x 
+maintain x consortium . 
+mailing gateway , almost 
+identical usenet newsgroup . 
+get , need 
+add mailing list . 
+
+otherwise , join list receive x information 
+electronically . 
+best find local distribution ; perhaps someone within 
+company already receive mailing . 
+last resort , send mail 
+valid return electronic address . 
+mailing list carry major x announcement , new 
+release include public patch mit , public review , adoption 
+standard mit x consortium , conference announcement . 
+
+carry advertisement , source code , patch , question . 
+already 
+receive usenet news group mailing 
+list , need add mailing list . 
+otherwise , 
+subscribe , send request . 
+note : 
+redistribution address accept list -- i.e. personal 
+address . 
+wish receive , please contact mail 
+administrator set local redistribution list put . 
+gateway mailing list . 
+addition , x consortium sponsor public list : 
+clx bug report discussion 
+x ada 
+people interested x 3d graphic 
+people interested image processing x 
+discussion video extension x 
+subscribe one list , assume no-one 
+organization already receive , send mail - 
+subject line include name list cap request 
+`` addition request '' . 
+body message sure give address 
+local distribution accessible mit . 
+mailing list topic relate open look sponsor greg 
+pasquariello unify corporation ; send 
+information . 
+mailing list bug version 
+source , particular , sponsor sun ; send information 
+. 
+mailing list topic relate motif sponsor kee hinckley 
+alfalfa software , inc. ; send information . 
+group gateway . 
+mailing list topic relate sponsor 
+arnaud le hors group bull ; send 
+information . 
+
+mailing list discuss interview subscribe send 
+. 
+mailing list topic relate port 
+x11 amiga subscribe send 
+message contain 
+subject : add 
+sub real name 
+mailing list discuss 's formerly 's ous object 
+interface toolkit subscribe . 
+mailing list discuss multi-threaded xlib subscribe 
+. 
+
+subject : 5 meet x developer ? 
+o'reilly associates sponsor mailing list use x user 
+group organizer ; subscribe send message 
+`` subscribe '' . 
+local area x user 's group list issue 4 o'reilly 's x 
+resource journal ; list may also available . 
+french x user group call base sophia antipolis 
+ceric . 
+information obtain miss vasseur miss forest ; bp 
+148 ; 157 , rue albert einstein ; ; phone : +33 93 95 45 00 
+45 01 ; fax : +33 93 95 48 57 . 
+
+european x user group form 1989 represent x user 
+europe . 
+hold technical conference regular interval . 
+also 
+publish regular newsletter distribute free charge member . 
+also run email mailing list member frequently use 
+address issue european interest x. contact 
++44 , fax +44 . 
+german x user 's group `` preparation '' 
+form x programmer user ; associate . 
+
+interested contact olaf 30 7 79 54 64 ; 
+. 
+
+subject : 6 related faq available ? 
+liam r. e. quin post faq open look 
+. 
+jan newmarch post faq motif 
+. 
+peter ware post faq 
+; export . 
+art mulder post faq 
+maximize performance x. 
+steve kotsopoulos post faq 
+use x intel-based unix system . 
+faq contain information view image 
+x massage image format . 
+faq gateway include 
+section . 
+faq contain information several interface 
+tool toolkit . 
+exist faq . 
+
+subject : 7 ask maximize helpful response ? 
+ask help net x mailing list , sure include 
+information setup . 
+specific 
+, likely someone spot error . 
+without 
+detail , people want help often guess -- 
+able respond . 
+always mention version x use get 
+. 
+server come different source rest x system , 
+give detail , . 
+give machine type , operate system , 
+version client server machine . 
+may also appropriate 
+mention window manager , compiler , display hardware type use . 
+tell exactly , exactly happen , 
+happen . 
+command fail , include 
+exact transcript session message . 
+program write 
+work way expect , include little source necessary 
+small test case , please ! 
+reader reproduce problem . 
+
+subject : 8 publication discuss x available ? 
+trade magazine unix world , unix review , computer language , etc. . 
+publish article x. two publication include : 
+- o'reilly associates publish `` x resource : practical 
+journal x window system '' 103 morris st. #a , , ca . 
+editorial information : adrian nye , . 
+- x journal start bi-monthly publication september 1991 
+variety x topic . 
+subscription information : x journal , subscriber 
+services , dept xxx , p.o. box 3000 , denville , nj , usa . 
+editorial 
+information : . 
+
+subject : 9 common ? 
+xt : x toolkit intrinsic library layer xlib 
+provide functionality widget set build . 
+`` '' 
+program application use one widget set use 
+mechanism manipulate widget . 
+: library collection miscellaneous utility function 
+useful build various application widget . 
+: athena widget set sample widget set 
+distribute x11 source . 
+xm : widget set open software foundation ; binary 
+kit available many hardware vendor . 
+xw : hewlett-packard widget set originally base r2 + + , 
+several set patch exist bring r3 , distribute 
+tape . 
+supplemental patch available use . 
+clx : common lisp x interface common lisp equivalent xlib . 
+: x display manager protocol provide uniform mechanism 
+display x terminal request login service remote host . 
+: x logical font description convention describe standard 
+logical font description convention use client 
+query access resource . 
+: common meaning `` please locate consult 
+relevant documentation -- read forgotten manual '' . 
+: common expression meaning `` take advantage fact 
+limit binary license -- use source , luke '' . 
+api : interface . 
+function call , etc. , 
+programming library . 
+bdf : bitmap distribution format ; human-readable format 
+x font . 
+gui : graphical user interface . 
+uil : user interface language , part let 
+programmer specify widget hierarchy simple `` outline '' form 
+wcl : widget creation language , package extend 
+understanding xt resource format widget hierarchy 
+action widget specify resource file 
+gil : file format put sun 's developers guide 3.0 
+: user interface management system 
+
+subject : 10 ? 
+write application ? 
+communication convention manual one 
+official x consortium standard document define x environment . 
+
+describe convention client must observe coexist peacefully 
+client share server . 
+write x client , need 
+read understand , particular section discuss 
+selection mechanism interaction client window 
+manager . 
+get either : 
+- part r4 distribution mit 
+- later edition `` x window system '' book 
+- appendix new version o'reilly 's volume 0 , `` x protocol 
+reference manual . '' 
+version old copy volume 1 obsolete . 
+version digital press book much readable , thanks 
+effort digital press 's editor improve english 
+presentation . 
+david rosenthal , 
+- update r5 ; update publish o'reilly 's 
+`` programmer 's supplement release 5 '' . 
+complete document r5 
+tape . 
+alternate definition : generally m `` '' 
+x document . 
+
+subject : 11 x consortium , join ? 
+mit x consortium form january 1988 
+development x window system major goal promotion 
+cooperation within computer industry creation standard software 
+interface layer x window system environment . 
+mit 's role provide vendor-neutral architectural 
+administrative leadership require make work . 
+membership 
+consortium open organization . 
+two category membership , 
+member large organization affiliate smaller organization . 
+consortium 's activity take place via electronic mail , 
+meeting require . 
+design specification take shape , 
+interest group form expert participate organization . 
+typically small architecture team lead design , 
+act close observer reviewer . 
+complete specification 
+produce , may submit formal technical review consortium 
+proposed standard . 
+standard process typically include public 
+review outside consortium demonstration proof concept . 
+involvement public review process member 
+affiliate consortium welcome . 
+write : bob , mit x consortium , laboratory computer 
+science , 545 technology square , cambridge , ma . 
+complete information see man page 
+distribution , information adapt . 
+
+
+subject : 12 open look motif ? 
+open look motif two graphical user interface gui . 
+open look 
+develop sun help at&t many industry reviewer ; motif 
+develop open software foundation osf input many osf 
+member . 
+open look primarily user-interface specification ; 
+several toolkit use produce open look application . 
+motif include apus specification ; sanction motif toolkit 
+one osf . 
+however , toolkit use produce 
+program look behave like ; one , 's 
+formerly 's ous , `` virtual toolkit '' provide object 
+style open look motif , user 's choice . 
+open look gui also name product at&t , comprise 
+open look toolkit variety application . 
+thanks ian darwin , 
+
+subject : 13 ? 
+open windows 3.0 sun product encompass : window system 
+combine news server ; user-interface 
+specification open look series toolkit implement include 
+; xlib xt implementation ; 
+number utility window manager , , , etc. . 
+thanks frank greco , ; 
+
+subject : 14 ? 
+dec product encompass : x11 server ; 
+toolkit , include dwt widget set uil ; xlib xt implementation ; 
+session manager ; number utility window manager , , 
+, etc. . 
+point motif flavor toolkit application ship . 
+
+
+subject : 15 pex ? 
+pex `` extension x '' . 
+stand `` programmer 's hierarchical interactive graphic 
+system '' essentially library function simplify creation 
+manipulation 3d graphic . 
+many platform capable perform 
+hardware computation involve render 3d object ; extension 
+allow client case take advantage specialize 
+hardware 3d graphic . 
+sun microsystems currently contract develop freely 
+copyright similar current x copyright sample 
+implementation . 
+source documentation available r5 release . 
+several vendor currently sell pex server 
+workstation x terminal . 
+last modified 
+
+subject : 16 `` low-bandwidth x '' lbx ? 
+? 
+ppp ? 
+slip ? 
+? 
+several option use x serial line : 
+slip - serial line ip ; mechanism protocol send ip 
+packet point-to-point serial link . 
+around several year , 
+implementation available many major implementation . 
+x terminal vendor supply checkoff item , although nobody really 
+ever use since horribly slow . 
+header add 40 byte per 
+packet encoding x protocol rather verbose rightfully 
+; optimize packing unpacking high-speed link . 
+- compressed header slip ; variant slip compress 
+40 byte header 5 6 byte . 
+still 
+anything x protocol . 
+modem compression help , 
+increase packet latency take time dribble uncompressed 
+datum typical serial interface , plus compression assembly time . 
+ppp - point-to-point protocol ; emerge standard point-to-point 
+link serial line complete set option negotiation 
+slip . 
+grow number people see combination ppp serial 
+line management header compression become common 
+run normal protocol serial line . 
+run raw x wire 
+still need compression somewhere make usable . 
+- name protocol set product originally 
+develop ncd squeeze x protocol serial line . 
+addition 
+use low level transport mechanism similar , remove 
+redundancy x protocol send delta previous packet 
+use lzw compress entire datum stream . 
+work either 
+server `` proxy '' run host terminal server . 
+
+several advantage compression outside modem : 
+1 compress modem would 
+otherwise use e.g. go directly 
+connect , 
+2 reduce overhead cut number byte 
+cross serial interface , 
+3 addition effect # 2 , reduce latency deliver 
+packet require modem buffer datum wait 
+block compress . 
+lbx - low bandwidth x ; x consortium project work 
+standard area . 
+chair ncd xerox use 
+ncd 's protocol step stone develop new protocol . 
+lbx 
+go beyond add proxy caching information 
+e.g. connection setup datum , large window property , font metric , , 
+etc. efficient encoding x protocol . 
+hope 
+standard ready public review first half next year sample 
+implementation available r6 . 
+additional technical information work note 
+lbx might different available via anonymous ftp 
+follow file : 
+. 
+p slide describe 
+. 
+p slide describe lbx 
+information provide jim fulton , 
+also set slide export jim fulton 's talk 
+7th mit x technical conference . 
+
+subject : 17 topic : use x day-to-day life 
+
+subject : 18 ! 
+different window manager ? 
+window manager x another client -- part 
+x window system , although enjoy special privilege -- 
+single window manager ; instead , many support different way 
+user interact window different style window layout , 
+decoration , keyboard focus . 
+approximate chronological order 
+generally , recent one conformant : 
+wm : simple window manager phase r2 r3 
+uwm : universal window manager still popular speed , 
+although outdated . 
+move r4 tape . 
+twm old : tom 's window manager among first window 
+manager offer user great deal customization option 
+window manager . 
+awm : ardent window manager remain hacker offer 
+feature dynamic menu find current window manager 
+cwm : cwm part andrew system . 
+rtl : siemen 's window manager tile window overlap 
+resize window focus preferred size . 
+: digital 's part offering 
+: hp 's window manager offer 3d look ; precursor mwm 
+mwm : motif window manager part toolkit 
+: tektronix 's window manager offering 
+sun : implement open look gui style 
+guide functionality 
+at&t : ditto 
+: bull 's generic window manager emulate built-in 
+lisp interpreter . 
+version 1.7 h r5 tape ; 1.7 n 
+. 
+
+: sigma window manager r4 tape 
+: sun 's part release 
+swm : 's swm base oi toolkit offer multiple 
+gui support also pan virtual window ; configuration information come 
+resource file 
+twm new : mit 's new tab window manager r4 tape rework 
+twm basis several derivative , include one r5 tape 
+: offer feature swm , 
+window implementation ; base r4 twm available 
+archive server . 
+new version , .0 , base r5 .9 available 
+export . 
+
+: tom 's virtual tab window manager also base r4 twm 
+provide virtual desktop model window swm . 
+
+available archive server 
+: add sun 's . 
+
+available archive server ; version 3.3 export . 
+: add osf 's mwm . 
+beta version 
+float around recently require 
+source license . 
+: window manager local ncd terminal offer mwm look 
+: window manager local visual technology 's terminal 
+: claude 's modification r5 
+twm offer 32 virtual screen fashion hp ; source export . 
+version also offer window overview use . 
+: hp 's window manager offer configurable workspace . 
+: sgi 's enhance mwm 
+: version offer pie menu 
+
+subject : 19 x session exit kill window manager sic ? 
+need . 
+probably happen run 
+window manager last job . 
+. 
+file ; x 
+session run long last job run , kill 
+window manager equivalent log . 
+instead , run window manager 
+background , last job instead invoke something safe like : 
+exec - name login - rv - iconic 
+special client devise exit user action . 
+x session continue explicitly window , 
+whether kill restart window manager . 
+
+subject : 20 save state x session , like ? 
+although know window manager directly support feature -- 
+may equivalent write . 
+. 
+file name 
+geometry application may something 
+close -- contribute application much 
+look , although complete program . 
+look application `` '' near . 
+
+several version program float around ; look recent vintage . 
+
+new pseudo hp 's provide 
+saving session include information geometry 
+application resource database . 
+stabell ; . 
+
+subject : 21 use another window manager dec 's session manager ? 
+dec 's session manager start default . 
+override , 
+add . 
+file something like line , name full : 
+: _ 
+
+subject : 22 change keyboard rate ? 
+turn use `` r | '' . 
+x 
+protocol , however , provide vary rate , 
+capability support system . 
+server run system support , however , may provide 
+command-line flag set rate start-up time . 
+control 
+server start-up see man page , invoke 
+server choose setting ; example , start server 
+mit option '' - 350 - 30 '' reduce sensitivity 
+keyboard . 
+
+subject : 23 remap key keyboard produce string ? 
+method arrange particular string 
+produce press particular key . 
+client , useful 
+move ctrl esc key useful place , rearrange key 
+`` macro expansion . '' 
+client , include several editor , 
+accept translation resource : 
+vt100 . 
+translation : \ 
+f1 : string `` display unix :0 '' 
+permit shorthand f1 press reset display locally 
+within ; take effect new client . 
+include control 
+character string , use \ nnn , nnn octal encoding 
+control character want include . 
+window manager , could provide facility , yet ; 
+special `` '' client make available . 
+
+david b. lewis 
+`` faq , ma'am . '' 
+-- joe friday 
+-- 
+david b. lewis temporarily speak visual , inc. . 
+day : evening : 

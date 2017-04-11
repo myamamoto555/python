@@ -1,0 +1,49 @@
+: technical support 
+subject : re : : reliable ? 
+implement ? 
+organization : quarterdeck office systems , santa monica ca 
+lines : 46 
+article < > ethan write : 
+> 
+> three q 's : 
+> 
+> 1 reliable ? 
+use day every day maintain ftp site answering mail 
+via , honestly say last 
+month never machine go due sort network 
+manager instability . 
+course , crash machine quite time 
+purpose , beta testing sort thing , 
+portion quite stable ... 
+however , keep mind dvx network manager go 
+stable software sit top underlie 
+network kernel flakey , expect dvx terribly stable ... 
+> 2 send information m windows app 
+> x11 protocol ? 
+draw everything graphic 
+> one window , use multiple window essentially work 
+> cleverly ? 
+go window graphic draw . 
+vastly 
+go , take window graphic api call , 
+translate directly ; unfortunately , window 
+really write , sometimes see speed 
+penalty app something stupid , like send big white bitmap 
+erase something rather draw white box ; fortunately , 
+sort thing rare ... 
+> 3 want run m word , example , remotely , 
+> run separate copy m windows remotely , start m 
+> word , m word start remotely ? 
+need run m window , word run inside . 
+could run 
+multiple window program within one winx window , window 
+way start start window , practice 
+really major problem . 
+system set 
+run winx , automatically start word full-screen window , 
+never see part window word ... 
+-- 
+quarterdeck office systems - internet support - tom 
+: | tech questions : 
+bb : fax : compuserve : go quarterdeck 
+anonymous ftp : , leave email address password 

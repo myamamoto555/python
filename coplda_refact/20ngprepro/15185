@@ -1,0 +1,27 @@
+: wes barris 
+subject : re : help : need 24 bit viewer 
+keyword : 24 bit 
+: 
+organization : , minnesota supercomputer center 
+lines : 22 
+article < > , chris lilley write : 
+| > 
+| > article < > , gilles write : 
+| > 
+| > > look program able display 24 bit 
+| > > image . 
+use sun sparc equip parallax 
+| > > graphic board run x11 . 
+| > 
+| > utah raster toolkit use . 
+convert sun raster file presumably 
+| > ppm pbm + toolkit convert ppm utah rle format 
+| > provide toolkit . 
+use urt tool : . 
+| > 
+| > seem remember 24 bit server . 
+yes , newer xli . 
+
+wes barris ph : 
+minnesota supercomputer center , inc. . 
+email : 

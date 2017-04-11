@@ -1,0 +1,51 @@
+: joel 
+subject : re : cursor size problem 
+organization : dec western software laboratory 
+lines : 37 
+distribution : world 
+: joel 
+: 
+article < > , 
+mike bell write : 
+> apologies read no-one solve 
+
+> one yet post ! 
+sorry : - 
+
+> 
+> problem create cursor bigger , use motif 1.1 
+> run hp-ux 8.07 - function return valid result 
+> cursor appear bitmap bigger aforementioned size . 
+try 
+> 
+> use follow code : 
+> 
+> unsigned int w , h ; 
+> , , 72 , 71 , & w , 
+> & h ; 
+> 
+> return nearest size require however return 72 71 
+> width height respectively . 
+wrong ? 
+
+
+> get round problem !! 
+workstation use hardware cursor support ? 
+
+server generate software cursor . 
+generally tell difference 
+use . 
+cursor blink lot screen activity , 
+probably software cursor . 
+hardware cursor , think ` re 
+probably battle bug hp 's x server . 
+familiar hardware 
+cursor chip display cursor greater . 
+quite possible 
+server echo prefer cursor size without actually 
+check . 
+vaguely recall old mit server revision 
+. 
+reality probably stick maximum size cursor regardless 
+server return . 
+- joel 

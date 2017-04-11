@@ -1,0 +1,44 @@
+: philip sinn 
+subject : chip graphic accelerator . 
+summary : 3.11 800x600 256 color 
+keyword : , accelerator , chip , hint 
+: shelley .1 
+distribution : world 
+organization : university washington , seattle 
+lines : 43 
+: 
+get card make yesterday 
+run test . 
+card card 
+display 16.7 million color 640x480 mode 1mb dram . 
+come window driver normal driver . 
+driver handle , 640x480 , 800x600 , 256 color . 
+also , 640x480 800x600 , support , 32k 64k color . 
+result run 16mb system use 
+hint chipset . 
+3.11 zd lab . 
+use driver 
+640x480 256 10.63 . 
+32k 7.34 
+64k 7.30 
+800x600 256 10.07 
+32k 6.38 
+64k 6.35 
+256 8.17 
+use driver . 
+640x480 16m 1.78 
+800x600 4.01 
+16 4.22 
+result , driver specialize use 
+hardware feature chip whereas driver 
+normal driver base graphic card . 
+price graphic card get $ 185 local dealer . 
+may less mail order . 
+2.0 driver come 
+support 256 color resolution . 
+result , double performance base card 
+256 color mode . 
+philip sinn 
+
+university washington 
+opinion 

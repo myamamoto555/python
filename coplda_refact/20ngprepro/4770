@@ -1,0 +1,49 @@
+: andre beck 
+subject : re : , masks , & icons - clue ? 
+organization : dept. computer science , tu dresden , germany . 
+lines : 40 
+distribution : world 
+: 
+: . 
+de 
+article < > , arnaud write : 
+| > article < > , buzz moschetti 
+| > write : 
+| > > simple x graphic question : 
+| > > 
+| > > assume valid window w , icon , background 
+| > > mask also icon . 
+wish place icon x , y 
+| > > w without background . 
+| > > 
+| > > question : combination gc function necessary ? 
+| > > think idea `` merge pixel w 
+| > > indicate corresponding mask pixel value . '' 
+specifically , 
+| > > problem involve mask generate lib . 
+| > > 
+| > > clue would appreciate . 
+| > 
+| > 
+| > provide symbolic color name specify load time . 
+| > , want would suggest define background symbol 
+| > file 'll set whatever color use widget 
+| > window want put . 
+| > would surely simplest fastest way want . 
+. 
+soon blit two icon top 
+little dislocation , see rectangular blit crash much 
+icon first , draw full rectangle . 
+way 
+mask : create bitmap pixel merge 1 
+merge 0 . 
+, set gc 
+bitmap , set gc 
+coordinate blit icon destination , use , 
+icon destination use gc . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

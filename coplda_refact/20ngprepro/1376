@@ -1,0 +1,89 @@
+: dave medin 
+subject : re : zero db ???? 
+: 
+organization : intergraph corporation , huntsville al 
+lines : 81 
+article < > , babak write : 
+| > < > mark underwood write : 
+| > 
+| > > somewhat familiar db measurement apply 
+| > > electrical circuit - i.e. gain example amplifier 
+| > > measure logarithmic scale . 
+however , require 
+| > > reference value : i.e ouput +20 db e.g. respect input 
+| > > signal . 
+
+| > actually talk dbm db . 
+however , term 
+| > use loosely people . 
+`` dbm '' power , whereas 
+| > db ratio . 
+, like two english statement : 
+| > 
+| > 1 . 
+well . 
+| > 2 . 
+good . 
+| > 
+| > similarly , people usually use db dbm . 
+another common mistake spell 
+| > `` db '' instead `` db '' article . 
+see `` b '' 
+| > `` bell '' company , mother at&t capitalize . 
+| > 
+| > highest regard , 
+| > babak . 
+good gravy ! 
+decibel ratio . 
+question remain 
+ratio reference unit use . 
+sometimes , reference 
+power , 1 milliwatt give certain circuit impedance 
+also include fine print know , like 50 ohm 
+rf circuit impedance , lead accept 
+notation dbm . 
+maybe might dbv , disregard impedance 
+circuit power develop , use 1 volt reference amplitude 
+rather reference power . 
+, might arbitrary omit 
+reference include notation , lead plain db . 
+. 
+look way -- ` db ' implied reference notation 
+` dbm ' explicit reference . 
+power : 
+db 10 log p measure p reference 
+amplitude 
+db 20 log measure reference 
+` b ' bel , standard term log ratio base 
+10 , name alexander graham bell . 
+` decus ' bel bel . 
+nothing bell telephone company except 
+common founder 's name . 
+small 'd ' large ` b ' per si notation 
+convention . 
+know anyone crucify mess . 
+common reference audio : 
+0 dbm 1 milliwatt across 600 ohm 
+0 dbv 1 volt 
+0 vu zero vu meter +4 dbm pro gear line level 
+0 vu -10 dbv consumer gear line level 
+often time , power amp vu meter align use 
+rate power amp 0 db point . 
+
+whatever reference reasonable application 
+moment . 
+note circuit give maybe unknown linear 
+impedance , amplitude go many decibel , 
+power also increase amount . 
+proof 
+two identity ohm 's law . 
+-- 
+-------------------------------------------------------------------- 
+dave medin phone : w 
+ssd -- network h 
+intergraph corp. . 
+internet : 
+huntsville , al uucp : ... 30 ! 
+
+everywhere look least around office 
+opinion express mine machine 

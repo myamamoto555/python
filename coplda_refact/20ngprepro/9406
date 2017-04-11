@@ -1,0 +1,28 @@
+: steve chesney 
+subject : diamond 24x driver bug ? 
+: 
+organization : metaphase technology , inc. . 
+keyword : 
+lines : 23 
+since swap generic vga card 24x , 
+notice two new problem : 
+create windowed session 386 mode , text start 
+scroll , rather print character start print 
+horizontal line spill desktop trash entire 
+display . 
+terminate window restore 
+desktop 
+short time ncd 's pc window , character 
+display desktop change unreadable ; unable 
+restore without reboot . 
+256 16 color 800x600 driver , large small font . 
+dos 5 , win 3.1 , install . 
+like speed card problem . 
+idea ? 
+thanks ! 
+-- 
+steve chesney 
+metaphase technology inc. . 
+voice 
+north lexington avenue fax 
+arden hills , mn 

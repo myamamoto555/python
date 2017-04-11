@@ -1,0 +1,31 @@
+: jim atkinson 
+subject : detect local vs remote display setting ? 
+: 
+organization : wavefront technologies inc , santa barbara , ca 
+lines : 17 
+: 
+: spokesperson wavefront technologies , inc. . 
+try find application run local 
+remote display . 
+local display connect system 
+client execute . 
+access display string 
+tell string ? 
+client execute host foo '' :0 '' , `` unix :0 '' , `` foo :0 '' , 
+`` localhost :0 '' local . 
+ultrix , believe 
+`` local :0 '' also valid display name share memory connection 
+maybe ? 
+. 
+string check ? 
+
+better way detect ? 
+thank help give . 
+-- 
+
+jim atkinson wavefront technologies , inc. . 
+, ? 
+company spokesperson ? 
+get real ! 
+life spectator sport ! 
+

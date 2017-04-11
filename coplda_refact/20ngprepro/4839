@@ -1,0 +1,91 @@
+: tom 
+subject : rfd : . 
+nt . 
+misc , setup 
+organization : software metrics inc. . 
+lines : 76 
+: 
+official request discussion rfd creation two 
+new newsgroup microsoft windows nt . 
+second rfd , replace 
+one originally post january '93 never take vote . 
+
+propose group describe : 
+name : . 
+
+status : unmoderated . 
+purpose : discussion set install windows nt , 
+system peripheral compatability issue windows nt . 
+name : . 
+
+status : unmoderated . 
+purpose : miscellaneous discussion use windows nt , 
+include issue security , network feature , console 
+mode windows 3.1 compatability . 
+rationale : 
+microsoft nt newest member microsoft windows family 
+operate system operate environment wish 
+argue meaning `` os '' . 
+family range 
+modular windows windows 3.1 windows workgroups 
+windows nt high end . 
+date , microsoft ship 
+50,000 beta copy pre-release sdk windows nt -- 
+actual release slate ' 93 . 
+windows nt entirely new design internally , share 
+application programming interface member 
+windows family ; win32 api include apus use win - 
+dow 3.1 , win32 apus subset win32 less thread , network 
+security use create 32-bit application 
+windows 3.1 . 
+user interface also practically identical windows 
+3.1 , addition login feature . 
+use 
+program manager , file manager applet , generally pre - 
+sent identical appearance user . 
+many announce 
+windows nt application port exist windows 3.1 app , 
+nt also run exist 3.1 application . 
+thus , appear logical windows nt share follow 
+group member windows family : 
+. 
+app 
+. 
+
+. 
+
+. 
+32 
+follow group also clearly applicable windows nt 
+well windows 3.1 : 
+. 
+announce 
+. 
+advocacy 
+conclusion , clear argument separation 
+windows 3.1 windows nt hierarchy different internal 
+structure windows 3.1 windows nt . 
+yet operate 
+system , macintosh os , xenix coherent 
+undergo major rewrite without split separate 
+newsgroup hierarchy . 
+, windows 3.1 due major rewrite 1994 -- 
+fully 32-bit , next - 
+generation windows , `` chicago '' , debut next year , surely 
+remain hierarchy . 
+, , would jus - 
+separate windows nt windows version ? 
+discussion period : 
+discussion period run 27 april , 1992 18 may , 1993 . 
+voting : 
+call vote issue around 19 may , 1993 , base 
+feedback receive discussion period . 
+vote 
+accept prior . 
+-- 
+tom -- -- software metric inc -- waterloo , ont 
+`` stick index finger corner mouth . 
+pull 
+. 
+corrado make feel . '' 
+-- car , january '93 

@@ -1,0 +1,93 @@
+: jim wight 
+subject : axe 5.0 available 
+organization : computing laboratory , u newcastle upon tyne , uk 
+lines : 89 
+: 
+: 
+place new release axe editor .0 . 
+
+. 
+significant change time , justification hike 
+major version number , : 
+o undo implement . 
+default last change undo , resource 
+provide allow user specify many , include unlimited , 
+level undo information keep . 
+also , undo undo 
+support . 
+truth rumor next version 19 : - 
+- - - - - - - - - - 
+encounter axe summary 
+: 
+axe simple use text editor x represent significant 
+improvement . 
+also build around athena text widget 
+feature , amongst thing , 
+o multiple window 
+o multiple buffer 
+o default menu interface 
+o optional button interface , choice layout button 
+user control 
+o expert use access external filter 
+o provision define keyboard macro 
+o geometry specification resize term character 
+o file selection via browser 
+o knowledge line number 
+o parenthesis matching 
+o regular expression search 
+o restricted unlimited undo 
+o ability change font 
+o easy entry control code 
+o feature 
+o easy runtime setting select preference resource 
+o brief comprehensive on-line help 
+o server mode cooperate client program 
+o optional extension language use tcl 
+o optional widget set compatability 
+o collection reusable widget embody functionality axe 
+personally build run core axe , i.e. without tcl 
+option , follow system : 
+sun sparc sunos 4.1 . 
+x mit 
+sun sparc sunos 5.1 mit 
+encore umax 4.3 mit 
+dec ultrix 4.2 mit 
+hp hp-ux 8.07 mit 
+mac 3.0 mit 
+subject level testing . 
+
+test tcl option first . 
+number ' ' - ism feed back 
+incorporate code possible replacement 
+provide system one . 
+although axe probably build r4 run-time problem 
+encounter past . 
+bother try version 
+r4 , put effort solve previously know 
+problem . 
+therefore , r4 much take pot luck . 
+
+work alternative try last release , 
+, version 2 still around . 
+
+many feature use widget creation library wcl . 
+
+, require old version wcl , 1.06 1.05 . 
+version 3 
+axe near completion version 2 wcl come axe 2 
+never get convert make use . 
+axe available anonymous ftp 
+initially , probably due 
+course several ftp site . 
+check nearest use 
+. 
+ftp , try send email 
+word `` help '' alone message body . 
+receive instruction 
+ftp via email . 
+jim 
+-- 
+
+department computing science , university newcastle , tel : 
+newcastle upon tyne , ne1 , united kingdom . 
+fax : 

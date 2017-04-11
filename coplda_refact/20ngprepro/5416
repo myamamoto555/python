@@ -1,0 +1,23 @@
+: q. van 
+subject : re : sphere 4 point ? 
+organization : tno physics electronics laboratory 
+lines : 26 
+another useful method base least estimation sphere equation parameter . 
+point x , y , z spherical surface radius r center , b , c write 
+^ 2 + ^ 2 + ^ 2 r ^ 2 
+equation rewrite following form : 
++ + + r ^ 2 - ^ 2 - b ^ 2 - c ^ 2 x ^ 2 + y ^ 2 + z ^ 2 
+approximate left hand part f x , y , z p1 . 
+x + p2 . 
+x + p3 . 
+z + p4 .1 
+datapoint , i.c. 4 , determine 4 parameter p1 . 
+. 
+p4 minimize average error | f x , y , z - x ^ 2 - y ^ 2 - z ^ 2 | ^ 2 . 
+` numerical recipe c ' find algorithm solve parameter . 
+best fitting sphere 
+- center , b , c , , 
+- radius r p4 + + + . 
+, last , solve sphere problem , least situation think ? 
+. 
+quick van , 

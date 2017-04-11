@@ -1,0 +1,112 @@
+: dan jacobson 
+subject : re : ftp usgs terrain datum 
+organization : johns hopkins univ. . 
+welch medical library 
+lines : 123 
+charles boesel write : 
+> ftp archive united states geological services usg 
+> terrain datum ? 
+, ? 
+point gopher client 
+select follow directory : 
+-- > 13 . 
+search retrieve software 
+-- > 8 . 
+search retrieve graphics software data 
+'ll see - 
+-- > 1 . 
+graphics online bibliography acm siggraph 
+2 . 
+graphics software data archives ftp site 
+3 . 
+search graphic information < ? 
+> 
+4 . 
+search faq < ? 
+> 
+5 . 
+search graphics resources software data < ? 
+> 
+6 . 
+search pictures utilities faq < ? 
+> 
+1 . 
+graphics online bibliography acm siggraph 
+search archive bibliographic database cover 
+graphic literature hundred year serve 
+gopher hole austria . 
+2 . 
+graphics software data archives ftp site 
+link 70 site around world 
+software datum computer graphic . 
+use companion 
+search find directory point 
+toward software datum various place . 
+3 . 
+search graphic information < ? 
+> 
+4 . 
+search faq < ? 
+> 
+5 . 
+search graphics resources software data < ? 
+> 
+6 . 
+search pictures utilities faq < ? 
+> 
+search contain wealth information 
+computer graphic , datum , software , technique etc. . 
+. 
+3 . 
+search graphic information < ? 
+> 
+simply search information contain 
+search 4 , 5 , 6 . 
+4 . 
+search faq < ? 
+> 
+let search faq frequently ask question 
+newsgroup compile john 
+jpl . 
+5 . 
+search graphics resources software data < ? 
+> 
+let search resource listing 
+software datum provide nick fotis 
+national technical univ. athens . 
+6 . 
+search pictures utilities faq < ? 
+> 
+let search faq frequently ask question 
+newsgroup compile 
+jim howard cadence . 
+select : 
+-- > 3 . 
+search graphic information < ? 
+> 
+search : 
+usg 
+'ll find information usgs datum availability . 
+select : 
+-- > 2 . 
+graphics software data archives ftp site 
+might find follow interesting : 
+-- > 12 . 
+cartographic datum - usgs datum xerox 
+-- > 42 . 
+usg 
+-- > 68 . 
+usgs weekly seismicity reports include map - gif 
+-- > 68 . 
+usgs earth science data directory 
+actually database available datum - search 
+terrain - could prove quite useful . 
+one place look available anonymous ftp 
+moment - 
+us geological survey maps - . 
+never hear gopher worry free net , 
+write note would like information get start . 
+best luck , 
+dan jacobson 
+
+johns hopkins university 

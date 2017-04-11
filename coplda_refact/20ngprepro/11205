@@ -1,0 +1,34 @@
+: bob fitzsimmons 
+subject : re : vga graphics library 
+keyword : c , library , graphic 
+: 
+organization : oregon grad . 
+inst . 
+computer science eng. , beaverton 
+lines : 26 
+article < > bill sheppard write : 
+> many high-end graphic card come c source code basic graphic 
+> sort thing change color , draw fill , etc. . 
+
+> library exist generic vga graphic , hopefully 
+> public domain ? 
+would purpose compile 
+> operating system run standard pc . 
+> 
+also interested info public domain commercial graphic library 
+package pc vga graphic . 
+currently work realtime application run pcc 
+kernel need simple graphic . 
+sure 
+graphic library go issue . 
+suspect 'll implement display controller server process 
+handle graphic request , queue mailbox , one time . 
+
+provide sufficiently frequent display update believe 
+restrict graphic operation perform server thus 
+constrain access library single process avoid need 
+reentrant graphic library . 
+fairly new realtime system world may overlook something , 
+think ? 
+cheers , 
+bob fitzsimmons 

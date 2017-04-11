@@ -1,0 +1,102 @@
+: tom wagner , wizzard old equipment ... ... nanaimo campus 
+subject : correction last followup re relay 
+organization : malaspina college 
+lines : 73 
+article < > , tom wagner , wizzard old equipment ... ... nanaimo campus write : 
+> article < > , aaron lung write : 
+article < > billy quinn write : 
+> build little project use radio shack relay switch 
+> audio . 
+get pretty bad ` click ' thing switch . 
+
+> common thing one suppose use relay 
+> nothing seem get rid click . 
+> 
+> 
+> question : 
+> 
+> good circuit use switching 
+> audio , noise kind audio line . 
+> 
+> 
+> appreciate advice reference advice . 
+also , exact part 
+> name etc. relay help ! 
+
+switch high level signal low level signal like 
+level signal ? 
+also , click mention big 
+clack happen switch refer contact 
+bounce ? 
+drive relay ? 
+ttl gate output ? 
+switching 
+transistor ? 
+relay connect drive ? 
+
+need specifics answer question !! 
+: - 
+> 
+> general rule , relay cleanly switch audio try tranfer 
+> circuit contact . 
+noise hear due momentary 
+> opening closing path . 
+> 
+> noiseless way transfer audio grind circuit . 
+high 
+> impedance audio circuit resistive `` '' construct close characteristic 
+> impedance circuit . 
+ground connect transfer 
+> audio . 
+> 
+> low impedance circuit transformer usually use , input 
+> short ground . 
+secondary parallel characteristic 
+> impedance . 
+> 
+> sometimes necessary actually switch audio , second contact use 
+> momentarily short circuit output duration switching time . 
+> 
+> telephone relay handy , contact adjust `` make 
+> break vica versa '' see year . 
+> 
+> switching electronically op amp , etc. . 
+> 
+> novel circuit use build primitive `` optical isolator '' . 
+. 
+consist 
+> resistive photocell lamp , package tube . 
+lamp 
+> cell high resistance . 
+turn lamp resistance lower 
+> pass audio . 
+device `` '' switch audio . 
+varying 
+> lamp resistance give remote volume control . 
+use 2 variable resister 
+> mixer ! 
+> 
+> lot luck ! 
+> -- 
+> 73 , tom 
+> 
+> tom wagner , audio visual technician . 
+malaspina college nanaimo british columbia 
+> , loc 2230 fax callsign : weapon : .45 kentucky rifle 
+> snail mail : site q4 , c2 . 
+rr # 4 , nanaimo , british columbia , canada , 
+> 
+> ... keep everything ! 
+standard disclaimer apply 
+> 
+-- 
+73 , tom 
+
+tom wagner , audio visual technician . 
+malaspina college nanaimo british columbia 
+, loc 2230 fax callsign : weapon : .45 kentucky rifle 
+snail mail : site q4 , c2 . 
+rr # 4 , nanaimo , british columbia , canada , 
+... keep everything ! 
+standard disclaimer apply 
+

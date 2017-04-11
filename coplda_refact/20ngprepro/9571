@@ -1,0 +1,422 @@
+: 
+subject : cryptography faq - technical miscellany 
+organization : crypt cabal 
+lines : 414 
+expire : 22 may 1993 gmt 
+: 
+: . 
+
+summary : part 8 10 faq , technical miscellany . 
+recover word perfect password . 
+break cipher . 
+encrypt unix . 
+security unix ` crypt ' command . 
+encryption compression . 
+key management . 
+letter frequency . 
+german enigma code . 
+card shuffling . 
+piracy . 
+: 
+: 
+: 
+faq , part 8 : technical miscellany 
+eighth ten part faq . 
+part 
+mostly independent , read first part rest . 
+time send miss part mail , ask . 
+note `` '' refer reference list last part . 
+section faq available via anonymous ftp 
+. 
+xx . 
+cryptography 
+faq post newsgroup , , 
+every 21 day . 
+contents 
+recover lose password wordperfect ? 
+break cipher ? 
+send encrypted mail unix ? 
+pgp , , pem , ... 
+unix crypt command secure ? 
+use compression encryption ? 
+unbreakable cipher ? 
+`` random '' mean cryptography ? 
+unicity point a.k.a. unicity distance ? 
+key management important ? 
+use pseudo-random chaotic number key stream ? 
+correct frequency list english letter ? 
+enigma ? 
+shuffle card ? 
+foil pirate encrypt cd-rom ? 
+automatic cryptanalysis simple cipher ? 
+code system use vcr + ? 
+recover lose password wordperfect ? 
+wordperfect encryption show easy break . 
+method use xor two repeat key stream : type password 
+counter initialize 1 + . 
+full 
+description give bennett bergen 
+. 
+chris galas write : `` someone awhile back look way 
+decrypt wordperfect document file think solution . 
+software company name : 87 east 600 south , 
+orem , ut , software package 
+decrypt wordperfect , lotus 1-2-3 , , m excel paradox 
+file . 
+cost package $ 185 . 
+steep price , 
+think pw key less 10 character , 10 char give 
+call ask free demo disk . 
+demo disk decrypt file 
+10 char less pw key . '' 
+break cipher ? 
+cipher , ciphertext something like 
+plaintext xor , call cipher . 
+key long plaintext english , 
+follow : 
+1 . 
+discover length key count coincidence . 
+see gaines , . 
+try displacement 
+ciphertext , count byte equal . 
+two ciphertext portion use key , something 
+6 % byte equal . 
+use different 
+key , less 0.4 % equal assume random 8-bit byte 
+key cover normal ascii text . 
+smallest displacement 
+indicate equal key length repeat key . 
+2 . 
+shift text length xor . 
+
+remove key leave text . 
+since 
+english 1 bit real information per byte , 2 stream 
+text together 2 bit info per 8-bit byte , provide 
+plenty redundancy choose unique decryption . 
+fact 
+one stream text 1 bit per byte . 
+key short , might even easier treat 
+standard polyalphabetic substitution . 
+old cryptanalysis 
+text show break . 
+possible method , 
+hand expert , ten time much text key . 
+see , example , gaines , . 
+send encrypted mail unix ? 
+pgp , , pem , ... 
+one popular method , use des command : 
+cat file | compress | des | | mail 
+meanwhile , de jure internet standard work call 
+pem privacy enhance mail . 
+describe rfc 1421 
+1424 . 
+join pem mailing list , contact . 
+beta version pem test time 
+write . 
+also two program available public domain encrypt 
+mail : pgp . 
+available ftp . 
+
+newsgroup : . 
+faq 
+well . 
+pgp commonly use outside usa since use rsa algorithm 
+without license rsa 's patent valid least primarily 
+usa . 
+commonly use inside usa since use 
+freely available within usa available shipment outside 
+usa . 
+since program use secret key algorithm encrypt body 
+message pgp use idea ; use des rsa encrypt 
+message key , able interoperate freely . 
+although 
+repeat call understand 's format 
+algorithm choice , interoperation available time far 
+know . 
+unix crypt command secure ? 
+. 
+see . 
+program available call cbw crypt 
+breaker 's workbench use attack 
+file encrypt crypt . 
+one source cbw . 
+use compression encryption ? 
+number people propose perfect compression follow 
+simple encryption method e.g. , xor repeat key . 
+unfortunately , compress perfectly know exact 
+distribution possible input . 
+practical purpose 
+impossible describe `` typical english text '' beyond coarse 
+characteristic single-letter frequency . 
+build 
+sophisticated model input , enemy 
+slightly accurate model , 'll able find 
+redundancy compress output . 
+note nearly practical compression scheme , unless 
+design cryptography mind , produce output 
+actually start high redundancy . 
+example , output 
+unix compress begin well-known `` magic number '' 
+serve enter wedge cryptanalysis . 
+say compression encryption inherently 
+bad idea ; , carefully , means 
+remove need strong encryption . 
+compression encryption silly . 
+unbreakable cipher ? 
+yes . 
+one-time pad unbreakable ; see part 4 . 
+unfortunately 
+one-time pad require secure distribution much key material 
+plaintext . 
+course , cryptosystem need utterly unbreakable 
+useful . 
+rather , need strong enough resist attack 
+likely enemy whatever length time datum protect 
+expect remain valid . 
+`` random '' mean cryptography ? 
+cryptographic application demand much pseudorandom 
+number generator application . 
+source bit 
+cryptographically random , must computationally impossible 
+predict nth random bit give complete knowledge 
+algorithm hardware generate stream sequence 
+0th bit , n lifetime source . 
+software generator also know pseudo-random function 
+expand truly random seed longer string apparently 
+random bit . 
+seed must large enough guess 
+opponent . 
+ideally , also truly random perhaps 
+generate hardware random number source . 
+sparcstation 1 workstation could , example , 
+generate random number use audio input device source 
+entropy , connect anything . 
+example , 
+cat | compress - > foo 
+give file high entropy random much randomness 
+. 
+one encrypt file use part key , 
+example , convert seed entropy pseudo-random 
+string . 
+look hardware device provide entropy , 
+important really measure entropy rather assume 
+look complicate human , must `` random '' . 
+
+example , disk operation completion time sound like might 
+unpredictable many people spinning disk much like 
+clock output completion time relatively low entropy . 
+unicity point a.k.a. unicity distance ? 
+see . 
+unicity distance approximation amount 
+ciphertext sum real information entropy 
+corresponding source text encryption key equal number 
+ciphertext bit use . 
+ciphertext significantly longer 
+show probably unique decipherment . 
+use 
+back claim validity cryptanalysis . 
+ciphertext significantly shorter likely 
+multiple , equally valid decryption therefore gain security 
+opponent 's difficulty choose correct one . 
+unicity distance , like statistical information-theoretic 
+measure , make deterministic prediction rather give 
+probabilistic result : namely , minimum amount ciphertext 
+likely single intelligible 
+plaintext correspond ciphertext , possible key 
+try decryption . 
+work cryptologist normally 
+deal unicity distance . 
+instead directly determine 
+likelihood event interest . 
+let unicity distance cipher d character . 
+fewer 
+d ciphertext character intercept , 
+enough information distinguish real key set 
+possible key . 
+des unicity distance 17.5 character , 
+less 3 ciphertext block block correspond 
+8 ascii character . 
+may seem alarmingly low first , 
+unicity distance give indication computational work 
+require find key approximately d character 
+intercept . 
+fact , actual cryptanalysis seldom proceed along line use 
+discuss unicity distance . 
+like measure key 
+size , unicity distance something guarantee insecurity 
+small , guarantee security high . 
+
+practical cryptosystem absolutely impervious analysis ; 
+manner characteristic might serve enter `` wedge '' crack 
+cipher message . 
+however , similar information-theoretic 
+consideration occasionally useful , example , determine 
+recommend key change interval particular cryptosystem . 
+cryptanalyst also employ variety statistical 
+information-theoretic test help guide analysis 
+promising direction . 
+unfortunately , literature application information 
+statistics cryptanalysis remain classified , even seminal 
+1940 work alan turing see . 
+insight 
+possibility , see . 
+key management important ? 
+one fundamental axiom cryptography enemy 
+full possession detail general cryptographic system , 
+lack specific key datum employ encryption . 
+
+course , one would assume cia make habit tell 
+mossad cryptosystem , mossad probably find anyway . 
+repeat use finite amount key provide redundancy 
+eventually facilitate cryptanalytic progress . 
+thus , especially 
+modern communication system vast amount information 
+transfer , party must sound cryptosystem 
+also enough key material cover traffic . 
+key management refer distribution , authentication , 
+handling key . 
+publicly accessible example modern key management technology 
+stu iii secure telephone unit , classify use 
+employ individual code `` crypto ignition keys '' central key 
+management center operate nsa . 
+hierarchy 
+certain cik use authorize cryptographic control 
+personnel validate issuance individual traffic key 
+perform function , 
+reporting lose cik . 
+give inkling extent key management 
+problem . 
+public-key system , several related issue , 
+many `` trust ? '' 
+use pseudo-random chaotic number key stream ? 
+chaotic equation fractal produce apparent randomness 
+relatively compact generator . 
+perhaps simplest example 
+linear sequence , one popular type random 
+number generator , obvious dependence seed 
+output . 
+unfortunately graph sequence , 
+high enough dimension , show regular lattice . 
+mathematically 
+lattice correspond structure notoriously easy 
+cryptanalyst exploit . 
+complicated generator 
+complicated structure , make interesting picture -- 
+cryptographically strong sequence computable 
+structure . 
+see , exercise ; ; . 
+correct frequency list english letter ? 
+three answer question , slightly deeper 
+one . 
+find first answer various book : 
+namely , frequency list compute directly certain sample 
+english text . 
+course list `` correctly '' compute , 
+exactly list get depend sample take . 
+second answer question make sense . 
+
+mean `` english letter '' ? 
+`` english language '' 
+fix , finite , close object exactly characterize . 
+
+change time ; different different author . 
+particular message different statistics 
+language whole . 
+third answer yes , particular message go 
+exactly characteristic english general , 
+reasonable statistical use slight discrepancy matter . 
+fact entire field call `` bayesian statistics '' 
+buzzword `` maximum entropy method '' `` maximum likelihood 
+estimation '' study question like `` chance 
+text letter frequency english ? '' 
+come 
+reasonably robust answer . 
+make list sample english text . 
+
+good enough practical work , use properly . 
+enigma ? 
+`` project datum security look source 
+information german enigma code break 
+british wwii . '' 
+see , , , , . 
+shuffle card ? 
+card shuffling special case permutation array 
+value , use random pseudo-random function . 
+possible output 
+permutation process equally likely . 
+, 
+need random function x produce uniformly 
+distribute random integer interval . 
+give 
+function , shuffle follow c code : assume 
+length array arr swap interchange value two 
+address give 
+n ; n > 0 ; n -- swap & arr n +1 , & arr n ; 
+x achieve exactly simple % x since 
+'s interval may divisible x , although case 
+error small . 
+cover case , one take 's 
+modulus mod x , call number y , return value less 
+y , go back get another value . 
+foil pirate encrypt cd-rom ? 
+someone frequently express desire publish cd-rom 
+possibly multiple piece software , perhaps encrypted 
+separately , want use different key user perhaps 
+even good limited period time order avoid piracy . 
+far know , impossible , since nothing standard 
+pc workstation hardware uniquely identify user 
+keyboard . 
+identification , cd-rom could 
+encrypt key base part one sell user 
+part unique identifier . 
+however , case cd-rom one 
+kind defeat intended purpose . 
+cd-rom encrypt mass produce , must 
+key set key encryption produce stage 
+process . 
+key useable copy cd-rom 's datum . 
+pirate need isolate key sell along 
+illegal copy . 
+automatic cryptanalysis simple cipher ? 
+bruce schneier say : orem , 
+utah sell product break password scheme number 
+popular macintosh pc software package . 
+telephone number 
+
+pd software cite many papers 
+subject ... 
+peleg , s. rosenfeld , a. `` break substitution cipher use 
+relaxation algorithm '' comm . 
+acm vol . 
+22 11 pp nov. 1979 
+lucks , michael , `` constraint satisfaction algorithm 
+automate decryption simple substitution cipher '' , advance 
+cryptology -- crypto ' 88 , springer lecture notes computer 
+science , vol . 
+403 paper also contain reference earlier 
+work subject . 
+john carrol steve martin , `` automated cryptanalysis 
+substitution cipher '' , , vol x number 4 , oct 86 . 
+john carrol lynda robbins , `` automated cryptanalysis 
+polyalphabetic ciphers '' , , vol xi number 4 , oct 87 
+
+martin kochanski , `` survey datum insecurity package '' , 
+, vol xi number 1 , jan 87 
+martin kochanski , `` another datum insecurity package '' , , 
+vol xii number 3 , july 88 , . 
+vol xiii number 4 1989 pp . 
+king bahler , `` probabilistic relaxation cryptanalysis 
+simple substitution cipher '' 16 3 . 
+king bahler , `` algorithmic solution sequential homophonic 
+cipher '' . 
+, april 93 press . 
+r. spillman , `` use genetic algorithm cryptanalysis 
+simple substitution cipher '' , , vol xvii number 1 , jan 93 
+. 
+code system use vcr + ? 
+one frequently ask question vcr + code 
+work . 
+follow article attempt describe . 
+k. , c. welch , a. kinsman , `` decode vcr controller code , '' 
+, 16 3 , july 1992 , pp . 

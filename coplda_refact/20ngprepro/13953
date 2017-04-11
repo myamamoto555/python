@@ -1,0 +1,43 @@
+: vinod k nair 
+subject : use display output ? 
+organization : worcester polytechnic institute , worcester , ma 
+lines : 46 
+distribution : world 
+: 
+hello , write program fork number child process 
+child print thing screen quite messy 
+one window ... 
+`` - '' option seem solution open 
+slave window display output use follow code 
+open pty take stevens ... manage open 
+successfully ... 
+problem however write ? 
+please help ! 
+static char 12 ; 
+int void ; 
+int void 
+
+int , fd ; 
+char ptr ; 
+struct stat ; 
+static char `` '' ; 
+static char `` '' ; 
+ptr ; ptr ! 
+0 ; ptr + + 
+, '' '' ; 
+8 ptr ; 
+9 ' 0 ' ; 
+stat , & < 0 
+break ; 
+0 ; < 16 ; + + 
+9 ; 
+fd open , > 0 
+return fd ; 
+
+
+return -1 ; 
+
+-- 
+vinod email : 
+eye eye make whole world blind 
+- mohandas karamchand gandhi 

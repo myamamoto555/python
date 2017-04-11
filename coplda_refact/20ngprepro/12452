@@ -1,0 +1,33 @@
+: phil burg 
+subject : re : loopback connector make ? 
+organization : csiro division entomology , canberra , australia 
+lines : 38 
+shaw goh write : 
+> write : 
+> : need know pin connect make loopback connector serial 
+> : port build one . 
+loopback connector use test 
+> : serial port . 
+> : 
+> : thanks help . 
+> : 
+> : 
+> : steve 
+> : 
+> 
+> 
+serial loopback plug , need connect follow 
+pin : 
+pin 1 pin 7 
+pin 2 pin 3 
+pin 4 , 5 8 together 
+pin 6 , 11 , 20 22 together 
+pin 15 , 17 23 together , 
+pin 18 pin 25 . 
+. 
+note lot pin redundant 
+many implementation ... 
+phil 
+
+phil burg computer unit , csiro division entomology australia 
+life : sexually transmit disease 100 % mortality rate . 

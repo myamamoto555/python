@@ -1,0 +1,62 @@
+: jan van loenen 
+subject : re : diamond , win 3.1 , mouse cursor 
+lines : 47 
+a.b. lindbergh write : 
+> article < > a.b. lindbergh write : 
+
+anybody see mouse cursor distortion run diamond driver ? 
+sorry , know version driver indication menu recently 
+deliver gateway system . 
+go try latest driver diamond bbs wonder 
+anyone else see . 
+
+> followup , co-worker 's machine . 
+latest 2.03 driver . 
+> happen use driver . 
+sometimes take minute 
+> cursor wig , eventually mode . 
+
+> something step memory video card want . 
+exclude 
+> line problem persist . 
+> perhaps something specific gateway machine component . 
+> eisa bus ? 
+controller . 
+ah well , 
+> hope kind ` known problem ' somebody see 
+> . 
+perhaps call gateway order , find folk 
+> usually far know . 
+several problem card . 
+- application crash move mouse vga mode . 
+fix remove 
+line stack 0,0 config.sys . 
+default value stack 
+fine . 
+- random white pixel screen move mouse , 
+256 color graphical mode hardware cursor mode . 
+fix turn 
+hardware scroll `` '' enter graphic 
+mode . 
+also fix problem windowed box window . 
+hardware scroll enable , application write garbage outside 
+window . 
+- screensaver remove cursor 256 color mode hardware 
+cursor . 
+know window problem driver problem . 
+clearly two type cursor remove function : remove - 
+, ignore hardware cursor remove - 
+unconditionally . 
+card hardware cursor problem ? 
+- vesa driver support mode . 
+universal 
+vesa driver run . 
+----------- 
+disclaimer : unless otherwise state , comment entirely . 
+_____________ _____ 
+\ __ __ \ 
+____________ \ \ ____ \ jan van loenen 
+\ ________ \ _ \ _ \ \ \ _____ digital equipment corporation 
+____ \ \ \ \ \ \ \ \ \ 
+\ \ _ \ \ \ \ _ \ \ ____ : : 
+\ ___________ \ ____ \ _________ \ 

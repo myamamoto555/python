@@ -1,0 +1,32 @@
+: karlsen bjorn 
+subject : re : loopback connector make ? 
+: message mon , 19 apr 1993 gmt 
+: 
+: 
+organization : ericsson 
+lines : 27 
+write : 
+> need know pin connect make loopback connector serial 
+> port build one . 
+loopback connector use test 
+> serial port . 
+> 
+> thanks help . 
+recent byte magazine get following : 
+question part answer delete 
+handy soldering iron , loopback plug easy 
+make . 
+serial rs-232 port , use female connector 
+connect pin 1 7 8 ; 2 3 ; 4 6 9 . 
+serial rs-232 
+port , 'll need female connector pin 1 7 ; 
+2 3 ; 4 5 8 ; 6 11 20 22 ; 15 17 23 ; 18 25 
+connect . 
+test centronics parallel port , 'll need 
+connect pin 1 13 ; 2 15 ; 10 16 ; 11 17 ; 12 14 male 
+connector . 
+- stan 
+-- 
+try . 
+use risk . 
+- - 

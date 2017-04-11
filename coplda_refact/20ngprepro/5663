@@ -1,0 +1,55 @@
+: mark lanzo 
+subject : re : key definition emac + x 
+: mark lanzo 
+organization : tekelec inc. , raleigh nc 
+lines : 44 
+prior article andrew jaffe write : 
+> hus . 
+> 
+> use emacs want customize keyboard better . 
+> set stuff . 
+emac , 
+> access certain key 's 
+> keyboard . 
+get e.g. f10 , home , end , , ; 
+> seem either . 
+feeling 
+> fix emac , need 
+> stuff . 
+someone help ? 
+unfortunately , key event handling pretty much 
+emac . 
+run problem back ; solution 
+change source code special key generate 
+character sequence basically encode modifier 
+state escape sequence -- example , sequence `` esc 1 b 7 '' 
+would indicate `` home '' key press , shift key 
+. 
+could also detect standard key odd modifier , 
+`` '' . 
+anybody want change , welcome , ` ll 
+source available comfortable mung 
+bit . 
+basically replace keypress handling code 
+source file `` . 
+c '' . 
+maybe someone osf 
+interested , send tweak , imagine get 
+bigger fish fry hopefully include much talk 
+emac ! 
+. 
+sufficient interest , 'll post mod 
+somewhere , although probably appropriate group . 
+note : 
+special code apply let emac create 
+x11 window . 
+run plain old tty mode 
+include window business usual . 
+patch make version 18.58 , sun os 4.1.2 
+also back hp-ux . 
+patch 
+chunk code ' sun ... ' could 
+easily adapt anything else . 
++ ------------------------------------------------------- + ------- ----- + 
+| mark lanzo | \ \ \ | 
++ ------------------------------------------------------- + -- \ xx ------- + 

@@ -1,0 +1,373 @@
+: marc 
+subject : frequently ask question 
+: . 
+
+expire : thu , 20 may 1993 gmt 
+organization : computer science , indiana university 
+lines : 360 
+: ; version 1.0 ; title `` faq '' 
+originator : 
+: 
+: 1.0 
+: 
+: 31 mar 93 -0500 
+post 
+------------------ 
+listing likely question information , 
+program public key mail encryption . 
+faq , 
+write maintain marc 
+< > . 
+post variety 
+newsgroup monthly basis ; follow-up discussion specific 
+redirect group . 
+new 
+---------- 
+run world wide web archive information . 
+
+contain much anything available elsewhere , 
+convenient pointer current version faq 
+stuff . 
+url `` '' . 
+month 's version fair amount new pointer information 
+patent stuff like . 
+also reorder thing 
+sensible order . 
+hope edit 
+soon . 
+: - 
+disclaimer 
+---------- 
+nothing faq consider legal advice , anything 
+one layperson 's opinion . 
+want real legal advice , 
+talk real lawyer , preferably one experience patent law , 
+export regulation , whatever area law question . 
+list question 
+----------------- 
+1 ? 
+2 get ? 
+3 run machine ? 
+4 work mailer ? 
+5 rsa ? 
+6 des ? 
+7 fingerprint , like md5 ? 
+8 pem ? 
+9 distribute authenticate key ? 
+10 bad idea use patented algorithm standard like pem ? 
+11 ? 
+12 public key look similar ? 
+13 pgp ? 
+14 ? 
+15 mime ? 
+16 ? 
+17 simple way defeat security ... 
+question answer 
+--------------------- 
+1 ? 
+yet complete , useful implementation privacy 
+enhance mail pem . 
+allow electronic mail 
+four security facility provide pem : disclosure protection 
+optional , originator authenticity , message integrity measure , 
+non-repudiation origin always . 
+see : `` pem ? '' 
+write primarily mark riordan < > . 
+code public domain , except rsa routine , 
+library call license rsa data security inc. . 
+current version ; current version 
+macintosh port 0.7 . 
+2 get ? 
+use library cryptographic routine , 
+consider munitions thus distribution 
+person citizen permanent resident u.s 
+canada without export license . 
+license obtain 
+would one likely grant unless rsa key exchange 
+shorten 512 bit symmetric cipher change something 
+weaker des . 
+suggestion situation may 
+change clinton office . 
+author request 
+readme file law violate : 
+export cryptographic code distribution 
+usa canada . 
+personal request , 
+#the author , condition use . 
+note public domain , license 
+include distribution . 
+read use 
+. 
+available via anonymous ftp citizen permanent 
+resident u.s. ; cd read readme 
+file info . 
+note portion 
+product rsa data security , incorporate ; merely help 
+distribute . 
+, well crypt stuff , `` home site '' 
+, open ftp user 
+u.s. canada citizen permanent resident . 
+find 
+obtain access , ftp , cd , read file 
+. 
+convenience , binary many architecture 
+available addition full source tree . 
+3 run machine ? 
+probably . 
+already port flavor 
+unix sunos , next , linux , aix , ultrix , solaris , etc. port 
+macintosh include standard port rather nice 
+port write raymond lau , author stuffit . 
+port 
+expect , help user invite . 
+4 work mailer ? 
+probably . 
+easy clean effective interface depend 
+sophistication modularity mailer , though . 
+user 
+guide , include distribution , discuss way use 
+many popular mailer , include berkeley , mush , elm , mh . 
+code also include allow easy use inside gnu 
+emac . 
+make new interface create improvement one 
+distribution believe convenient use , secure , 
+may useful , feel free post . 
+5 rsa ? 
+rsa crypto system asymmetric , public-key . 
+mean 
+two different , related key : one encrypt one 
+decrypt . 
+one reasonably derive , 
+may publish encryption , public , key widely keep 
+decryption , private , key . 
+anyone use public 
+key encrypt message , hold private key need 
+decrypt . 
+note `` message '' send rsa normally 
+des key real plaintext . 
+see `` des ? '' 
+note provide disclosure protection . 
+
+originator authenticity , message integrity , non-repudiation 
+origin service implement , fingerprint message 
+see `` fingerprint , like md5 ? '' 
+encrypt 
+sender 's private key . 
+recipient , 
+authority , use sender 's public key decrypt confirm 
+message must come sender alter . 
+rsa name three man rivest , shamir adleman 
+invent . 
+find lot rsa modern cryptography 
+general , ftp look . 
+information 
+also may . 
+6 des ? 
+des data encryption standard , widely use symmetric , 
+, crypto system . 
+unlike rsa , des use key 
+encrypt decrypt message . 
+however , des much faster rsa . 
+use des rsa ; generate random key encrypt 
+mail des use key . 
+encrypt key 
+recipient 's public rsa key include result letter , 
+allow recipient recover des key . 
+des sometimes consider weak somewhat old use 
+key length consider short modern standard . 
+however , 
+reasonably safe opponent smaller large 
+corporation government agency . 
+likely pem 
+standard incorporate support symmetric cipher 
+near future , strong feeling pem 
+stable become utilize widely without early problem 
+interoperability . 
+7 fingerprint , like md5 ? 
+md5 message digest algorithm produce rsa data security inc. . 
+provide 128-bit fingerprint , cryptographically secure hash , 
+plaintext . 
+cryptographically secure 
+possible reasonable amount computation produce 
+different plaintext produce fingerprint . 
+thus , 
+instead sign entire message sender 's private key , 
+md5 message need sign authentication . 
+md5 also exchange directly authentication ; example , 
+public key include md5 public key file , 
+party wish confirm key authentic via separate 
+channel merely need exchange md5 key verify accuracy . 
+md5 sometimes use purpose ; example , often 
+use map input arbitrary length 128 bit datum , 
+passphrase interpreter cookie generator . 
+md5 describe entirety include implementation c 
+rfc 1321 . 
+recent suggestion md5 may strong 
+hash originally believe ; presumably hash 
+function use accept true . 
+8 pem ? 
+pem privacy enhance mail , standard allow transfer 
+encrypted electronic mail generate long period time 
+work group expert . 
+describe rfc ; 
+document approve obsolete old rfc . 
+really complete implementation pem , pem 
+specify certificate authenticate key , 
+handle time . 
+addition plan . 
+9 distribute authenticate key ? 
+remote user able send secure mail , must know 
+public key . 
+able confirm message 
+receive come , must know public key . 
+important 
+information accurate ; `` bad guy '' convince 
+key fact , send message read . 
+allow three method key management : central server , 
+distribute finger server , flat file . 
+three 
+describe user guide part distribution . 
+none provide perfect security . 
+pem standard call 
+key management certificate ; addition feature 
+plan , issue still exist . 
+10 bad idea use patented algorithm standard like pem ? 
+issue consider standard process . 
+rfc 1310 , 
+specification internet standard , discussion section 
+6 specification nondiscriminatory availability must 
+meet patented method include standard . 
+rfc 1421 
+address issue regard patent cover public-key 
+cryptography . 
+, course , mean question settle 
+everyone agreement . 
+interesting exchange use 
+patented algorithm standard regard public-key 
+cryptography league programming freedom archive 
+available via ftp : : file 
+. 
+amusingly , lpf file 
+compress patented algorithm . 
+11 ? 
+rsa data security , inc. california-based company 
+specialize cryptographic technology . 
+public key partners 
+firm hold exclusive rights follow u.s. 
+patent corresponding foreign patent : 
+cryptographic apparatus method 
+`` diffie-hellman '' ... ... ... ... ... ... . 
+no. 
+public key cryptographic apparatus 
+method `` '' ... ... ... ... no. 
+cryptographic communications system 
+method `` rsa '' ... ... ... ... ... ... ... no. 
+exponential cryptographic apparatus 
+method `` '' ... ... ... ... no. 
+pkp claim four patent cover know method public key 
+cryptography . 
+two business rather closely related 
+example , person , jim bidzos , president . 
+pkp license technology considerable number 
+company ibm , dec , motorola , at&t , lotus ... use 
+product . 
+pkp also threaten file lawsuit defend 
+patent . 
+originally create connection 
+use library , reason 
+author 's desire see widespread use public-key cryptography . 
+however , ball start roll , people get 
+interested . 
+decide carry ftp site , 
+people start make key contribute 
+code . 
+even win `` best application build 1992 '' 
+award . 
+12 public key look similar ? 
+public key begin pkc public-key cryptography 
+standards identifier describe various characteristic 
+key , first bunch character key may 
+lot people 's key . 
+mean key 
+similar , class key , 
+generate program , length , etc. . 
+13 pgp ? 
+pgp another cryptographic mail program call pretty good privacy . 
+pgp around longer , work somewhat differently . 
+pgp compatible way , though pgp also use rsa . 
+major difference pgp : 
+- pgp key management feature , particularly user without 
+direct network connection . 
+- conform pem rfc thus greater probability 
+work pem software . 
+pgp make attempt 
+compatible anything . 
+- use , library rsa routine 
+come license allow noncommercial use . 
+pgp use 
+implementation rsa . 
+pkp claim violation 
+patent `` make , use sell '' pgp u.s. canada without 
+either license write permission . 
+see : `` disclaimer '' 
+see : `` ? '' 
+phil zimmermann , author 
+pgp , stop distribute threaten legal 
+action ; believe licensing scheme could arrange , 
+happen seem little prospect happen 
+future . 
+acknowledge pgp user 's guide : 
+fact , live usa , federal agency , 
+actually run pgp computer , public 
+partners want forbid run software . 
+pgp 
+. 
+- pgp , send outside 
+u.s. canada without export license . 
+however , pgp 
+already exist many ftp site europe place . 
+whether use pgp whatever , documentation pgp 
+recommend read anyone interested issue . 
+unfortunately , distribute separately program , 
+difficult find u.s. ftp site due 
+liability concern . 
+14 ? 
+stand rabin privacy enhance mail . 
+similar , 
+use public-key cipher invent rabin rsa 
+attempt avoid patent public-key system . 
+
+write mark riordan , later write . 
+distribution halt , contrary belief many 
+include rabin , pkp claim patent broad enough 
+cover cipher employ . 
+claim universally 
+accept , challenge pragmatic reason . 
+really use anymore . 
+compatible pgp . 
+15 mime ? 
+mime stand multipurpose internet mail extensions , 
+describe rfc 1341 . 
+find newsgroup 
+; faq exist . 
+pem interact 
+mime yet entirely clear ; people use stopgap solution 
+mime type order send 
+message mime one . 
+hope standard emerge . 
+draft 
+internet document exist matter . 
+16 ? 
+trust information systems work version privacy 
+enhance mail general availability . 
+last hear , 
+rumor integrate existing mail user agent mh 
+rather stand-alone system , beta test . 
+know 
+much . 
+17 simple way defeat security ... 
+may wish check companion post `` '' 
+discuss obvious attack 's security 
+procedure minimize risk . 
+'s main `` weak area '' 
+probably key distribution . 

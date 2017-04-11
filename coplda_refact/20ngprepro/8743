@@ -1,0 +1,14 @@
+: axel richter 
+subject : true color display pov 
+keyword : pov , 
+: . 
+de 
+organization : hochschule fuer architektur und weimar , germany 
+lines : 6 
+hallo ! 
+get card . 
+try get pov display true color 
+render . 
+try option 
+happen correct . 
+anybody help ? 

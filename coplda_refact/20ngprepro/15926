@@ -1,0 +1,40 @@
+: richard d pierce 
+subject : re : pink noise 
+organization : world public access unix , brookline , ma 
+distribution : 
+lines : 34 
+article < > david sharpe write : 
+> 
+> pink noise white noise equal amount frequency . 
+
+> case around 20-3 .3 k hz range . 
+use 
+> adjust room dynamics stuff like . 
+eq 's 
+> market pink noise build . 
+audio 
+> control know . 
+wrong , wrong , completely wrong little misleading , . 
+white noise random noise whose energy density constant 
+constant bandwidth . 
+, 5 hz wide band 20 hz precisely 
+amount energy 5 hz band 20 khz . 
+pink noise random noise whose energy density constant constant 
+bandwidth . 
+thus , 5 % wide band noise 20 hz whose 
+bandwidth 1 hz contain energy 5 % wide band 20 
+khz whose bandwidth 1000 hz wide . 
+white noise often use spectrum analyzer constant 
+bandwidth , pink noise use real-time analyzer whose 
+bandwidth dependent often describe `` 
+octave '' `` octave '' terminology . 
+white noise , relative pink noise , energy high frequency 
+rate equal 3 db per octave . 
+pink noise , relative white noise , 
+energy low frequency rate , , 3 
+. 
+-- 
+| dick pierce | 
+| loudspeaker software consulting | 
+| 17 street pepperell , ma | 
+| voice fax | 

@@ -1,0 +1,16 @@
+: saeid ` last frontier ' 
+subject : send null character across ethernet 
+: 
+organization : math , stats & cs , dalhousie university , halifax , ns , canada 
+: tin version 1.1 
+lines : 10 
+question regard send null character across ethernet 
+connection . 
+actual problem emac unix need 
+null character set mark unfortunately know 
+send ibm pc across ethernet . 
+wonder 
+know keyboard combination send null character . 
+btw control , shift 2 ctrl @ work . 
+thanks 
+saeid 

@@ -1,0 +1,40 @@
+: brian clark 
+subject : re : high resolution adc mac ii 
+: . 
+
+organization : northwestern university 
+lines : 28 
+article < > , 
+brian clark write : 
+> 
+> know board though plan check , 
+> need careful check monotonicity ratio 
+> many `` 16 bit '' board . 
+nus board clearly 
+> specify term monotonicity , ratio , accuracy , etc ; 
+> range freedom 
+> distortion would expect good , true 16 bit converter . 
+
+> true spectral innovation board , example . 
+boorishly reply , find information 
+already . 
+spec use term loosely follow : 
+: 16 bit converter , 14 bit accuracy 100 khz , 12 bit accuracy 
+200 khz . 
+spec , monotonicity , linearity . 
+8 multiplexed 
+input share single , input sample 
+time , conversion spec sample rate 
+must use . 
+thus , two channel , 14 unknown quality bit 
+50 khz per channel . 
+poorer quality national 
+instruments , sample rate . 
+: 16 bit converter . 
+spec , monotonicity , linearity . 
+
+4 output channel converter . 
+price external converter box , nubus interface 
+board , plus c driver software igor 's $ 2695 . 
+rather 
+steep . 

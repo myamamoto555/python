@@ -1,0 +1,47 @@
+: dan reznik 
+subject : text field dialog widget get focus 
+organization : college engineering , univ. . 
+wisconsin-madison 
+originator : 
+lines : 49 
+use glx widget + athena widget 
+application , , dialog get pop , 
+text entry field focus . 
+code work perfectly 
+use `` pure x '' . 
+relevant portion 
+code . 
+
+int n ; 
+arg warg 16 ; 
+widget button , , dialog ; 
+initialize 
+. 
+. 
+. 
+n 0 ; 
+warg n , , `` foo '' ; n + + ; 
+button `` '' , , 
+, warg , n ; 
+`` '' , , 
+button , null , 0 ; 
+, , , ; 
+n 0 ; 
+warg n , , '' '' ; n + + ; 
+dialog `` '' , , 
+, warg , n ; 
+. 
+. 
+. 
+
+void w , , 
+widget w ; 
+widget ; 
+; 
+
+, ; 
+
+-- 
+way find give focus text field move 
+application window around little bit place right behind popup . 
+pointer would greatly appreciate . 

@@ -1,0 +1,41 @@
+: ray berry 
+subject : re : hard drive security fbi target 
+organization : cascade design automation 
+lines : 32 
+ross anderson write : 
+> article < > , 
+> tim write : 
+> suggest new pc security product design approach - first fill hard 
+> drive 50 % random file 50 % file encrypt number know 
+> key . 
+whenever new secret file create , delete random file 
+> replace real encrypted datum . 
+new file encrypt 
+> known key . 
+better yet , instead thrash around dos file system , take 
+step . 
+write minimal `` file system '' program 
+use file , , list 
+directory . 
+put util , password protect , floppy . 
+catch storage space use util part 
+dos file system . 
+instead , defrag disk , thus pack 
+allocate cluster cluster . 
+use back end 
+partition hold ` stealth ' file system . 
+, leave small 2nd 
+partition disk assign dos . 
+another approach 
+might use directory contain set invariant file 
+system file , instance . 
+due dos allocate minimum storage 
+unit `` cluster '' unused physical space disk 
+tail end file end associate cluster . 
+
+dead space could use hold stealth file 
+system . 
+situation encrypted datum `` appear '' 
+disk . 
+-- 
+ray berry 

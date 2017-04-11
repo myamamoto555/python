@@ -1,0 +1,38 @@
+: joe bear 
+subject : re : run application ? 
+: message thu , 15 apr 1993 gmt 
+organization : lehman brothers 
+lines : 39 
+doesnt matter window mgr run , use x 
+routine : 
+display , w , 
+display display ; 
+window w ; 
+int ; 
+
+w , w , 0 ; 
+perform want ?? 
+article < > john dumais write : 
+newsgroup : 
+path : - - 
+: john dumais 
+sender : news 
+: 
+organization : colorado supernet , inc. . 
+: tin 1.1 
+date : thu , 15 apr 1993 gmt 
+lines : 8 
+try figure way programmatically 
+application run motif window manager . 
+try 
+several approach send event application 's 
+border window , avail ? 
+anyone ? 
+thanks , 
+' 85 
+-- 
+
+joe bear | `` life short ... code hard '' 
+| ... ! 
+| 
+, beeper : | 

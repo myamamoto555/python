@@ -1,0 +1,218 @@
+: 
+subject : program open look toolkit ... 
+organization : lab . 
+lines : 195 
+hus , : 
+study book -- > `` unix desktop guide open look '' . 
+example -- > demonstrate program 
+property chapter 8 . 
+run , show 
+static text message , notice . 
+problem ? 
+thanks advance help !! 
+1 iop 
+
+file : 
+
+show set property window . 
+
+
+< . 
+h > definition 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+file define atom _ ol _ prefix 
+id top-level widget 
+static widget , ; 
+static widget ; 
+static char message `` client use property communicate \ 
+window manager . 
+example illustrate open \ 
+look application request notification window manager \ 
+certain event occur . 
+communication form \ 
+event application process \ 
+. '' 
+; 
+atom use communication 
+atom , , 
+; 
+static void ; 
+static void ; 
+static void ; 
+static void ; 
+static void ; 
+string hold comand line use respond 
+protocol message . 
+
+char 128 ; 
+
+void main , 
+int ; 
+char ; 
+
+widget w ; 
+int ; 
+save command-line use respond 
+protocol message . 
+
+, '' % '' , 0 ; 
+> 1 
+1 ; < ; + + 
+
+, ; 
+, '' '' ; 
+
+create initialize top-level widget 
+0 , `` '' , null , 
+0 , & , ; 
+create widget 
+w `` '' , 
+, , 
+, message , 
+, 200 , 
+null ; 
+create widget later use 
+; 
+intern atom 
+w , 
+`` '' , false ; 
+w , 
+`` '' , false ; 
+w , 
+`` '' , false ; 
+add process event send 
+window manager 
+
+, , true , 
+, null ; 
+realize widget start process event 
+; 
+append property 
+definition property . 
+step 
+require window id top-level widget . 
+window 
+id valid widget realize . 
+
+, , 
+, , 32 , 
+, 
+& , 1 ; 
+, , 
+, , 32 , 
+, 
+& , 1 ; 
+; 
+
+
+static void w , , 
+widget w ; 
+; 
+; 
+
+- > type & & 
+- > _ type 
+
+- > 0 
+
+; 
+
+- > 0 
+
+; 
+
+
+
+
+static void 
+
+display notice give user chance respond 
+, ; 
+
+
+static void 
+
+set property save command-line . 
+
+, , 
+, , 8 , 
+, , 
++ 1 ; 
+
+
+static widget parent 
+widget parent ; 
+
+widget w , , , , ; 
+create button provide callback pop notice 
+w `` '' , 
+, parent , 
+, `` exit ... '' , 
+null ; 
+w , , , null ; 
+create widget . 
+note use 
+instead usual 
+. 
+
+`` '' , 
+, w , 
+null ; 
+get id text control area widget 
+. 
+
+, 
+, & , 
+, & , 
+null ; 
+place message text area 
+, 
+, `` please confirm exit program . '' 
+, 
+null ; 
+add button control area . 
+button appropriate callback . 
+
+`` '' , 
+, , 
+, `` exit '' , 
+null ; 
+, , , null ; 
+`` '' , 
+, , 
+, `` cancel '' , 
+, true , 
+null ; 
+return w ; 
+
+
+static void , 
+widget , ; 
+
+, , , null ; 
+pop widget . 
+widget make 
+sure wait user select 
+one button 's control area . 
+
+, ; 
+
+
+static void w , , 
+widget w ; 
+, ; 
+
+w ; 
+exit 0 ; 
+

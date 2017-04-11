@@ -1,0 +1,54 @@
+: jason s. macdonald 
+subject : re : lc ram upgrade slow ! 
+: . 
+
+: 
+organization : corporation 
+lines : 35 
+andrew write : 
+> speak dale . 
+quite sure macintosh 
+> use full 16-bit 32-bit datum path full advantage . 
+, 
+> run fast two four 30-pin simm would one 
+> simm . 
+, may access assume 32-bit 
+> datum path get first byte first simm , second byte 
+> second , . 
+would mean memory 
+> actually split among four simm , one byte . 
+hand , 
+> could simm interleave word 
+> byte , could successive memory , memory 
+> controller deal eight-bit datum path one . 
+
+> suspect , though , interleave extent 32 bit 
+> read write . 
+would indicate 
+> interleave . 
+> confuse new machine ' 
+> interleave two simm sort , although seem 
+> sort idea . 
+, get essential 64-bit datum path ro 
+> excuse , ram instead 32-bit one . 
+yes , cpu 
+> handle , write successive address speed something 
+> . 
+> , dale , right ? 
+30-pin simm interleave byte , 
+> allow full datum bus ? 
+, common usenet 
+> particular , clueless everyone else ? 
+conclusion draw ? 
+try figure kind 
+memory configuration lc iii 32-bit datapath would fastest . 
+
+idea ? 
+thanks , 
+jason macdonald 
+-- 
+- jason scott macdonald - - 
+`` technology sufficiently advance ____ 
+indistinguishable magic . '' 
+\ `` cat exist 
+-- arthur c. clarke \ may caress lion . '' 

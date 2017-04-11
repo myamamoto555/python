@@ -1,0 +1,78 @@
+: forrest d 
+subject : summary : response research oracle password security 
+summary : oracle password encryption , security 
+keyword : oracle unix network password des 
+organization : world public access unix , brookline , ma 
+lines : 68 
+original post : 
+> build oracle v6 database serve repository 
+> information consider proprietary confidential . 
+
+> want verify security oracle password apply 
+> security checking technique use nix system . 
+> specifically would like use crack , something like check 
+> encrypted datum easily guess password . 
+> 
+> use ` crack ' would depend oracle use unix password 
+> encryption scheme , anyone know case , 
+> method use ? 
+> 
+> method security checking audit oracle 
+> environment would much appreciate . 
+article scratch surface security 
+consideration , comment request . 
+email : 
+thanks people respond , usenet 
+oracle corp. . 
+common response suggest use oracle audit 
+feature password control access opinion 
+include suggestion use use . 
+also advise 
+use table view refine granularity access control . 
+one important security consideration networked installation 
+account presume client host provide user 
+authentication . 
+server user secure 
+_ least _ secure machine network . 
+hence probably 
+define account system pc 's , limit access 
+account datum security concern . 
+unix oracle 
+server provide disable access network 
+option , rely host security local process . 
+internally oracle provide powerful well document sic 
+audit mechanism dba use monitor system 
+datum access . 
+tool use track primary security 
+risk within oracle environment . 
+oracle password security base proprietary usage des 
+encryption . 
+oracle corp. state algorithm prone 
+attack . 
+difficult claim substantiate 
+since algorithm unknown . 
+concern user 
+choose easily guess password . 
+_ _ cracker gain access 
+oracle database file host operating system , 
+could extract ` ' password datum apply 
+cryptanalysis technique learn user password . 
+security risk go , scenario pretty low severity . 
+certainly intruder access raw database file , 
+access datum . 
+cracker _ could _ break 
+password , however , could substantial damage without 
+alert auditing mechanism 's , leave audit trail 
+would point valid user . 
+present oracle like unix 
+provide native means ensure password 
+. 
+computer security , important defense 
+educate user safe choice password . 
+technique 
+well discuss internet rfc # 1281 crack manual , 
+available ftp archive server , unix r system 
+security curry , david a. - 1992 
+forrest 
+boston scientific corp. . 
+watertown ma 

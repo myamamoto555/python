@@ -1,0 +1,23 @@
+: john nagle 
+subject : re : point polygon routine need 
+organization : netcom on-line communication services guest 
+lines : 18 
+andrew lewis tepper < > write : 
+> know routine `` standard '' , come recently : 
+> polygon point p1 ... pn , point p , make table follow : 
+> 1 angle p1 p p2 
+> 2 angle p2 p p3 
+> ... 
+> n angle pn p p1 
+> express angle : - pi < angle < pi . 
+> add entry table . 
+sum 0 , point outside . 
+
+> sum + - pi , point inside . 
+point + - , 
+> strange polygon . 
+angle + - pi , point 
+> border . 
+think know , neat . 
+extend 3d ? 
+john nagle 

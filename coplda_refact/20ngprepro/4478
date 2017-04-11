@@ -1,0 +1,41 @@
+subject : access bus i2c bus 
+: 
+organization : industrial research ltd. , new zealand . 
+: 
+lines : 37 
+: mx % `` '' 
+: 
+cc : 
+: re : ^ 2c bus long haul serial also 
+: < > 
+receive : mx v3 .1 c smtp ; tue , 06 apr 
+1993 
+receive : 4.1 .1 id 
+; mon , 5 apr 93 pdt 
+receive : 4.1 
+inbound id ; mon , 5 apr 93 pdt 
+receive : 4.1 .1 id ; mon , 5 apr 93 
+pdt 
+date : mon , 5 apr 93 pdt 
+: andrew macrae 
+: < > 
+: 
+subject : re : ^ 2c bus long haul serial also 
+cc : 
+: 693 
+article < > write : 
+> require get onto access bus ? 
+nice thing 
+> i2c require one 8 ... 16 pin dil chip , ie cheap 
+> easy . 
+anyone design bus , trouble bus require 
+> host interface chip often on-board intelligence . 
+bruce , 
+latest information call 
+industry group . 
+also , sun host next 
+meeting group april 19th , mountain view . 
+reason 
+able post newsgroup today , please feel free pass 
+information see fit . 
+andrew macrae 

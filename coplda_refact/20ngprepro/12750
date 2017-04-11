@@ -1,0 +1,26 @@
+: paul vixie 
+subject : re : 17 '' monitor vga ?? 
+organization : dec network systems lab 
+lines : 15 
+distribution : usa 
+: 
+: message 18 apr 1993 -0400 
+yes , monitor 3 bnc 's , expect 
+get composite sync signal `` green '' ? 
+ought 
+little black box take vga signalling , vert , 
+composite sync different pin , plus r , g , b pair 
+merge green composite sync together output . 
+
+1v analog , far know . 
+build op-amp 
+think get shield well enough handle frequency 
+involve without lot shadow junk screen . 
+anyone know vga - > rgb composite sync green converter ? 
+-- 
+paul vixie , dec network systems lab 
+palo alto , california , usa `` rebel , conformist ; 
+< > thing , anyway . 
+find 
+< > path , stay . '' 
+- 

@@ -1,0 +1,51 @@
+: alexander samuel mcdiarmid < > 
+subject : re : centris 610 video problem - also ! 
+organization : sophomore , mechanical engineering , carnegie mellon , pittsburgh , pa 
+lines : 40 
+distribution : comp 
+: . 
+
+: < > 
+: singh 
+subject : re : centris 610 video problem - also ! 
+date : sat , 17 apr 1993 gmt 
+> computer set 256 color certain operation , 
+> particularly vertical scroll window , horizontal white line 
+> appear monitor generally always spare open 
+> window . 
+line operation continue . 
+
+> window move involved area screen move away 
+> line disappear area screen . 
+problem 
+> observe monitor configure 16 color 14 inch apple 
+> monitor 256 color use . 
+> 
+> suspect bad video ram chip certain . 
+problem 
+> apparent since day 1 get worse . 
+exactly problem . 
+, fine switch 16 
+color smaller monitor . 
+configuration : 
+model : centris 610 4 hd , 512 vram , card 
+monitor : mag 16 '' monitor adaptor resolution 832 624 
+discover problem little ago plug 
+new mag monitor . 
+seem appear either scroll 
+window use alpha word enter . 
+guess bad vram well . 
+really hope design flaw . 
+
+anyone apple listen ? 
+singh 
+
+
+try find init call basic color monitor . 
+clear 
+prob centris 610 's vga type monitor . 
+know 
+exist , somewhere copy , know 
+never get around install . 
+problem sony 1604 . 
+- a. 

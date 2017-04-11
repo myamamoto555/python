@@ -1,0 +1,34 @@
+: david brooks 
+subject : re : q : dialog shell 
+organization : open software foundation 
+lines : 29 
+david young write : 
+| 
+| use create 
+| use color available 8-bit 
+| display ... popup prompt user 
+| input want set 
+| . 
+result cursor 
+| get , cursor 
+| window get 
+| default . 
+would like cursor _ _ 
+| window application , get . 
+think correct behavior . 
+remember default 
+keyboard mean cmap focus follow 
+keyboard focus . 
+since dialog modal , mwm allow keyboard 
+focus onto main shell , allow cmap focus either . 
+since sound though : pointer , 
+suggest set : pointer also . 
+way , cmap 
+focus slavishly follow keyboard focus , beat path . 
+: explicit , set cmap focus 
+explicit also , need binding _ color , probably 
+. 
+-- 
+david brooks 
+open software foundation 
+foote 

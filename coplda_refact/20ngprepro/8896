@@ -1,0 +1,90 @@
+: man behind curtain 
+subject : view isomorphic perspective ? 
+organization : texas a&m university 
+lines : 87 
+: 
+keyword : isomorphic perspective 
+work upon game use isometric perspective , similar 
+use populous . 
+basically , look room look 
+similar following : 
+xxxx 
+xxxxx xxxx 
+xxxx x xxxx 
+xxxx x xxxx 
+xxxx 2 xxxx 1 xxxx 
+x xxxx xxxx x 
+x xxxx xxxx x 
+x xxxx o xxxx x 
+xxxx 3 | \ xxxx 
+xxxx ~ \ xxxx 
+xxxx xxxx 
+xxxx xxxx 
+xxxx 
+good thing perspective look move 
+around three dimension still maintain peripheral vision . 
+
+since viewpoint always , routine hard-coded 
+particular vantage . 
+case , wall two 's rise edge slope 
+. 
+also use mode x , 320x240 . 
+run two problem ; sure reader try 
+, perhaps formulate opinion : 
+1 routine draw wall 1 & 2 trivial , run 
+packed - > planar image , dismay `` . '' 
+
+consider anti-aliasing routine speed really necessary . 
+worth effort artist draw wall already skewed , 
+thus assure nice image , much burden ? 
+2 wall 3 present problem ; algorithm use tend overly distort 
+original . 
+try decide paper pixel go , fail . 
+anyone come method map planar crosswise sheared 
+shape ? 
+currently take : 
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 
+17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
+33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 
+produce : 
+1 2 3 4 
+33 34 35 36 17 18 19 20 5 6 7 8 
+49 50 51 52 37 38 39 40 21 22 23 24 9 10 11 12 
+53 54 55 56 41 42 43 44 25 26 27 28 13 14 15 16 
+57 58 59 60 45 46 47 48 29 30 31 32 
+61 62 63 64 
+line 1 follow slope . 
+line 2 directly line 1 . 
+line 3 move line leave 4 pixel . 
+line 4 line 3 . 
+fill shape exactly without unfilled pixel . 
+
+cause distortion . 
+anyone come better way ? 
+perhaps necessary simply draw original bitmap 
+already skew ? 
+particularly sticky problem perspective ? 
+plan hide plane removal use . 
+location store x , y , z form . 
+notice , top line wall 2 wall 1 
+parallel bottom line . 
+appear 
+optical illusion ie . 
+appear either inside outside 
+cube , depend mood . 
+vanish point . 
+simplify drawing code object 
+change size move room . 
+decide 
+approximation alright , since small displacement large enough 
+distance cause little change apparent size object 
+real perspective drawing . 
+hopefully `` context '' picture ie . 
+chair floor , torch 
+hang wall dispell visual ambiguity . 
+thanks advance help . 
+-- 
+till next time , \ o \ o 
+v \ o v 
+< > sam inala < > v 

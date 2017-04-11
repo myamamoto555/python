@@ -1,0 +1,41 @@
+: andre beck 
+subject : re : title 
+organization : dept. computer science , tu dresden , germany . 
+lines : 32 
+distribution : world 
+: 
+: . 
+de 
+keyword : 
+article < > , thomas wolfram write : 
+| > > hey guy ! 
+| > > work many station would like name current 
+| > > title open machine name 
+| > > close . 
+word , want $ host $ appear 
+| > > title open $ host close . 
+| > > ? 
+| > 
+| > almost window manager twm , mwm , derivate support 
+| > escape sequence . 
+purpose put follow 
+| > . 
+login use csh , sh modify . 
+| > 
+| > `` $ term '' `` '' 
+| > 
+| > 
+1 feature window manager . 
+2 sequence ansi compatible , ? 
+anyone know compatible sequence 
+? 
+would think dc device control sequence introduce , 
+may csi sequence exist , ? 
+must work vt compatible , may work 
+. 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

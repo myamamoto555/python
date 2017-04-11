@@ -1,0 +1,110 @@
+: michael 
+distribution : world 
+subject : re : null modem cable ? 
+: tin version 1.1 
+organization : private coherent system 
+lines : 76 
+kevin kimmell - computer undergrad write : 
+> simple concept null modem 
+> cable . 
+actually idea , count last statement . 
+
+> asking pin use specification ? 
+want 
+> solder one instead buy one . 
+even know port 
+> use . 
+
+pin # pin # name ccitt description 
+
+1 fg aa 101 -- frame ground 
+2 3 td ba 103 -- > transmit datum 
+3 2 rd bb 104 < -- receive datum 
+4 7 rts ca 105 -- > request send 
+5 8 ct cb 106 < -- clear send 
+6 6 dsr cc 107 < -- datum set ready 
+7 5 sg ab 102 -- signal ground 
+8 1 dcd cf 109 < -- datum carrier detect 
+9 -- -- - - positive dc test voltage 
+10 -- -- - - negative dc test voltage 
+11 qm -- - < -- equalizer mode 
+12 scf 122 < -- secondary datum carrier detect 
+13 sct scb 121 < -- secondary clear send 
+14 std sba 118 -- > secondary transmit datum 
+15 tc db 114 < -- transmitter clock 
+16 srd sbb 119 < -- secondary receiver clock 
+17 rc dd 115 -- > receiver clock 
+18 dcr -- - < -- divide clock receiver 
+19 srt sca 120 -- > secondary request send 
+20 4 dtr cd 108.2 -- > datum terminal ready 
+21 sq cg 110 < -- signal quality 
+22 9 rus ce 125 < -- ring indicator 
+23 -- ch 111 -- > datum rate selector 
+24 -- ci 112 < -- datum rate selector 
+25 tc da 113 < -- transmit clock 
+. 
+- . 
+- . 
+- another post . 
+- . 
+- . 
+- 
+. 
+- . 
+- . 
+- sorry , know author . 
+- . 
+- . 
+- . 
+- . 
+- . 
+connect device 
+------------------ 
+normally , 7 wire connection use . 
+connect : 
+
+rxd1 
+
+
+
+
+
+modem connect , add line following : 
+rus , dcd 
+software want , connect . 
+beware ! 
+pc use pin 2 pin 3 , modem normally 
+pin reverse ! 
+allow easily connect , 
+pin 2 etc. . 
+connect two pc , cross . 
+hardware handshaking need , so-called connection 
+use . 
+connect : 
+
+rxd1 
+
+additionally , connect software need : 
+& 
+& 
+
+
+need long wire ! 
+connection use establish 
+two pc see software section detail . 
+remember : name dtr , dsr , cts & rts refer line see 
+pc . 
+mean datum set dtr & rts incoming signal 
+dsr & cts output ! 
+. 
+- . 
+- . 
+- . 
+- end . 
+- . 
+- . 
+- 
+michael 
+-- 
+michael 59 
+germany 4040 neuss voice : 

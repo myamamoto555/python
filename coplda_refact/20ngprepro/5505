@@ -1,0 +1,36 @@
+: singh 
+subject : re : centris 610 video problem - also ! 
+organization : m.i.t. media laboratory 
+distribution : comp 
+lines : 27 
+> computer set 256 color certain operation , 
+> particularly vertical scroll window , horizontal white line 
+> appear monitor generally always spare open 
+> window . 
+line operation continue . 
+
+> window move involved area screen move away 
+> line disappear area screen . 
+problem 
+> observe monitor configure 16 color 14 inch apple 
+> monitor 256 color use . 
+> 
+> suspect bad video ram chip certain . 
+problem 
+> apparent since day 1 get worse . 
+exactly problem . 
+, fine switch 16 
+color smaller monitor . 
+configuration : 
+model : centris 610 4 hd , 512 vram , card 
+monitor : mag 16 '' monitor adaptor resolution 832 624 
+discover problem little ago plug 
+new mag monitor . 
+seem appear either scroll 
+window use alpha word enter . 
+guess bad vram well . 
+really hope design flaw . 
+
+anyone apple listen ? 
+singh 
+

@@ -1,0 +1,418 @@
+: dan jacobson 
+subject : re : ftp usgs terrain datum 
+organization : johns hopkins univ. . 
+welch medical library 
+lines : 370 
+article < > benjamin write : 
+> article < > dan jacobson write : 
+> 
+> lot interesting stuff gopher - delete 
+> 
+never hear gopher worry free net , 
+write note would like information get start . 
+
+
+best luck , 
+
+dan jacobson 
+
+
+> 
+> 
+> hear lose intro post come back - 
+> could post ? 
+think general interest . 
+> 
+> 
+> ben 
+> -- 
+> ben 
+heavily version gopher faq intend 
+give people start gopher enough information get 
+client jump - complete version obtain 
+describe . 
+gopher client point 
+welcome ! 
+dan jacobson 
+
+----- 
+common question answer internet gopher , 
+protocol make world wide information service , 
+many implementation . 
+post , 
+, every two week . 
+recent version faq get gopher , 
+via anonymous ftp : 
+: . 
+
+without ftp access send e-mail 
+`` send . 
+'' body find 
+ftp e-mail . 
+
+list question gopher faq : 
+q0 : gopher ? 
+q1 : get gopher software ? 
+q2 : need access gopher ? 
+q3 : publicly available login gopher ? 
+q4 : develop gopher software ? 
+q5 : relationship gopher wais , www , ftp ? 
+q6 : papers article describe gopher available ? 
+q7 : veronica ? 
+q8 : available biology ? 
+
+q0 : gopher ? 
+a0 : internet gopher provide distribute 
+information delivery system around 
+information system cwi readily construct . 
+
+provide delivery vehicle local information , gopher 
+facilitate access gopher information server 
+throughout world . 
+
+q1 : get gopher software ? 
+a1 : via anonymous ftp . 
+look directory 
+
+-------------------------------------------------------------------- 
+q2 : need access gopher ? 
+a2 : need gopher `` client '' program run local pc 
+workstation 
+client follow system . 
+directory 
+follow name location client anonymous 
+ftp site directory 
+. 
+unix curses & emacs : .12 . 
+
+athena : .2 . 
+
+motif : moog 
+: 
+macintosh hypercard : 
+macintosh application : 
+dos driver : _ client 
+nextstep : 
+: _ cms 
+vms : 
+2.0 : 
+: 
+many client server develop , 
+follow attempt comprehensive list . 
+microsoft windows winsock client `` gopher book '' 
+: _ 
+macintosh application , `` '' . 
+: 
+another macintosh application , `` '' . 
+: 
+port unix curse client 
+: 
+port unix curse client 
+: . 
+exe 
+beta version pc gopher client novell 's lan workplace 
+dos 
+: 
+vms client use wollongong 
+. 
+edu : . 
+share 
+note : macintosh client require . 
+client also fetch via gopher client 
+. 
+put follow gopher server : 
+type 1 
+host 
+port 70 
+path 
+name gopher software distribution . 
+point gopher client , port 70 
+look gopher directory . 
+also number public telnet login site available . 
+university minnesota operate one machine 
+`` '' see q3 
+information . 
+recommend run client 
+software instead log public telnet login site . 
+
+client use custom feature local machine mouse , 
+scroll bar , etc. local client also faster . 
+
+q3 : publicly available login ie place telnet 
+order get taste gopher gopher ? 
+a3 : short list , use site closest minimize 
+network lag . 
+telnet public logins : 
+hostname ip # login area 
+------------------------- --------------- ------ ------------- 
+gopher north america 
+gopher north america 
+panda north america 
+gopher europe 
+info australia 
+gopher sweden 
+gopher south america 
+gopher ecuador 
+gopher japan 
+recommend run client software instead 
+log public login site . 
+client use 
+custom feature local machine mouse , scroll bar , etc. . 
+give faster response . 
+furthermore many basic feature 
+client - save file hard drive , print file 
+local printer , view image , retrieve file ftp 
+site etc. ... available telnet login . 
+
+q4 : develop gopher software ? 
+a4 : gopher originally develop april 1991 university 
+minnesota microcomputer , workstation , networks center help 
+campus find answer computer question . 
+since grow full-fledged world wide information 
+system use large number site world . 
+many people contribute project , numerous 
+count . 
+people behind much gopher software reach 
+via e-mail via paper mail : 
+internet gopher developers 
+100 union st. se # 190 
+minneapolis , mn usa 
+via fax : 
++1 
+
+q5 : relationship gopher wais , www , ftp ? 
+a5 : gopher intimately intertwine two system . 
+ship unix gopher server capability : 
+- search local wais index . 
+- query remote wais server funnel result gopher 
+client . 
+- query remote ftp site funnel result gopher 
+client . 
+- query www world wide web client either use 
+build gopher query use native http query . 
+
+q6 : papers article describe gopher available ? 
+a6 : gopher whole chapter devote : 
+_ _ , ed kroll , o'reilly , 1992 editors note : 
+. 
+. 
+great book , go buy bunch ! 
+_ : 's guide world online '' 
+jonathan . 
+publish , 
+bellevue , wa . 
+1993 . 
+516 pp . 
+isbn . 
+contact info : 
+_ harley hahn . 
+publisher mcgraw hill , 
+inc. ; 1993 isbn 
+reference include : 
+_ _ , `` connexion '' , july 1992 , interop . 
+_ _ `` internet society news '' , 1992 , 
+subscribe internet society news send e-mail 
+
+_ _ , proceedings twenty-third 
+ietf , , section 5.3 
+_ _ , proceedings canadian network ' 92 
+_ _ , internet : get start , 
+international , section 
+_ , computerworld , 
+july 20 , 1992 
+_ _ _ , o'reilly . 
+, b. oct 1992 
+`` : make spires database accessible 
+gopher protocol '' . 
+spires fall '92 workshop , chapel hill , north 
+carolina . 
+tomer , c. information technology standards libraries , 
+_ journal american society information science _ , 
+43 8 , sept 1992 . 
+
+q7 : veronica ? 
+a7 : veronica : easy index 
+computerized archive . 
+veronica offer keyword search menu title 
+entire gopher web . 
+archie ftp archive , veronica 
+. 
+veronica search produce menu gopher 
+item , direct pointer gopher datum source . 
+veronica access gopher client , easy 
+use , give access type datum support 
+gopher protocol . 
+try veronica , select `` gopher '' menu 
+minnesota 's gopher server , point gopher : 
+name veronica search menu item 
+type 1 
+port 70 
+path 
+host 
+
+q8 : available biology ? 
+a8 : incredible amount software , datum information 
+biologist gopher . 
+brief list biological database search 
+via gopher : 
+2 . 
+bdt tropical data base searches 
+3 . 
+buyer guide - online catalogues biology 
+4 . 
+search protein data bank headers < ? 
+> 
+5 . 
+chlamydomonas genetics center 
+6 . 
+crystallization database 
+7 . 
+database - probe primer 
+8 . 
+museum paleontology type specimen index < ? 
+> 
+9 . 
+- mycobacterium database < ? 
+> 
+10 . 
+search drosophila indiana 
+11 . 
+search genbank + + pir + pdb < ? 
+> 
+12 . 
+search - arabidopsis thaliana database < ? 
+> 
+13 . 
+search - caenorhabditis database < ? 
+> 
+14 . 
+search - metabolic compound database < ? 
+> 
+15 . 
+search database vectors , promoters , , est , omi . 
+. 
+
+16 . 
+search embl < ? 
+> 
+17 . 
+search genbank < ? 
+> 
+18 . 
+search genbank - 2 < ? 
+> 
+19 . 
+search genbank updates < ? 
+> 
+20 . 
+search limb < ? 
+> 
+21 . 
+search pir < ? 
+> 
+22 . 
+search pir keyword , species ... < ? 
+> 
+23 . 
+search < ? 
+> 
+24 . 
+search - restriction enzyme database < ? 
+> 
+25 . 
+search < ? 
+> 
+26 . 
+search tfd < ? 
+> 
+27 . 
+search c. strain list < ? 
+> 
+28 . 
+search dna database japan < ? 
+> 
+29 . 
+search ec enzyme database < ? 
+> 
+30 . 
+search database < ? 
+> 
+31 . 
+search maize database 
+32 . 
+cloning vector : plasmid , phage , etc. < ? 
+> 
+33 . 
+epd - eukaryotic promoter database < ? 
+> 
+34 . 
+est - express sequence tag database - human < ? 
+> 
+35 . 
+west - express sequence tag database - c. elegans < ? 
+> 
+36 . 
+kabat database protein immunological interest < ? 
+> 
+37 . 
+protein database < ? 
+> 
+38 . 
+omim - online mendelian inheritance man < ? 
+> 
+39 . 
+- sequence analysis bibliographic reference data ban . 
+. 
+< ? 
+> 
+40 . 
+search - restriction enzyme database < ? 
+> 
+41 . 
+search ec enzyme database < ? 
+> 
+42 . 
+search rodent section genbank < ? 
+> 
+43 . 
+database taxonomy genbank , ... 
+44 . 
+retrieve full pdb entry accession number < ? 
+> 
+45 . 
+search researcher fund nih < ? 
+> 
+46 . 
+search genome researchers fund doe < ? 
+> 
+47 . 
+search researchers fund nsf < ? 
+> 
+48 . 
+search researchers fund usda < ? 
+> 
+49 . 
+e-mail address 
+50 . 
+e-mail address yeast 
+51 . 
+around world 
+52 . 
+search retrieve software computer 
+53 . 
+search retrieve macintosh software 
+54 . 
+search retrieve dos software 
+55 . 
+search retrieve gnu software 
+56 . 
+search retrieve software biology 
+57 . 
+search agricultural software 
+58 . 
+search retrieve graphics software data 
+59 . 
+search retrieve online perl scripts 
+60 . 
+ftp sites biology 56 archive software datum 
+list go - beginning 

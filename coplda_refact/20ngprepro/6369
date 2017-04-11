@@ -1,0 +1,16 @@
+: mark james 
+subject : re : ide vs vlb slow system 
+organization : basser dept computer science , university sydney , australia 
+lines : 12 
+article < > scott mace write : 
+> 
+> ever see happen hook controller 
+> vesa local bus . 
+actually slow system ... 
+> 
+> belive say pick 
+> back issue test , eisa isa 
+> card . 
+vlb bad stop processor fetch 
+external cache well main memory vlb card bus ? 
+significant slow effect ? 

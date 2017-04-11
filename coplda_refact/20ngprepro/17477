@@ -1,0 +1,21 @@
+: oliver jones 
+subject : re : x design choice color handling : question 
+keyword : color 
+organization : shawsheen software 
+lines : 20 
+article < > joseph write : 
+> 
+> ... x designer decide associate 
+> color object draw , instead associate 
+> display draw ? 
+x10 , draw attribute bundle draw 
+request ; , server 's drawing model stateless . 
+cause problem performance network traffic , 
+x11 redesign include graphic context codify 
+draw state . 
+application designer want 
+draw thing several different color create gc 
+color initialization , pass gc id 
+draw request . 
+information see gettys 's article 
+1986 acm transaction graphic . 

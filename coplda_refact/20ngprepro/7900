@@ -1,0 +1,47 @@
+: bob taylor 
+subject : re : 500 printing problem 
+: . 
+f2 
+distribution : usa 
+organization : hewlett-packard vcd 
+lines : 32 
+: tin 1.1 
+tom belmonte write : 
+: 
+: hello , 
+: 
+: recently try print envelope use 3.0 
+: deskjet 500 printer , seem problem . 
+
+: happen physically load envelope printer 
+: per user manual select `` print envelope '' icon 
+: proper option select , 
+: printer `` spit '' envelope without printing 
+: either return address select mailing address . 
+
+: point , printer 's `` online '' light begin flash , 
+: print manager show printer job busy . 
+
+: happen , either shut printer cancel 
+: printing job print manager . 
+also try 
+: without use print manager , similar result 
+: show printer busy . 
+, anybody 
+: regard problem ? 
+appreciate 
+: help . 
+thanks . 
+yes - ignore manual . 
+insert - use keypad 
+move . 
+windows driver send message printer 
+tell load envelope - already load , get eject 
+printer try load another . 
+instruction manual 
+dumb app . 
+send `` load '' message . 
+: 
+: -- tom belmonte 
+bob taylor 
+hp vancouver 

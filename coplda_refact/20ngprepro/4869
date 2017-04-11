@@ -1,0 +1,125 @@
+: ron 
+subject : galileo update - 
+organization : jet propulsion laboratory 
+lines : 113 
+distribution : world 
+: 
+keyword : galileo , jpl 
+: 1.41 
+forward neal ausman , galileo mission director 
+galileo 
+mission director status report 
+post-launch 
+april 9 - 15 , 1993 
+spacecraft 
+1 . 
+april 9 , real-time command send , plan , reacquire 
+celestial reference completion low gain antenna 
+drive actuator dda hammer activity . 
+2 . 
+april 9 , # 1 sequence memory load uplink 
+spacecraft without incident . 
+sequence cover spacecraft activity 
+april 12 , 1993 june 14 , 1993 include window radio relay 
+antenna rra slew test april 28 , 1993 . 
+command loss timer set 
+11 day part sequence memory load . 
+3 . 
+april 12 15 , command send reset command loss 
+timer 264 hour , plan value mission phase . 
+4 . 
+april 12 , cruise science memory readout mro perform 
+extreme ultraviolet spectrometer euv , dust detector dd , magnetometer 
+mag instrument . 
+preliminary analysis indicate datum receive 
+properly . 
+5 . 
+april 12 , oscillator uso test perform verify 
+health status uso collect gravitational red shift experiment 
+datum ; long term trend analysis continue . 
+6 . 
+april 14 , modulation index test perform determine 
+optimal signal-to-noise ratio snr transmit . 
+preliminary 
+analysis datum suggest present pre-launch select modulation 
+index near optimal level . 
+7 . 
+april 15 , cruise science memory readout mro perform 
+extreme ultraviolet spectrometer euv magnetometer mag instrument . 
+preliminary analysis indicate datum receive properly . 
+8 . 
+april 15 , periodic rpm module thruster 
+flush maintenance activity perform ; 12 thruster flush 
+activity . 
+thruster performance throughout activity nominal . 
+9 . 
+bus imbalance measurement exhibit significant 
+change greater 25 dn throughout period . 
+ac measurement read 
+19 dn 4.3 volt . 
+dc measurement read 111 dn 12.9 volt . 
+
+measurement consistent model develop special 
+anomaly team . 
+10 . 
+spacecraft status april 15 , 1993 , follow : 
+system power margin - 60 watt 
+b spin configuration - 
+c spin - 3.15 scanner 
+d spacecraft attitude approximately 18 degree 
+lagging 6 degree lead 
+e downlink telemetry - code 
+f general thermal control - temperature within 
+acceptable range 
+g rpm tank pressure - within acceptable range 
+h orbiter science - instruments power pws , 
+euv , uvs , epd , mag , hic , dd 
+- power , temperature within 
+acceptable range 
+j cmd loss timer setting - 264 hour 
+time initiation - 260 hour 
+gd ground data systems : 
+1 . 
+galileo participate second dsn deep space network acceptance test 
+dsn telemetry phase 3 upgrade april 13 , 1993 , use 
+compatibility test area 21 . 
+purpose test verify 
+flow galileo telemetry datum new telemetry group controller 
+tgc telemetry channel assembly tca . 
+replacement 
+current telemetry processing assembly tpa . 
+seven different telemetry 
+rate run test ; run well mts mccc telemetry 
+subsystem mgd .0 gif exception . 
+
+rate trouble stay lock ; appear 
+meter datum correctly . 
+comparison mgd mt 
+datum test conduct . 
+mvt mission verification test 
+system expect begin may 16 , 1993 . 
+trajectory 
+noon thursday , april 15 , 1993 , galileo spacecraft trajectory 
+status follow : 
+distance earth km 1.02 au 
+distance sun km 1.86 au 
+heliocentric speed km per hour 
+distance jupiter km 
+round trip light time 17 minute , 4 seconds 
+special topic 
+1 . 
+april 15 , 1993 , total real-time command 
+transmit galileo since launch . 
+, initiate 
+sequence design process initiate real-time command process . 
+past week , 7 real time command transmit : 6 initiate 
+sequence design process one initiate real time command process . 
+major command activity include command reacquire celestial reference , 
+uplink sequence memory load , reset command loss timer . 
+___ _____ ___ 
+_ | ____ \ _ | ron | 
+| | | | __ \ | | | | jet propulsion lab | 
+___ | | | | | __ | | | | __ telos | cynical never help 
+___ | | | | ___ | | __ | pasadena , ca | correct situation 
+| _____ | | _ | | _____ | | cause aggravation 
+| instead . 

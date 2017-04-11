@@ -1,0 +1,45 @@
+: 
+subject : re : tiff complexity 
+organization : 
+: 
+: john r. levine 
+lines : 34 
+article < > write : 
+> anyone think tiff complex deal 
+> cgm , asn .1 , cda , dca , sgml , one number 
+> successful file format . 
+people seem perfectly capable 
+> deal . 
+well , yeah , unlike tiff substantially encode 
+rectangular bitmap . 
+hardly trouble free . 
+hear 
+quite common cgm implementation interoperate . 
+annoying thing tiff along 50 useful 
+option , 100 stupid option . 
+egregious example 
+rather pick byte order bit order use consistently 
+tiff file , byte bit order option tiff reader 
+machine , matter natural byte order , prepare 
+byte swap . 
+four slightly different fax format -- 
+, one would adequate . 
+rgb image store 
+pixel component , complexity without function , etc , etc. . 
+also 
+note tiff doc say aldus ' experiment show lzw reliably 
+compress well better fax format , suggest 
+none fax format really useful . 
+worse , lot format even implement well , 
+e.g. , lzw limit code word 12 bit , 14 16 bit would 
+provide substantially better compression . 
+lzw method compress 
+byte rather pixel . 
+absolute worst thing tiff vendor register 
+proprietary tiff code format without even publicly document . 
+mean way write tiff reader reliably 
+read incoming tiff file . 
+standard . 
+regards , 
+john levine , | ima | world ! 
+

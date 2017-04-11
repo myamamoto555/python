@@ -1,0 +1,54 @@
+: christopher cannon 
+subject : re : 2mb ultra pro 16 24 bit windows drivers work ? 
+organization : texas instruments , inc 
+lines : 36 
+article < > alireza vali write : 
+> hus . 
+buy 486 gateway system 2 meg ati 
+> ultra pro video card . 
+everything seem work fine except 
+> windows drivers 800x600 24 bit , 800x600 1024x768 16 bit 
+> mode . 
+font icon start deteriorate window startup , 
+> within minute use , everything screen totally 
+> unintelligible . 
+naturally , call gateway tech support inquire 
+> . 
+technician ask driver , tell 
+> version 1.5 , build 59 . 
+tell 16 24 bit driver 
+pure bull . 
+24 bit mode 640x480 800x600 
+work since version 59 ?? 
+55 ?? 
+. 
+bld 59 add 
+24 bit option . 
+try get driver 
+. 
+> ati ultra pro simply work !!! 
+true ? 
+, simply 
+> amaze . 
+could ? 
+strange thing would expect 
+> see discussion unless subject make faq !!! 
+. 
+> 
+> gateway 486 local bus 
+> 16 megs ram 
+> scsi hd & cd-rom 
+> local bus scsi controller 
+> ati ultra pro local bus 2mb vram 
+> dos 6.0 
+> windows 3.1 
+> mach 32 driver version 1.5 build 59 
+mine : 
+gateway 486 lb 
+8 meg ram 
+ide hd 
+ati gup w 2mb install upgrade 
+bld 59 driver . 
+-- 
+
+

@@ -1,0 +1,87 @@
+: scott bass 
+subject : re : create batch file windows nt 
+: k2 . 
+
+organization : sas institute inc. . 
+lines : 69 
+< > scott bass write : 
+> 1 . 
+windows nt , alternative , fairly useless 
+> batch programming language ? 
+, ibm introduce rexx language 
+> alternative . 
+bat . 
+surely windows nt thing , 
+> right ? 
+> 2 . 
+lieu , way escape 
+> . 
+bat file continue single command across multiple line ? 
+
+> application exit system submit batch file . 
+batch 
+> file create fly site-specific code store within 
+> application . 
+currently design , line length store code 
+> output file . 
+bat file 80 character , enough 
+> option must specify particular command . 
+would 
+> help tremendously redesign code kludge around 
+> lack true batch `` shell '' programming language . 
+< rest delete > 
+followup post let add : 
+really windows windows nt user , please excuse ignorance . 
+however , developer sas institute , one component 
+application support ability submit sas batch job 
+within interactive sas session . 
+user site enter 
+site-specific `` batch profile '' dataset within product , specify 
+sas executable , specify site specific sas option , 
+etc. . 
+run time certain variable resolve , resolve file 
+write external file . 
+exit operating system 
+run job asynchronously , return interactive session soon 
+job submit . 
+batch job run concurrently 
+interactive session . 
+currently design , internal dataset record length 80 
+character . 
+, run batch job , command sas 
+batch mode require 80 character . 
+til nt 
+problem , since every job language til nt eg . 
+way escape enter single 
+command across multiple line via rexx language , 
+standard . 
+gist , since application end-user , 
+within company , try develop process use native nt . 
+since first post learn several third party 
+company provide alternative script language nt . 
+sure company license product would use alternative 
+script language , develop assumption 
+anything come nt . 
+see another post list subject something like `` vi 
+available windows ? '' 
+someone say vi , make , awk , 
+ksh available microsoft toolkit . 
+product ? 
+
+separate product part windows ? 
+ksh would need 
+could count nt site . 
+one last question : hear nt remote processing capability , 
+i.e. could shove batch job server machine run 
+. 
+native nt command rather network specific 
+command , would also help improve process . 
+comment 
+command , would appreciate . 
+thanks help , 
+-- 
+
+scott bass | sas institute inc. . 
+integrated systems , , | sas campus drive , cary , nc 
+| 
+

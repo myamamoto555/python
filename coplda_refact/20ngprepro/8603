@@ -1,0 +1,65 @@
+: richard gooch 
+subject : re : animation ? 
+organization : csiro division telescope national facility 
+lines : 51 
+article < > , derek c. richardson write : 
+> implement seem achieve display 
+> rate 20 frame sec ipx get , though 
+> bit `` choppy '' time . 
+also , load datum , make , 
+> ` ing bit cumbersome , animation 
+> slower load . 
+better way load 
+> datum ? 
+> 
+> richard gooch write : 
+> > need speed , client run host x server , 
+> > use shared memory extension sample x server . 
+> > tell server extension . 
+certainly 
+> > available sample mit x server run suno . 
+> > word warning : make sure kernel configure support shared 
+> > memory . 
+another word warning : slower mit 
+> > server . 
+> > write imaging tool use gui , way 
+> > yield 10 frame per second 512 512 8 bit image , run sparc 
+> > ipc half cpu grunt ipx . 
+prove quite sufficient 
+> > animation . 
+> > 
+> > regards , 
+> > 
+> > richard gooch ... 
+> 
+> share memory also mention 
+> nick look interesting , need someone point 
+> documentation . 
+method likely give better result server - 
+> resident ? 
+would also interested look code 
+> mention ... 
+> 
+> thanks help far . 
+get something decent put together , ` ll 
+> definitely post net . 
+> 
+mit tape come documentation write keith packard share 
+memory extension x. look : . 
+m 
+find . 
+unfortunately , bit work set 
+share memory segment , make , etc. . 
+also , 
+extension query determine server support , still need 
+test server run host share memory enable 
+kernel . 
+write layer routine make 
+transparent . 
+code , well , doubt would consider interesting . 
+interesting stuff c object library . 
+people interested 
+code email . 
+regards , 
+richard gooch , 
+

@@ -1,0 +1,33 @@
+: robert joop 
+subject : re : & , sparc 10 keyboard 
+lines : 26 
+: . 
+de 
+: 1.0 
+: ; charset iso-8859-1 
+: 
+david barr write : 
+> install patch ? 
+directory export . 
+> key keyboard send event properly , except following : 
+> end , , cluster recognize . 
+> even compose key work . 
+though seem get compose 
+> character get pass . 
+> anyone fix last two ? 
+fix table ... 
+use 1 . 
+put 
+; ; 
+. 
+login . 
+first prevent strip bit 7 . 
+second set locale . 
+third make less 1 show character 
+instead octal representation . 
+rj 
+-- 
+
+robert joop 
+
+joop ; ou fokus ; ou berlin ;p gmd ; dbp ; c de 

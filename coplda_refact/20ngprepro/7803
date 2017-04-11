@@ -1,0 +1,46 @@
+: bernhard buckel 
+subject : re : help ! 
+hard drive id messed ! 
+organization : university wuerzburg , germany 
+: tin version 1.1 
+lines : 42 
+dave write : 
+: gregory anthony write : 
+: > 
+: > howdy , 
+: > 
+: > day use norton 's optimize seagate h 
+: > problem persist . 
+back essential datum decide reformat 
+: > hard drive . 
+attempt get 279th 8th 
+: > head give error message say `` could find sector '' 
+: > try everything think . 
+even access hard 
+: > write information . 
+try boot disk 
+: > try reformat hard drive get 29 % way say `` error 
+: > formatting hard drive . 
+press f3 exit '' try scan hard drive 
+: > virus ; access get message try dir 
+: > say `` error int 24 '' anyone help ? 
+idea . 
+: > 
+: > thanks advance help ! 
+: > 
+: > greg 
+: try bio level format via debug command . 
+: - g xxxx :5 xxxx hex address hd controller bio 
+: location . 
+: work , last resort would take large magnet 
+: hard disk , properly cause 
+: could cause damage already . 
+: disclaimer : responsible action directly apply 
+: large magnet hard disk . 
+: correctly magnet trick wipe everything 
+: hard disk _ completely _ low level bio format might succeed 
+: - david 
+: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+: china cat bbs 
+: ,400 ... - 
+: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

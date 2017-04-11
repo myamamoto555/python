@@ -1,0 +1,68 @@
+: richard o. white 
+subject : re : help timing 
+organization : lehigh university 
+lines : 49 
+article < > , 
+du write : 
+> project droop lap somewhat pain design . 
+> look stable solid state timer . 
+want 
+> place thing ice shelf measure amount 
+> snow fall period six week . 
+every two week , want trip 
+> discharge different color pellet gas pressure across 
+> snow . 
+digging snow , snow fall amount measure 
+> come different color pellet . 
+> 
+> problem try build timer would stand cold -40 degree 
+> power source would drain . 
+look timer 
+> standard dual timer , thier temp spec go low . 
+also , 
+> two week equate seconds per firing , mean one big timing 
+> cap ! 
+find 2.2 farad yes , farad ! 
+cap work voltage 
+> 5 volt small size . 
+, time discharge -40 lower 
+> degree linear . 
+think use several timer chained together 
+> fire end timing period , blast cold 
+> drain battery six week pain . 
+one possibility would 
+> use solar panel , six month twilight . 
+anyone 
+> good idea ? 
+> 
+> thanks advance ... 
+> 
+> - - - - 
+> 
+suggestion : 
+take set give pulse every sec ten 
+sec either rc clock input . 
+feed clock 
+input decode output sec output , might add ` ' 
+gate decoder chip get output reset pulse back ' 521 restart 
+cycle ... trigger oneshot decode edge ; one shot 
+go mosfet drive mechanism fire pellet launcher . 
+. 
+require current , 5 - 15 volt , 12 volt 
+gel cell would last six week . 
+take board & battery wrap 3 '' 4 '' foam build box 
+stuff ... plywood metal exterior ... 
+build small heater 10-50 watt resistor series keep battery 
+warm . 
+2nd think use 2 battery one heater one timer pellet trigger . 
+... . 
+. 
+even though chip state - al 
+rate device good -55 c. . 
+battery considerable reduction 
+capacity ... oh make sure area inside minium air leakage . 
+. 
+hope help 
+rw long winded net ?? 
+gentle ... 
+-- 

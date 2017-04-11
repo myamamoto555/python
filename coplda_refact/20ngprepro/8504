@@ -1,0 +1,140 @@
+: steven bellovin 
+subject : clipper chip -- technical detail 
+organization : at&t bell laboratories 
+lines : 121 
+receive follow two note martin hellman detail 
+clipper work . 
+post permission . 
+
+implication detail fascinating . 
+------- 
+date : sat , 17 apr 93 pdt 
+: `` martin hellman '' < > 
+: long list recipient 
+subject : clipper chip 
+see announcement friday 's ny times , 
+etc. nist national institute standards & technology 
+announce `` clipper chip '' crypto device . 
+several 
+net ask technical detail , 
+labor understandable misunderstanding give 
+lack detail news article . 
+help 
+friendly nsa link : . 
+somewhat surprised friday 
+get call agency supply many miss 
+detail . 
+tell info public , cc 
+dennis branstad nist mostly double check 
+fact since assume aware ; please let know 
+anything wrong : 
+clipper chip secret crypto algorithm embed 
+silicon . 
+chip two secret , 80-bit key . 
+one 
+chip ie system-wide key unit 
+specific . 
+know nist nsa call , 
+call system key sk unit key uk message . 
+ic design extremely difficult reverse 
+system key keep secret . 
+aside : clear 
+also want keep algorithm secret , opinion , 
+may much state purpose . 
+unit key 
+generate xor two 80-bit random number k1 
+k2 uk k1 + k2 keep two escrow 
+authority . 
+escrow authority still 
+decide attorney general , stress 
+nsa law enforcement agency , 
+must party acceptable user system unbiased . 
+law enforcement agency get court order , 
+present two escrow authority receive k1 
+k2 , thereby allow access unit key uk . 
+addition system key , user get choose 
+key change often desire . 
+call key 
+plain old k. message send first 
+encrypt k , k encrypt unit key uk , 
+serial number unit add produce three part 
+message encrypt system key sk 
+produce 
+e e m ; k , e k ; uk , serial number ; sk 
+court order obtain k1 k2 , thence k , law 
+enforcement agency use sk decrypt information 
+flow suspect link aside : guess 
+may constantly link , without 
+court order , since almost impossible tell link 
+message flow . 
+give agency access 
+e m ; k , e k ; uk , serial number 
+message . 
+check serial number 
+unit see `` watch list '' 
+court order . 
+, decrypt e k ; uk obtain k , 
+decrypt e m ; k obtain m. 
+still process assess scheme , please 
+take kind endorsement propose 
+scheme . 
+try help assess scheme 
+. 
+say need one court 
+order worry . 
+would feel comfortable though 
+necessarily comfortable ! 
+two separate court order 
+need , one per escrow authority . 
+explanation 
+need , follow story add color : research 
+idea silvio micali kick around , 
+speak gerald gunther , constitutional law expert 
+stanford relate follow story : 
+edward levi become pres. ford 's attorney general right 
+watergate , visit fbi agent ask 
+`` wiretap authorization . '' 
+levy ask 
+detail could review case require 
+law , agent tell predecessor turn 
+40-50 blank , sign form every time . 
+levi 
+comply change system , lesson clear : 
+single person authority power 
+authorize wiretap worse yet , divulging personal 
+key . 
+sometimes edward levi 
+sometimes john mitchell . 
+martin hellman 
+-- 
+date : sun , 18 apr 93 pdt 
+: `` martin hellman '' < > 
+: 
+subject : re : clipper chip 
+fine post previous message 
+also post message : 
+1 . 
+ask recipient sparse request info 
+ask comment specific question . 
+
+post apologize message unable 
+respond . 
+already spend much time answer much 
+e-mail particularly overload week 
+responsibility . 
+2 . 
+note probably correction send dorothy denning . 
+meet person nsa 
+talk phone , understanding likely 
+better mine point : say transmit 
+info e e m ; k , e k ; uk , serial number ; sk 
+say message double encrypted . 
+system 
+key family key tell call encrypt 
+serial number serial number encrypted 
+unit key . 
+major difference , think 
+mention thank bring 
+attention . 
+make sense since cut 
+encryption computation overhead . 

@@ -1,0 +1,54 @@
+: steve cunningham 
+subject : re : siggraph online experimental publication available 
+summary : ... 
+keywords : siggraph , electronic online issue 
+organization : csu stanislaus 
+lines : 49 
+rich brandwein write : 
++ article < > , 
++ steve cunningham write : 
++ | > computer graphics experimental special online issue 
++ | > may 1993 
++ | > 
++ | > may 1993 experimental special issue computer graphics online 
++ | > set file system directory 
++ | > ~ _ 
++ | > make available computer graphic community acm 
++ | > siggraph . 
+general theme issue electronic document , 
++ | > table contents file tell 
++ | > publication contents . 
++ 
++ ftp would , find nothing . 
+remove ? 
+nope , still : 
+ftp 
+connect . 
+220 ftp server version 6.12 tue apr 13 cdt 1993 ready . 
+name : rsc : anonymous 
+331 guest login ok , send e-mail address password . 
+password : 
+230 
+230 - welcome , machine maintain acm 
+230 - siggraph volunteer service active 
+230 - computer graphic community . 
+230 - ... 
+ftp > cd _ 
+250 cwd command successful . 
+ftp > l 
+200 port command successful . 
+150 open ascii mode datum connection file list . 
+
+
+
+gonzalez 
+rosenblum 
+
+announcement 
+calendar 
+contact 
+index 
+
+226 transfer complete . 
+141 byte receive 0.04 seconds 3.4 
+ftp > 

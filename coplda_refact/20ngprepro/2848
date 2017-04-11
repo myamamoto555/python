@@ -1,0 +1,26 @@
+: 
+subject : adaptec problem 
+organization : center instructional research computing activity 
+lines : 25 
+: 
+: 
+okay , configuration : 
+gateway micronics isa 
+ram 
+ide hd drive c : 
+ide hd drive d : 
+adaptec scsi controller , scsi bios enable 
+seagate scsi drive 
+, boot get adaptec bios message , say 
+something like : 
+`` drive c : install '' 
+`` drive d : install '' 
+`` adaptec scsi bios install ! '' 
+get seagate drive . 
+go setup , remove entry drive d : , boom , 
+access seagate . 
+way get two ide drive seagate 
+time ? 
+. 
+sy , hang system . 
+brian 

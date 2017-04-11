@@ -1,0 +1,63 @@
+: bill stewart +1 
+subject : re : clipper chip : technical summary 
+organization : brought number 2 , 3 , 7 
+: message 19 apr 93 -0400 
+: 
+lines : 62 
+article < > write : 
+prof. denning 's description skipjack mostly omit 
+chip structure 
+clipper chip contain classified 64-bit block encryption 
+algorithm call `` skipjack . '' 
+algorithm use 80 bit key compare 
+56 des 32 round scramble compare 16 
+des . 
+support 4 des mode operation . 
+throughput 
+16 mbit second . 
+... 
+f , 80-bit family key common chip 
+n , 30-bit serial number 
+u , 80-bit secret key unlock message encrypt 
+chip 
+key k message stream m i.e. , digitized voice 
+feed clipper chip produce two value : 
+e m ; k , encrypted message stream , 
+e e k ; u + n ; f , law enforcement block . 
+three question : 
+1 look like 64 bit input give 4 64 bit output : 
+e m ; k 64 bit 
+e k ; u e 80 bit 128 bit 
+e e k ; u , n ; f e 128 + 30 bit 192 bit 
+really need transmit 256 bit time , 
+transmit 192 bit wiretap block beginning ? 
+256 would really obnoxious application 
+like cellular phone even regular phone 
+2 4 des mode interact two-part output ? 
+various feedback mode apply message block , 
+also wiretap block ? 
+, wiretap block 
+transmit beginning , get incorporate 
+everything feedback mode , ecb mode ? 
+3 clipper chip check wiretap block ? 
+block present ? 
+since receive chip know transmitter 's u , 
+presumably check validity e k ; u , 
+limit check form wiretap block , 
+maybe check serial number reasonableness 
+unless sort back-door structure let 
+recognize valid e k ; u . 
+case , replace wiretap block different 
+wiretap block , presumably old valid one avoid attract attention ? 
+chip , output . 
+regular people one serial number dummy key ; 
+paranoid people use someone else 's serial number . 
+hand , could think solution easily , 
+presumably nsa could - something block , 
+like use message encryption really e m ; k , u , n ? 
+thanks ! 
+-- 
+# pray peace ; bill 
+# bill stewart at&t bell labs holmdel nj 
+# , new jersey , work cyberspace ... 
+# white house line fax 

@@ -1,0 +1,12 @@
+: 
+subject : joystick 
+organization : center instructional research computing activity 
+lines : 10 
+: 
+: 
+disk joystick code kind enough mail 
+puke ... specifically , look c code read position 
+joystick without use , i.e. access port directly . 
+need c becaue memory model consideration . 
+need able read x y position also . 
+brian 

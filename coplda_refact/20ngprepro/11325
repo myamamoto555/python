@@ -1,0 +1,24 @@
+: barry margolin 
+subject : re : twm 
+organization : thinking machines corporation , cambridge ma , usa 
+lines : 21 
+: 
+article < > sergei write : 
+> run twm would like execute program leave twm . 
+
+> word would like run program . 
+possible 
+> make menu section would contain two part ? 
+menu definition , put : 
+`` quit twm '' `` execute quit '' 
+define : 
+function `` execute quit '' 
+! 
+`` '' 
+
+
+-- 
+barry margolin 
+system manager , thinking machines corp. . 
+uunet , harvard ! 
+

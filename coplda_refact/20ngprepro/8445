@@ -1,0 +1,65 @@
+: mr coggin 
+subject : beyond , trident 8900 , lot 8 
+organization : computing services , university warwick , uk 
+lines : 48 
+: 
+keyword : ram , trident , interrupt 
+hus , 
+enquiry pc 's compatible general . 
+. 
+software 
+hardware orientate . 
+. 
+probably wrong newsgroup ... everyone 
+claim . 
+. 
+anyway . 
+. 
+1 one happen board jumper detail trident 8900 
+svga graphic card 1mb even dip switch end . 
+. 
+mine 
+already work fine albeit slow blow monitor find 
+switch control interlace facility . 
+. 
+curious 8 dip switch card apparantly 
+little use . 
+. 
+2 secondly , anyone know commodore craze design 
+motherboard respect ram . 
+. 
+ie 512 + 512 640 +0 k ?? 
+3 anyone supply pin detail expansion port pc 8 16 bit 
+. 
+. 
+even sample circuit cause irq button press ... 
+yeah know piece cake . 
+. 
+lazy 8 
+4 software wise . 
+. 
+anyone care divulge tip access expand ram 
+pc program write turbo c + + ... 
+instance , use return memory available 
+base regardless combination etc etc. . 
+. 
+want able use ram beyond 1mb boundary ... 
+certain whether new actually use anyway ` ll 
+suspect . 
+. 
+5 also . 
+. 
+half brain wit create dos re-entrant 
+follow , anyone comment use dos call 
+0 0c within dos interrupt ? 
+ie change stack size 
+entry use . 
+. 
+two article read subject give 
+conflict view ... anyone view write direct 
+screen memory term portability ? 
+many thanks . 
+. 
+got ta go , bar close soon 8 
+cheers 
+ian 

@@ -1,0 +1,58 @@
+: robert i. 
+subject : re : would `` clipper '' make good cover encryption method ? 
+: message tue , 20 apr 1993 gmt 
+: 
+organization : mitre corp. , bedford , ma . 
+lines : 52 
+article < > carl m. write : 
+> clipper might good way cover use another layer 
+> encryption . 
+, make custom equipment case , 
+roll clipper implementation report wrong key 
+escrow agency ? 
+tell go chip business 
+thing go -- nsa , something hide 
+nsa . 
+anyone verify phone use key register 
+serial number , either : 
+1 court order wiretap . 
+go 
+? 
+tell judge individual really privacy ? 
+know key enough , . 
+2 court order wiretap phone series . 
+part really scary . 
+since `` expectation '' 
+chip particular batch use seed base s1 
+s2 serial number , get key one batch may give 
+access . 
+3 backdoor allow message decipher 
+without key . 
+find one especially threaten since 
+scheme seem open known plaintext attack . 
+need 
+decipher datum header . 
+talk someone one 
+phone , presumably automatically negotiate 
+key generate . 
+try decipher record 
+conversation know say , use known plaintext 
+recover backdoor represent header , know 
+header say conversation participate . 
+even worse , 
+phone series relate key , buy 
+production lot . 
+recover key , either elegantly 
+talk , brute force analysis actual chip , 
+apply key generation process seed find target 
+key . 
+hmmm ! 
+think want ever come close phone . 
+even des start look good . 
+two string provide 
+much better security . 
+-- 
+robert i. 
+; 
+use ; 
+function message text : return ... 

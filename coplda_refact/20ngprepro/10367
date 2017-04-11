@@ -1,0 +1,53 @@
+: tom 
+subject : re : force window manager accept specific coordinate window 
+: 
+organization : boulder 
+lines : 45 
+article < > , richard verhoeven write : 
+| > tobias ` dope ' write : 
+| > > 
+| > > try : 
+| > > ----------------------------- 
+| > > ... 
+| > > 
+| > > - > flag | ; | 
+| > > ... 
+| > > display , window , ; 
+| > > ... 
+| > > 
+| > > hint tell window manager position size window 
+| > > specify user window manager accept 
+| > > value . 
+use - > flag | , tell window 
+| > > manager value prefered value program , user . 
+| > > know window manager place window like prefer 
+| > > specify position size like . 
+| > 
+| > sorry , . 
+place title position 
+| > window position . 
+reason place outside corner location request 
+say . 
+| > become problem want program able save current 
+| > configuration restore later . 
+| > 
+| > currently , solution : 
+| > 
+| > ... ; 
+| > . 
+. 
+; 
+| > ... ; 
+| > ... ; 
+| > ... ; 
+code almost certainly break . 
+call 
+guarantee window visible manage 
+window manager . 
+even work , reliable way 
+find much decoration window manager place around 
+window , know far move . 
+window 
+manager refuse move window ? 
+-- 
+tom 

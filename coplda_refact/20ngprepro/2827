@@ -1,0 +1,44 @@
+: ken whaley 
+subject : re : animation ? 
+: message thu , 22 apr 1993 gmt 
+organization : kubota pacific computer inc. . 
+< > 
+lines : 38 
+| 
+| share memory also mention 
+| nick look interesting , need someone point 
+| documentation . 
+method likely give better result server - 
+| resident ? 
+would also interested look code 
+| mention ... 
+easy answer question : depend whether display 
+device hold off-screen memory , , efficiently 
+server manage resource deal limited off-screen 
+memory bane server implementor 's existence ! 
+. 
+work graphic device off-screen memory 
+main display copy rate eclipse main memory display copy 
+rate , main memory display faster 
+off-screen display require write framebuffer rather 
+read f.b. follow write 
+server use cfb code something like render 
+cpu main memory , rate get 
+likely equal maybe tad slower , depend os 's implementation 
+share memory window , also 
+copy cpu main memory graphic device . 
+one image large , end 
+grow size server process hold . 
+one disadvantage , sample implementation , 
+provision elegantly clean share memory segment 
+client die sudden , violent death e.g. , `` kill '' . 
+
+mindful clutter system zombie share memory segment . 
+ken 
+-- 
+kenneth whaley 
+kubota pacific computer , inc. . 
+email : 
+2630 walsh avenue 
+santa clara , ca . 
+

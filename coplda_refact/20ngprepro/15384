@@ -1,0 +1,193 @@
+: graeme gill 
+subject : re : gamma correction 
+organization : australia pty. ltd. , melbourne , australia 
+summary : faq contribution gamma : 
+lines : 184 
+article < > , mark adler write : 
+> 
+> someone know talk add faq entry 
+> gamma correction ? 
+thanks . 
+get regular question gamma correction since go great pain 
+deal properly xli image loader program maintain . 
+explanation often use answer question . 
+might suitable inclusion faq . 
+graeme gill . 
+
+`` note gamma correction image '' 
+author : graeme w. gill 
+
+date : 
+`` gamma stuff anyway ? '' 
+
+although would nice think `` image image '' , 
+lot complication . 
+whole bunch 
+different image format gif , jpeg , tiff etc etc , whole 
+lot technical stuff make deal image bit 
+complicate . 
+gamma one thing . 
+ever download 
+image bb net , probably notice image 
+view program image look ok , look dark , 
+look light . 
+`` ? '' 
+may ask . 
+, gamma correction 
+lack . 
+need gamma correction ? 
+
+gamma correction need nature crt cathode 
+ray tube - monitor usually use view image . 
+
+sort real live scene turn computer 
+image measure amount light come point 
+scene , create `` linear '' 
+image . 
+good thing many way manipulate 
+image value image file light ie . 
+add 
+multiply work like real light real world . 
+take image file turn pixel value voltage 
+feed crt , find crt _ _ give 
+amount light proportional voltage . 
+amount light 
+come phosphor screen depend voltage 
+something like : 
+voltage ^ 
+dump nice linear image crt , image 
+look much dark . 
+fix `` gamma correct '' 
+image first . 
+need opposite crt 
+image , thing cancel , get 
+want . 
+image : 
+image ^ _ gamma 
+crt , somewhere 1.0 3.0 . 
+, seem complicate ? 
+
+problem display program gamma correction . 
+also source image give linear image video camera 
+video signal general . 
+, lot image 
+already gamma correction , 
+rarely sure much . 
+try display one image 
+program gamma correction , image get 
+correct twice look way light . 
+display one 
+image program gamma correction , 
+look vaguely right , perfect , gamma correction 
+exactly right particular crt . 
+whose fault ? 
+----------------------- 
+really three thing . 
+one display program 
+gamma correction properly . 
+another 
+image format specify standard gamma , 
+way record gamma correction . 
+third thing many people understand gamma 
+correction , create lot image vary 
+gamma 's . 
+least two file format right thing . 
+utah graphics toolkit . 
+rle format way recording 
+gamma image . 
+file standard use jpeg compression 
+specify image encode must gamma 1.0 ie . 
+
+linear image - everyone obey rule . 
+image loader instance xli - x11 image utility 
+allow specify gamma monitor 
+use , individual gamma value image try 
+view . 
+image viewer eg . 
+xv another x11 image program 
+utility eg . 
+pbm toolkit provide way change gamma 
+image , figure overall gamma correction 
+, allow undoing gamma correction image , 
+gamma correction need suite crt monitor . 
+note xv 2.21 provide easy way modify 
+gamma image . 
+need adjust r , g b curve 
+appropriate gamma control . 
+alter intensity 
+hsv control right thing , fail 
+take account effect gamma h s. tend 
+give tint image . 
+figure viewer , gamma screen ? 
+
+simplest way try load file 
+provide xli distribution , jpeg format file 
+contain two grayscale ramp . 
+ramp choose look linear 
+human eye , one use continuous tone , use 
+dither . 
+viewer right thing gamma correct 
+image , two ramp look symmetrical , point 
+look equally bright almost exactly half 
+way top bottom . 
+find point help 
+move away little screen , eye 
+bit . 
+viewer gamma correction , leave hand ramp 
+long dark part short white part , point equal brightness 
+center . 
+viewer way set right amount gamma correction 
+display , equal brightness point center increase 
+gamma , decrease center . 
+value usually 
+around 2.2 
+xli instance , adjust display gamma 
+- flag , get right , set 
+environment variable . 
+profile 
+figure gamma image ? 
+------------------------------------------------- 
+tricky bit . 
+general rule seem lot 
+true color ie . 
+24 bit , . 
+ppm . 
+jpg image gamma 
+1.0 linear , although many gamma 
+correction . 
+seem majority pseudo color image 
+ie . 
+8 bit image color map - . 
+gif etc. gamma correct 
+degree . 
+viewer gamma correction linear image 
+look good , gamma correct image look light . 
+viewer gamma correction , linear image 
+look dark , gamma correct image ok . 
+linear image sometimes good thing 
+
+one reason many high quality format 
+video use gamma correction actually make better 
+use storage medium . 
+human 
+eye logarithmic response light , gamma correction 
+similar compression characteristic . 
+mean image 
+could make better use 8 bit per color instance , 
+use gamma correction . 
+implication though , 
+every time want image processing 
+convert 8 bit image 12 linear bit retain 
+accuracy . 
+since little popular software , 
+none popular image format agree standard 
+gamma correction factor , difficult justify gamma correct 
+image popular level . 
+image format standardize particular gamma , 
+image manipulation software take care use 
+extra precision deal internal datum , 
+gamma correct distribution image would good thing . 
+tell kodak format instance , 
+standard gamma correction factor enable get 
+highest quality bit use hold image . 
+

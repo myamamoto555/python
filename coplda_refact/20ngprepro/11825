@@ -1,0 +1,36 @@
+subject : xlib function . 
+know problem ??? 
+: martin visser 
+distribution : world 
+: 
+lines : 27 
+find problem use xlib function regard . 
+
+decide implement animated cursor use 6 create cursor call 
+signal handler . 
+use indicate 
+wait operator request complete . 
+production control system . 
+redraw screen underneath animated cursor restore 
+standard cursor complete . 
+find dump core , upon analysis 
+handler call call . 
+
+presumably internal structure 
+call . 
+presumably internal structure manipulate 
+stable state send . 
+anyone else experience ? 
+official documentation 
+say ensure happen ? 
+atomic . 
+run sgi irix . 
+-- 
+regards , martin 
+\ \ : martin visser - electrical software engineer 
+\ : engineering technology department 
+\ : bhp steel - slab plate products division 
+\ \ : p.o. box 1854 wollongong nsw 2500 australia 
+\ \ : phone -42 -75 ext. 
+\ : fax -42 -75 
+\ \ \ : e-mail 

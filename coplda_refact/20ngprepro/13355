@@ -1,0 +1,16 @@
+: ross anderson 
+subject : re : hardware hash function 
+keywords : hash , md5 , des , hardware , software 
+: 
+organization : u cambridge computer lab , uk 
+lines : 13 
+article < > , erol basturk 
+write : 
+| > , question : `` fast '' hash 
+| > function design hardware implementation ? 
+yes , use stream cipher chip hash datum slight 
+modification . 
+see : 
+` fast cryptographic checksum algorithm base stream cipher ' , x lai , 
+ra rueppel , j , 92 pp 8-7 8-11 . 
+ross 

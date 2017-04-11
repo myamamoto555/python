@@ -1,0 +1,44 @@
+: lennart benschop 
+subject : want : diagram draw program 
+organization : stack , eindhoven university technology , netherlands . 
+lines : 38 
+: 
+: tin version 1.1 
+look program draw various kind diagram linux 
+system . 
+- must free . 
+- must run standard monochrome x small screen size 800x600 
+etc. . 
+- must compile linux + + . 
+generic unix software 
+work ok . 
+- must produce postscript file include latex document 
+. 
+tell another free program convert one 
+support format p . 
+- must produce drawing larger window size . 
+know several program , , . 
+tgif . 
+
+experience . 
+feature would like program . 
+- ability draw circle , arc , straight line , box arrow . 
+- support dash solid line style object . 
+- support text size . 
+- ability rotate part drawing . 
+- ability turn part draw library component 
+e.g. transistor symbol compose three line , arrow circle 
+- aid numeric coordinate , screen grid align part drawing . 
+- less essential , fact handy : preservation connection . 
+move one part drawing , line connect part 
+rest drawing , stay connect . 
+ideally want tool general flexible comfortable 
+draw electronic schematic , flow chart , logic diagram , datum flow diagram 
+block diagram . 
+want know program offer feature 
+program ? 
+demand program 
+respect disk space , memory cpu usage ? 
+program 
+know work linux monochrome x ? 
+lennart . 

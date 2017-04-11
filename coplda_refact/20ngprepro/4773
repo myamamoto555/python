@@ -1,0 +1,138 @@
+: joshua 
+subject : re : hollywood hit , virtual reality 
+organization : silicon graphics , inc. . 
+lines : 137 
+: 
+sorry miss raymond , dahlgren last month ... 
+virtual reality market manager silicon graphics , perhaps 
+help little . 
+article < > , 
+raymond chui write : 
+| > hello , real reality . 
+agency start express interest 
+| > virtual reality vr . 
+far , know much vr . 
+
+| > know hollywood movie `` 2 '' `` 
+| > man '' . 
+also know something vr abc news magazine 
+| > computer graphics world magazine . 
+unfortunately , sgi system use create special effect 
+terminator 2 lawnmower man , computer 
+graphic , render software write film frame time . 
+
+frame computer animation film take hour render 
+high-end parallel processing computer system . 
+thus , level graphic 
+would difficult , impossible , acheive real time 30 frame 
+per second . 
+| > 
+| > certainly want know vr . 
+lead 
+| > company , 
+| > agency , university ? 
+machine support vr i.e. sgi , , 
+| > , , etc. ? 
+depend upon serious advanced application . 
+true immersive visualization vr , require rendering complex visual 
+database anywhere 20 60 newly render frame per second . 
+
+similar requirement traditional flight simulator pilot 
+training . 
+frame rate low , user notice step 
+frame move head rapidly around scene , motion 
+graphic smooth contiguous . 
+thus graphic system 
+must powerful enough sustain high frame rate render complex 
+datum representation . 
+additionally , frame rate must constant . 
+system render 15 
+frame per second one point , 60 frame per second next perhaps 
+due scene new view direction simpler 
+visible , user get heavily distract medium 
+graphic computer rather focus datum . 
+maintain constant 
+frame rate , system must able run real-time . 
+unix general 
+support real-time operation , silicon graphics modify 
+unix kernel multi-processor system able support real-time 
+operation , bypass usual unix process scheme . 
+uniprocessor system run unix fundamentally support real-time 
+operation sun , hp 700 series system , ibm , 
+even sgi 's uniprocessor system like indigo crimson . 
+
+multiprocessor onyx challenge system support real-time operation due 
+symmetric smp architecture . 
+graphic perspective , render complex virtual environment 
+require advanced render technique like texture mapping real-time 
+anti-aliasing . 
+general purpose graphic system 
+market today , crimson onyx 
+system fully support capability . 
+anti-aliasing particularly 
+important , crawl jagged edge aliased polygon 
+unfortunate distraction immerse virtual environment . 
+| > kind graphic language use vr 
+| > gl , opengl , , pex , gks , etc. ? 
+use general purpose graphic library list develop 
+vr application , start pretty low level . 
+
+- shelf software package available get go much faster , 
+target directly vr application developer . 
+
+popular particular order : 
+- division inc. . 
+redwood city , ca - dv 
+- inc. . 
+sausalito , ca - 
+- naval postgraduate school monterey , ca - free ! 
+- gemini technology corp irvine , ca - gv series 
+- paradigm simulation inc. . 
+dallas , tx - , 
+- silicon graphics inc. . 
+mountain view , ca - iris performer 
+, top head ... 
+| > company make 
+| > interface device vr goggles boom binocular 
+| > monitor , hamlet , glove , arm , etc. ? 
+many list , smattering : 
+- fake space labs menlo park , ca - boom 
+- virtual technologies inc. stanford , ca - 
+- digital image design new york , ny - cricket 3d input 
+- kaiser electro optics carlsbad , ca - sim eye helmet display 
+- virtual research sunnyvale , ca - flight helmet display 
+- virtual reality inc. . 
+pleasantville , ny - head mtd display , 
+- software systems san jose , ca - 3d modeling software 
+- etc. , etc. , etc. . 
+| > company 's 
+| > address phone number ? 
+get list name vr 
+| > expert 
+| > phone number email address ? 
+read vr book market : 
+- virtual reality - ken pimental ken sp ? 
+- virtual mirage 
+- artificial reality - myron kreuger 
+- etc. . 
+check newsgroup _ world 
+feel free contact info . 
+regards , 
+josh 
+-- 
+
+
+joshua product manager 
+advanced graphics division advanced graphics systems 
+silicon graphics inc. . 
+market manager 
+2011 north shoreline blvd. . 
+virtual reality 
+mountain view , ca interactive entertainment 
+
+
+tel : 
+fax : 
+e-mail : 
+
+

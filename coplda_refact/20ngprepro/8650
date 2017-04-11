@@ -1,0 +1,77 @@
+: glenn elmore 
+subject : re : single chip receiver fsk ? 
+organization : hp sonoma county 
+: tin version 1.1 .2 
+lines : 78 
+john ackermann x write : 
+: next project come module fast -- 112 
+: 250 -- packet radio use . 
+fancy modulation scheme , 
+: wide fsk use 902 1296 mhz . 
+: bit familiar motorola chip , wonder 
+: newer design might work higher input frequency . 
+: goal come inexpensive design receiver `` back 
+: end '' input one end fsk . 
+
+: particularly interested way use higher 10.7 -- 
+: current chip work , say internal 
+: normal filter use ? 
+: suggestion ? 
+: john 
+describe close build describe 
+10th arrl computer network conference proceedings . 
+build 10 watt fsk transceiver 904 mhz . 
+essentially 
+double conversion digital mod 29 mhz . 
+receiver use fsk receiver chip use 
+2 mbp 10 ghz datum link first publish ham 
+radio also arrl handbook . 
+, include vhf converter section , could also use 
+speed . 
+newer perhaps slightly improved design 
+remember rightly . 
+use would let reduce `` external '' count 
+receive , really offer much help transmit 
+bother . 
+radio build first design build 512 kbp 2 
+mhz channel later reduce half . 
+256 kbp radio 
+actually quite well test 384 kbp 
+speed pretty much function filter design . 
+handle datum 
+stream another matter entirely . 
+exist radio currently deploy hilltop 
+`` beacon '' test mode . 
+yet two-way datum flow 
+due lack resource debug software digital hardware mio 
+also show cnc proceedings , datum perfect copy . 
+even 
+though datum clock currently half speed , 2 + 
+test text chapter 55 isaiah take little 
+second . 
+hope someone would get interested enough step 
+get involve write code make whole thing usable borland 
+ide environment remote debugging possible mention 
+proceedings date couple run 
+low resource time , money energy . 
+anyone sf bay area want check also cw 
+id text mark side mhz beacon sonoma 
+mtn black mtn overlook si valley . 
+antenna horizontally 
+polarize . 
+guess retrospect suggestion fairly costly 
+approach radio intend user rather backbone 
+might want carefully consider `` target '' . 
+
+arrange path complete line-of-sight think 
+'ll want address cause 
+multipath probably link budget path far los . 
+detail , see 10th cnc . 
+currently work spread 
+spectrum , direct conversion design address problem . 
+would glad help design problem . 
+73 
+glenn elmore 
+@ 
+amateur ip : 
+internet : 

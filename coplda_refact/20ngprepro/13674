@@ -1,0 +1,1464 @@
+: nick c. fotis 
+subject : 27 apr 93 computer graphics resource listing : weekly part 
+lines : 1529 
+: nick nikolaos fotis 
+organization : national technical univ. athens 
+: 
+: 
+computer graphics resource listing : weekly post part 
+
+last change : 27 april 1993 
+11 . 
+scene file 
+
+dem digital elevation model 
+
+dem digital elevation model well cartographic datum 
+huge available , . 
+contact : 
+lee moore -- webster research center , xerox corp. -- 
+voice : +1 
+arpa , internet : 
+check also , -- 
+many file also available cd-rom sell usgs : 
+`` scale digital line graph dlg datum '' . 
+contain data 
+50 state . 
+price $ 28 , call visit office 
+menlo park , reston , virginia . 
+datum user services division bureau census also 
+datum cd-rom tso standard format derive usg 
+1:100,000 map datum . 
+call info 
+bb . 
+# 198 march 1993 : 
+`` u.s. defense mapping agency , cooperation counterpart 
+agency canada , u.k. , australia , release digital chart 
+world . 
+chart consist 1.5 gigabyte reasonable 
+quality vector datum distribute four cd-rom . 
+... include coastline , 
+river , road , , airport , city , town , spot elevation , depths , 
+100,000 place name . '' 
+compatible $ 200.00 available : 
+u.s. geological survey 
+p.o. box 
+denver federal center 
+denver , co 
+digital distribution services 
+energy , mines , resources canada 
+615 booth street 
+ottawa , 
+canada 
+director general military survey 
+survey 3 
+elmwood avenue 
+feltham , middlesex 
+united kingdom 
+director survey , australian army 
+department defense 
+campbell park office 
+campbell act 2601 australia 
+fractal landscape generator 
+---------------------------- 
+public domain : 
+many people write fractal landscape generator . 
+example 
+mac generator write 
+paul d. bourke . 
+many program available ftp site mail 
+archive server . 
+check archie . 
+commercial : 
+vista pro 3.0 amiga virtual reality labs -- list price 
+$ 100 . 
+address : 
+vrl 
+2341 court 
+san luis obispo , 
+ca 
+telephone fax 
+scenery animator also amiga caliber vista pro 2 . 
+check : 
+natural graphic 
+p.o. box 1963 
+, ca 
+phone 
+forget ask companion program datum . 
+vista pro 3 port pc . 
+cia world map ii 
+---------------- 
+note : database quite date , topologically structure . 
+need standard world cartographic datum , wait 
+digital chart world . 
+1:1 m database produce 
+defense mapping agency 's onc available , together 
+search view software , number cd-rom later summer . 
+check see ftp list 
+cia database consist coastline , river political boundary 
+form line stroke . 
+also 
+array elevation datum , contain one ieee float point number 
+every half degree longitude latitude . 
+program decode database , , find machine 
+. 
+. 
+another program , read compress cia data bank file 
+build structure . 
+use extension know 
+set performance , use regular . 
+ask 
+joe stewart < > . 
+raw datum stanford require package able view . 
+post . 
+exact , 'll 
+compile routine , whole package . 
+ncar datum 
+--------- 
+ncar national center atmospheric research many type 
+terrain datum , range elevation dataset 
+various resolution , information soil type , vegetation , etc. . 
+datum free -- charge $ 40 $ 90 , depend 
+datum volume media exabyte tape , 3480 cartridge , tape , 
+ibm pc floppy , ftp transfer available . 
+datum archive 
+mostly research orient , hobbyist orient . 
+information , 
+email . 
+unc datum tape voxel datum 
+-------------- 
+2 `` public domain '' tape datum comparison 
+testing various volume render algorithm mainly mri ct 
+scan . 
+tape distribute unc @ chapel hill . 
+
+datum set volume ii also available via anonymous ftp 
+
+nasa 
+-- 
+many us agency nasa publish cd-rom many altimetry datum 
+various space mission , eg . 
+viking mars , magellan venus , 
+etc. . 
+especially nasa , would suggest call follow 
+address info : 
+national space science date center 
+goddard space flight center 
+greenbelt , maryland 
+telephone : 
+email address : 
+datum catalog datum available online . 
+internet user telnet log 
+` ' password . 
+also dial 301 300 , 1200 , 2400 baud , 8 bit , 
+parity , one stop . 
+`` enter number : '' prompt , enter md 
+carriage return . 
+system respond `` call complete , '' enter 
+carriage return get `` username : '' log ` ' 
+password . 
+also anonymous ftp site , comprehensive list 
+available present . 
+earth sciences data 
+------------------- 
+listing anonymous ftp site earth science datum , include 
+imagery . 
+listing call `` earth sciences resources internet '' , 
+get via anonymous ftp 
+directory cog name `` '' 
+site include : 
+: - avhrr image 
+: - image 
+magellan viking mission etc. . 
+contain listing file available whole 
+archive index 200k . 
+also 
+e-mail server people without internet access : send letter 
+- server . 
+
+subject letter body , use command like : 
+send space index 
+send space 
+capitalization important ! 
+text file handle 
+email server present 
+. 
+: landsat - 
+landsat photo gif jpeg format 
+shut - ; anyone copy archive ?? 
+
+------ 
+daily value river discharge , streamflow , daily weather datum 
+available , central ave. , boulder co 80301 . 
+
+disk expensive , around $ 500 , quantity discount . 
+. 
+check , wx directory carry 
+datum regard surface analysis , weather radar , sit view pic 
+gif format update hourly 
+space planetary image facility 
+located university new mexico campus ftp server . 
+provide 
+anonymous ftp access > 150 cd-rom . 
+disk earthquake datum , topography , gravity , geopolitical info 
+available national geophysical data center , 325 broadway , 
+boulder , co . 
+. 
+least us sell landsat mss datum older two year 
+old $ 200 per scene , talk similar deal 
+landsat tm datum . 
+mss datum 4 band , 80 meter resolution . 
+check anonymous ftp 
+tool create convex hull 
+generalization convex hull 3d point set . 
+grips ii gov. raster image processing software cd-rom 
+available cd-rom inc. $ 49 . 
+code view arc digitised raster graphics file 
+available grips ii cd-rom . 
+u.s. army engineer 
+topographic labs juan perez code also available via ftp 
+archive 
+nrcc range datum 
+--------------- 
+rioux m. , cournoyer l. `` nrcc three-dimensional image datum file '' , 
+tech . 
+report , , national research council canada , 
+ottawa , canada , 1988 
+understand , datum laser range finder , 
+copy research purpose 
+
+12 . 
+3d scanner - digitized 3d datum 
+
+a. labs , monterey , ca , manufacture 3d color laser digitizer 
+use model part , complete , human body . 
+run service bureau also , digitize model . 
+address : 
+labs , inc 
+8 harris ct , suite 3d 
+monterey , ca 
+phone : , fax : 
+b. polhemus make 6d input device actually couple model 
+sens position 3d orientation +3 d base electromagnetic 
+field interference . 
+equipment also incorporate 
+vpl . 
+hardware also call , keiser aerospace . 
+ascension technology make similar 3d input device . 
+company , applied sciences ? 
+, make 3d input 
+device position base speed sound triangulation . 
+c. company specialize digitize viewpoint . 
+ask 
+viewpoint 's _ free _ 100 page catalog full ready 
+ship dataset category car , anatomy , aircraft , sport , 
+boat , train , animal . 
+though object 
+quite expensive , nevertheless interest 
+picture available object wireframe , polygon mesh . 
+contact : 
+viewpoint , 
+870 west center , 
+orem , utah 
+ph # 
+fax # 
+
+------ 
+address company make digitizer : 
+ascension technology 
+bird , flock bird , big bird : 6d tracker 
+p.o. box 527 , 
+burlington , vt 
+phone : , fax : 
+polhemus incorporated 
+digitizer : 6d tracker 
+p.o. box 560 , hercules dr. 
+colchester , vt. 
+tel : 
+logitech inc. . 
+red baron , ultrasonic 6d mouse 
+kaiser dr. 
+freemont , ca 
+tel : w 
+shooting star technology 
+mechanical 
+1921 ave. 
+burnaby , b.c. canada 
+tel : 
+fax : 
+spaceball technologies , inc. . 
+spaceball : 6d stationary input device 
+600 suffolk street 
+lowell , ma , 
+tel : 
+fax : 
+tel mountain view : 
+transfinite systems 
+gold brick : macintosh 
+p.o. box n 
+mit branch post office 
+cambridge , ma 
+tel : 
+email : 
+vpl research , inc. . 
+: head-mounted display 
+: input device 
+vpl research inc. . 
+950 tower lane 
+14th floor 
+foster city , ca 
+tel : 
+fax : 
+engineering 
+flying mouse : 6d input device 
+1137 huntington rd. . 
+suite a-1 
+south pasadena , ca 
+
+
+13 . 
+background 
+
+first , check ftp place mention faq ftp 
+list . 
+24-bit scanning : 
+---------------- 
+get good 24-bit scanner , like epson 's . 
+suggest port 
+speed . 
+eric haines suggestion rt news , volume 4 , # 3 : 
+scan texture wallpaper floor covering , etc. doll 
+house supplies . 
+rather cheap way scan pattern 
+scale trouble associate real material scanning area . 
+book texture : 
+-------------------- 
+find carry photographic material . 
+, , sell cd-rom various imagery - also 
+wide variety stock art available . 
+stock art big-name stock art house , comstock , 
+, metro image base , available . 
+italy , company call belvedere make book 
+purpose clipping page inclusion 
+graphic work . 
+address : 
+edition belvedere co. ltd. , 
+rome italy , 
+piazzale flaminio , 19 
+tel. 06 , fax 06 
+texture library : 
+------------------ 
+a. mannikin sceptre graphics announce textiles , set 24-bit 
+texture . 
+initial shipment 24-bit iff amigas , soon 24-bit 
+tiff format . 
+algorithmically build tiled surface . 
+srp $ 40 volume 
+volume 40 image @ 10 disk . 
+demo disk $ 5 available . 
+contact : 
+mannikin sceptre graphics 
+1600 indiana ave. 
+winter park , fl 
+phone : 
+fax : 
+b. essence library 65 sixty-five new texture imagine 
+impulse , inc. . 
+texture fully compatible floating point 
+version imagine 2.0 , imagine 1.1 , even turbo silver . 
+write steve worley . 
+info contact : 
+essence info 
+apex software publishing 
+405 el camino real suite 121 
+menlo park ca usa 
+texture city ?? 
+
+14 . 
+introduction render algorithm 
+
+a. : 
+--------------- 
+assume general understanding computer graphics . 
+? 
+read 
+book faq contain . 
+, would 
+suggest : 
+introduction ray tracing , andrew glassner ed . 
+, academic press 
+1989 , isbn 
+note read book , feel wrong 
+use book . 
+erratum list post eric haines 
+
+concise reference also : 
+roman , unc @ chapel hill : `` introduction ray tracing '' , 
+`` theoretical foundation computer graphics cad '' , ed . 
+, 
+nato , vol . 
+, p. . 
+printed springer-verlag , 1988 . 
+contain code small , fundamentally complete . 
+b. z-buffer 
+-------------------------- 
+good reference : 
+_ procedural element computer graphics _ , david f. rogers , 
+mcgraw-hill , new york , 1985 , page . 
+c. : 
+---------- 
+??? 
+info need -- 
+
+15 . 
+find geometric datum : 
+
+a. teapot ? 
+----------- 
+`` display display '' column ieee jan '87 whole 
+story origin martin newell 's teapot . 
+article also 
+patch model pascal program display wireframe 
+model teapot . 
+ieee sep '87 jim blinn 's column `` jim blinn 's corner '' describe 
+another way model teapot ; curve rotation 
+example use . 
+spd package object , advise get 
+avoid typing datum . 
+datum triangle 
+specific resolution around 8x8 x4 triangle mesh per patch . 
+spd package provide spline patch description perform 
+tessellation specify resolution . 
+b. space shuttle ? 
+------------------ 
+tolis < > build list space shuttle 
+datafile . 
+summary list : 
+: 
+modify version newsgroup model 
+406 vertex 296 useful , i.e. refer polygon description . 
+389 polygon 233 , 146 , 7 , 3 . 
+payload door non-existent . 
+unit : unknown . 
+simon marshall copy . 
+
+say proprietary information associate . 
+: 
+newsgroup model , format . 
+find 
+, file 
+, . 
+. 
+datum 
+: 
+triangle ' model . 
+model store several file , define portion model . 
+greg henderson copy . 
+
+mention restriction model 's distribution . 
+: 
+nasa model . 
+file start header line contain three real number , 
+define offset use lockheed simulation : 
+
+, file consist sequence polygon description 
+vertex . 
+polygon 407 , , 33 , 14 , 
+10 , 8 , 8 , 2 , 2 , 
+17 , 2 , 2 , 3 , 8 . 
+payload door close . 
+unit : inch . 
+jon berndt seem responsible model 
+proprietary info : unknown 
+: 
+old shuttle model . 
+file consist sequence polygon description . 
+104 vertex . 
+452 polygon 11 , 41 . 
+payload door open . 
+unit : meter . 
+use model star labs , stanford university , 
+year . 
+contact supervisor 
+scott williams want copy . 
+
+16 . 
+image annotation software 
+
+a. run pretty good . 
+read 
+, even image normally store 
+format could use make 
+. 
+b. part stanford 's interviews distribution handle 
+image format addition like tool . 
+
+sure exactly . 
+ftp 's binary . 
+c. tgif another like tool handle x11 bitmap 
+x11 format . 
+image format 
+, get toolkit convert 
+thing like gif even macintosh format . 
+tgif 's source available pub directory 
+version 2.12 tgif 7 plus 
+d. use facility see . 
+one utility overall system - essentially 
+image processing graphic use package . 
+e. might able get . 
+give text output 
+bitmap overlay top image . 
+f. ` ice ' require sun hardware run 3 . 
+
+graphical editor , available anonymous ftp internet host 
+. 
+require sun c + + 2.0 
+two locally develop package , library 
+toolkit small c + + class library . 
+file . 
+, 
+. 
++ + . 
+available compress 
+tar format . 
+. 
+contain readme give installation 
+instruction , well extensive man page ice .1 . 
+compress executable 4 . 
+z 
+sparc system also available ftp . 
+software property columbia university may 
+redistribute without permission . 
+ice mean image composition environment imaging tool 
+allow raster image combine wide variety 
+postscript annotation wysiwyg fashion via x11 imaging 
+routine news postscript . 
+g. use annotate image x server . 
+pick 
+position text cursor choose font pen 
+color pull-down menu . 
+read write many 
+popular image format . 
+available 
+: . 
+nearest 
+x11 archive . 
+
+17 . 
+scientific visualization stuff 
+
+x data slice xd 
+------------------- 
+bundle x11 distribution mit , 
+directory . 
+available 
+either source binary various platform . 
+national center supercomputing application ncsa tool suite 
+----------------------------------------------------------------- 
+platform : unix workstations dec , ibm , sgi , sun 
+apple macintosh 
+cray supercomputer 
+availability : available . 
+source code public domain . 
+ftp . 
+contact : national center supercomputing application 
+computing application building 
+605 e. springfield ave. 
+champaign , il 
+cost : free zero dollar . 
+suite include tool 2d image 3d scene analysis visualization . 
+code actively maintain update . 
+spyglass 
+-------- 
+sell commercial version ncsa tool . 
+example : 
+spyglass dicer 3d volumetric datum analysis package 
+platform : mac 
+spyglass transform 2d datum analysis package 
+platform : mac , sgi , sun , dec , hp , ibm 
+contact : 
+spyglass , inc. . 
+p.o. box 
+champaign , il 
+
+1.0 patch 5 
+------------------ 
+available via anonymous ftp . 
+cd see available . 
+huge > 100 mb , good . 
+need unix . 
+freely copy pd , complete source 
+doc . 
+extensive heart visual programming . 
+component include visual programming language , code 
+generator extend visual language add new application 
+package system , interactive user interface editor , 
+interactive image display package , extensive library image 
+signal processing routine , plot package . 
+see . 
+usenet relative faq info ... 
+contact : 
+group 
+room 110 dept. . 
+university new mexico 
+albuquerque , nm 
+email : 
+
+-------- 
+analysis & visualization application macintosh . 
+operate 1d 2d datum array . 
+several different file 
+format . 
+several different plot option gray scale , 
+color raster , 3d wire frame , 3d surface , contour , vector , line , 
+combination . 
+fft , filter , math function , color look 
+editor , array calculator , etc. . 
+shareware , available via anonymous ftp 
+. 
+directory . 
+information contact doug norton e-mail : 
+iris explorer 
+------------- 
+application creation system develop silicon 
+graphic provide visualisation analysis functionality 
+computational scientist , engineer scientist . 
+explorer 
+gui allow user build custom application without write 
+, minimal amount , traditonal code . 
+also , exist code 
+easily integrate explorer environment . 
+explorer currently 
+available sgi cray machine , become available 
+platform time . 
+bundle every new sgi machine , far 
+know 
+see discussion package . 
+also two ftp server related stuff , module etc. : 
+
+- mirror uk site 
+ape 
+-- 
+back ` old good day ' , could get ape nearly free . 
+go commercial follow vendor supplies : 
+corporation 
+929 harrison avenue 
+columbus , ohio 
+tel : 
+fax : 
+cost : 
+$ 895 plus tax ; runtime version single user 
+time , limit number machine cluster . 
+$ 895 include upgrade . 
+source code . 
+additional user $ 360 . 
+name package become ape iii tm . 
+similar ape philosophy , avs explorer . 
+av 
+-- 
+see also : 
+
+platform : convex , cray , dec , evans & sutherland , hp , ibm , kubota , 
+set technologies , sgi , , sun , 
+availability : available : 
+unix workstation . 
+contact : 
+advanced visual systems inc. . 
+300 fifth ave. 
+waltham , ma 
+617 telephone 
+617 fax 
+email 
+advanced visual systems inc. : cray , hp , ibm , sgi , , sun 
+convex convex 
+advanced visual systems inc. cray cray 
+dec dec 
+evans & sutherland evans & sutherland 
+advanced visual systems inc. ibm ibm 
+kubota pacific inc. kubota 
+set technologies set technologies 
+
+ftp site : module , datum set , info : 
+
+wit 
+-- 
+nutshell package genre av , explorer , etc. . 
+seem image processing system generic system 
+major element : 
+- visual programming language , automatically exploit inherent 
+parallelism 
+- code generator convert graph standalone program 
+library present rich set point , filter , io , transform , 
+morphological , segmentation , measurement operation . 
+flow library allow graph employ broadcast , merge , 
+synchronization , conditional , sequencing control strategy . 
+wit deliver object-oriented , distribute , visual programming 
+environment allow user rapidly design solution 
+imaging problem . 
+user consolidate software hardware 
+development within complete workspace add 
+operator c function , object datum structure , server 
+specialize hardware . 
+wit run sun , , sgi support 
+200 hardware allow run graph real-time . 
+free wit demo disk , call , fax , e-mail 
+state complete name , address , voice , fax , e-mail info . 
+desire platform . 
+pricing : wit sparc , one yr . 
+free upgrade , 30 day 
+technical support ... ... ... ... $ 5000 us 
+academic institution : discount available 
+contact : 
+logical vision ltd. . 
+suite gilmore way 
+burnaby , b.c. , canada 
+
+tel : 
+fax : 
+terry arden < > 
+
+------ 
+system visually explore output gridded datum set 
+make weather model . 
+platform : 
+sgi iris , gtx , tg , g graphic , 
+sgi crimson indigo r4000 , elan graphic suggest , irix 4.0 . 
+x 
+ibm gl graphic , aix version 3 later ; 
+display 
+case , 32 mb ram suggest . 
+get freely thanks nasa support via anonymous ftp : 
+ftp ftp , 
+ftp > cd 
+ftp > 
+ftp > get readme 
+ftp > bye 
+note : find package also 
+directory . 
+read section 2 readme file full instruction 
+get install . 
+contact : 
+bill hibbard 
+brian paul 
+ibm 
+------------------ 
+platform : ibm risc system 6000 , ibm power visualization server 
+simd mesh 32 i860 , 40 mhz 
+work announce : sgi , hp , sun 
+contact : 
+local ibm rep. trial package ask rep contact : 
+david kilgore 
+datum explorer product marketing 
+, 
+wavefront 
+--------- 
+datum visualizer , personal visualizer , advanced visualizer . 
+platform : sgi , sun , ibm , hp , dec 
+availability : 
+available platform wavefront 
+technologies . 
+educational program site 
+available . 
+contact : 
+mike wilson 
+wavefront technologies , inc. . 
+530 east montecito street 
+santa barbara , ca 
+
+fax : 
+wavefront europe 
+21-23 
+gent , belgium 
+
+fax : 
+wavefront technologies japan 
+bldg 
+2-6-1 , 
+tokyo 168 japan 
+
+fax 
+fast nasa ames 
+
+package distribute cosmic least 
+fast ask pat elson < > 
+distribution information . 
+general , code us 
+citizen : - 
+
+------ 
+tape . 
+specialty display 
+64 datum set 2d . 
+ncar 
+-- 
+national center atmospheric research . 
+one original graphic 
+package . 
+run sun , , sgi , vax , cray , , . 
+contact : 
+graphics information 
+ncar scientific computing division 
+p.o. box 3000 
+boulder , co 
+303 
+
+cost : 
+. 
+edu 
+$ 750 unlimited user 
+. 
+gov 
+$ 750 1 user 
+$ 1500 5 user 
+$ 3000 25 user 
+. 
+com user multiply . 
+gov 2.0 
+idl 
+-- 
+environment scientific computing visualization . 
+base array orient language , idl include 2d 3d 
+graphic , matrix , signal image processing , 
+basic statistics , , mapping , widget base system 
+build gui idl application open look , motif , 
+. 
+environment : dec vms ultrix , hp , ibm , sgi , sun , 
+microsoft windows . 
+mac version progress 
+cost : $ 1500 $ 3750 , educational quantity discount 
+available . 
+see also : bundle 
+contact : research systems inc. . 
+777 29th street , suite 302 
+boulder , co 
+phone : 
+fax : 
+e-mail : 
+demo available via ftp . 
+call e-mail detail . 
+
+-------- 
+`` lot people use idl package call sips . 
+
+develop university colorado boulder people work 
+alex goetz . 
+might try contact already idl 
+would willing buy . 
+thousand dollar american 
+expect idl free . 
+general 
+purpose package hear , besides . 
+sip _ _ write imagery . 
+sure general purpose 
+. 
+would contact goetz one people ask . 
+
+another piece software pcw pc walsh 
+transformation clustering limited image 
+modification compute image use select component . 
+` ve 
+use 70 megabyte image without problem , best 
+speed need external dsp card . 
+work without , large 
+image take quite 50-70 time long process . 
+
+freebie want '' 
+`` favorite idl interactive data language research systems , 
+inc. . 
+idl opinion , much better infinitely easier . 
+
+program language strong easy -- . 
+
+handle well , also . 
+personally , like 
+idl vax mathematica , igor , even 
+excel mac hairy , bring nih 
+image imaging part . 
+yet encounter situation 
+combination could handle , speed ease use 
+compare iraf incredible . 
+way , mostly astronomical 
+image processing . 
+mean image enhancement , 
+clean bad , traditional image 
+process routine . 
+, example , take graph intensity 
+versus position along line choose mouse , curve 
+fit line might like . '' 
+idl call research systems , call precision visual 
+sip call university colorado @ boulder . 
+
+understand , get package program research systems , though 
+-- 
+
+------- 
+contact robert haimes , mit 
+
+--------- 
+interactive program design assist engineer 
+investigate fluid dynamics datum set . 
+platform : sgi , ibm , hp , sun , 
+availability : currently available 
+platform . 
+educational program volume 
+discount available . 
+contact : 
+intelligent light 
+p.o. box 65 
+fair lawn , nj 
+
+steve kramer 
+
+------ 
+primarily intend 3-d visualization datum 
+interactive environment ability generate animation use 
+video recording device . 
+user manual , on-line help , 
+technical note help use program . 
+cost : 0 free , source code provide via ftp . 
+platform : sgi 4d machine ibm gl card + z-buffer 
+find : 
+: 
+mirror . 
+: 
+
+-- 
+readme : 
+distribute image handle system pro- 
+vide image transport compression local wide area 
+network , image viewing workstation , record video 
+equipment , storage disk . 
+system - 
+bute among workstation , supercomputer work - 
+, supercomputer , workstation video 
+animation controller . 
+system commonly use 
+produce video base movie display image result 
+visualization time dependent datum , complex 3d datum set , 
+image processing operation . 
+client 
+server run variety system provide unix-like c 
+run-time environment , socket . 
+source available anonymous ftp : 
+: . 
+
+contact : 
+bill johnston , ... 
+
+david robertson ... 
+imaging technologies group 
+m 
+lawrence berkeley laboratory 
+1 cyclotron road 
+berkeley , ca 
+fv 
+----------- 
+widget set base osf open software 
+foundation motif widget set . 
+widget 
+comprise lower level motif widget button , , 
+menu , draw area . 
+design address reusability 
+2d visualization routine widget library 
+encapsulation specific visualization technique 
+manipulation , image display , contour plot . 
+targett 
+run unix workstation support . 
+currently , 
+color monitor support . 
+since collection widget 
+develop spirit user interface widget 
+set , integrate seamlessly motif widget . 
+programmer 
+use widget see interface design 
+motif widget . 
+fv visualization software computational fluid dynamics cfd 
+simulation . 
+fv design accept datum generate 
+simulation apply various visualization technique present 
+datum graphically . 
+fv accept three-dimensional datum record ncsa hdf format . 
+: scientific visualization 
+; directory contain demo binary 
+cost : us$ 200 academic us$ 300 non-academic institution . 
+item . 
+get source licence . 
+contact 
+------- 
+miss quek lee hian 
+member technical staff 
+information technology institute 
+national computer board 
+ncb building 
+71 , park drive 
+singapore 
+republic singapore 
+tel : 
+fax : 
+email : 
+--------------------------------------------------------- 
+distribution : 
+bob - interactive volume renderer sgi 
+raz - disk base movie player sgi 
+- motif color editor 
+--------------------------------------------------------- 
+army high performance computing research center 
+develop set tool work large time dependent 2d 3d 
+datum set . 
+graphics visualization lab gvl use 
+tool along side standard package , sgi explorer 
+utah raster toolkit , render 3d volume create digital movie . 
+couple general purpose program bundle 
+package call `` '' . 
+, currently consist bob , raz , available 
+via ftp . 
+interesting program probably bob , interactive 
+volume renderer sgi . 
+raz stream raster image disk 
+sgi screen , enable movie larger memory play . 
+
+color map editor work bob raz . 
+source 
+pre-built binary irix include . 
+acquire , anonymous ftp : 
+machine - 
+file - . 
+
+use : 
+gvl ; cd gvl 
+| tar - 
+readme 
+bob feature : 
+motif interface , sgi gl render 
+render 64 cube datum set 0.1 1.0 seconds 
+alpha compositing maximum value render , perspective 
+maximum value render personal iris 
+datum must `` brick bytes '' , regularly space grid 
+animation , , subsampling , stereo 
+raz feature : 
+motif interface , sgi gl render 
+load file raw disk partition , stream screen 
+require empty disk partition set aside 
+script interface available movie sequence 
+stream memory , like ncsa 
+feature : 
+motif interface 
+easy create interpolated color map key point 
+rgb , hsv yuv color space , multiple file format 
+communicate change automatically bob raz 
+test sgi , sun , dec cray system 
+btw : bob brick bytes 
+interpolated color 
+raz ? 
+name 
+please send comment 
+
+software collection support army research office 
+contract number university minnesota army 
+high performance computing research center . 
+iap 
+-- 
+imaging application platform commercial package medical 
+scientific visualization . 
+volume rendering , binary surface 
+render , , image manipulation , cine sequencing , 
+intermix geometry text image provide measurement 
+coordinate transform ability . 
+provide hardcopy medical film printer , image database 
+functionality interconnection medical scanner . 
+base provide object orient interface . 
+
+run high performance workstation take full advantage 
+parallelism available . 
+robust , efficient 
+submit fda approval use medical application . 
+cost : $ 20k oem developer , $ 10k educational developer 
+run time start $ 8900 go base quantity . 
+developer package include two day training two people toronto . 
+available : 
+isg technologies 
+airport road 
+mississauga , ontario , 
+canada , 
+
+e-mail : rod gilchrist < > 
+
+18 . 
+molecular visualization stuff 
+
+base list < cristy > , ask 
+system display molecular dynamics , md short 
+flex 
+-- 
+public domain package write michael pique , scripps 
+research institute , la jolla , ca . 
+flex store compress , 
+tar ` ed archive 3.4 mb , 
+. 
+display molecular model md trajectory . 
+
+----------- 
+macintosh . 
+search archie , 
+promising place . 
+, 
+demo 
+
+---------- 
+run sgi machine . 
+call terry lybrand . 
+
+-------- 
+crystallography package visualize molecule much . 
+use toolkit . 
+call duncan mcree < > 
+
+----------------------------- 
+write visualization code right . 
+look md output 
+specific format , easy alter subroutine pc 's . 
+
+program hook gk . 
+friend access x 
+pex fortran binding , would happy share evolve code 
+free charge . 
+right display supercell 65 
+atom easy change , 100 time step , draw nearest 
+neighbor bond 2 define nn radius . 
+work acceptably fast 
+286 . 
+
+
+project molecular visualization master 's thesis , use 
+generate simple point space-filling model . 
+
+------- 
+part . 
+look 4 . 
+, 
+. 
+information plain format . 
+
+information troff format . 
+order form troff format . 
+license agreement troff format . 
+
+information postscript format . 
+order form postscript format . 
+license agreement postscript format . 
+
+------------------------ 
+work molecular dynamic . 
+friend mine 
+develop program display md run dynamically silicon 
+graphic . 
+work improve , work x , 
+use . 
+lib . 
+silicon gr . 
+much 
+faster x. 'll end 'll post news info 
+get ftp . 
+free software . 
+v2 .0 
+---------- 
+write david . 
+call . 
+
+-- 
+x window system program use 
+display analysis molecular model datum . 
+datum several 
+common file format read write ; current format include : 
+alchemy , , gaussian , , mopac , pdb , msci 's xyz 
+format design simplicity translate 
+format . 
+also allow conversion 
+several format . 
+available . 
+read 
+detail . 
+insight ii 
+---------- 
+technologies inc. . 
+scarecrow 
+--------- 
+program publish j. molecular graphic 10 
+1992 33 . 
+program analyze display , discover , 
+trajectory . 
+program package contain also software 
+generation probe surface , proton affinity 
+surface molecular orbital extended program . 
+work silicon graphics machine . 
+contact leif laaksonen < > 
+multi 
+----- 
+: pub - 3.0 
+molecular modeling suite 
+
+-------- 
+run , require fortran compiler sun 's 
+library . 
+tool provide interactive graphic 
+manipulation molecule atom . 
+currently , 10,000 
+atom may input . 
+available via anonymous ftp , , directory 
+check archie site far 
+would also suggest look least sgi 's application directory . 
+contain many package - 
+
+19 . 
+gi geographical information systems software 
+
+grass 
+----- 
+geographic resource analysis support system us army 
+construction engineering research lab . 
+popular geographic 
+remote sense image processing package . 
+many may think grass 
+geographic information system rather image processing package , 
+although report significant image processing 
+capability . 
+feature description 
+use grass public domain obtain 
+internet free . 
+grass run unix write c. source 
+code obtain anonymous ftp office grass 
+integration . 
+compile source code machine , use 
+script provide grass . 
+would recommend grass someone 
+already workstation limited budget . 
+grass 
+user-friendly , compare macintosh software . '' 
+first review 
+overview documentation indicate look useful pixel 
+function package plus good general purpose 
+image enhancement routine fft . 
+kelly maurice corp. 
+boulder , co primary user grass . 
+gentleman use 
+grass software develop multi-spectral 238 band ?? 
+volumetric 
+render , full color , suns . 
+really effective 
+interface . 
+corp. currently contract map part venus 
+convert magellan radar datum contour map . 
+call 
+email care 
+host configuration requirement 
+willing run could install grass macintosh 
+significant image analysis import capability 
+satellite datum . 
+grass public-domain , run high-end pc 
+unix . 
+, capability , 
+display vector datum analysis must raster 
+environment . 
+use grass v. 3 sun workstation find 
+easy use . 
+best , course , datum well represent 
+raster form . 
+availability 
+'s office grass integration maintain ftp server : 
+. 
+mail regard site address 
+. 
+location new `` canonical '' source grass software , 
+well bug fix , contribute source , documentation , file . 
+ftp server also support dynamic compression 
+`` tar '' archiving file . 
+feature attraction server john 
+parks ' grass tutorial . 
+manual still stage , 
+john request people acquire willing review 
+mail . 
+ogi currently 
+maintain document , correspondence 
+direct 
+support 
+listserv mailing list : 
+grass user ; application-level 
+question , support concern , miscellaneous question , etc send 
+subscribe command . 
+grass programmer ; system-level 
+question tip , trick , technique design implementation 
+grass application send subscribe command 
+. 
+list maintain office grass integration subset 
+army corps engineers construction engineering research lab 
+champaign , il . 
+ogi provide list service 
+community ; employee participate list , 
+make claim content veracity message pass 
+list . 
+question , problem , comment , send 
+e-mail human respond . 
+microstation imager 
+------------------- 
+intergraph base huntsville alabama sell wide range gi 
+. 
+microstation base graphic package imager 
+sit top . 
+imager basically image processing package 
+heavy sense flavor . 
+feature description 
+basic geometry manipulation : flip , mirror , rotate , generalize affine . 
+rectification : affine , 2nd , 3rd , 4th 5th order model well 
+projective model warp image vector map another image . 
+rgb ihs ihs rgb conversion . 
+principal component analysis . 
+classification : k-means . 
+fourier : forward , filter 
+reverse . 
+filter : high pass , low pass , edge enhancing , median , 
+generic . 
+complex control . 
+layer controller : manage 
+64 image time -- user extract single band 3 band 
+image create color image combine various individual band , etc. . 
+package design remote sense application handle 
+large image kind software available 
+gi application . 
+host configuration requirement 
+run intergraph workstations unix machine similar sun 
+though rumor always rumor software 
+would port pc possibly sun environment . 
+pcus 
+-- 
+company call pci , inc. , richmond hill , ontario , canada , make 
+array software utility processing , manipulation , use 
+remote sense datum eight ten different `` industry standard '' 
+format : , , landsat , couple whose title 
+forget . 
+software available version , unix 
+workstation among hp , sun , ibm , vms , quite possibly 
+platform . 
+use vms version . 
+`` pcus software '' consist several 
+utility , group function operate common `` pcus 
+database '' disk file . 
+`` tape '' package set utility 
+program read various remote-sensing industry tape 
+format , write format , `` pcus database '' file ; 
+package use know much . 
+package 
+display datum pcus database one another several 
+third-party color display , output numeric bitmap 
+representation image datum attach printer , e.g. 
+dot-matrix graphic printer . 
+might spe - 
+interested mathematical operation package : - gram 
+fourier analysis , equalization , user-specified operation e.g. 
+`` multiply channel 1 3 , add channel 2 , store channel 5 '' , 
+god know else -- lot . 
+
+use , say much ; buy package 
+particular call . 
+utility control one eight `` parameter , '' read 
+common `` parameter file '' must vms anyway `` default 
+directory . '' 
+utility share parameter use 
+parameter different purpose , get bit confusing setting 
+series operation . 
+standard pcus environment contain 
+script language similar ibm-pc basic , allow 
+automate process set parameter common , complicated , 
+lengthy difficult series utility execution . 
+vms also 
+invoke utility independently dcl command procedure . 
+
+also optional programming library allow write compile 
+language program interface read pcus 
+datum structure database file , parameter file . 
+pcus software design specifically remote-sensing image , 
+require level operator expertise , reach 
+level handle image , figure way handle 
+thing well . 
+instance , tape package offer 
+utility read multi-band adobe photoshop 
+macintosh call `` raw '' datum tape , number different 
+`` interleave '' order . 
+turn ideal manipulate 
+industry 's `` '' format , would probably try 
+handle targa , . 
+, however , know 
+screw nth degree start 
+. 
+worth note pci `` database '' file design 
+contain `` raster '' image datum , vector overlay map 
+information enter via digitize table , land-use , manner 
+information observe remote-sensing image tape often 
+contain manner information spectral band , latitude , 
+longitude , time , date , etc. original satellite pass ; 
+go pci `` database '' . 
+_ believe _ workstation built-in display use . 
+vax 
+system workstation pcus support couple specific 
+third-party display system name seem come 
+mind . 
+one personal workaround display program would 
+display directly pcus `` database '' file 
+24-bit display subsystem . 
+pcus software could `` overkill '' 
+case ; seem design `` high end '' 
+, i.e. largely suffice 
+although know gap get smaller time . 
+
+probably coincidence pci located canada , country 
+lot management via remote sense ; believe 
+canadian government use pcus software work 
+area . 
+spam spectral analysis manager 
+-------------------------------- 
+back 1985 jpl develop something call spam spectral analysis 
+manager get fair amount use time . 
+design 
+airborne imaging spectrometer imagery byte datum , < 256 pixel 
+across < 512 line < 256 band ; modify version since 
+develop airborne visual infrared imaging 
+spectrometer use much larger image . 
+spam none thing rectification , classification , pc 
+ihs transformation , filter , contrast enhancement , overlay . 
+actually , limited filter contrast enhancement 
+stretch . 
+spam aim spectral identification clustering . 
+original spam use x display . 
+version may 
+require vicar , executive base tae , may also require frame 
+buffer . 
+refer people interested . 
+pcw require x 
+display . 
+map ii 
+------ 
+among mac gis system , map ii distribute john wiley . 
+
+------- 
+3-dimensional visualization program design exploit 
+real-time capability silicon graphics iris computer . 
+program design provide core set tool aid 
+visualization information cad gis source . 
+support 
+integration many common datum source dxf , 
+tin , dem , lattices , coverages among . 
+obtain 
+directory . 
+contact : 
+rodney 
+head design application 
+centre landscape research 
+university toronto 
+tel : 
+email : 
+
+end resource listing 
+-- 
+nick nikolaos fotis national technical univ. athens , greece 
+home : 16 st. , internet : 
+halandri , gr - 152 32 uucp : 
+athens , greece fax : +30 1 77 84 578 

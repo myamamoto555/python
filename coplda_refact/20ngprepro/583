@@ -1,0 +1,32 @@
+: tom bruhns 
+subject : re : analog systems need ground planes ? 
+organization : hp lake stevens , wa 
+lines : 25 
+soh kam yung write : 
+> understand need ground plane digital system . 
+however , 
+> would like know ground plane also necessary analog 
+> system . 
+> 
+> note : ground plane connect , except one point , 
+> signal ground . 
+> 
+> keep get conflict answer . 
+ground plane 
+> analog system help reduce noise also ? 
+system deal 
+> low frequency signal !!! 
+. 
+well , one reason get conflict answer depend 
+want ground plane . 
+continuous conductor good 
+electrostatic shield . 
+signal board need 
+shield rom thing ? 
+shield much good magnetic 
+field , unless make continuous around circuit shield , 
+like faraday cage . 
+flip side coin : work high impedance , 
+could end capacitance plane cause problem . 
+likely encounter , , 
+real problem one bite . 

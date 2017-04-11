@@ -1,0 +1,82 @@
+: 
+subject : kubota vs. 
+organization : center instructional research computing activity 
+lines : 70 
+: 
+: 
+people ask information kubota graphic 
+workstation , info vs. 
+freedom . 
+text denali vs. freedom d.h. brown associates . 
+------ 
+denali bear strong resemblance evans sutherlands freedom graphic 
+subsystem several aspect high-level design . 
+product use 
+parallel array processor geometric computation . 
+
+pixel router connect front end second array 
+pixel processor . 
+result , denali overlap significantly 
+performance functionality . 
+design team also appear 
+similar philosophy respect modularity , scalability , market 
+penetration . 
+remain , however , several important difference kpc 
+product . 
+evans sutherland design freedom high-end 
+developer 's dream system plenty performance potential 
+flexibility . 
+favor , freedom configuration two 
+sixteen float point unit , border range start end 
+higher price performance level denali . 
+freedom 
+system include large , fixed number pixel processor 
+support broader variety color blending function . 
+freedom 
+design treat entire image memory general-purpose memory , allow 
+developer allocate flexible basis number special-purpose 
+application . 
+finally , provide freedom flexible 
+video integration feature multimedia simulation application . 
+note 
+kpc work auxiliary board ntsc pal output 
+require external video encoder . 
+programmable output feature , 
+however , remain much flexible . 
+kpc design team , contrast , make denali end-user 's system . 
+entry version better performance range flexibility low-end 
+freedom configuration , come realistic mainstream price 
+point . 
+denali need many module 
+use deeper pipeline support one , result 
+better characteristic . 
+although product provide 
+strong support 3d , imaging , volume rendering , kpc recognize 
+user want even mix capability . 
+denali 's 
+configuration flexibility allow customer effect purchase 
+geometric pixel processing capability separately , upgrade 
+separately need . 
+company implement hardware texture mapping 
+workstation price level way attack sgi 's expensive 
+system -- product provide 
+capability . 
+kpc support point sampling bilinear interpolation 
+texture hardware , provide software support higher 
+interpolated method . 
+balance , however , denali 
+provided overall texturing capability application . 
+aside much affordable , kpc solution deliver parallelism 
+texture processing off-screen memory general graphic 
+datum storage . 
+implement texture mapping transformation 
+module , foce customer move quickly higher price level 
+obtain better texturing performance . 
+kubota avoid problem link 
+texturing frame buffer modules , provide lower-cost , scalable 
+solution . 
+hope help , 
+brian 
+ps reprint without permission . 
+full text , please contact 
+kubota . 

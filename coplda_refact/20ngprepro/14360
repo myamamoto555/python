@@ -1,0 +1,42 @@
+: ted matsumura 
+subject : re : leak memory resource 3.1 
+organization : bbs public access unix , +1 
+lines : 34 
+article < > michael write : 
+> article < > write : 
+> 
+daniel mittleman write : 
+: run win 3.1 2.2 8 meg memory 
+: 6 meg perm swap file get exceedingly frustrated 
+: application give back system resource close . 
+: 
+notice also . 
+way explain windows 
+clear upper memory block program . 
+anyone 
+know ? 
+
+> 
+> post something similar back . 
+seem window 
+> take upon free resource 
+> use application . 
+job leave 
+> entirely application . 
+, application clean 
+> quit . 
+> 
+> anyone know utility window 
+> clean sys. resource application quit ??? 
+. 
+> 
+> peace , 
+> mickey 
+could also shell hog resource . 
+example , 
+open app datum file cause result low system resource 
+2 . 
+x shell , 
+program manager , see shell 
+app . 
+ted 

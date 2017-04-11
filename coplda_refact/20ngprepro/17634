@@ -1,0 +1,32 @@
+: jonathan bayer 
+subject : re : problem toshiba 3401 cdrom 
+organization : intelligent software products , inc. . 
+lines : 30 
+imad m write : 
+> hus ! 
+> recently purchase toshiba 3401 cdrom . 
+adaptec 
+> card , far fail get cdrom work dos . 
+
+> work well , know drive faulty . 
+> config.sys , . 
+sy , , . 
+
+> autoexec.bat , , come 6.0 . 
+seem find 
+> install drive drive f : , switch drive try 
+> dir , get error message tell drive ready something 
+> like . 
+cdrom lock , adaptec utility seem 
+> recognize cdrom point . 
+current adaptec driver support toshiba 3401 . 
+
+get corel scsi driver , support . 
+method use , work well . 
+corel 's phone number 1 
+satisfied user . 
+jb 
+-- 
+jonathan bayer intelligent software products , inc. . 
+37 winthrop rd. . 
+edison , nj 

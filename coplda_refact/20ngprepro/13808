@@ -1,0 +1,26 @@
+: adrian secchia 
+subject : colours ? 
+keywords : color realism vector 
+organization : computer science department , university cape town 
+lines : 25 
+question recursive , backward . 
+incident ray strike object point p , first 
+normal n calculate . 
+light ray calculate l1 ln 
+n number light source - light 
+ray intersect anything . 
+reflect ray r 
+transmitted ray calculate formula . 
+call routine recursively r return color 
+along ray r . 
+object 
+color light source 1 < < n . 
+question : 
+combine , , 's get 
+correct result color return along ray ? 
+color define record r , g , b component 
+0 1 . 
+anyone could give hint ? 
+-- 
+adrian secchia 
+

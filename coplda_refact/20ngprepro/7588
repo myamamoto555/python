@@ -1,0 +1,28 @@
+: eric j balog 
+subject : : drive wo boot 
+organization : university pennsylvania 
+lines : 26 
+: 
+hus ! 
+recently switch 3.5 '' drive : . 
+problem , read 
+write new : b : correctly , boot floppy : . 
+check cmo setting ; set floppy seek boot boot 
+order : , c : . 
+, floppy system file : . 
+get 
+message tell put disk system disk drive . 
+work . 
+system disk : drive , happen : 
+1 power-on memory test ; 
+2 : light come 
+3 b : light come , follow short beep ; 
+4 hd light come instant ; 
+5 b : light come , nothing happen 
+light go , disk activity kind , screen 
+blank . 
+even use . 
+suggestion . 
+thanks advance . 
+eric balog 
+

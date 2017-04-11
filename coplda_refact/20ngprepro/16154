@@ -1,0 +1,16 @@
+: 
+subject : give blank screen 
+organization : netcom on-line communication services guest 
+: tin version 1.1 
+lines : 10 
+run system 7.1 centris 610 . 
+able setup 
+printer yet open chooser , get blank screen . 
+
+kind print driver none show . 
+even get port 
+either . 
+one big blank screen . 
+help appreciate . 
+btw rebuild desktop help either . 
+... ... ... 

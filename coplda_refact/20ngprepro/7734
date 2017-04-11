@@ -1,0 +1,66 @@
+: allen b 
+subject : re : point within polygon 
+keywords : obfuscate postscript 
+organization : purdue university 
+lines : 60 
+article < > jonas 
+write : 
+> intersection line polygon undecidable ?? 
+, 
+> dave , tom duff 
+> 
+> : 
+> recent year , many geometric problem successfully model 
+> new language call postscript . 
+see `` postscript language '' , adobe systems 
+> incorporate , isbn # , co. 1985 . 
+> 
+> , give line l polygon p , write postscript program 
+> draw line l polygon p , `` output '' answer . 
+
+> `` output '' , mean program execute command call `` '' , 
+> actually print page paper contain line polygon . 
+quick 
+> examination paper provide answer reduce problem q , 
+thus 
+> original problem . 
+curiously , modern postscript , point polygon problem 
+solve even easily . 
+wit : 
+% ! 
+% % title : point polygon 
+% % creator : allen b 
+% % : amusement regular 
+% % : 2 
+% % : humor sense thereof 
+% % 
+% program test whether point inside give polygon . 
+% currently use rule , change 
+% replace infill . 
+level 2 operator , 
+% get level 1 luck . 
+% 
+% result print output stream . 
+% 
+% caution : accurate device pixel ! 
+% put huge scale first sure . 
+% point test 
+% put x y coordinate 
+50 75 
+% vertex polygon counter-clockwise order 
+% put array pairs coordinates 
+
+0 0 
+100 0 
+100 100 
+67 100 
+67 50 
+33 50 
+33 100 
+0 100 
+
+dup 0 get pop dup length 1 dup 3 1 roll 
+sub pop 
+yes ! 
+! 
+

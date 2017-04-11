@@ -1,0 +1,32 @@
+: bernie roehl 
+subject : re : optimize projection 
+organization : university waterloo 
+lines : 31 
+article < > write : 
+> library lot projection duh , currently 
+> project object 's vertex _ per triangle basis _ . 
+
+> grossly inefficient 99 % object display 
+> optimize projection one time , vertex , 
+> object whose intersect hither plane benefit 
+> new vertex must create . 
+> anyone better idea ? 
+yes . 
+. 
+keep vertex array , polygon triangle okay , 
+polygon slightly efficient store index 
+array vertex comprise . 
+set flag 
+vertex transform , transform vertex 
+; also elimination process 
+polygon , vertex belong poly 
+transform . 
+whenever transform vertex , check far side hither 
+plane ; , project right away store result . 
+z clip ; vertex get produce 
+projection stage . 
+-- 
+bernie roehl 
+university waterloo dept electrical computer engineering 
+mail : 
+voice : x work 

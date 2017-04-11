@@ -1,0 +1,41 @@
+: bruce schneier 
+subject : re : crypto papers net . 
+organization : - public access unix 
+lines : 34 
+article < > john kelsey write : 
+> recently read paper merkle 's 
+> net , think discuss three potential replacement des . 
+
+> ever ? 
+khufu , khafre , still 
+> discuss anywhere ? 
+know reference rsa 
+> faq , think may also faq . 
+> related topic , anyone point toward good site find 
+> cryptology ? 
+think exhaust 
+> library , seem anything recent 
+> ' 84 . 
+> 
+> thanks . 
+> 
+> -- john kelsey 
+khufu khafre patented # . 
+biham shamir show 
+differential cryptanalysis break 16-round khafre choose - 
+plaintext attack use 1500 different encryption . 
+khafre 24 round 
+break attack use 2 ^ 53 different encryption . 
+probably efficient differential cryptanalytic attack , 
+someone want take time look . 
+khufu s-box , immune differential cryptanalysis . 
+source code algorithm khafre patent . 
+public-domain one-way hash function . 
+version 
+produce 128-bit hash vulnerable differential cryptanalysis 
+vulnerable means attack efficient brute force 
+four pass less . 
+give , sha md5 much efficient . 
+oh yes , anyone interested license patent contact dave petre , 
+director patent licencing xerox , . 
+bruce 

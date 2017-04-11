@@ -1,0 +1,34 @@
+: dan s. kirkpatrick 
+subject : installation problem 
+organization : rice university 
+lines : 32 
+process install sun sparcstation 2 
+run problem . 
+imagine something miss 
+screen driver , something along line , figure someone 
+internet land might able help . 
+install machine already install , would 
+like install concurrently . 
+thus , set compile 
+directory . 
+work kink get compile 
+gcc , compile without warning . 
+need install , 
+set appropriate flag . 
+run , however , get message 
+along line : 
+get interface configuration : operation support socket 
+: inappropriate device 
+fatal server error : screen find 
+idea fix ? 
+please respond e-mail 
+address . 
+thanks advance . 
+- dan 
+-- 
+`` want immortalize work ; want 
+immortalize die . '' 
+- woody allen 
+dan kirkpatrick | dept electrical & computer engineering 
+| rice university 
+| houston , tx 

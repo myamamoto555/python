@@ -1,0 +1,166 @@
+: bradley banko 
+subject : save hard disk ?! 
+allocation error , cross-linked 
+: 
+organization : university illinois urbana 
+lines : 150 
+hus . 
+run m quick c compiler dos window windows 3.1 
+evening , get `` program violate system integrity ... close 
+application , exit window restart computer '' error . 
+start immediately get `` serious disk error '' message 
+windows . 
+`` hit return retry '' . 
+5 time 
+reboot find quite file corrupt somehow . 
+include chkdsk output . 
+question : 
+1 easy way restore everything work order ? 
+might better approach ? 
+2 might cause ? 
+cache make 
+vulnerable ? 
+suspicious hard drive cache especially 
+cache datum write . 
+straightforward approach would run chkdsk f option 
+fix disk look like would probably reinstall windows 
+thing . 
+thanks comment suggestion . 
+brad banko 
+p : machine hard drive 2 mb ram . 
+chkdsk output : 
+
+volume serial number 
+error find , f parameter specify 
+correction write disk 
+c : \ \ \ 
+allocation error , size adjust 
+c : \ \ \ 
+allocation error , size adjust 
+c : \ \ \ . 
+cfg 
+allocation error , size adjust 
+c : \ \ \ . 
+cfg 
+allocation error , size adjust 
+c : \ \ \ 
+allocation error , size adjust 
+c : \ game \ goose \ . 
+x 
+allocation error , size adjust 
+c : \ \ adv21 \ 
+allocation error , size adjust 
+316 lose allocation unit find 224 chain . 
+byte disk space would free 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ . 
+cfg 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ \ \ readme .1 st 
+cross link allocation unit 
+c : \ \ \ 
+cross link allocation unit 
+c : \ game \ goose \ . 
+x 
+cross link allocation unit 
+c : \ windows \ system \ 
+cross link allocation unit 
+c : \ window \ . 
+grp 
+cross link allocation unit 
+c : \ window \ . 
+bmp 
+cross link allocation unit 
+c : \ mage \ . 
+kin 
+cross link allocation unit 
+c : \ mage \ . 
+kin 
+cross link allocation unit 
+c : \ mage \ . 
+exe 
+cross link allocation unit 
+c : \ \ games \ 
+cross link allocation unit 
+c : \ \ games \ 
+cross link allocation unit 
+c : \ \ adv21 \ 
+cross link allocation unit 
+c : \ \ adv21 \ 
+cross link allocation unit 
+c : \ \ adv21 \ 
+cross link allocation unit 
+c : \ \ adv21 \ freezer 
+cross link allocation unit 
+c . 
+par 
+cross link allocation unit 
+c : \ . 
+mbx 
+cross link allocation unit 
+byte total disk space 
+byte 4 hidden file 
+byte 67 directory 
+byte 1496 user file 
+byte available disk 
+2048 byte allocation unit 
+total allocation unit disk 
+764 available allocation unit disk 
+total byte memory 
+byte free 
+-- 
+brad banko ; dept physics ; u illinois ; 
+
+see one . 
+one . 
+teach one . 
+73 de @ . 
+il 

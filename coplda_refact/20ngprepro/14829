@@ -1,0 +1,73 @@
+: dave medin 
+subject : re : suggestion audio relay ??? 
+: 
+organization : intergraph corporation , huntsville al 
+lines : 66 
+article < > , billy quinn write : 
+| > build little project use radio shack relay switch 
+| > audio . 
+get pretty bad ` click ' thing switch . 
+
+| > common thing one suppose use relay 
+| > nothing seem get rid click . 
+| > 
+| > question : 
+| > 
+| > good circuit use switching 
+| > audio , noise kind audio line . 
+| > 
+| > appreciate advice reference advice . 
+also , exact part 
+| > name etc. relay help ! 
+first step make sure dc component , intentional 
+, audio line switch . 
+neither output 
+input present unintentional dc level let 's say 
+couple , put 22 k resistor input ground , 
+output ground good precaution leakage 
+coupling cap present dc level guarantee cause click . 
+device present unintentional dc level 
+coupling capacitor leakage , need remove dc 
+switch coupling capacitor . 
+one relay relay switching one input 
+common output , use switching 
+brief instant source connect switch 
+change . 
+may mask switch click . 
+audio switch make take light bulb 
+make ersatz light-dependent resistor ldr 
+seal inside piece black . 
+many broadcast console 
+use older , time-honored technique . 
+claro actually make 
+complete like , part number handy . 
+radio shack ldr might want try . 
+simple , solid state switch cheap , might try 
+look analog switch commonly available 
+older predecessor , . 
+, dc component must remove 
+prior switching . 
+alternative include switch discrete 
+ic diode switching work relatively well , surprisingly . 
+, pitfall application tip could easily 
+make subject multi-page article . 
+solid state switch may induce click turn 
+due charge inject audio line device 
+capacitance control signal change state . 
+technique 
+minimize include lower impedance signal path 
+switch , differential switching , slow 
+control pulse . 
+, cut click simple 
+put 10k - resistor series control pin . 
+hope help least get start . 
+-- 
+-------------------------------------------------------------------- 
+dave medin phone : w 
+ssd -- network h 
+intergraph corp. . 
+internet : 
+huntsville , al uucp : ... 30 ! 
+
+everywhere look least around office 
+opinion express mine machine 

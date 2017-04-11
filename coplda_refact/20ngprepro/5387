@@ -1,0 +1,44 @@
+: thomas 
+subject : keyboard specification 
+organization : international , menlo park , ca 
+lines : 35 
+hardware firmware guru : 
+current home project build huge paddle keyboard 
+physically handicapped relative mine . 
+goal keyboard 
+look exactly like keyboard host system . 
+highly endowed keyboard little pcl z world 
+heart . 
+thing lack detail information 
+hardware signaling 486 windows 3.1 dos 5.0 
+expect . 
+project independant windows , hope 
+fellow window 's recognize need 
+willing point right direction . 
+winn l. rosch hardware bible 2nd edition . 
+hb give 
+information need concern scan code 
+even wire diagram style connector need , 
+leave number important question unanswered . 
+1 . 
+synchronous asynchronous serial communication ? 
+
+guess synchronous since host provide clock . 
+either 
+event , datum frame ? 
+2 . 
+half-duplex truly one way ? 
+guess half-duplex 
+since host turn led . 
+3 . 
+chipset available communicate `` 
+keyboard standard '' cannibalize real keyboard ? 
+anyone know book article write source 
+information , please advise . 
+whatever must safe afford replace 486 
+event booboo . 
+thank time . 
+danke fuer ihre zeit . 
+thomas 
+software engineer 
+international 

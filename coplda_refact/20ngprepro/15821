@@ -1,0 +1,41 @@
+: 
+subject : re : card show 's address irq ! 
+keyword : com port guru , help ! 
+organization : at&t 
+distribution : usa 
+lines : 31 
+article < > write : 
+> internal modem configure irq 3 , 
+> insert card dos 5.02 pc , show 
+> , 's address ! 
+> 
+> get debug , dump datum , show 
+> address belong - even though modem 
+> . 
+... 
+common misconception , share many manufacturer , programmer , 
+user alike . 
+, example , simply third equipped comm 
+port , necessarily one address . 
+bio 
+search sequentially set potential comm port address . 
+
+first equip port find become , etc. . 
+play 
+rule , unless equip . 
+set 
+`` standard '' whatever mean port address merely reflect 
+order bio search address space search 
+serial port . 
+, indeed non-standard address . 
+
+address 4th table slot instead , program query bio 
+determine number install comm port would find , 
+field bios datum area contain number would indicate 
+3 comm port install . 
+frankly , know 
+program would actually problem . 
+-- 
+bob nichols 
+at&t bell laboratories 
+

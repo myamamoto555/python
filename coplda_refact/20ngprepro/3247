@@ -1,0 +1,109 @@
+: haywood j. 
+subject : new encryption 
+: . 
+
+organization : university maryland , college park 
+lines : 120 
+promise , speak today company mention washington 
+times article clipper chip announcement . 
+name company 
+secure technology information give end 
+message contact . 
+basically disturbed announcement many reason 
+. 
+specifically however , mr. secure communications 
+bring light many point might interest reader . 
+belief at&t make know clipper well 
+rest industry . 
+several reason , several : 
+- company at&t 's size could never able make decision use 
+new chip day announce . 
+- month ago propose use chip at&t 's secure telephone 
+device . 
+at&t basically blow interested . 
+stick strange , ... 
+also speak art melnick , cryptographer , express several 
+concern new clipper chip : 
+- obvious backdoor able let many people decrypt code . 
+- key release authority security crypto 
+system lose forever . 
+key end hand agency 
+government . 
+- fact escrow key never change means algorithm 
+vulnerable time attacker . 
+- classify algorithm may hide another backdoor . 
+feel 
+probably keep people forge fake serial number , 
+change key . 
+- additionally feel nsa probably spend enough time 
+money work way keep chip reverse 
+engineer , feel reverse engineering 
+difficult . 
+feel develop suitable technique 
+protect chip attack . 
+also feel chip 
+hardware encode algorithm microcode onto chip . 
+speak mr. melnick algorithm . 
+could tell 
+much new patent yet . 
+however tell little : 
+- algorithm release public review patent 
+grant . 
+crypto community see 
+secure . 
+- algorithm call nea new encryption algorithm . 
+detail sketchy hold trade secret 
+patent issue , tell incorporate 
+following : 
+- fast encryption datum exact spec give , 
+mr. melnick state `` much faster rs-232 put . '' 
+- symmetric cipher , like idea des . 
+- use 64 bit datum block encryption like des idea . 
+- key length give , mr. melnick state 
+_ _ `` adequate security . '' 
+- algorithm write c assembler software form , 
+port many platform unlike clipper chip 
+hardware make software 
+consider definite plus nea widespread use . 
+- algorithm accomodate public key distribution technique 
+rsa diffie-hellman . 
+also support 
+hardware chip . 
+- right project cost nea chip 10 dollar 
+!! 
+clipper run 25 chip produce 
+enough , probably happen . 
+- currently sell program call use algorithm 
+special streaming protocol divide encrypted 
+datum `` block . '' 
+could prevent plaintext attack know 
+block header . 
+program operate support 
+rs-232 speed use software implementation algorithm . 
+- importantly : backdoor !! 
+right company afraid new clipper chip put 
+business . 
+real possibility . 
+really need help 
+stop clipper chip become standard . 
+want contact 
+, reach . 
+. 
+secure communications technology 
+8700 georgia ave. suite 302 
+silver spring , md 
+
+talk mr. represent company . 
+answer 
+question . 
+factual error occur write apologize 
+ahead time . 
+
+| | fight wiretap chip !! 
+ask ! 
+__ c | - craig h. rowland - | 
+\ \ \ amiga | pgp key available | `` would give liberty 
+\ 1200 | request . 
+| security deserve neither . '' 
+
+

@@ -1,0 +1,56 @@
+: jeffrey c. 
+subject : standard 
+organization : mit microsystems technology laboratories 
+lines : 49 
+distribution : world 
+: 
+work application concern regard 
+standard . 
+documentation say : `` usually , window manager create 
+. '' 
+wonder window manager writer 
+mind . 
+neither twm mwm seem create standard . 
+course , one use create standard . 
+however , seem try hard avoid 
+conflict default . 
+use standard 
+create , rest display go black . 
+seem use standard cause 
+problem standard intend avoid . 
+perhaps 
+every application use standard , thing would 
+wonderful . 
+many application seem use 
+standard . 
+finally , operation function , 
+, seem inconsistent 
+section 14.3 xlib documentation . 
+accord section 14.3 xlib documentation p. 436 : 
+grayscale , , , , 
+member define . 
+member ignore . 
+compute grayscale pixel value , use follow expression : 
+gray + & 
+, define , 
+use , define 
+select , , value 
+call . 
+property 
+specify , set 30 % 
+total number cell gray scale , set 59 % 
+total number , set ot 11 % total number . 
+refer section 14.3 , one would expect 
+set total number cell gray scale . 
+property specify , , 
+define , set , , 
+equal 1 . 
+refer section 14.3 , 
+one would expect ignore . 
+, , equal 1 , 
+, define , construct 
+gray map . 
+sum , , give 
+maximum gray value . 
+refer section 14.3 , would 
+expect give maximum gray value . 

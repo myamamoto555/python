@@ -1,0 +1,10 @@
+: scott corbin crow 
+subject : mode 13h 
+organization : university california ; santa cruz 
+lines : 7 
+: 
+anyone know access display multiple page mode 13h 
+still maintain 1 byte per pixel memory organization ? 
+example c assembly would appreciate ... 
+thanks 
+scott 

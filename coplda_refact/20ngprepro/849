@@ -1,0 +1,21 @@
+: christian rank 
+subject : run 
+organization : fuer - passau 
+lines : 15 
+distribution : world 
+: . 
+de 
+install patch solaris 2.1 sparcstation lx 
+pool . 
+lx , run fine , classic , 
+give command , print follow message : 
+warning : : map dummy space ! 
+mapping : device address 
+exit . 
+anybody know fix problem ? 
+thanks advance . 
+-- 
+christian rank 
+fuer passau 
+. 
+29 passau 

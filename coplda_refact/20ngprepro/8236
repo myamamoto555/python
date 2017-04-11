@@ -1,0 +1,23 @@
+: 
+subject : xt intrinsic : slow popup 
+organization : department computer science , university york , england 
+lines : 19 
+keyword : 
+help : run sample problem o'reilly volume 4 , 
+xt programming manual , chapter 3 . 
+popup 
+dialog box . 
+example 3.5 , page 76 : `` create pop-up dialog box '' 
+application create window button `` quit '' `` press '' . 
+button `` press '' pop dialog box . 
+strange feature 
+program always pop dialog box much faster 
+first time . 
+try pop 2nd time 3rd , 4th ... time , 
+much slower . 
+anyone experience sample program , get 
+behavior - fast response time first time slow response 
+time 2nd time onward ? 
+anyone give idea program popup time 
+popup reasonable fast response time ? 
+thankyou - shirley 

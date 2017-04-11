@@ -1,0 +1,75 @@
+: chris lilley 
+subject : re : xv problem 
+lines : 69 
+: 
+organization : computer graphics unit , mcc 
+distribution : inet 
+article < > , write : 
+> article < > 
+> write : 
+move bit 
+> write something make color modification quickly 
+> quantize image save image file 
+> process make modification image . 
+> make sense , main use xv view image . 
+> 
+> many change image , keep modification 
+> buffer ; make operation image , 
+> simplify operation list unnecessary operation . 
+> 
+think say . 
+24 bit image 8 
+bit many ` similar ' color map onto single palette color . 
+
+color get modify fairly arbitrary way . 
+want apply 
+modification back 24 bit file , find color map 
+one palette color . 
+ok could copy 24 bit file 
+32 bit file use extra 8 bit hold index entry . 
+, need something ... , exactly ? 
+apply difference rgb original modify palette entry 
+color group ? 
+could generate color rgb outside range 
+0 ... 255 . 
+would also lead discontinuity different part smooth 
+color gradient map several different palette entry . 
+could interpolate full modification modification depend 
+far color palette entry . 
+however suspect would look 
+rather odd . 
+summary , say previous post still hold : 
+would suggest color editing 24 bit file ? 
+
+would group ` related ' color edit together ? 
+global 
+change could unless software different 
+much complicated . 
+want color editing 24 bit image , need much 
+software - readily available commercially . 
+word , edit 24 bit file need software build job . 
+tack mod onto xv go create problem solve . 
+bit - seem claim bug xv . 
+
+mean , : 
+> misunderstand write many 
+> place far . 
+yes , probably . 
+find collect digest format post 
+make little difficult understand precisely point . 
+sorry 
+misunderstand . 
+> also miss wrong xv . 
+however , write . 
+yes . 
+? 
+wrong xv ? 
+-- 
+chris lilley 
+
+technical author , computer graphics visualisation training project 
+computer graphics unit , manchester computing centre , oxford road , 
+manchester , uk . 
+m13 internet : 
+voice : +44 0 fax : +44 0 janet : 
+

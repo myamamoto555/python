@@ -1,0 +1,41 @@
+: steven bellovin 
+subject : re : shelf cheap des machine : re : corporate 
+organization : at&t bell laboratories 
+lines : 29 
+article < > , `` jon \ \ '' < > write : 
+> person know , belong research lab 
+> company , claim conversation , give 
+> equipment lab , could crack kerberos ticket 15 minute 
+> hour . 
+access rather powerful des hardware , 
+> kind , believe . 
+attack possible 
+> amount known plaintext ticket , constitute small 
+> message . 
+two year ago . 
+> des longer usable encryption really sensitive datum . 
+
+> lot purpose , however , still adequate . 
+sound awful lot like , weakness 
+des . 
+merritt point weakness kerberos paper 
+come 2.5 year ago , computer communications 
+review usenix . 
+matter , loudly discuss 
+kerberos mailing list even earlier . 
+problem nothing whatsoever des , everything 
+bad password selection . 
+perfectly willing believe cryptanalytic attack 
+possible des . 
+quite dubious private research lab know 
+. 
+parameter brute-force attack quite well 
+establish ; see , example , garon outerbridge paper 
+july '91 . 
+go hour 
+`` rather powerful des hardware '' . 
+'ll leave arithmetic 
+exercise reader . 
+average , 'll need 2 ^ 55 trial . 
+pick parameter fast des engine run , 
+many engine use . 

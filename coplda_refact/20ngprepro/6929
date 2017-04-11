@@ -1,0 +1,17 @@
+: bernhard schneck 
+subject : re : trouble compile 
+organization : , muenchen germany 
+lines : 14 
+francisco j. ballesteros write : 
+problem occur initial `` make world '' . 
+
+get compile standard x client , seem find 
+library . 
+right highly suspect program `` ld '' 
+update . 
+
+> yip , problem ; fix find link static 
+> client , btw , use cc . 
+. 
+use suno ld . 
+\ bernhard . 

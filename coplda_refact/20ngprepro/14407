@@ -1,0 +1,34 @@
+: park 
+subject : : tga - > rle 
+organization : cs dept , university texas austin 
+lines : 25 
+: 
+hello , 
+problem convert tga file generate 
+rle file . 
+convert , get warning message . 
+
+use , something wrong . 
+error message , 
+% - o 
+% 
+24 bit rle image map dither 8 bit , gamma 1.00 
+dither image ... 
+building ... 
+: x error : integer parameter range operation 
+: x error : invalid window parameter 
+... . 
+know need install , spend 
+time install . 
+even want generate . 
+rgb 
+convert rle , possible . 
+. 
+rgb rle work , 
+mess directory many file , need 2 
+step finally convert rle file . 
+say cat | | 
+body ? 
+thanks advance , 
+-- 
+j. park 

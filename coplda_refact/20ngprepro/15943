@@ -1,0 +1,23 @@
+: kaleb keithley 
+subject : re : blinking cursor ??? 
+organization : x consortium , mit laboratory computer science 
+lines : 19 
+bernward write : 
+> yes . 
+confuse mouse cursor text cursor . 
+> latter control application . 
+> back day x11 .1 analyze code . 
+cursor 
+> implement draw rectangle around character . 
+
+> seem change 'til . 
+> source could add blinking cursor via 
+> similar . 
+xt app work , , despite appearance 
+contrary , really xt base application . 
+`` 
+source '' like timeout input never check 's main 
+loop . 
+surprise try work . 
+-- 
+kaleb 

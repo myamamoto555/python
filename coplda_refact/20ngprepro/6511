@@ -1,0 +1,38 @@
+: ian d 
+subject : re : fast polygon routine need 
+keyword : polygon , need 
+: 
+organization : portland state university , computer science dept. . 
+lines : 23 
+article < > lucas adamski write : 
+> article < > joseph o'rourke write : 
+fast polygon routine ? 
+> draw polygon course . 
+vga mode 13h game , c 
+> asm . 
+need faster way draw concave polygon method right 
+> , slow . 
+kind polygon ? 
+shade ? 
+? 
+hm ? 
+come play 
+fast routine `` polygon '' . 
+would nice know 
+system vga start , processor ? 
+specifics 
+implementation . 
+need give info want get answer ! 
+: p 
+- ian 
+dancing fool epsilon 
+-------------------------------------------------------------------- 
+| contain thought ` opinion ' , best | 
+| psu would probably agree . 
+| 
+| | 
+| `` look , know anything | 
+| douche , know | 
+| see ! '' 
+- dead milkmen | 
+-------------------------------------------------------------------- 

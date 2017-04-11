@@ -1,0 +1,91 @@
+: david stam 
+subject : re : recommendation local bus cache 
+organization : netcom on-line communication services guest 
+: tin version 1.1 
+lines : 85 
+penev write : 
+> 
+> maxtor isa ide controller , although machine 
+> vlb . 
+save transfer rate regardless 
+> variation isa bus speed . 
+test speed 
+> 5.5 mhz 8.33 mhz . 
+_ _ difference . 
+problem 
+> interface controller memory . 
+> 
+chris brinton write : 
+: also maxtor 212 . 
+local bus ide controller generic get 
+: 985 . 
+try swap local bus ide controller isa ide controller 
+: transfer rate go 830 . 
+spec drive show maximum platter controller 
+: transfer rate 2.83 . 
+dont know get . 
+local bus interface 
+: get little , certainly much hope . 
+also look way 
+deal ide transfer rate ? 
+anybody get throughput 
+anywhere close platter - > controller rate ? 
+see anything 
+even close limit ide interface . 
+drive 1:1 
+, ? 
+rate get : 
+1 sequential read c program use bio call read 
+block sequentially outside first track inward 
+bus bus 
+-------- --------- 
+maxtor : 
+quantum : 
+2 disk buffer read c program , re-read block repeatedly 
+effect read ram buffer drive 
+bus bus 
+-------- --------- 
+maxtor : 
+quantum : 
+3 v2 .7 transfer rate seem agree 2 
+bus bus 
+-------- --------- 
+maxtor : 
+quantum : 
+manage get hold quantum product manual go 
+detail describe bit get platter , 
+controller , ide interface . 
+nowhere see 
+anything like `` bit whip platter high speed 
+sit around buffer thaw send host '' 
+even though swear happen ; - > . 
+relevent 
+quote manual : 
+`` datum transfer disk read buffer rate 
+3.75 maximum , 1.87 minimum . '' 
+calculation show 
+maximum minimum ... disk spin rpm 87 
+sector per track outside 44 inside 
+`` single burst error 24 bit within one sector correct 
+` on-the-fly ' , real time occur , allow high degree 
+datum integrity impact drive 's performance . '' 
+take 
+mean error correction bottleneck 
+`` operation , rate buffer 
+ram 10.0 . 
+high transfer rate allow interface 
+ic communicate bus rate 5.0 , 
+dc simultaneously control transfer '' 
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+thing even cache send 
+request sector 3 64kb read buffer , guess 
+could call cache . 
+sequential read outer track , get 
+measly get around ??? 
+hard-disk engineer know ? 
+wondering disk slow , 
+david 
+o o 
+-------------------- ooo - _ - ooo 
+david stam linux : choice gnu generation 
+! 

@@ -1,0 +1,70 @@
+: guy dawson 
+subject : re : ide vs scsi , dma detach 
+originator : 
+organization : ibm austin 
+lines : 60 
+article < > , wayne smith write : 
+> article < > richard krehbiel write : 
+> anyone explain fairly simple term , get , might 
+> need rather ide . 
+performance suffer 
+> much ? 
+drive ? 
+tape drive cd-rom ? 
+> help would appreciate . 
+> 
+> > , get multi-tasking , want increase performance 
+> > increase amount overlap . 
+> > 
+> > one way dma bus mastering . 
+either make 
+> > possible device move datum memory 
+> > without interrupt cpu . 
+alternative cpu move 
+> > datum . 
+several scsi interface card allow dma 
+> > bus mastering . 
+> ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+> isa bus ? 
+> 
+> > ide , however , define standard interface 
+> > create ibm pc , require cpu move datum 
+> > byte , dma . 
+> 
+> talk isa bus , 1 dma channel 
+> active one time , presumably transfer datum single device . 
+> even though least 7 device scsi bus , explain 
+> 7 device dma transfer single scsi card 
+> bus time . 
+think ! 
+scsi card dma transfer disk ... 
+scsi card dma transfer contain datum scsi device 
+attach want . 
+important feature scsi ability detach device . 
+free 
+scsi bus device . 
+typically use multi-tasking os 
+start transfer several device . 
+device seek datum 
+bus free command datum transfer . 
+device 
+ready transfer datum aquire bus send datum . 
+ide bus start transfer bus busy disk seek 
+datum transfer . 
+typically second lock 
+process want bus irrespective transfer time . 
+> 
+> also , still try track copy ibm 's reference book , 
+> pc technical manual page 2-93 : 
+> 
+> `` fdd adapter buffer bus use system board 
+> direct memory access dma record datum transfer . '' 
+> expect see something similar hdd adapter . 
+> lowly low-density original pc fdd card use dma 
+> hdd controller 
+make real sense . 
+-- 
+-- 
+guy dawson - hoskyns group plc. . 
+tel hoskyns uk - 
+tel ibm austin usa - 

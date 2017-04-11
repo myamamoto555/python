@@ -1,0 +1,57 @@
+: jeremy payne 
+subject : re : xt intrinsic : slow popup 
+organization : neuronal pattern analysis , university illinois 
+lines : 49 
+article < > , write : 
+| > write : 
+| > : help : run sample problem o'reilly volume 4 , 
+| > : xt program manual , chapter 3 . 
+popup 
+| > : dialog box . 
+| > : 
+| > : example 3.5 , page 76 : `` create pop-up dialog box '' 
+| > : 
+| > : application create window button `` quit '' `` press '' . 
+| > : button `` press '' pop dialog box . 
+strange feature 
+| > : program always pop dialog box much faster 
+| > : first time . 
+try pop 2nd time 3rd , 4th ... time , 
+| > : much slower . 
+| > : 
+| > : anyone experience sample program , get 
+| > : behavior - fast response time first time slow response 
+| > : time 2nd time onward ? 
+| > : anyone give idea program popup time 
+| > : popup reasonable fast response time ? 
+| > : 
+| > : thankyou - shirley 
+| > 
+| > thanks respond . 
+| > 
+| > able prevent behavior two method : 
+| > 
+| > 1 run twm rather 
+| > 2 keep , put `` : 10 '' resource 
+| > 
+| > suggest something 
+| > window manager position popup window . 
+guru analyze 
+| > go information , please post let know . 
+| > 
+| > thanks -- shirley 
+run problem ago , remember use 
+etc. realize main widget calculate 
+location popup , use something like 
+popup widget ever use . 
+call repeatedly e.g. 
+every time something pop seem slow . 
+never 
+delve deep enough figure exactly though ... 
+
+jeremy payne 
+uiuc neuroscience program 
+college medicine 
+
+
+

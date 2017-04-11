@@ -1,0 +1,49 @@
+: ian farquhar 
+subject : re : atari 2600 processors 
+organization : macquarie university , sydney australia 
+lines : 46 
+: 
+article < > john west write : 
+> ian farquhar write : 
+wrong , . 
+> would like know , 6502 without irq , 
+> 13 address line give 8k memory space . 
+yes , still 6502 difference . 
+instruction set , 
+course . 
+one custom chip asic sense word understand : 
+tia sometimes know , although manufacturer list 
+cia complex interface adapter . 
+stand television 
+interface adapter , handle sound , paddle minimal video hardware 
+2600 possess . 
+> know call - cia find 
+> commodore 64 believe chip exist 2600 around . 
+yes , number , entirely different device . 
+
+qualify state pal version tia - 
+100 % sure ntsc tia would different number . 
+> map bottom 128 byte page 0 , shadow 
+> bottom 128 byte page 1 . 
+get image screen , wait 
+> raster line picture start , load bitmap line 
+> ` sprite ' register , tell x position take , many 
+> duplicate want , etc , next line . 
+
+> take processor 's time visible portion 
+> display . 
+anyone net actually detail tia , 
+device yet discover detail ? 
+atari australia , ask , 
+claim attempt get programmer documentation 2600 
+fail , us head office refuse provide . 
+> chip select . 
+like rom right top memory , 
+> 2600 use rom active high chip select - exactly 
+> normal , convert 
+> usual active low chip select . 
+see couple cheaper device 's couple resistor 
+hook cheap inverter . 
+nasty , workable , cheaper 
+inverter labor cost almost nothing . 
+ian . 

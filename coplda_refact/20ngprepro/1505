@@ -1,0 +1,85 @@
+: rene walter 
+subject : answer 
+organization : stack , eindhoven university technology , netherlands . 
+lines : 66 
+: 
+summary : problem explain 
+keyword : stupid programming 
+: tin version 1.1 
+kind soul mail reply bug . 
+since position post , ask post 
+, leave name . 
+come : 
+quite number bug . 
+one mention perhaps 
+annoying , dangerous . 
+far determine , 
+temp file create . 
+give user control 
+place temp file : place 
+`` current directory '' . 
+problem mention occur far tell 
+run disk space temp file . 
+seem 
+check properly situation . 
+decode jpeg , seem 
+write temp file pixel datum 24 bit color 
+information . 
+, 8 bit display , `` dither '' , write 
+another file 8 bit color information . 
+write 
+second file , also write datum color card . 
+
+last chunk 8 bit datum , datum 8 bit file 
+screen . 
+last `` '' operation 
+`` fit screen '' feature , even feature enable . 
+result process following : 
+1 run disk space write first 24 bit file , 
+ever see much datum room , last bit 
+datum simply repeat never 
+realize disk fill disk perform . 
+2 enough room 24 bit datum , run room 
+8 bit datum , see almost picture 
+dither write screen card . 
+however , finish dither datum 
+8 bit file screen whatever reason 
+one get repetition last chunk datum 
+room disk . 
+guess , probably fairly accurate . 
+least general 
+idea track think , although probably make error detail 
+file etc. . 
+way around course clear sufficient 
+disk space . 
+temp file large jpeg 's bigger 
+large 3 meg + 1 meg . 
+largest need excess 
+6 meg free disk space . 
+much serious bug : try display file 
+floppy , change floppy temp file open 
+floppy , certain circumstance write directory fat 
+table ? 
+remember remove floppy onto newly insert 
+floppy , thus new floppy serious , possibly 
+way . 
+careful ! 
+incredibly poor programming 
+program . 
+hand , choose file open file 
+menu , insist disk read every time one move 
+square . 
+incredibly annoying could 
+get directory info . 
+really , much effort take 
+sort directory listing ? 
+much thanks originator article . 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + 
+| rene walter | | 
++ ----------------------------- + + 
+| `` drown tear sorrow , hope tomorrow , | 
+| world ever get better , live together | 
+| wan na live strife , wan na live life | 
+| deserve future ... '' | 
+| - good girl `` future '' | 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + 

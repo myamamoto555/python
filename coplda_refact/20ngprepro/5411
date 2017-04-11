@@ -1,0 +1,39 @@
+: robert j.c. 
+subject : re : vga graphic mode 
+distribution : world 
+organization : neptune software inc 
+lines : 26 
+write article < > : 
+> > 
+> > vesa bios 's support mode . 
+vga able 
+> > support 640x480 256 color since require 256,000 byte . 
+> > vesa tsr support ; vesa mode card support 
+> > due restriction . 
+
+> > 
+> > -- 
+> > responsible anything say -- opinion . 
+> > robert j.c. 
+> 
+> ahh . 
+possibly punch wrong number 
+> calculator . 
+256 color mode take byte per pixel 640 time 480 
+> 300k exact . 
+take 250k 
+> think bio mode . 
+would bet vga card 
+> either . 
+vga card 512k bet 
+> 640x480 . 
+definition svga , though high svga . 
+> 
+yes , punch wrong number work many late nite . 
+
+intend state 256,000 byte . 
+bio , 
+vesa tsr . 
+-- 
+responsible anything say -- opinion . 
+robert j.c. 

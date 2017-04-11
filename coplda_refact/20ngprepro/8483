@@ -1,0 +1,13 @@
+: jerry musselman 
+subject : uart need 
+organization : ames laboratory , isu 
+lines : 9 
+need find uart interface 8051 following : 
+k baud , 8 datum bit , 2 stop bit , parity 
+- ability break detect irq output pin 
+- irq character receive 
+use dallas 16 mhz 8051 clone , 
+break detect . 
+look , , 7201 , , etc. . 
+. 
+help would !!! 

@@ -1,0 +1,49 @@
+: robert 
+subject : board bus speed 
+distribution : world 
+organization : hal 9000 bbs , hq , ann arbor , michigan , usa 
+: robert 
+lines : 39 
+c > hus : 
+c > computer use board 
+c > datum acquisition bus ... problem . 
+c > bus run 12.5 mhz - correct ? 
+
+c > bus speed conflict . 
+read somewhere 
+c > new mhz cpu run 33 mhz bus - 
+c > local bus bus also - problem . 
+c > ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+c > run speed go 8 mhz 
+c > work . 
+please mail view ! 
+thanks . 
+c > vincent 
+c > 
+c > 
+standard bus isa run , 12.5 mhz , 
+isa bus higher clock rate , careful , since 
+board work faster standard rate . 
+instance , 
+486 adjustable bus speed , audio card choke 
+ad datum acquisition bus speed faster . 
+fact speed work weird . 
+may 
+motherboard hardware ` bug ' . 
+33 mhz bus 66 refer local bus . 
+fyi : bus 
+operate asynchronously , link local bus via ` bus 
+interface ' , one function ` chipset ' . 
+- rdd 
+-- 
+. 
+2.0 b # 0 . 
+unregistered evaluation copy 
+2.95 d hq , . 
+, +1 
+-- 
+| hal 9000 bbs : gateway | four v. dial-in | 
+| free usenet mail 200 newsgroup ! 
+| pcboard 14.5 | 
+| call +1 663 + -------------------------------- + 
+| member eff , asp , asad disk serve ann arbor since 1988 | 

@@ -1,0 +1,25 @@
+: graeme gill 
+subject : re : : tga - > rle 
+organization : australia pty. ltd. , melbourne , australia 
+lines : 20 
+article < > , park write : 
+> hello , 
+> problem convert tga file generate 
+> rle file . 
+convert , get warning message . 
+
+> use , something wrong . 
+> 
+> error message , 
+> % - o 
+> % 
+> 24 bit rle image map dither 8 bit , gamma 1.00 
+> dither image ... 
+> building ... 
+> : x error : integer parameter range operation 
+> : x error : invalid window parameter 
+> ... . 
+happen x server run memory . 
+need 
+memory need quit run client . 
+graeme gill . 

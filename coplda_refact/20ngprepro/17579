@@ -1,0 +1,60 @@
+: chris crayton 
+subject : netware server 
+distribution : world 
+organization : ozone online operations , inc. - new orleans , la 
+: chris crayton 
+lines : 58 
+, wayne mcdougall unmitigated gall say : 
+wm > software netware 286 level ii see burnt 
+wm > screen sft netware 286 level ii v2 .0 a. however , configure netware 
+wm > level ii mirror duplex disk require second disk , yes ? 
+yes . 
+mirroring require controller capable write two 
+disk . 
+duplexing , preferred way mirroring , use 
+two controller card two disk drive . 
+duplexing require special 
+card two identical disk drive case . 
+duplex 
+sometimes pull slightly different , long 
+size . 
+wm > novell server normally configure ? 
+configuration completely user . 
+wm > 1 . 
+install sft netware 286 level ii v2 .0 level , 
+wm > cause serialization error ? 
+one disk , use level ii sft . 
+however , 
+disk serial number , disk different 
+version netware would get serialization error . 
+make sure 
+disk actually belong rest set floppy 
+netware installation set . 
+wm > 2 . 
+novell server normally equip two hard drive , 
+wm > one fail ? 
+two drive could either two netware volume sft , one volume 
+mirror use sft ii . 
+impossible tell network . 
+wm > 3 . 
+would mean install network software 
+wm > serialize hardware fail drive ? 
+try disconnect fail drive , use standard disk controller , 
+install software one volume sft i. software 
+install , one disk functional , able work 
+configuration . 
+wm > 4 . 
+else cause serialization error ? 
+see comment concern serial number installation 
+floppy . 
+wm > 5 . 
+happen keycard fail ? 
+keycard attach ? 
+... line noise provide south central bell ! 
+-- blue v2 .10 
+-- 
+ozone hole bb private bulletin board service 
+3 full service nodes 16.8 k bp 10 gig 100,000 file 
+skydive new orleans ! 
+rime network mail hub 500 + usenet newsgroup 
+please route question inquiry : 

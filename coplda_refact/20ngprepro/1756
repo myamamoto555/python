@@ -1,0 +1,889 @@
+: david b. lewis 
+subject : frequently ask question faq 
+summary : useful information x window system 
+: .99 
+expire : sun , 2 may 1993 gmt 
+: x faq maintenance address 
+organization : visual , inc. . 
+lines : 890 
+: 
+: 
+
+subject : 119 write widget use float resource value . 
+float resource portable ; size value may larger 
+size . 
+try use pointer float instead ; 
+float resource handle way . 
+
+subject : 120 memory leak ?! 
+yes . 
+`` unofficial '' : 
+thu jul 11 1991 
+-- . 
+c thu jul 11 1991 
+
+1,4 
+-- 1,5 -- 
+$ : , v 1.37 swick exp $ 
++ plus unofficial patch revision 1.40 1.41 
+
+copyright 1987 , 1988 digital equipment corporation , maynard , massachusetts , 
+
+
+
+int 0 ; 
+! 
+dr app - > ; 
+< app - > 
+dr - > > 
+widget w dr - > widget ; 
+-- app - > 
+char dr +1 , char dr , 
+! 
+app - > 
+; 
+w ; 
+
+else 
++ + ; 
+- dr + + ; 
+
+
+
+-- -- 
+
+int 0 ; 
+! 
+dr ; 
+< app - > 
++ 
++ result call , 
++ could cause app - > reallocate . 
++ 
++ 
++ dr app - > + ; 
+dr - > > 
+widget w dr - > widget ; 
+-- app - > 
+char dr +1 , char dr , 
+! 
+app - > - 
+; 
+w ; 
+
+else 
++ + ; 
+
+
+
+
+subject : 121 callback guarantee call order register ? 
+although book demonstrate current implementation xt 
+happen call callback procedure order register , 
+specification guarantee sequence , supplemental 
+authoritative document i.e. volume say order 
+undefined . 
+callback list manipulate widget 
+application , xt guarantee order execution . 
+general , callback procedure think operating 
+independently one another depend side-effect 
+callback operate ; need , single callback 
+register explicitly call function necessary . 
+
+subject : 122 actually destroy widget ? 
+operate two pass , order avoid leave 
+dangle datum structure ; mark widget , 
+actually destroy program return . 
+
+subject : 123 query user synchronously use xt ? 
+possible code look like trivial callback , 
+clear flow control . 
+call block answer 
+set one valid value . 
+`` yes '' answer , code drop 
+callback back loop : 
+void quit widget w , client , call 
+
+int answer ; 
+answer w , `` really quit ? '' 
+; 
+answer 
+
+answer w , `` really positive ? '' 
+; 
+answer 
+exit 0 ; 
+
+
+realistic example might ask whether create file whether 
+overwrite . 
+accomplish enter second loop 
+wait user answer question ; answer return 
+call function . 
+function look something like , 
+motif replace code create sort 
+display question string button `` ok '' , `` cancel '' 
+`` help '' equivalent : 
+int w , string 
+widget w ; 
+char string ; 
+
+int answer ; marker 
+widget dialog ; could cache & carry , ... 
+arg arg 3 ; 
+int n 0 ; 
+context ; 
+n 0 ; 
+arg n , , string , 
+; n + + ; 
+arg n , , ; n + + ; 
+dialog w , string , arg , n ; 
+dialog , , response , & answer ; 
+dialog , , response , & answer ; 
+dialog , , response , & answer ; 
+dialog ; 
+context w ; 
+answer | | context 
+context , ; 
+
+dialog ; blow away dialog box shell 
+return answer ; 
+
+dialog support three button , set call 
+function tickle user . 
+variable answer set user 
+finally select one choice : 
+void response w , client , call 
+widget w ; 
+client ; 
+call ; 
+
+int answer int client ; 
+reason call ; 
+switch reason - > reason 
+case : 
+answer ; value 
+break ; 
+case : 
+answer ; 
+break ; 
+case : 
+answer ; 
+break ; 
+default : 
+return ; 
+
+
+code unwrap back point answer need 
+continue . 
+thanks dan heller ; code dan 's 
+library . 
+
+
+subject : 124 determine name exist widget ? 
+widget id need know name widget . 
+user r4 later best use function , 
+work widget object . 
+still use r3 , use simple bit code 
+want . 
+note depend widget 's internal datum structure 
+necessarily portable future version xt , include r4 . 
+< . 
+h > 
+< . 
+h > 
+string widget 
+widget widget ; work object 
+
+return widget - > _ name ; 
+
+; modify suggestion larry rogers 
+
+subject : 125 get error draw widget ? 
+order get window xlib graphic 
+within program : 
+> canvas ... , , ... draw area 
+> ... 
+> window canvas ; get window associate widget 
+> ... 
+> ... , window , ... ; produce error 
+window associate widget create part 
+realization widget . 
+use window id null `` window '' could 
+create error describe . 
+necessary call 
+attempt use window associate widget . 
+note window create call , 
+server may actually map yet , also 
+wait expose event window draw . 
+
+subject : 126 get error call ? 
+error occur specify rectangle go edge 
+screen . 
+want catch error deal , take 
+follow step avoid error : 
+1 make size rectangle want capture . 
+2 clear background use . 
+3 use copy window . 
+4 get event , copy clean . 
+use grab 
+image . 
+5 get one event , copy clean , 
+height member event structure tell 
+part good . 
+6 get rid ; probably take lot memory . 
+; thanks oliver jones 
+
+subject : 127 application tell run x ? 
+number program offer x mode otherwise run straight 
+mode . 
+easiest way application determine 
+run x display attempt open connection x server : 
+display ; 
+display 
+x stuff 
+else 
+curse something else 
+either string specify command-line follow 
+- display , convention , otherwise char null case 
+use value $ display , set . 
+superior simply check existence - display command-line 
+argument check $ display set environment , neither 
+adequate . 
+
+
+subject : 128 make `` busy cursor '' application compute ? 
+necessary call every window application ? 
+easiest thing create single window 
+large largest possible screen ; make child 
+window clip window , affect 
+application . 
+need big largest possible screen case 
+user enlarge window busy move elsewhere within virtual 
+desktop . 
+substitute `` '' top-most widget similar code 
+work application ; use top window : 
+unsigned long ; 
+attribute ; 
+ignore device event busy cursor display . 
+
+| ; 
+_ | | 
+| | ; 
+, ; 
+window big display screen , clip 
+parent window , never worry resize 
+, , 0 , 0 , 
+, , unsigned int 0 , 0 , , 
+, , & attribute ; 
+maximum size could replace real size screen , 
+particularly avoid server problem window larger 
+. 
+want use busy cursor , map raise window ; go back 
+normal , . 
+automatically keep get extra mouse 
+event ; depend precisely window manager work , may may 
+similar effect keystroke well . 
+addition , note also widget support 
+resource temporarily reset , merely wish change 
+cursor without block pointer event . 
+thanks andrew wason , dan heller 
+, ,5 91 
+
+subject : 129 fork without hang parent x program ? 
+application spawn unix process 
+continue run close typically vanish 
+child terminate ; child inherit parent open x 
+connection display . 
+need fork ; , immediately , child process , 
+close widget ; 
+close display information . 
+
+exec . 
+able exit parent . 
+alternatively , exec ` ing make call , cause file 
+descriptor close exec . 
+void , , 1 ; 
+thanks janet , gordon freedman 
+; . 
+greg holmberg , . 
+
+subject : 130 make xt xlib call signal handler ? 
+. 
+xlib xt mutual exclusion protect critical 
+section . 
+signal handler make call wrong time 
+might function call already execute , leave 
+library inconsistent state . 
+note c standard point 
+behavior signal handler undefined signal handler call 
+function signal , problem specific 
+xlib xt ; posix specification mention function may 
+call safely may assume function call 
+xlib xt function . 
+work around problem set flag interrupt 
+handler later check work procedure timer event 
+previously add . 
+note : article x journal 1:4 example o'reilly 
+volume 6 error . 
+thanks pete ware donna converse 
+, 
+
+subject : 131 `` xlib sequence lose '' error ? 
+may see error issue xlib request xlib error 
+handler , , likely , make call generate x request xt 
+xlib signal handler , case . 
+
+subject : 132 xt program handle socket , pipe , file input ? 
+common need write xt program accept input 
+user via x connection file descriptor , 
+operate efficiently without block either x connection 
+file descriptor . 
+solution use . 
+open file descriptor , 
+use register input handler . 
+input handler 
+call every time something file descriptor require 
+program 's attention . 
+write input handler like would xt 
+callback , work quickly return . 
+important use 
+non-blocking system call input handler . 
+input handler read file descriptor , although 
+input handler write handle exception condition wish . 
+careful register input handler read disk file . 
+find function call even input pend . 
+actually work suppose . 
+input handler 
+call whenever file descriptor ready read , 
+new datum read . 
+disk file unlike pipe socket almost always 
+ready read , however , spin back beginning 
+read datum read . 
+result function almost 
+always call every time around . 
+way get 
+type interaction expect ; add line beginning 
+function test whether new datum : 
+fd , , & n -1 | | n 0 return ; 
+, call frequently , application effectively 
+; may better use instead set 
+timer timer procedure check file input . 
+courtesy dan heller , ; ; 
+ollie jones 
+
+subject : 133 simulate button event widget ? 
+use ; likely set 
+window field event , xt need order match widget 
+receive event . 
+send event application , use 
+instead . 
+efficient 
+avoid round-trip server . 
+depend well widget write , may able call 
+action procedure order get effect want . 
+courtesy mark a. horstman , 
+
+subject : 134 anything appear run simple program ? 
+> ... 
+> , 
+> , . 
+x , . 
+y , 
+> . 
+width , . 
+height , , 
+> , , 
+> , ; 
+> ... 
+> , , | | 
+> ; 
+> , ; 
+> ... 
+> , , ; 
+> ... 
+right map window draw . 
+however , 
+window ready draw actually appear screen -- 
+application receive expose event . 
+draw 
+generally appear . 
+'ll see code like many program ; code 
+would appear window create map : 
+! 
+
+
+, & ; 
+switch . 
+type 
+case expose : expose event , redraw 
+, , ; 
+break ; 
+... 
+
+
+note second problem : xlib implementation 
+set default graphic context correct 
+color , program could previously include code : 
+... 
+. 
+foreground , ; e.g. 
+. 
+background , ; e.g. 
+, , 
+| , & ; 
+... 
+note : code use avoid assume 1 
+black 0 white vice-versa . 
+relationship pixel 0 1 
+color black white . 
+may 
+reverse , may even correspond black white . 
+also note actually use usually wrong 
+thing finished program , ignore user 's preference 
+foreground background . 
+also note run situation program 
+draw w right realize ; may 
+yet appear . 
+
+subject : 135 difference screen screen ? 
+` screen ' xlib structure include information 
+one monitor virtual monitor single x display support . 
+
+server support several independent screen . 
+number unix , 
+unix , unix , etc ; ` screen ' ` ' second digit -- 
+0 , 1 , 2 think index array available 
+screen particular display connection . 
+macro use obtain information particular 
+screen application run typically two form -- one 
+take screen one take display . 
+program , typically use widget determine 
+screen application run , use single screen . 
+part confusion may arise fact macro 
+return characteristic screen `` display '' name -- 
+, , etc. . 
+
+subject : 136 use c + + x11 ? 
+motif ? 
+? 
+header file compatible c + + . 
+motif 1.1 header 
+file usable inside extern `` c '' ... . 
+however , definition 
+string conflict + + string class 
+need work around . 
+project help : 
+wwl , set c + + class jean-daniel fekete wrap x toolkit 
+widget , available via anonymous ftp 
+-1.2 . 
+-1.2 . 
+. 
+work build set c + + class parallel class tree 
+widget . 
+c + + interviews toolkit obtainable via anonymous ftp 
+. 
+interview use model similar 
+tex construct user interface support multiple look user 
+interface . 
+sample application include document editor 
+doc , drawing program interface builder 
+. 
+thing , class library write rome air force base 
+strategic air command , available freeware archive site . 
+motif + + public-domain library define c + + class wrapper 
+motif 1.1 ; add `` application '' class , e.g. , initialize x , also 
+integrate wcl widget set . 
+work develop ronald van 
+loon < > base x + + , set binding university 
+lowell graphics research laboratory . 
+current source available 
++ . 
+jul. 92 . 
+. 
+source code example doug young 's `` object-oriented programming 
+c + + '' isbn include `` widget wrapper '' 
+include set class encapsulate higher-level facility 
+commonly need motif - application ; check export 
+~ . 
+c + + . 
+. 
+rogue wave offer `` + + '' c + + programmer use motif ; info : 
++1 . 
+product call `` '' glockenspiel ltd , ireland ?? 
+apparently c + + - base toolkit multiple window system , include pm , 
+windows , . 
+xv + + sell ; fax ; implement 
+interface gil file sun 's developers guide 3.0 
+produce wrapper class c + + . 
+uit set c + + class embed toolkit ; intend 
+use sun 's developers guide 3.0 builder tool . 
+source 
+. 
+version 2 release . 
+also likely use + + . 
+reasonable 
+alternative 's formerly 's object 
+interface . 
+thanks douglas s. rand george wu ; 
+
+subject : 137 obtain alternate language binding x ? 
+version clx lisp binding part x11 core source 
+distribution . 
+version clx r5 tape ; version 
+. 
+r5 .02 . 
+. 
+saic binding anonymous ftp pub 
+. 
+study team sponsor nasa jsc , apparently 
+work binding . 
+information : . 
+gnu smalltalk beta native smalltalk binding x call stix 
+. 
+still beginning stage , 
+documentation sparse outside smalltalk code . 
+source 
+available . 
+
+. 
+prolog binding call `` '' write ted kim ucla 
+support part darpa available anonymous ftp 
+: . 
+: . 
+. 
+prolog language binding depend foreign function 
+interface prolog . 
+developer get work quintus 
+prolog . 
+inquiry go . 
+
+scheme binding xlib , , part elk 
+distribution ; version 1.5 export obsolete version r5 
+tape . 
+, bolt-on accessory aubrey jaffer 's `` scm '' scheme interpreter 
+provide interface xlib , motif , , available via 
+ftp : .05 . 
+
+: .05 . 
+. 
+ada binding motif , explicitly , eventually make available 
+jet propulsion laboratories , probably normal electronic 
+means . 
+advance information obtain 
+may respond time permit . 
+complete binding x motif ada language , 
+many common system ; base part upon binding also 
+include uil ada translator . 
+info : systems engineering research 
+corporation , . 
+also : mit consortium , although involve produce ada 
+binding x , maintain partial listing people involve x ada ; 
+information available donna converse , . 
+
+subject : 138 get window 's background ? 
+. 
+set , background pixel window 
+re-read client . 
+reason client create , 
+set background window , free . 
+
+window keep background , destroy . 
+` re 
+sure window background pixel , use 
+clear region background color use read 
+back pixel . 
+however , action alter contents window , 
+suffer race condition exposure . 
+courtesy dave lemke ncd 
+stuart marks sun 
+note apply border . 
+
+mis feature protocol allow server free manipulate 
+however want . 
+require server keep 
+original pixel , potentially lot space save . 
+courtesy jim fulton , mit x consortium 
+
+subject : 139 create transparent window ? 
+completely transparent window easy get -- use 
+window . 
+order create window mostly transparent , 
+several choice : 
+- shape extension first release offer easy way 
+make window , set shape window fit 
+area window nontransparent ; however , server 
+support extension . 
+- method implement transparent window 
+particular server use overlay plane support hardware . 
+note 
+x notion `` transparent color index '' . 
+- generally portable solution use large number tiny 
+window , make operating application unit difficult . 
+- final answer consider whether really need transparent 
+window would satisfy able overlay application 
+window information ; , draw separate color 
+appear properly . 
+thanks der mouse , ; see also 
+x journal 1:4 complete answer , include code sample 
+last option 
+
+subject : 140 produce color value ? 
+use may expect draw value black 
+background black , example , produce white . 
+however , drawing 
+operation work rgb value index . 
+color 
+result index actually point undefined visually 
+random unless actually fill . 
+many x server black 
+white often ; program take advantage mathematical 
+coincidence break . 
+want combine color , 
+allocate number color cell fill choose 
+value . 
+want use simply switch two color , 
+take shortcut set background color gc graphic 
+context 0 foreground color value draw 
+red , say , result blue , draw blue result red . 
+foreground value xor index red 
+blue . 
+thanks chris flatters ken whaley 
+, 
+
+subject : 141 every color allocate show black ? 
+make sure use 16 bit 8 . 
+red , green , blue 
+field structure scale 0 nothing 
+. 
+forget scale use , example , color 
+function perform correctly result color 
+usually black . 
+thanks paul , 
+
+subject : 142 program get standard ? 
+program use get 
+standard , work . 
+use property 
+create standard -- return one one already exist . 
+use order create standard first . 
+; der mouse 
+
+subject : 143 copy screen show garbage ? 
+initial contents undefined . 
+mean 
+server allocate memory leave around whatever happen 
+-- usually garbage . 
+probably want clear first use 
+function foreground pixel whatever 
+color want background use 
+mask . 
+courtesy dave lemke ncd stuart marks sun 
+
+subject : 144 check whether window id valid ? 
+program id window remote display . 
+want check whether 
+window exist anything . 
+x asynchronous , guarantee window 
+would still exist time get id time send 
+event window otherwise manipulate . 
+send 
+event without checking , install error handler catch 
+error , would indicate window longer exist . 
+scheme 
+work except rare occasion original window destroy 
+id reallocate another window . 
+courtesy ken lee , 
+
+subject : 145 two application draw window ? 
+yes . 
+x server assign id window resource actually , 
+server assign bit , client , application 
+know id manipulate resource almost x server resource , except 
+gc private color cell , share . 
+problem face disseminate window id multiple 
+application . 
+simple way handle solve problem 
+application ' run different machine first application 
+create property put window id 
+. 
+second application retrieve property , whose name also 
+know , draw whatever want window . 
+note : scheme work iff one instance first 
+application running , scheme subject limitation mention 
+question use window id remote display . 
+note also still need coordinate higher-level 
+cooperation among application . 
+note also two process share window try 
+use server connection . 
+one process child , 
+close connection server open connection . 
+mostly courtesy phil karlton 
+
+subject : 146 program work swm ? 
+number application , include , , , 
+handle virtual root window swm use ; typically return 
+wrong child root . 
+general solution add code use 
+application would normally use , screen : 
+function name : 
+description : get root window , even virtual root 
+argument : display screen 
+returns : root window client 
+
+< . 
+h > 
+window , scr 
+display ; 
+int scr ; 
+
+window , , child ; 
+unsigned int ; 
+window root , scr ; 
+atom __ none ; 
+int ; 
+__ , '' __ '' , false ; 
+, root , & , & , & child , & ; 
+0 ; < ; + + 
+atom ; 
+int ; 
+long , ; 
+window null ; 
+, child , __ , 0 , 1 , 
+false , , & , & , & , 
+& , unsigned char & success & & 
+root ; 
+break ; 
+
+
+return root ; 
+
+courtesy david elliott . 
+similar code , 
+version distribute . 
+
+header file andreas icsi : . 
+h 
+function similarly provide macro ; 
+code include header file first run properly presence 
+virtual desktop . 
+
+subject : 147 keep window resize user ? 
+resize window window manager ; window manager 
+pay attention size hint application place window , 
+guarantee window manager listen . 
+try setting 
+minimum maximum size hint target size hope best . 
+
+
+subject : 148 keep window foreground time ? 
+rather antisocial application constantly raise 
+e.g. track event overlap -- 
+imagine conflict two program run . 
+sure way window appear top stack 
+make window ; mean temporarily 
+assume duty window , want 
+infrequently short period time e.g. popup 
+menu short window . 
+thanks der mouse ; 
+
+subject : 149 make text bitmap blink x ? 
+easy way . 
+unless willing depend sort 
+extension yet non-existent , arrange blinking , 
+either redraw contents periodically , possible , play game 
+change color contents . 
+thanks der mouse , 
+
+subject : 150 + get xlib ? 
+user xt support translation manager help 
+get notification . 
+good way get xlib , 
+protocol provide enough support . 
+
+client-side timeout , unless action defer 
+actually take next see event server . 
+thus , 
+timeout , mean code . 
+
+implementation , use get file descriptor 
+x connection use select something similar . 
+note many user-interface reference suggest 
+use extend action indicate ; case 
+interface execute first action compromise 
+check timestamp second event determine whether , , 
+action action . 
+thanks der mouse , 
+
+subject : 151 ! 
+render rotate text ? 
+xlib intentionally provide sophisticated graphic 
+capability , leave graphic 
+library . 
+choice , want stay within core x protocol , 
+render text , read back via , rotate `` 
+hand '' whatever matrix want , put back server via 
+; specifically : 
+1 create bitmap b write text . 
+2 create image b via . 
+3 create image i2 big enough handle transformation . 
+4 x , y i2 , i2 x , y , b 
+x cos theta - y sin theta 
+b x sin theta + y cos theta 
+5 render i2 
+note careful implement lose 
+bit ; algorithm base shear transformation may fact better . 
+high-level graphic package available x 
+also permit rendering rotate text : display postscript , pex , , gks , 
+although capable arbitrary rotation probably use 
+font would find printer . 
+addition , enough access server install font 
+, create font consist letter rotate 
+angle . 
+application figure placement 
+glyph . 
+courtesy der mouse , eric taylor 
+, ken lee , ; 
+liam quin , 
+interview c + + ui toolkit , x software support 
+render rotate font x. could one source example code . 
+brian r. smith , 
+another possibility use hershey fonts ; 
+use x convert 
+request . 
+, 
+program alan richardson 
+post july 14 1992 paint rotate font implement 
+method use outline hershey font . 
+package alan richardson 
+set function facilitate writing text angle . 
+version 3.0 
+recently release ; also 
+export . 
+. 
+o'reilly 's x resource volume 3 include information hp 
+modification x font server provide rotate scale text . 
+
+subject : 152 x registry ? 
+reserve name ? 
+place x toolkit , application , x 
+protocol define use string name . 
+context conflict 
+possible different component use name different thing . 
+mit x consortium maintain registry name domain : 
+name , selection name , selection target , resource type , 
+application class , class extension record type ; several . 
+list directory r5 
+tape ; also available send `` send doc registry '' mail 
+server . 
+register name first come , first serve ask question send 
+sure include postal address 
+confirmation . 
+; condensed appendix h 
+
+david b. lewis 
+`` faq , ma'am . '' 
+-- joe friday 
+-- 
+david b. lewis temporarily speak visual , inc. . 
+day : evening : 

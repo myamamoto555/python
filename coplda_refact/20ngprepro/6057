@@ -1,0 +1,47 @@
+: andre beck 
+subject : re : animation ? 
+organization : dept. computer science , tu dresden , germany . 
+lines : 37 
+distribution : world 
+: 
+: . 
+de 
+article < > , derek c. richardson write : 
+| > two year ago write application fast animation 
+| > raster file . 
+become rapidly , ` ve 
+| > finally decide rewrite everything scratch . 
+| > put together quick test , find 
+| > considerably slower factor 2 average ? 
+
+| > command move image datum memory 
+| > canvas . 
+sparc ipx . 
+seem : 
+| > 1 x protocol communication slow thing ; 
+| > 2 inefficient ... ! 
+question , 
+protocol move whole image process memory server 
+memory , hog . 
+conversion 
+fast . 
+| > fastest way dump 8 plane image datum 
+| > window ? 
+take advantage fact client 
+| > run machine server ? 
+stick 
+yes , utilize extension , provide 
+derivate use shared memory . 
+fine fast . 
+| > case might well give ... ? 
+| > 
+. 
+still frame onto thus move 
+server memory replay fastest use 
+aware , major server memory bummer ! 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

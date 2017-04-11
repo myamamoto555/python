@@ -1,0 +1,1098 @@
+: niko 
+subject : lga source 
+organization : massachusetts institute technology 
+lines : 1135 
+: . 
+
+get number request code . 
+, . 
+write asm . 
+borland . 
+
+
+code : 
+; 
+; lga 
+; c nick 
+; 
+code segment 
+assume cs : code , d : code 
+org 
+start : 
+jmp begin 
+; 
+; 
+; gas particle : 
+; 
+; bit 0 particle move east 
+; bit 1 particle move west 
+; bit 2 particle move north 
+; bit 3 particle move south 
+; 
+; bit 4 particle move east 
+; bit 5 particle move west 
+; bit 6 particle move north 
+; bit 7 particle move south 
+; 
+; 
+; rules : 
+; 
+; 1 . 
+gas rule 
+; 
+; e & w ! 
+n & e , w - > n , 
+; n & ! 
+e & w n , - > e , w 
+; 
+; nibble : 
+; 
+; 1100 - > 0011 
+; 0011 - > 0011 
+; 
+; byte : 
+; 
+; - > 
+; - > 
+; - > 
+; - > 
+; - > 
+; - > 
+; - > 
+; - > 
+; 
+; 
+; 2 . 
+reflection rule 
+; 
+; swap bit along direction 
+; 
+; 
+; 
+; look-up table implement two particle collision 
+; hpp lattice gas 
+; 
+: 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+; 
+; rule implement need 
+; run gas evolution reverse . 
+call 
+; particle hit wall 
+; head . 
+; 
+: 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+db ; 
+equ 55 
+equ 23 
+dw offset 
+dw offset 
+: 
+db +1 dup 0 
+: 
+db +1 dup 0 
+db 256 dup 0 
+: 
+db +1 dup 0 
+db 256 dup 0 
+; 
+; 
+; 
+; 
+; 
+datum : 
+db '' '' 
+db '' '' 
+db '' '' 
+db '' test lattice gas base encryption '' 
+db '' algorithm . 
+datum encode particle '' 
+db '' digital gas , whose time evolution simulated '' 
+db '' type algorithm . 
+decryption '' 
+db '' achieve run simulation reverse . '' 
+db '' thermodynamic argument ensure even single '' 
+db '' bit flip , decryption datum possible '' 
+db '' '' 
+db '' gas let evolve 256 timestep , '' 
+db '' one either run reverse evolution press '' 
+db '' space , flip bit run press ' 0 ' '' 
+db '' '' 
+db '' cryptographic application , key would consist '' 
+db '' number time step time location '' 
+db '' specific bit inversion . '' 
+db '' '' 
+db '' '' 
+db '' '' 
+db '' '' 
+db '' '' 
+; 
+; fill gas piece code 
+; 
+: 
+mov di , cs : 
+mov si , offset data 
+mov cx , 
+: 
+push di 
+push cx 
+mov cx , 
+: 
+mov al , cs : si 
+mov cs : di , al 
+inc si 
+inc di 
+loop 
+pop cx 
+pop di 
+add di , 
+loop 
+mov si , cs : 
+mov di , offset 
+mov cx , 3 
+mov al ,0 
+: 
+mov byte ptr cs : si , al 
+al 
+inc si 
+loop 
+ret 
+; 
+; 
+; display gas molecule bounce around 
+; 
+: 
+push e 
+push si 
+push di 
+push cx 
+push bx 
+mov ax ,0 
+mov e , ax 
+mov si , cs : 
+mov di ,160 2 +10 2 
+mov 
+add si , 3 
+: 
+push cx 
+push di 
+mov cx , 
+: 
+mov al , cs : si 
+mov byte ptr e : di , al 
+inc si 
+add di ,2 
+dec cx 
+
+pop di 
+pop cx 
+add di ,160 
+loop 
+pop bx 
+pop cx 
+pop di 
+pop si 
+pop e 
+ret 
+; 
+; 
+; c : si - > datum 
+; c : di - > destination datum 
+; 
+: 
+; 
+; first byte special case 
+; 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : ; north one line `` '' lower 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : ; south one line `` '' higher 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : si + ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si +1 ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+; 
+; middle byte handle loop 
+; 
+mov 
+: 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : ; north one line `` '' lower 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : ; south one line `` '' higher 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si +1 ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+loop 
+; 
+; last byte also special 
+; 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : ; north one line `` '' lower 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : ; south one line `` '' higher 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si - ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+ret 
+; 
+; 
+; c : si - > datum 
+; c : di - > destination datum 
+; 
+: 
+; 
+; first byte special case 
+; 
+mov bl ,0 
+mov bh , cs : 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : -1 ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si +1 ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+; 
+; middle byte handle loop 
+; 
+mov 
+: 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si +1 ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+loop 
+; 
+; last byte also special 
+; 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si - ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+ret 
+; 
+; 
+; c : si - > datum 
+; c : di - > destination datum 
+; 
+: 
+; 
+; first byte special case 
+; 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : si + ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si +1 ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+; 
+; middle byte handle loop 
+; 
+mov 
+: 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si +1 ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+loop 
+; 
+; last byte also special 
+; 
+mov bl ,0 ; al `` assemble '' byte . 
+mov bh , cs : 
+bh b ; bit 7 3 
+bl , bh ; assemble byte 
+mov bh , cs : 
+bh b ; bit 6 2 
+bl , bh ; place stuff al 
+mov bh , cs : ; west one byte `` leave '' lower 
+bh b ; bit 5 1 
+bl , bh 
+mov bh , cs : si - ; east one byte `` right '' higher 
+bh b ; bit 4 0 
+bl , bh 
+mov bh ,0 
+mov al , byte ptr cs : bx + offset 
+mov cs : di , al 
+inc si 
+inc di 
+ret 
+; 
+; 
+; invert velocity gas 
+; 
+: 
+push bx 
+push cx 
+push si 
+mov si , cs : 
+mov bx ,0 
+mov cx , 
+: 
+push cx 
+mov cx , 
+: 
+mov bl , c : si 
+mov al , byte ptr cs : bx + offset 
+mov cs : si , al 
+inc si 
+loop 
+pop cx 
+loop 
+pop si 
+pop cx 
+pop bx 
+ret 
+; 
+; 
+; 
+: 
+mov si , cs : 
+mov di , cs : 
+mov cs : , di 
+mov cs : , si 
+push si 
+push di 
+call 
+pop di 
+pop si 
+add si , 
+add di , 
+mov ; dont scan first last 
+l1 : 
+push si 
+push di 
+push cx 
+call 
+pop cx 
+pop di 
+pop si 
+add si , 
+add di , 
+loop l1 
+push si 
+push di 
+call 
+pop si 
+pop di 
+l3 : 
+ret 
+; 
+; 
+; iterate hpp rule cx time 
+; 
+iterate : 
+push cx 
+call 
+pop cx 
+call 
+loop iterate 
+ret 
+; 
+; 
+; iterate hpp rule cx time 
+; 
+: 
+mov si ,0 
+mov cx , offset - offset 
+: 
+mov al , byte ptr cs : si + offset 
+xor byte ptr cs : si + offset , al 
+inc si 
+loop 
+: 
+call 
+call 
+mov si , cs : 
+mov cx , 3 
+mov bx ,0 
+mov ah ,0 
+mov al ,255 
+: 
+mov bl , byte ptr cs : si 
+mov dl , byte ptr cs : 
+ah 
+xor dl , ah 
+al , dl 
+inc si 
+loop 
+mov si ,0 
+mov cx , offset - offset 
+: 
+mov ah , byte ptr cs : 
+ah , al 
+xor byte ptr cs : , ah 
+inc si 
+loop 
+jmp 
+: 
+mov ax , offset 
+push ax 
+ret 
+db 256 dup 
+: 
+push ax 
+push bx 
+push cx 
+push dx 
+push d 
+mov ah ,9 
+mov dx , cs : 
+int 
+pop d 
+pop dx 
+pop cx 
+pop bx 
+pop ax 
+ret 
+db 512 dup 
+dw offset msg 
+msg db `` message print '' 
+db `` code decrypt use datum lattice '' 
+db `` apply decode routine '' 
+db `` every time step '' 
+db `` decoding function leave code unchanged '' 
+db `` except gas evolution '' 
+db `` reverse '' , `` $ '' 
+time equ 16 ; 256 repetition enough 
+; `` equilibrate '' gas 
+begin : 
+mov ax h 
+mov bh ,7 
+mov dh ,25 
+mov dl 
+mov cx ,0 
+int 10h 
+mov ah ,2 
+mov bh ,0 
+mov dh 
+mov dl ,0 
+int 10h 
+call 
+call 
+mov ah ,0 
+int 
+push cx 
+mov cx , time 
+call iterate 
+call 
+call 
+mov ah ,0 
+int 
+cmp al , `` 0 '' 
+jne 
+mov si , cs : 
+xor byte ptr cs : si b 
+: 
+mov cx , time 
+call 
+call 
+call 
+mov ax ,4 
+int 
+code end 
+end start 

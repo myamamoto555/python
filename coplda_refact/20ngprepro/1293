@@ -1,0 +1,26 @@
+: brian clark 
+subject : re : dsp card fft 's , anyone ? 
+: . 
+
+organization : northwestern university 
+lines : 16 
+article < > , 
+thomas koenig write : 
+> 
+> heavy - duty image processing seriously 
+> underpowered mac 's mac iisi , example . 
+cpu time 
+> burn fft 's . 
+> 
+> card would allow take away part 
+> load cpu ? 
+dsp i860 card , 
+> example ? 
+would callable think pascal , 
+> replace one - two - dimensional fft 's routine already 
+> exist program . 
+check national instruments . 
+use texas 
+instruments chip , true 32 bit floating point dsp . 
+
+pricey , however . 

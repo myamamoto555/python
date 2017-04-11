@@ -1,0 +1,86 @@
+: jerome schneider 
+: 
+distribution : world 
+subject : re : question dos external join command ... 
+organization : aspen technology group 
+: 2.1 modify 
+lines : 66 
+article < > , author write : 
+> set box ide drive 
+> wonder use 5.0 join command . 
+
+> like way set thing since stick c : 
+> d : & e : crap dos enforce . 
+like would mimic mount 
+> point unix filesystem . 
+hear problem 
+> use , least older version dos . 
+please tell ! 
+use join command many year , mostly good 
+success duplicate file mount . 
+hear lot 
+people cursing join confuse append command 
+truely gnarly hack , believe . 
+also hear 
+people say microsoft recommend use join . 
+, 
+microsoft 's windows 4 workgroups resource toolkit , follow appear : 
+`` join , utility , work fine windows workgroups 3.1 
+change state join drive windows 
+workgroups 3.1 session . 
+include add remove join drive 
+within windows workgroups . 
+recommend use 
+join run windows setup windows workgroups 3.1 . '' 
+within caveat , join appear valid window . 
+however , 
+find couple application deal well filesystem 
+`` mount '' use join . 
+particular , worst offender word windows 2.0 x. get 
+confuse edit try save file join drive . 
+
+want create save file ~ current dir , 
+delete old file rename ~ file . 
+doc file . 
+unfortunately , usually write ~ file idiotic 
+place current directory often root dir 
+join filesystem , always . 
+, delete original 
+. 
+doc file , find ~ file rename . 
+unless 
+search disk system , document go . 
+also find subtle problem use mks toolkit box 
+join filesystem present . 
+use join c : \ temp 
+, mks sometimes get confuse `` l '' c : \ temp 
+dir , miss file temp dir . 
+difficult 
+reproduce , go away totally join use . 
+think 
+windows problem , rather mks 's , since work ok raw 
+dos . 
+, would suggest use join , aware may 
+robust would like . 
+would real great `` mount '' network drive i.e. z main 
+file tree , rather darned drive letter ? 
+unfortunately , 
+join let . 
+talk net simple patch 
+let join work network drive , remember source . 
+bad join command better implement , since would 
+avoid use stupid drive letter . 
+realize 
+mean casual , even ignorant user , `` mount '' drive 
+one file tree might confusing . 
+, look like m go carry 
+window nt another os mean casual , even 
+user -- ! 
+. 
+old family system baggage , maybe m need 
+recovery group get life . 
+-- 
+jerome jerry schneider domain : 
+aspen technology group uucp : uunet ! 
+
+po box 673 , ft. collins , co voice : 

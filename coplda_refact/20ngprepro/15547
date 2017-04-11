@@ -1,0 +1,28 @@
+: brian v. smith 
+subject : re : 2.1 hp-ux 9.01 ? 
+organization : lbl 
+lines : 21 
+distribution : world 
+: 
+article < > , michael p urban write : 
+| > compile 2.1 7 hp 's hp-ux 9.01 , 
+| > augmented athena mu library distribution 
+| > . 
+compile nicely although one file 
+| > preprocessor macro definition table size need increase . 
+| > execute , nothing happen except ever-growing 
+| > memory requirement eventually climax core dump . 
+binary 
+| > identical program , compile 8.07 , 
+| > problem . 
+program like compile , link , run 
+| > fine library . 
+| > 
+| > sound familiar , go figure one 
+| > ... ? 
+please see post make yesterday may 10 fix problem . 
+post . 
+-- 
+brian v. smith 
+lawrence berkeley laboratory 
+speak lbl ; pay enough . 

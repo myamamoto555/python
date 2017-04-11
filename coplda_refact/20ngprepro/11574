@@ -1,0 +1,70 @@
+: robert brodersen 
+subject : resolution , bitmap font , device independence ... 
+: . 
+
+organization : oracle corporation , belmont , ca 
+: message write unauthenticated user 
+oracle corporation . 
+opinion express 
+user necessarily oracle . 
+lines : 60 
+recently correct resolution sparcstation change 
+: 
+:0 local x :0 - 500 - 100 
+: 
+:0 local x :0 - 500 - 85 
+determine 19 '' monitor 85 measure 
+active screen area divide resolution . 
+however , cause application font behave strangely . 
+research , believe cause application 
+request font family , weight , slant , . 
+believe 
+x grab first font path characteristic 
+display . 
+since font 
+path , result inaccurate . 
+speedo font , 
+family use helvetica . 
+think incorrect . 
+font always provide 
+resolution display . 
+never seem happen unless 
+explicitly request font ! 
+true 
+bitmapped font ! 
+instance , command 
+- fn ' - - - - - - - - - - - - ' 
+invoke font despite fact speedo font . 
+command 
+- fn ' - - - - - - - - - - - - ' 
+invoke font font depend font path . 
+despite fact x know display 85 , 
+generate font ! 
+unless application specify 
+resolution , x appear pick stupid default . 
+bug ? 
+feature ? 
+, ? 
+anything 
+get around problem ? 
+people suggest lie 
+resolution , specify single font path 75 100 , . 
+would least make app consistent , like able 
+look ruler appear paint application say : `` yup , 
+inch '' . 
+anyone set bitmapped font use ? 
+system info : 
+sun sparc mb , suno . 
+: 
+version number : 11.0 
+vendor string : mit x consortium 
+vendor release number : 5000 
+screen # 0 : 
+dimension : pixel millimeter 
+resolution : dot per inch 
+q font path : 
+, , , 
+-- 
+thanks - - bob brodersen 415 
+application architect , application technology group , application division 
+oracle corporation , redwood shores , ca 

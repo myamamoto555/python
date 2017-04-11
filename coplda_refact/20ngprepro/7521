@@ -1,0 +1,36 @@
+: barry 
+subject : re : graphics library package 
+organization : computer science dept. , univ. western ontario , london , canada 
+: 
+lines : 43 
+wgt graphics toolkit , design truly 
+brother chris . 
+c + + graphic 
+library programming 320 200 256 vga . 
+currently produce 
+shareware , year may commercial product excuse typo , 
+backspace terminal . 
+feature include : 
+- loading save call block herein 
+- flip , resize warp block 
+- loading save palette , fading , several memory 
+- graphic primitive line , circle , bar , rectangle 
+- region fill usually useless 
+- sprite animated bitmap , 200 onscreen 
+- support 
+- sb support voc cmf 
+- tile-based game creation use 16 16 pixel tile create 
+320 200 tile map game world like duke nuke 'em 
+- number sprite increase 1000 
+- professional sprite creator utility map maker 
+- routine simplify scroll game use map , etc 
+- flus play routine , sprite animated fli play 
+- pcx support , soon gif 
+- come soon well 
+leave e-mail barry 
+file available : use wgt . 
+zip 
+mirror : 
+programming 
+site may recent file , contact info regard - 
+date information . 

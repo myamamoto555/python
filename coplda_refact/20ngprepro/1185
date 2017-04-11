@@ -1,0 +1,21 @@
+: john kelsey 
+subject : clipper chip key exchange method 
+: . 
+
+organization : university missouri 
+lines : 13 
+want ask question dan bernstein ask -- 
+clipper chip exchange key ? 
+public key 80 160 bit long , 
+anyone know public-key scheme secure key 
+size ? 
+diffie-hellman maybe el gamal , p set constant value ? 
+presumably , real scheme something like : 
+1 . 
+public key . 
+2 . 
+send encrypted session key . 
+3 . 
+encrypt decrypt voice trafic sort fast stream cipher . 
+anyone elaborate , show miss ? 
+-- john kelsey , 

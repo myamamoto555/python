@@ -1,0 +1,22 @@
+: bryan boreham 
+: 
+subject : re : xt intrinsic : slow popup 
+: tweety 
+: 
+organization : alex technologies ltd , london , england 
+lines : 15 
+article < > , write : 
+> application create window button `` quit '' `` press '' . 
+> button `` press '' pop dialog box . 
+strange feature 
+> program always pop dialog box much faster 
+> first time . 
+try pop 2nd time 3rd , 4th ... time , 
+> much slower . 
+shell wait respond 
+position request . 
+respond 
+think window already right place . 
+exactly two component get sulk unclear 
+; information greatly receive . 
+bryan . 

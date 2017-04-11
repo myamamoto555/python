@@ -1,0 +1,23 @@
+: spencer w. thomas 
+subject : re : cylinder ray 
+organization : university michigan 
+lines : 17 
+: 
+: message thu , 15 apr 1993 gmt 
+sketch : rotate cylinder axis | | z axis . 
+intersect projection line project cylinder similar , 
+easier , sphere intersection . 
+result : intersection , one 
+intersection , two intersection , along line t0 
+t1 . 
+look z , compute intersection line top 
+bottom plane cylinder . 
+give t0 ' t1 ' . 
+interval 
+intersection bit line t0 , t1 intersect t0 ' , t1 ' . 
+detail leave exercise reader . 
+
+-- 
+spencer w. thomas | info tech networking , , 
+`` genome '' | univ michigan , ann arbor , mi 
+| , fax 

@@ -1,0 +1,41 @@
+: morris 
+subject : re : soundblaster irq port setting 
+: 
+organization : mitre corporation , bedford , ma 
+lines : 42 
+discuss use irq 7 
+recent article mike sprague write : 
+> number poeple thread already write 
+> prove true , believe , 
+> actually use , even though interrupt suppose 
+> dedicate . 
+put little differently : 
+- irq 7 de facto standard interrupt assign use 
+printer adapter announce completion activity . 
+- monitor irq 7 ; use means determine 
+time send another byte printer . 
+- ? 
+hardware printer adapter ability disable 
+use irq 7 , usually merely break connection 
+isa pin associate driver . 
+adapter control 
+irq line tri-state driver , program leave 
+mode . 
+- unfortunately , lot adapter card use bistate 
+driver i.e. , either assert high assert low irq line 
+rather tristate driver assert high , assert low , 
+assert anything . 
+presence card irq line preclude 
+use irq adapter unless physically 
+disconnect jumper . 
+incidentally , note requirement card hold 
+irq line low interrupt desire . 
+true 
+would somehow tie unconnected irq line , 
+certainly requirement . 
+- operating system , nt ? 
+, various unice whatever 
+proper plural unix might require use irq 7 performance 
+reason . 
+, alas , one card use bistate driver . 
+joe morris mitre 

@@ -1,0 +1,11 @@
+: 
+subject : re : get 640 x 480 13 '' monitor ? 
+organization : baylor college medicine 
+lines : 5 
+distribution : na 
+: 
+: 
+keyword : 13 '' monitor , 8 24 resolution 
+try shareware init monitor drive internal 
+video . 
+chen 

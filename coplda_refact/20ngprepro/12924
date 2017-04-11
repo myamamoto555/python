@@ -1,0 +1,63 @@
+: greg 
+subject : re : problem 
+organization : fermi national accelerator laboratory , batavia il 
+lines : 42 
+distribution : world 
+: . 
+
+article < > , stassen lantz write : 
+| > weekend ... ... replace motherboard , upgrade dos 6 , m 
+| > windows 3.1 , experience lockup window application use 
+| > modem . 
+| > 
+| > -40 cpu amd ? 
+| > ami bio 
+| > card 2 serial , 1 parallel 1 game port generic cheapo 
+| > ide controller two hd , two fd 
+| > internal packard bell 2400 modem 
+| > mouse 
+| > 
+| > mouse set , via jumper board parm 
+| > mouse driver . 
+modem set , jumper modem board . 
+
+| > addition , think disable second serial port card since 
+| > unused . 
+mouse work fine . 
+| > 
+| > deal : procomm dos version work fine modem . 
+| > procomm windows , cim compuserve window , 
+| > terminal lockup try anything 
+| > modem . 
+screen freeze , sound come 
+| > modem , message screen . 
+| > 
+| > get real frustrated . 
+could second port card still 
+| > enable ? 
+would cause problem ? 
+software 
+| > route , believe maybe hardware problem . 
+| > anybody similar experience ? 
+anybody idea could try ?? 
+| > please ??? 
+| > 
+| > thanks advance ... 
+| > 
+| > n stassen lantz 
+run problem upgrade 2400 modem 
+modem . 
+time give modem reset command atz , window . 
+computer lock . 
+give atz command dos , work . 
+solution 
+give modem atz command thru window . 
+procomm + 
+install process tell program haye compatible 2400 modem . 
+atz 
+include initialization string & work fine . 
+call m 
+, & clue conflict 
+could . 
+lockup use window comm program give atz 
+command . 

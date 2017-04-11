@@ -1,0 +1,33 @@
+: 
+subject : re : create gif file . 
+lines : 29 
+organization : delft hydraulics 
+article < > write : 
+> path : ! 
+- 
+> : 
+> newsgroup : 
+> subject : create gif file . 
+> date : 26 apr 1993 -0400 
+> organization : internet 
+> lines : 12 
+> sender : 
+> : < > 
+> : 
+> : 
+> 
+> look x client convert bitmap 
+> file gif file use macintosh . 
+> 
+> thanks 
+> 
+> 
+> laurent michel 
+> crn - 
+> bp 20 
+> strasbourg france 
+> phone 33 88 28 62 76 
+look package ; everything could ever ask 
+convert pbm almost format gif , tga , pcx etc. . 
+. 
+arno 

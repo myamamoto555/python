@@ -1,0 +1,27 @@
+: aniruddha b. 
+subject : help : split trim region along mesh 
+organization : university kentucky , dept. math sciences 
+lines : 28 
+hus , 
+problem , hope ` guru ' help solve . 
+background problem : 
+rectangular mesh uv domain , i.e mesh 
+mapping 3d patch 2d . 
+area domain 
+inside trim loop render . 
+trim 
+loop set 2d curve segment . 
+sake notation : mesh make cell . 
+problem : 
+trim area split individual smaller 
+cell bound trim curve segment . 
+cell 
+wholly inside area ... output whole , 
+else trivially reject . 
+body know , algo . 
+somewhere . 
+help would appreciate . 
+thanks , 
+ani . 
+-- 
+get irritated human , stay cool , divine . 

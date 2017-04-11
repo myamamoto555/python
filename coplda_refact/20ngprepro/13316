@@ -1,0 +1,39 @@
+: chris crayton 
+subject : ibm link - 
+distribution : world 
+organization : ozone online operations , inc. - new orleans , la 
+: chris crayton 
+lines : 29 
+21:25 , larry henson unmitigated gall say : 
+lh > hello , try hook apple ibm clone . 
+lh > seem problem configure lpt port accept . 
+
+lh > adjust baud , parity , etc. fit system ? 
+try mode , 
+lh > work . 
+anyone help , post e-mail . 
+. 
+lpt port recognize baud , parity , etc. setting . 
+might tring 
+connect serial printer parallel port . 
+try : attach serial 
+port printer serial port pc . 
+use mode command set 
+com port setting . 
+try 
+c > mode , n 
+set port parameter . 
+use mode command redirect 
+printer port like : 
+c > mode 
+work . 
+good luck ! 
+... time fly like arrow . 
+fruit fly like banana . 
+-- blue v2 .10 
+-- 
+ozone hole bb private bulletin board service 
+3 full service nodes 16.8 k bp 10 gig 100,000 file 
+skydive new orleans ! 
+rime network mail hub 500 + usenet newsgroup 
+please route question inquiry : 

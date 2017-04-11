@@ -1,0 +1,114 @@
+: bill sommerfeld 
+subject : re : source announcement 
+organization : massachusetts institute technology 
+lines : 112 
+distribution : world 
+: . 
+
+: message 18 apr 1993 gmt 
+% telnet 25 
+try ... 
+connect . 
+escape character ' ^ ' . 
+220 sendmail 4.1 nist ready sat , 17 apr 93 edt 
+clipper 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 < > 
+quit 
+221 closing connection 
+connection close . 
+note also : 
+% telnet 25 
+try ... 
+connect . 
+escape character ' ^ ' . 
+220 sendmail 4.1 nist ready sat , 17 apr 93 edt 
+
+250 - < > 
+gilbert 
+branstad 
+rosenthal 
+troy 
+250 - < > 
+
+250 < > 
+telnet . 
+25 
+try ... 
+connect . 
+. 
+escape character ' ^ ' . 
+220 . 
+sendmail 4.1 -3 ready sat , 17 apr 93 edt 
+
+250 - < > 
+250 - < > 
+colvin 
+250 - < > 
+
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+250 - < > 
+zeitler 
+castro 
+250 < > 
+% telnet st1 . 
+25 
+try ... 
+connect st1 . 
+. 
+escape character ' ^ ' . 
+220 st1 . 
+sendmail 4.1 .11 ready sat , 17 apr 93 edt 
+smid 
+250 miles smid 
+
+250 stuart 
+quit 
+221 st1 . 
+closing connection 
+connection close foreign host . 
+% telnet 25 
+try ... 
+connect . 
+escape character ' ^ ' . 
+220 smtp service ready . 
+burrow 
+250 burrow , james 
+mcnulty 
+250 mcnulty , lynn 
+quit 
+221 smtp service complete . 
+% whois - h 
+national institute standards technology 
+
+nist 
+gaithersburg , md 
+domain name : 
+administrative contact : 
+wack , john p. 
+ft 
+technical contact , zone contact : 
+hunt , craig w. 
+ft 
+record last update . 
+domain server list order : 
+
+
+internic registration services host contain internet information 
+networks , asn 's , domain , poc 's . 
+please use whoi server information . 
+-- 

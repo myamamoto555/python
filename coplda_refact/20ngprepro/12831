@@ -1,0 +1,46 @@
+: susan walker 
+subject : truncation lang bug ??? 
+organization : bolt beranek newman bbn 
+lines : 42 
+distribution : world 
+: . 
+
+find situation think bug x motif , hope 
+really mistake part . 
+anyone know anything 
+problem ... ... 
+- use , set 
+text string kanji either via . 
+problem display , text get 
+truncate , depend setting environment variable 
+lang specifically . 
+set japanese , 
+text get truncate . 
+set english , everything 
+work fine . 
+take default . 
+please note text actual 
+application , sample code make thing easier 
+- run motif 1.2 , via .01 . 
+test program set 
+handle 16 bit kanji character . 
+remember 
+prior font resource 
+set japanese font . 
+- know matter , dialog box initially 
+create uil . 
+problem happen . 
+unfortunately substitute 
+application acceptable 
+alternative way much code modify beta ! 
+small test program illustrate problem anyone 
+want . 
+best guess either x code motif 
+properly allocate memory japanese , since 
+source look guess . 
+please let know sound familiar , suggestion , 
+want sample program . 
+thanks 
+- susan 
+
+

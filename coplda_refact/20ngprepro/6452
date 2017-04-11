@@ -1,0 +1,91 @@
+: ken whaley 
+subject : re : question 
+: message 14 apr 1993 -0400 
+organization : kubota pacific computer inc. . 
+lines : 88 
+> 
+> try use copy single plane 
+> . 
+everytime 
+> try , see absolutely nothing display . 
+know 
+> datum becuase check 
+> screen . 
+> 
+> successful get work use 
+> two . 
+problem 
+> try ?? 
+> 
+> could someone please scan code segment let know 
+> go wrong ... 
+> 
+> create widget call canvas . 
+> 
+> canvas ; 
+> display canvas ; 
+> screen display ; 
+> display , display , screen , 
+> , , display , screen ; 
+> display , display , screen , 
+> , , 1 ; 
+> 
+> display , , 0 , null ; 
+> display , , 0 , null ; 
+> 
+> -- > code read image omit < -- 
+> 
+set foreground background color 
+something 0 1 ? 
+macro 
+server may return value suitable depth 1 . 
+> copy one plane 
+> display , , , 
+> , 0 , 0 , , , 0 , 0 , 16 ; 
+> 
+sure fifth plane datum ? 
+could 
+different pixel value image , fifth plane 16 
+might value ? 
+> use , copy screen 
+> ; 
+> _ 0 ; 
+> _ 0 ; 
+> _ mask ; 
+> mask | ; 
+> display , , mask , & value ; 
+> 
+> display , , , 0 , 0 , , ; 
+> 
+want see plane datum want better performance , 
+use , use stipple stippled 
+rectangle fill . 
+many server stupid handle complex 
+clip list , turn bitmap clip region hundred hundred 
+little clipping rectangle , clip every drawing primitive every 
+one little triangle . 
+actually , must also ask faq 's # 1 popular reason graphic 
+show : wait expose event draw 
+rectangle ? 
+> info : 10 
+> motif 
+> sun run suno 
+> 
+> 
+> thanks advance ! 
+> 
+> 
+> nancie p. marin net : 
+> ensco inc. . 
+mail : 445 pineda ct . 
+melbourne , fl . 
+
+> fax : 
+> 
+-- 
+kenneth whaley 
+kubota pacific computer , inc. . 
+email : 
+2630 walsh avenue 
+santa clara , ca . 
+

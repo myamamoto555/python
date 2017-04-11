@@ -1,0 +1,43 @@
+: penev 
+subject : re : ide vs 
+: 
+organization : rockefeller university 
+: tin version 1.1 
+: 
+: 
+lines : 38 
+mon , 19 apr 1993 gmt wayne smith write : 
+| article < > richard krehbiel write : 
+| > , get multi-tasking , want increase performance 
+| > increase amount overlap . 
+| > 
+| > one way dma bus mastering . 
+either make 
+| > possible device move datum memory 
+| > without interrupt cpu . 
+alternative cpu move 
+| > datum . 
+several scsi interface card allow dma 
+| > bus mastering . 
+| ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+| isa bus ? 
+earlier post note - dma . 
+| > ide , however , define standard interface 
+| > create ibm pc , require cpu move datum 
+| > byte , dma . 
+| talk isa bus , 1 dma channel 
+| active one time , presumably transfer datum single device . 
+| even though least 7 device scsi bus , explain 
+| 7 device dma transfer single scsi card 
+| bus time . 
+one time mean single byte . 
+four source 
+dma request ready , dma would service one . 
+
+bandwidth four together lower 
+bandwidth , work . 
+note bus master priority mechanism dma 
+controller . 
+-- 
+penev w internet : 
+disclaimer : mine . 

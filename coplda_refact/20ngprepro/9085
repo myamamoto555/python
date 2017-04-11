@@ -1,0 +1,37 @@
+: 
+subject : re : quadra scsi problem ??? 
+organization : apple computer inc. . 
+lines : 28 
+> attention : mac quadra owner : many storage industry expert 
+> conclude mac quadras suffer timing irregularity deviate 
+> standard scsi specification . 
+result silent corruption 
+> datum use device , include ultra-modern device . 
+> although name device , since fault , 
+> example would sony 3.5 inch mo , without special `` '' 
+> firmware install . 
+one solution , sometimes , disable `` blind write '' 
+> 
+best knowledge problem quadras 
+blind transfer . 
+trouble blind transfer usually mean programmer 
+screw tib test driver device question . 
+usually occur first byte block transfer 
+device `` hiccup '' middle block . 
+happen middle 
+blind transfer possibility lose gain byte 
+depend direction tranfer go . 
+scsi manager 
+eventually return phase error end transaction 
+sync . 
+actual datum loss would occur driver 
+pay attention error come back . 
+note effect cause anything actually scsi bus 
+rather transfer loop inside scsi manager . 
+problem occur 
+processor bus error try access scsi chip next byte 
+clock yet . 
+also note bus error deal bus 
+error handler crash machine ... 
+clinton bauder 
+apple computer 

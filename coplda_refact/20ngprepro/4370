@@ -1,0 +1,107 @@
+: richard welty 
+subject : : automotive mailing lists : set 
+keyword : monthly post 
+: 
+organization : new york state institute sebastian cabot study 
+lines : 116 
+: 
+new article 4 february 1993 -- 
+many people want set mailing list favorite 
+automotive topic ; rather fewer know . 
+article 
+provide essential information standard 
+unix system . 
+shell script example alias file setup 
+include presently run sparc 2 
+number mailing list . 
+note set automotive 
+mailing list , please let know - request address 
+list post . 
+also inform keeper 
+usenet check monthly post . 
+first , get anywhere , need either 1 , 
+2 measure assistance . 
+also 
+important reasonably good network connectivity ; seem 
+like get everything several day anyone else , 
+trouble get email , network connectivity 
+probably good enough . 
+listserv : 
+handy automated mailing list package name listserv , 
+available several ftp server network . 
+detail 
+installation operation listserv beyond scope 
+article , anyone consider run large mailing list 
+probably look listserv carefully . 
+alias file : 
+typical unix system ; file name 
+whichever file server mail host ; contain line : 
+foo : bar , baz , 
+mean email send name ` foo ' host 
+redistribute user bar , baz , . 
+thus , simplest 
+possible email list 
+: , , , 
+: 
+couple problem ; noticeable one 
+superuser edit alias file . 
+however , 
+follow , connivance : 
+: : include : - list 
+: 
+file specify list comma newline separated 
+address . 
+file list admin 's home directory , 
+list admin . 
+bounce mail : 
+still problem ; bounce mail usually get distribute 
+member list , generally consider somewhat irritating . 
+therefore , way drive school mailing list set 
+instructive thanks harpal chohan bmw list setup , 
+way . 
+sure get . 
+: welty 
+: : include : 
+school : '' | school '' 
+: 
+: 
+'s go : 
+owner - - request address intend trap bounce mail 
+come network . 
+- request address also serve point 
+contact administrative duty . 
+school people send mail ; instead point address , 
+point shell script rewrite header resend 
+email . 
+nobody except know name ; 
+name change protect sanity point 
+actual list member . 
+shell script use follow : 
+----------------- 
+# ! 
+
+cd tmp 
+sed - e ' ^ : d' - e ' ^ sender : d' - e ' ^ d' | \ 
+echo : $ \ 
+echo : $ \ 
+echo sender : $ \ 
+cat - | \ 
+- om - f $ \ 
+- f `` $ 1 mailing list '' $ 1 - rebroadcast 
+exit 0 
+------------------- 
+note script know name list ; name 
+pass outside , script may use multiple 
+list run several site . 
+script excise : , sender : , line incoming 
+message , substitute sender : : , add : 
+99.9 % email bounce message end send - request 
+owner - address header rewrite . 
+digest list , software around . 
+hopefully 'll able provide information future version 
+post . 
+richard welty 
+-- 
+richard welty 
+`` nothing good ever report full rotation 
+race car either pitch roll axis '' -- carroll smith 

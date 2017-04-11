@@ -1,0 +1,132 @@
+: danny weitzner < > 
+subject : re-invent crypto policy ? 
+eff statement 
+: < > 
+: fri , 16 apr 93 gmt 
+: 
+organization : electronic frontier foundation 
+: v1 d17 
+lines : 122 
+april 16 , 1993 
+initial eff analysis clinton privacy security proposal 
+clinton administration today make major announcement 
+cryptography policy effect privacy security 
+million americans . 
+first part plan begin 
+comprehensive inquiry major communication privacy issue 
+export control effectively deny people easy access 
+robust encryption , law enforcement issue pose new technology . 
+however , eff concerned administration already 
+reach conclusion one critical part inquiry , 
+public comment discussion allow . 
+apparently , 
+administration go use leverage get telephone 
+equipment vendor adopt voice encryption standard develop 
+national security agency . 
+so-called `` clipper chip '' 80-bit , 
+split key escrowed encryption scheme build chip 
+manufacture military contractor . 
+two separate escrow agent would 
+store user ' key , require turn law enforcement upon 
+presentation valid warrant . 
+encryption scheme use 
+classify , chip available manufacturer 
+incorporation communication product . 
+proposal raise number serious concern . 
+first , administration adopt solution conduct 
+inquiry . 
+clipper chip may secure 
+product . 
+vendor developer may better scheme . 
+furthermore , rely government sole source 
+clipper chip . 
+rather , independent chip manufacturer 
+able produce chipset base open standard . 
+second , algorithm trust unless test . 
+yet , 
+administration propose keep chip algorithm classify . 
+eff 
+believe standard adopt ought public open . 
+
+public confidence security standard 
+open independent , expert scrutiny . 
+third , use use , dual escrowed system may 
+prove reasonable balance privacy law enforcement 
+need , detail scheme must explore publicly 
+adopt . 
+give people confidence safety key ? 
+disclosure key third party waive individual 's fifth 
+amendment rights subsequent criminal inquiry ? 
+
+many question administrations proposal raise fail 
+answer . 
+sum , administration show great sensitivity importance 
+issue plan comprehensive inquiry digital privacy 
+security . 
+however , `` clipper chip '' solution ought 
+consider part inquiry , adopt 
+discussion even begin . 
+detail proposal : 
+escrow 
+80-bit key divide two escrow agent , 
+hold 40-bit key . 
+manufacturer communication device 
+would require register key two independent escrow 
+agent . 
+key tie device , however , person use . 
+upon presentation valid court order , two escrow agent would 
+turn key part law enforcement agent . 
+accord 
+presidential directive issue , attorney general 
+ask identify appropriate escrow agent . 
+administration 
+suggest one non-law enforcement federal agency perhaps 
+federal reserve , one non-governmental organization could choose , 
+agreement identity agent yet . 
+classify algorithm possibility back door 
+administration claim back door -- mean 
+government could break code without secure key 
+escrow agent -- president tell 
+back door classify algorithm . 
+order prove , 
+administration source interested arrange all-star crypto 
+cracker team come , security arrangement , examine 
+algorithm trap door . 
+result investigation would 
+make public . 
+clipper chipset design produce , 
+secret contract national security agency two private 
+firm : vlsi . 
+nsa work plan underway 
+four year . 
+manufacturing contract let 14 month ago . 
+government market driver 
+order get market move , show government believe 
+security system , fed first big customer 
+product . 
+user include fbi , secret service , vp al 
+gore , maybe even president . 
+today 's commerce department press 
+briefing , number people ask question , though : would 
+private organization individual adopt classified standard 
+independent guaranty security freedom trap door ? 
+comprehensive policy inquiry 
+administration also announce commence 
+inquiry policy issue relate privacy protection , encryption , 
+law enforcement . 
+item consider include : export 
+control encryption technology fbi 's digital telephony 
+proposal . 
+appear inquiry conduct 
+national security council . 
+unfortunately , however , presidential 
+directive describe inquiry classify . 
+public involvement 
+process promise , term yet specify . 
+information contact : 
+jerry berman , executive director 
+daniel j. weitzner , senior staff counsel 
+full text press release fact sheets issue 
+administration available eff 's ftp site . 
+danny weitzner senior staff counsel , eff 
++1 

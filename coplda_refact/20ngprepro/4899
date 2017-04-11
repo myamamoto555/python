@@ -1,0 +1,42 @@
+: uli allgeier 
+subject : re : pad question - go schematic - > pcb ? 
+organization : rus , u stuttgart , frg 
+lines : 38 
+: . 
+de 
+hus ! 
+article < > tall cool one write : 
+> produce schematic , import 
+> create pcb pattern ? 
+way get work 
+> output futurenet netlist , import . 
+
+> another way ? 
+see information instruction 
+> provide , might miss something . 
+suggestion would 
+> greatly appreciate . 
+thanks ! 
+sorry , german , hope understand . 
+der . 
+sch die 
+. 
+job : 
+: 
+
+report 
+net list 
+select 
+net list output file name 
+- > filename 
+: 
+
+ascii 
+ascii input file name 
+- > filename 
+error file name 
+- > filename , nicht cr 
+jetzt sind alle auf einem haufen und mit move 
+werden . 
+viele 
+uli 

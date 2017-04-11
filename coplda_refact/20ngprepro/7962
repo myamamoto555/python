@@ -1,0 +1,36 @@
+: greg williams 
+subject : re : many people one machine 
+distribution : git 
+organization : georgia institute technology 
+lines : 23 
+< > mark woodruff write : 
+> several people share machine would like set separate 
+> environment windows . 
+way setting 
+> thing separate ? 
+ideally , 
+> would like totally separate virtual machine . 
+would willing settle 
+> less , may end batch file copy . 
+inus file around 
+> depend want use machine . 
+could use dos 6 partly . 
+set different config.sys 
+autoexec.bat command user , select 
+menu option bootup . 
+autoexec.bat copy win.ini 
+file change directory . 
+exit window , 
+copy back generic . 
+inus file want . 
+way think . 
+may program somewhere 
+allow better , though use dos 6 allow person 
+custom config.sys autoexec.bat . 
+-- 
+greg williams 
+georgia institute technology , atlanta georgia , 
+uucp : ... ! 
+, , ncar , purdue , rutger ! 
+18 
+internet : 

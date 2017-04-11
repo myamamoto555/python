@@ -1,0 +1,87 @@
+: bob douglas 
+subject : re : sphere 4 point ? 
+organization : oxford university computing service , 13 banbury rd , oxford , u 
+lines : 94 
+originator : 
+article < > steven collins write : 
+> article < > edward bolson write : 
+boy , embarass trivial faq : 
+
+give 4 point non coplanar , one find sphere , , 
+center radius , exactly fitting point ? 
+know 
+circle 3 point , immediately see 
+straightforward way 3-d . 
+check 
+geometry book , graphic gem , farin , still loss ? 
+please mercy provide solution ? 
+> 
+> would require . 
+3-space , 4 point specify 
+> sphere far see . 
+unless prove point 
+> exist 3-space 4 point , may 
+> necessarily happen . 
+> 
+> correct wrong quite possibly ! 
+> 
+> steve 
+sorry !! 
+: - 
+call four point , b , c d. three must 
+otherwise three could lie surface 
+sphere four must otherwise either 
+lie sphere define infinity . 
+, b c define circle . 
+perpendicular bisector ab , bc 
+ca meet point p , say center circle . 
+circle must lie surface desire sphere . 
+consider normal plane abc pass p. point 
+normal equidistant , b c circle 
+fact diameter desire sphere . 
+take plane 
+contain normal d d lie normal 
+plane contain normal ; plane right angle 
+abc one . 
+let e point normally two circumference 
+abc circle lie plane . 
+need point q 
+normal eq dq . 
+intersection perpendicular 
+bisector ed normal point exist since d 
+plane abc , ed right angle normal . 
+algorithm : 
+sphere well define ? 
+1 check b coincident > failure . 
+2 find line ab check c lie > failure . 
+3 find plane abc check d lie > failure . 
+yes . 
+find center . 
+1 find perpendicular bisector ab ac . 
+2 find point intersection p . 
+3 find normal plane abc pass p line n . 
+4 find plane contain n d ; find point e 
+abc circle plane d lie n , take e . 
+4 find perpendicular bisector ed line l 
+5 find point intersection n l q . 
+q center desire sphere 
+picture : 
+1 plane abc 
+
+p 
+b c 
+2 right-angle abc , plane contain n d 
+e 
+d 
+line n 
+-------------------- p ------------- q 
+numerically : 
+ed ep q close p relative radius 
+abc circle subject error . 
+best choose d 
+least ad , bd cd larger choice . 
+-- 
+bob douglas computing services , university oxford 
+internet : 
+address : 13 banbury road , oxford , uk 
+telephone : 

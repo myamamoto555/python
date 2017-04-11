@@ -1,0 +1,22 @@
+: saad mufti 
+subject : problem , access tty 
+organization : personal library software , inc. . 
+lines : 19 
+run , motif 1.1 , mwm unix svr4 unisys 
+386 base machine . 
+default shell c shell . 
+whenever 
+run , get follow message first c shell prompt : 
+warning : access tty ; thus job control shell ... 
+, run job control command like fg , bg etc. . 
+also , 
+run another command line 
+launch additional . 
+menu . 
+would appreciate help problem , pointer get 
+help . 
+way , environment variable term set . 
+---------------------------- 
+saad mufti 
+personal library software 
+e-mail : 

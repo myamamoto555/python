@@ -1,0 +1,21 @@
+: carl johnson 
+subject : default text cursor color 
+: 
+organization : british telecom research labs 
+lines : 17 
+: 
+want able set cursor 
+color color set 
+. 
+man page ... 
+- cr color 
+option specify color use text cur - 
+sor . 
+default use foreground < -- 
+color use text . 
+< -- 
+however doesnt seem case , appear default black 
+whatever set . 
+feel free point relevant fm whatever , 
+cheers , 
+c 

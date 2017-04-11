@@ -1,0 +1,29 @@
+: robert andrew ryan < > 
+subject : re : monthly question expose event 
+organization : school computer science , carnegie mellon , pittsburgh , pa 
+lines : 19 
+: . 
+
+: < > 
+excerpt : monthly question 
+. 
+. 
+buzz 1055 
+> button widget , press , cause new item draw 
+> window . 
+action clearly call 
+> directly ; instead , register existence 
+> new item memory structure let expose event handler 
+> handle `` regular '' expose event e.g. window 
+> exposure take care render new image . 
+hmmm ... clearly ? 
+depend programming model . 
+
+forbid draw outside context expose event . 
+certainly 
+internal datum structure maintain visual 
+appearance would maintain properly whenever expose event happen 
+generate . 
+preclude draw immediately 
+update though ... 
+- rob 

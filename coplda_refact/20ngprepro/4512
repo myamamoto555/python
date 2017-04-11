@@ -1,0 +1,22 @@
+: rudi 
+subject : . 
+exe windows 
+: 
+organization : dept. . 
+
+lines : 17 
+windows create permanent .1 
+recommend access . 
+use . 
+exe , .1 startup memory 
+free , leave . 
+exe config.sys 
+memory free , window recommend swap file . 
+use , , 4mb internal memory , 
+anybody know happen possibly win need 
+umb 's manage virtual memory ? 
+, true , umb 's , 
+find without include suspicious part ? 
+need optimize , develop application 
+dos use window program environment . 
+rudi 

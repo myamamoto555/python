@@ -1,0 +1,27 @@
+: matthew 
+subject : implement diffie-hellman key exchange . 
+keyword : diffie-hellman encryption des 
+organization : unix box , else ? 
+: tin version 1.1 
+: 
+lines : 21 
+want add link encryption module multiplex upper 
+level routine single datum link . 
+upper level know 
+, thus key exchange shall need occur 
+initial link establishment . 
+figure 
+des diffie-hellman key exchange . 
+use diffie-hellman exchange establish 64 bit des key 
+acceptable , word , pro 's con 's 
+setup ? 
+important issue watch aside 
+filter unacceptable key ? 
+order achieve , guess need use math 
+routine probable prime number calculation , exponentiation etc , 
+could someone point towards good package strictly 
+non-commercial . 
+matthew . 
+-- 
+- 
+` power one man seem like small squirt ... ' -- 

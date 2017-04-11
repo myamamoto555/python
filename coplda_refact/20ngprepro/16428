@@ -1,0 +1,31 @@
+: geir atle 
+subject : re : help 4x4 matrix 
+organization : norwegian defense research establishment , kjeller , norway . 
+lines : 26 
+: 
+: message tue , 11 may 1993 gmt 
+article < > robert j.c. write : 
+need help create 4x4 perspective matrix . 
+would like use 
+transform x , y , z , w texture mapping code get graphics gem 
+i. many book talk , none simple plain 
+english . 
+graphic gem , talk page 678 . 
+would like perspective matrix handle different field-of-view 
+aspect course . 
+thank 's help . 
+ca2 cos alpha 2 horizontal 
+sin alpha 2 
+cb2 cos beta 2 vertical 
+sb2 sin beta 7 2 
+zf far clipping value 
+zn near clipping value 
+matrix : 
+0 0 0 
+0 0 0 
+0 0 zf 1 
+0 0 - zn zf 0 
+-- 
+____ ___ geir atle 
+____ \ __ 
+\ ___ \ ___ phone : office home 

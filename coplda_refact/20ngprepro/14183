@@ -1,0 +1,15 @@
+: terry walter 
+subject : vesa 
+: terry walter 
+distribution : world 
+organization : outland bbs 
+lines : 9 
+look vesa local bus card . 
+control ide drive , floppies , game port , parallel port , 
+serial port . 
+serial port must socket 
+uart non chipset generic board 
+. 
+-- 
+message post 
+# hst v. try , 'll like ! 

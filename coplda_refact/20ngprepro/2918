@@ -1,0 +1,41 @@
+: andre beck 
+subject : re : convert contents color postscript 
+organization : dept. computer science , tu dresden , germany . 
+lines : 33 
+distribution : world 
+: 
+: . 
+de 
+article < > , jan wieck write : 
+| > raju gurung write : 
+| > : jeff write : 
+| > : > somebody point source code dump contents 
+| > : > color postscript file ? 
+write 
+| > : > app bring , want click 
+| > : > mouse dump window postscript file . 
+| > : 
+| > : 
+| > : 
+| > : use . 
+within program use 
+| > : - id xxxxx xxxxx window id obtain widget . 
+| > 
+| > ask source . 
+| > 
+| > portable bitmap tool jef 
+| > < > include filter much 
+| > . 
+| > 
+btw , x11 tool come source . 
+vendor let 
+stick binary . 
+anyway , look onto . 
+best job 
+, include compression . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

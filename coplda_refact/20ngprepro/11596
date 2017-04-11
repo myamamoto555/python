@@ -1,0 +1,32 @@
+: pierre 
+subject : re : configuration 
+: . 
+
+organization : commissariat atomique - france 
+lines : 27 
+article < > , lars write : 
+| > -- 
+| > hello ! 
+| > 
+| > want configure sytem run unix 
+| > com chooser menu different machine work 
+| > connect . 
+connection work localhost ! 
+| > ' x - indirect ' work well ! 
+| > configuration : 
+| > 
+| > - start ` ' boot time server specify 
+| > 
+| > - start boot time x - indirect localhost 
+| > 
+... ... . 
+deleted 
+need start - indirect . 
+start - indirect localhost , use loopback adress 
+adress . 
+try contact another host , one try answer 
+loopback adress . 
+good . 
+remember every machine adress loopback network . 
+-- 
+pierre 1 

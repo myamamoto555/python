@@ -1,0 +1,63 @@
+: gerard o'driscoll 
+subject : re : create 8 bit window 24 bit display . 
+. 
+? 
+organization : internet 
+lines : 58 
+: 
+: 
+write : 
+
+problem occur try create window visual different 
+visual parent use default visual . 
+
+get set window attribute . 
+default 
+give . 
+: 
+... 
+unsigned long ; 
+... 
+
+non-zero would better color cmap 
+rather use old pixel value . 
+also , use , make 
+code obvious . 
+
+cmap ; 
+_ pixel 0 ; 
+| ; 
+win 
+, 
+, 
+, 
+width , height , 
+0 , border width . 
+see comment 
+8 , depth 
+, class 
+, visual 
+, 
+& 
+; 
+note : code look like : 
+win 
+, 
+, 
+, 
+width , height , 
+, border width 
+8 , depth 
+, class 
+, visual 
+, 
+& 
+; 
+set work make sense . 
+unsigned int . 
+get away 
+` ed zero . 
+happen 
+define -1 would get interesting look window ! 
+gerard o'driscoll 
+du pont pixel systems ltd. . 

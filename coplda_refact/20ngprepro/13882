@@ -1,0 +1,34 @@
+: brendan mckenna 
+subject : problem character 127 
+organization : internet 
+lines : 33 
+: 
+hus , 
+read faq , fiddle around , still problem get 
+poor old let character 127 . 
+
+follow . 
+: 
+font : - -- 
+believe correct font select use . 
+
+set environment variable whatever put , tell 
+locale support apparently additional locale define , 
+least , exist . 
+get character 
+127 print , would expect -- example , 
+produce u umlaut . 
+lead believe fault 
+lie setting , follow : 
+speed 9600 baud ; line 0 ; susp ; 
+^ c ; quit ^ \ ; erase ^ h ; kill ^ k ; ^ @ 
+eof ^ d ; eol ^ @ ; min 4 ; time 0 ; stop ^ ; start ^ q 
+- - - - - - crt 
+- - - - - - - - - 
+- - 
+- echo - - 
+- - - - - - - 
+anyway , struggle couple week , help 
+anyone could offer would greatly appreciate . 
+thanks ! 
+brendan 

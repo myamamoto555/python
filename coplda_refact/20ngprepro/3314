@@ -1,0 +1,28 @@
+: henry spencer 
+subject : re : help : real time clock standby mode 
+organization : u toronto zoology 
+lines : 20 
+article < > martin john gregory write : 
+> trouble obtain specify standby current drain 
+> real time clock ... 
+> lowest current drain acheive 3.7 v vcc . 
+
+> three time specify maximum ... 
+> 1 make sure reset assert powerup , 
+> low time . 
+> 2 make sure cycle negation rd 
+> wr assert ... 
+input chip come ttl ? 
+spec 
+cmos chip typically apply input pull way 
+zero way vcc . 
+ttl good former 
+latter without help pullup resistor . 
+
+sort thing easily multiply power consumption considerable 
+factor , cmos transistor suppose 
+way hard . 
+-- 
+work one man 's work . 
+| henry spencer @ u toronto zoology 
+- kipling | 

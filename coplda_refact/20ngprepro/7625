@@ -1,0 +1,34 @@
+: joe hildebrand 
+subject : re : question regard overlaying graphic 
+organization : internet 
+lines : 30 
+: gopal venkatraman 
+cc : 
+> let 's say two rectangle canvas see 
+> one intersect ... 
+> , would like delete one rectangle . 
+> way create another gc wherein use 
+> logical function simply redraw rectangle use 
+newly 
+> create graphic context thus delete apparent purpose . 
+> problem approach point intersection 
+pixel 
+> location belong rectangle also become white , 
+
+> something avoid . 
+could set bitmap mask . 
+clear 
+bitmap , draw rectangle delete . 
+draw one 
+stay . 
+entire 
+screen . 
+note pretty effective way animation , ever 
+need replace . 
+---------- 
+joe hildebrand 
+
+software engineer 
+systems concepts 
+
+standard disclaimer apply 

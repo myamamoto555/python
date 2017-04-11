@@ -1,0 +1,131 @@
+: christopher lusardi 
+subject : program include : 2 edge detection algorithm ! 
+: . 
+hlg 
+organization : state university new york sci 
+lines : 142 
+: 
+
+program detect edge compass operator laplacian 
+operator . 
+output 2 raw image edge . 
+output 
+look like edge . 
+term , correct error ? 
+improvement welcome . 
+'ll even accept correct code . 
+digital gaussian 7 7 remove 
+noise , get improvement laplacian . 
+-------------------------- 2 type edge detection ------------------------- 
+
+
+300 
+300 
+unsigned char ; 
+unsigned char ; 
+unsigned char ; 
+int 3 3 , 0 , , -1 , , 0 ; 
+int 3 3 1 , 1 , 1 , 0,0 , 0 , -1 , -1 , -1 ; 
+int 3 3 1 , 1 , 0 , , , -1 ; 
+int 3 3 1 , , , 1 , ; 
+int 3 3 , -1 , , 1 , 1 , 0 ; 
+int 3 3 -1 , -1 , -1 , 0,0 , 0 , 1 , 1 , 1 ; 
+int 3 3 -1 , -1 , 0 , , 1 , 0 , 1 , 1 ; 
+int 3 3 -1 , 0 , 1 , , 1 , -1 , 0 , 1 ; 
+int 3 3 0 , 1 , 1 , , 1 , -1 , -1 , 0 ; 
+void compass row , col 
+int row , col ; 
+
+int value ; 
+int , ; 
+int , , , ; 
+int , , , ; 
+0 ; 
+0 ; 
+-1 ; < 2 ; + + 
+-1 ; < 2 ; + + 
+
+row + > 0 & & col + > 0 
+
++ int row + col + 
++ 1 + 1 ; 
++ int row + col + 
++ 1 + 1 ; 
++ int row + col + 
++ 1 + 1 ; 
++ int row + col + 
++ 1 + 1 ; 
++ int row + col + 
++ 1 + 1 ; 
++ int row + col + 
++ 1 + 1 ; 
++ int row + col + 
++ 1 + 1 ; 
++ int row + col + 
++ 1 + 1 ; 
+
+
+< 
+value ; 
+else 
+value ; 
+value < 
+value ; 
+value < 
+value ; 
+value < 
+value ; 
+value < 
+value ; 
+value < 
+value ; 
+value < 
+value ; 
+row col char value ; 
+
+void row , col 
+int row , col ; 
+
+int , ; 
+row col 0 ; 
+-1 ; < 2 ; + + 
+-1 ; < 2 ; + + 
+row + > 0 & & col + > 0 
+row col 
+char int row col + 
+int row + col + 
++ 1 + 1 ; 
+
+main 
+
+file ; 
+file , , ; 
+file ; 
+int row , col , ; 
+`` '' , `` rb '' ; 
+`` '' , `` wb '' ; 
+`` '' , `` wb '' ; 
+unsigned char , unsigned char , , ; 
+0 ; < 2 ; + + 
+
+row 0 ; row < ; row + + 
+col 0 ; col < ; col + + 
+! 
+
+row , col ; 
+else 
+compass row , col ; 
+! 
+
+, char , , ; 
+else 
+, char , , ; 
+
+
+-- 
+| . 
+- , ### | lot . 
+au music : ftp 
+| __ , _ ### | cat > 
+| \ _ > > _ _ \ _ < > _ | ub library catalog : telnet 
+| _ _ | doubt ask : , , . 

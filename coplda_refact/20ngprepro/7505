@@ -1,0 +1,45 @@
+: rob earhart < > 
+subject : re : animation ? 
+organization : pittsburgh supercomputing center 
+lines : 38 
+< > 
+: . 
+
+: < > 
+derek c. richardson write : 
+> share memory also mention 
+> nick look interesting , need someone point 
+> documentation . 
+method likely give better result server - 
+> resident ? 
+would also interested look code 
+> mention ... 
+documentation use shared memory extension 
+distribution . 
+actually , finish write motif animation program ... 
+. 
+use 
+share memory , insert delay loop keep 
+go quickly . 
+test method side side , 
+equal . 
+advantage shm x server grow ridiculous 
+size ; work network remove 
+application die one tend use manually quite bit 
+debug shm app . 
+share memory also problem operating system e.g. 
+ultrix seem allow small number segment ~ 6 
+attach process ; consequently , redraw become 
+; ; ; dec system . 
+dec 's 24 
+bit display like one tend use often seem 
+support extension maybe someone compile wrong ? 
+, use 
+cause x server crash fail , one 
+use local unix domain socket really bad ; one 
+copy info three time per redraw instead one . 
+short : allow three form display , within program 
+good thing minus shm run network , let user pick 
+whatever feel fastest . 
+use class forget : 
+rob 

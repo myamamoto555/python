@@ -1,0 +1,36 @@
+: mike mpu 
+subject : re : split drive two - make faster ? 
+organization : mitsubishi electric research laboratories , inc. . 
+lines : 33 
+article < > andrew rossmann write : 
+> guy dawson write : 
+> 
+> partition take disk space , 3 4 partition cost 
+> somewhere 4-8 meg hard disk space , 
+> luxury power , choice . 
+> 
+
+disk space go ? 
+dos partition table fix length 
+every hard disk carry one . 
+usee lose ? 
+> 
+> remember right , partition table allocate entire cylinder . 
+> find much take , need calculate : 
+> head sector 512 
+> 
+> also , create extended partition , second ` partition ' 
+> logical drive . 
+think original respondent guy dawson ? 
+refer something 
+much elementary . 
+every partition whether entire disk two fat 
+initial directory . 
+small disk 50 meg less , would recommend remain 
+single partition . 
+unless consideration . 
+large disk greater 200 meg , multiple partition 
+make sense . 
+-- 
+mike work 
+mitsubishi electronic research laboratory home 

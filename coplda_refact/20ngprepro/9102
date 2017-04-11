@@ -1,0 +1,113 @@
+: ralph 
+subject : dynamic configuration twm 
+keywords : twm , twm , , , 
+organization : systems strategy , inc. , ny , ny 
+lines : 123 
+consider squeeze title indispensable window 
+manager . 
+like two tall window visible 
+time , overlap ; since two window enough , 
+window underneath , exactly positioning . 
+case familiar squeeze title , crude 
+picture : 
+figure 1 
+| 
+| + --------- + + --------- + + + 
+| + title + + title b + + title c + 
+| + ------------------------ + + + 
+| + + + window b hide window c , + 
+| + body + + still see c 's title + 
+| + window , window + + squeeze right . 
++ 
+| + ------------------------ + + + 
+| 
+figure 1 
+squeeze title allow 5 window stack , 
+easy access ; 3 per stack usually really 
+need , since also insist virtual wm. 
+problem title location static , , 
+configure . 
+, order change edit 
+file restart window manager . 
+cumbersome 
+time-consuming . 
+therefore , implement left , center , right 
+function copy ; idea one click 
+button , change : 
++ --------- + 
++ title + 
++ ------------------------ + 
++ + 
++ body + 
++ window , window + 
++ ------------------------ + 
+: 
++ --------- + 
++ title + 
++ ------------------------ + 
++ + 
++ body + 
++ window , window + 
++ ------------------------ + 
+
+okay . 
+far , good . 
+, heck get put 
+next `` official '' twm , next , next , 
+next ? 
+next never hear ? 
+one way would post , , description 
+enhancement , together explanation think 
+good thing , hope someone read . 
+: - 
+case already clear think good thing , 
+look back figure 1 , picture window move top 
+window b c ; window 's title hide window b 's title ; 
+hit , result : 
++ + + --------- + + + 
++ title b + + title + + title c + 
++ + 
++ body window , + 
++ window , top . 
++ 
++ + 
+
+rest post explain implement , base 
+copy ; sketch post 
+full diff would long . 
+key enhancement add follow line 
+routine : 
+shape 
+case : 
+static , 0 , 0 ; 
+context , func , scr - > 
+return true ; 
+- > & ; 
+; 
+break ; 
+
+... similarly 
+... 
+
+course , also define 
+add 
+`` '' , , , 
+... forth ... 
+
+order use function , add something like 
+follow . 
+file : 
+m | : w | v | d | r | | | door : 
+
+year ago , post , news break 
+think get . 
+since , `` blast '' appear , volume 19 , 
+issue 41 ; could use blast achieve similar effect , 
+chisel away wide title . 
+better 
+window manager , think . 
+-- 
+ralph fm , 
+
+`` question whether computer swim interesting 
+question whether submarine think '' - lenny dykstra 

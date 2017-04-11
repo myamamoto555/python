@@ -1,0 +1,59 @@
+: michael elbel 
+subject : re : blinking cursor ??? 
+organization : pcs computer systeme gmbh 
+lines : 48 
+< > write : 
+, 14 may 1993 gmt , michael 
+> elbel say : 
+> > , emu work bsd derive system e.g. suns 
+> > anything else csh . 
+fix , 
+> > short remove one line code . 
+'ll put export today . 
+> actually . 
+version export one 
+> specify posix tty behavior , posix config file incomplete 
+> without specific platform like suns decs . 
+look 
+> twice port emu linux , stop short becuse tty 
+> part . 
+` cleaner ' version emu support posix tty 
+> explicitly ? 
+hmm , depend define ` clean ' . 
+jordan implement system 
+dependent stuff way basic implementation , 
+call , operate system type , go ahead write include 
+file specific machine operating system use basic 
+implementation . 
+since jordan encounter 
+os flavor yet , fully posix , get around 
+really implement test top-level include file specifically 
+posix . 
+posix routine use sun specific file 
+. 
+example , also use bsd stuff . 
+
+still probably better implement include file 
+every operating system ' ` ing exist one . 
+type 
+mess result clearly see 
+source . 
+even quite bit code get copy almost unchanged 
+couple time , use disk space , since 
+`` driver '' actually include include file 
+compile emu . 
+hard come . 
+file fully 
+rely posix stuff , unfortunately linux 
+system available , port . 
+would suggest 
+read readme problem 
+question , contact could try sort . 
+unfortunately 
+rely help net part emu , since 
+access many different system . 
+michael 
+-- 
+michael elbel , gmbh , muenchen , germany - 
+nur wat fuer - mia 
+fermentation fault coor dump 

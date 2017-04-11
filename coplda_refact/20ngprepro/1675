@@ -1,0 +1,41 @@
+: dale ulan 
+subject : re : old 256k simm ? 
+: 
+organization : university alberta , edmonton canada 
+lines : 28 
+daniel j rubin write : 
+> hard would somehow interface popular 
+> motorola microcontrollers . 
+novice microcontrollers , 
+> start get project . 
+several 256k 
+> simm lay around upgrade mac could use `` free '' 
+> memory one two project would great . 
+one project 
+> come mind caller id device would require quite bit ram 
+> store several cid record etc. . 
+. 
+assume ... 
+expand mode , could . 
+much easier get dram 
+controller ic . 
+mmi could use implement , 
+could use counter huge multiplexer provide 
+address multiplexing . 
+thing dram require wierd 
+timing , address multiplexing , refresh . 
+actually , want use ic , could look , 
+neat controller build . 
+also , think one 
+dram controller build . 
+one 
+dram , however , one address line , add 
+another component . 
+256k simm basically 8 9 
+dram chip equivalent fewer package . 
+, take bit logic design . 
+actually 
+use chip ... get 8 256k simm ... 
+2 megabyte apple e. . 
+. 
+use ' 386 . 

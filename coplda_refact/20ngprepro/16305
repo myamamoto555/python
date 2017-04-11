@@ -1,0 +1,26 @@
+: mika 
+subject : re : scsi vs. ide 
+: message tue , 13 apr 1993 gmt 
+: 
+organization : helsinki university technology , finland 
+lines : 19 
+write : 
+> scsi card dos system require separate device driver 
+> load memory device hook ? 
+. 
+see also on-board bio enable 
+use 2 hard drive directly dos 2 drive 
+limitation problem ide 
+standard matter . 
+software driver often allow better 
+performance , though . 
+use want use 
+device besides hard disk 2 disk . 
+> also true 32-bit os 's ? 
+obviously able use 16-bit real mode 
+write dos , need software driver . 
+big 
+deal long driver available , 
+fight low memory problem either . 
+-- 
+segmented memory help structure software 

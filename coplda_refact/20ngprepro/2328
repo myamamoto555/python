@@ -1,0 +1,65 @@
+organization : queen 's university kingston 
+: < > 
+subject : re : adc card computer 
+distribution : world 
+lines : 54 
+article < > , say : 
+> 
+> would like digitize output squid magnetometer range -10 v 
+> +10 v digital signal processing computer , say macintosh 
+> ii 486 pc . 
+would like good 16 bit adc good linearity 
+> high conversion speed , least 50 khz , preferably 200 khz . 
+concern 
+> 
+> 2 must use adc external computer avoid digital noise 
+> feedback sensitive squid electronics ? 
+might good idea ... resolution request 0.3 mv 
+order get pay , noise level better lower 
+. 
+kind hard noisy box like expect 
+inside pc . 
+pay $ $ $ pc card , test sampling low 
+distortion sine wave think sine wave cd . 
+digital 
+domain ? 
+possibly low thd source run digitize 
+waveform fft transform take noise floor 
+spectrum . 
+give good indication design . 
+test datum acquistion system design 
+- get idea maxim datum sheet . 
+live 14 bit resolution , would recommend look 
+maxim . 
+high speed complete 
+sampling dsp interface . 
+input range + - 5v 
+use serial interface easily optically isolate 
+computer major noise source analog design 
+guide get show -100 db noise level . 
+claim -77 db 
+max -85 typ . 
+thd . 
+look pretty good $ 12 @ 1000 piece 
+evaluation kit available . 
+might want give nice folk 
+call . 
+fax : 
+application assistance . 
+assume build da write software . 
+hey get free sample call 1-800 # 
+> would appreciate discussion personal experience mac pc - 
+> base adc system . 
+would recommend find resolution get 
+system look noise level , otherwise might 
+throw money . 
+> charles cunningham 
+> 
+k. c. lee 
+elec. eng . 
+grad . 
+student 
+connection maxim except general recommend 
+company give sample student . 
+feel 
+deserve nice . 

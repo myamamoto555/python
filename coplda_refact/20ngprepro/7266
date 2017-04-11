@@ -1,0 +1,91 @@
+: andy sun 
+subject : re : centris 650 decstation adapter 
+organization : university toronto , department industrial engineering 
+lines : 86 
+> dennis j. wilkinson write : 
+> necessarily adapter ; apple manufacture transceiver 
+> twisted pair cable media , well 
+> attachment unit interface . 
+run ~ $ 100 . 
+use 
+> , 'll probably also need terminator apple 's 
+> transceiver , remember correctly , 
+> idea dec . 
+third-party media adapter usually cheaper least toronto 
+apple 's . 
+buy adapter asante instead apple . 
+joseph b. write : 
+> decstation 5000 model 200 240 come 
+> say certain model 125 133 , best bet 
+true . 
+decstation come 
+bnc , coaxial ethernet connector . 
+, 
+single aui ethernet connector . 
+distinctly 
+remember get first think 
+go . 
+eventually go back order 
+desta dec 's oversized version adapter must use 
+cable rest station . 
+advise original poster beverly ? 
+: 
+1 want create lan two workstation add 
+machine ever , go regardless media type . 
+go 
+utp unshielded twisted pair wiring require concentrator 
+means extra money believe unit come least 6 port . 
+, nightmare cabling expensive . 
+avoid 
+unless choice e.g. two machine two floor part . 
+2 mac side , need : 
+- one media adapter apple third-party . 
+- make sure get version 1.2 ; run system 7.1 . 
+- come ; get v1 .2 , 
+get v1 . 
+use earlier version centris . 
+- may may need terminator depend 
+media adapter . 
+ask sale adapter 
+. 
+- configure use `` ethernet '' . 
+3 decstation side , need : 
+- model 200 , need . 
+- model 25 , 125 , 133 , 240 , need adapter . 
+get one plug directly aui port 
+decstation . 
+way save cost cable 
+aui male female cable . 
+- get terminator . 
+network look like : 
+## ---------------------------------------------- 
++ ----- + | 
+| | | 
++ ----- + + ----- + 
+| | 
++ ----- + 
+decstation centris 
+650 
+
+## ---------------------------------------------- 
+| 
++ ----- + | 
+| | + ----- + 
++ ----- + | | 
++ ----- + 
+decstation centris 
+650 
+## - > terminator 
+- > connector 
+-- - > coaxial cable 
+- > i.e. adapter 
+- > media adapter assume 
+| 
+| 
+andy 
+-- 
+andy sun 4 creek road , toronto 
+computing coordinator ontario , canada . 
+m5 
+department industrial engineering phone : 
+university toronto fax : 

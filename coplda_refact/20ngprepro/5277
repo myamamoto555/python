@@ -1,0 +1,17 @@
+: a.j. 
+subject : page flip vga mode . 
+organization : massey university , palmerston north , new zealand 
+: version 2c 
+lines : 12 
+help ! 
+write second memory vga 
+color mode ? 
+. 
+ie : perform page flip animation 
+buffering screen . 
+try use map mask register , 
+perform require task although something . 
+note : must able work standard vga ie : 
+necessarily svga card . 
+many advance ... 
+andrew 

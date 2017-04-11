@@ -1,0 +1,22 @@
+organization : stanford linear accelerator center 
+: < > 
+subject : re : sphere 4 point ? 
+distribution : world 
+lines : 21 
+> : edward bolson 
+> give 4 point non coplanar , one find sphere , , 
+> radius , exactly fitting point ? 
+equation sphere 4 point x1 , y1 , z1 , ... , x4 , , z4 
+| x ^ 2 + y ^ 2 + z ^ 2 x1 ^ 2 + y1 ^ 2 + z1 ^ 2 ... x4 ^ 2 + ^ 2 + z4 ^ 2 | 
+| x x1 ... x4 | 
+| y y1 ... | 0 
+| z z1 ... z4 | 
+| 1 1 ... 1 | 
+5 5 expand first column get 
+equation form 
+x ^ 2 + y ^ 2 + z ^ 2 + bx + cy + dz + e 0 
+need center radius , divide 
+zero 4 give point form non-degenerate tetrahedron complete 
+square x , y , z obtain 
+^ 2 + ^ 2 + ^ 2 r ^ 2 
+bob beach 

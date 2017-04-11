@@ -1,0 +1,34 @@
+: michael 
+distribution : world 
+subject : re : com port modem mouse conflict - really ? 
+: tin version 1.1 
+organization : private coherent system 
+lines : 20 
+phil hunt write : 
+> kind new pc stuff . 
+machine 4 serial port . 
+com 1 
+> 2 & 4 share irq . 
+mean plug mouse modem 
+> expect work ? 
+, os 's coherent , etc able drive one port 
+poll mode without use irq . 
+example , access 
+modem , mouse work reboot , irq use 
+modem . 
+> answer , change irq 's com port different ? 
+, 
+> really matter irq set port ? 
+yes , change irq 's , depend 
+hardware . 
+use , . 
+one 
+, change normally 2nd printer . 
+, 
+assign , free . 
+far know , irq 
+use access irq 's > 8 . 
+michael 
+-- 
+michael 59 
+germany 4040 neuss voice : 

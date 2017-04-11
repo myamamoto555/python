@@ -1,0 +1,461 @@
+: dan wallach < > 
+subject : faq : type injury : general info monthly post 
+supersedes : < > 
+organization : university california , berkeley 
+lines : 409 
+expire : 22 may 1993 gmt 
+: dan wallach < > 
+: . 
+
+summary : information get information 
+originator : 
+: 
+version : $ revision : 4.28 $ $ date : $ 
+
+answer frequently ask question type injury 
+
+type injury faq -- source information people typing 
+injury , repetitive stress injury , carpal tunnel syndrome , etc. . 
+copyright dan wallach < > 
+many faq , include one , available archive site 
+. 
+alias directory 
+. 
+answer . 
+name faq archive appear 
+line top article . 
+faq archive 
+. 
+z 
+mail server also . 
+e-mail 
+word ` help ' line body . 
+opinion , unless otherwise mention , 
+represent opinion organization vendor . 
+medical 
+doctor , advice take many grain salt . 
+current distribution : , , , 
+news , sci , comp . 
+answer , e-mail 
+change since previously distribute version mark change | | 
+bar right text , paragraph . 
+| | 
+table contents : 
+1 mailing list , newsgroup , etc. . 
+2 archive 
+3 general info injury 
+4 typing posture , ergonomics , prevention , treatment 
+5 request info 
+6 reference 
+1 mailing list , newsgroup , etc. . 
+usenet news : 
+----------- 
+occasionally discussion alternative input device . 
+occasional post relevant injury via computer . 
+also tend relevant traffic . 
+brand new newsgroup , , chartered specifically 
+discuss thing . 
+would recommend place post . 
+mailing list : 
+------------- 
+rsi network : available paper via e-mail , publication 
+cover issue relevant repetitive stress injury . 
+
+sample issue subscription information , send stamped , self - 
+address business envelope caroline rose , 970 paradise way , palo 
+alto ca . 
+e-mail < > 
+$ 2 donation , request . 
+rsi network newsletter available via anonymous ftp 
+see detail . 
+c + health ibm listserv thing . 
+familiar 
+listserv , quick info : 
+c + health -- subscribe 
+post 
+-- subscribe 
+post 
+quick tutorial subscribe listserv : 
+% mail 
+subject : total listserv mania ! 
+subscribe j. random hacker 
+info ? 
+. 
+. 
+'ll get bunch mail back listserv , 
+include list possible command mail . 
+cool , huh ? 
+` ll 
+bitnet people think , next ? 
+2 archive 
+start archive site info related typing injury . 
+
+anonymous ftp : . 
+
+currently , 'll find : 
+informative file : 
+
+general -- information typing injury 
+keyboard -- product replace keyboard 
+software -- software watch keyboard usage 
+change -- change since last month 's edition new ! 
+| | 
+-- dan 's opinion keyboard replacement 
+-- adverse mechanical tension 
+-- document wrist 
+-- postscript convert version ... 
+-- info carpal tunnel syndrome 
+-- detailed information ct 
+-- jama article ct surgery 
+-- tidbit article ct 
+-- info tendonitis 
+-- bibliography publication 
+-- archive rsi network newsletter 
+currently , contain issue 1 11 | | 
+-- long detailed information 
+-- study show rsi psychological 
+various product literature : 
+-- press release apple adjustable keyboard 
+-- extensive info apple 's adjustable 
+-- macweek review bat | | 
+comfort - -- marketing info comfort keyboard 
+-- detailed opinion 
+-- follow-up 
+-- description 's appearance 
+-- one user 's personal opinion 
+- -- marketing info various product 
+-- one user 's personal opinion 
+-- marketing info vertical new ! 
+| | 
+program : 
+exception , everything distribute 
+source compile unix system . 
+program take advantage 
+x window system , also . 
+-- program one-handed usage normal keyboard 
+-- tell take break 
+-- turn qwerty keyboard dvorak 
+-- keep track long typing 
+. 
+sh -- yet another idle watcher 
+. 
+tar -- generate fake x keyboard event 
+serial port -- use pc keyboard anything ! 
+new improve version ! 
+-- serial port keyboard m windows 
+note : . 
+tar : 
+may current version soda . 
+. 
+tar -- sophisticated x spoof 
+program . 
+support . 
+note : new version available | | 
+-- reactive keyboard -- predict ` ll 
+type next -- save typing 
+picture gif subdirectory : 
+-- picture good sit posture 
+document better 
+. 
+gif -- fuzzy picture 
+. 
+gif -- fuzzy picture somebody use 
+-- apple adjustable keyboard | | 
+-- bat 
+-- health care comfort keyboard 
+. 
+gif -- fuzzy picture 
+. 
+gif -- key layout schematic 
+. 
+gif -- much better picture 
+-- key tronic keyboard | | 
+. 
+gif -- kinesis ergonomic keyboard 
+. 
+gif -- multiple view kinesis | | 
+1-4 . 
+gif -- several picture product 
+. 
+gif -- mikey 
+. 
+gif -- schematic picture mikey 
+-- tony ! 
+ergonomic | | 
+. 
+gif -- `` front '' view 
+. 
+gif -- `` side '' view 
+-- vertical keyboard | | 
+-- ` wave ' keyboard 
+many file compress . 
+z ending . 
+file 
+locally , soda . 
+ask file , without . 
+z extension . 
+unable ftp soda , send e-mail 'll see 
+arrange . 
+3 general info injury 
+first , foremost importance : experience pain , 
+absolutely need go see doctor . 
+soon possibly . 
+
+difference day two mean difference short recovery 
+long , drawn-out ordeal . 
+go see doctor . 
+, 
+doctor may necessarily familiar sort injury . 
+generally , 
+hospital occupational therapy clinic offer specialist 
+kind problem . 
+wait , though . 
+go see doctor . 
+remainder information paraphrase , without permission , 
+wonderful report new zealand 's department labor occupational 
+safety health service : `` occupational overuse syndrome . 
+treatment 
+rehabilitation : practitioner 's guide '' . 
+first , glossary , fancy name hand : 
+note : likely hear term doctor keyboard vendor : 
+rsi : repetitive strain injury - general term many kind injury 
+oos : occupational overuse syndrome -- synonym 
+ctd : cumulative trauma disorder -- another synonym 
+: work-related upper limb disorders -- yet another synonym 
+cts : carpal tunnel syndrome see 
+hyperextension : marked bend joint . 
+pronation : turn palm . 
+wrist extension : bend wrist . 
+supination : turn palm . 
+wrist flexion : bend wrist . 
+pinch grip : grip use pencil . 
+ulnar deviation : bend wrist towards little finger . 
+power grip : grip use hammer . 
+radial deviation : bend wrist toward thumb . 
+abduction : move away body . 
+: open finger wide . 
+, problem come two main type : local condition diffuse 
+condition . 
+local problem would expect : specific muscle , 
+tendon , tendon sheath , nerve , etc. inflamed otherwise hurt . 
+diffuse condition , often mistaken local problem , involve muscle 
+discomfort , pain , burn tingle ; identifiable area 
+tenderness muscle , although necessarily `` problem . '' 
+-- occupational overuse syndrome occur ? 
+theory . 
+normally , muscle tendon get blood capillary 
+pass among muscle fiber . 
+tense muscle , restrict 
+blood flow . 
+time exert 50 % full power , 
+completely restrict blood flow . 
+without fresh blood , muscle use store energy run , 
+switch anaerobic without oxygen metabolism , generate 
+nasty by-product like lactic acid , cause pain . 
+one muscle hurt , neighbor tense , perhaps relieve 
+load . 
+make sense normal sort injury , make 
+thing worse repetitive motion . 
+tension mean less blood flow , 
+cycle continue . 
+another by-product lack blood flow tingling numbness 
+nerve . 
+need blood . 
+anyway , typing much , never really give change 
+blood get back belong , muscle never 
+relax enough let blood . 
+stress , poor posture , poor 
+ergonomics , make thing worse . 
+-- specific injury may hear : 
+note : injury come two flavor : acute chronic . 
+acute 
+injury severely painful noticable . 
+chronic condition 
+less pronounced symptom every bit real . 
+-- inflamation tendon sheath . 
+chronic 
+occur repetitive activity mild intermittent : enough 
+cause acute inflamation , enough exceed tendon sheath 's ability 
+lubricate tendon . 
+result , tendon sheath thicken , get 
+inflamed , get problem . 
+tendonitis -- inflammation tendon . 
+repeated tensing tendon 
+cause inflamation . 
+eventually , fiber tendon start separate , 
+even break , leave behind debris induce friction , 
+swell , pain . 
+`` '' tendonitis common , entail 
+dull ache wrist forearm , tenderness , get worse 
+repetitive activity . 
+carpal tunnel syndrome -- nerve run wrist 
+finger get trap inflamed muscle around . 
+symptom include 
+feel `` pin needle '' , tingle , numbness , even loss sensation . 
+ct often confuse diffuse condition . 
+adverse mechanical tension -- also know ` neural tension ' , 
+nerve run arm become contract possibly 
+compress result muscle spasm shoulder elsewhere . 
+amt often misdiagnosed associate one oo 
+disorder . 
+largely reversible treat physiotherapy 
+brachial plexus stretch trigger point therapy . 
+: every part body , fancy name 
+way injure . 
+, get idea oos 
+condition occur . 
+careful : many inexperienced doctor 
+misdiagnose problem carpal tunnel syndrome , reality , 
+may completely different problem . 
+always get second opinion 
+somebody something drastic like surgery . 
+4 typing posture , ergonomics , prevention , treatment 
+important element prevention recovery reduce 
+tension muscle tendon . 
+require learn relax . 
+load stress , doubly important . 
+tune 
+world breath deep regular . 
+relax become guide 
+principle work : every three minute take three second break . 
+every three minute , take three second break . 
+really , every 
+three minute . 
+also helpful work comfortable surroundings , 
+calm , relax . 
+sleep , really need focus . 
+rest , sleep , 
+relaxation really big deal . 
+kind treatment , course . 
+drug reduce 
+inflamation pain . 
+splint forcefully prevent bad 
+posture . 
+surgery fix problem . 
+exercise help strengthen 
+muscle . 
+regular stretch help prevent injury . 
+good posture 
+good ergonomic workspace promote reduce tension . 
+ice 
+contrast bath also reduce swell . 
+doctor say best 
+. 
+-- posture -- basic guideline . 
+like way 
+write new zealand book lift almost verbatim 
+appendix 10 . 
+-- 
+. 
+let shoulder relax . 
+. 
+let elbow swing free . 
+. 
+keep wrist straight . 
+. 
+pull chin look - flop head forward . 
+. 
+keep hollow base spine . 
+. 
+try lean back chair . 
+. 
+slouch slump forward . 
+. 
+alter posture time time . 
+. 
+every 20 minute , get bend spine backward . 
+set seat height , first . 
+foot flat floor . 
+
+undue pressure underside thigh near knee , 
+thigh slope much . 
+, draw desk see height comfortable 
+work . 
+short , may impossible . 
+remedy 
+raise seat height prevent leg dangle use 
+footrest . 
+, adjust backrest height buttock fit space 
+backrest seat pan . 
+backrest support 
+hollow back , adjust tilt give firm support 
+area . 
+operate keyboard , able spend time lean 
+back , experiment chair taller backrest , available . 
+, diverge little text 
+good chair make big difference . 
+like chair , go 
+find better one . 
+really want adjustment height , back angle , 
+back height , maybe even seat tilt . 
+arm rest seem get 
+way , although expensive chair height adjustable arm 
+rest also rotate way . 
+find good 
+store play chair -- pick one right . 
+san francisco bay area , highly recommend `` chair . '' 
+
+name say . 
+-- keyboard drawer , wrist pad , keyboard replacement : 
+fair amount controvery get right . 
+
+people , wrist pad seem work wonder . 
+however , good posture , 
+rest wrist anything -- would prefer 
+keyboard `` right '' . 
+drop arm side 
+lift hand elbow , want keyboard hand 
+elbow 90 degree . 
+course , want avoid 
+pronation , wrist extension , ulnar deviation cost . 
+wrist pad 
+may may help . 
+get somebody else come 
+look work : sit , type , relax . 
+
+often easier somebody else notice hunch shoulder 
+deviate hand . 
+argue normal , flat keyboard antiquated poorly 
+design . 
+number replacement available , market , today . 
+check accompany much detail . 
+5 request info 
+clearly , information incomplete . 
+archive 
+incomplete . 
+always information . 
+would like 
+submit something , please send mail , 'll gladly throw . 
+would like maintain list product vendor , would 
+wonderful ! 
+would love somebody make list vendor . 
+would 
+love somebody make list doctor . 
+would love somebody edit 
+section , look place obviously goof . 
+6 reference 
+completely rewrite information section , use wonderful 
+guide produce new zealand occupational safety & health 
+service , service department labor . 
+special thanks 
+author : wigley , turner , blake , darby , mcinnes , harding . 
+reference : 
+. 
+occupational overuse syndrome 
+. 
+treatment rehabilitation : 
+practitioner 's guide 
+publish occupational safety health service 
+department labor 
+wellington , 
+new zealand . 
+first edition : june 1992 
+isbn 
+price : $ 9.95 new zealand $ 's , course 
+thanks richard donkin < > review post . 
+-- 
+dan wallach `` one attractive feature connection 
+machine array blinking light face 
+office # : cabinet . '' 
+-- cm paris ref . 
+manual , v6 .0 , . 

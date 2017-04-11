@@ -1,0 +1,60 @@
+: paul martz 
+subject : re : standard 
+: 
+: paul martz 
+organization : evans & sutherland computer corp. , salt lake city , ut 
+lines : 50 
+article < > , jeffrey c. write : 
+> work application concern regard 
+> standard . 
+> 
+> documentation say : `` usually , window manager create 
+> . '' 
+wonder window manager writer 
+> mind . 
+neither twm mwm seem create standard . 
+standard spec would intention window manager 
+would make available . 
+mean every window manager 
+author world immediately drop everything 
+implement top priority . 
+server ship make available 
+startup . 
+wait window manager . 
+> course , one use create standard . 
+> however , seem try hard avoid 
+> conflict default . 
+use standard 
+> create , rest display go black . 
+> seem use standard cause 
+> problem standard intend avoid . 
+perhaps 
+> every application use standard , thing would 
+> wonderful . 
+many application seem use 
+> standard . 
+hardware one clut ? 
+since standard 
+typically devour 256 entry , way avoid 
+displace entire default hardware one 
+clut . 
+believe standard intend possible 
+flash client use default . 
+rather , 
+flash avoid two client use 
+standard . 
+example would two client need 
+full color range would use whatever 
+call . 
+try avoid flash default 
+, best bet try load color use 
+. 
+, 'll get flash one 
+hw clut framebuffer . 
+window manager use standard 
+client , flash could also avoid . 
+perhaps window 
+manager command line option select standard ? 
+-- 
+- paul 
+evans & sutherland 

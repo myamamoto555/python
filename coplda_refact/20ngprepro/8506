@@ -1,0 +1,164 @@
+: wayne smith 
+subject : re : ide vs 
+organization : john p. robarts research institute , london , ontario 
+: 
+lines : 141 
+article < > greg shaw write : 
+> : start isa bus first ? 
+> : quote scsi spec till blue face , 
+> : exceed isa bus capability , point ? 
+> 
+> say isa necessary ? 
+eisa vlb interface worth 
+> investing thousand dollar e.g. new pc 's worth money . 
+complain maybe scsi expensive 
+pc 's year two ago isa bus . 
+ie one buy scsi isa isa slow 
+say isa bus automatic winner 
+compare ide ? 
+> read carefully . 
+use connection mechanism 
+> standard ide . 
+transfer rate limit ide , whether 
+> interfaced isa , eisa vlb matter . 
+get different transfer rate ide change isa bus speed . 
+> mine , one thing . 
+blow ide water , hand . 
+
+> ide better throughput , use workstation file 
+> server ? 
+ide variant old ibm - mfm controller . 
+least 
+look software point view . 
+never mean 
+all-encompassing across different 
+platform . 
+argument 
+ide transfer datum ide drive least fast 
+drive able provide datum ? 
+version ide drive able 
+deliver higher sustained transfer rate scsi interface 
+higher rpm platter , different arrangement head , etc ? 
+? 
+> : give original question use single hard drive 
+> : controller , necessary get drive 
+> : least 5 , maybe 10 scsi choice make sence ? 
+> : 200-400 meg 5 drive cost ? 
+> 
+> , nice thing -- multitasking os , scsi use drive 
+> . 
+get unix load one pc along os use one two ide drive one time . 
+pretty ugly . 
+datum go one drive another , scsi ability 
+perform transfer without datum go cpu main 
+memory , yes , optimal way . 
+far know , ide 
+. 
+cpu want datum drive datum store 
+main memory say scsi grab datum drive 
+time datum main memory also 
+time ? 
+work 1 irq 1 dma channel isa whatever bus ? 
+> buy quantum 240 mac home . 
+pay $ 369 . 
+
+> see ide drive cheaper . 
+friend mine get maxtor 245 meg ide drive $ 320 . 
+245 
+million byte , 234 . 
+basic $ 20 interface , get 
+close 1 transfer . 
+figure include 
+hundred $ $ $ scsi driver ? 
+> , actually , talk scsi expensive simply 
+> nobody common interface pc . 
+common read : 
+> easily implement method add pc like sun 
+> mac , would find scsi connection medium choice . 
+say scsi would default interface type , 
+consider vast majority pc 's cd-rom drive 
+tape backup etc ? 
+pc 's 1 hard drive 
+run dos ? 
+scsi hard drive cost lot mfm rll drive 
+time ? 
+common drive 80 meg 4 10 year 
+ago ? 
+lot lack common interface card 
+prevent scsi become connection medium choice . 
+> : argue scsi standard make good , well 
+> : datum highway , still want know intrinsically better 
+> : ide , isa bus come multi-tasking os 's 
+> : managing datum single scsi hard drive . 
+> 
+> single drive , scsi expensive . 
+point , faster ? 
+. 
+
+get performance money . 
+people 
+single hard drive system regardless os scsi 
+choice really give performance ide ? 
+> , buy pc 
+> , , would want add drive whatever . 
+true , also start bus , mean option 
+cd-rom drive tape backup run card . 
+> 1 . 
+add many different type device access 
+> concurrently . 
+argument . 
+always hold first time buyer 
+best reason . 
+many scsi device first time buyer 
+eventually acquire ? 
+make sense go scsi single 
+hard drive system ? 
+> 2 . 
+device work many different machine mac 
+> pc home move hard drive nice 
+> scsi -- hook away go 
+posting ii spec , really sure 
+pc apple scsi hard drive compatible ? 
+even , 
+datum accessible either machine ie formatting 
+partitioning file table difference ? 
+really plug 'n' play ? 
+> 3 . 
+scsi device work together better ide device . 
+
+> instance , recently , add older connor 100 meg ide maxtor 
+> 212 meg ide . 
+connor must setup slave . 
+
+> work way . 
+scsi , set address , check 
+> termination , plug , away go . 
+c : drive connor become logical d : drive dos . 
+
+really problem ? 
+> 4 . 
+problem ide 's mutual exclusion - notice 
+> time take switch access drive c : drive d : 
+> quite long compare time take switch drive c : 
+> d : system . 
+multitasking os , 
+> noticable , many thing go . 
+two ide drive system temporary file transfer , 
+never see difference switching drive , 
+ever see difference transfer file drive 
+drive . 
+> one neat thing notice lately fringe benefit 
+> ability add older almost dead drive storage system 
+> little problem -- get bunch almost dead 20 meg drive ` ve 
+> add pc . 
+get interface full , , allow 
+> 4 20 meg drive , 1 240 meg drive , 1 tape drive , 1 105 meg drive 
+> card . 
+nice long power supply keep . 
+believe 
+possibility 4 ide drive pc . 
+> simply put , scsi handier ide . 
+mysterious jumper figure . 
+`` mysterious '' expensive driver figure ? 
+least 
+ide require driver consume precious conventional memory . 

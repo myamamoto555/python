@@ -1,0 +1,9 @@
+: 
+subject : business ? 
+organization : gateway 
+lines : 2 
+: 
+hear go business . 
+true ? 
+answer 800 number . 
+. 

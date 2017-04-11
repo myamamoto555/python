@@ -1,0 +1,54 @@
+: avery wang 
+subject : serial line connection duo 210 pc ??? 
+organization : dso , stanford university 
+lines : 41 
+article < > write : 
+> try almost everything sun get null modem connection 
+> mac duo 210 pc . 
+use 
+> mac side . 
+use procomm , kermit , 
+> pc ps side . 
+use handshaking hardware 
+> cable . 
+know hand shake effort . 
+nothing 
+> allow file transfer mac ps . 
+. 
+. 
+> could hear someone attesting really pump information 
+> serial port duo 210 fast ? 
+like via modem via 
+> dump ? 
+> 
+> could anyone duo help ?? 
+go absolutely insane . 
+> wan na know problem duo , duo , duo , 
+> . 
+> 
+hmmm ... sound vaguely similar problem long time ago 
+try use kermit . 
+build serial connection duo 210 
+next . 
+think problem handshaking . 
+basically , need 
+make sure handshaking protocol side . 
+safe 
+place start select handshaking either end . 
+one problem 
+zilog serial chip seem get permanently wedge talk 
+wrong , reset clear . 
+know specifics . 
+
+could nonlinearity screw attempt debug system . 
+could well thing right -- eventually -- one 
+wrong move like try bad handshaking protocol screw 
+correct action , next machine reset . 
+wedge mac also 
+next way . 
+send file back forth duo next without 
+problem , pretty high speed . 
+know kind chip pc use , think zilog 
+pretty standard . 
+hope help , 
+- avery 

@@ -1,0 +1,25 @@
+: andre beck 
+subject : re : ntsc datum rgb ? 
+video capture . 
+: 
+organization : dept. computer science , tu dresden , germany . 
+lines : 25 
+: . 
+de 
+usually , apply 
+r 1 0 y 
+g 1 u 
+b 1 0 v 
+u v subtract 128 . 
+matrix multiplication may give result rgb space , 
+clamp result byte 0 . 
+.255 . 
+conversion arbitrary big integer , float : 
+apply yuv datum whereas ntsc may 33 degree 
+rotation . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

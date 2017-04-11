@@ -1,0 +1,27 @@
+: ron 
+subject : re : & novell netware 
+organization : malaspina college 
+lines : 21 
+article < > , mahbub anam write : 
+> 
+> friend mine install work hook novell 
+> network , run netware 386 v. 3.11 . 
+problem 
+> doublespace program use drive ` h ' swap drive , 
+> conflit network map drive . 
+> 
+> switch place swap drive drive ? 
+> please e-mail ... thanks bunch !! 
+> -- 
+> mahbub 
+> 
+determine last drive require set 
+config.sys use might want go couple drive higher 
+give shared drive space . 
+reboot novell set first 
+drive one config.sys . 
+might remap 
+novell drive originally map lower drive . 
+make 
+sure bat file whatever use log onto novell set 
+correct drive one setting config.sys file . 

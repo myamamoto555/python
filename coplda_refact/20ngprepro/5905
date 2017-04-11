@@ -1,0 +1,57 @@
+: andre beck 
+subject : re : m windows vs motif gui design difference , re : future unix 
+organization : dept. computer science , tu dresden , germany . 
+lines : 46 
+distribution : usa 
+: 
+: . 
+de 
+article < > , ik su yoo write : 
+| > > `` aab '' andy burgess < > write : 
+| > 
+| > aab > < > larry d. write : 
+| > 
+| > aab > 
+| > 
+| > > 
+| > > look closely motif , see 
+| > > color texture . 
+real difference 
+| > > m application window `` contain '' child , 
+| > > motif application window `` launch '' child onto 
+| > > desktop . 
+| > 
+| > aab > familiar gui , correct ? 
+experience 
+| > aab > x make think msw behavior easily duplicated 
+| > aab > x11 . 
+know msw ... 
+| > 
+| > another important difference msw window 
+| > handle sophisticated geometry management like . 
+also , believe 
+| > windows 3 . 
+x limit 64k resource window , menu , 
+| > icon , etc. . 
+whole discussion name `` motif look like '' totally 
+stupid . 
+thing remotely influence motif window 
+manager , feature arrangement button menu somewhat 
+similiar agent , however name . 
+mwm small part motif , fact , mwm motif work 
+without , one like mwm outfit reason , 
+switch another . 
+influence motif , 
+toolkit widget write application , toolkit 
+, much 
+feature alot goody interface . 
+wheel gear position . 
+motif complete 
+different world , one element motif world gear wheel 
+position . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

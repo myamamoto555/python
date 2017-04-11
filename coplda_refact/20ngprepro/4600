@@ -1,0 +1,26 @@
+: steven bellovin 
+subject : re : shelf cheap des machine 
+organization : at&t bell laboratories 
+lines : 16 
+article < > , d. j. bernstein write : 
+> article < > steven bellovin write : 
+> > key size one thing 
+> > verify externally . 
+> 
+> gee . 
+say feed 80-bit key take first 60 
+> bit result , use 60 bit real key . 
+
+> figure key one 2 ^ 20 `` equal '' key ? 
+try 
+> birthday attack , key change second 
+> need several lifetime get reliable statistics . 
+right , retract suggestion . 
+still , wonder . 
+
+60 bit key information , principle , 
+detectable . 
+maybe variant test rivest et al. 
+demonstrate des probably group ? 
+make 
+interesting paper -- black-box analysis cryptosystem . 

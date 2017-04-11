@@ -1,0 +1,62 @@
+: steven bellovin 
+subject : re : get key ... 
+organization : at&t bell laboratories 
+lines : 43 
+article < > , lynn r grant write : 
+> 50 people far ask , `` fbi get clipper key , 
+> able read future past traffic ? '' 
+> 
+> response nist , nsa , ms. denning , mr. hellman , 
+> anyone else might able give authoritative answer . 
+> troubling . 
+> 
+> nsa think ? 
+feature , think 
+> would notice ? 
+> 
+> would think would respond something 
+> form , `` well , problem ... '' 
+alvarez post good partial solution problem 
+. 
+'ll present variant instead , since feel 
+bit stronger likely attempt cheat . 
+depend 
+protocol follow read traffic . 
+briefly , cop get 
+wiretap warrant , record call . 
+notice encryption 
+disclosure header . 
+, along copy warrant , 
+send fbi , whoever hold family key . 
+
+decrypt header , send serial number n 
+encrypted session key u k escrow agent . 
+, turn , use u1 
+u2 recover k , send local police . 
+note solve problem wiretap forever . 
+neither 
+cop fbi ever see u , read traffic . 
+every 
+request must validate fbi escrow agent . 
+
+cop fbi together cheat , since u. 
+regard likely pairing folk might try beat 
+system . 
+prevent modify alvarez 's scheme . 
+
+escrow agent read conversation , since ; 
+n u k . 
+police even see n. 
+harder see block decryption old , warrantless , 
+wiretap . 
+one protection -- persuade escrow 
+agent call current . 
+nearly strong . 
+approach see might work , involve sequence 
+datum unalterable medium , complete cryptographic protection 
+insertion onto new medium . 
+anything yet 
+complex comfort , hard install real 
+world . 
+nsa might answer ; may may smarter 
+, work week , year . 

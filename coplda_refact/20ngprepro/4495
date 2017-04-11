@@ -1,0 +1,133 @@
+: hong yang 
+subject : question 
+organization : university 
+lines : 139 
+: 
+hus , expert , 
+kind new x. follow question strange . 
+
+try modify contents fail without 
+reason . 
+use follow piece code : 
+0 , `` '' , null , 0 , 
+& , ; 
+; 
+scr ; 
+, scr ; 
+, , true , null , 0 , cell , 5 
+cell 0 ; 
+250 ; 
+125 ; 
+0 ; 
+| | ; 
+, , & color ; 
+printf '' \ n try allocate , color % d % d , % d , % d '' , 
+, , , ; 
+, , & color ; 
+printf '' \ n allocate , color % d % d , % d , % d '' , 
+, , , ; 
+
+else 
+printf '' \ n error : could allocate color cell '' ; 
+run output : 
+try allocate , color 7 
+allocate , color 7 
+, return original value . 
+display contents obvious 
+unchanged . 
+also try draw line use color 
+turn unmodified color . 
+problem ? 
+modify contents ? 
+appreciate . 
+please send mail 
+`` '' . 
+-------------------------- 
+william 
+email : `` '' 
+-------------------------- 
+way , follow environment use output 
+`` '' . 
+show default visual . 
+version number : 11.0 
+vendor string : .2 
+vendor release number : 1 
+maximum request size : 65536 byte 
+motion buffer size : 100 
+bitmap unit , bit order , padding : 32 , , 32 
+image byte order : 
+number support format : 2 
+support format : 
+depth 1 , 1 , 32 
+depth 8 , 8 , 32 
+range : minimum 86 , maximum 251 
+number extension : 8 
+
+
+shape 
+
+
+
+
+
+default screen number : 0 
+number screen : 1 
+screen # 0 : 
+dimension : pixel millimeter 
+resolution : dot per inch 
+depths 2 : 1 , 8 
+root window id : 
+depth root window : 8 plane 
+number : minimum 1 , maximum 1 
+default : 
+default number cell : 256 
+pixel : black 1 , white 0 
+option : yes , yes 
+current input event mask : 
+
+
+
+number visual : 5 
+default visual id : 
+visual : 
+visual id : 
+class : 
+depth : 8 plane 
+size : 256 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+visual : 
+visual id : 
+class : grayscale 
+depth : 8 plane 
+size : 256 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+visual : 
+visual id : 
+class : 
+depth : 8 plane 
+size : 256 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+visual : 
+visual id : 
+class : 
+depth : 8 plane 
+size : 256 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+visual : 
+visual id : 
+class : 
+depth : 8 plane 
+size : 8 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+number mono type : 5 
+visual id , max buffer , depth : , 0 , 8 
+visual id , max buffer , depth : , 0 , 8 
+visual id , max buffer , depth : , 0 , 8 
+visual id , max buffer , depth : , 0 , 8 
+visual id , max buffer , depth : , 0 , 8 
+number stereo type : 0 

@@ -1,0 +1,31 @@
+: david berger 
+subject : need graphic help ! 
+organization : brandeis university 
+lines : 32 
+help ! 
+try program vga ! 
+get work 
+pascal follow routine mode $ 13h 
+320 200 256 . 
+get vesa trident 
+need program 1024 768 mode . 
+care many color . 
+could someone take code help write 2 new procedure 
+replace 'll work 1024 768 16 1024 768 256 ? 
+would great ! 
+thanks ... 
+code currently 320 200 256 mode : 
+procedure ; 
+begin 
+asm 
+mov ah ,00 
+mov al ,13 h 
+int 10h 
+end ; 
+end ; 
+procedure x , y , c : integer ; 
+begin 
+mem $ : x + y 320 : c ; 
+end ; 
+-- 
+david 

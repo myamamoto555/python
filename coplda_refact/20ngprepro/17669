@@ -1,0 +1,692 @@
+: art mulder 
+subject : : get performance x. faq 
+summary : post contain list suggestion get best performance x workstation -- without buy hardware . 
+keyword : faq speed x 
+: . 
+
+: art mulder 
+organization : university alberta , edmonton , canada 
+expire : sun , 20 jun 1993 gmt 
+lines : 676 
+: 
+: 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+maximize performance x -- monthly post 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+compile art mulder 
+ram , faster cpu 's , disk space , faster ethernet ... 
+standard response hear ask improve 
+performance workstation . 
+well , hardware always option , wonder 
+hardware always even necessity . 
+`` faq '' list collection suggestion idea different 
+people net best possible performance x 
+windows workstation , without purchase hardware . 
+performance highly subjective issue . 
+individual user must 
+balance ` speed ' versus ` feature ' order come personal 
+decision . 
+therefore document expect contain many 
+subjective opinion amongst objective fact . 
+document specifically concern x. course 
+many factor affect performance workstation . 
+however , outside scope document . 
+people seriously interested whole area system 
+performance , might want look o'reilly nutshell handbook 
+`` system performance tuning '' mike . 
+, contain 
+well-written , comprehensive treatment system performance . 
+
+unaware similar book . 
+-- ed . 
+----------------- 
+table contents 
+----------------- 
+0 . 
+introduction & 
+1 . 
+`` x faq '' ? 
+2 . 
+window manager 
+3 . 
+x server 
+server ? 
+lock server ram ? 
+start server 
+font 
+resources file 
+define display properly 
+4 . 
+client 
+better clock x 
+better terminal emulator x 
+tune client 
+5 . 
+miscellaneous suggestions 
+pretty pictures 
+quicker mouse 
+program thought 
+say !? 
+6 . 
+source information 
+7 . 
+author & notes 
+! 
+change since last issue . 
+new since last issue . 
+----------------------------- 
+introduction & 
+----------------------------- 
+document post month , around 15th , 
+usenet news group , , . 
+read copy faq 
+month old see `` '' date probably 
+locate latest edition , since information may . 
+know get newsgroup site 
+receive article already expire , 
+retrieve faq archive site . 
+exist several usenet faq archive site . 
+find 
+access , please see `` introduction 
+newsgroup '' post . 
+main faq archive . 
+document 
+find . 
+. 
+
+access anonymous ftp , retrieve 
+send mail message 
+command `` send . 
+'' message body . 
+----------------------------- 
+`` x faq '' ? 
+----------------------------- 
+david b. lewis maintain informative 
+well write `` frequently ask question '' document . 
+focus general x information , faq concentrate 
+performance . 
+faq address issue speed , 
+regard x server . 
+gist topic seem : 
+`` use , faster r4 '' . 
+please see x faq complete detail . 
+--------------- 
+window manager 
+--------------- 
+lot window manager , lot different 
+feature ability . 
+choice use necessity 
+balance act performance useful feature . 
+
+point , respondent agree upon `` twm '' best candidate 
+speedy window manager . 
+couple generic trick try soup window manger , 
+turn unnecessary thing like `` zoom '' `` opaque move '' . 
+also , lay window tiled manner , reduce 
+amount cpu power spend raise lower overlap 
+window . 
+joe english 
+find good font tiling aka : 
+- -- . 
+
+biggest font know use sun screen 
+still get two 80 column terminal window side-by-side 
+display overlap . 
+font suggestion accept . 
+------------ 
+x server 
+------------ 
+server ? 
+- - - - - - - 
+make sure server proper match hardware . 
+monochrome monitor , use monochrome x11 server . 
+monochrome sun , notice much difference 
+color server , however point 
+smaller therefore contribute 
+less paging . 
+thanks : jonny farringdon , 
+michael salmon 
+server compile also make difference . 
+jeff law 
+advise sun system , x 
+compile gcc version 2 . 
+unbundled sun compiler . 
+expect get '' large speedup server '' 
+use bundle suno compiler . 
+assume similar result 
+would occur use one high-quality commercial 
+compiler market . 
+lock server ram ? 
+- - - - - - - - - - - - - - - 
+anyone try hacking x server lock ram 
+get page ? 
+eg : via call plock . 
+help 
+performance ? 
+one inquiry topic , 
+pointer plock function call , hard evidence someone 
+try . 
+position give try . 
+thanks : eric c claeys , 
+danny , 
+juan d. martin 
+start server 
+- - - - - - - - - - - 
+joe english : 
+start lot client . 
+whatever , sleep 
+second two launch one . 
+change 
+. 
+script , log actually take less time ... 
+heavily loaded system without much core , though . 
+sound crazy , confirm work ! 
+warner losh provide good explanation 
+work , summarize : 
+start x server take huge amount time 
+start accept connection . 
+lot initialization 
+server start . 
+process touch large number 
+page . 
+process run time would fight 
+server use cpu , importantly , memory . 
+
+put sleep , give server chance get 
+sort client start . 
+similarly , also lot initialization whenever x 
+client program start : toolkit register widget , resource 
+fetch , program initialize state `` database '' 
+forth . 
+activity typically memory intensive . 
+
+initialization `` process reach steady state '' , 
+memory usage typically settle use page . 
+use sleep stagger launching client 
+. 
+, avoid fight 
+workstation 's limited resource 
+definitely `` mileage may vary '' situation , 
+many variable consider : available ram , local swap 
+space , load average , number user system , client 
+start , etc. . 
+currently . 
+situation like : 
+sleep 1 ; exec & 
+sleep 1 ; exec & 
+sleep 1 ; exec & 
+sleep 1 ; exec & 
+experiment : 
+sleep 1 ; exec & 
+sleep 2 ; exec & 
+sleep 3 ; exec & 
+sleep 4 ; exec & 
+even try : 
+sleep 2 ; exec & 
+: 
+sleep 1 ; exec & 
+sleep 1 ; exec & 
+sleep 1 ; exec & 
+sleep 1 ; exec & 
+idea last one make sure 
+completely finish processing . 
+, settle 
+`` steady state '' sleep expire client 
+launch . 
+yield fairly comparable result , stick 
+current setup , simplicity . 
+probably 
+experiment bit find setup suit . 
+font 
+- - - 
+load font take time ram . 
+minimize number font 
+application use , 'll get speed increase time . 
+one simple strategy choose small number font one small , one 
+large , one roman , whatever suit configure client -- 
+least heavily used client -- use font . 
+client program start quicker font already load 
+server . 
+also conserve server resource , since fewer 
+font load server . 
+farrell mckay , 
+joe english 
+eg : main font , also twm set use 
+menu icon etc. . 
+twm 's default font . 
+since 
+normally use , eliminate one font server . 
+oliver jones : 
+keep font local workstation , rather load nf . 
+make extensive use r5 scalable font , use font server . 
+resources file 
+- - - - - - - - - - - - - 
+keep . 
+. 
+file small . 
+save ram save 
+server startup time . 
+joe english 
+one suggestion : 
+. 
+. 
+file , try put minimum 
+number resource want available 
+application . 
+example : : true 
+, separate resource individual 
+resource file . 
+example : $ . 
+
+. 
+login file set environment variable : 
+$ % n 
+`` frequently ask question '' faq contain 
+excellent explanation environment variable work . 
+-- ed . 
+, launch , load resource 
+... . 
+find ... , 
+forth . 
+note client follow 
+xxxxx naming pattern . 
+check system 
+directory often : 
+find proper name , name personal resource file 
+name . 
+document xt specification pg 125 & 666 . 
+thanks : kevin samborn , 
+michael urban , 
+mike long . 
+kevin willing mail setup file inquirer . 
+method organize personal resource follow 
+benefit : 
+- easier maintain usable . 
+- fewer resource store x server 
+property . 
+side benefit server may start fractionally 
+quicker , since doesn ` load resource . 
+- application process resource , never sort 
+resource find one affect . 
+also drawback : 
+- application interested load 
+additional file every time start . 
+seem 
+make much performance difference , might 
+consider huge boon usability . 
+modify 
+application 's resource database , need re-run 
+application without `` '' . 
+- default run . 
+file cpp . 
+
+resource split multiple resource file 
+load individual client program , . 
+watch !! 
+c style comment . 
+file , cpp strip 
+. 
+switch method distribute resource 
+file spend several frustrating day try figure 
+client find resource . 
+xt 
+provide error message encounter c style 
+comment resource file , simply , silently , aborted 
+process resource file . 
+loss preprocessing handy , e.g. `` 
+color '' ... enough cause people dismiss 
+method resource management . 
+- may also run client break rule . 
+
+example , neither emac 1.0 find 
+resource anywhere . 
+. 
+- start client machine share file 
+machine resource store , client 
+find resource . 
+load resource 
+server guarantee client always find 
+resource . 
+casey leedom 
+possible compromise suggestion plan try 
+put resource heavily used client eg : 
+. 
+file , use `` separate resource file '' method 
+client seldom use . 
+define display properly 
+- - - - - - - - - - - - - - - 
+client program often execute machine server . 
+
+situation , rather set display environment variable 
+'' '' , name workstation , 
+set display variable `` unix '' '' '' . 
+
+access optimize routine know server 
+machine use shared memory method transfer request . 
+thanks patrick j horgan 
+see _ display name _ section x 1 man page 
+explanation properly set display name . 
+`` think stock mit , least data general hp 
+library smart enough use local communication even 
+display set specially . '' 
+rob sartin 
+jody goldberg send xlib patch change 
+stock r5 use local communication even display properly set . 
+want get business distribute try juggle 
+patch elect include . 
+hopefully mit 
+apply minor ~ 8 line patch . 
+meantime , 
+want try , email jody . 
+-- ed . 
+------- 
+client 
+------- 
+megabyte ram think 
+carefully number program run . 
+think also 
+_ kind _ program run . 
+example : 
+smaller clock program ? 
+unfortunately , really notice program advertise large 
+, onus research spread word . 
+suggestion better alternative standard client 
+eg : , , welcome . 
+-- ed . 
+receive contradictory advice people , subject 
+x client program . 
+advocate use program 
+strictly xlib base , since xt , toolkit rather 
+large . 
+warn application use 
+may already load one share library . 
+
+case , use example client program may actually 
+_ increase _ amount ram consume . 
+upshot seem : mix toolkit . 
+, try 
+use athena client , client motif 
+client , etc . 
+use one , drag 
+one toolkit library . 
+know environment , think carefully client 
+program would work best together environment . 
+thanks : rob sartin , 
+duncan sinclair | 
+better clock x 
+- - - - - - - - - - - 
+1 
+suggest : duncan sinclair 
+available : 
+display clock title bar another program . 
+save screen real estate . 
+2 
+suggest : der mouse 
+available : . 
+shar 
+non . 
+extensively configurable . 
+make look 
+much like mit , mostly like purely change 
+resource . 
+course , ultimate clock -- one consume resource , 
+take screen real estate -- one hang wall . 
+: - 
+better terminal emulator x 
+- - - - - - - - - - - - - - - - - 
+readme file distribute : 
++ ----- 
+| abandon hope , ye enter 
+| 
+| undoubtedly ugly program distribution . 
+| ... 
++ ----- 
+ugly maybe , site still use . 
+suspect 
+one used client many , site . 
+laziness ? 
+better terminal emulator available ? 
+see . 
+must use , try reduce number 
+reduce memory usage . 
+oliver jones , 
+jonny farringdon 
+1 
+suggest : richard hesketh : 
+available : -1.0 . 
+
+'' ... need esoteric feature , get 
+hold ... write save swap space 
+rather hog ! '' 
+write partial ` clone ' . 
+
+rename resource , pretend . 
+current 
+version , bind key . 
+hear 
+version feature , find 
+yet . 
+update march 1993 : recently email conversation 
+brian warkentin regard . 
+
+question whether really faster . 
+
+instance , may initialize slightly faster , compare scroll 
+speed try quickie benchmark : dd 
+b 40 see program scroll faster . 
+also , 
+may slightly larger ram requirement hard 
+number , anyone else ? 
+share library share text 
+segment mean 's paging requirement major . 
+experiment , rip tek stuff , 
+make little difference , since never use , never get 
+bring memory . 
+stand conflict report validity 
+. 
+summary ? 
+caveat emptor , mileage may vary . 
+provide hard datum , would like see . 
+specifically : much ram occupy , much swap need , 
+relative speed 
+2 
+suggest : der mouse 
+available : 
+. 
+. 
+. 
+`` also terminal emulator . 
+major lack 
+, people like anyway . '' 
+tune client 
+- - - - - - - - - - 
+suggestion tune client program work faster . 
+scott barman come suggestion regard motif 
+text field widget : 
+notice datum entry motif text field widget , 
+get slight lag response keystroke , 
+particularly initial one field . 
+examine 
+go find . 
+seem resource 
+non-zero focus text field widget 
+even text widget i-beam cursor blink . 
+every time cursor appear disappear widget , 
+widget code make request server . 
+user 
+stop set resource 0 . 
+
+noticeable sparc , make little difference 
+slower system . 
+specific suggestion probably apply general lot 
+area . 
+consider heavily used client , minor 
+embellishment turn thereby save server 
+request ? 
+------------------------- 
+miscellaneous suggestions 
+------------------------- 
+pretty pictures 
+- - - - - - - - 
+use large bitmap gif 's , etc root window background . 
+- complicated root window bitmap , slower server 
+redraw screen reposition window redraw , etc 
+- take ram , cpu power . 
+work sun sparc 
+conscious performance issue , comprehend see 
+people 4mb sun run root window . 
+'ll let someone else figure much ram would occupy 
+full screen root image color workstation . 
+- anything like , need screen real estate 
+get client , rarely see root window anyway . 
+thanks qiang alex zhao 
+remind one . 
+-- ed . 
+quicker mouse 
+- - - - - - - - 
+use , adjust fast pointer move screen 
+move mouse . 
+use `` m 3 10 '' . 
+file , 
+let send pointer across screen flick 
+wrist . 
+see man page idea information . 
+hint : sometimes may want slow mouse tracking 
+fine work . 
+cover option , place number different 
+mouse setting command menu window manager . 
+e.g. twm : 
+menu `` mouse setting '' 
+`` mouse setting : '' 
+'' fast '' ! 
+`` m 7 10 & '' 
+'' normal fast '' ! 
+`` m 3 10 & '' 
+'' system default '' ! 
+`` m default & '' 
+'' glacial '' ! 
+`` m 0 10 & '' 
+
+program thought 
+- - - - - - - - - - - 
+joe english : 
+speed application develop , ton 
+thing . 
+stick : 
+- motif program , set resource individual 
+button , label , list , et . 
+al. ; use 
+whatever resource highest-level manager 
+widget . 
+, stick font possible . 
+- better yet , use motif . 
+absolute pig . 
+- create destroy widget fly . 
+try reuse . 
+avoid many problem buggy toolkit , . 
+- use line width 0 gc . 
+server make huge 
+difference . 
+- compress collapse multiple expose event . 
+make 
+difference fast application completely unusable 
+one . 
+francois staes : 
+small remark : hear use better 
+function would greatly increase performance xt base 
+application since use heavily . 
+suggest try 
+, find time yet . 
+
+test small program free , 
+difference indeed noticeable somewhat 5 time faster 
+confirmation anyone ? 
+-- ed . 
+andre ' beck : 
+- unnecessary event . 
+people use fastest blit routine , 
+forget reset gc use 
+blit . 
+cause event every blit , , 
+case , put load onto connection force client 
+run . 
+- thousand request . 
+`` context switching '' also see , 
+one gc create heavily change 
+. 
+xt use definitely better mechanism , cache 
+share lot gc need parameter . 
+
+remove load subsequent request 
+connection move toward client startup phase . 
+say !? 
+- - - - - - 
+contributor propose idea seem right wall first : 
+david b. lewis day : night : : 
+: swap display someone else . 
+run program 
+machine display locally ; user run 
+machine onto display . 
+goal : reduce context switch 
+operation client server . 
+situation easily try , receive 
+follow confirmation ... 
+michael salmon : 
+regularly run program machine notice big 
+difference . 
+try run machine reduce net usage 
+usually nice reduce impact intrusion . 
+
+help lot poor little ss1 + 16 mb , 
+essential 8 mb . 
+casey leedom : 
+x11 server client compete cpu 
+server run machine . 
+really 
+major problem , except x11 client server 
+absolute synchronicity context thrashing . 
+timothy h panton : 
+firstly rely fact cpu 's mostly idle , x 's 
+cpu usage bursty . 
+chance teammate 
+something time small . 
+
+get twice cpu + memory available 
+action . 
+second factor context switch expensive , use 2 
+cpu 's half , pay price due overhead go 
+network , offset case improve 
+buffering network typically 20k vs 4k pipe , allow 
+even fewer context switch . 
+---------------------------- 
+source information 
+---------------------------- 
+volume 8 o'reilly 's x window system series , `` x window system 
+administrator 's guide '' book x administrator 's read . 
+adrian nye : 
+lot tip performance paper `` improving x 
+application performance '' chris d. peterson sharon chang , 
+issue 3 x resource . 
+earlier version paper appear 1992 
+conference proceedings . 
+paper absolutely essential reading x programmer . 
+-------------- 
+author & notes 
+-------------- 
+list currently maintain art mulder 
+suggestion , correction , submission inclusion list 
+gladly accept . 
+layout suggestion comment spelling 
+'s ! 
+also welcome . 
+currently list contributor various comment 
+suggestion . 
+want credit , please tell . 
+copyright c 1993 arthur e. mulder 
+may copy document whole part long 
+try make money , pretend write . 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-- 
+... art mulder | `` conform world , 
+department computing science | transform renewal 
+university alberta , edmonton , canada | mind , ... '' romans 

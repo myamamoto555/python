@@ -1,0 +1,90 @@
+: `` jon c. r. bennett '' < > 
+subject : idea clipper 
+organization : robotics institute , carnegie mellon , pittsburgh , pa 
+lines : 92 
+: 
+idea encryption algorithm need keep secret , 
+thing think imply . 
+course could 
+wrong ... 
+
+clipper chip : technical summary 
+dorothy denning 
+revise , april 21 , 1993 
+. 
+. 
+. 
+clipper chip contain classified 64-bit block 
+encryption algorithm call `` skipjack . '' 
+algorithm use 80 bit key 
+compare 56 des 32 round scramble 
+compare 16 des . 
+support 4 des mode 
+operation . 
+algorithm take 32 clock tick , electronic 
+codebook ecb mode run 12 mbit per second . 
+chip include follow component : 
+skipjack encryption algorithm 
+f , 80-bit family key common chip 
+n , 30-bit serial number length subject change 
+u , 80-bit secret key unlock message encrypt chip 
+. 
+. 
+. 
+encrypt chip 
+see chip use , imagine embed at&t 
+telephone security device . 
+suppose call someone 
+device . 
+push button start secure 
+conversation , security device negotiate 80-bit session key k 
+device end . 
+key negotiation take place 
+without clipper chip . 
+general , method key exchange 
+use diffie-hellman public-key distribution method . 
+session key k establish , clipper chip use 
+encrypt conversation message stream m digitized voice . 
+
+telephone security device feed k m chip produce two 
+value : 
+e m ; k , encrypted message stream , 
+e e k ; u + n ; f , law enforcement field , 
+transmit telephone line . 
+law enforcement 
+field thus contain session key k encrypt unit key u 
+serial number n , encrypt family 
+key f. law enforcement field decrypt law enforcement 
+authorize wiretap install . 
+------------------ 
+suppose know algorithm work know n chip , 
+know f , cryptanalysis might able determine f 
+law enforcement field 
+e e k ; u + n ; f 
+know n would might make much harder . 
+suppose know f , either legitimately , 
+know k either involve conversation , know u 
+party conversation , may able determine u 
+party . 
+know f also defeat law enforcement field , since could 
+make , different k one use . 
+know f also 
+allow traffic analysis perform . 
+might know 
+say could know say . 
+admit someone try compute u lot 
+message work , since way know key 
+generation method deliberately ? 
+generate weak key , 
+matter publish method fact use , perhaps u 's 
+choose know weak key system . 
+obviously compromise f would disaster , law enforcement 
+whole thing design , people believe 
+give security . 
+f one number , sure alot 
+people 1 know `` panel expert '' 
+go check flaw many know f , forget 
+grind chip , bribery blackmail work fine . 
+, wrong ? 
+problem . 
+jon 

@@ -1,0 +1,23 @@
+subject : re : large commercial key ? 
+: peter gutmann 
+organization : computer science dept. . 
+university auckland 
+lines : 17 
+< > dane c. butzer write : 
+> typical size key commercial secret key algorithm ? 
+> know des 56 bit `` tripple des '' 112 bit idea 128 bit . 
+
+> anything make us 128 bit key ? 
+anything anywhere 
+> larger key ? 
+hear rc2 scale arbitrarily 
+> large key , actually implement anywhere ? 
+mdc cipher use one-way hash function stream 
+cipher , current implementation use md5 use key 2048 bit 
+, use 1-bit key want copy entire 
+range , use entire 2048 bit . 
+runtime 
+independant key size , system run slightly slower md5 . 
+presume rc2 rc4 use similar system possibly hash 
+key n bit , maybe 128 , use something like md5 . 
+peter . 

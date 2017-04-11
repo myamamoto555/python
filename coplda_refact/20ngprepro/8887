@@ -1,0 +1,21 @@
+: s. suresh 
+subject : re : screen problem 
+organization : ub 
+lines : 16 
+: 
+: tin version 1.1 
+r w write : 
+: experiment : sun window log 
+: solaris 2 . 
+x machine use ; `` l '' get first 
+: character line display last column display 
+: rest line wrap next line display . 
+: log condition persist . 
+check , try reset 
+: effect . 
+condition happen tab set 8 space , set 
+check . 
+-- 
+suresh 
+department computer science , suny buffalo , amherst , ny - 
+internet : bitnet : 

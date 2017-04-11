@@ -1,0 +1,13 @@
+: joseph 
+subject : encapsulated postscript x 
+organization : cs dept , university texas austin 
+lines : 7 
+: 
+keyword : ep 
+view . 
+ep file x ? 
+image color encapsulate 
+postscript , need view screen . 
+utility let convert encapsulate 
+postscript plain postscript ? 
+joseph 

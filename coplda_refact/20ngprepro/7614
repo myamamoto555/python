@@ -1,0 +1,27 @@
+: steve dahmen 
+subject : change color label - help 
+organization : ford motor company -- standard disclaimer apply 
+lines : 21 
+distribution : world 
+: steve dahmen 
+: . 
+
+widget yes widget routine 
+change color foreground background 
+label . 
+well , background change alright , label 
+text redraw . 
+guess force redraw 
+send via . 
+best 
+way get text ? 
+get 
+work right ... good approach , 
+might anyone example lie around show 
+? 
+evening find decent 
+example . 
+ps keep get segmentation fault , tho 
+value expect . 
+thanks advance 
+stephen m. dahmen 

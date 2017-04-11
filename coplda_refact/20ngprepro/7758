@@ -1,0 +1,1263 @@
+: l. detweiler 
+subject : privacy & anonymity internet faq 3 3 
+supersedes : < > 
+organization : tmp enterprises 
+lines : 1201 
+expire : 21 may 1993 gmt 
+: 
+: . 
+
+summary : note use , history , value anonymous usenet 
+post email service 
+: 
+: 
+: 
+version : 2.1 
+note anonymity internet 
+
+compile l. detweiler < > . 
+< 8.1 > known anonymous post site ? 
+< 8.2 > responsibility associate anonymity ? 
+< 8.3 > ` kill ' anonymous posting ? 
+< 8.4 > history behind anonymous post server ? 
+< 8.5 > value anonymity ? 
+< 8.6 > anonymous post group allow ? 
+< 8.7 > system operator anonymous posting ? 
+< 8.8 > go maintain j. helsingius ? 
+
+_____ 
+< 8.1 > known anonymous post site ? 
+currently stable anonymous post site 
+operate several month , 
+system adminstrator privilege equipment . 
+include anonymized mail , usenet post , return address 
+encryption . 
+send mail information . 
+hal finney contribute instruction manual cypherpunk 
+remailer ftp site : 
+'s . 
+instruction . 
+see also unix 
+script aid remailer use batch file 
+aid remailer use . 
+
+----------------------------- 
+anonymized mail . 
+request information address . 
+
+------------------------- 
+experimental anonymous remailer run karl barrus 
+< > , encryption server . 
+request 
+information address . 
+
+---------------------- 
+experimental remailer encryption server return 
+address . 
+request information address . 
+
+
+
+---------------------- 
+experimental remailer . 
+include header ` ' . 
+
+---------------------- 
+experimental remailer allow one level chain . 
+run 
+chael hall . 
+request information address . 
+
+----------------------------- 
+experimental remailer encryption server . 
+` finger ' site 
+address information . 
+note 
+
+- cypherpunk remailer tend unstable often 
+run without site administrator knowledge . 
+liability issue 
+wholly unresolved . 
+- far , encryption base public-key cryptography pgp 
+software see question cryptography . 
+- encryption aspect message text , destination address , reply 
+vary site . 
+- multiple chaining , alia , address encryption 
+mostly untested , problematic , unsupported time . 
+_____ 
+< 8.2 > responsibility associate anonymity ? 
+user 
+----- 
+- use anonymity . 
+frivolous use weaken 
+seriousness usefulness capability . 
+- use anonymity provoke , harass , threaten . 
+- hide behind anonymity evade established convention 
+usenet , post binary picture regular newsgroup . 
+- post large file , attentive bandwidth consideration . 
+remember , simply send post service increase 
+network traffic . 
+- avoid post anonymously regular hierarchy usenet ; 
+mostly likely place alienate reader . 
+` alt ' 
+hierarchy prefer . 
+- give much information possible post i.e. 
+reference , etc. remember content means 
+reader judge truth message , 
+inaccuracy tend discredit entire message even 
+future one handle . 
+- careful include information reveal 
+identity enable someone deduce . 
+test system 
+send anonymized mail . 
+- aware policy anonymous site respect . 
+prepare forfeit anonymity abuse privilege . 
+- considerate respectful 's objection anonymity . 
+- `` hit-and-run '' anonymity use utmost reservation . 
+use service provide anonymous return address instead . 
+- courteous system operator , may invest large 
+amount time , personally risk account , dedicate 
+hardware , convenience . 
+operators 
+--------- 
+- document thoroughly acceptable unacceptable use 
+introductory file send new user . 
+coherent 
+consistent policy stick . 
+state clearly log 
+monitoring occur . 
+describe background , interest , 
+security measure . 
+general approach totalitarian 
+? 
+- formulate plan problematic ethical situation anticipate 
+potentially intense moral quandary dilemma . 
+user 
+blackmail someone service ? 
+user 
+post suicidal message service ? 
+remember , 
+user trust protect . 
+- site introductory note , give clear example situation 
+take action action e.g. 
+warn user , limit anonymity email post , revoke 
+account , ` ' user , contact local administrator , etc. . 
+- describe exactly limitation software hardware . 
+address bandwidth limitation site . 
+report candidly 
+thoroughly bug occur . 
+work closely 
+user isolate fix bug . 
+address bug note 
+`` stability anonymity '' . 
+- document stability site -- long run ? 
+compromise occur ? 
+run ? 
+
+commitment ? 
+- include disclaimer outgoing mail message . 
+include 
+address complaint , ideally append every outgoing item . 
+consult lawyer liability . 
+- commit long-term stability site . 
+prepare 
+deal complaint ` hate mail ' address . 
+
+hardware system run system 
+adminstrator , consult . 
+- considerate provide anonymity various group . 
+
+possible , query group reader . 
+- keep uniformity simplicity style outgoing message 
+format screen effectively kill file . 
+ensure 
+key text ` anon ' somewhere every header . 
+- take precaution ensure security server 
+physical network-based attack infiltration . 
+reader 
+------- 
+- complain , attack , discredit poster sole reason 
+post anonymously , make blanket condemnation 
+equate anonymity cowardice criminality , assail 
+anonymous traffic general mostly neutral reason e.g. 
+volume heavy increase . 
+- react anonymous information unemotionally . 
+abusive poster 
+encourage get irrationally irate 
+response . 
+sometimes effective response silence . 
+- notify operator severe abuse occur , piracy , 
+harassment , extortion , etc. . 
+- complain posting inappropriate 
+offend personally . 
+- use kill file screen anonymous posting object 
+idea anonymity . 
+- avoid temptation proclaim anonymous posting 
+bar particular group ` possible ' 
+` conceivable ' need exist . 
+reference 
+---------- 
+see e.g. : : 
+> article excerpt issue individual 
+> privacy use handle . 
+accept need system 
+> operator know name user ; suggest use 
+> handle analogous request withhold name 
+> letter editor . 
+article conclude set 
+> guideline preserve right anonymous . 
+_____ 
+< 8.3 > ` kill ' anonymous posting ? 
+james thomas green < > : 
+> try put kill file : 
+> 
+> : j 
+> : j 
+> 
+> search header message kill 
+> contain ` anon ' ` anonymous ' . 
+perfect 
+> kill followup . 
+note anonymous server operator capability mask 
+anonymous posting method work ; 
+far practice widespread , may become common 
+countermeasure widespread anonymous filter . 
+_____ 
+< 8.4 > history behind anonymous post server ? 
+originally anonymous post service introduce 
+individual , particularly volatile newsgroup , anonymity 
+almost preferred method communication , 
+. 
+one first one dave mack 
+start ~ 1988 . 
+another early one 
+run stephanie enterprises 
+disband due lack fund . 
+system provide 
+anonymous return address . 
+. 
+john take 
+function server , include reinstate anonymous 
+alias file . 
+group `` chew 
+server like tomorrow . '' 
+spur disappearance ` ' interested 
+research idea , karl 
+< > develop system 
+scratch six hour . 
+time idea extend 
+server new , ` mainstream ' group start emerge , 
+explore possibility partly specific request 
+multiple user anonymity group . 
+`` intend 
+advantage system specifically allow multiple group 
+support , single anon identifier across . 
+
+arguably single biggest deficiency previous anon system . '' 
+k. post message ask user whether 
+anonymous service would welcome , judge consensus 
+. 
+k. introduce call `` fire extinguisher '' 
+` squelch ' ` plonk ' abusive user response complaint , 
+use three case . 
+nevertheless , month 
+intense traffic eventually overwhelm abuse 
+server . 
+`` even restricted , system subject 
+abuse point order dismantle 
+facility staff . 
+abuse start right 
+create . '' 
+~ nov 1992 , johan helsingius set 
+controversial anonymous site date . 
+base 
+script c code write k. support 
+mail , post , return address . 
+initially want confine 
+service scandinavian user expand worldwide 
+response ` lot ' international request . 
+j. helsingius policy allow anonymous post every usenet 
+newsgroup meet strong serious ideological 
+opposition e.g. news adminstrator . 
+relative newness recent emergence medium , 
+abuse anonymous poster tend higher visibility 
+`` routine '' abuse . 
+total commitment preservation 
+anonymity also controversial . 
+example , highly controversial publicized case ~ feb 
+1993 , anonymous user post suppose transcript desperate 
+crew dialogue challenger shuttle disaster via 
+. 
+despite transcript 
+post place year earlier 
+actually originate poster 
+new york news tabloid , subsequent response consist largely 
+vociferous outrage poster 's use anonymity , reverberate 
+many newsgroup . 
+original poster , use anonymous handle , later concede 
+story `` seem likely fabricate , '' 
+suggest plausible possibility original intent 
+provoke outrage gauge reaction authenticity 
+story albeit crudely , free personal risk perceive 
+association item . 
+ensue commotion generate query 
+original article reader . 
+anonymous 
+user later post deliberately offensive comment 
+detractor . 
+despite piercingly irate outraged complaint , even vocal 
+opposition verbal abuse k. eminent news 
+operator , j. helsingius largely avoid use `` fire 
+'' `` group bouncer '' mechanism limit 
+scope service . 
+~ march 1993 site 
+best describe ` inundate ' : register 13,000 user 
+initial three month operation , forwards ~ 3000 message 
+day , approximately 5 % usenet posting 
+site . 
+immense popularity probably largely due 
+capability ` global ' anonymity allow user 
+find creative use diverse area previously envision . 
+johan helsingius subject extraordinary pressure 
+dismantle server ~ feb 1993 . 
+one point k. 
+threaten publicly organize sort vigilante group irate 
+news operator send revocation command message 
+originate site . 
+j. helsingius also allude 
+threat flood server . 
+server crash several 
+time , least due saturation ` ' 
+anonymous user . 
+mr. helsingius report spend 5 
+hour per day answer email request alone associate 
+service 's administration . 
+response serious threat 
+disabled global group access temporarily one week 
+encourage user defend service publicly . 
+base fast-moving dialogue creative suggestion 
+`` cypherpunk , '' j. helsingius identify many security 
+weakness valuable new feature service , 
+currently process code development testing . 
+
+plan upgrade ibm compatible 386 machine 486 soon 
+handle voluminous load consider integrate new 
+system sophisticated functionality , include multiple 
+email alias , alia allocation control , public-key encryption , 
+etc. . 
+sophisticated anonymous post system set dec. . 
+1992 d. clunie < > use cryptography 
+direction server highest degree 
+confidentiality see far . 
+however , run public 
+access account , shut several 
+week , upon receive request condition apparently ultimately 
+originate nsf representative . 
+d. clunie release 
+software public domain . 
+recently idea newsgroup devote ` ' 
+government abuse receive wide focused attention , 
+group formation currently underway . 
+basic scenario 
+group would allow people post pseudonymously use remailer , 
+even establish reputation base 
+digital signature . 
+traffic may eventually reach reporter 
+mainstream news media . 
+volunteer 
+attack multiple aspect project , include distribute 
+easy-to-read documentation post , , 
+encryption . 
+see also section `` view anonymous post '' `` 
+go ? '' 
+document . 
+thanks carl 
+< > , david clunie 
+< > johan helsingius < > 
+contribution . 
+_____ 
+< 8.5 > value anonymity ? 
+
+> think anonymous post help focus attention 
+> content one 's message . 
+sure lot anonymous post abusive 
+> frivolous case user find 
+> anon facility novel . 
+novelty wear stop 
+> prank ... 
+wes morgan : 
+> mind see miscellaneous ; 
+> thing part nature . 
+however , notion 
+> provide anonymity 's shield idea repulse . 
+
+> strong feeling , put name 
+> posting ? 
+... quite frankly , loathe communication 
+> people refuse use name . 
+david clunie 
+> many seem question value anonymity . 
+
+> say risk another individual take ? 
+
+> question rather conservative society live 
+> , hold certain view , make certain statement , adopt 
+> certain lifestyle , likely result public censure , 
+> ridicule , loss status , employment , even legal action . 
+give 
+> heterogeneity legal jurisdiction many 
+> contributor usenet post , know legal 
+> ! 
+say anonymous poster `` coward '' 
+> stand count . 
+perhaps one point view 
+> right detractor exercise censorship ? 
+: doug sewell 
+> censorship expect someone speak 
+> , without cloak anonymity . 
+best 
+> lame argument . 
+> 
+> tell say require anonymity . 
+
+> tell wish majority user 
+> newsgroup disregard want anonymous 
+> post . 
+> 
+> anonymous user less rights . 
+
+> legitimate usenet participant . 
+would honor rfd , , 
+> control message , vote one . 
+brad templeton : 
+> think disadvantage cause anon post site 
+> already exist , fact make 
+> naive net user know post anonymously old 
+> way prone . 
+: tom mandel 
+> speak regard anonymous posting 
+> serious discussion pretty much worthless . 
+... view hide 
+> behind veil anon hardly worth trouble reading . 
+hank pankey 
+> since begin post anonymously show support general 
+> principle personal privacy subject far 
+> abuse attack ever receive . 
+people seem 
+> find easier flame insult someone whose name 
+> know . 
+perhaps easier pretend person 
+> behind email address feel sting abusive comment . 
+> 
+> anonymity hinder method control poster ' 
+> action . 
+people seek control naturally oppose . 
+: 
+> instead make `` medium '' allow poster 
+> `` protect '' anonymity , simply require 
+> poster prepare discuss source information 
+> take heat unsubstantiated dribble . 
+seem 
+> way thing currently ; 
+kate gregory : 
+> three thread go start anonymous 
+> poster . 
+one change job work less hour , 
+> job sharing , woman want anyone 
+> current place work know think look 
+> work elsewhere . 
+next woman think 
+> baby sometime soon want coworker , friend , 
+> family etc etc know , want advice . 
+
+> third sex parenthood -- actually start 
+> people post usual way point 
+> anonymous post service might let people 
+> participate . 
+> 
+> seem suffer harm presence 
+> anonymous poster ; fact seem help . 
+dan hoey : 
+> never real security anonymous 
+> forge posting usenet , process 
+> sufficiently inconvenient , error-prone , undocumented limit 
+> use person learn culture net . 
+> 
+> hand , recent use anonymous post service 
+> seem seem student ask help 
+> homework problem . 
+attribute teacher , 
+> ask explanation dubious answer teaching 
+> guide . 
+say news post break , use 
+> anonymous service gateway . 
+karl barrus < > 
+> argue opinion people hide behind veil 
+> anonymity worthless , people 
+> thought . 
+agree latter point - ideal 
+> world would sit around engage socratic 
+> dialogue , freely exchange opinion effort 
+> learn . 
+ideal world nobody threaten 
+> thought , ridicule . 
+> 
+> live world people agree 
+> may try harm . 
+let 's face , people go 
+> agree opinion matter logically try 
+> present , reason may . 
+sad since 
+> restrict people voice opinion . 
+richard e. depew : 
+> consensus seem general anonymous post service 
+> seem sufficiently corrosive 
+> trust civility net particular experiment 
+> end . 
+perhaps next time question come 
+> say : `` try - learn harm good - 
+> stop . '' 
+: alexander 
+> anonymous post create major problem aside 
+> anger irate people like ? 
+would rather ban 
+> post altogether `` real man 
+> stand say '' comparable puerile argument 
+> bring . 
+dave hayes : 
+> primal example human nature . 
+three question 
+> folk . 
+> 
+> people really say different thing base upon 
+> whether identity know ? 
+> 
+> people really affect people say 
+> label `` abuse '' ? 
+> 
+> importantly , forum prize freedom 
+> communication enjoy , really thing 
+> freedom communication ? 
+: terry mcgonigal 
+> ... many anon service need ? 
+
+> everybody start run one soon ? 
+purpose ? 
+
+> stand benefit n anon service , 2 n , 
+> n ^ 2 , . 
+sudden anon 
+> service come ? 
+> 
+> better worse , look like gon na get stick 
+> thing , much like idea 
+> service like become norm really think 
+> much since obvious anyone want 
+> set one bit work . 
+karl : 
+> weak reasoning . 
+> freedom come responsibility . 
+dave hayes : 
+> responsibility real enforce . 
+true responsibilty 
+> come coercion . 
+_____ 
+< 8.6 > anonymous post group allow ? 
+wes morgan : 
+> first admit hold controversial 
+> opinion ; indeed , sure none completely 
+> orthodox opinion . 
+however , receive hundred 
+> anonymous email message last year ; fewer 20 
+> `` reasonable post make good motive . '' 
+
+> get difficult remember need anonymity 
+> ; abuser louse thing 
+> truly need service would put good 
+> use . 
+> 
+> suggest ban anonymous server ; ` ve 
+> say , several situation anonymity good 
+> thing tm . 
+> 
+> however , notion anonymity 's shield 
+> automatically extend every usenet discussion ridiculous ; 
+> open door abuse . 
+tim pierce : 
+> course , one determine whether `` group '' request 
+> service ? 
+flat majority poster vote favor ? 
+positive 
+> margin 100 vote ? 
+? 
+one speak newsgroup . 
+> 
+> convince argument anonymous post 
+> service newsgroup inherently bad idea , simply 
+> diversion status quo . 
+since status 
+> quo previously permit anonymous post newsgroup , 
+> anonymous post service would reject status quo . 
+richard m. hartman write : 
+> facist suggest newsgroup best able decide 
+> whether want allow anonymous posting instead 
+> force upon service administrator ? 
+brian w. ogilvie : 
+> service provide mechanism forwarding mail 
+> original poster . 
+since usenet reader know john smith 
+> jane doe except opinion address , 
+> effect anonymous post mail reply 
+> direct minimal , except personally know 
+> poster -- ... lack anonymity could serious . 
+
+> mechanism like liable abuse , benefit well 
+> cost must weigh . 
+limit service alt group , 
+> specific group , would help want advice 
+> sensitive issue ` professional ' newsgroup . 
+: 
+> additional point find anonimity technical 
+> matter profoundly offensive ; anonimity different forum 
+> different meaning . 
+get phone call someone 
+> identify , hang . 
+get u.s. mail 
+> return address , go garbage unopened . 
+someone 
+> accost street wear mask , back away - 
+> carefully , expect violence . 
+technical discussion , 
+> anonimity mean individual willing associate 
+> matter discuss , discredit 
+> utterance make listen waste time . 
+> 
+> anonimity lead fun psych experiment ; literature fill 
+> various thing people anonymously 
+> otherwise . 
+include one notorious study involve 
+> torture would pass today 's ethical standard . 
+fun 
+> stuff , case . 
+> 
+> fine . 
+leave us . 
+: joe buck 
+> obviously never submit article refereed 
+> journal , receive anonymous review server 
+> editor behave much like one finland e.g. 
+> may reply editor maintain anonymity . 
+... 
+> comparison someone want express 
+> technical issue anonymously person approach 
+> dark street ski mask emotionally overwrought 
+> nonsense ; poster pose physical threat . 
+j. : 
+> seem obvious default allow 
+> anonymous posting newsgroup . 
+usenet always 
+> operate principle status quo keep 
+> unless large number people want change . 
+> 
+> someone really need post message anonymous newsgroup 
+> usually , usually find someone 
+> net . 
+need automate 
+> service , automated service nature 
+> incapable make judgment call necessary decide whether 
+> particular post really need anonymous . 
+: tim pierce 
+> newsgroup name , bet envision scenario 
+> involve need secrecy . 
+accurate content-based 
+> filter anonymous post could devise screen 
+> require secrecy , wonderful . 
+
+> . 
+: lasse hiller | e petersen 
+> newsgroup want noise - , 
+> call moderation . 
+happen 
+> basis , general usenet ban anonymous posting . 
+
+> course one principle moderation might keep 
+> anonymous posting , could achieve automatically . 
+would 
+> still _ moderation _ . 
+personally would prefer moderation 
+> criterion base actual content . 
+david a. clunie 
+> `` group '' want receive certain post 
+> become moderate - clearly define mechanism 
+> group take place . 
+automate moderator 
+> exclude post certain eg . 
+anonymous site individual 
+> could easily establish . 
+anyone want take 
+> draconian approach welcome good luck 
+> . 
+doubt read group ! 
+: dave ratcliffe 
+> possible need would someone post anonymously 
+> . 
+group ? 
+> 
+> sure adult willing post name . 
+
+> would want hide behind anonymous post service ? 
+> ashamed say try rile people 
+> without fear identify ? 
+> 
+> anonymous post place certain group . 
+
+> anyone else need tell group ` ve 
+> another planet breathing exotic gas long . 
+: 
+> bloody fascinating ? 
+proponent unimpeded 
+> universal anon post access seem find middle 
+> ground . 
+perception 
+> absolutism ? 
+instant gratification syndrome come 
+> , `` want anon access want '' ? 
+
+> control freak ? 
+: 
+> remember , newsgroup poster write scientific 
+> issue . 
+anonymous discussion scientific issue lead bad 
+> science . 
+: jon 
+> though many personal philosophical argument 
+> anonymous poster , argument compelling 
+> enough convince anonymous post 
+> ban severely restricted . 
+though prove 
+> , seem like anonymous post 
+> principle reason personal read , 
+> psychological discomfort rather reason relate 
+> maintain `` integrity '' usenet . 
+> 
+> remember , impossible able ascertain 
+> conceivable legitimate motive anonymous post 
+> newsgroup one normally would deem `` sensitive '' . 
+... 
+> general , fear even let newsgroup reader vote either 
+> allow allow anonymous post , since priori 
+> know motive legitimate poster , 
+> believe system ever institute would 
+> inhibit post legitimate informative post . 
+lyle j. mackey write : 
+> personally believe pseudonymous posting 
+> appropriate serious discussion area . 
+
+> legitimate reason conceal poster ' identity , perhaps , 
+> simply sure want name 
+> attach qualify legitimate book . 
+oh , 
+> come legitimate purpose anonymous posting , 
+> please , enlighten . 
+stuart p. derby 
+> three u.s. 's founding father , madison , hamilton , 
+> jay , seem think `` anonymous post '' ok . 
+federalist 
+> papers originally print new york newspaper 
+> authorship attribute `` publius '' . 
+wonder would find 
+> purpose `` legitimate '' ? 
+_____ 
+< 8.7 > system operator anonymous posting ? 
+: ed mcguire 
+> would like know junk article post 
+> anonymous service currently discuss . 
+ideally would 
+> actually tell feed site feed article post 
+> anonymous service . 
+assume c news performance release , 
+> simple way accomplish ? 
+look 
+> learn ? 
+: david clunie 
+> bit draconian ? 
+user unanimously 
+> decide would like decide 
+> ? 
+: ed mcguire 
+> good question . 
+nobody decide . 
+definite plan 
+> , want technical datum . 
+carl : 
+> ... position offer service , 
+> promise protection anonymity would limit . 
+
+> basis personal opinion get post , 
+> basis posting disrupt smooth operation 
+> usenet . 
+obvious direct recourse would ` ' 
+> abusive individual . 
+less drastic possibility exist -- 
+> software support `` fire extinguisher '' individual 
+> prevent post . 
+john : 
+> since usenet democracy ? 
+someone want run 
+> anonymous service , business . 
+want put 
+> host , business . 
+
+> want posting site , 
+> people site . 
+everyone ignore 
+> service , service effectively exist . 
+: jonathan i. 
+> nntp server allow post anyone `` service 
+> net . '' 
+net disservice . 
+> 
+> terminal server problem open nntp server -- 
+> allow people want thing 
+> internet without accountability . 
+> 
+> , , public access site country , 
+> world , allow inexpensive access 
+> usenet internet . 
+reason nntp server 
+> allow anyone post message , 
+> reason terminal server allow anyone connect 
+> make outbound connection . 
+perhaps 
+> harder get internet usenet , open server 
+> could justified , . 
+jurgen botz : 
+> think ... point show clearly 
+> anonymous post service great deal responsibility , 
+> towards client towards net whole . 
+
+> service set well-defined rule 
+> contract client sign , term 
+> assure anonymity . 
+: 
+> problem use `` punish '' poster 
+> upset vague way complain usually 
+> acquiescent organization poster belong 
+> ? 
+surely gutless approach solve 
+> problem , experience net show user 
+> vilify anonymous posting first write obsessively 
+> detailed grievance poster 's supervisor 
+> tranquility disturb `` intrusive '' subversive post 
+> another . 
+> 
+> anonymous posting prevent kind intimidation . 
+: eric schilling 
+> main point would like make go 
+> revise news sw `` reject anon post technical 
+> newsgroup '' thing , think attempt prove 
+> futile . 
+attempt modify news result change 
+> approach anon service provider thwart change . 
+think 
+> would pointless . 
+: johan helsingius 
+> try stay discussion , see 
+> discussion lead . 
+rally feel like speak . 
+> ... repeatedly make clear ... block user 
+> continue abuse warn . 
+many case 
+> user take heed warning stop , 
+> case even apologize public . 
+warning 
+> desire effect , block number user . 
+also 
+> block access group readership take vote 
+> ban anonymous posting , although feel change newsgroup 
+> status moderate permanent solution newsgroup 
+> want `` formalize '' discussion . 
+richard e. depew 
+> ... mean volunteer issue request 
+> discussion ban anonymous posting moderate 
+> 4000 + newsgroup server reach ? 
+think 
+> , illustrate trouble server cause ! 
+> 
+> please listen consensus news administrator 
+> group : newsgroup consult let 
+> server post message group . 
+: alexander 
+> pompous `` consensus news administrator '' 
+> - maybe would like invent one . 
+sizeable 
+> number people concern possible , 
+> minor extent , actual abuse server 
+> configure . 
+concern respectable ; johan deal 
+> . 
+... rage foam 
+> mouth condemn service altogether . 
+number 
+> defend , point , like kate gregory , even group 
+> like . 
+benefit pseudonymous posting . 
+: johan helsingius 
+> answer lot personal mail related server abuse , 
+> result , block number abusive user . 
+
+> also withdraw service several newsgroup 
+> user take vote issue . 
+make 
+> comment , partly 
+> password feature emergency measure 
+> security hole keep really busy answer user 
+> query last two week , partly feel 
+> justify service , user . 
+problem 
+> readership rather elective , 
+> represent people whith strong interest centralised 
+> control . 
+: richard m. hartman 
+> seem rather bigoted attitude . 
+would consider 
+> group anyone wish discuss net 
+> control . 
+say interest 
+> `` centralize control '' clear indication bias . 
+
+> perfectly welcome join discussion promote 
+> view control . 
+
+> whole debate lot `` sound fury signify nothing '' 
+> , even decide ban anonymous post server , 
+> enforceable . 
+people conceivably could 
+> enforce control international 
+> link . 
+> 
+> policy change make cooperation , attempt 
+> dictate . 
+... need persuade run service 
+> act like friendly persuasion , try 
+> beat head stick especially stick 
+> even . 
+steve pope 
+> find bias boring . 
+friend 
+> post point . 
+old guard would like 
+> keep network way always ... new 
+> thing , pseudonymous server , cut turf . 
+
+> whine bitch , every time slightest 
+> abuse somebody 's . 
+sig long , try 
+> parlay argument . 
+> 
+> 'll go record say : three cheer admin anon 
+> server like , pax , ... access 
+> service provider willing preserve client 
+> privacy . 
+> 
+> pox try defeat restrict . 
+al billing 
+> would help people get rid anon posting group . 
+
+> like someone say , put anon address 
+> kill file , . 
+course , get 
+> anon site go , go assign fake name like 
+> `` '' instead `` '' avoid hassle . 
+> 'll never know anonymous ? 
+: anne bennett 
+> must admit astonishment argument . 
+see 
+> value anonymous posting circumstance , yet believe 
+> strongly identify , people 
+> wish read material people identify 
+> , . 
+> 
+> fail see good would accomplish , indeed 
+> surmise cause many people inconvenience 
+> annoyance , hide anonymity posting 
+> anonymous site . 
+would care justify hell get 
+> gall try prevent people effectively filter 
+> news see fit ? 
+: david clunie 
+> think reach australia . 
+unfortunately 
+> one us site involve feed complain 
+> australian academic reasearch network site 
+> connected , anything particular , concept 
+> anonymous mail redeeming feature consume 
+> narrow bandwidth link argue 
+> ... stop service face disconnection . 
+> 
+> consider demise service rather 
+> unfortunate , wish finnish remailer luck ! 
+pity 
+> similar service provide 
+> us . 
+guess benefit constitution 
+> guarantee one freedom speech legal political system 
+> conspire subvert name public good . 
+_____ 
+< 8.8 > go run j. helsingius ? 
+: 
+> funny , beat rest usenet head 
+> stick ok universal anon access . 
+
+> somehow people side equation even 
+> argue shut entirely , rather 
+> control apply abuse manifest 
+> allow . 
+> 
+> write johan several time last couple 
+> week . 
+use reply quite readily . 
+, 
+> source software originally deliver -- 
+> use downright _ prompt _ reply . 
+funny , 
+> impolite bastard answer mail _ _ , 
+> even consist really civil query . 
+: johan helsingius 
+> mail tell send one message feb. . 
+> 8th . 
+feb 7th 8th server , flood mail 
+> result server come crash mail 
+> host . 
+problem aggregate abusive user send 
+> thousand message another user , fill user 
+> mailbox . 
+bounce message end mailbox , overflow 
+> local disk well . 
+> 
+> suppose message get lose hassle , 
+> try answer much possible 
+> message get , routine message complaint 
+> service . 
+average spend 4-5 hour per day 
+> answer message . 
+: 
+> everybody else put 
+> insensitivity misuse ? 
+whose 
+> definition `` polite '' `` sense '' apply , ? 
+
+> universal anon access consider within realm 
+> fuzzy concept `` politeness '' first place ? 
+> 
+> think johan long since cross line rude 
+> bastard , tell private mail little ago . 
+> 
+> point , deeply regret create anonymous 
+> system support > 1 newsgroup b give code 
+> johan . 
+copyright , think concept 
+> politeness good sense might follow new 
+> home . 
+interesting johan 's idea politeness good 
+> sense seem nearly mine . 
+could 
+> even cope universal anon access _ _ johan would willing 
+> engage abuse control , somehow seem outside 
+> range reality ... 
+: johan helsingius 
+> way convey sad upset message 
+> make . 
+, extent , understand feeling , 
+> still feel really bad . 
+run server require get use 
+> lot flame , mindlessly abusive hate mail much 
+> easier deal something like , respect 
+> value view opinion high degree . 
+, 
+> ask sympathy , want know really 
+> give view quite lot weight . 
+> 
+> ask software , actually go 
+> provide service scandinavian user . 
+lot people 
+> request keep service open international 
+> community . 
+realize ought contact 
+> point ask feel use stuff 
+> context . 
+, really want apologise . 
+replace 
+> remain piece code thet still stem 
+> system . 
+unfortunately way remove idea 
+> structure get . 
+> 
+> , really sorry result work end 
+> use way approve . 
+
+> give lot hard thought possibility shut 
+> server . 
+: 
+> think feel especially rude impolite . 
+good 
+> johan , good . 
+, ask 
+> greater usenet whether universal anon access good idea ; 
+> . 
+... yes , seriously rude pain ass , 
+> think 'll arm usenet death penalty , slightly modify , 
+> strategic attack , tactical assault , 
+> let 's say . 
+> 
+> parrot line ... people thing like udp 
+> , cancel ' posting year , one could 
+> ever stop , politeness good sense 
+> prevent . 
+> 
+> fact , 8 people express privately desire 
+> ability arm udp . 
+> 
+> ... 
+> 
+> ps - , fact 8 ready arm 
+> udp . 
+would amusing know many people gulp hard 
+> read , though . 
+see different 
+> johan 's configuration . 
+> 
+> pps - calm fear ps ... 
+> 2 ready arm udp . 
+ask 
+> code . 
+send yet . 
+one site would necessary 
+> bring screech halt . 
+anyone 
+> implement udp , care . 
+politeness 
+> good sense prevent . 
+wonder long 
+> one form bring another form . 
+: johan helsingius 
+> would trivially easy bring screech 
+> halt . 
+fact happen couple time already . 
+
+> talk threat , let make one well . 
+
+> simple one . 
+somebody use something like udp 
+> maliciously bring means , 
+> stay . 
+let user know . 
+name 
+> person . 
+ok ? 
+somebody say thread : `` 
+> take personal responsibility action '' , right ? 
+: 134 atul v 
+> grateful appreciative service , 
+> . 
+important question personal 
+> resolve due kind help people 
+> thru similar situation . 
+return , also 
+> reply anon posting think could make positive 
+> contribution . 
+> 
+> general , anon service great , opinion , although like 
+> tool people use responsibly . 
+suggest 
+> keep alive . 
+waste bandwidth less important 
+> saving life , think . 
+: elisa j. collins 
+> inform anonymous post service many 
+> newsgroup turn result discussion 
+> newsgroup people abuse . 
+> 
+> post nontechnical misc newsgroup 
+> intimate topic feel require privacy . 
+
+> receive immeasurable help people newsgroup , 
+> never use anonymity behave abusive , immature , 
+> unethical fashion toward anyone . 
+> 
+> please , folk , believe , need service . 
+please 
+> consider point view permit turn 
+> service back ... 
+> 
+> thank . 
+
+see also 
+
+part 1 first file 
+------ 
+< 1.1 > ` identity ' internet ? 
+< 1.2 > identity un important internet ? 
+< 1.3 > email address identify background ? 
+< 1.4 > find somebody email address ? 
+< 1.5 > identification un stable internet ? 
+< 1.6 > future identification internet ? 
+< 2.1 > ` privacy ' internet ? 
+< 2.2 > privacy un important internet ? 
+< 2.3 > secure internet network ? 
+< 2.4 > secure account ? 
+< 2.5 > secure file directory ? 
+< 2.6 > secure x windows ? 
+< 2.7 > secure email ? 
+< 2.8 > liable email posting ? 
+< 2.9 > provide information identity ? 
+< 2.10 > ? 
+know ? 
+< 2.11 > privacy un stable internet ? 
+< 2.12 > future privacy internet ? 
+< 3.1 > ` anonymity ' internet ? 
+< 3.2 > ` anonymity ' un important internet ? 
+< 3.3 > anonymity protect internet ? 
+< 3.4 > ` anonymous mail ' ? 
+< 3.5 > ` anonymous post ' ? 
+< 3.6 > anonymity un stable internet ? 
+< 3.7 > future anonymity internet ? 
+part 2 previous file 
+------ 
+< 4.1 > unix program related privacy ? 
+< 4.2 > learn use cryptography ? 
+< 4.3 > cypherpunk mail list ? 
+< 4.4 > newsgroup ? 
+faq ? 
+< 4.5 > internet privacy enhance mail pem ? 
+< 4.6 > request comment rfc related privacy ? 
+< 4.7 > run anonymous remailer ? 
+< 4.8 > reference privacy email ? 
+< 4.9 > email , usenet , internet use policy ? 
+< 4.10 > mit `` crosslink '' anonymous message tv program ? 
+< 5.1 > `` digital cash '' ? 
+< 5.2 > `` hacker '' `` cracker '' ? 
+< 5.3 > `` cypherpunk '' ? 
+< 5.4 > ` steganography ' anonymous pool ? 
+< 5.5 > ` security obscurity ' ? 
+< 5.6 > ` identity daemon ' ? 
+< 5.7 > standard need guard electronic privacy ? 
+< 6.1 > electronic frontier foundation eff ? 
+< 6.2 > computer professional social responsibility ? 
+< 6.3 > ` operation sun devil ' steve jackson game case ? 
+< 6.4 > integrated services digital network isdn ? 
+< 6.5 > national research education network ? 
+< 6.6 > fbi 's propose digital telephony act ? 
+< 6.7 > u.s. legislation relate privacy network ? 
+< 6.8 > reference rights cyberspace ? 
+< 6.9 > computer academic freedom caf archive ? 
+< 7.1 > background behind internet ? 
+< 7.2 > internet ` anarchy ' like english language ? 
+< 7.3 > want list 
+< 7.4 > change history 
+
+part 3 privacy & anonymity faq , obtain via anonymous 
+ftp 
+newsgroup , , every 21 day . 
+write l. detweiler < > . 
+rights reserve . 

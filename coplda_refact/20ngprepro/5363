@@ -1,0 +1,65 @@
+: suresh - research scholar 
+subject : re : mix gl x xlib , xt , mwm 
+: 
+organization : institute systems science , nus 
+: tin 1.1 
+lines : 47 
+larry d. write : 
+: article < > , jay graham write : 
+: | > 
+: | > draw xlib . 
+would like take advantage 
+: | > graphics library gl available ibm sgi 's gl believe . 
+: | > possible mix x gl one application program ? 
+: | > use gl subroutine x window open 
+: | > ? 
+make gl call widget sure . 
+: 
+: widget already define gl . 
+motif 
+: athena widget . 
+similar , except 
+: allow use gl call render window . 
+look , 
+: , , man page . 
+: 
+: 
+: widget work pretty well . 
+opengl improvement . 
+vouch . 
+gl widget work pretty well . 
+use 
+sometime . 
+sure though whether use xlib call draw 
+gl widget . 
+try yet read accompany 
+documentation completely . 
+try post information . 
+better still , find answer sgi manual . 
+. 
+
+little transition guide explain `` programming '' 
+paradigm mix x gl . 
+: | > pex ? 
+functionality gl ? 
+: 
+: think gl little easier use little powerful , 
+: opinion . 
+mileage may vary . 
+well , pex design extension x seamless 
+, buggy start . 
+. 
+opinion . 
+__ 
+_ o _ o o | _ 
+__ _ __ _ _ _ | _ 
+
+suresh email : internet 
+research scholar 
+institute systems science tel : . 
+
+national university singapore : 
+heng mui keng terrace telex : r 
+singapore . 
+
+

@@ -1,0 +1,46 @@
+: david 
+subject : re : question address ... 
+: chip 
+: david 
+organization : mpr ltd. . 
+lines : 37 
+article < > , sean kelly write : 
+| > 
+| > 
+| > question access certain address chip , 
+| > particulary eprom . 
+although know much , 
+| > understand , pin chip , voltage apply , kick 
+| > address . 
+question determine many byte 
+| > address increment ?? 
+example , code want 
+| > access $ 2000 also say $ 4000 move address pointer 
+| > position ?? 
+thanks info ... 
+| > 
+| > % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % 
+| > % sean kelly - sysop bbs % 
+| > % always look classic video game follow system : % 
+| > % % 
+| > % atari % 
+| > % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % ^ % 
+judge . 
+sig try make kind game cartridge . 
+information build eeprom vectrex available 
+via anonymous ftp ` ' . 
+since choose probably try make ` ' . 
+simply : 
+1 . 
+load game image eeprom $ 2000 , $ 4000 , etc. eeprom 
+burner software may allow assemble image 
+one file suitable gap . 
+2 . 
+wire cartridge lower address bit go game 
+console , high bit go switch choose game . 
+directly answer question , pin ` kick address ' 
+simply another address line . 
+concrete example , 8k game image , would 
+wire cartridge , 3 switch . 
+3 switch 
+would allow pick 8 game eeprom . 

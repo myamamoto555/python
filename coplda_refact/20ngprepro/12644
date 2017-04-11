@@ -1,0 +1,18 @@
+: sean gordon 
+subject : help , need mac se modem port pc 25 way serial port cable 
+: sean gordon 
+distribution : world 
+organization : ncr e&m dundee 
+lines : 14 
+try connect mac se modem port pc 25 way serial port , 
+someone provide wiring diagram null modem lead 
+setup . 
+please use email since news feed bit quirky . 
+thanks advance 
+sean gordon 
+
+| 
+ncr e&m ltd. . 
+| long 10000 , b , c 2800 , d , e , f 2801 , g ; main ; b-c ; 
+tel | f b + + ; ;d 0 , g c 2 ; c - 14 , printf '' % .4 d '' , e + , 
+fax | e % b c ;d + f b , f b % -- g , d g -- , -- b ;d b ; 

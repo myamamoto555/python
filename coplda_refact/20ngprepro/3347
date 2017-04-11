@@ -1,0 +1,75 @@
+: doug acker 
+subject : re : problem .1 gcc 
+: 
+organization : western geophysical exploration products 
+lines : 23 
+: . 
+. 
+
+article < > , doug acker write : 
+| > use patch post export . 
+| > optionally apply . 
+| > 
+| > compile fine . 
+. 
+try use client i.e. 
+| > twm , get error ... figure wrong : 
+| > 
+| > gcc - - o twm . 
+o - o2 - . 
+$ + \ : $ - l. . 
+. 
+. 
+. 
+- - l. | > . 
+. 
+. 
+. 
+- l. . 
+. 
+. 
+. 
+- l. . 
+. 
+. 
+. 
+- l. . 
+. 
+. 
+. 
+- - l. . 
+. 
+. 
+. 
+- - l. . 
+. 
+. 
+. 
+- - . 
+- - 
+| > ld : warning : file . 
+. 
+. 
+. 
+. 
+. 
+: attempt multiple inclusion file 
+| > undefined first reference 
+| > symbol file 
+| > . 
+. 
+. 
+. 
+. 
+. 
+
+| > ld : fatal : symbol reference error . 
+output write twm 
+| > error code 1 
+problem define . 
+douglas western geophysical exploration products 
+____ ____ ____ division western atlas international inc. . 
+\ \ \ \ litton dresser company 
+\ \ \ \ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+\ \ \ \ internet : 
+\ ___ \ ___ \ ___ \ voice : 

@@ -1,0 +1,124 @@
+: gregg walters 
+subject : 4.0 swap file ? 
+organization : scientific computing boulder , co 
+lines : 119 
+repost summarize , information additional comment . 
+long 
+16mb memory 25 mhz , intel math coprocessor , 
+hard drive free compression . 
+run 
+3.1 , windows 3.1 enhance mode , ram drive , 
+smart drive , swap file permanent temporary 
+several month . 
+interested faster 4.0 , concern report 
+swap file requirement legitimacy mathsoft 's claim increase 
+speed . 
+users : 
+4.0 run without swap file , insist use swap file ? 
+far , response less detailed description setup , 
+unrelated posting , informed answer , net e-mail , 
+appear : 
+1 david a. 
+accord mathsoft , . 
+use swap file extensively 
+overburden physical resource . 
+say actually 
+win32 feature . 
+figure 10mb indicate minimum . 
+
+might try anyway ! 
+2 bert tyler 
+certain culprit . 
+
+16mb main memory less 2mb 
+bit dos session open part startup process , 
+run without . 
+install 
+win32 subsystem march beta nt sdk , subsystem 
+demand presence . 
+win32 program 
+run date 32-bit version freecell come 
+subsystem . 
+
+give windows small temporary leery file must 
+remain fix location hard disk , seem well . 
+3 brian c. anderson 
+win32 ? 
+upgrade 4.0 install directory 
+win32 \ window \ system . 
+upgrade tell win32 
+require . 
+4 steven v 
+4.0 make use win32 library . 
+probably 
+hear win32 , 32-bit windows library provide 
+much windows nt functionality support thread 
+multitasking run windows 3.1 . 
+5 thomas c. rhyne 
+also 16 mb ram , indeed 4.0 insist permanent 
+; would run otherwise . 
+6 greg bishop 
+3 absolutely require 4mb ram swap file 8mb ram 
+8mb swap file . 
+give enough memory error 
+swap file less 8mb . 
+major resource hog . 
+
+load symbolic processor smart math , take ram 
+real virtual load , due win32 library . 
+
+
+seem addition system requirement show mathsoft 's 
+advertisement 4.0 , need swap file , possibly big . 
+
+look like would need 8mb swap file , would need choose 
+? 
+faster permanent swap file , slower temporary swap file 
+
+apparently win32 subsystem ship 4.0 - much disk space 
+require ? 
+
+
+
+also receive answer : 
+1 dale hample 
+get 16 meg ram , configure ram disk 
+? 
+dos 6 permit different bootup configuration . 
+
+
+4.0 + win32 configure use ram drive instead 
+swap file ? 
+, see use dos 6.0 alternate bootup 
+would provide windows swap file . 
+time back remember 
+discussion issue use ram drive support swap file , 
+think involve slower , < 8mb system . 
+
+
+dos 6.0 various reason yet full installation . 
+
+
+way , full installation dos 6.0 require avail oneself 
+`` alternate bootup '' feature ? 
+file installation disk 
+require ? 
+
+
+
+2 
+, mean without _ permanent _ swap file . 
+windows need 
+swap file , upo create one permanent one exist . 
+permanent generally faster though . 
+know would 
+happy either type -- ver . 
+3.0 program conform 
+win specification . 
+
+
+far , 16mb enough ram avoid overhead run swap 
+file - run 3.1 windows 3.1 without one . 
+
+
+

@@ -1,0 +1,20 @@
+: mika 
+subject : re : old 256k simm ? 
+: message 17 apr 1993 -0400 
+: 
+organization : helsinki university technology , finland 
+< > 
+lines : 15 
+daniel j rubin write : 
+> hard would somehow interface popular 
+> motorola microcontrollers . 
+hard , refreshing access cycle software , 
+hog available cpu cycle low-end controller . 
+see application note philip use one 
+8051 derivative printer buffer , 1mb dynamic ram 
+access refresh software . 
+another alternative would use one nice dram controller 
+chip `` create static ram appearance '' , may 
+expensive make worthwhile . 
+-- 
+segmented memory help structure software 

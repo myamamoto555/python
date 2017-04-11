@@ -1,0 +1,22 @@
+: ed 
+subject : client 's display variable set ? 
+keyword : display , environment 
+organization : nasa 
+lines : 22 
+easy ie via shell command way tell display 
+environment variable give client process ? 
+sometimes 
+get want typing ps - axe : 
+a. client invoke - display argument 
+
+b. display one first variable define environment 
+actually never see b. illustrate type 
+thing look 
+ultimately wish determine number display simultaneously 
+run give x application . 
+system : suno 4.1.2 
+thanks help , 
+-- 
+ed 
+harris space systems corporation 
+

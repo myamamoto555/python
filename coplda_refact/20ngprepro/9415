@@ -1,0 +1,31 @@
+: richard krehbiel 
+subject : re : , linux , risc ? 
+: message sun , 18 apr 1993 gmt 
+lines : 22 
+organization : timesharing , inc. . 
+article < > write : 
+> dear friend , 
+> risc mean `` reduce instruction set computer '' . 
+risc usually 
+> small instruction set reduce circuit complex increase 
+> clock rate high performance . 
+read book 
+> computer architecture information risc . 
+risc use mean `` reduce instruction set computer '' , true . 
+
+still use acronym , familiar . 
+risc really 
+means cpu . 
+: - 
+general , risc cpus like : 
+large number 32 general-purpose register 
+fix instruction size , usually 32 bit 
+instruction may make one memory reference 
+memory reference must align 
+delay branch branch next instruction 
+target prediction bit probably ' branch 
+instruction may complete order relative instruction 
+stream 
+-- 
+richard krehbiel 
+2.0 386 come along ... 

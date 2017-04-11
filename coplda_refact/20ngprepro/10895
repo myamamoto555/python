@@ -1,0 +1,68 @@
+: henrik w. nielsen 
+subject : help . 
+make win server !! 
+organization : cci europe , research development 
+lines : 72 
+try make 24 bit window use 8 bit 
+server . 
+far know possible 
+server support visual . 
+use 
+sun ipc card . 
+run give : 
+... 
+screen # 0 : 
+dimension : pixel millimeter 
+resolution : dot per inch 
+depths 4 : 1 , 5 , 8 , 24 
+root window id : 
+depth root window : 8 plane 
+number : minimum 1 , maximum 6 
+default : 
+... 
+number visual : 8 
+default visual id : 
+... 
+visual : 
+visual id : 
+class : 
+depth : 8 plane 
+size : 256 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+visual : 
+visual id : 
+class : 
+depth : 24 plane 
+size : 256 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+visual : 
+visual id : 
+class : 
+depth : 24 plane 
+size : 256 entry 
+red , green , blue mask : , , 
+significant bit color specification : 8 bit 
+code look like : 
+null null 
+1 , `` connect x server % '' , null ; 
+; use screen 
+, , 24 , 
+, & 
+
+& , 0 , ; 
+, , , 
+x , y , w , h , 0 , 24 , , 
+, 0 , & ; 
+
+result error . 
+anyone please tell ? 
+
+| henrik winther nielsen ii 
+| basic development cc cccc 
+| cci europe mail : cc cc ii 
+| oester 9 phone : 361 cc cccc ii 
+| ii 
+| denmark e u r o p e 
+

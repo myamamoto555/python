@@ -1,0 +1,64 @@
+: ingolf 
+subject : re : title 
+organization : cs department , dortmund university , germany 
+lines : 55 
+distribution : world 
+: . 
+de 
+keyword : 
+article < > , andre beck write : 
+| > 
+| > article < > , thomas wolfram write : 
+| > | > > hey guy ! 
+| > | > > work many station would like name current 
+| > | > > title open machine name 
+| > | > > close . 
+word , want $ host $ appear 
+| > | > > title open $ host close . 
+| > | > > ? 
+| > | > 
+| > | > almost window manager twm , mwm , derivate support 
+| > | > escape sequence . 
+purpose put follow 
+| > | > . 
+login use csh , sh modify . 
+| > | > 
+| > | > `` $ term '' `` '' 
+| > | > 
+| > | > 
+| > 
+| > 1 feature window manager . 
+| > 2 sequence ansi compatible , ? 
+| > anyone know compatible sequence 
+| > ? 
+would think dc device control sequence introduce , 
+| > may csi sequence exist , ? 
+| > must work vt compatible , may work 
+| > . 
+work . 
+least problem . 
+- back original 
+question : 
+usually start new select proper menu entry desktop 
+menu . 
+sample command : 
+- sl 999 - n - title - e & 
+- n - title option give text window icon . 
+use 
+wonderful extension csh , following : 
+
+alias echo - n ' ^ 2 \ ; $ host : $ cwd ^ g ' 
+~ . 
+. 
+special alias . 
+execute time 
+print prompt . 
+, current host name current 
+directory path title bar . 
+
+____ 
+unido ingolf university dortmund , l informatik xii 
+___ p.o. box 500 500 , dortmund 50 , f.r. germany 
+\ \ phone : , fax : 
+\ __ \ email : 
+

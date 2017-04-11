@@ -1,0 +1,36 @@
+: jurgen botz 
+subject : re : secret source announcement 
+organization : mount holyoke college 
+lines : 32 
+distribution : world 
+: 
+article < > marc horowitz write : 
+> , ask , rather , ask computer . 
+> 
+> % telnet 25 
+> try ... 
+> connect . 
+> escape character ' ^ ' . 
+> 220 sendmail 4.1 nist ready sat , 17 apr 93 edt 
+> clipper 
+> 250 - < > 
+> ... 
+> 221 closing connection 
+> connection close . 
+> 
+> well , interesting . 
+dorothy denning , mitch kapor , ... 
+even interesting : smtp server longer 
+recognize ` ' ` ' command ... 
+telnet smtp 
+try ... 
+connect . 
+escape character ' ^ ' . 
+220 sendmail 4.1 nist ready tue , 20 apr 93 edt 
+clipper 
+500 command unrecognized 
+seem like like snoop around , marc . 
+-- 
+jurgen botz , | vending machine respond finger 
+south hadley , ma , usa | request list item currently 
+-- unix dead , long live unix -- | available purchase ... - 

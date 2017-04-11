@@ -1,0 +1,45 @@
+: 
+subject : xfree86 
+organization : at&t 
+distribution : na 
+keywords : 
+lines : 39 
+hello : 
+novice x user question . 
+computer configuration x problem follow : 
+run 
+interface 250 m tape drive . 
+load basic os include nsu 
+inet utility . 
+xfree86 binary install properly . 
+execute run problem . 
+however , try access tape drive x , 
+machine lock instantly . 
+x access 
+tape , tape drive work fine . 
+soon try 
+; screen change mode , , gray background 
+pattern come fork . 
+login 
+another terminal execute shutdown reset system . 
+contact problem . 
+claim 
+server work tape drive . 
+also 
+claim need nsu network system utility run x ; 
+need inet . 
+experience need get 
+xfree86 work . 
+concerned load nsu inet 
+package get x work unless inet package cause problem . 
+would like get x tape drive co-exist 
+system . 
+shed light problem , would appreciate . 
+one colleague imply might hardware conflict . 
+true , 
+direction look resolve conflict ? 
+thanks , 
+kenneth 
+at&t bell laboratories 
+263 shuman blvd. . 
+naperville , il 

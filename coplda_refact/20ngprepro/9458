@@ -1,0 +1,58 @@
+: der mouse 
+subject : re : create 8 bit window 24 bit display . 
+. 
+? 
+organization : mcgill research centre intelligent machine 
+lines : 59 
+article < > , bram write : 
+> use x server provide 3 visual : 8 bit , 
+> 24 bit 24 bit . 
+lucky dog ... : - 
+> problem occur try create window visual 
+> different visual parent use default 
+> visual . 
+> xlib reference guide ' o reilly one read 
+> section , something like : 
+> current implementation x11 : use visual 
+> parent 's , sure create find suitable 
+> use window attribute create , 
+> else occur . 
+> warning , strangely enough , mention newer 
+> edition guide . 
+apply equal force earlier version . 
+presumably 
+recently author decide important enough mention . 
+necessity refer always , 
+implicit way request default attribute 
+new window . 
+> however , even pass along suitable , still get 
+> create window visual . 
+> cmap ; 
+> win 
+... 
+> , border width 
+> 8 , depth 
+> , class 
+> , visual 
+> , 
+> & 
+> ; 
+warning read incomplete . 
+
+provide also border . 
+default border 
+, valid window 's depth 
+match parent 's . 
+specify correct depth , 
+, problem go away . 
+another problem : find anything indicate 
+make sense parameter 
+. 
+xlib implementation probably define 
+zero , simplify conversion wire format , 
+unwittingly ask border width zero , due xlib 
+implementation provide stricter . 
+fair , 
+entirely certain possible xlib catch . 
+der mouse 
+

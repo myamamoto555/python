@@ -1,0 +1,31 @@
+: tom huot 
+subject : re : soundblaster irq port setting 
+lines : 22 
+: 
+organization : cray research inc. . 
+: tin version 1.1 
+write : 
+: william roger uzun write : 
+: > soundblaster board pc , 
+: > irq 7 , port . 
+conflict 
+: > parallel port ? 
+ide controller , board 
+: > , port vga board . 
+choose 
+: > another irq besides 7 ? 
+irq 7 safe use 486 motherboards ? 
+: recently add modem computer , notice use 
+: sb card . 
+never problem , 
+: wonder . 
+think would cause conflict . 
+would also like explanation . 
+anyone explain 
+sb pro lpt 1 share irq , please . 
+thanks 
+-- 
+
+tom huot 
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 

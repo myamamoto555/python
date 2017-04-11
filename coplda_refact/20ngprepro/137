@@ -1,0 +1,26 @@
+: r w 
+subject : screen problem 
+keyword : unix solari 
+organization : georgia institute technology 
+lines : 23 
+experiment : sun window log 
+solaris 2 . 
+x machine use ; `` l '' get first 
+character line display last column display 
+rest line wrap next line display . 
+log condition persist . 
+check , try reset 
+effect . 
+use telnet instead occur . 
+try unix console occur . 
+1 cause ? 
+2 avoid ? 
+3 terminal characteristic reset ? 
+please send reply 
+-- 
+r w 
+georgia institute technology , atlanta georgia , 
+uucp : ... ! 
+! 
+
+arpa : 

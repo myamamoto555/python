@@ -1,0 +1,98 @@
+: c.m. hicks 
+subject : re : 8x cd player 
+: 
+organization : 
+keyword : oversampling , cd , digitized audio 
+lines : 82 
+dave mc mahan write : 
+> previous article , joel kolstad write : 
+article < > h. c. bowman write : 
+> 
+> buy new portable cd player office , notice 
+> proudly proclaim `` 8 time oversampling '' box . 
+think 
+> understand oversampling rate discrete `` sample '' 
+> exceed highest frequency component interest factor , 
+> understand `` 8 time '' business ... seem 
+> buy first cd player really 10 year ago ?! 
+, spec 
+> say `` 4 time '' ... could someone please tell whether get 
+> senile ? 
+, good player take 
+> sample higher rate ? 
+datum ever read bar , course , 
+eventually get turn 44.1 khz , 16 bit , two channel datum . 
+oversampling take two discrete datum point , interpolate n-1 point 
+n time . 
+ask , people say 
+interpolation simply linear interpolation , significantly 
+complicate . 
+> quite correct understanding . 
+filter 
+> interpolation , would distort frequency content signal 
+interpolate - linear interpolation though . 
+correct 
+frequency content alter specifically , baseband 
+spectrum preserve , every nth image spectrum . 
+
+n-1 n image spectrum remove , n oversampling rate 
+> listen . 
+generally , player run sample thru 
+> filter network . 
+ecg waveform person 's 
+ideally filter gain 1 , gain 0 
+new nyquist frequency . 
+practice finite transition 
+band require , also certain amount ripple 
+leakage . 
+high order eg 200 tap digital filter , 
+good approximation easily achieve . 
+< bit delete observation interpolation filter work > 
+> case care , filter method use fir finite impulse response 
+> filter . 
+would guess cd maker use kind method . 
+anybody 
+> know real answer ? 
+would say use tap delay line 
+> weighting accomplish filter . 
+strike 
+> cost effective method volume production run . 
+, actually use digital fir like , build hardware , 
+custom vlsi chip mainly economic reason . 
+anyway , , purpose oversampling move `` effective '' 
+sampling rate n time 44.1 khz , order use higher frequency 
+filter . 
+quality filter , higher oversampling 
+let build cheaper filter , whereas price filter , higher 
+oversampling let build better filter . 
+, assume quality 
+component cd player remain , 
+allow manufacturer produce _ slightly _ better sound due 
+filter . 
+> actually , think reason say 
+> . 
+would guess cheaper 
+> filter signal . 
+use sloppier component 
+> give filter roll-off sharp . 
+bad 
+> charge something think actually less costly build . 
+guess answer somewhere two . 
+interesting ? 
+aside , may aware scheme 
+use pioneer wadia , call pioneer , least legato 
+link . 
+hear one player , read advertising 
+blurb , couple article deduce 
+build lousy digital oversampling filter , let load 
+first image ie spectrum . 
+talk bob stuart 
+boothroyd stuart , aka meridian confirm suspicion . 
+say 
+sound awful , would , would ... 
+christopher 
+-- 
+
+christopher hicks | paradise linear gaussian world 
+| also report taste hot sweaty 
+

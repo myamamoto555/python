@@ -1,0 +1,25 @@
+: kelso 
+subject : two-line orbital element set : space shuttle 
+keywords : space shuttle , orbital element , keplerian 
+: 
+organization : air force institute technology 
+lines : 18 
+current orbital element norad two-line element set 
+carry celestial bb , , update daily 
+possible . 
+documentation tracking software also available 
+system . 
+service satellite user community , current 
+element current shuttle mission provide . 
+celestial 
+bb may access 24 300 , 1200 , 2400 , 4800 , 9600 bp use 
+8 datum bit , 1 stop bit , parity . 
+element set also update daily , shuttle element , documentation 
+software also available via anonymous ftp 
+directory . 
+st 55 
+1 93 27 0 63 
+2 201 
+-- 
+dr kelso assistant professor space operations 
+air force institute technology 

@@ -1,0 +1,64 @@
+: david a. wagner 
+subject : re : view postscript file x window 
+originator : 
+: 
+organization : princeton university 
+lines : 54 
+article < > kin cho write : 
+> 
+> also live utility convert postscript plain 
+> text , retain page count know many page 
+> original document contain . 
+> 
+well , know one hack sort conversion . 
+first 
+get ghostscript check . 
+p file come . 
+print information text string go 
+page , maintain page count . 
+write little c program 
+massage output g - . 
+p somewhat , 
+get string document . 
+guarantee 
+break , though - use vary 
+degree success . 
+anyways , try , may want . 
+
+massager : filter use g ; crude postscript - > ascii conversion 
+
+usage : 
+cat | gs - . 
+ps - | massager 
+
+print new page . 
+
+put follow source compile : 
+
+
+
+main 
+
+char line 1000 , p ; 
+line , line , ! 
+null 
+line 0 ` p ' 
+printf '' \ f \ n '' ; 
+else line 0 's ' & & line 1 ' ' 
+p line , ' ' null 
+continue ; 
+p ' \ 0 ' ; 
+p line , ' ' null 
+continue ; 
+p + + ; p ; p + + 
+p ! 
+' \ \ ' | | p 1 ! 
+' ' & & p 1 ! 
+' ' 
+p ; 
+' \ n ' ; 
+
+return 0 ; 
+
+
+david wagner 

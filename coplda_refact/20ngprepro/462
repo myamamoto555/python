@@ -1,0 +1,1500 @@
+: l. detweiler 
+subject : privacy & anonymity internet faq 2 3 
+supersedes : < > 
+organization : tmp enterprises 
+lines : 1543 
+expire : 21 may 1993 gmt 
+: 
+: . 
+
+summary : email account privacy , anonymity , file encryption , 
+academic computer policy , relevant legislation reference , 
+eff , privacy rights issue associate use 
+internet global network general . 
+: 
+: 
+: 
+version : 2.1 
+identity , privacy , anonymity internet 
+
+c 1993 l. detweiler . 
+commercial use except permission 
+author , otherwise may freely copy . 
+alter . 
+please credit quote . 
+summary 
+
+email account privacy , anonymity , file encryption , academic 
+computer policy , relevant legislation reference , eff , 
+privacy rights issue associate use internet 
+global network general . 
+search < # . 
+# > exact section . 
+search underline 
+next section . 
+part 2 
+file 
+resources 
+--------- 
+< 4.1 > unix program related privacy ? 
+< 4.2 > learn use cryptography ? 
+< 4.3 > cypherpunk mail list ? 
+< 4.4 > newsgroup ? 
+faq ? 
+< 4.5 > internet privacy enhance mail pem ? 
+< 4.6 > request comment rfc related privacy ? 
+< 4.7 > run anonymous remailer ? 
+< 4.8 > reference privacy email ? 
+< 4.9 > email , usenet , internet use policy ? 
+< 4.10 > mit `` crosslink '' anonymous message tv program ? 
+miscellaneous 
+------------- 
+< 5.1 > `` digital cash '' ? 
+< 5.2 > `` hacker '' `` cracker '' ? 
+< 5.3 > `` cypherpunk '' ? 
+< 5.4 > ` steganography ' anonymous pool ? 
+< 5.5 > ` security obscurity ' ? 
+< 5.6 > ` identity daemon ' ? 
+< 5.7 > standard need guard electronic privacy ? 
+issue 
+------ 
+< 6.1 > electronic frontier foundation eff ? 
+< 6.2 > computer professional social responsibility ? 
+< 6.3 > ` operation sun devil ' steve jackson game case ? 
+< 6.4 > integrated services digital network isdn ? 
+< 6.5 > national research education network ? 
+< 6.6 > fbi 's propose digital telephony act ? 
+< 6.7 > u.s. legislation relate privacy network ? 
+< 6.8 > reference rights cyberspace ? 
+< 6.9 > computer academic freedom caf archive ? 
+footnote 
+--------- 
+< 7.1 > background behind internet ? 
+< 7.2 > internet ` anarchy ' like english language ? 
+< 7.3 > want list 
+< 7.4 > change history 
+
+resources 
+
+_____ 
+< 4.1 > unix program related privacy ? 
+information , type ` man cmd ' ` apropos keyword ' 
+unix shell prompt . 
+- change password 
+finger - obtain information remote user 
+- change information obtainable remote 
+user sometimes ` - f ' 
+- change rights associate file directory 
+- shell change default creation file access 
+rights 
+ls - list rights associate file directory 
+- allow disable access control particular user 
+server 
+last - list latest user login system 
+origination 
+- list user , time , origination 
+w - list user run 
+- access control list x window client use 
+- control x window server authentication 
+. 
+signature - file home directory append usenet post 
+. 
+forward - file use forward email account 
+. 
+- file use x window server authentication key 
+$ signature - variable use name email usenet posting 
+` ' program loosely base smi 's 
+`` '' although none code remain . 
+
+originally write van jacobson , lawrence berkeley laboratory , 
+part ongoing research project investigate improve 
+tcp internet gateway performance . 
+current version 
+available via anonymous ftp host currently 
+address file compress unix tar 
+file . 
+program subject ` standard ' berkeley network 
+software copyright . 
+_____ 
+< 4.2 > learn use cryptography ? 
+general introduction mostly theoretical cryptographic issue , 
+especially frequently discuss , available 
+faq form : 
+> compile : 
+> carl ellison 
+> doug gwyn 
+> steven bellovin 
+nist u.s. national institute standards technology 
+publish introductory paper cryptography , special 
+publication `` public-key '' james nechvatal 
+april 1991 . 
+available via anonymous ftp 
+, file -2 . 
+txt . 
+also via available anonymous ftp 
+crypto directory . 
+cover technical mathematical aspect 
+encryption number theory . 
+general information find faq paul fahn rsa 
+via anonymous ftp . 
+. 
+see 
+` readme ' file information ` tex ' version . 
+also 
+available hardcopy $ 20 rsa laboratories , 100 marine 
+parkway , redwood city , ca . 
+send question 
+. 
+phil zimmerman 's pgp pretty good privacy public-domain package 
+public key encryption available numerous site , 
+widespread use internet general unix-based file 
+encryption include email . 
+consult archie ftp database . 
+also see newsgroup . 
+mailing list request 
+. 
+faq marc 
+< > : 
+> program perform privacy enhance mail pem 
+> use cryptographic technique rsa des . 
+allow 
+> electronic mail property authentication 
+> i.e. send confirm privacy i.e. nobody 
+> read except intended recipient . 
+> 
+> write primarily mark riordan 
+> < > . 
+code public domain , 
+> except rsa routine , library call 
+> license rsa data security inc. . 
+> 
+> available via anonymous ftp citizen permanent 
+> resident u.s. ; cd read 
+> readme file info . 
+> 
+> , well crypt stuff , ` home site ' 
+> , open ftp user 
+> u.s. canada citizen permanent resident . 
+
+> find obtain access , ftp , cd , 
+> read file . 
+note : cryptography generally well integrate email yet 
+system proficiency require user utilize . 
+_____ 
+< 4.3 > cypherpunk mail list ? 
+eric hughes < > run ` cypherpunk ' mailing list 
+dedicate `` discussion technological privacy 
+digital domain . '' 
+send email 
+add subtract 
+list . 
+charter : 
+> important means defense privacy encryption . 
+> encrypt indicate desire privacy . 
+encrypt 
+> weak cryptography indicate much desire 
+> privacy . 
+cypherpunks hope people desire privacy 
+> learn best defend . 
+_____ 
+< 4.4 > newsgroup ? 
+faq ? 
+newsgroup 
+
+. 
+news 
+. 
+talk 
+-------------------------- 
+moderate unmoderated issue relate academic freedom 
+privacy university . 
+document example violate 
+privacy e.g. email . 
+document example ` censorship ' 
+e.g. limit usenet group local availability . 
+
+-------------- 
+virtual reality , science fiction william gibson bruce 
+sterling , cyberpunk mainstream . 
+
+----------- 
+usenet network news transfer protocol nntp post mechanism , 
+simple mail transfer protocol smtp , ` obligatory hack ' report . 
+
+----------- 
+general privacy issue involve taxpaying , licensing , social 
+security number , etc. . 
+
+
+------------------ 
+computer related security issue . 
+faq . 
+
+
+---------------- 
+dedicate discuss public domain cryptographic software 
+package : pgp , `` pretty good privacy '' software develop 
+phil zimmerman public key encryption , mark 
+riordan public key des encryption . 
+
+-------------------- 
+privacy issue associate computer technology . 
+example : 
+caller identification , social security number , credit 
+application , mailing list , etc. . 
+moderate . 
+
+
+------------- 
+moderate unmoderated group associate electronic 
+frontier foundation start mitch kapor protect civil 
+constitutional rights electronic realm . 
+
+
+----------------- 
+concern news administrator . 
+nntp standard mechanism . 
+
+---------- 
+usenet traffic distribution . 
+frequent poster , 
+voluminous group , active site , etc. . 
+
+--------- 
+consider scientific social issue cryptography . 
+example : legitimate use pgp , public-key patent , des , 
+cryptographic security , cypher breaking , etc. . 
+faq 
+
+faq `` question '' available 
+newsgroup . 
+answer via anonymous ftp . 
+
+also directory 
+. 
+answer x x archive name . 
+
+faq archive file ` ' . 
+: 
+
+------------------ 
+source information internet connect 
+, nsf commercial vendor . 
+
+---------------- 
+computer related security issue arise 
+, mostly unix related . 
+
+----------- 
+privacy issue associate use u.s. social 
+security number ssn . 
+
+----- 
+public dialup internet account list . 
+
+------------------- 
+find email address undergraduate graduate 
+student , faculty staff various college 
+university . 
+
+--------- 
+information , program public key mail encryption 
+officially sanction public key partners inc. , company 
+patent public key cryptography . 
+
+------------------ 
+question unix , include information 
+` finger ' terminal spy . 
+distribution 
+--------------- 
+know geographic , university , network distribution . 
+_____ 
+< 4.5 > internet privacy enhance mail pem ? 
+internet draft privacy enhance mail pem describe standard 
+revision six year delineate official protocol 
+email encryption . 
+standard recently stabilize 
+implementation develop . 
+- : `` privacy enhancement internet electronic mail : 
+part : message encryption authentication procedure . '' 
+j. 
+linn < > 
+- : `` privacy enhancement internet electronic mail : part 
+ii : key management '' s. kent < > 
+- : `` privacy enhancement internet electronic mail : 
+part iv : key certification related services '' b. kaliski 
+< > 
+- : `` privacy enhancement internet electronic mail : part 
+iii : algorithm , mode , identifiers '' d. 
+< > 
+send email information . 
+see `` rfc 
+related privacy '' information obtain rfc . 
+_____ 
+< 4.6 > request comment rfc related privacy ? 
+: smtp , simple mail transfer protocol 
+: nntp , network news transfer protocol 
+: standard interchange network news message 
+: glossary networking term 
+: answer `` experienced internet user '' question 
+: answer `` new internet user '' question 
+: privacy issue network information center database 
+`` fyi : answer commonly ask `` new internet user '' 
+question , include : basic terminology internet , 
+smtp , ftp , internet organization iab internet 
+activity board ietf internet task force , 
+glossary term . 
+also : 
+. 
+q. 
+> rfc obtain via ftp , 
+> rfc : rfc : ` nnnn ' refer 
+> number rfc . 
+login ftp , username ` anonymous ' 
+> password ` guest ' . 
+nic also provide automatic mail 
+> service site use ftp . 
+address 
+> request subject field 
+> message indicate rfc number , ` subject : rfc nnnn ' 
+> ` subject : rfc ' postscript rfc . 
+> 
+> rfc also obtain via ftp . 
+use ftp , 
+> login username ` anonymous ' password ` guest ' ; 
+> connect rfc directory ` cd rfc ' . 
+file name 
+> form ` nnnn ' refer number 
+> rfc . 
+nis also provide automatic mail service 
+> site use ftp . 
+address request 
+> leave subject field message 
+> blank . 
+first line text message must ` send 
+> ' , nnnn replace rfc number . 
+_____ 
+< 4.7 > run anonymous remailer ? 
+cypherpunk remailer source 
+directory . 
+write perl , 
+relatively easy install administrative rights require . 
+karl barrus < > information 
+modification . 
+also , remailer operator mention 
+amenable discuss feature , problem , help new site 
+become operational . 
+address point section 
+`` anonymous use '' document prior 
+advertise service . 
+commit long-term 
+stability site avoid run one surreptitiously . 
+_____ 
+< 4.8 > reference privacy email ? 
+brown , bob . 
+`` ema urge user adopt policy e-mail privacy . '' 
+network world oct 29 , 1990 , 7.44 : 2 . 
+bairstow , jeffrey . 
+`` read electronic mail ? '' 
+electronic 
+business june 11 , 1990 16 11 : 92 . 
+`` electronic envelope - uncertainty keep e-mail private '' 
+scientific american , february 1993 . 
+
+
+
+-- 
+article rights email privacy . 
+ruel t. hernandez . 
+
+-- 
+`` computer electronic mail privacy '' , edit version 
+law school seminar paper ruel t. . 
+
+-- 
+compilation bibliography e-mail privacy issue part 
+2 work . 
+compile stacy b. veeder . 
+
+-- 
+author digital research try formalize employee 
+privacy policy e-mail . 
+divide two 
+group : us constitutional law , california law . 
+
+-- 
+formulate company policy access disclosure 
+electronic mail company computer systems david r. johnson 
+john podesta electronic mail assocation 
+
+-- 
+information alcor co. , e-mail privacy suit . 
+
+-- 
+email privacy search berkeley . 
+_____ 
+< 4.9 > email , usenet , internet use policy ? 
+computer policy critique archive collection 
+computer policy many school network , run 
+computer academic freedom group electronic frontier 
+foundation ftp site . 
+collection also include critique 
+policy . 
+> gopher , archive command : 
+> gopher - p 
+> 
+> archive also accessible via anonymous ftp email . 
+ftp 
+> . 
+directory 
+> ` ' . 
+email access , send email 
+> . 
+include line : 
+> 
+> send 
+> 
+> list file want . 
+file 
+> readme detailed description item directory . 
+> 
+> information , make contribution , report typo 
+> contact j.s. greenfield . 
+directory ` widener ' 
+> contain additional policy critique . 
+
+
+
+-- 
+acceptable use policy various network , include compuserve 
+file ` compuserve ' , nsfnet file ` nsfnet ' information 
+research commercial use . 
+see index . 
+email 
+-- 
+policy various handle issue 
+email privacy , control , abuse , compile t. hooper 
+< > . 
+
+-- 
+computer use policy number school . 
+see 
+full list description . 
+commentary 
+
+
+-- 
+opinion best academic computer policy . 
+
+-- 
+university treat email computer file private ? 
+
+-- 
+policy user write usenet . 
+
+-- 
+policy user read usenet : university remove 
+restrict newsgroup people find 
+offensive ? 
+policy 
+-- 
+guidance create evaluate university 's 
+academic computer policy ? 
+______ 
+< 4.10 > mit `` crosslink '' anonymous message tv program ? 
+> crosslink anonymous message system run mit student 
+> cable . 
+provide anonymous medium mit 
+> student say thing might otherwise find 
+> difficult , inconvenient impossible say person . 
+
+> also way send fun totally random message 
+> friend air . 
+similar anonymous message 
+> page find many college newspaper , except 
+> electronic nature free . 
+message post service via email . 
+
+information send email . 
+miscellaneous 
+
+_____ 
+< 5.1 > `` digital cash '' ? 
+digital encryption authentication technology , 
+possibility widespread digital cash system may someday 
+realize . 
+system utilize code send user bank 
+similar today 's checking system except entirely digital may 
+one approach . 
+issue cryptography , privacy , 
+anonymity closely associate transfer cash 
+economy . 
+see article scientific american david chaum 
+~ dec. 1992 . 
+experimental digital bank run karl barrus 
+< > base suggestion hal finney 
+cypherpunk mail list . 
+use server send mail 
+message follow text : 
+: : 
+command : help 
+
+` email address . 
+_____ 
+< 5.2 > `` hacker '' `` cracker '' ? 
+term arouse strong feeling many meaning , 
+especially internet . 
+general news media past 
+person use computer network malicious end 
+break system refer hacker , 
+internet user prefer term `` cracker '' . 
+instead , 
+`` hacker '' perceive benign intensely ambitious , 
+curious , drive computer user explore obscure area 
+system , example -- something proud electronic pioneer 
+patriot . 
+sense intend document . 
+see also 
+`` hacker 's dictionary '' faq ` ' . 
+_____ 
+< 5.3 > `` cypherpunk '' ? 
+charter cypherpunk mailing list : 
+> cypherpunks assume privacy good thing wish 
+> . 
+cypherpunk acknowledge want privacy 
+> must create expect government , 
+> corporation , large , faceless organization grant 
+> privacy beneficence . 
+cypherpunks know people 
+> create privacy century whisper , 
+> envelope , close door , courier . 
+cypherpunks seek 
+> prevent people speak experience 
+> opinion . 
+see information cypherpunk mailing list . 
+see also manifesto cryptography glossary 
+: . 
+_____ 
+< 5.4 > ` steganography ' anonymous pool ? 
+closely associate encryption ` steganography ' 
+technique pursue private encrypted communication 
+conceal existence communication . 
+many new possibility area introduce 
+proliferation computer technology . 
+example , possible 
+encode message bit image , 
+typically ` noisy ' . 
+addition , item 
+post public place newsgroup , virtually 
+untraceable communication take place sender 
+receiver . 
+communication electronic 
+realm one another possibility set mailing list 
+individual message get broadcast entire list individual 
+user decode particular message unique key . 
+
+anonymous pool set miron 
+experiment . 
+send email 
+< > one follow 
+command subject line : 
+subscribe 
+unsubscribe 
+help 
+_____ 
+< 5.5 > ` security obscurity ' ? 
+` security obscurity ' refer attempt gain 
+protection system weakness hide sensitive information 
+program relate . 
+example , company may make 
+public information software 's encryption technique evade 
+` attack ' base knowledge . 
+another example would 
+conceal datum existence security hole bug 
+operate system . 
+, reliance may make fact 
+standard mechanism potential problem serious 
+`` widely know '' `` widely use . '' 
+
+argument occasionally apply mechanism email usenet 
+post ` forgery ' . 
+` security obscurity ' regard 
+feeble technique best inappropriate ineffective 
+worst also call `` approach '' . 
+see faq 
+. 
+remark john perry barlow , cofounder electronic 
+frontier foundation , direct nsa agent first 
+international symposium national security & national 
+competitiveness hold mclean , virginia dec. 1 , 1992 : 
+> digitized information hard stamp classified keep 
+> contain . 
+... stuff incredibly leaky volatile . 
+
+> almost life form ability . 
+
+> something hit net something people 
+> find interesting spread like virus mind . 
+
+> believe must simply accept idea move 
+> environment information interesting 
+> people go get . 
+little 
+> . 
+bad thing view , 
+> may differ ... 
+_____ 
+< 5.6 > ` identity daemon ' ? 
+describe protocol standard allow unix program 
+query remote user 's login name connection local 
+communication socket connection type establish 
+ftp telnet session , example . 
+standard 
+widely support , perhaps 10 % internet site currently implement 
+number increase . 
+mechanism detrimental 
+anonymity . 
+regular user disable system 
+adminstrator circumvent . 
+standard may represent 
+trend toward greater authentication mechanism . 
+_____ 
+< 5.7 > new standard need guard electronic privacy ? 
+
+----------------- 
+- stable , secure , protected , officially sanction permit , 
+publicly privately operate anonymous server hub . 
+- official standard encryption anonymity mail usenet 
+posting . 
+- truly anonymous protocol source destination information 
+obscure absent hidden route mechanism chain , 
+encrypted address , etc. . 
+- standards anonymous email address , embed file , 
+remailer site chain . 
+general 
+------- 
+- recognition anonymity , cryptography , related privacy 
+shield legitimate , useful , desirable , crucial 
+general public government . 
+- widespread use implementation technology 
+system designer 
+hardware , software , standard , implement ` securely , ' 
+` seamlessly , ' ` transparently ' . 
+- general shift use , dependence , reliance means 
+wiretapping electronic surveillance law enforcement 
+agency . 
+- publicity , retraction , dissolution law government 
+agency oppose privacy , replace structure dedicate 
+strengthen protect . 
+issue 
+
+_____ 
+< 6.1 > electronic frontier foundation eff ? 
+: _ statement : 
+> new world arise vast web digital , electronic 
+> media connect . 
+computer-based communication media like 
+> electronic mail computer conferencing become basis 
+> new form community . 
+community without single , 
+> fix geographical location comprise first settlement 
+> electronic frontier . 
+> 
+> well-established legal principle cultural norm give 
+> structure coherence use conventional media like 
+> newspaper , book , telephone , new digital media 
+> easily fit exist framework . 
+conflict come 
+> law struggle define application context 
+> fundamental notion speech , property , place take 
+> profoundly new form . 
+people sense promise 
+> threat inherent new computer communication technology , 
+> even struggle master simply cope 
+> workplace home . 
+> 
+> electronic frontier foundation establish help 
+> civilize electronic frontier ; make truly useful 
+> beneficial technical elite , everyone ; 
+> way keep society 's highest 
+> tradition free open flow information 
+> communication . 
+eff start multimillionaire mitchell kapor , founder 
+lotus software , john barlow , lyricist grateful dead 
+rock band . 
+highly publicize endeavor organization 
+involve legal defense steve jackson games fbi 
+raid accompany civil suit see section `` steve 
+jackson games '' . 
+foundation publish eff news effector 
+online electronically , send request . 
+letter mitchell kapor chairman subcommittee 
+primary jurisdiction telecommunications policy date 
+november 5 , 1991 , representative edward j. markey complement 
+mitchell kapor `` insight development national 
+public information infrastructure '' `` appreciate greatly 
+member subcommittee '' complete text 
+: -12 : 
+> ... need pursue policy encourage bell company 
+> work sector communication industry create 
+> consumer-oriented , public information network . 
+please let 
+> staff know policy computer 
+> industry believe would best serve public interest create 
+> reasonably price , widely available network 
+> competition open innovation reward . 
+also want 
+> learn lesson computer industry past ten 
+> fifteen year apply current debate 
+> structure information communication network 
+> future ... ask help gain input computer 
+> industry subcommittee shape policy 
+> bring spirit innovation entrepreneurship 
+> information service industry . 
+
+
+
+-- 
+file basic information eff include goal , mission , 
+achievement , current project . 
+contain membership form . 
+
+-- 
+eff mission statement . 
+
+-- 
+eff founding press release . 
+
+-- 
+john perry barlow 's `` terribly brief history eff '' july 
+10 , 1990 . 
+eff conceive found , major legal case , 
+organizational direction . 
+
+-- 
+eff legal case summary . 
+_____ 
+< 6.2 > computer professional social responsibility ? 
+computer professional social responsibility 
+work protect promote electronic civil liberty issue 
+since ~ 1982 . 
+group three office palo alto , cambridge , 
+washington , dc 20 chapter . 
+involve litigation 
+fbi , nsa , nist , secret service 
+u.s. government agency declassify provide documentation 
+issue operation , fbi wiretap proposal , 
+nsa 's interference , breakup 2600 raid 
+arlington , va nov 1992 . 
+member speak frequently front 
+congress , state legislator public utility commission 
+testify privacy , information policy , computer security , 
+caller identification . 
+create extensive internet privacy library available 
+via ftp , gopher , wais , email , currently comprise 
+largest collection privacy document internet . 
+
+information , anonymous ftp : . 
+thanks dave banisar < > contribution 
+. 
+_____ 
+< 6.3 > ` operation ' steve jackson game case ? 
+early 1990 's fear spread among u.s. law enforcement agency 
+illicit activity ` hacker ' ` ' involve 
+activity credit card fraud long-distance call thievery . 
+see : _ .04 : 
+> ` operation , ' crackdown may 
+> , concentrate telephone credit-card 
+> abuse , follow seizure plan success . 
+> bulletin board systems go america , terrifying 
+> underground swiftly deprive least 
+> criminal instrument . 
+also saddle analyst 
+> 24,000 floppy disk , confront harry justice department 
+> prosecutor daunting challenge gigantic nationwide 
+> hacker involve highly technical issue dozen 
+> jurisdiction . 
+massive ` ' never materialize , although isolate 
+instance prosecution pursue . 
+movement reach 
+crescendo texas highly publicize case illegal 
+search seizure involve steve jackson games company 
+austin texas march 1 , 1990 . 
+column ' labour lose 
+bruce sterling < > fantasy science 
+fiction magazine : 
+> early morning raid unlawful unconstitutional 
+> warrant , agent secret service conduct search 
+> office . 
+leave take manuscript prepare 
+> publication , private electronic mail , several computer , 
+> include hardware software computer bulletin 
+> board system . 
+yet jackson business 
+> innocent crime , never suspect first place . 
+> raid stage unfounded suspicion 
+> somewhere jackson 's office ` might ' document 
+> compromise security 911 telephone system . 
+fbi agent involve seizure name civil suit file 
+behalf steve jackson games electronic frontier 
+foundation . 
+see information eff . 
+article joe 
+abernathy houston chronicle ~ feb 1 , 1993 : 
+> austin -- electronic civil rights case secret 
+> service close thursday clear statement federal 
+> district judge sam spark service fail conduct 
+> proper investigation notorious computer crime crackdown , 
+> go far retain custody seize equipment . 
+> 
+> secret service special agent timothy foley chicago , 
+> charge three austin computer march 1 , 
+> 1990 , lead lawsuit , stoically endure spark 's rebuke 
+> service 's poor investigation abusive computer 
+> seizure policy . 
+service seize dozen 
+> computer since crackdown begin 1990 , first 
+> case challenge practice . 
+> 
+> spark grow visibly angry establish austin 
+> science fiction magazine game book publisher never 
+> suspect crime , agent even marginal 
+> research establish criminal connection firm 
+> suspect illegal activity employee , determine 
+> company publisher . 
+indeed , agent testify 
+> even train privacy protection act 
+> special secret service school computer crime . 
+> 
+> `` long would take , mr. foley , find 
+> steve jackson games , ? '' 
+ask spark . 
+`` hour ? 
+> 
+> `` reason , march 2 , could return 
+> steve jackson games copy , floppy disk form , everything 
+> take ? 
+> 
+> `` read article business week magazine 
+> picture steve jackson -- law-abiding , tax-paying citizen 
+> -- say computer crime suspect ? 
+> 
+> `` ever occur , mr. foley , seize material 
+> could harm steve jackson economically ? '' 
+> 
+> foley reply , `` , sir , '' judge offer answer . 
+> 
+> `` actually , idea anybody would actually go 
+> hire lawyer sue . '' 
+> 
+> $ 200,000 spend electronic frontier 
+> foundation bring case trial . 
+eff found 
+> mitchell kapor amid civil liberty movement spark large 
+> part secret service computer crime crackdown . 
+
+
+
+-- 
+collection information operation epic 
+nonprofit publishing project . 
+everything want know 
+could never find . 
+
+-- 
+steve jackson 's response charge . 
+_____ 
+< 6.4 > integrated services digital network isdn ? 
+isdn high-speed datum communication standard utilize 
+exist copper telephone line , possible inexpensive 
+intermediate alternative lay fiber optic cable phone 
+network . 
+speed involve may sufficient audio 
+video transmission application . 
+g. v. der file 
+: -11 : 
+> telecommunications united states crossroads . 
+
+> regional bell operate company free provide 
+> content , shape information networking 
+> irrevocably alter . 
+network open , 
+> accessible , affordable network american public need ? 
+> help decide question . 
+> 
+> electronic frontier foundation recently present plan 
+> congress call immediate deployment national 
+> network base exist isdn technology , accessible anyone 
+> telephone connection , price like local voice service . 
+> believe deployment platform spur 
+> development innovative new information service , maximize 
+> freedom , competitiveness , civil liberty throughout 
+> nation . 
+> 
+> eff testify congress fcc ; make 
+> presentation public utility commision massachusetts 
+> california ; meeting representative telephone 
+> company , publisher , consumer advocate , stakeholder 
+> telecommunications policy debate . 
+> 
+> eff believe participant internet , pioneer 
+> electronic frontier , need voice hear 
+> critical moment . 
+automatically receive description platform detail , 
+send mail follow line : 
+send document 
+send mail . 
+see also introduction eff 
+open platform proposal : -02 . 
+reference 
+
+`` digital data demand . '' 
+macworld , page 224 . 
+-- 
+vs. isdn service product . 
+see comment j. powers 
+: -02 . 
+`` telephone service rings future . '' 
+joshua quittner . 
+newsday , tue , jan 7 1992 . 
+-- 
+implication isdn mass , write popular science 
+style . 
+john perry barlow cofounder eff . 
+regional telephone 
+company ohio bell . 
+isdn `` technological rorschach test . '' 
+anecdote mcdonald 's , barbara bush teleconferencing . 
+see 
+complete text : -01 . 
+: 
+-- 
+file contain email eff public 
+infrastructure group organize month . 
+opinion fact 
+pro con isdn , integrated services digital network . 
+use isdn phone video , audio , etc. japanese model . 
+alternatives isdn , adsl , fiber optics . 
+technical 
+specification isdn , implementation detail , cost issue , 
+political obstacle , rboc , regional bell operate company 
+` baby bells ' , e.g. net , new england telephone . 
+influence 
+development future network e.g. isdn , national 
+research education network , encouraging competition cable 
+tv system . 
+press release news article . 
+letter rep. 
+e. j. markey m. kapor . 
+_____ 
+< 6.5 > national research education network ? 
+nation research education network introduce 
+legislation cosponsor sen. a. gore promote high-speed datum 
+network infrastructure augment internet 50 time 
+faster transmission rate . 
+bill pass house november 
+20 , 1991 , senate november 22 , 1991 , sign 
+president december 9 , 1991 . 
+
+
+
+-- 
+complete text compromise version s. 
+272 , high-performance computing act . 
+. 
+bill 
+-- 
+102nd congress 1st session . 
+text high performance computing 
+bill cosponsor sen. a. gore . 
+
+-- 
+text s. , information infrastructure technology 
+act 1992 introduce senator gore expand federal effort 
+develop technology application high-performance 
+computing high-speed networking , provide 
+coordinate federal program accelerate development 
+deployment advanced information infrastructure . 
+u.s. say play favorite promoting nationwide computer network 
+john markoff , n.y. times ~ 18 dec 91 . 
+-- 
+president bush 's legislation computer datum 
+` superhighway . ' 
+venture monopoly destructive fair 
+competition innovation ? 
+national science foundation nsfnet . 
+complete text -12 . 
+commentary 
+
+
+-- 
+`` propose privacy guideline '' -- statement marc 
+rotenberg , washington director computer professionals social 
+responsibility . 
+. 
+
+-- 
+national research education network : two meeting steve 
+, senior scientist apple computer library december 17 , 1990 
+summary meeting explore educational issue 
+diverse member academia industry . 
+. 
+
+-- 
+feb. 14 1991 essay m. kapor advocate advantage private 
+national public network , specific recommendation open 
+policy encouraging competition . 
+
+-- 
+propose setup . 
+_____ 
+< 6.6 > fbi 's propose digital telephony act ? 
+`` provider electronic communication service private branch 
+exchange operator shall provide within united states 
+capability capacity government intercept wire 
+electronic communication authorize law ... '' 
+` bbs legislative watch : fbi wiretapping proposal thwarted ' 
+s. steele boardwatch magazine , feb. 1993 , p. 19-22 : 
+> move worry privacy expert , software manufacturer 
+> telephone company , fbi propose legislation amend 
+> communications act 1934 make easier bureau 
+> perform electronic wiretapping . 
+propose legislation , 
+> entitle ` digital telephony , ' would require communication 
+> service provider hardware manufacturer make 
+> system ` ' provide ` back door ' law 
+> enforcement officer could intercept communication . 
+furthermore , 
+> capability would provide , 
+> communication progress , exclusive communication 
+> party , regardless mobility target 
+> fbi 's investigation , without degradation service . 
+> 
+> ... proposal , department justice doj keep 
+> communication product market determine 
+> product meet doj 's ... guideline . 
+
+> could result increase cost reduce competitiveness 
+> service provider equipment manufacturer , since 
+> unlikely add feature may result doj rejection 
+> entire product . 
+... fbi proposal suggest 
+> cost wiretap ` service ' bureau would 
+> bear service provider ... 
+> 
+> electronic frontier foundation organize broad coalition 
+> public interest industry group , computer professional 
+> social responsibilty aclu at&t sun 
+> microsystems , oppose legislation . 
+white paper produce 
+> eff ratify coalition , entitle , ` analysis 
+> fbi digital telephony proposal , ' widely distribute 
+> throughout congress . 
+... justice department lobby hard 
+> final day get congress take bill 
+> congress adjourn , bill never ... find congressional 
+> sponsor therefore never officially introduce . 
+fbi 
+> may reintroduce `` digital telephony '' 103rd congress 
+> convene january . 
+
+
+
+
+-- 
+bill ensure continue access law enforcement 
+content wire electronic communication authorize 
+law purpose . 
+version 2 bill fbi 
+change response public response . 
+
+-- 
+house rep bill , telecommunications law . 
+commentary 
+
+
+-- 
+analysis fbi 's digital telephony proposal . 
+
+-- 
+electronic communications privacy act 1986 : layman 's view . 
+
+-- 
+transcript abc 's nightline may 22 , 1992 , fbi , 
+privacy , propose legislation . 
+feature marc 
+rotenberg william sessions , director fbi . 
+
+-- 
+letter director secret service us rep. 
+edwards , , response question raise 
+edwards ' subcommittee . 
+copy come computer professional 
+social responsibility washington , d.c. 
+
+-- 
+description information store fbi 's computer 
+system . 
+_____ 
+< 6.7 > u.s. legislation relate privacy ? 
+
+
+
+-- 
+state computer crime law : 
+al , ak , az , ca , co , ct , de , fl , ga , 
+hus , ia , id , il , , md , mn , nc , nj , 
+nm , ny , , tx , vt , va , wa , wi , wv . 
+
+-- 
+current computer crime law : united states federal 
+code , canada , ghana , great britain . 
+.618 
+-- 
+senate bill 618 , address registration encryption key 
+government . 
+improve 
+-- 
+improvement information access bill . 
+monitor 
+-- 
+senate bill 516 ; concern abuse electronic monitoring 
+workplace . 
+
+-- 
+title 18 , relate computer crime & email privacy . 
+
+-- 
+text simon 's electronic privacy bill , s. 516 . 
+`` prevent 
+potential abuse electronic monitoring workplace . '' 
+_____ 
+< 6.8 > reference rights cyberspace ? 
+
+
+
+-- 
+laurence tribe 's keynote address first conference 
+computer , freedom , & privacy . 
+` constitution cyberspace ' 
+den 
+-- 
+paper present 13th nat'l comp security conf `` concern 
+hacker break computer systems '' dorothy e denning . 
+privacy 
+-- 
+`` computer privacy vs first fourth amendment rights '' 
+michael s. borella 
+
+-- 
+rights expression cyberspace r. e. baird 
+. 
+rights 
+-- 
+bill rights ' meaning electronic frontier . 
+_____ 
+< 6.9 > computer academic freedom caf archive ? 
+caf archive electronic library information 
+computer academic freedom . 
+run computer academic 
+freedom group electronic frontier foundation ftp site . 
+> gopher , archive command : 
+> gopher - p academic 
+> 
+> available via anonymous ftp 
+> directory ` ' . 
+also available via email . 
+
+> information email access send email . 
+> body note include line ` help ' ` index ' . 
+> 
+> information , make contribution , report typo 
+> contact j.s. greenfield . 
+
+
+
+-- 
+codify application academic freedom academic 
+computer , reflect seven month on-line discussion 
+computer academic freedom . 
+cover free expression , due 
+process , privacy , user participation . 
+
+-- 
+directory book reference relate computer academic 
+freedom mention caf discussion . 
+file 
+bibliography . 
+archive 
+-- 
+list file available computer academic freedom 
+archive . 
+
+-- 
+directory issue computer academic freedom 
+news . 
+full list abstract available file ` abstract ' . 
+special issue name month , 
+example , ` june ' . 
+footnote 
+
+_____ 
+< 7.1 > background behind internet ? 
+article `` internet '' fantasy science fiction bruce 
+sterling < > contain general nontechnical 
+introductory note origin internet , include role 
+rand corporation , goal network resilience face 
+nuclear attack , mit , ucla , arpanet , , nsf , , etc. : 
+> arpanet formally expire 1989 , happy victim 
+> overwhelming success . 
+user scarcely notice , 
+> arpanet 's function continued steadily improve . 
+> use standard computer networking 
+> global . 
+1971 , mere twenty-one year ago , 
+> four node arpanet network . 
+today ten 
+> thousand node internet , scatter forty-two 
+> country , coming on-line every day . 
+three million , 
+> possibly four million people use gigantic 
+> . 
+> 
+> internet especially popular among scientist , 
+> probably important scientific instrument late 
+> twentieth century . 
+powerful , sophisticated access 
+> provide specialize datum personal communication speed 
+> pace scientific research enormously . 
+> 
+> internet 's pace growth early 1990s spectacular , 
+> almost ferocious . 
+spread faster cellular phone , 
+> faster fax machine . 
+last year internet grow 
+> rate twenty percent month . 
+number ` host ' 
+> machine direct connection double 
+> every year since 1988 . 
+internet move 
+> original base military research institution , 
+> elementary high school , well public library 
+> commercial sector . 
+reference 
+
+bowers , k. , t. , j. reynolds , k. , m. stahl , a. 
+yuan , `` start - bibliography general internetworking 
+information '' , , u texas , isi , bbn , , mitre , 
+august 1990 . 
+whole internet catalog & user 's guide ed krol . 
+1992 
+o'reilly associates , inc. . 
+-- 
+clear , introduction intimidating business 
+network literacy write humorous style . 
+krol , e. , `` hitchhikers guide internet '' , 
+university illinois urbana , september 1989 . 
+`` user 's directory computer networks '' , tracy . 
+matrix : computer networks conferencing systems worldwide . 
+john quarterman . 
+digital press : bedford , ma . 
+1990 
+-- 
+massive highly technical compendium detail 
+mind-boggling scope complexity global internetwork . 
+`` ! 
+% @ : : directory electronic mail address networks '' 
+frey rick adams . 
+internet companion , tracy jeanne c. ryer 1992 
+addison wesley . 
+-- 
+`` evangelical '' etiquette guide internet feature 
+anecdotal tale life-changing internet experience . 
+foreword 
+senator al gore . 
+zen art internet : beginner 's guide brendan p. 
+kehoe 1992 prentice hall . 
+-- 
+brief useful internet guide plenty good advice 
+useful database . 
+see also : . 
+thanks bruce sterling 
+< > contribution . 
+general 
+
+cunningham , scott alan l. porter . 
+`` communication networks : 
+dozen way 'll change life . '' 
+futurist 26 , 1 
+january-february , 1992 : 19-22 . 
+brian kahin , ed. , building information infrastructure new york : 
+mcgraw-hill , 1992 isbn # 
+-- 
+essay information infrastructure . 
+policy design issue , 
+research , future vision , information market . 
+see 
+table contents : -03 . 
+, jeffrey . 
+`` observation cross-cultural electronic 
+networking . '' 
+whole earth review winter 1990 : 32-35 . 
+varley , pamela . 
+`` electronic democracy . '' 
+technology review 
+, 1991 : . 
+______ 
+< 7.2 > internet ` anarchy ' like english language ? 
+accord bruce sterling < > : 
+> internet 's ` anarchy ' may seem strange even unnatural , 
+> make certain deep basic sense . 
+rather like 
+> ` anarchy ' english language . 
+nobody rent english , 
+> nobody english . 
+english-speaking person , 
+> learn speak english properly make whatever 
+> use please though government provide certain 
+> subsidy help learn read write bit . 
+> otherwise , everybody sort pitch , somehow 
+> thing evolve , somehow turn workable . 
+
+> interesting . 
+fascinating , even . 
+though lot people earn 
+> living use exploit teach english , 
+> ` english ' institution public property , public good . 
+> much go internet . 
+would english improve 
+> ` english language , inc. ' board director 
+> chief executive officer , president congress ? 
+> would probably lot fewer new word english , lot 
+> fewer new idea . 
+_____ 
+< 7.3 > want list 
+hopefully benefit creation , compilation , 
+condensation information various source regard privacy , 
+identity , anonymity internet . 
+author commit 
+keep up-to-date strengthen , 
+effective feedback . 
+particular , follow 
+item seek : 
+- short summary rfc document reference list , 
+esp . 
+file . 
+- datum specific use penetration . 
+- internet traffic statistics . 
+much email ? 
+much 
+usenet ? 
+cost involve ? 
+- famous obscure example compromise privacy 
+internet . 
+- ftp site code code turn . 
+plan file 
+name pipe remote ` finger ' . 
+- knowledge ` promiscuous ' mode receipt transmission 
+network card . 
+- detail infamous experiment scientist resubmit 
+previously accept papers prominent journal new 
+unknown author subsequently reject . 
+- x windows , eff , . 
+commerical use document negotiable way 
+author recoup significant time investment . 
+email feedback 
+. 
+please note see 
+newsgroup , etc. . 
+_____ 
+< 7.4 > change history 
+v2 .1 current 
+pointer , new unix mode example , digital telephony act , 
+steve jackson incident , addition reorganization 
+anonymity section , part 3 . 
+note : v2 .0 post , 
+, , , cancel 
+j. incorrect subject line . 
+v2 .0 
+major revision . 
+new section x windows . 
+email privacy 
+item reorganize network security section . 
+new section 
+email liability issue , anonymity history responsibility . 
+split three file . 
+many new source add , particularly 
+eff caf new ` issue ' part . 
+` commentary ' 
+. 
+21 day automate post start . 
+v1 .0 
+newsgroup & faq add . 
+` want ' . 
+post 
+. 
+future monthly post , . 
+v0 .3 
+format 72 column quote etc. ` miscellaneous , ' 
+` resource ' section add cypherpunk server use 
+warning . 
+unix example ` l ' ` ' . 
+post 
+, . 
+v0 .2 
+` identity ' ` privacy ' section add . 
+` anonymity ' expand . 
+remailer address remove due lack information 
+instability . 
+post . 
+v0 .1 
+originally post cypherpunk mail list 
+call organize list anonymous server . 
+email earlier version . 
+
+see also 
+
+part 1 previous file 
+------ 
+< 1.1 > ` identity ' internet ? 
+< 1.2 > identity un important internet ? 
+< 1.3 > email address identify background ? 
+< 1.4 > find somebody email address ? 
+< 1.5 > identification un stable internet ? 
+< 1.6 > future identification internet ? 
+< 2.1 > ` privacy ' internet ? 
+< 2.2 > privacy un important internet ? 
+< 2.3 > secure internet network ? 
+< 2.4 > secure account ? 
+< 2.5 > secure file directory ? 
+< 2.6 > secure x windows ? 
+< 2.7 > secure email ? 
+< 2.8 > liable email posting ? 
+< 2.9 > provide information identity ? 
+< 2.10 > ? 
+know ? 
+< 2.11 > privacy un stable internet ? 
+< 2.12 > future privacy internet ? 
+< 3.1 > ` anonymity ' internet ? 
+< 3.2 > ` anonymity ' un important internet ? 
+< 3.3 > anonymity protect internet ? 
+< 3.4 > ` anonymous mail ' ? 
+< 3.5 > ` anonymous post ' ? 
+< 3.6 > anonymity un stable internet ? 
+< 3.7 > future anonymity internet ? 
+part 3 next file 
+------ 
+< 8.1 > known anonymous post site ? 
+< 8.2 > responsibility associate anonymity ? 
+< 8.3 > ` kill ' anonymous posting ? 
+< 8.4 > history behind anonymous post server ? 
+< 8.5 > value anonymity ? 
+< 8.6 > anonymous post group allow ? 
+< 8.7 > system operator anonymous posting ? 
+< 8.8 > go maintain j. helsingius ? 
+
+part 2 privacy & anonymity faq , obtain via anonymous 
+ftp 
+newsgroup , , every 21 day . 
+write l. detweiler < > . 
+rights reserve . 

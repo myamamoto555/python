@@ -1,0 +1,58 @@
+: prof. dr. klaus 
+subject : summary : des : init vector additional key ? 
+keyword : des , key search , vector 
+: . 
+de 
+organization : johannes gutenberg mainz 
+lines : 60 
+risk get lose clipper chip discussion give 
+summary recent question : 
+article < > write : 
+> recent discussion news group suggest key search 
+> attack 
+> des quite feasible . 
+normally des apply cbc 
+> cfb 
+> mode one choose random init vector 8 byte . 
+question : 
+> 
+> - make sense handle init vector additional key ? 
+
+> 
+> 56 + 64 120 bit key . 
+> 
+> - yes : anything known security key scheme ? 
+
+> 
+> break faster exhaustive search 120 bit key space ? 
+unfortunately answer - conceal vector 
+essentially give additional security . 
+get 3 answer 
+
+open eye . 
+pretty simple : 
+say e encryption d decryption key k 64-bit block . 
+let c 0 vector , 
+m 1 , m 2 , ... message block , 
+c 1 , c 2 , ... cipher text block . 
+encryption cipher block chaining cbc mode work 
+c e m xor c i-1 , 
+decryption 
+m c i-1 xor d c . 
+attacker c 0 affect first message 
+block m 1 . 
+key search attack m 2 , m 3 , ... 
+situation cipher feedback cfb mode bit complicated 
+similar leave exercise reader : - 
+finally modified output feedback mode ofb des 
+whatever block cipher use simply act random generator 
+e i-1 vector seed 0 , 
+encryption give 
+c m xor . 
+usual ` known plaintext ' attack cipher 
+reduce crack key search k. 
+-- 
+klaus 
+institut fuer medizinische statistik und 
+der 
+obere strasse 69 , mainz , germany 

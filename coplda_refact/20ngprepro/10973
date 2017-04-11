@@ -1,0 +1,30 @@
+: tapani lindgren 
+subject : re : des salt 
+: 
+organization : helsinki university technology , finland 
+lines : 21 
+article < > mikel lechner write : 
+> 
+> could well use 16 character password perform encryption 
+> 64 zero bit . 
+one simple method would use first 8 character 
+> encrypt 64 zero bit use remain 8 character 
+> encrypt result . 
+output would still 64 bit encode 
+> 11 ascii character . 
+> 
+would method vulnerable `` birthday '' attack ? 
+currently cracker need find _ _ 1 key produce 
+give ciphertext . 
+try 2 ^ 63 key average . 
+propose method cracker need _ pair _ key half . 
+store 2 ^ 32 guess one half , likely find 
+pair 2 ^ 32 guess . 
+assume 
+, key guess . 
+
+modification s-box salt bit make ? 
+1 probably one key ; think 1 chance 128 
+two key anyone verify ? 
+, 
+help cracker much . 

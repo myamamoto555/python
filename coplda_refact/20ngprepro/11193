@@ -1,0 +1,261 @@
+: henry - jac hawaii 
+subject : help building sparc classic 
+lines : 109 
+: henry - jac hawaii 
+organization : joint astronomy centre , hilo , hawaii 
+anyone help ? 
+system : sparc classic , solaris 2.1 , gcc , 
+try build library , patch patch 
+kit , get follow error : 
+rm - f . 
+o _ 
+gcc - - e - o2 - i. . 
+. 
+. 
+. 
+. 
+. 
+- include - - - 15 - - . 
+c \ 
+| - l _ - c - 
+gcc - - - o2 - i. . 
+. 
+. 
+. 
+. 
+. 
+- include - - - 15 - - - c \ 
+- o _ 
+file include . 
+. 
+. 
+. 
+. 
+. 
+. 
+:29 , . 
+. 
+. 
+. 
+. 
+. 
+. 
+_ . 
+h :24 , :18 : 
+:25 : parse error ` ' 
+:25 : warning : semicolon end struct union 
+:26 : warning : datum definition type storage class 
+:29 : parse error ` ' 
+:29 : warning : datum definition type storage class 
+file include . 
+. 
+. 
+. 
+. 
+. 
+. 
+_ . 
+h :24 , :18 : 
+. 
+. 
+. 
+. 
+. 
+. 
+: parse error ` ' 
+. 
+. 
+. 
+. 
+. 
+. 
+: warning : datum definition type storage class 
+file include :35 : 
+: ` ' undeclared , outside function 
+. 
+c : ` ' undeclared , outside function 
+. 
+c : variable ` ' initializer incomplete type 
+. 
+c : parse error ` ' 
+. 
+c : warning : datum definition type storage class 
+. 
+c : function ` ' : 
+. 
+c : ` ' undeclared first use function 
+. 
+c : undeclared identifier report 
+. 
+c : function appear . 
+. 
+c : function ` ' : 
+. 
+c : parse error ` ' 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : ` ' undeclared first use function 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : warning : assignment make pointer integer without cast 
+. 
+c : parse error ` ' 
+. 
+c : function ` ' : 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : ` ' undeclared first use function 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : top level : 
+. 
+c : parse error ` ' 
+. 
+c : storage size ` ' know 
+error code 1 
+make : fatal error : command fail target ` . 
+o ' 
+rm - f . 
+o _ 
+gcc - - e - o2 - i. . 
+. 
+. 
+. 
+. 
+. 
+- include - - - 15 - - . 
+c \ 
+| - l _ - c - 
+gcc - - - o2 - i. . 
+. 
+. 
+. 
+. 
+. 
+- include - - - 15 - - - c \ 
+- o _ 
+file include . 
+. 
+. 
+. 
+. 
+. 
+. 
+:29 , . 
+. 
+. 
+. 
+. 
+. 
+. 
+_ . 
+h :24 , :18 : 
+:25 : parse error ` ' 
+:25 : warning : semicolon end struct union 
+:26 : warning : datum definition type storage class 
+:29 : parse error ` ' 
+:29 : warning : datum definition type storage class 
+file include . 
+. 
+. 
+. 
+. 
+. 
+. 
+_ . 
+h :24 , :18 : 
+. 
+. 
+. 
+. 
+. 
+. 
+: parse error ` ' 
+. 
+. 
+. 
+. 
+. 
+. 
+: warning : datum definition type storage class 
+file include :35 : 
+: ` ' undeclared , outside function 
+. 
+c : ` ' undeclared , outside function 
+. 
+c : variable ` ' initializer incomplete type 
+. 
+c : parse error ` ' 
+. 
+c : warning : datum definition type storage class 
+. 
+c : function ` ' : 
+. 
+c : ` ' undeclared first use function 
+. 
+c : undeclared identifier report 
+. 
+c : function appear . 
+. 
+c : function ` ' : 
+. 
+c : parse error ` ' 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : ` ' undeclared first use function 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : warning : assignment make pointer integer without cast 
+. 
+c : parse error ` ' 
+. 
+c : function ` ' : 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : ` ' undeclared first use function 
+. 
+c : ` ' undeclared first use function 
+. 
+c : parse error ` ' 
+. 
+c : top level : 
+. 
+c : parse error ` ' 
+. 
+c : storage size ` ' know 
+error code 1 
+make : fatal error : command fail target ` . 
+o ' 
+obviously , due problem encounter include 
+< . 
+h > - try several approach , get past point . 
+help would greatly appreciate . 
+mahalo o , 
+
+henry 
+computing systems manager perform random kindness 
+joint astronomy centre senseless act beauty 
+660 n. place , hilo , hi 
+
+

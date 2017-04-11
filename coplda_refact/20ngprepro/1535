@@ -1,0 +1,35 @@
+: arthur melnick 
+subject : question regard big brother clipper 
+summary : thought question regard clipper 
+keywords : clipper 
+: 
+organization : whole earth ` link , sausalito , ca 
+lines : 23 
+previous posting hellman , bellovin , etal 
+report big brother clipper chip encrypt plaintext 
+64 bit block des . 
+user key k 
+derive rsa , , etc. use encrypt 
+plaintext m use form `` three part message '' . 
+three part message consist e m ; k , k encrypt 
+key , chip serial number . 
+three part 
+message encrypt still another key . 
+question : message ? 
+example , say deal encrypted digitized 
+voice application . 
+speech waveform sample digitize 
+number sample group 64 bit block . 
+block encrypt transmit 
+communication link . 
+three part message ? 
+something append 
+64 bit block ? 
+header send beginning 
+session ? 
+header send beginning session , 
+insure equipment manufacturer use chip 
+? 
+anyone manufacture product use chip ? 
+facility clearance require manufacture ? 
+idea ? 

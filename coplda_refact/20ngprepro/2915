@@ -1,0 +1,81 @@
+: david rex wood 
+subject : create application context multiple time ??? 
+: 
+organization : university colorado , boulder 
+lines : 94 
+subject describe problem well . 
+please read 
+... 
+try write function create widget , 
+display widget , destroy everything return . 
+
+problem multiple call function cause variety problem 
+include depend call make get rid thing : 
+- core dump 
+- x error 
+- widget unmapped 
+simple c + + program write show problem : 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+void blum 
+
+app ; 
+display dis '' '' ; 
+int junk 0 ; 
+widget top & app , `` test '' , null , 0 , & junk , null , 
+null , null , 0 ; 
+widget box `` '' , , 
+top , 
+, 50 , 
+, 50 , 
+null ; 
+top ; 
+10 
+int 0 ; < 10 ; + + 
+
+event ; 
+app , & event ; 
+& event ; 
+
+put ??? 
+top ; 
+top ; 
+app ; 
+di ; 
+??? 
+
+main 
+
+int 0 ; < 20 ; + + 
+blum ; 
+
+note rewrite give time example , 
+10 function exit return main program . 
+example , get follow error consistent 
+5th call blum : 
+x error fail request : invalid parameter 
+major opcode fail request : 55 
+resource id fail request : 
+serial number fail request : 71 
+current serial number output stream : 86 
+take top ; line , dump core 
+seconds call . 
+furthermore , every time call 1st time , 
+get : 
+warning : initializing resource list twice 
+warning : initialize translation manager twice . 
+finally , question : 
+need order able call function create 
+widget multiple time ? 
+help would greatly appreciate . 
+please respond via email dont usually time read group . 
+thanks much . 
+- 
+-- 
+
+david rex wood -- -- university colorado boulder 
+

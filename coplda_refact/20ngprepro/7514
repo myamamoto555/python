@@ -1,0 +1,38 @@
+: richard krehbiel 
+subject : re : ide vs 
+: message thu , 15 apr 1993 gmt 
+lines : 26 
+organization : timesharing , inc. . 
+article < > great ! 
+write : 
+> anyone explain fairly simple term , get , might 
+> need rather ide . 
+performance suffer 
+> much ? 
+drive ? 
+tape drive cd-rom ? 
+> help would appreciate . 
+> 
+> richard randall -- < > 
+way multi-tasking computer actually give 
+cpu power , overlap . 
+overlap , cpu continue `` think '' disk 
+operation underway , whereas without overlap , cpu sit idly 
+wait disk operation finish - disk operation take 
+eternity , compare fast cpu . 
+, get multi-tasking , want increase performance 
+increase amount overlap . 
+one way dma bus mastering . 
+either make 
+possible device move datum memory 
+without interrupt cpu . 
+alternative cpu move 
+datum . 
+several scsi interface card allow dma 
+bus mastering . 
+ide , however , define standard interface 
+create ibm pc , require cpu move datum 
+byte , dma . 
+-- 
+richard krehbiel 
+2.0 386 come along ... 

@@ -1,0 +1,133 @@
+: greg shaw 
+subject : re : ide vs 
+organization : xel communications , inc. . 
+: tin version 1.1 
+lines : 106 
+wayne smith write : 
+: article < > grubb write : 
+: point view , scsi advantage come - 
+: task ? 
+datum datum , could anywhere drive . 
+
+: find faster ? 
+get drive computer 
+: faster ? 
+better cache system ? 
+think scsi good 
+: manage datum bus multiple device attach . 
+
+: talk single drive , explain scsi inherently 
+: faster manage datum hard drive . 
+: > ide : integrated device electronics 
+: > currently common standard , mainly use medium size 
+: > drive . 
+one hard drive . 
+asynchronous transfer : ~ max . 
+: start isa bus first ? 
+: quote scsi spec till blue face , 
+: exceed isa bus capability , point ? 
+say isa necessary ? 
+eisa vlb interface worth 
+invest thousand dollar e.g. new pc 's worth money . 
+: say ide limit 5 ? 
+? 
+anyone 
+: know perform ? 
+read carefully . 
+use connection mechanism 
+standard ide . 
+transfer rate limit ide , whether 
+interface isa , eisa vlb matter . 
+: > lowest setting interface asynchronous mode average 
+: > put maximum ide asynchronous mode . 
+full mode 
+: > blow poor ide window , street , garbage . 
+: system ? 
+mine , one thing . 
+blow ide water , hand . 
+
+ide better throughput , use workstation file 
+server ? 
+: > problem become drive keep put 
+: > rate bottleneck cost come . 
+
+: > interface drive use 
+: > put . 
+: give original question use single hard drive 
+: controller , necessary get drive 
+: least 5 , maybe 10 scsi choice make sence ? 
+: 200-400 meg 5 drive cost ? 
+, nice thing -- multitasking os , scsi use drive 
+. 
+get unix load one pc along os use one two ide drive one time . 
+pretty ugly . 
+buy quantum 240 mac home . 
+pay $ 369 . 
+
+see ide drive cheaper . 
+: original cga cart back '84 $ 300 . 
+think original ega card 
+: pga ? 
+$ 800 . 
+scsi stand relatively alone come 
+: price , mainly talk pc 's sun 's sparc 
+: sgi name favorite unix workstation . 
+, million 
+: pc buying decision year , scsi plenty time 
+: come price . 
+, actually , talk scsi expensive simply 
+nobody common interface pc . 
+common read : 
+easily implement method add pc like sun 
+mac , would find scsi connection medium choice . 
+: argue scsi standard make good , well 
+: datum highway , still want know intrinsically better 
+: ide , isa bus come multi-tasking os 's 
+: manage datum single scsi hard drive . 
+single drive , scsi expensive . 
+, buy pc 
+, , would want add drive whatever . 
+
+follow find scsi intrinsically better ide : 
+partial ? 
+list : 
+1 . 
+add many different type device access 
+concurrently . 
+2 . 
+device work many different machine mac 
+pc home move hard drive nice 
+scsi -- hook away go 
+3 . 
+scsi device work together better ide device . 
+
+instance , recently , add older connor 100 meg ide maxtor 
+212 meg ide . 
+connor must setup slave . 
+
+work way . 
+scsi , set address , check 
+termination , plug , away go . 
+4 . 
+problem ide 's mutual exclusion - notice 
+time take switch access drive c : drive d : 
+quite long compare time take switch drive c : 
+d : system . 
+multitasking os , 
+noticable , many thing go . 
+one neat thing notice lately fringe benefit 
+ability add older almost dead drive storage system 
+little problem -- get bunch almost dead 20 meg drive ` ve 
+add pc . 
+get interface full , , allow 
+4 20 meg drive , 1 240 meg drive , 1 tape drive , 1 105 meg drive 
+card . 
+simply put , scsi handier ide . 
+mysterious jumper figure . 
+greg . 
+-- 
+
+go nature , , greg shaw 
+go nature , part nature . 
+
+love & rockets 

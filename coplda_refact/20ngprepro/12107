@@ -1,0 +1,42 @@
+: 
+subject : windowing terminal help 
+organization : internet 
+lines : 63 
+: `` '' < > 
+e g l n f b 
+: dennis l. hart date : pm cst 
+hart tel : 
+dept : sas 
+: internet addressee 
+subject : windowing terminal help 
+greeting ! 
+several 2000 windowing terminal associate software 
+network . 
+able open lat terminal window workstation 
+node unable get lat x session work . 
+customize terminal security allow lat connection . 
+try invoke lat x session 2000 result follow 
+message display terminal manager window message area : 
+host support x sessions 
+host model 60 support x session 
+open lat terminal window log server node , set 
+display variable follow : 
+$ set lat _ transport lat 
+try create follow : 
+$ 
+fail give follow error message : 
+fail find language , '' '' return null 
+% open display 
+2000 use system default ie . 
+default font , language , ... 
+except security option allow connection option enable 
+lat protocol . 
+windowing terminal thing enough allow 
+lat x session . 
+vms version 
+run model 60 
+please help . 
+dennis hart 
+atlantic research corporation 
+directorate computer sciences 
+eglin afb , fl 

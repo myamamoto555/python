@@ -1,0 +1,29 @@
+subject : re : trouble compile 
+: francisco j. ballesteros 
+organization : computer science , clip lab , upm madrid , spain . 
+: 
+: message 2 apr 93 gmt 
+lines : 21 
+article < > david write : 
+> try compile 23 sun sparc 
+> ipx use , gcc . 
+> 
+> problem occur initial `` make world '' . 
+
+> get compile standard x client , seem find 
+> library . 
+right highly suspect program `` ld '' 
+> update . 
+> 
+yip , problem ; fix find link static 
+client , btw , use cc . 
+. 
+-- 
++ + + + \ 
+| | francisco j. ballesteros a.k.a. nemo | | email : | | 
+| | org : computer science , clip lab . 
+| | phone : 1 | | 
+| | campus s.n. | | ___ ___ | | 
+| | boadilla del monte , madrid , spain . 
+| | \ \ \ \ o \ \ _ \ _ \ __ | | 
+\ + + + \ \ __ \ \ __ \ \ \ \ \ _ _ \ _ \ _ + 

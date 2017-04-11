@@ -1,0 +1,18 @@
+: bill massena 
+subject : function key text string translation 
+organization : boeing computer services , seattle 
+lines : 17 
+want press function key text string appear 
+widget . 
+put 
+: \ n \ 
+f1 : hello 
+resource file , translation happen . 
+put 
+: f1 : hello 
+file , get text string hello f1 press , 
+key work , make sense since default translation mode `` replace '' . 
+syntax problem , something deeper ? 
+. 
+. 
+bill massena 

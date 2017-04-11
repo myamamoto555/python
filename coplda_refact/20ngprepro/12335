@@ -1,0 +1,34 @@
+: michael schuster 
+subject : re : put hd xt ? 
+organization : panix public access internet & unix , nyc 
+lines : 25 
+article < > getter write : 
+> may dumb question , need put hard drive father 's 
+> , either mfm , rll , ide . 
+know hook , tell 
+> computer geometry drive . 
+386 , set bio , 
+> doubt xt . 
+think might software 
+> controller card , ide card xt 's see come 
+> . 
+also , low level format computer ? 
+assume 
+> drive need formatting 
+since bio support interface hard disk xt , 
+support must come bio extension rom hard disk 
+controller . 
+usually controller low level format 
+program common jump address ... type g :5 
+debug see small table drive geometry `` know '' . 
+sometimes selectable use jumper card , sometimes 
+enter manually llf menu . 
+fail , must use 
+third-party hd prep program like , disk manager , like . 
+ide drive come format already , since controller part 
+drive mechanism , concern geometry irrelevant . 
+plug 
+go fdisk . 
+-- 
+mike schuster | | 
+------------------- | | genie : 

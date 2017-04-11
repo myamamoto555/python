@@ -1,0 +1,35 @@
+: r.a. 
+subject : re : modem uart 
+: . 
+
+organization : systems 
+article < > michael write : 
+> universal arithmetic receiver transmitter . 
+normally , older board 
+> 8250 uart board . 
+chip generate irq every char 
+> receive . 
+uart internal 16 byte buffer , - 
+> right software install - generate irq every 16 char . 
+close . 
+universal asynchronous receiver transmitter . 
+3 necessary 14.4 k higher throughput ? 
+> 
+> run , need , run one task 
+> time whole could use transfer . 
+even run dos , cpu handle speed 
+interrupt , still lose character . 
+one machine 
+external 9600 bp modem attach drive serial port faster 
+19.2 k without lose character . 
+> 
+> michael 
+> -- 
+> michael 59 
+> germany 4040 neuss voice : 
+rob 
+
+robert a. - systems administrator 
+systems voice 
+9 tobey village office park , pittsford , ny fax 
+`` write book sale force automation ... '' 

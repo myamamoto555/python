@@ -1,0 +1,42 @@
+: john haddy 
+subject : re : help timing 
+organization : macquarie university 
+lines : 39 
+distribution : world 
+: 
+article < > , michael covington write : 
+| > 1 use big capacitor . 
+unreliable timing due 
+| > leakage . 
+| > 
+| > instead , use quartz crystal divide frequency 2 40 time 
+| > something like . 
+| > 
+| > 1 mhz divide 2 ^ 40 1 cycle per 2 week , approximately . 
+| > 
+| > 2 would expect component battery electrolytic 
+| > capacitor fail -40 c -40 f matter either . 
+| > battery go big problem . 
+also , course , 
+| > circuit depend exact value resistor crystal - 
+| > controlled timer . 
+| > 
+... would crystal affect cold ? 
+gut feeling , 
+mechanically resonate device , extreme cold likely affect 
+compliance ? 
+terminology ? 
+quartz , hence resonant frequency . 
+| > -- 
+| > : - michael a. covington internet : 
+| > : - artificial intelligence programs phone : 
+| > : - university georgia fax : 
+| > : - athens , georgia u.s.a. amateur radio : 
+
+
+| _ | _ _ | _ | _ _ | _ | electronics department 
+| _ | _ | | | | | | _ | _ | _ | \ school 
+--------------------------------- - macquarie university 
+sydney , australia 2109 
+email : ph : 2 805 , fax : 2 805 
+

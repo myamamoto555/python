@@ -1,0 +1,29 @@
+: joel reymont 
+subject : find default font .1 
+organization : internet 
+lines : 20 
+: 
+: 
+hus , netter ! 
+build pl 21 solaris 2.1 . 
+use multi-screen 
+patch , well r5 . 
+suno ... patch everything build great , except 
+error message give upon startup . 
+say : 
+`` set default font path ' stuff delete ' '' `` set default font 
+` fix ' '' . 
+supply - fp option , complain font path 
+still complain font . 
+
+place distribution life . 
+could somebody help ? 
+- joel 
+-- 
+
+joel reymont ! 
+software corporation ! 
+e-mail : 
+
+redwood hwy , suit b. 50 , san rafael , ca 
+

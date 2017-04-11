@@ -1,0 +1,42 @@
+: richard verhoeven 
+subject : re : force window manager accept specific coordinate window 
+organization : eindhoven university technology , netherlands 
+lines : 38 
+distribution : world 
+: . 
+
+tobias ` dope ' write : 
+> 
+> try : 
+> ----------------------------- 
+> ... 
+> 
+> - > flag | ; | 
+> ... 
+> display , window , ; 
+> ... 
+> 
+> hint tell window manager position size window 
+> specify user window manager accept 
+> value . 
+use - > flag | , tell window 
+> manager value prefered value program , user . 
+> know window manager place window like prefer 
+> specify position size like . 
+sorry , . 
+place title position 
+window position . 
+become problem want program able save current 
+configuration restore later . 
+currently , solution : 
+... ; 
+. 
+. 
+; 
+... ; 
+... ; 
+... ; 
+work , less elegant . 
+leave wonder 
+overlook something obvious . 
+richard . 

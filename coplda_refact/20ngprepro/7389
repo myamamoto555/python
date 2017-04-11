@@ -1,0 +1,355 @@
+: john bongiovanni 
+subject : summary : database c libraries 
+organization : orbital engine company 
+lines : 384 
+well , amaze successful exercise . 
+receive 20 
+response 4 request summary . 
+thanks everyone make 
+possible . 
+able find codebase , , . 
+codebase 
+c library without sql . 
+windows application 
+communicate windows dde call , send sql 
+string receive result . 
+people write tell paradox engine borland . 
+
+product mention : microsoft 's odbc , , , codebase , 
+, . 
+odbc , , , sql . 
+, decide codebase , mostly c 
+portability version run dos , unix , etc , include 
+source code , portability important application . 
+work 
+dbase , foxpro , clipper file . 
+however , feel microsoft 's odbc look promising . 
+mostly formalisation building submit sql query , 
+format query result . 
+response say , available via ftp , 
+except effectively without two manual : 
+`` odbc programmer 's reference '' `` odbc sdk guide '' . 
+moreover , 
+odbc actually interpret sql database , 
+driver provide database manufacturer . 
+also , 
+windows actually extension windows sdk . 
+nevertheless , start sql interface standard , 
+make life interesting future . 
+'s original post , follow response , separate 
+line asterisk . 
+> anyone know borland microsoft library access 
+> respective database paradox , foxpro within c program ? 
+> would really like able build sql query string pass 
+> function return query result format . 
+fail 
+> , access would still better nothing . 
+> 
+> would also like hear third party library thing . 
+> 
+> people interested , 'll prepare summary 
+> tell post . 
+> 
+> thanks . 
+
+borland product call paradox engine want . 
+current version 3.0 , fully compatible ack paradox 
+4.0 . 
+version different , know . 
+pd engine 2.0 
+compatible 3.0 3.5 ... . 
+consist rather broad 
+library function database file pascal think 
+turbo pascal 5.5 c think either microsoft borland . 
+. 
+. 
+read box ... `` borland paradox engine & database 
+framework '' . 
+works borland + + , c 6.01 later , 
+turbo c + + windows , turbo pascal 6.0 later , tp windows 1.0 
+later . 
+framework application , bc + + 3.0 later m + + 7.0 . 
+
+support object ... 
+real chance really use ... look fairly 
+complete ... plan use summer . 
+- rick 
+-- 
++ + 
+| rick osterberg | 
+| 2032 harvard yard mail center cambridge , ma usa | 
++ + 
+
+borland product call paradox engine . 
+know ms. 
+paradox engine know well , 
+replacement sql , enable 
+save restore record , lock , et al. . 
+supposedly 
+paradox windows top . 
+--------------------------------------------------------- 
+charles parker phone . 
+
+technical support 
+centerline software , inc. . 
+fax . 
+
+
+cyberspace 
+momma , let yer child grow ^ cowboy ... 
+--------------------------------------------------------- 
+
+know borland library routine access paradox within 
+c program . 
+recently come version 3.0 . 
+work 
+borland microsoft 's c compiler . 
+shailesh 
+
+2 
+
+m put odbc sdk public domain ; 
+_ big _ believe 1.8 mb , worth download 
+fast link . 
+look . 
+also company start provide sql engine ; 
+get one , exactly cheap $ 450 , 
+allow program c dos windows talk 
+datum basis use sql function code . 
+hth 
+walter knopf 
+fermilab 
+
+
+check odbc microsoft . 
+available 
+: . 
+way ` ve 
+choose access database app . 
+mj 
+-- 
++ + 
+| specialist development | 
+| pp ii call information tool : . 
+| 
+| ssss ii miller | 
+| pp ss ii proficient solutions , inc. . 
+| 
+| pp holmes ave . 
+# 5 minneapolis , mn | 
++ + 
+
+borland sell `` paradox engine '' c language interface 
+paradox , dbase , btrieve , asci file . 
+also sell `` database framework '' 
+include engine plus collection source c + + class 
+use engine . 
+-- 
+earl roethke 
+
+
+paradox engine . 
+library function large model 
+access paradox 's database . 
+seem work fine , 
+never try . 
+cost ~ 200 $ . 
+hope help ... 
+: david lefebvre < > 
+
+borland provide database lib call paradox engine access 
+use database file aswell many thing . 
+gary . 
+-- 
+`` `` `` `` `` ` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` `` ` 
+| gary bell | 
+| department robotics digital technology | 
+| faculty computing , caulfield campus , monash university , australia | 
+
+paradox engine library paradox . 
+artur 
+
+
+borland sell paradox engine -- paradox call . 
+hardly sql though . 
+search key field 
+field , comparison operator like < , > ... 
+pretty painful opinion anything besides simple 
+retrieval . 
+currently use eval copy . 
+. 
+link 
+entry screen write . 
+engine library add 100k size program , 
+load overlay use borland 's vroom manager . 
+borland claim later version engine sql support 
+really expect till late year ... even next year 
+try get thrid party help . 
+. 
+question -- let know ... 
+mike 
+
+
+yes , borland sell paradox engine separately . 
+c , c + + , 
+pascal interface , although underlie interface ` c ' . 
+well 
+least version 2.0 engine cost $ 99 egghead . 
+version 3.0 engine , separate c + + class package 
+. 
+-- 
+michael d. 
+adc - portland , oregon 
+
+
+
+use paradox new version almost ready paradox 
+4.0 access paradox file c. pretty good . 
+sql 
+though . 
+hear borland paradox engine 
+suppose likewise , sure exactly . 
+hope help , good luck ! 
+chri 
+: christopher fernandes 
+
+borland sell `` paradox engine 3.0 '' . 
+library function 
+access paradox db file . 
+come library : 
+m c 7.0 
+bcc 3.1 
+turbo pascal v ?? 
+believe come turbo library well . 
+c library come windows flavor win stuff 
+dll 's . 
+get , also come crystal report 
+graphical report generator . 
+allow create generic 
+form use within compile program use engine . 
+
+know still offer current price , pay 
+something like $ 50 - $ 60 upgrade earlier version though ... 
+hope help ... 
+- david taylor 
+-- 
+| - commander -- | easier change | 
+| internet : | specification fit program | 
+| also : | vice-versa . 
+| 
+| : | - author unknown wise | 
+
+want sql within program , check . 
+
+address oop -- yes ! 
+: 
+systems , inc. . 
+790 lucerne dr # 51 
+sunnyvale , ca usa 
+phone : voice fax 
+ask demo disk . 
+look good background embedded sql ingres -- 
+look real similar . 
+little expensive , order demo 
+wait probably send special offer ` ll 
+probably run $ 500 us . 
+good luck ! 
+best , 
+tom 
+: tom 
+
+borland paradox engine library . 
+library 
+c pascal access paradox file . 
+paradox , believe would buy sql link 
+since sql compliant . 
+use engine 
+year pretty satisfy . 
+dos , real pig . 
+tack size 
+program . 
+tim ma 
+associate programmer 
+university utah 
+email : 
+
+know microsoft , borland sell paradox engine + + & 
+pascal one package . 
+want dbase compatible file 
+library call codebase software work + + . 
+: david j. ray 
+
+use database library describe . 
+set dll 's access common apus talk 
+major database format . 
+use build application 
+query several database use sql query . 
+_ _ access use 
+use sql . 
+package available melbourne . 
+
+believe produce pioneer systems us . 
+
+association pioneer systems satisfied 
+customer . 
+feel free mail information . 
+chris 
+program nsw national parks wildlife service 
+-- 
+
+chris hutchinson box 
+research programmer university new england 
+armidale nsw 2351 
+
+
+paradox engine 3.0 provide complete set c library 
+access paradox table . 
+however , seem support 
+c microsoft c. try compile 
+engine 's sample application waterloo watcom + + 
+32-bit compiler , complain library file 
+miss even though quite certain file 
+part watcom c engine . 
+anybody success 
+c compiler ? 
+
+-------------------- 
+
+currently develop app . 
+borland 's `` paradox engine 
+c '' also come pascal , recently go version 3.0 
+i.e. , px engine 3.0 compatible paradox 4.0 , downward . 
+.5 . 
+indeed c lib fox access , think 
+name offhand - sure someone already write regard - 
+think see add fox lib `` c user journal '' , 
+good place look type package general , way . 
+pay due learn lot quirk px eng . 
+
+past year - would recommend complex multiuser app . 
+-- 
+stay -- like bad marriage : get much time 
+invest learning ! 
+interest limit 
+simple single-user interface want build sql engine , 
+take , px engine job easily - sound like 
+'ll bump gotcha . 
+, write ; may 
+able point right direction . 
+: raymond 
+
+borland `` paradox engine database framework 3.0 '' give 
+`` c '' assembler ? 
+apus paradox database . 
+part `` boca '' 
+-- borland 's object component architecture . 
+technical briefs 
+boca , , product . 
+: james d. mcnamara 
+------------------- james d. mcnamara | tasc -------------------- 
+55 walker brook drive | reading , ma | 
+
+-- 
+john bongiovanni , systems analyst , orbital engine company , perth , australia 
+
+opinion express organization . 

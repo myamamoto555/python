@@ -1,0 +1,30 @@
+: 
+subject : & 
+organization : internet 
+lines : 29 
+: 
+dear , 
+develop application use motif slider select 
+image file directory . 
+would like display 
+name file correspond value drag scale 
+button i.e. press . 
+display 
+current value scale button actual corresponding 
+image file name , think use 
+mapping scale value file name : 
+, , false , , null ; 
+: 
+display , event - > window , , & return 
+; 
+, & value ; 
+map value file entry directory finally obtain file name open 
+however , move pointer scale widget get callback , co 
+urse 
+null effect press move scale button . 
+goin 
+g wrong ? 
+wrong approach problem ? 
+hint highly appreciate . 
+-- 
+phil 

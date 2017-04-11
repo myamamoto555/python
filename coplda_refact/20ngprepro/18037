@@ -1,0 +1,17 @@
+: yeh 
+subject : re : conversion routine want 
+organization : university southern california , los angeles , ca 
+lines : 12 
+distribution : world 
+: 
+article < > , write : 
+| > hus , 
+| > 
+| > look rgb cube -- > hl double -- > hsv cylinder 
+| > conversion routine . 
+rgb < -- > hsv , miss hl < -- > . 
+| > 
+check foley 's book ? 
+solution chapter 13 . 
+yeh 
+usc 

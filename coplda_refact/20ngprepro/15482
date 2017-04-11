@@ -1,0 +1,53 @@
+: dave probert 
+subject : image datum format question 
+organization : university california , santa barbara 
+lines : 63 
+post friend 
+please respond 
+work application create dither pattern 
+render window apply stipple pattern 
+gc . 
+follow code segment almost work window width 
+even multiple 8 . 
+even multiple skew 
+pattern towards right . 
+another problem , whether even 
+multiple 8 , series vertical line space 8 pixel 
+apart . 
+extern display ; 
+extern window ; 
+extern gc gc ; 
+extern int , ; set resize handler 
+dither pixel 
+char pixel ; dither pattern datum 
+
+char bm ; bitmap datum 
+char bmp ; 
+long , ; 
+; 
+bm char ; 
+bmp bm ; 
+j 0 ; < ; + + 
+
+pixel & 
+bmp | 2 j ; pixel 
+else 
+bmp & ~ 2 j ; pixel 
++ + j > 7 
+
+bmp + + ; 
+j 0 ; 
+
+
+stipple , , bm , , ; 
+free bm ; 
+, ; 
+, gc , stipple ; 
+, gc , ; 
+, , gc , 0 , 0 , , ; 
+, gc , ; 
+
+suspect answer pad datum . 
+-- 
+mike vaughn 
+

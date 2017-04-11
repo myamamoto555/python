@@ -1,0 +1,45 @@
+: wally bass 
+subject : re : date stick 
+organization : auspex systems , santa clara 
+lines : 35 
+: . 
+
+article < > 
+john bongiovanni write : 
+stuff delete 
+> hear order date advance , something , like 
+> clock , make get date system call ? 
+apparently , clock 
+> hardware interrupt bio date advance automatically . 
+
+> get date call notice `` midnight reset '' flag set , 
+> advance date . 
+> 
+> anybody info ? 
+two ` problem ' : 
+1 bios tod routine update bio clock use 1 bit 
+day increment , second wrapping clock past midnight 
+get lose one call bio read clock 
+meantime , 
+2 bio reset day wrap indicator first ` get date ' 
+call anybody wrap indicator set . 
+
+unless first bio ` get date ' call midnight 
+dos ` kernel ' part know 
+increment date , day wrap indication normally lose . 
+guess kevin 's ` menu ' system use bio call read 
+clock order display time , hence entity 
+cause day wrap indication get lose . 
+even ` menu ' system 
+` notice ' day ` wrap ' think indicate non-zero 
+value al , really particularly good way tell dos 
+, dos update day . 
+menu system ` ' use 
+dos call get time , would cause dos ` kernel ' 
+bios call , wrap indicator would hence process 
+properly . 
+possibly , though , ` menu ' system easily use dos 
+call time , dos reentrant , perhaps time 
+increment occur ` menu ' system ` inside ' 
+dos call . 
+wally bass 

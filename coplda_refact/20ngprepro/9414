@@ -1,0 +1,1081 @@
+: landon c. noll 
+subject : reposting : 10th international obfuscated c code contest rule 1 2 
+expire : 8 may 93 gmt 
+: landon c. noll 
+distribution : world 
+organization : nebula consultants san francisco 
+lines : 864 
+keyword : 
+receive number request reposting 
+international obfuscated c code contest rule guideline . 
+also 
+people request rule post wider set 
+group . 
+sorry cross post . 
+technical clarification make rule guideline 
+see diff mark right hand edge . 
+rule guideline 
+year remain , people already 
+process submit entry 1993 need worry 
+change . 
+chongo \ cc \ 
+larry bassel 
+- 
+# ! 
+
+# shell archive shar 3.32 
+# make 23:00 utc 
+# source directory tmp 
+# 
+# exist file overwritten 
+# 
+# shar contain : 
+# length mode name 
+# ------ ---------- 
+# - r -- r -- r -- rule 
+# - r -- r -- r -- guideline 
+# - r -- r -- r -- 
+# - r -- r -- r -- 
+# 
+# rule 
+echo `` x - extract rule text '' 
+sed 's ^ x ' ` ' > rule & & 
+international obfuscated c code contest rule 
+x 
+c landon curt noll & larry bassel , 1993 . 
+rights reserved . 
+permission personal , education non-profit use 
+provide copyright notice include entirety 
+remain unaltered . 
+use must receive prior permission write 
+landon curt noll larry bassel . 
+x 
+x obfuscate : . 
+- cate , - , - cate . 
+1 . 
+a. render obscure . 
+x b. darken . 
+2 . 
+confuse : emotion obfuscate 
+x judgment . 
+. 
+, darken : ob intensive + 
+x lat . 
+, darken < fuscus , dark . 
+- obfuscation n. 
+x adj. 
+x 
+x 
+contest : 
+x 
+x write c program rule . 
+x show importance programming style , ironic way . 
+x stress c compiler unusual code . 
+x illustrate subtlety c language . 
+x provide safe forum poor c code . 
+: - 
+x 
+x 
+: change 1993 draft note change bar . 
+-- > | 
+x 
+x 
+: 
+x 
+x help volume entry , ask follow rule : 
+x 
+x 1 entry must complete program . 
+x 
+x 2 entry must < byte length . 
+number character 
+x exclude whitespace tab , space , newline , exclude ; 
+x follow either whitespace end file , must < 1536 . 
+x 
+x 3 entry must submit follow format : 
+x 
+x -- entry -- 
+: 1993 
+: y n n > new entry , y > replace older entry 
+: title entry see comment 
+: entry number 0 7 inclusive 1st entry 0 
+: submission utc see comment 
+: machine os entry test 
+x use tab indented line need 
+x -- remark -- 
+x place remark entry section . 
+would helpful 
+x indent remark 4 space , though 
+x requirement . 
+also , possible , try avoid go beyond 79th 
+x column . 
+blank line permit . 
+x -- author -- 
+: name 
+: 
+: postal address 
+x use tab indented line continue 
+x forget include country 
+: email address well known site register domain . 
+x give several form , list separate tab indented line . 
+: y n y > remain anonymous , n > ok publish info 
+x -- info -- 
+program need info file , place copy 
+section . 
+case multiple info file , use multiple info 
+. 
+entry need info file , skip section . 
+x -- build -- 
+copy command use program 
+xin section . 
+must file name ` build ' . 
+result 
+must 255 byte less . 
+x -- program -- 
+copy program section . 
+must 
+file name ` ' . 
+result file must follow rule # 2 . 
+x -- end -- 
+x 
+x regard format : 
+x 
+x must 1 12 character length . 
+x 
+x suggest , require , title 
+x incorporate username ; case multiple author , 
+x consider use part username author . 
+x 
+x date -- entry -- section give respect 
+x utc . 
+format date return 
+x use c locale . 
+see guideline info 
+x 
+x may previously submit entry send 
+x contest email address . 
+sure set ` fix ' 
+x -- entry -- section 'n' . 
+correct entry must use 
+x title entry number correct . 
+
+x sure note -- remark -- well . 
+x 
+x exception header , text outside 
+x format may ignore judge . 
+need tell judge 
+x something , put -- remark -- section , send separate 
+x email message judge . 
+x 
+x information -- author -- section publish unless 
+x ` y ' give respective author 's ` anon ' line . 
+x 
+x credit multiple author , include -- author -- section 
+x author . 
+start -- author -- line , 
+x find -- entry -- -- build -- section . 
+x 
+x entry 's remark include : 
+x - program 
+x - run program sample arg input 
+x - special compile execution instruction , 
+x - special filename requirement see rule 4 5 
+x - information -- datum -- file 
+x - think program obfuscate 
+x - note entry previous entry . 
+x - remark humorous otherwise 
+x 
+x entry 's remark . 
+may suggest certain 
+x portion remark entry win award . 
+x 
+x info file use supplement entry . 
+
+x require exist . 
+x 
+x entry need info file , skip -- info -- 
+x section . 
+entry need multiple info file , use multiple 
+x -- info -- section , one per info file . 
+describe 
+x info file -- remark -- section . 
+x 
+x 4 entry select winner , modify follow : 
+x 
+x ` build ' incorporate , ` build ' remove 
+x ` ' rename entry 's title , follow optional 
+x digit , follow ' . 
+c ' 
+x entry compile file name entry 's 
+x title , possibly follow digit 
+x 
+x entry require build file exist , state 
+x entry 's remark section . 
+arrange execute 
+x build shell script contain ` build ' information . 
+name 
+x build shell script entry 's title , possibly follow 
+x digit , follow ' . 
+sh ' . 
+x 
+x need , entry 's remark indicate entry must 
+x change order deal new filename . 
+x 
+x 5 build file , source result executable 
+x treat read-only file . 
+entry need modify file , 
+x make modify copy appropriate file . 
+
+x occur , state entry 's remark . 
+x 
+x 6 entry compile c compiler reject . 
+x use common c k&r + extension permit , long 
+x cause compile error c compiler . 
+x 
+x 7 program must original work . 
+program must 
+x public domain . 
+copyright program reject . 
+x 
+x 8 entry must receive prior 0:00 utc . 
+utc 
+x essentially equivalent greenwich mean time email entry : 
+x 
+x ... ! 
+apple , pyramid , sun , uunet ! 
+
+x 
+x 
+x request message use subject ` entry ' . 
+x 
+x possible , request hold email entry 
+x 0:00 utc . 
+early entry accept , however . 
+x attempt email confirmation first author 
+x entry receive 0:00 utc . 
+x 
+x 9 person may submit 8 entry per contest year . 
+entry 
+x must send separate email letter . 
+x 
+x 10 entry require human interaction build allow . 
+x compile entry produce file file may execute . 
+x 
+x 11 program require special privilege , , , 
+x special owner group allow . 
+x 
+x 
+information : 
+x 
+x judge landon noll larry bassel . 
+please send 
+x question comment contest , : 
+x 
+x ... ! 
+apple , pyramid , sun , uunet ! 
+address | 
+x submit entry | 
+x 
+x rule guideline may often change year 
+x year . 
+sure current rule guideline 
+x prior submit entry . 
+obtain , send email address | 
+x use subject ` send rule ' . 
+| 
+x 
+x one may obtain winner previous contest 1984 date , via ftp : | 
+x 
+x host : | 
+x user : anonymous 
+x pass : 
+x dir : ~ | 
+x 
+x last resort , previous winner may obtain send email | 
+x address . 
+please use subject ` send year winner ' , | 
+x year single 4 digit year , year range , ` ' . 
+| 
+x 
+x 
+\ cc \ | 
+bassel | 
+
+rule | | 
+echo `` restore rule fail '' 
+set ` wc - c rule ` ; $ 1 
+test `` $ '' ! 
+`` '' ; 
+echo original size , current size $ 
+fus 
+# guideline 
+echo `` x - extract guideline text '' 
+sed 's ^ x ' ` ' > guideline & & 
+international obfuscated c code contest guideline , hint comment 
+x 
+c landon curt noll & larry bassel , 1993 . 
+rights reserved . 
+permission personal , education non-profit use 
+provide copyright notice include entirety 
+remain unaltered . 
+use must receive prior permission write 
+landon curt noll larry bassel . 
+x 
+file : 
+x 
+x file intend help people wish submit entry 
+x international obfuscated c code contest short . 
+x 
+x rule , though contain comment 
+x . 
+guideline view hint suggestion . 
+x entry violate guideline remain within rule 
+x allow . 
+even , safer remain within guideline . 
+x 
+x read current rule , prior submit entry . 
+x rule typically send guideline . 
+x 
+x change 1993 draft note change bar . 
+-- > | 
+x 
+x 
+new 1993 : 
+x 
+x entry format better anyway . 
+program 
+x update . 
+see entry format . 
+x 
+x reject entry compile use c 
+x compiler . 
+certain old obfuscation hack cause c compiler 
+x fit longer permit . 
+new issue deal 
+x array type , variable number argument , c preprocessor 
+x directive exit function . 
+see likes dislikes . 
+x 
+x 
+suggestion : 
+x 
+x encourage examine winner previous contest . 
+see 
+x information detail get previous winner . 
+x 
+x keep mind rule change year year , win entry 
+x may valid entry year . 
+unique novel one year 
+x might ` old ' next year . 
+x 
+x entry usually examine number way . 
+typically apply 
+x number test entry : 
+x 
+x look original source 
+x convert ansi ascii 
+x c source ignore ' ' line 
+x c source ignore ' ' ' ' line 
+x run c 
+x examine algorithm 
+x lint 
+x compile 
+x execute 
+x 
+x consider entry look test . 
+x ask entry remain obscure 
+x ` clean ' c c . 
+x 
+x entry need well , test . 
+certain 
+x case , test important . 
+entry compete 
+x ` creative source layout ' need well 
+x term algorithm . 
+hand , give 
+x two entry , inclined pick entry 
+x something interesting run . 
+x 
+x try avoid limit creativity rule . 
+, leave 
+x contest open creative rule interpretation . 
+real life 
+x programming , interpret requirement document customer request 
+x important . 
+reason , often award ` worst abuse 
+x rule ' entry illustrate point ironic way . 
+x 
+x plan abuse rule , suggest let know 
+x remark section . 
+please note invitation abuse 
+x invitation break . 
+strict come 
+x byte size limit . 
+also , abuse entry format tend 
+x annoy amuse . 
+x 
+x realize hole rule , invite entry 
+x attempt exploit . 
+award ` worst abuse rule ' 
+x plug hole next year . 
+even , attempt use 
+x smallest plug need , smaller . 
+: - 
+x 
+x check program sure work . 
+sometimes make 
+x effort debug entry slight problem , particularly 
+x near final round . 
+hand , see 
+x best entry fall work . 
+x 
+x tend look prime number printer , claim 
+x 16 prime number . 
+bug , better 
+x document . 
+note `` entry sometimes print 4th power 
+x prime mistake '' would save entry . 
+sometimes , 
+x strange even help entry ! 
+course , correctly 
+x work entry best . 
+x 
+x 
+like dislike : 
+x 
+x mass obscure source become ` old ' . 
+
+x tend ` see thru ' mass due test 
+x apply . 
+simply abuse - bar go far 
+x program well round confusion . 
+x 
+x many c compiler dislike follow code , : 
+x 
+x d define 
+x #d foo < -- expect turn foo 
+x 
+x int ; 
+x j ; < -- use implicit type declaration 
+x int k ; 
+x 
+x suggest compile entry c compiler . 
+
+x must use c , k&r c , must avoid area result 
+x error c compiler . 
+x 
+x unfortunately , c compiler require array index | 
+x integral type . 
+thus , follow classical obfuscation hack | 
+x use 1993 . 
+rule may relax future contest . 
+| 
+x 
+x int ; 
+x char c ; 
+x c ; < -- use c instead 
+x +3 `` string '' ; < -- use `` string '' +3 instead 
+x 
+x entry use function variable number 
+x argument , careful . 
+systems implement wide variety 
+x way . 
+, number operation use 
+x portable must use : 
+x 
+x assign variable variable 
+x cast variable variable 
+x pass variable function expect arg 
+x pass variable function expect arg 
+x perform arithmetic variable 
+x use structure union 
+x 
+x particular , treat variable char 's . 
+x 
+x avoid use , use instead . 
+x 
+x use c preprocessor directive , , , ... , 
+x lead ' # ' must first character line . 
+
+x c preprocessor allow whitespace lead ' # ' , many . 
+x 
+x exit function return void system , entry 
+x must assume return int . 
+x 
+x small program best short , obscure concise . 
+x program complex winner , 
+x serve useful purpose . 
+often program people 
+x attempt completely understand . 
+reason , look 
+x program compact , instructional . 
+x 
+x one line program short one line program , say around 80 
+x byte long . 
+get close 160 byte bit long opinion . 
+x 
+x tend dislike program : 
+x 
+x hardware specific 
+x os un x version specific 
+x difference ok , specific 
+x code likely 
+x dump core compiler warning 
+x ok warn ` remark ' header item 
+x compile bsd sys v un x 
+x abuse build file get around size limit 
+x obfuscate excessive use 
+x longer need 
+x similar previous winner 
+x identical previous loser : - 
+x 
+x unless cramp space , unless enter 
+x ` best one liner ' category , suggest format program 
+x creative way simply form excessively long line . 
+x 
+x build file use try get around size 
+x limit . 
+one thing make use several - d 's help , 
+x quite another use 200 + byte - d 's order 
+x try squeeze source size limit . 
+feel 
+x free make use build file space , better 
+x show amount restraint . 
+x 
+x allow whitespace , certain case ; impact 
+x program size certain point , want get 
+x away source simply compact blob character . 
+x 
+x give two version program , one compact blob 
+x code , format like typical c 
+x program , tend favor second version . 
+course , third 
+x version program format interesting 
+x obfuscate way , would definitely win first two ! 
+x 
+x suggest avoid try ` smallest ' 
+x program . 
+amaze many different size claim 
+x smallest . 
+nothing wrong self-replicating 
+x program . 
+fact , number winner self-replicating . 
+x might want avoid claim ` smallest ' , lest 
+x know smaller one ! 
+x 
+x x client entry portable possible . 
+entry 
+x adapt wide collection environment favor . 
+
+x depend particular type display . 
+example , depend 
+x color give size . 
+require backing store . 
+x 
+x x client entry avoid use x related library 
+x software wide spread use . 
+ask x client 
+x entry restrict low level xlib 
+x athena widget set . 
+, , . 
+x use m tif , xv ew , ok toolkit , since everyone 
+x . 
+avoid depend particular window manager . 
+
+x everyone , people stick back 
+x earlier , try target without require . 
+better 
+x yet , try make entry run version 11 x window systems . 
+x 
+x x client entry depend particular item 
+x . 
+. 
+must , sure note required line 
+x -- remark -- section . 
+x 
+x like program : 
+x 
+x concise small need 
+x something least 
+x pass lint without complaint requirement , nice 
+x portable 
+x unique novel obfuscation style 
+x make use number different type obfuscation 
+x make laugh throw : - 
+x 
+x type program excel area . 
+course , 
+x program excel area , well several 
+x area really help . 
+x 
+x freely admit interesting , creative humorous comment 
+x -- remark -- section help chance win . 
+
+x read many twisted entry , would enjoy good laugh two . 
+x think reader contest winner well . 
+x 
+x creative ! 
+x 
+x 
+format : 
+x 
+x order help process many entry , must request 
+x assistance format entry certain way . 
+format , 
+x addition , allow quickly separate information 
+x author program . 
+see judge process 
+x 
+x provide program , , example 
+x format entry . 
+aware follow warning 
+x find : 
+x 
+x program attempt implement rule . 
+every 
+x attempt make make sure program produce 
+x entry conform contest rule . 
+case , 
+x program differ contest rule , 
+x contest rule use . 
+sure check 
+x contest rule submit entry . 
+x 
+x require use . 
+convenient , however , 
+x attempt need file , attempt check 
+x entry size rule . 
+x 
+x suggestion , comment , fix complaint 
+x program , please send email judge . 
+see 
+x 
+x following sample entry : 
+x 
+x -- entry -- 
+: 1993 
+: n 
+: 
+: 0 
+: mon mar 1 1993 
+: un x v6 , 
+x 2.9 bsd , 
+x -- remark -- 
+x obfuscate c program . 
+x 
+x likely win prize . 
+expect 
+x short example ! 
+x -- author -- 
+: landon curt noll 
+: judge group 
+: toad hall 
+x po box 
+x san francisco , california 
+x 
+x usa 
+: 
+: n 
+x -- author -- 
+: larry bassel 
+: judge group 
+: toad hall 
+x po box 
+x san francisco , california 
+x 
+x usa 
+: 
+x 
+: n 
+x -- info -- 
+444 
+p > 7 `` '' ! 
+. 
+; + '' ` 
+xm : ' 1 % e < < veo ; ; w @ < & 5r < v & 5d 6-a 
+xm & eo ; < ; < ' ' ! 
+< pig < f % n & 5d ' ! 
+r ; & 5d ' 1h 
+< ; < & yo & ! 
+< 
+xm & 5n & `` f % n9 '' ! 
+:6 y ' e9 `` x @ $ % l ; '' ! 
+o & ae 
+xm < < & uu < w0 @ < ! 
+p < feo < 97 m :7 - :6 n & en ' r 
+xm ; f < 9g '' ! 
+. 
+; '' ! 
+: & % & e + '' ! 
+< rx 
+xm # $ `` < w0 @ > 65a < ' ! 
+e < ; ; ' 5 ' 
+xm > 2 ! 
+> 2 ! 
+& 5d ' @ : & w & ua 
+'' ! 
+d ; '' ! 
+: & e ` _ '' @ `` 
+x ` 
+
+x -- build -- 
+444 build 
+, @ < ' `` uo ' ! 
+r ; v < 
+x ` 
+
+x -- program -- 
+444 
+`` gl vef & 214 % $ $ 
+x : bd `` '' ` @ '' 3l ? 
+` 
+x ` 
+
+x -- end -- 
+x 
+x typically build file assume source 
+x compile prog . 
+entry win , rename 
+x source binary avoid filename collision . 
+tradition , 
+x use name entry 's title , follow optional 
+x digit case name conflict . 
+x 
+x entry somehow win ` least likely win ' award , 
+x would use . 
+x 
+x entry depend , require build , source 
+x binary file particular name , please say 
+x -- remark -- section . 
+case apply , would helpful 
+x one following : 
+x 
+x tell change filename entry . 
+x 
+x build file make copy file . 
+example : 
+x 
+x cc - o need special binary 
+x 
+x rm - f . 
+c need special source 
+x cp . 
+c 
+x cc . 
+c - o 
+x 
+x rm - f need special build 
+x tail +4 build > 
+x sh < 
+x 
+x assume use entry title . 
+send version 
+x file use name convention . 
+
+x file -- datum -- section . 
+x 
+x entry need modify source , info binary file , 
+x please say -- remark -- section . 
+try avoid 
+x touching original build , source binary file . 
+
+x arrange make copy file intend modify . 
+
+x allow people entry scratch . 
+x 
+x remember entry may build without build file . 
+
+x typically incorporate build line . 
+
+x build file must exist , say -- remark -- section . 
+x 
+x entry need special info file , 
+x -- info -- section . 
+case multiple info file , 
+x use multiple -- info -- section . 
+info file need , 
+x skip -- info -- section . 
+x 
+x info file intend input , detail information 
+x fit well -- remark -- section . 
+example , 
+x entry implement compiler might want provide sample 
+x program user compile . 
+entry might want include 
+x lengthy design document , might appropriate 
+x ` hint ' file . 
+x 
+x info file use supplement entry . 
+
+x example , info file may provide sample input detail 
+x information entry . 
+supplemental , 
+x entry require exist . 
+x 
+x case , info file might rename avoid name 
+x conflict . 
+info file rename reason , 
+x say -- remark -- section . 
+x 
+x info file must current directory . 
+
+x absolutely must rename , move , say 
+x -- remark -- section . 
+x 
+x submit multiple entry , sure entry 
+x unique entry number 0 7 . 
+first entry 
+x entry number 0 . 
+x 
+x exception header , text outside entry 
+x format may ignore . 
+, place text outside 
+x entry expect judge see . 
+decoding tool 
+x aus prog ! 
+need tell something , put 
+x -- remark -- section , send email judge : 
+x 
+x ... ! 
+apple , pyramid , sun , uunet ! 
+address 
+x submit entry 
+x 
+x date give respect utc . 
+system refer 
+x gmt format date 
+x return c locale . 
+example string : 
+x 
+x thr apr 01 1993 
+x 
+x format similar output date 1 command . 
+
+x string include timezone name year . 
+many 
+x system , one follow command produce similar string : 
+x 
+x date - u '' + % % h % d % 19 % y '' 
+x date - u | sed - e 's ... \ 19 0-9 0-9 \ $ \ 1 ' 
+x sh - c ` tz utc date | sed - e `` ... \ 19 0-9 0-9 \ $ \ 1 '' ' 
+x sh - c ` tz gmt date | sed - e `` ... \ 19 0-9 0-9 \ $ \ 1 '' ' 
+x sh - c ` tz date | sed - e `` ... \ 19 0-9 0-9 \ $ \ 1 '' ' 
+x 
+x allow entry . 
+, set 
+x ` fix ' line -- entry -- section ` y ' instead 'n' . 
+x sure use title entry number 
+x well , use determine entry 
+x replace . 
+x 
+x 
+process : 
+x 
+x entry judge larry bassel landon curt noll . 
+x 
+x entry unpacked individual directory . 
+email message 
+x unpacked individual file , contain : 
+x 
+x -- entry -- section 
+x -- author -- section 
+x -- info -- section 
+x -- build -- section 
+x -- program -- section 
+x text , include email message header 
+x 
+x prior judge , ` text ' file scan sure 
+x contain useful information case entry 
+x malformed unpack correctly . 
+information 
+x -- author -- section read judge process 
+x complete , entry win award . 
+x 
+x process help keep bias one particular 
+x individual . 
+usually keep dark much 
+x final award give . 
+like surprise finding 
+x end , win . 
+x 
+x attempt keep entry anonymous , unless win award . 
+x main ` prize ' win announce , make 
+x attempt send oblivion . 
+remove non-winning 
+x file , shred related paper . 
+tradition , even 
+x reveal number entry receive . 
+curious , 
+x indicate volume paper consume present 
+x winner talk 
+x 
+x usenix announcement , attempt send email 
+x author win entry . 
+one reason give 
+x author chance comment way present 
+x entry . 
+give chance correct mistake , typo . 
+
+x often accept remark well . 
+x prior post winner wide world . 
+x 
+x judge consist number elimination round . 
+round , 
+x collection entry divide two roughly equal pile ; 
+x pile advance next round , pile 
+x . 
+also re-examine entry eliminate 
+x previous round . 
+thus , entry get least two reading . 
+x 
+x reading consist number action : 
+x 
+x read -- entry -- section 
+x read -- build -- section 
+x read -- program -- section 
+x read -- info -- section , 
+x pass source thru c 
+x shipping file 
+x perform number c edit source 
+x pass beautify source thru c 
+x shipping file 
+x 
+x later round , action perform : 
+x 
+x lint source 
+x source 
+x run program 
+x perform misc test source binary 
+x 
+x reduce stack entry 25 entry , entry 
+x judge individual basis . 
+entry set aside 
+x , opinion , meet standard establish round . 
+x number entry thin 25 entry , begin form 
+x award category . 
+entry begin compete award . 
+x entry often compete several category . 
+x 
+x actual award category list vary depend type entry 
+x receive . 
+typical category list might : 
+x 
+x best small one line program 
+x best small program 
+x creative source layout 
+x useful obfuscate program 
+x best game obfuscate 
+x creatively obfuscate program 
+x deceptive c code 
+x best x client see likes dislikes 
+x best abuse c 
+x worst abuse rule 
+x 
+x 
+x limit list . 
+example , entry 
+x declare winner start final round . 
+x invent award category , necessary . 
+x 
+x final round process , perform difficult task 
+x reduce remain entry typically 25 8 10 
+x winner . 
+often confident entry make 
+x final round definitely better one 
+x make . 
+selection winner final round , 
+x less clear cut . 
+x 
+x sometimes final round entry good enough win , beat 
+x similar , slightly better entry . 
+reason , 
+x sometimes worthwhile re-enter improve version entry 
+x fail win previous year . 
+assume , course , 
+x entry worth improve first place ! 
+x 
+x often , select small entry usually one line , 
+x layout entry , entry abuse contest 
+x rule way . 
+x 
+x end , traditionally pick one entry ` best ' . 
+sometimes 
+x entry simply far exceed entry . 
+often , 
+x ` best ' pick well number category . 
+x 
+x 
+winner : 
+x 
+x first announcement , occur summer usenix conference . 
+tradition , 
+x latter part bof , prior 
+x berkeley bsd , bsdi bof . 
+x 
+x win entry post late june follow group : 
+x 
+x 
+x 
+x addition , pointer posting post follow 
+x 
+x 
+x 
+x 
+x win entry deposit uunet archive . 
+see 
+x detail . 
+x 
+x often , win entry publish select magazine . 
+winner 
+x appear book `` new hackers dictionary '' t-shirt . 
+x 
+x last , least , winner receive international fame flame ! 
+: - 
+x 
+x 
+information : 
+x 
+x may contact judge send email follow address : 
+x 
+x ... ! 
+apple , pyramid , sun , uunet ! 
+address 
+x submit entry 
+x 
+x question comment contest welcome . 
+x 
+x rule guideline may often change year | 
+x year . 
+sure current rule guideline | 
+x prior submit entry . 
+obtain , send email address | 
+x use subject ` send rule ' . 
+| 
+x 
+x one may obtain winner previous contest 1984 date , via ftp : | 
+x 
+x host : | 
+x user : anonymous 
+x pass : 
+x dir : ~ | 
+x 
+x last resort , previous winner may obtain send email | 
+x address . 
+please use subject ` send year winner ' , | 
+x year single 4 digit year , year range , ` ' . 
+| 
+x 
+x 
+\ cc \ | 
+bassel | 
+
+guideline | | 
+echo `` restore guideline fail '' 
+set ` wc - c guideline ` ; $ 1 
+test `` $ '' ! 
+`` '' ; 
+echo original size , current size $ 
+fus 
+echo `` end part 1 , continue part 2 '' 
+exit 0 
+-- 
+sunnyvale resident : vote landon noll sunnyvale city council seat 1 . 

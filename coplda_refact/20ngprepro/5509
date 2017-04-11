@@ -1,0 +1,30 @@
+: dave olson 
+subject : re : much pay scsi cable 3 4 connector ? 
+organization : silicon graphics , inc. . 
+mountain view , ca 
+lines : 21 
+< > dan jones write : 
+| > > also , seem remember post say scsi spec call 
+| > > 1 foot device cable , cable get internal 
+| > > meet spec . 
+| 
+| scsi ii draft proposal , rev. 10h , section : single-ended 
+| cable , cable requirement section , 
+| implementor 's note : '' stub clustering avoid . 
+stub 
+| space least 0.3 meter apart . '' 
+| 
+| non-technical , stub scsi device . 
+: - 
+however , also aware implementor 's note 
+recommendation , part spec . 
+
+note , many vendor include sgi violate . 
+indeed , main 
+point reduce impedance change , therefore reflection , 
+therefore ` noise ' bus . 
+-- 
+let one tell silence give consent , | dave olson 
+whoever silent dissent . 
+| silicon graphics , inc. . 
+maria isabel | 

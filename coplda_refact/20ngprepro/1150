@@ -1,0 +1,62 @@
+: douglas b. dodson 
+subject : windows 3.1 dos 5.0 ??? 
+organization : hrb systems , inc. . 
+lines : 59 
+hello , 
+think problem might something windows 3.1 
+vesa video card ... idea ??? 
+recently purchase machine problem 
+machine suddenly freeze reboot . 
+may happen windows 3.1 dos 
+5.0 . 
+sometimes print document , sometimes use 
+mouse , sometimes sit . 
+twice happen , 
+machine reboot sound seven beep . 
+look documentation 
+seven beep code mean problem interrupt . 
+machine 
+follow configuration file : 
+
+ami bios 
+5.25 3.5 floppy 
+170 meg ide hard drive 
+256k cache 
+microsoft compatible mouse 
+citizen 
+ni monitor vesa windows accelerator card w 
+two vesa slot 
+windows 3.1 
+dos 5.0 
+config.sys 
+
+device c : \ window \ 
+high 
+c : \ dos \ 
+file 20 
+buffer 20 
+stack 
+autoexec.bat 
+
+
+lh c : \ windows \ 1024 
+prompt $ p $ g 
+path c : \ dos ; c : \ window ; c : \ mouse 
+lh c : \ mouse \ mouse 
+set temp c : \ 
+lh c : \ dos \ 
+machine freeze , use mouse keyboard use 
+reboot . 
+one give help , would greatly appreciate . 
+
+anyone help configure machine best efficiency memory wise 
+would appreciate also . 
+-- 
+douglas b. dodson internet : 
+hrb systems , inc. . 
+state college , pa usa 
+
+disclaimer ! 
+
+idea opinion express necessarily reflect idea 
+opinion hrb . 

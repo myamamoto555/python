@@ -1,0 +1,22 @@
+: mark 
+subject : re : use analog multiplexer digital signal ? 
+organization : ssc , inc. , seattle , wa 
+: tin version 1.1 
+lines : 13 
+tall cool one write : 
+: subject say - use digital signal ? 
+see 
+: could handle digital signal , could wrong . 
+anyone 
+: advice ? 
+thanks . 
+switch resistance 1k ohm 
+power 5 volt maximum current maximum static 
+voltage across switch . 
+good bet ttl . 
+work 
+cmo , slow thing bit . 
+version 
+better spec . 
+lower max voltage . 
+mark 

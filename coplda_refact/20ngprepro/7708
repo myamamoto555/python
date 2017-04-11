@@ -1,0 +1,34 @@
+: shen 
+subject : re : bus clk speed ? 
+organization : university arizona , tucson 
+lines : 22 
+article < > hwu write : 
+> robert write : 
+> 
+> : > one param bio setup say bus clk . 
+
+> : > set default 4 , able get work 3 . 
+> : > si 3 142 . 
+something . 
+didnt want mess anything 
+> : > set back 4 . 
+also , pc didnt boot set 2 . 
+> : > 
+> : > dow , leave 4 ? 
+> 
+> think impossible let operate much 
+> . 
+c & neat mother board , set 
+> clock 10 mhz , hd stop boot . 
+correct 
+> mean many wait state . 
+> 
+> sm . 
+think depend motherboard card system . 
+hd stop boot probably hd controller handle faster bus speed . 
+, set bus divider .5 , close . 
+gain performace increase video card transfer rate boost bus speed . 
+system work flawlessly setting . 
+know , go bus , hd refuse boot . 
+2 cent . 
+jim 

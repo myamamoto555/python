@@ -1,0 +1,19 @@
+: john kelsey 
+subject : pgp idea ibm system 
+: . 
+
+organization : university missouri 
+lines : 11 
+think difficult would make pgp available 
+form ebcdic machine . 
+message authentication would ugly , 
+think least idea encryption could work , pgp switch 
+tell use idea . 
+, error 
+translate ebcdic -- > ascii -- > ebcdic would affect byte , 
+16 byte would affect cbc . 
+pgp set use different idea mode ? 
+recall 
+executable , go carefully probably 
+... 
+-- john kelsey 

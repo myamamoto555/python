@@ -1,0 +1,40 @@
+: ted matsumura 
+subject : re : windows gripe ... 
+organization : bbs public access unix , +1 
+lines : 37 
+article < > nathan charles crowell write : 
+> 
+> hus , 
+> 
+> one thing windows really frost . 
+> ram install system . 
+use 2.5 mb 
+> windows , 4mb permanent swap file . 
+> 
+> never fill memory , still problem 
+> sometimes run gdi resource . 
+give ? 
+> think windows could manage resource little better . 
+> 
+> anyone input conserve resource 
+> avoid problem ? 
+> 
+> nate 
+> -------------------------- 
+> nathan c. crowell , dept. mechanical 
+> 
+> worcester polytechnic institute e-mail : 
+> 
+> `` cost net hundred thousand dollar '' 
+nathan , 
+fixed limit 64k memory , regardless physical ram 
+install , twice , nearly robust enough 
+many developer power user . 
+use amish launch shell , reduce gdi memory usage 
+much 15 % , 2 , dashboard , graphical type icon 
+base shell . 
+also , nesting , full global support 
+offer , something shell time . 
+ted matsumura , president 
+amish software , inc. . 
+: 

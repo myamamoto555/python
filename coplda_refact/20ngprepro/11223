@@ -1,0 +1,62 @@
+: ernie 
+subject : re : font 
+: . 
+
+organization : ncr corporation - e&m columbia 
+lines : 41 
+article < > , mark a. davis write : 
+| > problem many might run . 
+use lot 
+| > ascii terminal use max . 
+mean lot attribute , line 
+| > draw , etc. . 
+need come work 
+| > emulate advanced ascii terminal closely possible . 
+| > 
+| > mean need attribute work , include bold line drawing . 
+| > font seem meet criterion pair font 
+| > one bold normal , , fix 
+| > spacing , several size . 
+| > 
+| > standard font work font like 
+| > `` misc '' . 
+work great , except need font one size larger , . 
+
+| > work well , bold counterpart ! 
+| > 
+| > make matter worse , need font form use tektronix 
+| > . 
+seem like . 
+pcf format , although able 
+| > convert . 
+bdf format . 
+| > 
+| > anyone suggestion ? 
+| > -- 
+| > \ 
+| > | mark a. davis | lake taylor hospital | norfolk , va 804 | 
+| > | | computer services | | 
+| > \ 
+would tedious , time could get . 
+bdf 
+file email easy access 
+x source , could make bold font . 
+since 
+glyph bitmap , could write program convert 
+glyph file , use bitmap make glyph `` bold '' , 
+convert result back . 
+bdf format . 
+, use `` '' create 
+. 
+pcf file . 
+, stick . 
+pcf wherever 
+include , , 'll need ! 
+-- 
+ernie ncr corporation - columbia 
+platt springs road 
+west columbia , sc 
+`` bust bun every night . 
+tell old man drag walton 
+lanier court 48 minute . '' 
+- roger murdoch , co-pilot 

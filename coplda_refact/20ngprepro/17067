@@ -1,0 +1,149 @@
+: guy kuo 
+subject : clock poll result - long 
+organization : university washington 
+lines : 161 
+: 
+summary : result clock modification poll 
+keyword : , clock , poll 
+poll conduct help user decide whether alter 
+clock oscillator . 
+attempt gather many case history 
+possible find estimate success risk . 
+number reply 
+probably show rare modification give impression 
+success rate may higher previous 80 % estimate . 
+24 24 
+machine able run 25 mhz add board present . 
+scientific survey best work . 
+thanks contribute poll . 
+issue : 
+speed 25 mhz 27.5 mhz appear norm machine without 
+add card . 
+report machine able use 
+25 mhz long add card present . 
+several apple 
+nubus card use . 
+machine nubus adapter 
+able go faster 25 mhz . 
+one even able 
+achieve 25 mhz nubus adapter place 
+speed 32 33 mhz , startup sound distorted 
+hi density floppy disk problem report . 
+note : unless specifically list , machine 
+test higher speed clock failure . 
+hence , 
+25 mhz operational machine may well work 
+higher speed . 
+damage one user report pull plating one pad . 
+
+repair machine operational . 
+one 
+report pull pin original clock oscillator 
+. 
+one second hand report user 
+put gash motherboard slipped soldering iron . 
+report static discharge damage . 
+report high speed operation cause damage . 
+, also report user 
+defective parachute . 
+add board compatibility appear problem apple nubus 
+adapter . 
+several add board use 
+success . 
+see case history 
+heat sink virtually modify machine heat sink install . 
+often style power transistor type . 
+
+use epoxy . 
+use dab heat sink compound dab 
+cyanoacrylate glue . 
+also use clamp 
+bolt hole motherboard . 
+case histories : 
+speed effective cpu speed clock oscillator . 
+report 
+cpu version 20 mhz . 
+1 27.5 mhz operational . 
+ran 10 minute 31 mhz crash . 
+fpu add card 
+cpu 
+24 
+damage installation 
+2 27.5 mhz operational without apple nubus adapter . 
+25 mhz top speed 
+apple nubus card install 
+cpu 
+24 
+floppy problem 
+damage installation 
+3 27.5 mhz operational . 
+unable boot 31 mhz 
+cpu 
+floppy problem 
+damage installation 
+4 25 mhz operational 
+works follow two configuration 
+fpu adaptor card 
+cache card 
+supermac 8 24 
+b supermac fpu adaptor card 
+supermac video spigot 
+supermac 8 24 
+5 33 mhz operational 
+fuzzy startup sound 
+problem hi density disk 
+6 33 mhz operational 
+fuzzy startup sound 
+heat sink cpu chip right cpu 
+7 25 mhz operational . 
+occasional crash 33 mhz 
+8 25 mhz operational . 
+use fpu rate 16 mhz without difficulty 
+9 25 mhz operational . 
+pd adapter spectrum graphic card 
+, fpu 
+heat sink cpu 
+10 25 mhz operational . 
+33 mhz fail several hour . 
+11 25 mhz operational 
++ upgrade 
+12 25 mhz operational . 
+try 33 mhz - system start . 
+heat sink cpu 
+configure 
+card 
+supermac 8 24 
+cache . 
+cpu continuously - problem . 
+floppy work fine 1.4 mb @ 25 mhz 
+13 25 mhz operational 
+heat sink cpu 
+14 25 mhz operational 
+heat sink cpu 
+15 25 mhz operational 
+heat sink cpu 
+16 25 mhz operational 
+heat sink cpu 
+17 25 mhz operational 
+heat sink cpu 
+17-19 hour per day 
+18 25 mhz operational 
+heat sink cpu + cool fan 
+floppy problem 25 mhz 
+19 20 mhz operational . 
+bomb soon startup 25 mhz nubus adapter 
+20 mhz rate cpu 
+ram 70 n slot , 80 motherboard 
+20 25 mhz operational 
+heat sink add cpu later . 
+damage . 
+apple nubus adapter fpu install . 
+21 25 mhz operational 
+heat sink cpu 
+22 25 mhz operational 
+heat sink cpu 
+23 25 mhz operational 
+heat sink cpu 
+24 25 mhz operational 
+heat sink cpu 
+guy kuo < > 

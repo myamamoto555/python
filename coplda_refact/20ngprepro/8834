@@ -1,0 +1,41 @@
+: w. dev palmer 
+subject : re : want : d hardware pc 
+: 
+organization : center microelectronics , rtp , nc 
+lines : 34 
+article < > joel kolstad write : 
+< > brad wright write : 
+
+> know much pc 's ibm comp might try joystick 
+> port . 
+though try , tell port 
+> 
+> believe `` a-d converter '' find joystick port really 
+> timer tick long take circuit r 
+> paddle charge something like vcc . 
+game work 
+> pretty well , certainly would want try take lab 
+> measurement something non-linear . 
+best info see far article `` joystick metrics : 
+measure physical property pc 's joystick port '' 
+michael covington may 1985 issue pc tech journal . 
+talk 
+read kind thing voltage , current , resistance 
+basic , even include code simple `` oscilloscope '' display . 
+possible read joystick port directly want 
+use basic . 
+detailed information pc technical 
+reference options adapters . 
+provide 
+millisecond resolution timing function , subject 
+appear many time article dr. dobb 's , circuit cellar ink , 
+etc. . 
+look public domain package . 
+good luck , 
+dev palmer 
+
+room 212 
+p.o. box 
+rtp , nc 
+
+fax 

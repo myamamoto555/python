@@ -1,0 +1,25 @@
+: eli brandt 
+subject : re : would `` clipper '' make good cover encryption method ? 
+organization : harvey mudd college , claremont , ca 
+lines : 22 
+article < > carl m. write : 
+> clipper might good way cover use another layer 
+> encryption . 
+could somebody provide overview propose system use 
+chip ? 
+ought see att spec sheet skipjack sound like 
+normal digital encryption algorithm , datum path 
+voice -- > digitize -- > compress -- > encrypt 
+compression necessary fit datum wire , unless 
+want wait isdn lucky ... . 
+feeding 
+datum compressor cause chuckle 
+; would tap gut phone hack either 
+compress datum stream , select part output stream 
+hit modem . 
+unless want pay two fast 
+modem top encryption , plug box 
+phone wall . 
+> - carl 
+pgp 2 key finger e-mail 
+eli 

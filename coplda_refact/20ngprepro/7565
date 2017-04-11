@@ -1,0 +1,89 @@
+: martin hunt 
+subject : announce : protocol analyzer 
+organization : uw networks distribute computing 
+lines : 89 
+keyword : protocol analyzer 
+: 
+result several problem uw . 
+several 
+network general sniffers heavily use help debug problem 
+several hundred subnet . 
+good tool , 1 heavy , 
+2 hard find need one , 3 limit software , 
+4 difficult use upload datum analysis , 5 remotely 
+operate , 6 resolve name dn , require much manual 
+manipulation name table . 
+also sometimes use , find 
+1 difficult people , 2 enough information 
+many protocol , 3 could use interactively , 4 could handle 
+tcp stream 5 could read sniffer file . 
+however , 
+reasonable job decode large number protocol , could easily 
+modify . 
+attempt resolve problem 
+add motif interface expand feature . 
+test decstation 5000 sun 4 ultrix 4.2 
+suno 4.1 respectively . 
+work system . 
+compile cc gcc dec sun . 
+build 
+need motif 1.1 better . 
+follow file available anonymous ftp 
+
+.0 . 
+source code 
+.0 . 
+binary 
+.0 . 
+dec mips ultrix 4.2 binary 
+add : 
+- easier interface 
+- enhance protocol decode 
+- hex display frame 
+- capture base time , number frame , user interrupt 
+- show ethernet address manufacturer 's name 
+- ethernet address host table 
+- easily follow stream , highlight out-of-order frame 
+- send tcp datum external file filter additional 
+processing . 
+
+change 
+new feature : 
+read write network general sniffer file . 
+use ' - r ' , 
+file type automatically detect . 
+read use snmp mib file . 
+hex format change . 
+new time option add . 
+option add allow viewing processing datum tcp packet . 
+bug fix relative tcp sequence number . 
+- flag 
+new flag : 
+- r read sniffer file . 
+usually need , except read 
+- ttt print delta time 
+- print time relative first frame 
+- w write sniffer save file use - w 
+- x print frame minus header format . 
+sample output : 
+> : 0:0 0 win 
+0000 45 00 00 28 8a 98 00 00 3c 06 7c 9c 80 5f 70 02 | e. . 
+... < . 
+| . 
+. 
+_ p. 
+0010 80 d6 06 64 05 05 00 15 5b 19 4a 00 00 00 00 00 | ... d. ... . 
+j. ... 
+0020 50 02 40 00 4e 13 00 00 00 00 00 00 00 00 | p. @ . 
+n. ... ... 
+- x print tcp datum format use - z 
+- z write tcp datum use - eliminate timestamp 
+- z write frame tcp datum 
+martin m. hunt 
+
+networks & distribute computing 
+university washington 
+-- 
+
+martin hunt 
+networks distribute computing university washington 

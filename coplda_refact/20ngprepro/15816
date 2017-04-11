@@ -1,0 +1,489 @@
+: chen 
+subject : control system analysis v0 .9 update - mathematica 
+organization : case western reserve university , cleveland , ohio usa 
+lines : 555 
+distribution : world 
+: 
+keyword : control systems , engineering , mathematica , public domain fee release 
+
+
+announce 
+
+
+
+symbolic control system analysis package 
+
+version 0.9 
+
+user fee release 
+
+
+
+mathematica version 2.0 higher 
+
+
+> introduction 
+set package notebook classical control 
+modern state space control analysis design method . 
+
+notebook follow typical ` control engineering ' course 
+teach many university around world 
+level undergraduate . 
+fee use certain 
+responsibility expect user see copyright notice 
+readme file include . 
+starter e-mail fax mail post 
+registration form include readme file . 
+available via ` anonymous ftp ' 
+internet : 
+pub directory . 
+p.s. : typical ftp session unix give readme file . 
+> future release 
+would like receive update newer version 
+please send address 
+. 
+addition , comment suggestion 
+appreciate invaluable . 
+best 
+fix report bug . 
+however , fix 
+bug report 
+know . 
+would much appreciate take 
+minute communicate via e-mail us mail 
+telephone fax . 
+help release 
+version future . 
+comment welcome . 
+n. sreenath 
+systems engineering department 
+case school engineering 
+case western reserve university 
+
+e-mail : 
+u.s. mail : 
+prof. n. sreenath tel. : 
+systems , crawford hall fax : 
+case western reserve univ. . 
+cleveland oh 
+begin readme file 
+user fee release 
+
+symbolic control system analysis package 
+version 0.9 
+
+mathematica version 2.0 higher 
+
+n. sreenath 
+systems engineering 
+case school engineering 
+case western reserve university 
+cleveland , oh , 
+e-mail : 
+-- > copyright 
+: copyright : copyright 1992 c. k. chen n. sreenath , case 
+western reserve university . 
+permission use , copy , modify distribute software 
+documentation purpose without fee hereby grant , 
+provide copyright notice appear support 
+documentation , name case western reserve university , 
+case school engineering use advertising publicity 
+pertain distribution software without specific , without 
+prior permission . 
+case western reserve university make 
+representation suitability software 
+purpose . 
+provide `` '' express imply warranty . 
+-- > acknowledgement 
+support cwru information network services - dr. ray neff , 
+case alumni association , lilly foundation systems 
+engineering department case western reserve university 
+gratefully acknowledge . 
+special thanks brian evans georgia tech 
+help . 
+-- > ftp 
+available anonymous ` ftp ' 
+internet no. . 
+sample ftp session 
+give end file . 
+
+-- > change version 0.9 update v0 .81 v0 .9 
+version , revise take advantage 
+robust signal processing function available mathematica v2 .1 . 
+since mathematica 2.1 provide better work 
+function 
+mathematica v2 .0 , adopt . 
+make 
+smaller . 
+thus brian evans ' signal processing package support 
+function 
+v0 .81 longer need directly v0 .9 . 
+
+power user use signal processing still recommend use 
+fine brian evans package signal processing available 
+anonymous ftp site ip # . 
+
+downside , disadvantage update 
+mathematica 2.1 require runtime resource 
+previous version . 
+
+-- > mathematica 2.0 user 
+include package mathematica 2.1 
+directory ` .0 ' . 
+please move file directory .0 
+calculus directory mathematica package directory . 
+
+-- > introduction 
+unsupported release - control system 
+analysis package symbolic control system analysis use 
+mathematica 2.1 . 
+classical control system analysis design method 
+modern control system method implement package . 
+package attendant notebook develop 
+next tm computer unix base workstation . 
+
+use supplementary teaching aid along standard control 
+engineering text oga 1991 , phillips harbor 1991 
+undergraduate course ` control engineering ' teach systems 
+engineering department cwru . 
+addition next , 
+also test successfully apple macintosh computer tm , , 
+ibm pc 's tm run m windows tm . 
+would much interested 
+hear anybody know use software 
+platform mention . 
+ibm user however 
+evaluate notebook first visualize graphic . 
+install see instruction , collection 
+mathematica package load user . 
+bundle 
+package many notebook `` '' demonstrate 
+functionality package . 
+notebook follow plan 
+many fine , standard , undergraduate control engineering text book 
+list reference . 
+example use notebook 
+collect various reference give end 
+file . 
+contents notebook `` '' directory 
+give . 
+----------- begin `` '' contents ----------- 
+notebook file name : . 
+ma 
+chapter 1 : introduction control systems 
+section : 
+analyticity 
+poles zeros 
+signal 
+forward laplace transform 
+inverse laplace transform 
+differential equation initial condition 
+differential equation initial condition 
+----------- 
+notebook file name : . 
+ma 
+chapter 2 : mathematical modeling dynamic systems 
+section : 
+ode state space 
+linearization nonlinear system equations 
+state space transfer function 
+----------- 
+notebook file name : 03 _ _ . 
+ma 
+chapter 3 : analysis 
+chapter split three sub notebook file 
+size 
+notebook file name : . 
+ma 
+section : 
+time response analysis 
+first order system 
+second order system 
+third order higher order systems 
+notebook file name : . 
+ma 
+section : 
+first order system step response vs. time const 
+notebook file name : . 
+ma 
+section : 
+second order system step response vs. damp ratio 
+----------- 
+notebook file name : . 
+ma 
+chapter 4 : steady-state response 
+section : 
+routh 's stability 
+steady-state error analysis 
+----------- 
+notebook file name : . 
+ma 
+chapter 5 : analysis 
+----------- 
+notebook file name : . 
+ma 
+chapter 6 : analysis 
+section : 
+bode plot analysis 
+magnitude vs. phase plot nichols plot 
+polar plot 
+nyquist plot 
+combine example 
+----------- 
+notebook file name : . 
+ma 
+chapter 7 : state space method 
+section : 
+introduction 
+state transition matrix 
+controllability 
+observability 
+output controllability 
+pole placement design 
+observer design 
+time response use state space method 
+----------- end notebook contents ----------- 
+-- > compressed file 
+file contain complete set v0 .9 
+package notebook mathematica : 
+. 
+compress tar file unix system 
+. 
+compress sit file macintosh 
+system encode 4.0 
+format require shareware 
+stuffit file v higher . 
+. 
+zip zip file ibm pc run 
+expand mathematica file also use 
+macintosh ibm pc unix system also . 
+-- > installation 
+o unix command line type follow command : 
+. 
+| tar - 
+o macintosh open . 
+file use shareware 
+stuffit v higher . 
+o ibm command line type follow command : 
+- o - d . 
+zip 
+note : . 
+zip file zip zip utility v2 .0 . 
+must use 
+version 2.0 higher unzip . 
+ibm pc 's may limit 
+directory name character eight . 
+event type `` - o - d 
+. 
+zip . 
+also unzip . 
+zip file 
+unix machine unzip utility . 
+`` . 
+'' unzipping 
+`` . 
+zip '' create directory call `` '' . 
+file expand see single directory 
+`` '' contain follow three file , four 
+contents : 
+`` '' : 
+- contain control tool box package 
+manual - manual . 
+p , . 
+rtf , . 
+txt , . 
+wn format . 
+- contain notebook 
+.0 - contain laplace transform package mathematica 2.1 
+mathematica 2.0 user . 
+file directory `` '' : 
+. 
+m . 
+m . 
+m . 
+m . 
+m . 
+m . 
+m 
+file directory `` '' : 
+. 
+ma 
+. 
+ma 
+. 
+ma 
+. 
+ma 
+. 
+ma 
+. 
+ma 
+. 
+ma 
+. 
+ma 
+. 
+ma 
+file directory `` .0 '' : 
+
+`` '' : common 
+file directory `` common '' : 
+important 
+notebook example file . 
+ma file 
+`` '' directory . 
+use notebook , move directory ` ' 
+
+directory mathematica recognize : 
+unix machine , 
+: mathematica : package apple macintosh , 
+c : \ \ package ibm pc . 
+beginning `` initialization '' cell notebook 
+`` '' directory , list example make 
+mathematica identify directory : 
+initialization path 
+example unix machine default 
+
+$ path join $ path , 
+'' '' ; 
+
+example apple macintosh 
+
+$ path join $ path , 
+`` : mathematica : package '' ; 
+
+example ibm pc 
+
+
+$ path join $ path , 
+`` c : \ \ package '' ; 
+
+change accord machine remove 
+mathematica comment sign ` ' ` ' ` $ path ' 
+set . 
+command make mathematica recognize directory 
+unix machine 
+: mathematica : package apple macintosh 
+c : \ \ package ibm pc 
+-- > mathematica 2.0 user 
+include package mathematica 2.1 
+directory .0 . 
+please move file directory .0 
+calculus directory mathematica package directory . 
+-- > get start 
+installation , start mathematica open notebook 
+`` '' directory . 
+notebook load package . 
+navigate notebook enjoy . 
+ibm user however 
+evaluate notebook visualize graphic . 
+
+-- > user responsibility 
+request take minute fill 
+information mail e-mail fax u.s. mail . 
+
+help keep abreast improvement release new 
+version . 
+suggestion improvement welcome . 
+cut 
+name : 
+organization : 
+title : 
+e-mail : 
+postal address : 
+
+comment & 
+suggestion : 
+
+cut 
+mail information e-mail fax u.s. mail : 
+internet : 
+u.s. mail : 
+prof. n. sreenath tel. : 
+systems , crawford hall fax : 
+case western reserve univ. . 
+cleveland oh 
+
+-- > report bug 
+please report bug leave comment address . 
+suggestion improvement criticism welcome . 
+best fix report bug . 
+however , 
+fix bug report 
+know . 
+would much appreciate take minute 
+communicate via e-mail us mail telephone fax . 
+
+help release version future . 
+
+-- > disclaimer future release 
+software property case western reserve 
+university . 
+use software risk . 
+make express 
+imply warranty . 
+package notebook also make run 
+mathematica version 2.0 lower modification . 
+
+guarantee outcome . 
+-- > documentation 
+function index file 
+` manual ' directory accord chapter . 
+usage illustrate 
+notebook reside ` ' directory . 
+computer 
+support notebook find macintosh computer acquire 
+public domain notebook reader . 
+least 
+allow peruse notebook able evaluate 
+code fragment . 
+-- > reference 
+dorf , r. c. , `` modern control systems '' , sixth edition , addison 
+wesley , new york , 1992 . 
+, t. e. , hitz , k. l. , `` introduction linear control 
+systems '' , marcel dekker , 1977 . 
+franklin , g. f. , powell , d. j. , , a. , `` feedback 
+control dynamic systems '' , second edition , addison wesley , new 
+york , 1991 . 
+kuo , b. c. , `` automatic control systems '' , sixth edition , prentice hall , 
+new jersey , 1990 . 
+ogata , k. , `` modern control engineering '' , second edition , prentice 
+hall , new jersey , 1991 . 
+phillips , c. l. , harbor , r. d. , `` feedback control systems '' , 
+second edition , prentice hall , new jersey , 1991 . 
+end readme file 
+typical ` ftp ' session : 
+----------------------- 
+% ftp 
+connect mishna . 
+220 mishna ftp server version 5.20 next 1.0 sun nov 11 , 1990 ready . 
+name : sree : anonymous 
+password : 
+ftp > cd pub 
+ftp > binary 
+ftp > l 
+200 port command successful . 
+150 open ascii mode datum connection file list . 
+. 
+
+. 
+zip 
+index 
+readme 
+
+
+226 transfer complete . 
+78 byte receive 0 seconds 15.35 
+ftp > get . 
+
+200 port command successful . 
+150 opening binary mode datum connection . 
+byte . 
+226 transfer complete . 
+local : . 
+remote : . 
+
+byte receive 1.33 seconds 3.38 e 
+ftp > quit 
+221 goodbye . 
+-- 

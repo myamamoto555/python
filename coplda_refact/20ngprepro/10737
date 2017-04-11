@@ -1,0 +1,208 @@
+: gordon lang 
+subject : re : null modem cable ? 
+organization : ford motor company research laboratory 
+lines : 134 
+: . 
+
+: tin 1.1 
+kevin kimmell - computer undergrad write : 
+: 
+: simple concept null modem 
+: cable . 
+actually idea , count last statement . 
+
+: ask pin use specification ? 
+want 
+: solder one instead buy one . 
+even know port 
+: use . 
+: 
+: help please 
+: 
+: kevin 
+: 
+: p.s. intend use cable transfer via 
+: . 
+idea info gladly accept . 
+specific knowledge , recommendation 
+package follow one 's instruction make null - 
+modem cable . 
+reason one may different since 
+really standard pc pc communication . 
+following tutorial 
+write give understanding rs-232 null modem , 
+still check software ! 
+couple detail rs-232 . 
+rs-232 
+specification communicate computer 
+modem . 
+actually end system communication 
+hardware . 
+terminology use data terminal equipment dte data 
+communications equipment dce . 
+rs-232 spell voltage level , 
+connector type , pinout , signal protocol . 
+connector 
+`` '' ibm set alternative `` standard '' . 
+primary 
+signal transmit data td , recieve data rd , signal ground sg . 
+signal provide control dte dce . 
+example , dte announce power ready participate 
+communication via data terminal ready dtr signal . 
+dtr 
+output dte input dce . 
+similarly , dce announce 
+ready participate communication via data set ready dsr 
+signal . 
+dsr input dte output dce . 
+ok 
+five signal ; four interest . 
+request send rts 
+signal output dte input dce use 
+ask dce permission send datum . 
+dce agree , send ok 
+via clear send ct signal . 
+completeness , cts input 
+dte output dce . 
+two signal interest 
+ring indicator rus datum carrier detect dcd . 
+input 
+dte output dce . 
+rus would expect - 
+signal dte say someone attempt establish connection 
+dce . 
+rather specific modem telephone line setup . 
+dcd way dce announce `` connection '' establish 
+i.e. local dce talk remote dce . 
+- . 
+oh 
+many rs-232 signal define , obsolete . 
+
+explain nine signal pc . 
+pinout follow : 
+name 
+sg 5 7 
+td 3 2 
+rd 2 3 
+dtr 4 20 
+dsr 6 6 
+dcd 1 8 
+rts 7 4 
+ct 8 5 
+rus 9 22 
+address problem hand . 
+connect pc pc dte 
+dte , dce pair middle therefore rs-232 
+signal definition work quite right . 
+dce assert 
+cts , dsr , dcd , rus . 
+common thing use 
+signal - also forget dtr rts output well . 
+
+simply make null modem cable pass sg , 
+cross td rd i.e. pin 2 one end connect pin 3 
+end , etc . 
+problem solution pc want send 
+datum way know pc ready . 
+would 
+send datum hope get . 
+therefore better null modem would 
+include pair cross . 
+particular point confusion 
+software area . 
+run wire mean soft - 
+ware use . 
+use built-in bio control 
+serial port , bio dictate wire need 
+use . 
+comm . 
+package brooklyn bridge , lap - 
+link , package dictate cabling requirement . 
+
+thing guess reliably sg , td , rd. . 
+also 
+fairly common . 
+one issue need address . 
+
+flow control . 
+rs-232 , dce 's responsible 
+flow control assume dce could possible over-run 
+dte . 
+mean long dte dtr line assert , 
+dce send datum - without request permission first . 
+note contrast 
+direction datum flow : dte must request permission 
+assert rts line must wait ct signal 
+send . 
+dte dte , question need flow 
+control ? 
+usually . 
+? 
+communication , 
+one common technique xon - implement software - 
+wire dedicate flow control ; td rd carry xon 
+command . 
+type flow control use addition hardware 
+flow control , problem send binary datum 
+datum might include xon code cause erroneous 
+signal . 
+work around software insert extract `` escape '' 
+code , hardware flow control prefered . 
+problem hard - 
+ware flow control standard . 
+lot way 
+bet try . 
+one cornerstone method 
+use one direction . 
+beyond anything fair 
+game . 
+, must look comm package cabling requirement . 
+bet 'll find one cable wire properly could work 
+package long vintage . 
+way , 
+familiar one package use flow control 
+rts request send dtr ready recieve , cts 
+clear send dsr request recieve . 
+mean 
+cable - software . 
+clincher cabling 
+stuff common uart directly control ct 
+signal mean cts must present even support - 
+ing software . 
+case find cable short 
+rts ct end perhaps dtr ct . 
+
+possible short might software expect certain 
+signal feel like provide would 
+mean additional wire . 
+specifically talk dsr . 
+short 
+dtr dsr good idea general may find cable like 
+. 
+bad idea defeat whole purpose . 
+one 
+`` gotcha '' signal dcd . 
+software include pc bio expect 
+see dcd work . 
+signal sometimes get short 
+dtr . 
+favorite null modem rts cts short end , 
+rts also connect end connect dcd . 
+
+course cross course sg must 
+pass . 
+null modem work software . 
+flow control , 
+, use . 
+comm . 
+package 
+specify cable require pc pc connection , suggest use 
+one . 
+td ------ rd 
+rd ------ td 
+dtr ------ dsr 
+dsr ------ dtr 
+dcd ------ rts - \ 
+- rts ------ dcd | 
+\ - ct cts - 
+gordon lang 

@@ -1,0 +1,28 @@
+: jesse lackey 
+subject : re : fast polygon routine need 
+keyword : polygon , need 
+organization : , inc. . 
+ithaca , ny 
+lines : 20 
+article < > alan christiansen write : 
+> believe algorithm get draw convex 
+> polygon much efficient draw 
+> concave self intersect polygon . 
+> efficiency largely attribute fact 
+> simple convex polygon left right edge scan line . 
+> complex figure 8 type polygon bit trickier . 
+true convex algorithm faster general outline 
+algorithm , tremendously faster . 
+spend awhile implement 
+optimize flavor , convex turn 10 % faster . 
+
+c hp pa-risc compiler get inner loop shoot span 
+fast possible , far could tell . 
+sort game database 
+render know ahead time , make convex . 
+definitely 
+way go . 
+p.s. sorry code make public domain ... 
+jesse 
+-- 
+jesse lackey , inc. , ithaca ny 

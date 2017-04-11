@@ -1,0 +1,131 @@
+: axel dunkel 
+subject : summary : sensible des towards ? 
+organization : 
+lines : 150 
+hus , 
+would like thank fast response . 
+special thanks go reply lexical order : 
+marcus j ranum < > 
+paul crowley < > 
+paul 
+todd w. arnold 
+bill stewart 
+question : 
+> sensible des encrypted datum towards bit error ? 
+much datum per 
+> bit lose average assume still correct key ? 
+much datum affect depend use 
+encryption mode . 
+accord marcus j ranum : 
+| cfb cipher feedback mode 
+| ecb electronic code book mode 
+| cbc cipher block chain mode 
+| ofb output feedback mode 
+| 
+| mode stuff better . 
+ofb cfb design 
+| communication stream file . 
+, people strongly disagree mode lead destruction 
+follow datum . 
+sure seem mode quite 
+fast , never , even effect block . 
+summarize , people say concern matter : 
+
+| cbc mode , current block affect 
+| . 
+| 
+| use cbc block chaining , remainder datum 
+| destroy well . 
+
+| 
+| cfb mode , des synchronize quite fast probably within 1 block 
+| accord j ranum < > . 
+\ 
+maybe someone definitely know happen mode ? 
+nevertheless , thank much . 
+axel dunkel 
+-------------------------------------------------------------------- 
+include response get : 
+: todd w. arnold 
+< > axel dunkel write : 
+> sensible des encrypted datum towards bit error ? 
+much datum per 
+> bit lose average assume still correct key ? 
+depend mode use . 
+single 64-bit input block , 
+error 50 percent chance corrupt 64 
+output bit - word , essentially turn output block 
+random number . 
+encrypt datum cbc mode , however , 
+one 64-bit block affect . 
+next block , follow 
+decrypt properly . 
+good idea kind error correction system 
+corrupt bit likely . 
+- todd 
+-------------------------------------------------------------------- 
+: paul 
+article < > write : 
+> hello , 
+> 
+> sensible des encrypted datum towards bit error ? 
+much datum per 
+> bit lose average assume still correct key ? 
+least 8 byte datum destroy one bit encrypted datum 
+error . 
+use cbc block chaining , remainder datum 
+destroy well . 
+des single bit error . 
+. 
+-- 
+-- 
+paul , swedish amateur astronomer 's society saaf 
+75 , 6 tr , 40 stockholm , sweden 
+internet : 
+-------------------------------------------------------------------- 
+: paul crowley < > 
+> sensible des encrypted datum towards bit error ? 
+much datum per 
+> bit lose average assume still correct key ? 
+probably bad ; might lose rest datum stream . 
+
+want safety drop bit use error correct coder like 
+freeware gnu ecc . 
+__ _____ 
+\ o \ paul crowley \ \ 
+\ __ trust . 
+know . 
+\ x fold fish jesus ! 
+-------------------------------------------------------------------- 
+: 
+sensible des encrypted datum towards bit error ? 
+much datum per 
+bit lose average assume still correct key ? 
+depend mode use des . 
+electronic code book ecb take block 64 input bit 
+produce 64 output bit , bit change , 
+entire block 64 bit become bad . 
+forget feedback mode . 
+, result encrypt one block affect later block . 
+mode , system , error repair 
+block . 
+mode , one block bad , 
+later block bad . 
+also frame problem . 
+bit change , 
+block change , maybe later block also change . 
+bit lose bit add 64 bit , 63 65 bit , 
+everything confuse . 
+-------------------------------------------------------------------- 
+: marcus j ranum < > 
+depend mode use . 
+cfb , example , synchronise 
+pretty fast . 
+figure bit error destroy current block 
+next one . 
+mjr . 
+-------------------------------------------------------------------- 
+-- 
+experience get get want ... 
+axel dunkel , strasse 41 , d , germany 
+e-mail : voice : , fax : 

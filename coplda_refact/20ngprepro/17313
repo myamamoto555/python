@@ -1,0 +1,27 @@
+: chris lilley 
+subject : re : help : need 24 bit viewer 
+keyword : 24 bit 
+lines : 24 
+: 
+organization : computer graphics unit , mcc 
+article < > , gilles write : 
+> look program able display 24 bit 
+> image . 
+use sun sparc equip parallax 
+> graphic board run x11 . 
+utah raster toolkit use . 
+convert sun raster file presumably 
+ppm pbm + toolkit convert ppm utah rle format 
+provide toolkit . 
+seem remember 24 bit server . 
+possibly x window program display 24 bit image ; certainly 
+grab . 
+-- 
+chris lilley 
+
+technical author , computer graphics visualisation training project 
+computer graphics unit , manchester computing centre , oxford road , 
+manchester , uk . 
+m13 internet : 
+voice : +44 0 fax : +44 0 janet : 
+

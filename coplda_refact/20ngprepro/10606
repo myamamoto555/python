@@ -1,0 +1,37 @@
+: wayne schellekens 
+subject : want : dram controller use 
+keyword : dram , 
+: . 
+
+organization : aecl research , whiteshell laboratories 
+distribution : na 
+lines : 25 
+upcoming project want use 4 meg dram configure two 2 
+meg bank 16 bit datum . 
+wonder anyone know 
+dram controller handle refresh datum . 
+ok 
+controller handle bank switching - part easy . 
+controller know one national 
+semiconductor dram management handbook 1988 edition eg . 
+. 
+would 
+like know another manufacturer produce one may easier 
+implement circuit . 
+btw , anyone want hook dram microcontroller , dallas 
+semiconductor make neat chip : serial dram 
+chip . 
+use i2c bus dram 
+memory . 
+use external battery refresh dram 
+power . 
+price $ 11.75 dallas quan 1 . 
+wish could use 
+chip maximum spi clock rate 1 mhz slow ... . 
+thanks advance , 
+wayne schellekens 
+< > 
+-- 
+wayne schellekens , internet : 
+aecl research ax .25 : 
+whiteshell laboratories twisted pair : 

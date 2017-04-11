@@ -1,0 +1,39 @@
+: petri salonen 
+subject : re : . 
+bmp format mean ? 
+organization : university oulu , finland 
+: tin version 1.1 
+lines : 30 
+michael write : 
+: article < > andrew l. roberts write : 
+: > exactly window bitmap format look like ? 
+mean , 
+: > datum store : width , height , . 
+color , bitmap datum ? 
+could 
+: > find anything th user manual , reference material 
+: > would give information ? 
+: well , guess : go `` true '' meaning `` bit 
+: map '' , hold x , y , c x pixel number th , y : 
+: , c : color . 
+come fellow ! 
+format quite plainly explain manual . 
+`` programmer 's reference , volume 3 : message , structure , 
+macros '' . 
+kit 3.1 , also borland 's 
+manual page depend need . 
+first 
+contain bitmap 
+datum . 
+also example among example file . 
+hope help ... 
+
+| yes , prior knowledge . 
+| nothing dangerous dragon , 
+| totally harmless ... opinion 
+| kick might right 
+| way test . 
+shut run ! 
+
+
+possible opinion , must mine . 

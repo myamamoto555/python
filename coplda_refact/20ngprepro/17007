@@ -1,0 +1,88 @@
+: brian dealy - csc 
+subject : re : work ?? 
+organization : space flight center 
+lines : 87 
+distribution : world 
+: 
+keyword : xlib , 
+originator : 
+article < > , leonidas write : 
+| > 
+| > hus , 
+| > 
+| > 
+| > 
+| > could someone explain exactly xlib function 
+| > 
+| > , , , 
+| > 
+| > suggest ftp site find program use function . 
+| > 
+| > 
+| > ps : man page explain much ... . 
+| > 
+| > 
+| > thank , 
+| > leo . 
+| > 
+| > 
+| > 
+| > 
+| > 
+| > 
+| > -- 
+| > 
+| > leonidas : imperial college , london , uk 
+| > dept. computing 
+| > 
+use routine widget redraw expose area . 
+small piece code use routine 
+static void pw , ev , region 
+pw ; 
+ev ; 
+region region ; 
+pp - > 
+pp & pw - > plotter ; 
+pp - > ; 
+region pass via expose event 
+region null 
+
+ev - > synthetic event send widget want full redraw 
+
+pw - > ; 
+pw - > ; 
+pw - > ; 
+pw - > ; 
+
+else 
+
+ev - > x ; 
+ev - > y ; 
+ev - > width ; 
+ev - > height ; 
+
+stuff delete 
+region contain exposure region 
+& , pp - > , pp - > ; 
+
+else 
+region , pp - > , pp - > ; 
+stuff delete 
+need clip expose region redrawing grid 
+pw , pp - > , pp - > ; 
+stuff delete 
+check see child expose 
+pw - > _ region , 
+child - > , 
+child - > , 
+child - > , 
+child - > 
+, build region exposure service container 
+widget redraw child , redraw need redrawn . 
+work , hope help . 
+brian 
+-- 
+brian dealy | | know 
+| | important , know 
+! 
+| | ... 

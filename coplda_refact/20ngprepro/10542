@@ -1,0 +1,61 @@
+: richard spitz 
+subject : re : help 
+: richard spitz 
+organization : inst . 
+f. der lmu , muenchen germany 
+distribution : 
+lines : 63 
+jeff h. swartz write : 
+> use name . 
+edu 
+> initiate query ` ' 
+> query time 
+> use ip number 
+> local host gateway respond 
+> know correct router correct . 
+work 
+> fine use ncsa . 
+work ok , definition 
+incorrect see . 
+> doc say run concurrent packet software need 
+> load ??? 
+apply ??? 
+, think . 
+use novell concurrently , 
+? 
+use different packet type , novell 
+able coexist fine . 
+require use 
+different concurrently . 
+> file . 
+> 
+> 
+first problem : specify hostname , . 
+file look like : 
+
+
+> beginning file . 
+> net 
+> name . 
+edu 
+specify hostname , without domain part . 
+> router 
+instead , use router , specify 
+know release note 3.31 say ip address work also , 
+apparently . 
+> 
+, , use hostname instead 
+ip address . 
+work fine way , although could specify 
+one . 
+say possible specify 
+three , separate comma , work . 
+hope help , 
+richard 
+-- 
++ ---------------------------- + + 
+| dr. richard spitz | internet : | 
+| | tel : | 
+| klinikum | fax : | 
+| munich , germany | | 
++ ---------------------------- + + 

@@ -1,0 +1,53 @@
+: a.b. 
+subject : re : exit code -- sorry wrong group : 
+organization : monash university , , australia . 
+lines : 48 
+article < > michael write : 
+> 
+> hey . 
+first , sorry post question window 
+> group , kinda hurry , scramble find 
+> group ' name . 
+> 
+> anyway , anyone know find exit code dos command ? 
+3 alternative : 
+1 . 
+try write small c program something like : 
+int ; 
+system `` command '' ; 
+display value exit code command . 
+2 . 
+use . 
+com instead command.com build move command 
+also get program exist code use exec function 
+: 
+c > echo % command 
+display exit code command . 
+3 . 
+get dos 6 , worth buy already , 
+need move utility . 
+> manual seem . 
+particularly look 
+> copy , order make `` move '' batch file , file 
+> properly , delete . 
+> 
+> 
+> please e ` mail 
+> thanks , , 
+> mickey 
+> -- 
+> pe - | | | | michael : 
+> ace | | | | ... ! 
+
+> | | | | \ | make . 
+grp file reflect hd directory ?? 
+
+> \ \ \ \ | `` well always right , never wrong . 
+. '' 
+gd 
++ --------------------------------------------------- + 
+| agus budy | 
+| digitech student | 
+| monash university clayton | 
+| melbourne , australia | 
++ --------------------------------------------------- + 

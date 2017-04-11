@@ -1,0 +1,28 @@
+: clark verbrugge 
+subject : re : bgi drivers svga 
+organization : soc , mcgill university , montreal , canada 
+: tin version 1.1 
+lines : 29 
+dominic lai write : 
+: simon crowe write : 
+: 8 ~ > require bgi driver super vga displays super displays . 
+
+: 8 ~ > anyone know could obtain relevant driver ? 
+ftp site ?? 
+: would like know ! 
+: regards , 
+: dominic 
+one many mirror file 
+call `` '' programming subdirectory . 
+svga driver variety card . 
+readme : 
+`` card type support : driver 
+ahead , ati , chips & tech , everex , genoa , paradise , oak , trident 8800 
+8900 , 9000 , tseng 3000 4000 chipset . 
+driver also work video card vesa capability . 
+tweak driver work vga card . '' 
+enjoy , 
+clark verbrugge 
+
+-- 
+honk honk blat wak wak wak wak wak ! 

@@ -1,0 +1,125 @@
+: darryl 
+subject : re : help add scsi drive coexist ide ? 
+: 
+organization : hewlett-packard center primal scream therapy 
+: tin version 1.1 .2 
+lines : 106 
+eric bosco write : 
+first , please edit posting . 
+wade 50 line 
+quote crud , people already read , make people much less 
+likely help . 
+course , want help , 
+problem . 
+
+> true ??? 
+impression people net 
+> ide work together . 
+, true . 
+get scsi ide work together , 
+restriction least adaptec 1542 : 
+must boot ide drive . 
+way boot 
+drive ide drive . 
+must disable scsi rom bio sure , though , 
+must also use special driver access 
+drive . 
+hmm . 
+know disable something related 
+scsi bios , sure rom . 
+back february , someone ask ide scsi question 
+get ask . 
+end message , include 
+edit copy reply . 
+might find interesting . 
+-- darryl 
+internet : 
+disclaimer : message author 's personal opinion 
+constitute support , opinion policy hewlett-packard 
+little green man follow day . 
+
+> 1 worth get scsi ide ? 
+noticable 
+> decrease access rate ? 
+application , ide controller 
+generally comparable throughput . 
+might get slightly higher 
+throughput scsi disk , 'll also pay disk 
+$ 30 - $ 100 , case . 
+'ll also pay much , much 
+good controller . 
+note good controller really show power ` re 
+use good multitasking operating system like pc unix . 
+unfortunately , neither windows 3.1 good multitasking 
+operate system . 
+performance advantage scsi controller 
+mostly waste , leave advantage able 
+connect multiple device scsi bus advantage . 
+however , note expect pay premium scsi device . 
+go use , stick ide . 
+
+cheaper , 'll less headache . 
+> 4 virtually device chain controller 
+> hard-drive box , cd-rom , tape drive , etc . 
+note : follow true . 
+know 
+future hold windows nt unix ??? 
+. 
+generally , find driver device , 
+probably exist unless use one `` better '' `` high 
+performance '' controller . 
+typically 
+controller cost around $ 180 - $ 400 street price , 
+driver allow connect controller popular 
+name-brand device either come card , purchase 
+$ 100 list price . 
+example driver kit : 
+adaptec 's ez scsi kit list : $ 75 . 
+work adaptec scsi 
+controller . 
+! 
+people make coreldraw ! 
+list : $ 99 ? 
+. 
+driver kit supposedly work controller card 
+driver , like adaptec . 
+central point 's pc tool dos 8.0 support number scsi tape 
+drive documentation list 40 tape drive . 
+unfortunately , 
+work adaptec controller . 
+> 5 likely 
+> controller sound similar 
+> equipment . 
+yes , run problem , use 
+high-performance , controller . 
+sound 
+right , ? 
+true , though . 
+one controller , 
+'ll probably tweak system get work sound 
+card , tape drive like cms jumbo 250 , 
+windows 3.1 . 
+know . 
+h ll back get 
+controller work various thank god tape 
+backup . 
+want copy `` adaptec 1542 hint tip '' file , 
+send email . 
+problem really fault scsi controller card ; 
+problem really general hardware software design 
+pc e.g. , standard . 
+however , add scsi card 
+bring problem surface make visible . 
+scsi hold lot promise , run lot pc 
+compatibility problem . 
+plan use 
+3.1 , stick ide . 
+want use windows nt pc unix , ` ll 
+make hard decision : good controller 
+one scsi hard disk probably give excellent performance , 
+possible cost compatibility . 
+say , `` probably '' , , 
+know true pc unix , know really 
+true windows nt . 
+suspect , know 
+sure . 

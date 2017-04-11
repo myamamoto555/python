@@ -1,0 +1,55 @@
+: alan mimms 
+subject : re : uart need really break detect 
+organization : apple computer , inc. . 
+lines : 43 
+article < > , jim 
+cathey write : 
+> 
+> article < > alan mimms write : 
+> > actually detect break watch `` character '' contain 
+> > zero bit frame error result receipt . 
+
+> 
+> true enough , ... 
+> 
+> > means line stay zero bit state even past stop bit 
+> > time slot , basically indicate break . 
+special way 
+> > detect break find -- magic signal 
+> > generate uart , etc. . 
+> 
+> zilog scc : 
+> --------- 
+> 7 : break detect 
+> 
+> popular part , number quirk , especially 
+> hdlc mode . 
+> 
+> : 
+> --------------------- 
+> rsr 2 : break start detect 
+> rsr 3 : break end detect 
+> 
+> two bit receiver status register . 
+enable interrupt 
+> either bit go high , . 
+also , one null put 
+> fifo per break detect . 
+> 
+> simply best serial chip ever work . 
+_ many _ less 
+> quirk scc , second-best . 
+death 8250 device ! 
+> 
+think know lot serial device . 
+perhaps 
+keep big mouth shut . 
+sorry . 
+alan mimms ... ! 
+| opinion generally 
+portable macintosh software group | pretty worthless , 
+apple computer | ... 
+art without engineering dream . 
+engineering without art 
+calculate . 
+-- steven k. roberts `` computing across america '' 

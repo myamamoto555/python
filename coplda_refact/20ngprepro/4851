@@ -1,0 +1,33 @@
+: 
+subject : gcc building hp widget set linux 
+: bill woodward 
+organization : institute knowledge jinx 
+lines : 30 
+currently attempt get copy hp widget set compile 
+linux sls release kernel 99.6 run 
+problem . 
+actually , seem gcc question , 
+get compile without trouble use cc . 
+basically , number function prototype 
+set , let 's say , , instance , composite 
+widget 's procedure set type : 
+void widget 
+several place hp source code , reference 
+procedure pass multiple argument instead 
+one , prototype suggest . 
+example : 
+superclass - > . 
+w , arg , 
+, gcc choke , give error message many argument 
+pass function . 
+, anyone suggestion 
+turn checking gcc , go change 
+code accomodate call without change , 
+anyone successfully build hp widget set suggestion . 
+many thanks advance help . 
+-- 
+< > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > < > 
+bill woodward | < -- try first 
+aix software support | 
+graphics group | 
+terror flap night . 

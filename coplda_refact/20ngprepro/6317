@@ -1,0 +1,423 @@
+: 
+subject : cryptography faq - product ciphers 
+organization : crypt cabal 
+lines : 435 
+expire : 22 may 1993 gmt 
+: 
+: . 
+
+summary : part 5 10 faq , product ciphers . 
+theory security product cipher . 
+differential cryptanalysis . 
+des encryption standard . 
+nsa role des design . 
+des hardware 
+software availability . 
+: 
+: 
+: 
+faq , part 5 : product cipher 
+fifth ten part faq . 
+part 
+mostly independent , read first part rest . 
+time send miss part mail , ask . 
+note `` '' refer reference list last part . 
+section faq available via anonymous ftp 
+. 
+xx . 
+cryptography 
+faq post newsgroup , , 
+every 21 day . 
+contents : 
+product cipher ? 
+make product cipher secure ? 
+property product cipher ? 
+prove security product cipher ? 
+block cipher use encrypt datum longer block size ? 
+symmetric block cipher use message authentication ? 
+exactly des ? 
+triple des ? 
+differential cryptanalysis ? 
+nsa involve design des ? 
+des available software ? 
+des available hardware ? 
+des use protect classify information ? 
+`` ecb '' , `` cbc '' , `` cfb '' , `` ofb '' encryption ? 
+product cipher ? 
+product cipher block cipher iterate several weak 
+operation substitution , transposition , modular 
+, linear transformation . 
+`` block 
+cipher '' mean cipher encrypt block datum -- 8 byte , 
+say -- , go next block . 
+notion 
+product cipher due shannon . 
+example modern 
+product cipher include lucifer , des , 
+, , feal , pe , khufu khafre 
+. 
+so-called feistel cipher class product 
+cipher operate one half ciphertext round , 
+swap ciphertext half round . 
+lucifer , 
+des , loki , feal example feistel cipher . 
+follow table compare main parameter several product 
+cipher : 
+cipher | block length | key bit | number round 
+lucifer 128 128 16 
+des 64 56 16 
+64 64 16 
+feal 64 128 2 ^ x , x > 5 
+pe 64 128 8 
+make product cipher secure ? 
+nobody know prove mathematically product cipher 
+completely secure . 
+practice one begin demonstrate 
+cipher `` look highly random '' . 
+example , cipher must 
+nonlinear , must produce ciphertext functionally depend 
+every bit plaintext key . 
+meyer show 
+least 5 round des require guarantee 
+dependence . 
+sense product cipher act `` mix '' 
+function combine plaintext , key , ciphertext 
+complex nonlinear fashion . 
+fix substitution product cipher 
+refer s-box . 
+example , lucifer 2 s-box , des 
+8 s-box . 
+nonlinearity product cipher reduce 
+careful design s-box . 
+list partial design criterion 
+s-box des , apply s-box general , may 
+find brown brickell et al. . 
+property product cipher ? 
+let e product cipher map block block . 
+let x encryption x key k. , fixed k , 
+map send x x permutation set 
+block . 
+denote permutation . 
+set 
+permutation call symmetric group write _ 2 ^ n . 
+collection permutation , k range 
+possible key , denote e _ 2 ^ n . 
+e random mapping 
+plaintext ciphertext would expect e _ 2 ^ n generate 
+large subset _ 2 ^ n . 
+coppersmith grossman show simple 
+product cipher generate alternate group _ 2 ^ n give 
+sufficient number round . 
+alternate group half 
+symmetric group : consist `` even '' permutation , i.e. , 
+permutation write even number swap . 
+even goldreich able extend result show 
+feistel cipher generate _ 2 ^ n , give sufficient number 
+round . 
+security multiple also depend 
+property cipher . 
+multiple 
+extension single key k1 , k2 
+exist third key k3 
+x e _ k3 x 
+indicate encrypt twice two independent key 
+k1 , k2 equal single encryption third key k3 . 
+
+every k1 , k2 exist k3 eq . 
+true 
+say e group . 
+question whether des group definition 
+extensively study sherman , kaliski , rivest . 
+
+paper give strong evidence hypothesis des 
+group . 
+fact des group . 
+prove security product cipher ? 
+recall permutation produce e 
+key k. goal designer e ensure 
+appear random element _ 2 ^ n , symmetric group . 
+let r element _ 2 ^ n select randomly . 
+say 
+r indistinguishable observer give r 
+order distinguish two permutation polynomial 
+time . 
+, time bound resource , observer 
+determine permutation produce e : optimal 
+decision better simply guess . 
+luby show class feistel cipher 
+secure sense round mapping replace 
+random boolean function . 
+block cipher use encrypt datum longer block size ? 
+four standard `` mode operation '' numerous non-standard 
+one well . 
+standard mode operation define u.s. 
+department commerce federal information processing standard fip 81 , 
+publish 1980 . 
+see question `` ecb '' detail . 
+although define des block cipher , `` mode 
+operation '' use block cipher . 
+symmetric block cipher use message authentication ? 
+one may use symmetric cryptosystem block cipher prove 
+generate message , prove 
+whether message alter unaltered since generation . 
+one 
+prove thing another without reveal key , 
+thereafter key use prove anything message 
+authenticate use key . 
+see ansi fip 113 1985 standard method message 
+authentication use des . 
+exactly des ? 
+des u.s. government 's datum encryption standard - product 
+cipher operate 64-bit block datum , use 56-bit key . 
+define fip 46-1 1988 supersede fip 46 1977 . 
+fip federal information processing standards publish nti . 
+des identical ansi standard datum encryption algorithm dea 
+define ansi . 
+triple des ? 
+triple des product cipher , like des , operate 64-bit 
+datum block . 
+several form , use des 
+cipher 3 time . 
+form use two 56-bit key , use three . 
+`` des mode operation '' may also use . 
+people refer e k1 , d k2 , e k1 , x . 
+method define chapter 7.2 ansi standard 
+`` financial institution key management '' intend use 
+encrypt des key iv `` automated key distribution '' . 
+
+formal name `` encryption decryption single key key 
+pair '' , reference standard document ede . 
+standard say section : `` key encrypt key may single 
+dea key dea key pair . 
+key pair shoud use additional 
+security need e.g. , datum protect key long 
+security life . 
+key pair shall encrypt decrypt use 
+single key . '' 
+use term `` '' e k1 , d k2 , e k3 , x 
+e k1 , e k2 , e k3 , x . 
+one carl ellison keep advocate des triple use form 
+e k1 , tran e k2 , tran e k3 , compress x , des instance 
+key iv cbc mode tran post 
+. 
+transposition program take key 
+datum stream , encryption program 
+part . 
+differential cryptanalysis ? 
+differential cryptanalysis statistical attack 
+apply iterated mapping ie . 
+mapping base 
+repeat round function . 
+method recently popularize 
+biham shamir , coppersmith remark 
+s-box des optimize attack 20 year ago . 
+method prove effective several product cipher , 
+notably feal . 
+differential cryptanalysis base observe large number 
+ciphertext y , y ' whose corresponding plaintext x , x ' satisfy 
+know difference d ' , + xor . 
+
+basic attack , 2 ^ 47 plaintext pair require 
+determine key des . 
+substantially fewer pair require 
+des truncate 6 8 round . 
+case , actual key 
+recover matter minute use thousand pair . 
+full des attack impractical require many 
+know plaintext . 
+work biham shamir des reveal several startling 
+observation algorithm . 
+importantly , key 
+schedule remove des 16 48 key use , 
+key could recover less 2 ^ 64 step . 
+thus 
+independent add substantial security des . 
+, s-box des extremely sensitive 
+change even single entry table yield significant 
+improvement differential attack . 
+adi shamir quote say oct 13 1991 , `` would say 
+, contrary people believe , evidence 
+tamper des basic design weaken . '' 
+nsa involve design des ? 
+accord kinnucan , tuchman , member group 
+develop des ibm quote say , `` develop des 
+algorithm entirely within ibm use . 
+nsa 
+dictate single wire ! '' 
+tuchman meyer another developer 
+des spend year break cipher find weakness 
+lucifer . 
+spend two year strengthen lucifer . 
+`` 
+basic approach look strong substitution , permutation , 
+key scheduling function ... ibm classify note 
+contain selection criterion request nsa ... 
+` nsa tell inadvertently reinvent deep 
+secret use make algorithm , ' explain tuchman . '' 
+hand , document call `` involvement nsa 
+development des : unclassified summary united states 
+select committee intelligence '' , print ieee 
+communications magazine , , 1978 , state : `` development 
+des , nsa convinced ibm reduce sufficient ; 
+indirectly assist development s-box structure ; 
+certify final des algorithm , best 
+knowledge , free statistical mathematical weakness . '' 
+clearly key size reduce insistence nsa . 
+article state nsa tamper 
+algorithm , parameter , sense 
+resolve apparent conflict remark meyer tuchman 
+present . 
+des available software ? 
+several people make des code available via ftp see part 10 
+: stig ; bsd ; eric young ; 
+dennis ; mark riordan ; phil karn . 
+pascal listing des also give patterson . 
+fip 46-1 say `` algorithm specify standard 
+implement ... use hardware software technology . 
+... 
+software implementation general purpose computer 
+compliance standard . '' 
+despite , software 
+implementation abound , use government agency . 
+des available hardware ? 
+follow paragraph quote message send editor . 
+vouch quality even existence product . 
+chip rosenthal say : `` dallas semiconductor make des 
+device use standard , digital pcm 
+telecom datum stream . 
+capable process datum real time , 
+e.g. one . 
+. 
+phone number 
+. 
+would probably need talk telecom 
+marketing . '' 
+christian franke , say : `` 1 . 
+: 22.5 accord data sheet , 32 bit 
+interface . 
+use one , one available 
+start project . 
+problem ! 
+2 . 
+: 
+accord data sheet . 
+address : b.v. , 26 , 
+ne vught , netherlands . 
+3 . 
+infosys des chip germany : 
+s-box must load software . 
+modify algorithm . 
+sorry , datum sheet handy . 
+please e-mail need 
+information . '' 
+marcus j ranum say : `` '' faster 
+des proprietary storage 16 56-bit key key stream generator 
+integrated hardware procedure extended mode 112 bit key ; 
+computer elektronik infosys ; herndon parkway , ; herndon , va 
+; 
+tim say : newbridge microsystems sell 
+compatible des chip operate , perform 
+round encryption 18 clock , three-stage pipeline , 
+support ecb , cbc , > . 
+
+reasonable price oppose high-end des chip . 
+call 
+newbridge microsystems , ottawa , . 
+... 
+issue canada us . 
+require custom 
+des public key ics timestep engineering develop 
+newbridge 's crypto chip ic commercial 
+educational establishment . 
+reach . 
+des use protect classify information ? 
+des intend protect classified datum . 
+fip 46-1 say : 
+`` standard use federal department agency 
+cryptographic protection computer datum follow 
+condition apply : 1 . 
+... cryptographic protection require ; 
+2 . 
+datum classify accord national security act 
+1947 , amend , atomic energy act 1954 , amend . '' 
+`` ecb '' , `` cbc '' , `` cfb '' , `` ofb '' encryption ? 
+method use block cipher , des , encrypt 
+message , file , block datum , know `` mode operation . '' 
+four `` mode operation '' define fip 81 1980 december 2 , 
+also ansi . 
+fip 81 specify 7-bit ascii datum send octet , 
+unused bit set 1 . 
+fip 81 also specify padding short block . 
+four des mode operation : 
+electronic code book ecb , 
+cipher block chaining cbc , 
+cipher feedback cfb , 
+output feedback ofb . 
+method explain notation . 
+symbol : 
+p n block plaintext , input encryption , output 
+decryption . 
+size block determine mode . 
+c n block ciphertext , output encryption , input 
+decryption . 
+size block determine mode . 
+e m des encryption function , perform 64-bit block m , use 
+schedule derive 56-bit key . 
+d m des decryption function , perform 64-bit block m , use 
+key schedule e m , except 16 key 
+schedule use opposite order e m . 
+iv 64-bit `` initialization vector '' , secret value , along 
+key , share . 
+n value 64-bit variable , use mode . 
+r n value 64-bit variable , use mode . 
+lsb m , k k least significant right-most bit m. 
+e.g. m & 1 k - 1 
+msb m , k k significant left-most bit m. 
+e.g. m & 1 k - 1 
+^ & operator define c langage . 
+electronic code book ecb : 
+p n c n 64-bit long . 
+encryption : decryption : 
+c n e p n p n d c n 
+cipher block chaining cbc : 
+p n c n 64-bit long . 
+encryption : decryption : 
+c 0 e p 0 ^ iv p 0 d c 0 ^ iv 
+n > 0 c n e p n ^ c n-1 p n d c n ^ c n-1 
+cipher feedback cfb : 
+p n c n k bit long , 1 < k < 64 . 
+encryption : decryption : 
+0 iv 0 iv 
+n > 0 n n-1 k | c n-1 n n-1 k | c n-1 
+n r n msb e n , k r n msb e n , k 
+n c n p n ^ r n p n c n ^ r n 
+note k 64 , reduce : 
+0 iv 0 iv 
+n > 0 n c n-1 n c n-1 
+n r n e n r n e n 
+n c n p n ^ r n p n c n ^ r n 
+cfb note : since n depend plain cipher text 
+previous operation , e function perform parallel 
+reception text use . 
+output feedback ofb : 
+p n c n k bit long , 1 < k < 64 . 
+encryption : decryption : 
+0 iv 0 iv 
+n > 0 n n-1 k | r n-1 n n-1 k | r n-1 
+n r n msb e n , k r n msb e n , k 
+n c n p n ^ r n p n c n ^ r n 
+note k 64 , reduce : 
+0 iv 0 iv 
+n > 0 n r n-1 n r n-1 
+n r n e n r n e n 
+n c n p n ^ r n p n c n ^ r n 
+ofb note : encryption decryption identical . 
+since n 
+independent p c , e function perform advance 
+receipt text use . 
+additional note des `` mode operation '' : 
+ecb cbc use e encrypt d decrypt , feedback mode 
+use e encrypt decrypt . 
+disprove erroneous claim 
+system feature e d use datum 
+confidentiality , therefore subject export control . 

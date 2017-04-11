@@ -1,0 +1,55 @@
+: tom weinstein 
+subject : re : revise technical summary clipper chip 
+organization : silicon graphics inc. . 
+lines : 49 
+distribution : world 
+: 
+: 
+: message 21 apr 93 -0400 
+article < > , write : 
+> chip include follow component : 
+> skipjack encryption algorithm 
+> f , 80-bit family key common chip 
+> n , 30-bit serial number length subject change 
+> u , 80-bit secret key unlock message encrypt chip 
+... 
+> see chip use , imagine embed at&t 
+> telephone security device . 
+suppose call someone 
+> device . 
+push button start secure 
+> conversation , security device negotiate 80-bit session key k 
+> device end . 
+key negotiation take place 
+> without clipper chip . 
+general , method key exchange 
+> use diffie-hellman public-key distribution method . 
+> session key k establish , clipper chip use 
+> encrypt conversation message stream m digitized voice . 
+
+> telephone security device feed k m chip produce two 
+> value : 
+> e m ; k , encrypted message stream , 
+> e e k ; u + n ; f , law enforcement field , 
+... 
+> transmit telephone line . 
+law enforcement 
+> field thus contain session key k encrypt unit key u 
+> serial number n , encrypt family 
+> key f. law enforcement field decrypt law enforcement 
+> authorize wiretap install . 
+one interesting thing notice use 
+chip key encode session key law enforcement field . 
+use encryption algorithm . 
+seem like would possible create device would 
+otherwise compatible , would send bogus law enforcement field . 
+might render device unusable `` normal '' device 
+sort validation involve law enforcement field , 
+could certainly use modify device . 
+course , irrelevant nsa backdoor 
+algorithm , make possible defeat key escrow system . 
+-- 
+wilt thou seal avenue ill ? 
+pay every | tom weinstein 
+debt , though god write bill . 
+-- emmerson | 

@@ -1,0 +1,96 @@
+: david 
+subject : need help : line & area together 
+organization : , inc. ; ann arbor , mi usa 
+keyword : z-buffer , roundoff , line , area 
+lines : 84 
+ask help sticky problem involve unreasonably low 
+apparent precision , encounter 2 different 
+pex implementation . 
+find discussion problem 
+resource lay hand e.g. faq , gaskins 's 
+_ _ , vendor ' documentation . 
+post article , virtually 
+article test program demonstrate problem 
+. 
+problem hard describe without picture , 
+hence article longish . 
+run 5 . 
+x program 
+interested , encourage build run test program 
+see effect play approach 
+deal . 
+depend utility code 
+gaskins book ; instruction fetch via anonymous ftp give . 
+problem solve eliminate minimize `` stitch '' 
+artifact result use 
+coplanar fill area . 
+interpolate z value along line 
+differ slightly , due roundoff error , interpolate z value 
+across area , even endpoint line coincident 
+vertex area . 
+, tossup whether 
+z-buffer allow line pixel area pixel display . 
+visually , result tend effect even though 
+line suppose solid . 
+use apus , approach solution use two slightly 
+different pex view mapping transform , two view table entry , one 
+area one line . 
+pex structure immediate - 
+mode output must organize one view table index always 
+effect area , always effect line . 
+
+result slight shift npc z coordinate line , 
+attempt bias tossup situation favor line . 
+shift effect move front back clipping plane use 
+view table entry line hair `` backwards '' i.e. 
+smaller vrc z coordinate , compare position view 
+table entry use area . 
+mean point transform 
+npc , z value slightly bigger come line 
+come area , thus accomplish desire bias . 
+would expect z roundoff error cause problem amount 
+unit , entire dynamic range z-buffer , 
+typically 0 i.e. 16 24 bit z-buffer . 
+therefore , seem tiny fraction range z vrc 
+front back clip plane ought suffice reliably fix 
+stitching . 
+fact , experience show shift much 0.003 
+0.006 range . 
+empirically , worst npc z 
+component slope surface high , i.e. appear 
+less edge-on viewer . 
+8 9 bit 
+z-buffer dependable meaning ! 
+amount great one 
+problem replace another : sometimes `` show '' 
+area suppose lie behind . 
+observe problem hewlett-packard digital 
+workstation pex server , approximately degree . 
+test 
+program demonstrate problem mit 5 . 
+x implementation ; 
+version know compile run hp-ux system pex 
+5.1 . 
+open question : 
+1 happen ? 
+-- configure pex view table wrongly ? 
+-- systematic difference z interpolation line 
+oppose area e.g. pixel center versus corner 
+could correct ? 
+-- pex implementor wantonly discard z precision 
+? 
+-- something else ? 
+2 ? 
+-- fix use view table allow better precision 
+? 
+-- another approach take remove stitching 
+artifact ? 
+-- luck ? 
+help would immensely appreciate ! 
+-- 
+
+dave internet : 
+inc. . 
+
+ann arbor , michigan usa uucp : ... ! 
+

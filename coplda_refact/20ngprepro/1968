@@ -1,0 +1,220 @@
+: 
+subject : cryptography faq - basic cryptology 
+organization : crypt cabal 
+lines : 187 
+expire : 22 may 1993 gmt 
+: 
+: . 
+
+summary : part 3 10 faq , basic cryptology . 
+definition basic term . 
+beginner reference . 
+cryptanalysis 
+strength cipher . 
+: 
+: 
+: 
+faq , part 3 : basic cryptology 
+third ten part faq . 
+part 
+mostly independent , read first part rest . 
+time send miss part mail , ask . 
+note `` '' refer reference list last part . 
+section faq available via anonymous ftp 
+. 
+xx . 
+cryptography 
+faq post newsgroup , , 
+every 21 day . 
+contents : 
+cryptology ? 
+cryptography ? 
+plaintext ? 
+ciphertext ? 
+encryption ? 
+key ? 
+reference start learn cryptology ? 
+one go cryptanalysis ? 
+brute-force search cryptographic relevance ? 
+property satisfy every strong cryptosystem ? 
+cryptosystem theoretically unbreakable , 
+guarantee practice ? 
+many people still use cryptosystem 
+relatively easy break ? 
+cryptology ? 
+cryptography ? 
+plaintext ? 
+ciphertext ? 
+encryption ? 
+key ? 
+story begin : julius caesar send message trust 
+acquaintance , trust messenger . 
+replace every 
+c , every b d , alphabet . 
+someone 
+know `` shift 2 '' rule could decipher message . 
+cryptosystem cipher system method disguise message 
+certain people see disguise . 
+cryptography 
+art create use cryptosystem . 
+cryptanalysis art 
+break cryptosystem -- see disguise even 
+suppose able . 
+cryptology study 
+cryptography cryptanalysis . 
+original message call plaintext . 
+disguise message 
+call ciphertext . 
+encryption mean procedure convert 
+plaintext ciphertext . 
+decryption mean procedure convert 
+ciphertext plaintext . 
+cryptosystem usually whole collection algorithm . 
+
+algorithm label ; label call key . 
+instance , 
+caesar probably use `` shift n '' encryption several different 
+value n. natural say n key . 
+people suppose able see disguise 
+call recipient . 
+people enemy , opponent , interloper , 
+eavesdropper , third party . 
+reference start learn cryptology ? 
+introduction technical matter , survey article give 
+part 10 best place begin , general , 
+concise , author competent people , well write . 
+however , 
+article mostly concern cryptology 
+develop last 50 year , abstract 
+mathematical historical . 
+codebreakers kahn 
+encyclopedic history technical detail cryptology 
+mid-60 's . 
+introductory cryptanalysis learn gaines 
+. 
+recommend especially people want 
+devise encryption algorithm since common 
+mistake try make system know break one . 
+selection algorithm des draw attention 
+many public researcher problem cryptology . 
+consequently 
+several textbook book serve text appear . 
+
+book denning give good introduction broad range 
+security include encryption algorithm , database security , 
+access control , formal model security . 
+similar comment 
+apply book price & davies . 
+book konheim meyer & matyas quite 
+technical book . 
+konheim meyer directly involve 
+development des , book give thorough analysis 
+des . 
+konheim 's book quite mathematical , detailed analysis 
+many classical cryptosystem . 
+meyer matyas concentrate 
+modern cryptographic method , especially pertain key management 
+integration security facility computer system 
+network . 
+book rueppel concentrate 
+application number theory algebra cryptography . 
+one go cryptanalysis ? 
+classical cryptanalysis involve interesting combination 
+analytical reasoning , application mathematical tool , pattern 
+finding , patience , determination , luck . 
+best available 
+textbook subject military cryptanalytic series 
+. 
+clear proficiency cryptanalysis , 
+part , gain attempt solution give 
+system . 
+experience consider valuable 
+perform wwii ally still 
+classify . 
+modern public-key cryptanalysis may consist factor integer , 
+take discrete logarithm . 
+traditional fare 
+cryptanalyst . 
+computational number theorist 
+successful cryptanalyst public key system . 
+brute-force search cryptographic relevance ? 
+nutshell : f x y know y compute f , 
+find x try every possible x. brute-force search . 
+example : say cryptanalyst find plaintext corresponding 
+ciphertext , know key . 
+simply try encrypt 
+plaintext use possible key , ciphertext match -- 
+decrypt ciphertext match plaintext , whichever faster . 
+every well-designed cryptosystem large key space 
+brute-force search impractical . 
+advance technology sometimes change consider 
+practical . 
+example , des , use 10 year 
+, 2 ^ 56 , 10 ^ 17 , possible key . 
+computation 
+many operation certainly unlikely user 
+mid-70 's . 
+situation different today give dramatic 
+decrease cost per processor operation . 
+massively parallel 
+machine threaten security des brute force search . 
+scenario describe garron outerbridge . 
+one phase sophisticated cryptanalysis may involve 
+brute-force search small space possibility . 
+property satisfy every strong cryptosystem ? 
+security strong system reside secrecy key 
+rather attempt keep algorithm secret . 
+strong cryptosystem large , mention . 
+
+unicity distance measure give minimum amount 
+ciphertext must intercept uniquely identify key 
+key , unicity distance much longer amount 
+ciphertext intend encrypt key , system 
+probably strong . 
+strong cryptosystem certainly produce ciphertext appear 
+random standard statistical test see , example , . 
+strong cryptosystem resist know previous attack . 
+
+system never subject scrutiny suspect . 
+system pass test mention , necessarily 
+strong ? 
+certainly . 
+many weak cryptosystem look good first . 
+however , sometimes possible show cryptosystem 
+strong mathematical proof . 
+`` joe break system , 
+also solve well-known difficult problem factor 
+integer . '' 
+see part 6 . 
+fail , crap shoot . 
+cryptosystem theoretically unbreakable , 
+guarantee practice ? 
+cryptanalytic method include know `` practical 
+cryptanalysis '' : enemy stare 
+ciphertext figure plaintext . 
+instance , might 
+assume `` crib '' -- stretch probable plaintext . 
+crib 
+correct might able deduce key decipher 
+rest message . 
+might exploit `` '' -- 
+plaintext several cryptosystem several key . 
+thus 
+might obtain solution even cryptanalytic theory say 
+chance . 
+sometimes , cryptosystem malfunction misuse . 
+one-time pad , 
+example , lose security use ! 
+even 
+attack , enemy somehow feed plaintext 
+deduce key , employ . 
+see 
+. 
+many people still use cryptosystem 
+relatively easy break ? 
+know better . 
+often amateur think design 
+secure system , aware expert cryptanalyst 
+could . 
+sometimes insufficient motivation anybody 
+invest work need crack system . 

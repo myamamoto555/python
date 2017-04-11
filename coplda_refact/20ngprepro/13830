@@ -1,0 +1,155 @@
+: gary rich 
+subject : re : pc network traffic 
+organization : quarterdeck office systems , santa monica ca 
+lines : 119 
+article < > write : 
+> 
+> article technical support write : 
+article < > write : 
+
+> sort traffic generate ? 
+curious find 
+> require bandwidth link must one machine run 
+> support multiple user client require adequate response 
+> time . 
+anyone idea ?? 
+
+expect limit factor server machine , network 
+. 
+give real-world example , quarterdeck 
+roughly 100 people use dvx talk bunch unix box , novell 
+file server , . 
+_ _ much load 
+ethernet maybe 4 concentrator , 20-30 people 
+segment . 
+badly loaded net , app want run 
+network intensive , could run slowdown . 
+
+biggest problem would machine . 
+say 486 
+33 plenty ram fast hard disk network card . 
+
+10 people run program , go see slowdown 
+effectively 3.3 mhz 486 . 
+course , dvx 
+attempt see task idle make sure give time 
+slice , 10 work program run , 'll know . 
+
+> 
+> well buy bigger powerful server machine 
+> significant drop price year year . 
+link want use 
+> though isdn 64k costly bandwidth limit . 
+
+> interest lie see link use see traffic 
+> go . 
+since think tom always get time read group , 'll take 
+liberty respond . 
+really want tom reply 
+send mail . 
+64k line certainly go restrict far 
+ethernet typically run . 
+restrictive depend 
+run run . 
+would think couple instance 
+really nasty program like `` smoking clover '' would make link 
+useless anyone else . 
+hand , probably 50 quietly 
+update every 10 seconds would impact much . 
+real 
+world , somewhere two extreme . 
+go way personally use x daily basis , would want 
+share 64k link 3-4 people . 
+say , tweak program run add 
+call give time slice idle sort 
+thing , could probably run 15-20 people give machine 
+start see slowdown time network bandwidth . 
+> 
+> hmmm . 
+anyone center monitor traffic ? 
+
+> run standard program like word ? 
+sort 
+> packet go blaze ? 
+size link 2mb 10mb ? 
+. 
+> average traffic flow go network 
+> high peak many low point ? 
+corporate wan unique . 
+usage pattern 
+good predictor behave . 
+one low bandwidth 
+link normally get use way 56k link ireland 
+often use run dos text base client end client-server database 
+remotely dvx machine behind . 
+since server end always 
+end california faster remotely run client via 
+x short hop server run client locally 
+long hop server . 
+warn , tell little 
+usage pattern fill 64k isdn link . 
+run word windows remotely go usage dependent . 
+let 's break piece look . 
+track mouse pointer easy 
+efficient translate windows call x. pop menu 
+little involved generate traffic . 
+restore screen 
+cover menu may easy may . 
+server 
+display back store ? 
+server enough 
+memory display update locally generate little network 
+traffic . 
+backing store , cover ? 
+
+solid color rectangle space tell draw quite 
+easily . 
+full color backdrop ren & stimpy may send 
+back x server bit bit . 
+dvx level best redraw 
+small area , unusual case entire screen may need 
+repaint . 
+1024x768 screen 4 bit per pixel bit 
+send . 
+worst possible case look 50 seconds . 
+reality would never bad since screen always part 
+higher level x call . 
+> 
+> 
+really depend program ie . 
+go 
+see slowdown lot sooner app 
+network thing also ... 
+-- 
+> 
+> mean network thing ? 
+vision use m windows 
+> windows application network process run 
+> server get display . 
+wonder 
+> good x subsequently protocol transfer 
+> image display client 's machine . 
+x design ground efficient across network . 
+
+pretty good . 
+x program best , dos text program almost 
+good since x easily . 
+something like winx hybrid . 
+intercept call windows make graphic driver mouse driver 
+keyboard driver convert x. call windows make 
+way design efficient packet switch network . 
+go 
+lot trouble convert level xlib call , 
+somewhat limited know windows application 
+tell . 
++ + 
+| quarterdeck office systems _ | 
+| gary rich - problem resolution dept. . 
+__ \ | 
+| _____________________________________________ ___ \ | 
+| anonymous ftp site ___________ ____ \ | 
+| -- -- -- write -- ________ _____ \ | 
+| info : _____ ______ \ | 
+| technical questions : __ _______ \ | 
+| quarterdeck bbs - \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ | 
++ + 

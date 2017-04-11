@@ -1,0 +1,82 @@
+: jack brindle 
+subject : re : radio freq . 
+use measure distance ? 
+organization : motorola , mobile data division - seattle , wa 
+lines : 65 
+article < > tom gardner write : 
+> , robert g. carpenter write : 
+> 
+wonder possible use radio wave measure 
+distance transmitter receiver ? 
+> 
+> yes . 
+call radar . 
+well , actually quite . 
+radar measure distance 
+measure time require transmit signal , receive 
+reflection target . 
+radar generally use pulse , radio altimeters 
+use either pulse modulate continuous-wave transmission . 
+case 
+latter , highly accurate distance measurement make . 
+example , 
+original bendix radio altimeter accurate foot 2500 
+foot altitude . 
+note , however different method measure poster 
+originally ask . 
+problem gain accurate measurement 
+transmitter seperate receiver need highly accurate 
+time base start receiver exact instant transmitter 
+trigger . 
+wire connect , since radio wave actually 
+travel faster free-space air , case wire difference 
+call velocity factor cable . 
+need resort 
+common automatically correct distance , etc. . 
+something 
+like pll connect gp receiver trick , trigger 
+transmitter receiver simultaneously . 
+sound expensive ? 
+bad , 
+plan spend buck equipment effort . 
+go different method ? 
+surveyors use system 
+reflection time measure . 
+try ? 
+sound like something p.e. 
+know anyway . 
+seem able measure signal strength 
+determine distance . 
+would short distance 2000 ft , 
+would need accuracy 6 inch , . 
+actually highly inaccurate , since power output transmitter 
+vary unit unit , variance antenna transmission 
+line , receiver may also vary , unit unit , unit 
+time . 
+would need continuously calibrate entire system . 
+
+radio altimeter also , since everything located 
+one place , much easier . 
+note especially time base 
+r.a. receiver transmitter one unit also ... 
+> depend environment : static waveguide yes , 
+> dynamic environment object move multipath kill 
+> concept . 
+nope . 
+fm capture effect say strongest signal win . 
+, unless 
+two interfere signal seperate 3 db signal strength . 
+one problem make altimeter inaccurate low altitude . 
+signal bounce runway tend strong ... 
+frequency would best ? 
+matter ? 
+high possible eliminate outside influence , also enhance 
+attenuation multipath signal . 
+radio altimeters typically use frequency 
+around 4 ghz . 
+hope help ... 
+-- 
+
+jack brindle 
+ham radio : 
+internet : 

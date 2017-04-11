@@ -1,0 +1,28 @@
+: mohit k goyal 
+subject : re : ide vs 
+: 
+organization : univ. texas dallas 
+lines : 30 
+> isa bus ? 
+initiate dma . 
+: 
+seriously , adapter dma ability , use 
+motherboard on-board dma much slower . 
+isa bus arbitration , two card 1 isa system 
+try dma dma channel system lock 
+crash . 
+forget 
+8 dma channel isa system . 
+0-7 . 
+0-3 8-bit & 4-7 
+16-bit . 
+system use dma 0 , soundblaster use dma 1 . 
+could buy video card & scsi ha . 
+order work properly , would find dma 
+channel card use simply configure scsi ha 
+use different dma channel dma . 
+know multiple dma go time isa . 
+sure eisa system either . 
+know system , allow bm card use 
+dma channel . 
+thanks . 

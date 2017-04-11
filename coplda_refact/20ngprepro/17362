@@ -1,0 +1,38 @@
+: re acct 
+subject : re : 3d head model ... , groan 
+organization : naval postgraduate school , monterey 
+lines : 40 
+> o.k. , sorry post question seem crop 
+> quite regularly group however yet 
+> get specific context answer 
+> get hold 3d datum head . 
+> 
+> looking : 
+> 
+> simple description head face easily 
+> convert , use , pov . 
+> i.e. < 1500 polygon 
+well , place file ftp today contain several 
+polygonal description head , face , skull , vase , etc. . 
+format 
+file list vertex , normal , triangle . 
+
+various resolution name datum file include number 
+polygon , eg . 
+phred contain 1300 polygon . 
+order get datum via ftp following : 
+1 ftp 
+2 login anonymous , guest password 
+3 cd 
+4 binary 
+5 get 
+get datum onto workstation : 
+1 
+2 tar 
+question , please let know . 
+george 
+
+-- 
+george 
+labs 
+

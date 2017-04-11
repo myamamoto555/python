@@ -1,0 +1,94 @@
+: penev 
+subject : re : isa , vlb xor eisa ?? 
+advice want ... 
+: 
+organization : rockefeller university 
+: tin version 1.1 
+: 
+: 
+lines : 88 
+thu , 22 apr 1993 gmt ross mitchell write : 
+| want use propose beast basically four thing : 
+| - editing document use wordperfect 5.1 
+| - create datum use v5 .0 
+| - image use aldus , run 
+| windows 3.1 - image large , say 2k x 2k , 
+| - use pc , run 1.1 sun , 
+| talk network sparcstation 's - lot 
+| come , demand task . 
+| read , read , read pc magazine , perform benchmark , read newsgroup , 
+| decide `` nice '' system would : 
+| 256k cache , isa , vlb , ram 
+| ati graphics ultra pro , 2 meg ram , local bus 
+| 15 '' monitor , nus 
+| 3com iii 
+| maxtor ide hard drive 
+| however , part fit ! 
+local retailer apparently put one 
+| together , discover ati card would run - surprise 
+| surprise . 
+actually , read group , surprised even 
+| local bus run ... 
+| choice basically system 
+| isa vlb , , eisa vlb thus 
+| non-local bus version ati card . 
+better , keep mind 
+| primarily interested last two task ? 
+mind size image , opinion go vlb . 
+_ much _ eisa , fact utilize 
+card . 
+make measure , someone else may 
+share experience . 
+also , faster operation , run internal 
+cache , slightly slower external memory . 
+advice . 
+| quite happy ati card - fast , datum get !! 
+| ~ slow ~ repaint image move screen , 
+| uncover ! 
+| seem enough raw cpu run ! 
+sluggish 
+| run local window manager . 
+also , many function take 
+| long time even image fit entirely ram . 
+| enough memory system - 1 meg 
+| leave much room app . 
+page disk 
+| medium size image . 
+try run without cache ? 
+need 
+paging cache . 
+well , might argue , paging 
+cache . 
+belief measurement app leave 
+memory manage better sy . 
+| perform number benchmark ethernet transfer rate . 
+
+| machine sustain ethernet sparc sustain 
+| network . 
+go 16 bit version smc card increase 
+| transfer rate - still slow especially move large 
+| image . 
+thing ethernet card come ?? 
+
+| make difference ? 
+hope , lean towards choice 
+| , reason . 
+bandwidth theoretical isa , far 
+0.15 . 
+try isa ide hard drive maxtor get 
+result - 0.65 - regardless isa bus speed 
+.25 mhz . 
+guess , combination 
+lousy . 
+| also , 's horizon ? 
+'s ? 
+'s 
+rumor likely chip come 
+. 
+note , ibm closest technology 
+sell whole motherboard , 'll upgrade mb . 
+| information greatly appreciate . 
+view , much figure . 
+-- 
+penev w internet : 
+disclaimer : mine . 

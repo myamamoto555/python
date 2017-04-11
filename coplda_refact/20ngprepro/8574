@@ -1,0 +1,27 @@
+: bruce adler 
+subject : re : ibm-pc xt switch setting 
+organization : netcom online communications services login : guest 
+lines : 26 
+article < > write : 
+> get ibm-pc xt document . 
+true 
+> ibm , wonder anyone definition 
+> 2 8 position dip switch ? 
+, number 5.25 '' drive 
+0,0 1 drive 
+0,1 2 drive 
+1,0 3 drive 
+1,1 4 drive 
+sw6 , type display 
+0,0 reserve 
+0,1 color mono mode 
+1,0 color mono mode 
+1,1 mono 
+, amount memory system board 
+64k chip 256k chip 
+0,0 64k 256k 
+0,1 128k 512k 
+1,0 
+1,1 256k 
+co-processor install 
+sw1 loop post 

@@ -1,0 +1,117 @@
+: perry e. metzger 
+subject : fact : 30 bit serial number , possibly fix s1 s2 
+: message 19 apr 93 -0400 
+: 
+organization : lehman brothers 
+lines : 102 
+vidkun abraham lauritz quisling write : 
+chip include follow component : 
+skipjack encryption algorithm 
+f , 80-bit family key common chip 
+n , 30-bit serial number 
+u , 80-bit secret key unlock message encrypt chip 
+hmmm . 
+thirty bit serial number . 
+, tell , unit key u 
+derive deterministically serial number . 
+mean 
+one billion possible unit key . 
+generate unit key serial number n , 30-bit value n 
+first pad fix block produce 64-bit block n1 . 
+s1 s2 use key n1 , produce 
+64-bit block r1 : 
+r1 e d e n1 ; s1 ; s2 ; s1 . 
+similarly , n pad two block produce n2 
+n3 , two additional 64-bit block r2 r3 compute : 
+r2 e d e n2 ; s1 ; s2 ; s1 
+r3 e d e n3 ; s1 ; s2 ; s1 . 
+r1 , r2 , r3 together , give 192 bit . 
+
+first 80 bit assign u1 second 80 bit u2 . 
+
+rest discard . 
+unit key u xor u1 u2 . 
+u1 u2 
+key part separately escrow two escrow 
+agency . 
+hmmm . 
+must assume generate unit key u serial 
+number n rather generate randomly select u1 u2 
+intentional way assure `` fail safe '' government -- 
+u determine give s1 , s2 n. s1 s2 
+change constitute effective `` master key '' along f , 
+theft possession various authority 
+completely obviate security system . 
+however , 
+interestingly , know , fact s1 s2 fix 
+matter u 2 ^ 30 . 
+pick u1 
+u2 random ? 
+interesting restriction key space 
+provide additional back door ? 
+find disturbing best security dependant 
+approximately 30 byte worth information could write 
+back napkin . 
+even s1 s2 change periodically , rationale behind 
+restriction size seem strange one 
+assume goal security -- make perfect sense 
+goal illusion security . 
+s1 s2 change , even remain secret wonder 
+somehow give enough unit number 
+pair . 
+assure happen -- one 
+understand skipjack work outside government official , 
+soon , foreign intelligence service gain information via 
+espionage . 
+presumably eventually information well 
+-- reverse engineering get advanced every year -- 
+time know may late . 
+sequence value u1 , u2 , u generate , 
+write onto three separate floppy disk . 
+first disk contain 
+file serial number contain corresponding key part 
+u1 . 
+second disk similar contain u2 value . 
+third 
+disk contain unit key u. agent 1 take first disk agent 
+2 take second disk . 
+third disk use program chip . 
+chip program , information discard 
+vault agent leave . 
+laptop may destroy additional 
+assurance information leave behind . 
+none make feel least bit secure . 
+silly notion 
+`` destroy laptop '' appear yet another bizarre distraction . 
+know read datum dram turn 
+moment . 
+hand , know 
+need generate unit key s1 s2 
+first place weaken system . 
+know 
+agent question would resist million cash piece 
+information -- probably worth hundred million , make 
+bribe arbitrarily hard resist . 
+tell truth , 
+`` vault '' rather joe random room 
+laptop computer seem like melodrama design make 
+high-school dropout peoria impressed -- little 
+rest . 
+protocol may change slightly four people 
+room instead two . 
+first two would provide seed s1 s2 , 
+second two escrow agent would take disk back 
+escrow agency . 
+would provide ? 
+let say escrow agency aclu 
+nra agent personally take back disk always 
+honest . 
+care ? 
+nsa must laugh loud , 
+algorithm regenerate u give n likely need 
+steal key effectively already . 
+-- 
+perry metzger 
+-- 
+laissez faire , laissez passer . 
+le monde va de lui meme . 

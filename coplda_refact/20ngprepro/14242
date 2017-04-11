@@ -1,0 +1,32 @@
+: oliver jones 
+subject : re : , , robustness 
+organization : shawsheen software 
+lines : 24 
+article < > josh marantz write : 
+> application want walk server window hierarchy , 
+> look window specific property . 
+> think happen give array n 
+> child , time get nth child window , 
+> destroy . 
+get error , application exit . 
+> 
+> make robust ? 
+think following : 
+... 
+> 2 . 
+set x error handler back 
+> make offend call . 
+safe ? 
+
+> , return ? 
+x protocol error . 
+write custom error handler 
+`` exit 1 ; '' error handler return let 
+program carry . 
+, use way 
+go , never mind . 
+> 3 . 
+register window return 
+> . 
+... 
+hard ... 

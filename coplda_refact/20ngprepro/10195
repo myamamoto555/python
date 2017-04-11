@@ -1,0 +1,140 @@
+: inoue takeshi 
+subject : see 
+: emu 
+distribution : comp 
+organization : yokogawa electric corporation , tokyo , japan 
+lines : 137 
+develop toolkit run x window system . 
+toolkit cope language base 's 
+facility . 
+know , 2 kind implementation mit 's 
+release -- . 
+original implementation toolkit 
+use . 
+toolkit manage character 's size base font management system . 
+order , ` ' type character string must decompose 
+character set . 
+mean one type compound string 
+ascii kanji mixed , example , give , element 
+array must check corresponding character set base bit layout 
+application environment 's locale . 
+case locale ` japanese ' , 
+character classify either , . 
+need function . 
+function must check many character 
+top character set character set . 
+could find public function inevitably , use 
+'s internal function construct function . 
+following 
+source code function ` ' . 
+. 
+h 
+may look like c code , really - - c + + - - 
+$ id : . 
+h , v 1.1 exp $ 
+_ 
+_ 
+< . 
+h > 
+extern int const , 
+int , 
+char buf , 
+int , 
+int , 
+char charset ; 
+extern const ; 
+extern const wc ; 
+_ 
+. 
+cc 
+$ id : . 
+cc , v 1.1 exp $ 
+
+< . 
+h > 
+< . 
+h > 
+`` . 
+h '' 
+extern `` c '' 
+< . 
+h > 
+_ 
+_ 
+_ 
+`` '' 
+_ 
+_ 
+_ 
+extern int _ , const , int , 
+char , int , int , int ; 
+extern charset _ , _ ; 
+extern _ _ , _ ; 
+; 
+int const , 
+int , 
+char buf , 
+int , 
+int , 
+char charset 
+
+_ ; 
+int ; 
+int status ; 
+charset ; 
+status _ , , , buf , 
+, , & ; 
+status success 
+_ , _ , ; 
+charset ? 
+- > : null ; 
+
+else 
+charset null ; 
+return status ; 
+
+---------------- 
+include file , `` '' , also xsi internal copy 
+file toolkit directory compile . 
+serious issue occur try compile toolkit application 
+hp machine os version .01 . 
+try link application base toolkit , 
+link error occur say follow function miss : 
+_ code 
+_ code 
+_ code 
+_ code 
+use mit release version implementation 
+.0 run application successfully . 
+one reason use 
+hp release hp 's os 9.0 way 
+know hp 's r5 would implement . 
+hope 's popularity use 
+internal function . 
+hp 's linker complain internal function implement . 
+observe hp 's . 
+, use implementation 
+sure use mit 's vanilla version version 
+therefore , find counter part function mit 's 
+seem lead solution . 
+question goal know construct function like 
+` ' list . 
+function check 
+character set element type string depend locale ? 
+public function , perfect even , 
+want use internal function hp 's mit 's r5 . 
+order render ` ' type string , must machinery 
+judge character set proper font select 
+string . 
+way find without hp 's source 
+file . 
+want know use goal . 
+help comment would highly appreciate . 
+also appreciate anyone tell treat around area 
+even hp 's implementation . 
+thank . 
+-- 
+takeshi inoue 
+
+yokogawa electric corporation 
+open systems laboratory 52 

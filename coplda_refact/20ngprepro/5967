@@ -1,0 +1,53 @@
+: gary lorman 
+subject : re : electronic odometer : use bmw question ... ??? 
+organization : corollary , inc. . 
+lines : 42 
+article < > daniel l. write : 
+> article < > gerrit conradie write : 
+> 
+> ... 
+> 
+however , design bmw 's electronics , use counter 
+count number time car pass 1 million mile whatever , 
+store car computer 's memory . 
+could read 
+diagnostic test . 
+ditto date odometer . 
+easy , 
+know ? 
+prevent illegal 
+odometer tamper . 
+
+previous writer say , case take aeon reset 
+odometer , mechanic electronic simulate drive car . 
+
+easier reprogram . 
+, know . 
+> 
+> hard know much digital electronics . 
+
+> counter make standard ttl chip , need find 
+> chip use counting , figure mileage want put , 
+> preset wiring preset pin directly would also 
+> know convention low high . 
+might little 
+> involved , beyond someone bsee b eet . 
+> display convert counter chip say digit use 
+> `` translation table '' store rom . 
+> 
+> selah , 
+> 
+> dan 
+> 
+, chip probably inside custom chip , make smaller 
+use less power pin go available . 
+would probably ttl might cmo 
+wider operating voltage range , would make 
+much difference . 
+plus custom chip would probably potted encapsulate epoxy . 
+good luck . 
+-- 
+-- 
+`` shark get 11 12 foot long 
+300 big tooth consider dangerous '' - ` shark bowl ' 92 ' 
+

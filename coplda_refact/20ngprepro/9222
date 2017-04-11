@@ -1,0 +1,27 @@
+: daniel cohen 
+subject : re : interesting adb behavior 
+: 
+organization : yale university 
+lines : 20 
+article < > 
+lawrence , waikato university write : 
+> notice interesting phenomenon centris 650 . 
+unplug 
+> keyboard mouse plug without turn power , 
+> mouse suddenly switch half normal movement speed . 
+check 
+> `` mouse '' control panel , change setting -- 
+> still full speed , way like . 
+restart machine restore 
+> normal mouse speed . 
+> 
+> way , happen mouse come 
+> centris , mouse work . 
+thus think 
+> anything resolution setting mouse -- 
+> definitely quirk adb interface either hardware software 
+> centris . 
+notice exact phenomenon occur . 
+perhaps 
+quirk new machine ? 
+-- dan 

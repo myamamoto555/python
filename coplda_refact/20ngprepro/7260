@@ -1,0 +1,39 @@
+: yeh 
+subject : re : point within polygon 
+organization : university southern california , los angeles , ca 
+lines : 28 
+distribution : world 
+: 
+keyword : point , polygon 
+article < > , simon crowe write : 
+| > look algorithm determine give point bind 
+| > polygon . 
+anyone code reference book contain 
+| > information subject ? 
+| > 
+| > regards 
+| > 
+| > simon 
+basically , two algorithm determine whether point inside , 
+outside polygon . 
+first one ray half line method . 
+
+method , draw ray , number intersection point 
+ray polygon even , outside . 
+number odd , 
+inside . 
+cause , deal special case 
+may make headache . 
+second method pi algorithm . 
+draw line point 
+vertex polygon . 
+calculate sum angle 
+successive line . 
+result 2 pi , inside . 
+pi , 
+polygon . 
+otherwise outside . 
+experience tell second method . 
+hope help . 
+yeh 
+usc 

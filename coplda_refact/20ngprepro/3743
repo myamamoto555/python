@@ -1,0 +1,16 @@
+: nils engstrom 
+subject : re : compile 
+organization : department scientific computing , uppsala university 
+lines : 15 
+article < > wilson swee < > write : 
+> _ sin 
+> _ cos 
+> _ pow 
+> _ floor 
+link ' - lm ' math library . 
+> _ 
+> _ 
+bug sun 's shared library . 
+link 
+' - assert ' trick . 
+n 

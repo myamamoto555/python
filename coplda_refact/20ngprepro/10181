@@ -1,0 +1,45 @@
+: john whitmore 
+subject : re : minimal boolean circuit 
+: shelley .1 
+distribution : usa 
+organization : university washington , seattle 
+lines : 41 
+: 
+article < > daniel jimenez write : 
+> suppose boolean function minimal 
+> derive something , like : 
+> f , b , c , d bc would ' + acd ' + abc ' + ab ' c 
+> 
+> book logic design consult seem imply 
+> analysis end ... factor 
+> ` ' term function , get fewer gate : 
+> f , b , c , d bc would ' + cd ' + bc ' + b ` c , 
+> yield 9 gate . 
+yes , ... minimization gate important part 
+timing consideration . 
+ttl gate basic structure 
+, inversion sum product 
+exactly one gate delay . 
+reason find minimal sum product 
+match hardware optimization . 
+gate solution use 
+two gate delay another gate delay second term 
+second solution , simpler logic symbol , 
+expect something less optimal real world . 
+ecl similar ttl , support 
+gate minimum delay unlike ttl , get true 
+inverse output ` free ' use ecl . 
+pal basically large programmable 
+gate choice internal connection 
+various section , perhaps latch , minimum sum 
+product also way shoehorn logic design 
+pal . 
+comparably easy design minimization 
+logic gate , software package claim allow 
+, take mess gate 
+series logic ic produce description 
+logic cell array job . 
+xilinx 's software 
+treat logic block macro , expand 
+, simplify . 
+john whitmore 

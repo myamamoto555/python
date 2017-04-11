@@ -1,0 +1,27 @@
+: barry margolin 
+subject : re : pulldown menu periodically hang application 3.0 
+organization : thinking machines corporation , cambridge ma , usa 
+lines : 22 
+distribution : inet 
+: 
+article < > richard lee write : 
+> : motif application periodically hang run 
+> : 3 . 
+server . 
+> see problem use sparcstation 10 , solaris 2.1 , ow 3.1 . 
+> case , happen far often `` periodically '' . 
+know corresponding patch solaris 2.1 , 
+sound like follow bug supposedly fix , 
+solaris 1 . 
+x jumbo patch : 
+- window system hang errant pointer grab 
+actually , suspect ow 3.1 problem may different , since 
+readme file say patch suno 4 . 
+x version ow 3.1 
+maybe line come earlier version patch , 
+forget take -06 version . 
+-- 
+barry margolin 
+system manager , thinking machines corp. . 
+uunet , harvard ! 
+

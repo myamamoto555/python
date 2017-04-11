@@ -1,0 +1,42 @@
+: jim jagielski 
+subject : re : quadra scsi problem ??? 
+keywords : quadra scsi aps 
+lines : 29 
+: jim jagielski 
+organization : space flight center 
+tim smith write : 
+attention : mac quadra owner : many storage industry expert 
+conclude mac quadras suffer timing irregularity deviate 
+standard scsi specification . 
+result silent corruption 
+datum use device , include ultra-modern device . 
+although name device , since fault , 
+example would sony 3.5 inch mo , without special `` '' 
+firmware install . 
+one solution , sometimes , disable `` blind write '' 
+> sound right . 
+quadras use ? 
+, 
+> mac nothing scsi timing . 
+handle 
+> chip . 
+timing could wrong apple program 
+> clock register wrong 96 . 
+, however , really hurt 
+> synchronous transfer , use mac scsi manager . 
+> furthermore , disable blind write meaningless quadra . 
+> mac use , much lower level scsi chip , 
+> mac responsible handshake byte transfer . 
+blind 
+> mode affect mac handle handshake . 
+, 
+> handshake entirely handle chip . 
+doc say scsi manager bug , change thing ... 
+-- 
+jim jagielski | `` gon na stiff . 
+say , 
+| ` hey ! 
+lama ! 
+something , 
+, code | know , effort ! ' '' 
+greenbelt , md | 

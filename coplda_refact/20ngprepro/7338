@@ -1,0 +1,42 @@
+: 
+subject : workaround citizen driver 
+summary : workaround 
+keyword : printer driver citizen 
+organization : drd corporation 
+lines : 38 
+experience several end-user problem various commercial 
+software package wordperfect 5.2 win , publish ! 
+win 3.1 printing 
+landscape mode citizen little guy citizen + . 
+nutshell problem lose first 0.625 inch 
+information left margin , white space truetype font 
+output , margin preserve subsequent page past 
+first . 
+wordperfect workaround consist use `` default '' location 
+printer instead `` tractor '' `` manual '' . 
+also file 
+bug continue investigate . 
+m write , course , problem printer driver , prove 
+microsoft know something rest ! 
+surprise ? 
+
+. 
+publish ! 
+win still investigate problem , consider - 
+option reject one buy $ 800 dtp package , surely 
+would problem , right ? 
+stumble onto global workaround . 
+workaround 
+---------- 
+go windows 3.1 control panel , select printer , select citizen 
+printer driver , select setup , select custom size 850 x 1132 . 
+like 
+magic , problem go away . 
+ask question 'll tell lie ! 
+-- mike 
+
+disclaimer : opinion necessarily reflect employer . 
+
+
+
+

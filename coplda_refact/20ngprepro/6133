@@ -1,0 +1,27 @@
+: egan f. ford 
+subject : need help key binding 
+: 
+organization : call business systems 
+lines : 21 
+need help bind value home end key keyboard . 
+
+w ext run mit dist . 
+use pc run exceed 
+window . 
+home end key send value , 
+application need define . 
+use define 
+key : 
+vt100 . 
+translation : \ 
+home : string '' \ 033 8 ~ '' \ n \ 
+end : string '' \ 033 7 ~ '' 
+- name . 
+work perfect , however 7 1 key 
+keypad also define \ 033 8 ~ \ 033 7 ~ . 
+idea ? 
+help please . 
+thanks . 
+-- 
+egan f. ford 
+

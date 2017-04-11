@@ -1,0 +1,49 @@
+: alok mathur 
+subject : get color frame ? 
+organization : case western reserve university 
+lines : 55 
+distribution : world 
+: 
+hus ! 
+use 3.0 sparc ipx along board 
+parallax enable use 24 bit color . 
+problem 
+utilize 24 bit color would greatly appreciate help matter . 
+use create frame create canvas pane inside use 
+display live video . 
+video input 24 bit color . 
+problem top level frame create 
+frame frame null , frame , null ; 
+seem depth 8 propagate canvas . 
+would like know set depth frame 24 bit . 
+try use follow xlib code : 
+; 
+int depth 24 ; 
+; 
+; 
+unsigned long 0 ; 
+window win ; 
+frame ; 
+win frame , ; 
+display , screen , depth , , & ; 
+far good 
+display , win , , ; 
+die error 
+; 
+| ; 
+display , w , , & ; 
+display , win , ; 
+use completely wrong approach ? 
+possible set depth 
+window create ? 
+wrong ? 
+thanks advance help get . 
+would prefer response via 
+email although post newsgroup also okay . 
+thanks , 
+alok . 
+-- 
+alok mathur 
+computer science & engg , case western reserve univ , cleveland , oh 
+fairchild road , # 2 , cleveland , oh 
+- res - , email - 

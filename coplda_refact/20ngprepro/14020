@@ -1,0 +1,20 @@
+: john kelsey 
+subject : re : implement diffie-hellman key exchange . 
+: . 
+
+organization : university missouri 
+lines : 18 
+probably use number much larger 64-bit . 
+also , 
+may want include protocol . 
+way , someone find shared key another person 
+use one day , able guess next day ... 
+ie send g mod p random string r0 
+b send g b mod p random string r1 
+find g mod p b mod p share key , calculate 
+session key hash r0 , share key , r1 
+also , want make sure get right public 
+key value g mod p. someone power intercept change message 
+spoof send public key , 
+acquire session key ... 
+-- john 

@@ -1,0 +1,128 @@
+: raymond s. brand 
+subject : re : clipper consider harmful 
+organization : 
+lines : 132 
+article < > , steven bellovin write : 
+... 
+> three issue clipper . 
+first whether 
+> architecture whole scheme capable work . 
+answer , 
+> one significant exception , yes . 
+really think nsa 
+> nist design scheme well , assume 
+> real objective state : permit wiretapping , 
+> certain circumstance , minimum risk 
+> abuse . 
+exception u exist outside chip , 
+> programming diskette . 
+seriously wrong . 
+
+> loaded onto chip separately . 
+disagree 
+> claim answer obvious , though find reasoning 
+> sufficiently persuasive force rewrite conclusion 
+> section technical analysis paper -- originally blast 
+> scheme , issue invitation : assume charge 
+> implement system , complete regard civil rights 
+> due process . 
+would differently ? 
+answer 
+> question , please accept nsa 's fundamental assumption : 
+> strong cryptography outsider , ability wiretap 
+> domestic user , necessary . 
+feel necessary 
+> challenge assumption , context last issue 
+> present . 
+right , discuss technical 
+> aspect . 
+, means claim 
+> something , . 
+ok steve , sketch alternative believe address 
+objection clipper scheme . 
+notation : 
++ concatenation 
+^ exclusive 
+e m , k message m encrypt key k 
+d m , k message m decrypt key k 
+h m hash message m 
+important value : 
+x local chip unit key escrow agency x 
+u1 x remote chip unit key escrow agency x 
+n 0 serial number local chip 
+n 1 serial number remote chip 
+number escrow agency 
+k 0 , k 1 `` session key '' agree upon external protocol 
+f `` family key '' , need secret 
+protocol : 
+choose k0 1 , ... k0 k 0 k0 1 ^ ... ^ k0 
+remote chip k 1 , k1 1 , ... , k1 . 
+compute following : 
+l0 1 e k0 1 , 1 
+... 
+l0 e k0 , 
+l 0 n 0 + e n 0 + l0 1 + ... + l0 , f 
+remote chip l1 1 , ... , l1 , l 1 
+send l 0 remote chip receive l 1 remote chip 
+compute : 
+ke 0 h k 0 + n 0 + l0 1 + ... + l0 
++ k 1 + d l 1 , f 
+kd 0 h k 1 + d l 1 , f 
++ k 0 + n 0 + l0 1 + ... + l0 
+note d l 1 , f n 1 + l1 1 + ... + l1 
+remote chip ke 1 kd 1 
+user datum encrypt decrypt key ke 0 , ke 1 
+kd 0 , kd 1 
+assumption : 
+trap door e , d h . 
+h invertible . 
+algorithm e , d h secret . 
+otherwise software 
+implementation bogus chip could communicate real chip . 
+chip support follow operation : 
+1 return n 0 
+2 load k0 x 
+3 return e k0 x , x 
+4 return e n 0 + l0 1 + ... + l0 , f 
+5 give e n 1 + l1 1 + ... + l1 , f , 
+return n 1 , l1 1 , ... , l1 
+6 load k 1 
+7 give e n 1 + l1 1 + ... + l1 , f , 
+compute ke 0 , kd 0 
+8 give m , return e m , ke 0 
+9 give m , return d m , kd 0 
+anything program chip determine destroy 
+chip u 1 , ... , u , f , n 0 . 
+u 1 , ... , u determine except destroy chip . 
+unfortunately may true reality . 
+suppose 
+possible determine chip program 
+sophisticated sp ? 
+x-ray machine look blow fuse . 
+u 's program escrow agency . 
+note : 
+tap escrow agency y give n 0 , e k0 y , y , n 1 , 
+e k1 y , u1 y return k0 y , k1 y . 
+lea 's must contact escrow agency serial number 
+chip encrypted partial key . 
+allow agency 
+record chip tap . 
+lea 's get session key , key conversation 
+particular chip . 
+preclude real-time decrypting 
+conversation one stated requirement . 
+observation : 
+order secure `` '' communication scheme work , 
+active part need share secret . 
+secret 
+reveal , communication know secret make 
+`` '' . 
+obvious candidate cryptographic algorithm 
+master family key . 
+relative size complexity suggest 
+key obtain silicon implementation 
+scheme lot easier faster algorithm . 
+
+
+raymond s. brand 
+

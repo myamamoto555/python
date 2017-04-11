@@ -1,0 +1,49 @@
+: simon marshall 
+subject : compensate photographic viewpoint distortion ? 
+: 
+organization : manchester computing centre , manchester , england 
+lines : 42 
+hus . 
+problem , certain solve 
+correct way . 
+wonder anyone shed light , point 
+right place look ... 
+x-ray imaging camera metallic tube cylindrical hole 
+pass right angle tube 's axis : 
+| 
+| | image 
+| 
+x-ray source | | | screen 
+metallic | | tube | 
+| | | 
+| 
+know source -- screen center distance , radius tube , radius hole . 
+calculation base image hole screen . 
+however , 
+calculation mathematically highly complex , must assume 
+object 's hole project image resemble ellipse tube 
+parallel screen center screen . 
+however , unlikely 
+object place conveniently . 
+firstly , must transform major minor axis ellipse . 
+
+know angle tube screen . 
+assume 
+parallel transformation ? 
+transformation ? 
+secondly , distortion image due screen planar 
+source -- screen distance increase move away center 
+screen . 
+compensate ellipse 's axis image distortion ? 
+, please anyone give pointer ? 
+transform 
+image appear would center screen , 
+deal distortion due shape screen ? 
+would appreciate help , either post email . 
+thanks advance , simon . 
+-- 
+simon marshall , dept. computer science , university hull , hull , uk 
+`` football life death . 
+important . '' 
+bill 
+email : phone : fax : 

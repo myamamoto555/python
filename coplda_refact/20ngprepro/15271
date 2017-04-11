@@ -1,0 +1,1343 @@
+: rusty harold 
+subject : introductory macintosh frequently ask question faq 
+supersedes : < > 
+organization : department mathematics , njit 
+lines : 1037 
+expire : 19 may 1993 gmt 
+: harold 
+: . 
+
+summary : document answer number frequently ask 
+question macintosh usenet . 
+avoid waste bandwidth 
+matter politeness please familiarize 
+document post . 
+keyword : faq , macintosh , mac , macintosh , mac , general , introduction 
+: 
+: 
+version : 
+: april 16 , 1993 
+copyright 1993 , harold 
+change : 
+2.1 : ftp macintosh software ? 
+add ftp site . 
+2.5 : . 
+bin ? 
+. 
+? 
+. 
+cpt ? 
+. 
+image ? 
+. 
+etc. . 
+? 
+disk doubler decode archive . 
+5.0 
+decode file , stuffit file 
+last version erroneously indicate . 
+2.7 : add question 
+get , stuffit etc. pc ? 
+
+part 1 : introduction macintosh newsgroup 
+i. introduction 
+1 . 
+use document ? 
+2 . 
+information available ? 
+3 . 
+newsgroup post ? 
+4 . 
+someone ask system take sixteen 
+megabyte . 
+display knowledge 
+world post seventeenth response 
+question ? 
+ii . 
+ftp 
+1 . 
+ftp macintosh software ? 
+2 . 
+get shareware e-mail ? 
+3 . 
+find application x ? 
+4 . 
+someone mail application x ? 
+5 . 
+. 
+bin ? 
+. 
+? 
+. 
+cpt ? 
+. 
+image ? 
+. 
+etc. . 
+? 
+6 . 
+get ? 
+stuffit ? 
+etc. . 
+? 
+7 . 
+get , stuffit , etc. pc ? 
+iii . 
+troubleshoot . 
+thing go wrong 
+1 . 
+identify problem . 
+2 . 
+read read file . 
+3 . 
+check virus . 
+4 . 
+reinstall application support file . 
+5 . 
+reinstall system software . 
+6 . 
+isolate problem . 
+7 . 
+contact technical support . 
+iv . 
+preventive maintenance 
+1 . 
+trash unneeded file 
+2 . 
+reevaluate extension 
+3 . 
+rebuild desktop . 
+4 . 
+zap pram reset clock 
+5 . 
+resize system heap . 
+6 . 
+reinstall system software . 
+7 . 
+disk utility 
+8 . 
+back 
+9 . 
+disk defragmentation 
+10 . 
+reformat partition hard disk 
+faq list currently available : 
+b. : 
+i. memory 
+1 . 
+system use much memory ? 
+2 . 
+mode 32 ? 
+32-bit enabler ? 
+need ? 
+3 . 
+cache carry much memory allot cache ? 
+ii . 
+system software 
+1 . 
+apple charge system 7.1 ? 
+2 . 
+system 7.1 give $ 35 system 7.0 ? 
+3 . 
+get system 7.1 ? 
+4 . 
+use system 6 system 7 mac ? 
+5 . 
+non-us script system 
+6 . 
+system 7 tuneup ? 
+need ? 
+7 . 
+da 's disappear turn ? 
+8 . 
+need system ? 
+9 . 
+get system disk ? 
+iii . 
+hard disk , filesharing , file system 
+1 . 
+help ! 
+folder disappear ! 
+2 . 
+throw folder away ? 
+3 . 
+share removable drive ? 
+4 . 
+eject syquest cartridge ? 
+cd-rom ? 
+etc. . 
+5 . 
+rename hard disk ? 
+iv . 
+miscellaneous : 
+1 . 
+system error xxx mean ? 
+2 . 
+type 1 error ? 
+3 . 
+? 
+4 . 
+easy access one answer , many question 
+c. : 
+i. virus 
+1 . 
+help ! 
+virus ! 
+2 . 
+reporting new virus 
+ii . 
+printing postscript 
+1 . 
+make postscript file ? 
+2 . 
+print postscript file ? 
+3 . 
+postscript file print mainframe 's printer ? 
+4 . 
+postscript file big ? 
+5 . 
+print postscript printer ? 
+6 . 
+make ii print color ? 
+7 . 
+work ? 
+8 . 
+document change print ? 
+9 . 
+preview postscript file ? 
+10 . 
+edit postscript file ? 
+iii . 
+dos mac 
+1 . 
+move file mac pc ? 
+2 . 
+translate file format ? 
+3 . 
+buy real pc ? 
+iv . 
+security 
+1 . 
+prevent user change contents folder ? 
+2 . 
+password protect mac ? 
+v. particular place go miscellaneous miscellanea 
+1 . 
+good book mac ? 
+2 . 
+take picture screen ? 
+3 . 
+use picture desktop ? 
+4 . 
+replace `` welcome macintosh '' box picture ? 
+5 . 
+? 
+? 
+disk space ? 
+safe ? 
+6 . 
+compare , stacker ? 
+7 . 
+icon go ? 
+8 . 
+find user group ? 
+work copyright 1993 m. harold . 
+permission 
+hereby grant distribute unmodified document provide 
+fee excess normal on-line charge require 
+distribution . 
+portion document may extract 
+quote free charge without necessity citation normal 
+on-line communication provide say quote 
+represent correspondent 's original work . 
+permission 
+quotation document print material edit on-line 
+communication digest tidbits give 
+subject normal citation procedure i.e. say 
+get . 
+disclaimer : best ensure information contain 
+document current accurate , accept 
+responsibility action result information contain 
+herein . 
+document provide warranty 
+kind . 
+correction suggestion address 
+. 
+apple , macintosh , laserwriter , , finder , hypercard 
+register trademark powerbook trademark 
+apple computer , inc. . 
+register trademark 
+ag , inc. . 
+postscript register trademark 
+illustrator photoshop trademark adobe systems , inc. . 
+microsoft register trademark microsoft corporation . 
+pagemaker register trademark aldus corp. . 
+
+trademark fifth generation systems , inc. . 
+stuffit stuffit deluxe trademark raymond lau 
+aladdin systems , inc. . 
+stuffit trademark aladdin 
+systems , inc. . 
+disk space trademark software 
+corporation . 
+trademark golden triangle computers , 
+inc. . 
+unix register trademark at&t . 
+tradename 
+trademark respective manufacturer . 
+first part faq . 
+second part 
+post feature many question 
+system software . 
+third part post every two week 
+. 
+table contents two piece 
+include . 
+please familiarize three 
+section document post . 
+piece available anonymous ftp 
+directory 
+. 
+. 
+except introductory 
+faq appear multiple newsgroup store 
+. 
+z , name file format last 
+part group name follow '' - '' , e.g faq 
+store . 
+z faq 
+store . 
+z. store file 
+compress . 
+z binary file . 
+leave . 
+z end 
+file name `` get '' file , automatically 
+decompress file send . 
+also 
+file mail send e-mail message 
+line : send 
+. 
+`` name '' body text 
+`` name '' name file want specify e.g. 
+. 
+also send server message 
+subject `` help '' detailed instruction . 
+
+question ... 1.0 
+
+congratulation ! 
+come right place . 
+usenet 
+wonderful resource information range basic question 
+lock floppy disk ? 
+query would make steve 
+jobs run scream room terror . 
+use 
+remove resource init # 11 , 34 , 17 
+system file use hex editor add code string #a 
+patch routine standard file dialog box 
+would nice shade mauve . 
+everything work fine 
+install , use aldus driver 
+print pagemaker 5.0 d4 6000 system hang . 
+p.s. run system powerbook 170 . 
+since macintosh newsgroup medium high volume , 
+ask first peruse faq list include least 
+table contents piece , check 
+relevant on-line resource list question 1.2 , especially 
+faq list macintosh newsgroup , read 
+friendly manual post question . 
+realize 
+personally incense system take fourteen 
+twenty meg ram , question 
+already make way around world three hundred time , 
+develop tired foot . 
+finally , post 
+newsgroup macintosh otherwise , please familiarize 
+basic etiquette usenet describe newsgroup 
+. 
+use document ? 
+get ? 
+1.1 
+currently divide multiple piece , 
+general introduction read , specific list 
+newsgroup . 
+faq 
+list , 
+development . 
+ready part 
+available respective newsgroup . 
+piece 
+available via anonymous ftp 
+. 
+directory . 
+except 
+document name . 
+z piece name 
+per last part newsgroup cover follow 
+'' - faq '' , e.g. . 
+z , . 
+z. . 
+z mean file 
+store compress 'll need ftp binary mode use 
+either , stuffit deluxe , unix command 
+decompress . 
+however leave '' . 
+z '' extension 
+`` get '' file , automatically decompress file 
+send . 
+introductory document post concerned 
+newsgroup . 
+table contents specific faq 
+list beginning file able 
+get least idea whether question answer anywhere 
+else faq even part hand . 
+always obvious , especially newcomer , 
+particular question comment post . 
+please 
+familiarize faq list major macintosh 
+newsgroup post . 
+question appear 
+faq serve basic guide post belong 
+. 
+jump particular question search 
+. 
+enclose parenthesis . 
+
+example find `` ftp macintosh software ? '' 
+search 
+string '' 2.1 '' . 
+jump section instead question 
+use zero question number . 
+information available ? 
+1.2 
+provide short answer number 
+frequently ask question appropriate usenet newsgroup 
+. 
+four file 
+worthy particular note : daryl spitzer maintain faq list 
+cover macintosh programming newsgroup 
+. 
+post group weekly 
+available anonymous ftp 
+. 
+eric rosen maintain frequently ask question list 
+available newsgroup 
+file read 
+also irregularly archive . 
+list answer many frequently 
+ask question networking , unix mac , 
+telecommunications , foreign file format . 
+norm walsh 
+compile excellent faq answer lot 
+question various kind font cross-platform 
+conversion printing . 
+available ftp 
+. 
+. 
+finally jim 
+jagielski maintain faq cover apple 's unix 
+environment , . 
+post every 2 3 week 
+. 
+available anonymous ftp 
+. 
+newsgroup post ? 
+1.3 
+stupid question , misplace one . 
+would ask english teacher definite 
+integral ln x zero one , would ? 
+ask 
+programmer newsgroup system slow microsoft 
+word background . 
+ignorance basic netiquette 
+excuse . 
+want people help , need learn 
+way communicate . 
+post question proper newsgroup fill 
+mailbox pearl wisdom maybe rotten oyster 
+. 
+post wrong newsgroup often engender thunder 
+silence . 
+instance common glaring , one 
+seem incongruous dweller macintosh region 
+usenet would purple elephant aleuts arctic , ask 
+question network anywhere except , 
+normally produce useful response . 
+post question 
+ensure post read consider 
+dozen experienced network administrator 
+network software designer . 
+please post exactly one newsgroup . 
+. 
+question important enough take extra 
+minute figure properly belong , important 
+enough several thousand people spend time reading . 
+reason use 
+catch-all newsgroup . 
+breakdown question different newsgroup 
+document also serve reasonable guide belong 
+. 
+specifically question productivity application 
+software buy macintosh run , software buy 
+make macintosh run better go 
+unless application cover specific newsgroup . 
+communications program , game , hypercard , compiler database 
+topical . 
+newsgroup . 
+post question 
+hardware include question 
+software necessary make particular hardware work 
+. 
+question maco system software 
+belong . 
+question utility 
+extension normally belong . 
+question 
+go . 
+detailed question appletalk 
+belong . 
+direct question hypercard . 
+programming question question development 
+environment go . 
+
+question may post either , 
+, ; generally 
+netter inhabit darker recess 
+considerably practice art resource hacking . 
+general exception rule 
+technical question application actually begin 
+delve 's program well recent 
+example : write entirely assembly 
+compare word processor write high level language ? 
+might better address programmer newsgroup . 
+sale want buy post go 
+. 
+
+understand desperate sell upgrade 128k mac 
+get $ $ powerbook 180 ; trust , anyone want 
+buy read . 
+political 
+religious question mac better windows ! 
+! 
+
+! 
+! 
+! 
+hey ! 
+` bout amiga ! 
+? 
+
+! 
+! 
+belong . 
+anything 
+specifically mention probably belong . 
+finally provincial consider 
+newsgroup appropriate forum question . 
+many question modem much 
+thoroughly discuss . 
+question mac midi 
+often better handle even though 
+macintosh specific newsgroup . 
+shop around . 
+usenet 's big place 
+everything relevant macintosh happen 
+. 
+4 . 
+someone ask system take sixteen 
+twenty megabytes ram . 
+put brilliance 
+wit display world post seventeenth response ? 
+. 
+frequent answer boring uninteresting 
+frequent question . 
+unless really something new add 
+traditional answer recent discovery font 
+system 7.1 could eat memory private e-mail much better medium 
+answer common question like one . 
+might want add mention faq e-mail 
+response polite suggestion correspondent read 
+post future question . 
+read newsgroup 
+cover write small script microphone ii 
+let send 's people frequently ask question 
+section document answer question 
+click button please feel obligated respond 
+someone care little answer question 
+trouble read faq list get . 
+
+ftp 2.0 
+
+ftp mac software ? 
+2.1 
+three major north american internet archive shareware , 
+freeware , demo software . 
+, 
+, 
+mirror two site several 
+. 
+often hold file site remove 
+space concern , still file delete 
+formerly important site , . 
+rascal 
+notable store file format rather 
+less efficient format common archive . 
+unless 
+otherwise note shareware freeware mention document 
+available site . 
+keep traffic internet manageable , scandinavian 
+try connect , 
+, instead . 
+
+u.k. look first . 
+continental europeans try , 
+, . 
+australian user try find want 
+mirror . 
+japanese 
+user find mirror . 
+
+. 
+fourth important site . 
+apple 's semi-official repository system software , 
+developer tool , source code , technical note , thing 
+come less straight apple 's mouth . 
+material 
+site may distribute outside u.s. 
+site official license distribute apple 
+system software . 
+please read various readme document 
+available detailed info ` re 
+connect outside u.s. wish redistribute 
+material find . 
+get shareware e-mail ? 
+2.2 
+archive available e-mail 
+alternately . 
+respond command $ help , $ 
+index , $ get filename . 
+mac archive file available 
+. 
+send message contain 
+word `` help '' `` index '' quote first two line 
+message instruction get start list file 
+may request . 
+retrieve file site use 
+server . 
+detail send 
+message text `` help '' quote . 
+find application x ? 
+2.3 
+find look one 
+site , try nearest archie server send 
+e-mail message address archie subject `` help . '' 
+archie server located , 
+america , , original archie server 
+canada , , australia , 
+, scandinavia , , 
+u.k. continent . 
+site index ten 
+thousand file available anonymous ftp . 
+login `` archie '' 
+password need type `` prog filename '' find 
+look type `` help '' detailed instruction . 
+instance would type `` prog disinfectant '' search 
+convenient ftp site disinfectant . 
+initial search fail 
+turn file want , try variation substring 
+name . 
+instance find disinfectant `` prog 
+disinfectant '' , might try `` prog '' instead . 
+
+search often hide gold pile dross . 
+avoid many 
+erroneous match add '' . 
+\ . 
+'' end substring , e.g. 
+`` prog . 
+\ . 
+'' mac software available net end 
+. 
+almost unix pc software . 
+please check archive archie personally 
+ask find particular piece shareware . 
+
+follow advice , almost never ask 
+net find particular piece software . 
+someone mail application x ? 
+2.4 
+. 
+anyone mail part file 
+corrupt miss site . 
+please 
+refer first question section find 
+anonymous ftp , archie , automatic e-mail server . 
+. 
+bin ? 
+. 
+? 
+. 
+cpt ? 
+. 
+etc ? 
+2.5 
+file available ftp modify twice allow 
+easily pass foreign computer system . 
+first ` re 
+compress make faster download , ` re 
+translate either . 
+. 
+bin format 
+computer digest . 
+macintosh use special 
+filing system choke computer . 
+
+file 7-bit ascii text file , file pure 
+8-bit binary datum must always transfer use binary 
+protocol . 
+file translate compress 
+transmission indicate suffix . 
+normally file 
+name something like . 
+. 
+xxx indicate 
+compress . 
+yyy indicate translate . 
+use file 
+ftp would download mac 'll need reverse 
+process . 
+file get net require two-step 
+decode process . 
+first change . 
+
+. 
+bin file macintosh file ; decompress 
+. 
+program decode file type cover table 
+. 
+also note macintosh telecommunications program 
+automatically convert file regular macintosh 
+file download . 
+
+suffix : . 
+sit . 
+cpt . 
+. 
+bin . 
+pit . 
+z . 
+image . 
+dd . 
+zip . 
+uu . 
+tar 
+extractor 
+
+stuffit 3.0 | x x x x x 
+compact pro | x x 
+| x 
+| x 
+| x 
+| x x x x 
+5.0 | x 
+4.0 | x 
+| x x 
+unzip | x 
+| x 
+| x x x x 
+
+note decompressor : 
+stuffit family product use several different 
+compression scheme . 
+freeware stuffit expander 
+. 
+version stuffit earlier 3.0 stuffit , 
+stuffit classic , , stuffit deluxe 2.0 1.0 
+increase number file stuff stuffit 3.0 . 
+need get recent version stuffit stuffit 
+expander . 
+stuffit lite deluxe consistently make smaller 
+archive macintosh compression utility . 
+allow 
+maximum space file various ftp site keep 
+, please compress file send anonymous 
+ftp site stuffit . 
+, , handle popular unix 
+format . 
+uu , compress . 
+z , tar . 
+tar 
+respectively . 
+unix version often robust mac 
+product , use instead option . 
+translator 
+allow stuffit lite expand tar file also 
+available anonymous ftp . 
+dik winter 's package unix utility 
+decompress file workstation download 
+mac . 
+since unix store file differently 
+mac , create . 
+bin file 
+automatically convert download . 
+decompress 
+everything . 
+particular decompress new stuffit 3.0 
+archive . 
+however , need one two file 
+archive -- instance want read readme find 
+program need download 
+-- indispensable . 
+find 
+directory . 
+note compression format : 
+. 
+bin : file . 
+always use binary file 
+transfer protocol transfer , never ascii text . 
+file net store . 
+instead . 
+rascal 
+store file . 
+bin format . 
+communication 
+program capable translate 
+file fly download know advance 
+'ll download file . 
+. 
+image : format normally use system software , 
+on-line user download file easily 
+convert exact copy installer floppy . 
+instead 
+use restore image floppy , use steve 
+christensen 's freeware utility treat image 
+hard disk actual floppy insert floppy drive . 
+reputation buggy , 
+blank floppy copy handy case . 
+. 
+sea . 
+x , . 
+x : . 
+sea file merit position 
+table . 
+may create 
+compact pro , stuffit , even ; 
+capable decompress . 
+
+unknown reason choose use industry standard 
+designation archive create 
+product superdisk ! 
+disk space . 
+instead 
+append either . 
+x . 
+x archive . 
+get ? 
+stuffit ? 
+etc. ? 
+2.6 
+far easiest way get program ask human 
+copy onto floppy . 
+
+university absolutely excuse find someone 
+give copy ; anywhere less remote mcmurdo 
+sound , chance good someone computer center , 
+dealership , user group provide copy stuffit . 
+stuffit version need . 
+computer geek thought actually 
+ask living , breathe human instead computer 
+terminal something turn quiver mass 
+protoplasmic jelly , probably download work copy 
+stuffit local bulletin board system . 
+religious objection software get 
+means anonymous ftp , suppose 'll mention 
+fact ftp work copy stuffit though 
+far hardest way get . 
+ftp 
+login . 
+type word `` binary . '' 
+hit return . 
+type `` cd 
+. 
+'' hit return . 
+
+`` get _ '' hit return . 
+course 
+always possible time read stuffit 
+expander update name change 
+fail look something similar . 
+ftp would straight onto 
+mac archive 
+produce work copy stuffit expander . 
+
+ftp would mainframe unix account first , still 
+need use modem program download mac . 
+make 
+sure mac receive mode mainframe 
+send binary mode . 
+need detail last 
+step , consult faq list manual 
+mainframe macintosh telecommunications software . 
+get , stuffit , etc. . 
+pc ? 
+2.7 
+. 
+absolutely way get executable 
+macintosh file ftp site onto pc onto mac 
+without software obtain means anonymous ftp . 
+must beg , borrow , steal necessary software 
+stuffit lite another person . 
+realize may 
+terrify among leave parent ' basement 
+since get apple ii + 1980 , eventually go 
+need link human mother . 
+though suppose much nerd could send 
+mother get . 
+gather 
+nerve venture strange terrifying world 
+daylight , please bother net ask question 
+. 
+simply way move executable macintosh 
+program pc computer onto 
+mac without software bundle mac . 
+
+troubleshooting : post thing go wrong 3.0 
+
+various faq list cover lot specific 
+problem , far problem cover . 
+basic technique follow ask 
+help . 
+probably also perform 
+preventative maintenance routine describe section four , 
+especially rebuild desktop 4.3 resize system 
+heap 4.5 . 
+follow step may may solve 
+problem , least make easier 
+recommend solution . 
+identify problem . 
+3.1 
+`` microsoft word crash '' say much . 
+
+crash ? 
+repeat action lead 
+crash ? 
+information provide action 
+precede crash likely someone help . 
+precisely identify problem action 
+precede step 1 easier tell 
+follow step fix problem . 
+example , `` sometimes 
+quarkxpress 3.0 crash coprocessor install error . '' 
+
+nearly helpful `` quarkxpress 3.0 crash link two 
+text box master page copy text box already 
+contain text . '' 
+former leave wonder whether bug 
+remains given step . 
+latter let go right 
+problem see still . 
+read read file . 
+3.2 
+many company include list known incompatibility 
+bug read file . 
+often document 
+manual . 
+read read file see problem sound 
+familiar . 
+check virus . 
+3.3 
+run disinfectant another anti-viral across disk . 
+virus 
+infection rarer people think , occur 
+cause sort weird problem . 
+reinstall application support file . 
+3.4 
+half dozen reason external magnetic field , 
+improperly write software , alignment planet file 
+disk may contain datum suppose contain . 
+
+cause type unexplained , unusual behavior . 
+restore 
+original master normally fix . 
+reinstall system software . 
+3.5 
+bit even likely get twiddle system file 
+application effect disastrous . 
+see question 4.6 detailed procedure perform clean 
+reinstall . 
+problem continue occur take 
+step , chance find either conflict 
+application software genuine bug 
+program . 
+time 
+isolate problem . 
+3.6 
+need find minimal system problem 
+assert . 
+basic step isolate 
+cause system application crash : 
+a. run one application time . 
+occasionally application 
+conflict . 
+problem manifest 
+without application run simultaneously , begin 
+launch application find one cause 
+crash . 
+b. run system 6 , turn . 
+` re 
+run system 7 , allot much memory application 
+afford . 
+sometimes program need memory , especially 
+perform complicated operation . 
+c. run system 7 , turn virtual memory 32-bit 
+address . 
+still awful lot system 7 hostile 
+software include company really 
+excuse . 
+say microsoft word 5.1 , boy girl ? 
+know could . 
+software express 
+incompatibility certain uncommon action take . 
+d. boot virgin system floppy . 
+problem disappear 
+likely init conflict . 
+need progressively remove 
+extension problem vanish . 
+use little common sense 
+choose first extension remove . 
+problem occur 
+try open file , remove init mess 
+standard file open procedure super boomerang first . 
+
+problem remain obvious candidate eliminate , 
+either remove remain extension one time , 
+lot , perform binary search remove half 
+extension time . 
+problem disappear add half 
+recently remove set back . 
+continue narrow 
+conflict one extension . 
+think find 
+offend init restart init enable make 
+sure alone indeed cause problem . 
+contact technical support . 
+3.7 
+good idea , , 
+conflict occur . 
+tech support number available 
+software , call . 
+lucky company work 
+around fix available . 
+, perhaps 'll least add 
+bug database problem fix next release . 
+
+preventive maintenance 4.0 
+
+would drive car 100,000 mile without give 
+tune-up . 
+computer different . 
+regular tune-up avoid lot 
+problem . 
+although mac mechanic 'll happy 
+charge $ 75 equivalent oil change , 
+reason change . 
+follow 
+program perform every three month . 
+trash unneeded file 4.1 
+many operation follow run faster 
+smoothly free disk space work spend 
+little time clean hard disk . 
+like , 
+'ll find several megabyte worth preference file 
+application longer , archive software ` ve 
+, shareware try like , announcement 
+event come go many file 
+longer need . 
+run system 7 may also several 
+megabyte trash alone . 
+throw away empty 
+trash . 
+rethink extension 4.2 
+macintosh attract init like new suit attract rain . 
+seriously consider whether actually need every extension 
+collection . 
+use functionality 
+extension least every fifth time boot , probably 
+better store system folder take 
+memory , destabilize system , slow every startup . 
+instance read pc disk month , 
+need keep load time . 
+cut back 
+extension habit really help avoid crash . 
+rebuild desktop 4.3 
+desktop hold information necessary 
+associate file application create . 
+
+let system know application launch 
+open give file icon display . 
+depend size application one 
+representative desktop file . 
+application file 
+move hard disk , desktop file become 
+bloated corrupt . 
+think congress mac . 
+every often necessary throw bum start 
+clean slate . 
+fortunately easier rebuild desktop 
+defeat incumbent . 
+one warning : rebuild desktop erase comment 
+store get info box . 
+system 7 maurice 
+'s freeware init retain comment 
+across rebuild . 
+also work system 6 
+apple 's desktop manager extension also install . 
+rebuild desktop restart mac , 
+extension finish load , depress command option key . 
+'ll present dialog box ask want rebuild 
+desktop warn `` could take minute . '' 
+click ok . 
+take minute . 
+file 
+longer take . 
+run system 6 may 
+want turn try rebuild desktop . 
+experience definite problem 
+preventive maintenance , may want use fifth generation 's 
+freeware init desktop reset . 
+desktop reset completely delete 
+desktop file rebuild , thus eliminate possibly 
+corrupt datum structure . 
+zap pram reset clock 4.4 
+mac original 128k thin mac quadra 950 
+contain small amount battery power ram hold certain 
+setting properly move cpu rather disk 
+disk boot . 
+unfortunately `` parameter 
+ram '' become corrupted cause unexplained crash . 
+reset 
+system 7 hold command , option , p , r key 
+restart mac . 
+system 6 hold command , 
+option , shift key select control panel 
+apple menu . 
+click yes ask want zap parameter 
+ram . 
+since erase almost setting general 
+control panel , reset whatever want . 
+one setting zap pram erase 
+date time ; since internal clock macintosh 
+notoriously inaccurate 'll probably want take 
+opportunity reset anyway . 
+resize system heap 4.5 
+even rethink extension per step two 
+people still least half row icon march across 
+bottom screen every time restart . 
+
+extension application need space section 
+memory call system heap . 
+system heap big enough 
+comfortably accommodate program want piece 
+, start play king mountain system heap , 
+knock get bigger piece 
+try climb back get knock . 
+
+fight amongst program severely degrade system performance 
+almost inevitably crash mac . 
+use system 7 , macintosh automatically 
+resize system heap necessary ; run system 6 
+important set system heap size large enough manage 
+extension application . 
+default size set 
+128k , way small mac extension . 
+system heap size store normally boot 
+block every system disk . 
+bill steinberg 's freeware utility 
+let resize system heap even check 
+much memory heap already use tell much 
+need allocate . 
+run system 6 , get , 
+use , amaze infrequently macintosh crash . 
+reinstall system software 4.6 
+system file become corrupt fragmented , especially 
+store lot font desk accessory inside . 
+merely update system software often fix system file 
+corruption . 
+recommend clean reinstall . 
+'s : 
+1 . 
+boot installer floppy system disk . 
+2 . 
+copy non-standard font desk accessory 
+system file temporary suitcase . 
+3 . 
+trash system file hard disk . 
+also trash 
+finder , , da handler , standard apple 
+extension like control panel chooser . 
+
+replace new installation . 
+run 
+install system 7 , move everything extension , 
+control panels , preferences folder top level 
+system folder . 
+4 . 
+rename system folder . 
+name system folder 
+fine . 
+5 . 
+installer script system disk . 
+
+choose customize ... select appropriate software 
+model mac printer . 
+could easy install instead , 
+add lot extension code 
+need waste memory disk space . 
+6 . 
+installation finish , move everything 
+temporary folder create step 4 new system 
+folder . 
+ask want replace anything , 
+forget take something step 3 . 
+'ll need replace 
+thing individually find duplicate piece . 
+7 . 
+reinstall font da 's remove step 2 . 
+8 . 
+reboot . 
+clean , system file 
+take less memory disk space much stable 
+system overall . 
+disk utility 4.7 
+much like system file hard disk datum structure 
+occasionally become corrupted affect performance even 
+cause datum loss . 
+apple include disk first aid , simple utility 
+detect repair hard disk problem , system 
+disk . 
+also available anonymous ftp 
+directory . 
+. 
+even earlier 
+version , get latest version 7.1 
+run hard disk . 
+several company release disk utility 
+detect repair considerably problem disk first aid 
+though , interestingly , none detect repair everything 
+disk first aid . 
+three effective general 
+work central point 's deluxe 2.0 , fifth generation 's 
+public , symantec 's norton utilities macintosh 
+2.0 . 
+department work group well 
+disk first aid since none fix everything . 
+individual $ 48 street half price 
+norton $ 94 street public utilities $ 98 street , feature 
+ease use roughly equal , recommend . 
+product occasionally encounter problem 
+fix . 
+happen time backup 4.7 
+reformat 4.9 . 
+backing 4.8 
+one part preventative maintenance 
+lot often every three month . 
+simplest back 
+merely copy file hard disk onto floppy 
+removable media . 
+keep datum file separate 
+application support file easy back 
+folder change frequently . 
+nonetheless every three 
+month complete backup hard disk . 
+number program available make back 
+easier . 
+apple include basic full backup application 
+system 6 . 
+apple ship new apple backup 
+utility backup entire disk system folder 
+onto floppy . 
+previously mention norton utilities 
+mac deluxe 2.0 include powerful floppy backup 
+utility incorporate compression incremental backup . 
+finally lucky enough tape drive , network 
+server , removable media device use backup , 
+check powerful utility redux $ 49 street , 
+support tape drive pro $ 74 street . 
+
+freely available backup utility old hd 
+backup system 6 . 
+disk defragmentation 4.9 
+disk fill get harder harder find enough free 
+space place write large file . 
+therefore 
+operate system often split larger file piece 
+store different place hard disk . 
+file become 
+fragmented performance degrade . 
+several 
+way defragment hard disk . 
+tedious cheapest method backup 
+file , erase hard disk might well reformat 
+. 
+see question 4.10 . 
+, restore file . 
+number utility include norton utilities 
+mac mac tools deluxe defragment disk place , i.e. 
+without erase . 
+although ad product brag 
+safety , buy software open 
+warn back disk 
+defragment case something go wrong . 
+
+freeware shareware disk defragmenter please annoy 
+net ask one . 
+reformat hard disk 4.10 
+floppy disk need initialize use , 
+hard disk must format hold datum . 
+
+need reformat every three month ; system 
+crash matter try , reformat ultimate means 
+wipe slate clean . 
+reformat hard disk may even 
+gain extra megabyte space . 
+hard disk 
+create equal . 
+hold datum . 
+facilitate 
+mass production advertising without lot asterisk 81.3 
+megabyte average formatted capacity . 
+mileage may 
+vary . 
+apple often format drive lowest common denominator 
+drive capacity . 
+reformat reason 
+reclaim whatever unused space apple 's leave disk . 
+unlike floppy hard disk need special program 
+initialize . 
+hard disk come formatting software . 
+apple 's disk system software ship hd sc setup , minimal 
+disk formatter format apple brand hard drive . 
+manufacturer ship appropriate formatting software 
+hard drive . 
+normally need reformat 
+hard disk . 
+number general-purpose formatter also available 
+go beyond bundle software include feature like 
+encryption , password protection , multiple partitioning , faster disk 
+access , system 7 compatibility , even compression . 
+two 
+best hard disk toolkit personal edition 
+$ 49 street either . 
+one two freeware 
+formatter available , none likely superior one 
+bundle hard disk . 
+powerbook user sure turn sleep 
+processor cycling reformat hard drive matter 
+software use . 
+otherwise disk corruption , crash , 
+datum loss good possibility . 
+rusty harold department mathematics 
+new jersey institute technology 
+newark , nj 

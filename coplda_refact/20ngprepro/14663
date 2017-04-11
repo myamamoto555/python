@@ -1,0 +1,30 @@
+: chris crayton 
+subject : date stick 
+distribution : world 
+organization : ozone online operations , inc. - new orleans , la 
+: chris crayton 
+lines : 25 
+04:30 , michael shapiro unmitigated gall say : 
+m > system date twenty-four hour clock rollover bit . 
+m > system cross midnight , rollover bit turn . 
+m > subsequent read time add one . 
+change possible 
+m > information current dos 3.3 . 
+check 
+m > see whether apply later version . 
+small tidbit : advent dos 3.3 later version , m add 
+small `` feature '' dos time function . 
+program set dos clock 
+via dos system service , dos set bio clock value . 
+break isolation two clock use ensure 
+error dos clock bleed bio clock . 
+sometimes microsoft people think ! 
+: 
+... fact : mickey mouse wear al gore wristwatch . 
+-- blue v2 .10 
+-- 
+ozone hole bb private bulletin board service 
+3 full service nodes 16.8 k bp 10 gig 100,000 file 
+skydive new orleans ! 
+rime network mail hub 500 + usenet newsgroup 
+please route question inquiry : 

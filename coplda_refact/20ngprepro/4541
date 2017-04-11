@@ -1,0 +1,97 @@
+: rob shirey < > 
+subject : isoc symposium net security 
+: < > 
+: fri , 16 apr 93 gmt 
+: . 
+
+organization : mitre corporation , mclean , virginia , usa 
+: v1 d20 
+lines : 94 
+call papers 
+internet society symposium 
+network distribute system security 
+3-4 february 1994 , catamaran hotel , san diego , california 
+symposium bring together people build software 
+hardware provide network distribute system security service . 
+symposium intend interested practical aspect 
+network distribute system security , rather theory . 
+symposium 
+proceedings publish internet society . 
+topic 
+symposium include , limit , following : 
+design implementation service -- access control , authentication , 
+availability , confidentiality , integrity , non-repudiation 
+-- include criterion place service particular protocol 
+layer . 
+design implementation security mechanism support 
+service -- key management system , authorization 
+audit system , intrusion detection system . 
+requirement architecture distribute application 
+network function -- message handling , file transport , remote 
+file access , directory , time synchronization , interactive 
+session , remote datum base management access , route , voice 
+video multicast conferencing , news group , network management , 
+boot service , mobile computing , remote . 
+special issue problem security architecture , 
+-- large system like international internet , 
+-- high-speed system like gigabit testbed build . 
+interplay security goal goal -- efficiency , 
+reliability , interoperability , resource sharing , low cost . 
+general chair : 
+dan , lawrence livermore national laboratory 
+program chair : 
+russ housley , xerox special information systems 
+rob shirey , mitre corporation 
+program committee : 
+dave , trusted information systems 
+tom berson , anagram laboratories 
+matt bishop , dartmouth college 
+ed cain , u.s. defense information systems agency 
+jim ellis , cert coordination center 
+steve kent , bolt , beranek newman 
+john linn , independent consultant 
+clifford neuman , information sciences institute 
+michael roe , cambridge university 
+rob rosenthal , u.s. national institute standards technology 
+jeff schiller , massachusetts institute technology 
+ravi sandhu , george mason university 
+peter yee , u.s. national aeronautics space administration 
+submission : committee seek original technical papers 
+proposal panel discussion technical topic general 
+interest . 
+technical papers 10-20 page length . 
+panel 
+include three four speaker . 
+panel proposal must name 
+panel chair , include one-page topic introduction author chair , 
+also include one-page position summary author speaker 
+technical papers panel papers appear 
+proceedings . 
+submission must make 16 august 1993 . 
+submission make 
+via electronic mail 
+. 
+submission may either two format : ascii postscript . 
+
+committee unable read postscript submission , 
+return ascii request . 
+therefore , postscript submission 
+arrive well 16 august . 
+electronic submission absolutely 
+impossible , submission send via postal mail 
+robert w. shirey , mail stop 
+mitre corporation 
+mclean , virginia usa 
+submission must include internet electronic mail address 
+postal address . 
+submission acknowledge 
+medium receive . 
+acknowledgment receive within 
+seven day , please contact either rob shirey < > 
+russ housley < > , telephone mana weigand 
+mitre mclean , . 
+author panelist notify acceptance 15 october 1993 . 
+instruction prepare copy proceedings 
+postal mail time . 
+copy must receive 
+15 november 1993 . 

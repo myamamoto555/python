@@ -1,0 +1,47 @@
+: chuck mckinley 
+subject : intersection problem 
+keyword : 
+organization : intergraph corp. , reston , va 
+lines : 62 
+kind person access mathematical package mathematica , 
+maple , ... would like ask solution follow problem . 
+sometimes algebra problem like would like simplify 
+symbolic solution . 
+package handle 
+beast ? 
+would like solve follow ray - patch intersection 
+scalar constant : 
+p + v q u , w 
+origin point 3d dir vector 3d 
+term : 
+p v p various scalar 
+origin , dir 3d , , j 0 < , j < 3 
+: 
+
+q u , w u n b m w 
+n n-1 n-2 n-3 
+u u u u u ... u 1 0.0 < u < 1.0 
+3 2 
+u u u 1 particular case 
+n n-1 n-2 n-3 
+w w w w w ... w 1 0.0 < w < 1.0 
+3 2 
+w w w 1 particular case 
+
+n m | -1 3 -3 1 | particular case 
+| 3 -6 3 0 | 
+| -3 3 0 0 | 
+| 1 0 0 0 | 
+b | p p p p | control point 3d space 
+| 0,0 0,1 0,2 | 
+| | 
+| p p p p | 
+| 1,0 1,1 1,2 1,3 | 
+| | 
+| p p p p | 
+| 2,0 2,1 2,2 2,3 | 
+| | 
+| p p p p | 
+| 3,1 3,2 3,3 | 
+, 
+

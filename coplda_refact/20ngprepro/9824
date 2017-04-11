@@ -1,0 +1,96 @@
+: marks 
+subject : re : please recommend 3d graphics library mac . 
+organization : express access online communications , greenbelt , md usa 
+lines : 100 
+: 
+: tin version 1.1 
+: robert g. carpenter write : 
+: > hus netter , 
+: > 
+: > build cad package need 3d graphic library handle 
+: > task , hidden line removal , shade , animation , etc. . 
+: > 
+: > please offer recommendation ? 
+: > 
+: > 'll also need contact info name , address , email ... find . 
+: > 
+: > thanks 
+: > 
+: > please post response , case need 
+: > 
+: > bob carpenter 
+: > 
+following extract . 
+. 
+also 
+mirror . 
+think source application may 
+bear project . 
+poke around source directory . 
+never use 
+package , know anyone , price right : - 
+hope help . 
+
+abstract file thu apr 1 pst 1993 
+directory : 
+. 
+
+date : fri , 5 mar 93 
+: christian steffen ove franz < > 
+: 
+subject : 3d 1.21 incoming directory 
+3d short description follow : 
+programmer 3d vers 1.21 available . 
+version 1.21 mainly think c user . 
+version 
+run think c , promise ! 
+docs contain chapter 
+c programmer use . 
+problem , feel free 
+contact . 
+change remove call 
+fpu version make run faster . 
+know , read . 
+
+programmer 3d -- : 
+
+always great game mind need way 
+draw three-dimensional scene ? 
+always want write program visualize structure 
+three-dimensional molecule ? 
+task write 3d conversion routine keep 
+actually ? 
+well answer question ` yes , 
+package ??? ' 
+, read . 
+think library provide simple routine 
+building , save , load resource , manipulate 
+independent rotate around arbitrary achs , translate scale 
+three dimensional object . 
+object , simple single-line drawing . 
+support full 3d clipping , animation primitive hide - 
+drawing simple command within program . 
+also support full eye control perspective parallel 
+projection understand word , worry , show 
+know . 
+doc come try explain 
+means later . 
+provide powerful interface supply drawing routine 
+datum use 3d transformation routine 
+actual drawing . 
+note also provide draw routine 
+worry want 
+1.11 come two version . 
+one 881 020 
+processor . 
+version use fixed-point arithmetic run mac . 
+version 100 % source . 
+come extensive manual teach fundamental 3d 
+graphic use package . 
+demand big enough convert library . 
+however , way implement make easier use 
+lot people select ` ' . 
+free non-commercial usage . 
+read documentation enclose . 
+enjoy , 
+christian franz 

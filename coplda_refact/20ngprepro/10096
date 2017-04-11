@@ -1,0 +1,30 @@
+: tim 
+subject : re : 250 backup problem 
+keyword : tape backup gateway jumbo 
+: 
+organization : motorola , inc. , cellular infrastructure group 
+distribution : usa 
+lines : 18 
+article < > write : 
+> colorado memory systems jumbo 250 tape backup unit gateway 
+> tower system . 
+find supply backup capability 
+> fairly unreliable . 
+approx 3 case 10 , backup fail 
+> one point another , often hang middle write tape . 
+> seek error , drive communication error seem common . 
+use 
+> dos backup software colorado memory systems . 
+return drive , 
+> get better backup software , reformat tape use cms tape ? 
+> hint would appreciate - stuff time-consuming 
+> cooperate ... 
+use identical setup , except tower config , 
+several month . 
+previous discussion net , 
+first thing check dma conflict device , 
+get funky one . 
+next , suspect 
+tape - try fresh one . 
+good luck ! 
+-- tim 

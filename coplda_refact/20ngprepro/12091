@@ -1,0 +1,64 @@
+: stig 
+subject : re : promise caching ide controller 
+keyword : promise technology caching ide 
+organization : - unit 
+lines : 46 
+article < > david write : 
+> 
+> look help right place ... 
+> 
+> anyone experience promise technology caching 
+> ide controller ? 
+order one , $ 110 512k install , 
+> question : 
+> 
+> 1 . 
+easy use ? 
+need kind tsr 's , 
+> completely transparent system board , 
+> change bio configuration ? 
+> 
+yes , easy use . 
+like ordinary controller . 
+change bio config . 
+> 2 . 
+transparent ide drive ? 
+work drive 
+> configure explicity type drive 
+> install ? 
+> 
+transparent . 
+work drive . 
+change 
+drive need change bio config . 
+usual . 
+> 3 . 
+work system master slave ? 
+yes , problem . 
+> 
+> 4 . 
+, need buffer ? 
+depend . 
+get little better performance 
+use buffer addition . 
+
+access card isa bus slower 
+access system ram . 
+use , 
+buffer . 
+> 
+> 5 . 
+promise technology controller good one ? 
+> 
+> information would greatly appreciate . 
+thanks ! 
+> 
+> david 
+> -- 
+> | - anything state opinion ! 
+y @ -- d | 
+> | rule great : | 
+> | people greatly admire appear think deep | 
+> | thought , probably think lunch . 
+| 
+stig 

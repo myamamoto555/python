@@ -1,0 +1,46 @@
+: stuart marks 
+subject : re : xt intrinsic : slow popup 
+organization : sun microsystems , inc. . 
+lines : 37 
+distribution : world 
+: 
+: trantor 
+article < > , bryan boreham write : 
+| > 
+| > shell wait respond 
+| > position request . 
+respond 
+| > think window already right place . 
+| > 
+| > exactly two component get sulk unclear 
+| > ; information greatly receive . 
+problem cause bad interaction way 
+window , x protocol , bug xt intrinsic . 
+bug ignore x , y position give 
+event . 
+structure way , window 
+pop , last event client receive event . 
+point , ' notion shell 's location date . 
+use x , y position , think 
+need move shell , issue request move 
+. 
+however , mis feature x protocol 
+request effect generate event . 
+
+intrinsic thus wait event never arrive , time 
+expire . 
+actually , thing somewhat complex 
+request redirect window manager , net result 
+. 
+solution note x , y position information 
+event . 
+implement available 
+public fix 20 . 
+interested 
+gorier detail . 
+` mark 
+-- 
+stuart w. marks 
+window systems technology 2550 garcia ave. 
+sunsoft , inc. . 
+mountain view , ca 

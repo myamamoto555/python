@@ -1,0 +1,17 @@
+: 
+subject : video card : yuv rgb ? 
+organization : west virginia network educational 
+lines : 21 
+try convert ibm video file format yuv rgb 
+datum ... 
+y portion byte 
+v byte 
+color u v 
+intensity y 
+doe anyone idea program ? 
+someone tell get info u v television signal ? 
+need info reply e-mail address ... 
+basically convert digital ntsc format rgb vga 
+display capture video picture . 
+thanks . 
+u byte 

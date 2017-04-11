@@ -1,0 +1,27 @@
+: steve hamilton 
+subject : strange disk behaviour 
+keyword : disk 
+organization : defense logistics service center , battle creek , mi 
+lines : 21 
+286 western digital hard drive . 
+drive 
+782 cylinder 4 read write head physically , logically 
+977 cylinder 5 read write head 
+. 
+cmos setting 
+instruct set type 17 ibm 977 cyl . 
+5 head , 
+problem : send western digitals low level program 
+manufacturer , instruct run hard drive 
+cmos setting set type 17 . 
+work `` o.k. '' verify 
+disk use program . 
+reload high 
+level format , error , bad sector , etc. . 
+... run norton 6.01 disk optimizer 
+verify option set , get error verify sector nnnn , 
+nnnn number time . 
+ideas going would appreciated ! 
+thank ! 
+steve hamilton 
+

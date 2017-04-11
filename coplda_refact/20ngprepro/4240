@@ -1,0 +1,25 @@
+: mohammad razi khan 
+subject : manipulate hexagonal grid 
+organization : gmi engineering & management institute , flint , mi 
+lines : 28 
+ok , let say get grid hexagon 
+go 10 
+9 
+10 
+9 
+etc. . 
+. 
+total 15 row 
+mean 10 hexagon 1st line , 
+9 line underneath second line 
+10 line underneath third line 
+9 line neath ... 
+problem give center hexagon , line 
+slope , hexagon line cross 
+line necessarily cross center hexagon , even tangent count . 
+helper , friend 
+try figure . 
+: w 
+-- 
+mohammad r. khan 
+july ' 93 , please send mail 

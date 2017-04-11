@@ -1,0 +1,119 @@
+: dale stephenson 
+subject : hit stolen -- centerfield 1992 
+summary : dop leftfielder 
+keyword : defense center 
+organization : university illinois , dept. comp . 
+, urbana , il 
+lines : 118 
+disclaimer -- fun . 
+computerized baseball game , keep track category call 
+`` steal hit '' , define play make `` average fielder would 
+make average effort . '' 
+use 1992 defensive averages post 
+sherri nichols thanks sherri ! 
+, figure defensive stats 
+centerfielder . 
+hit stolen redefine `` plays juan 
+gonzalez would make . '' 
+ok , realize unfair . 
+juan 's probably victim pitch staff , 
+fluke shot , monster park factor . 
+let 's put way : 
+replace every centerfielder league someone kevin 's 55.4 % 
+make ability , many extra hit would go ? 
+try correlate reality little , calculate net 
+hit stolen , base number make compare league 
+average fielder would make . 
+method calculate net extra 
+basis double triple let . 
+finally , throw call defensive contribution , 
+: - > . 
+basically , represent defensive contribution player . 
+add number op get dop defense + plus slug , 
+represent player 's total contribution team . 
+
+take seriously . 
+appear end 
+article . 
+short version -- definition term 
+h -- hit stolen -- extra compare kurt stillwell 
+nh -- net hit stolen -- extra compare average fielder 
+ndp -- net double plays -- extra double play turn compare avg fielder 
+neb -- net extra basis -- extra basis prevent compare avg . 
+fielder 
+-- defensive contribution -- basis hit prevent , rate . 
+dop -- + op -- quick & dirty measure player 's total contribution . 
+national league 
+name h nh neb dop 
+nixon , o. 34 12 15 .083 
+grissom , m. 48 18 12 .812 
+jackson , d. 46 13 20 .735 
+lewis , d. 25 8 -6 .596 
+dykstra , l. 25 5 -5 
+, d. 10 -5 10 .001 
+finley , s. 32 -2 2 
+lankford , r. 39 4 -12 
+martinez , d. 21 5 -16 .660 
+, a. 30 -4 -17 .846 
+sanders , r. 7 -10 -4 
+butler , b. 1 -29 5 
+johnson , h. 3 -12 -19 .548 
+order dop 
+.846 
+lankford 
+.812 grissom 
+dykstra 
+nixon 
+finley 
+sanders 
+.735 jackson 
+nl average 
+butler 
+.660 martinez 
+
+.596 lewis 
+.548 johnson 
+american league 
+--------------- 
+name h nh neb dop 
+lofton , k. 57 32 17 .220 
+wilson , w. 47 26 0 .125 
+white , d. 52 25 28 .812 
+felix , j. 22 0 32 .063 
+devereaux , m. 43 16 0 
+mcrae , h. 38 11 -1 
+yount , r. 31 8 -3 .737 
+kelly , r. 13 -6 -3 .681 
+johnson , l. 23 -5 -13 .641 
+griffey , k. 15 -9 -12 
+puckett , k. 13 -13 -15 
+cuyler , m. 6 -10 -6 
+gonzalez , j. 0 -21 -15 .738 
+order dop 
+lofton 
+griffey 
+devereaux 
+.812 white 
+puckett 
+wilson 
+.738 gonzalez 
+.737 yount 
+felix 
+al average 
+.681 kelly 
+.641 johnson 
+
+cuyler 
+discussion -- 
+: nh + ndp pa + nh + ndp + neb ab 
+bizzare ? 
+basically , design add 
+op , idea `` run prevent important run score '' . 
+extra factored obp , extra basis remove 
+factored slg . 
+use pa ab divisor . 
+discussion see post hit stolen -- first base 1992 
+-- 
+dale j. stephenson | | | | baseball fanatic 
+`` consider good look wise , especially 
+overburdened information '' -- j. golden kimball 

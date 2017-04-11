@@ -1,0 +1,39 @@
+: delman lee 
+subject : tandberg 3600 + future domain + seagate problem ?? 
+distribution : comp 
+organization : university pennsylvania , usa . 
+lines : 37 
+: 
+try get system work tandberg 3600 + future 
+domain + seagate mfm controller . 
+system boot tandberg disconnect system , 
+course device find scsi device . 
+system boot seagate mfm controller remove 
+system . 
+future domain card report find tandberg 3660 
+scsi bus . 
+system course stop boot mfm 
+hard disk find . 
+system hang three tandberg , future domain & 
+seagate mfm controller system . 
+look like conflict seagate future 
+domain card . 
+funny thing hang tandberg 
+connect . 
+check conflict bio address , irq & 
+port . 
+miss anything ? 
+lose . 
+suggestion welcome . 
+thanks advance . 
+delman . 
+-- 
+
+delman lee tel. : +1 
+medical image processing group , : +1 
+university pennsylvania , 
+blockley hall , 418 service drive , 
+philadelphia , pa , 
+u.s.a. . 
+internet : 
+

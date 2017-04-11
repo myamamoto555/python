@@ -1,0 +1,68 @@
+: john ott 
+subject : re : pinout need 
+: john ott 
+organization : univ. notre dame 
+lines : 64 
+article < > , gary segal write : 
+| > recently pick display chip , find 
+| > information . 
+seem longer make ti , 
+| > old enough datum book . 
+: - 
+| > 
+| > appear dot-matrix lead display capable show one hex 
+| > digit . 
+14 pin dip package , pin 6 , 9 , 11 
+| > present . 
+| > 
+| > information part pinout , power , 
+| > function , ... please send e-mail . 
+| > 
+| > thank , 
+| > 
+| > -- 
+| > gary segal motorola inc. . 
+| > cellular infrastructure division 
+| > -- stand gaze wind -- 
+pin function 
+1 lead supply voltage 
+2 latch datum input b 
+3 latch datum input 
+4 leave decimal point cathode 
+5 latch strobe input 
+6 omit 
+7 common gnd 
+8 blank input 
+9 omit 
+10 right decimal point cathode 
+11 omit 
+12 latch datum input d 
+13 latch datum input c 
+14 logic supply voltage 5v 
+latch strobe input , pin 5 , low , datum latch follow datum latch datum 
+input . 
+high , datum latch change . 
+
+display blank restore enable input high , 
+previous character display . 
+blank input , pin 8 , high , display blank regardless level 
+input . 
+low , character display determine datum 
+latch . 
+blank input may pulsed intensity modulation . 
+latch data input , pin , datum input enter latch enable 
+input low . 
+binary weight input 1 , 
+b 2 , c 4 , d 8 
+decimal point cathode , pin 4 , 10 , led connect logic chip . 
+decimal point 
+use , external resistor current limit 
+mechanism must connect series . 
+lead supply , pin 1 connection permit user save regulate vcc current use 
+separate led supply , may externally connect logic 
+supply vcc . 
+logic supply vcc , pin 14 separate vcc connection logic chip 
+common ground , pin 7 , logic lead current except 
+decimal point . 
+john 
+

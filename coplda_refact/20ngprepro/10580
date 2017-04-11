@@ -1,0 +1,205 @@
+: siegfried kaiser 
+subject : r5 table widget cause trouble 
+organization : koblenz 
+lines : 227 
+distribution : world 
+: . 
+de 
+contents : problem table widget r5 
+follow part program user interface simulation 
+system work r4 , refuse r5 . 
+cause , 
+know use instead - catch net time r3 formerly . 
+since compile r5 , program cause zero width height error 
+. 
+re computation 
+- table widget : though child label 
+widget exist , return prefered width height zero . 
+thus follow perform anything else set width height newly create widget zero . 
+wonder - child create zero width height error dependent whether width height shell widget set resource file . 
+question : anyone know , return low prefer 
+value work table widget perhaps 
+? 
+'ll happy , someone able help . 
+german request answer german . 
+siegfried kaiser 
+email : 
+part interest : 
+des 
+store old width height viewport - 
+widget , parent troubling table 
+widget , viewport widget destroy 
+destroy widget resize 
+relict 
+
+; 
+; 
+create subtree within shell , 
+root viewport widget 
+n 0 ; 
+arg n , , ; n + + ; 
+arg n , , ; n + + ; 
+arg n , , true ; n + + ; 
+arg n , , true ; n + + ; 
+`` '' , , 
+, arg , n ; 
+n 0 ; 
+`` table '' , , 
+, arg , n ; 
+create position table 
+widget 's child . 
+position use - 
+r5 r4 
+, ; 
+
+crucial function call : 
+intend return maximum height possible : 
+sufficient space show whole table 
+widget , viewport shall grow large 
+possible , beyond border screen . 
+
+enough space , window intend 
+smallest possible height . 
+
+
+, null , & pref ; 
+accord algorithm idea , new value 
+viewport widget 's height select . 
+unfortunately 
+0 lead 0 . 
+
+> ; 
+else ; 
+set new value viewport widget ancestor 
+w , `` '' ; 
+w , width , , _ width ; 
+, width , , 
+_ width ; 
+
+
+case shell , contain _ - 
+view , exist , 
+resize , . 
+
+n 0 ; 
+arg n , , & ; n + + ; 
+arg n , , & ; n + + ; 
+arg n , , & ; n + + ; 
+, arg , n ; 
+, , 
+- height + , ; 
+; end 
+n 0 ; 
+arg n , , & width ; n + + ; 
+arg n , , & bw ; n + + ; 
+, arg , n ; 
+, width , , bw ; 
+, ,1 , ; 
+; 
+shell 's height set within 
+resource file , program terminate within 
+first second pass 
+observe function . 
+first pass succeed . 
+
+; 
+; 
+! 
+
+
+case shell pop . 
+
+value set shell 's height within 
+resource file , program terminate . 
+
+, ; 
+true ; 
+; 
+; end 
+& ; 
+; 
+
+someone suspect creation table widget 's contents 
+cause trouble , source 
+
+ptr , table 
+ptr ; 
+widget table ; 
+ptr linear list contain attribute para - 
+meter model additionally - 
+ding widget 
+
+arg arg 10 ; 
+int n , 
+row , 
+col ; 
+; 
+; 
+initialization local variable 
+ptr ; 
+col 0 ; 
+row 0 ; 
+ueber die bzw . 
+das fuer die parameter 
+loop list object : 
+every object occur model zero 
+attribute parameter , share 
+several object . 
+
+locality attribute one object 
+list second linear list type , 
+whereas parameter , belong ob - 
+put together 
+thus program loop list object 
+object 
+list attribute resp . 
+parameter . 
+
+! 
+null 
+
+object represent 
+label widget 
+n 0 ; 
+arg n , , - > name ; n + + ; 
+- > `` object '' , , 
+table , arg , n ; 
+- > , col , row ; 
+col + + ; 
+row + + ; 
+- > ident ; 
+ueber die bzw . 
+parameter 
+! 
+null 
+
+attribute parameter represent 
+label corresponding widget , 
+initialize . 
+
+n 0 ; 
+arg n , , - > name ; n + + ; 
+- > `` ident '' , , 
+table , arg , n ; 
+- > , col , row ; 
+col + + ; 
+n 0 ; 
+arg n , , ; n + + ; 
+arg n , , - > text ; n + + ; 
+arg n , , ; n + + ; 
+arg n , , ; n + + ; 
+arg n , , ; n + + ; 
+arg n , , true ; n + + ; 
+- > `` text '' , 
+, 
+table , arg , n ; 
+- > , col , row ; 
+col -- ; 
+row + + ; 
+& ; 
+; end 
+col -- ; 
+& ; 
+; end 
+end 
+far problem detail . 

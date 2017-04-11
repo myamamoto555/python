@@ -1,0 +1,86 @@
+: eyal 
+subject : re : joystick slow ... 
+organization : info sci & eng , university canberra , australia 
+lines : 89 
+< > write : 
+> use read joystick , hideously slow . 
+something 
+> like 90 % cpu time spend read joystick , 
+> program nothing printf . 
+reason joystick stuff 
+take 90 % time even efficient . 
+> problem lot program trap like 
+> slow hell interface . 
+read joystick port 
+> reasonably safe fashion via polling ? 
+platform 
+> specific ? 
+truth int 15h joystick reading slow . 
+read directly 
+hardware port . 
+note expose intermittent 
+disturbance interrupt , may want read say twice 
+row keep lower result . 
+turn interrupt , may 
+prove detrimental health high speed comm 
+device . 
+example : 
+
+example read pc joystick port polling hardware port 
+directly . 
+use inp byte port access . 
+timeout ` int count 0 ' count zero . 
+sample read one port present b comment . 
+read merge two , time 
+either joystick connect . 
+
+need optimize routine since run long 
+joystick circuitry need . 
+
+write eyal . 
+
+
+
+
+extern int int x , int y , int b1 , int b2 ; 
+
+joystick b use 
+joystick b use 
+| 
+joystick b use 
+joystick b use 
+int return 0 ok 
+int x , int y , int b1 , int b2 
+
+register int count ; 
+register char temp , joy ; 
+temp char ; 
+count 0 ; 
+, 0 ; set trigger 
+
+temp ^ joy char inp ; 
+temp & 
+x count ; 
+temp & 
+y count ; 
++ + count & & temp joy & ; 
+b1 ! 
+joy & ; 
+b2 ! 
+joy & ; 
+return ! 
+count ; 
+
+main demonstration . 
+
+int 
+main 
+
+int rc , x , y , b1 , b2 ; 
+printf `` hit key exit \ n '' ; 
+! 
+
+rc & x , & y , & b1 , & b2 ; 
+printf '' \ r % d % 3d % 3d % d % d '' , rc , x , y , b1 , b2 ; 
+
+

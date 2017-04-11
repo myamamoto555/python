@@ -1,0 +1,30 @@
+: ken whaley 
+subject : re : 24-bit static color : client like ? 
+: message 26 apr 1993 gmt 
+organization : kubota pacific computer inc. . 
+lines : 21 
+| 
+| even machine case run emulate 
+| 8 bit visual , get standard x client , motif app 
+| run . 
+strongly suppose emulate least : 
+| 
+| > 24 bit . 
+problem , translation . 
+round 
+| make big misfit 
+depend nature `` rounding . '' 
+x allow user bit 
+arithmetic pixel value , i.e. , xor foreground pixel 
+value together calculate foreground color use 
+function fill change foreground background vice-versa . 
+rounding preserve type calculation 
+client use break . 
+ken 
+-- 
+kenneth whaley 
+kubota pacific computer , inc. . 
+email : 
+2630 walsh avenue 
+santa clara , ca . 
+

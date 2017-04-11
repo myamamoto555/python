@@ -1,0 +1,30 @@
+: kelly gray 
+subject : re : pinout need 
+organization : humber college technology dept. . 
+lines : 29 
+accord ti , pinout display 
+follow : 
+pin 1 - lead supply voltage 
+pin 2 - latch datum input b 
+pin 3 - latch datum input 
+pin 4 - leave decimal point cathode 
+pin 5 - latch strobe input 
+pin 6 - omit 
+pin 7 - common ground 
+pin 8 - blank input 
+pin 9 - omit 
+pin 10 - right decimal point cathode 
+pin 11 - omit 
+pin 12 - latch datum input d 
+pin 13 - latch datum input c 
+pin 14 - logic supply voltage , vcc 
+logic supply voltage 5v @ . 
+lead supply also 5v , 
+need particularly well regulate . 
+lead driver chip 
+use constant current source , lead intensity affect 
+supply voltage . 
+-- 
+< > kelly gray 
+prefer 
+

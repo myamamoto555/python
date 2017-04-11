@@ -1,0 +1,63 @@
+: brian dealy - csc 
+subject : re : always opaque 
+organization : space flight center 
+lines : 57 
+distribution : comp 
+: 
+keyword : , parent-child relation 
+originator : 
+article < > , hauke hess write : 
+| > hus , 
+| > 
+| > wonder possible parent window paint area 
+| > child . 
+, could possible implement 
+| > rubberband across multiple select object 
+| > display one window ? 
+| > 
+| > hauke 
+| > 
+specify create gc . 
+may 
+use xlib draw multiple window . 
+application something similar rubber banding . 
+, ; 
+. 
+foreground ^ ; 
+. 
+; 
+. 
+0 ; 
+. 
+function ; 
+. 
+; 
+| | | 
+| ; 
+, , , & ; 
+later move rubber band band use follow logic 
+
+void : : int , int 
+stuff delete ... 
+, , , 
+- > , - > rooty , 
+- > , - > ; old one 
+- > + ; 
+- > + ; 
+- > + ; 
+- > rooty + ; 
+, , , 
+- > , - > rooty , 
+- > , - > ; draw new one 
+stuff delete 
+hope help 
+-- 
+brian dealy | | know 
+| | important , know 
+! 
+| | ... 
+-- 
+brian dealy | | know 
+| | important , know 
+! 
+| | ... 

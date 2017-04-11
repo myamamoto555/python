@@ -1,0 +1,60 @@
+: 
+subject : re : swap file 6.0 
+summary : factor 
+organization : at&t 
+lines : 50 
+article < > james dean barwick write : 
+... 
+> swap file ... 
+> 
+> sure everyone uncompressed part compress hard disk 
+> see message `` select swap file greater suggest 
+> size ... window use size suggest ... wa create 
+> swap file anyway '' something like . 
+> 
+> well , friend mine robert call microsoft ask . 
+> say window check amount free disk space 
+> divide number 2 . 
+check largest contiguous block 
+> free disk space . 
+windows suggest smaller two number . 
+> 
+> also say absolutely circumstance ... none ! 
+... window 
+> use swap file larger suggest size . 
+well ... 
+> say ! 
+> 
+> call . 
+true window report memory 
+> available go use ? 
+think support droid malfunction confuse disk space 
+limit virtual address space limit . 
+far disk 
+concerned , limit amount contiguous free space . 
+limit cause message , `` windows use ... , '' 
+amount virtual address space virtual memory manager 
+create , function amount free memory 
+windows start . 
+section , specify parameter : 
+multiplier 
+follow description windows resource kit : 
+entry specify multiplier determine amount 
+linear address space vmm create system , 
+compute round amount available physical memory 
+nearest 4 mb multiply value value 
+specify . 
+increase value increase 
+amount available linear address space , cause size datum 
+structure increase . 
+also increase paging activity 
+proportionately slow system . 
+specify 
+value 1 20 . 
+default 4 . 
+change entry , 
+must edit . 
+-- 
+bob nichols 
+at&t bell laboratories 
+

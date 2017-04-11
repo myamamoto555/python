@@ -1,0 +1,154 @@
+: 
+subject : cryptography faq - overview 
+organization : crypt cabal 
+lines : 138 
+expire : 22 may 1993 gmt 
+: 
+: . 
+
+summary : part 1 10 faq , overview . 
+table 
+contents subsequent section . 
+contributor , feedback , archive , 
+. 
+: 
+: 
+: 
+faq , part 1 : overview 
+first ten part faq . 
+part 
+mostly independent , read part rest . 
+
+time send miss part mail , ask . 
+note `` '' refer reference list last part . 
+disclaimer : document product crypt cabal , secret 
+society serve national secu -- uh , . 
+seriously , 
+good guy , ensure completeness 
+accuracy document , field military commercial 
+importance like cryptography expect people 
+organization consider interest important open 
+scientific discussion . 
+trust verify firsthand . 
+sue . 
+many people contribute faq . 
+alphabetical order : 
+eric bach , steve bellovin , dan bernstein , nelson bolyard , carl ellison , 
+jim gillogly , mike gleason , doug gwyn , luke o'connor , tony patti , 
+william setzer . 
+apologize omission . 
+suggestion , comment , criticism , please let current 
+editor know send e-mail . 
+
+assume faq complete point . 
+archive : archive since october 1991 
+. 
+, though archive available u.s. 
+canadian user . 
+please contact know 
+archive . 
+section faq available via anonymous ftp 
+. 
+xx . 
+cryptography 
+faq post newsgroup , , 
+every 21 day . 
+table contents : 
+1 overview 
+2 net etiquette 
+group around ? 
+faq ? 
+? 
+? 
+political discussion belong ? 
+present new encryption scheme ? 
+3 basic cryptology 
+cryptology ? 
+cryptography ? 
+plaintext ? 
+ciphertext ? 
+encryption ? 
+key ? 
+reference start learn cryptology ? 
+one go cryptanalysis ? 
+brute-force search cryptographic relevance ? 
+property satisfy every strong cryptosystem ? 
+cryptosystem theoretically unbreakable , 
+guarantee practice ? 
+many people still use cryptosystem 
+relatively easy break ? 
+4 mathematical cryptology 
+mathematical term , cryptosystem ? 
+attack ? 
+advantage formulate mathematically ? 
+one-time pad secure ? 
+attack ? 
+attack ? 
+attack ? 
+mathematical term , say brute-force attack ? 
+attack ? 
+entropy ? 
+5 product cipher 
+product cipher ? 
+make product cipher secure ? 
+property product cipher ? 
+prove security product cipher ? 
+block cipher use encrypt datum longer block size ? 
+symmetric block cipher use message authentication ? 
+exactly des ? 
+triple des ? 
+differential cryptanalysis ? 
+nsa involve design des ? 
+des available software ? 
+des available hardware ? 
+des use protect classify information ? 
+`` ecb '' , `` cbc '' , `` cfb '' , `` ofb '' encryption ? 
+6 public-key cryptography 
+public-key cryptography ? 
+rsa ? 
+rsa secure ? 
+fast people factor number ? 
+public-key cryptosystem ? 
+7 digital signatures hash function 
+one-way hash function ? 
+difference public , private , secret , shared , etc. . 
+? 
+md5 ? 
+? 
+8 technical miscellany 
+recover lose password wordperfect ? 
+break cipher ? 
+send encrypted mail unix ? 
+pgp , , pem , ... 
+unix crypt command secure ? 
+use compression encryption ? 
+unbreakable cipher ? 
+`` random '' mean cryptography ? 
+unicity point a.k.a. unicity distance ? 
+key management important ? 
+use pseudo-random chaotic number key stream ? 
+correct frequency list english letter ? 
+enigma ? 
+shuffle card ? 
+foil pirate encrypt cd-rom ? 
+automatic cryptanalysis simple cipher ? 
+code system use vcr + ? 
+9 miscellany 
+national security agency nsa ? 
+us export regulation ? 
+tempest ? 
+beale ciphers , hoax ? 
+american cryptogram association , get touch ? 
+rsa patent ? 
+voynich manuscript ? 
+10 reference 
+books history classical method 
+books modern method 
+survey article 
+reference article 
+journals , conference proceedings 
+
+may one obtain copy fip standard cite herein ? 
+electronic source 
+rfc available 
+relate newsgroup 

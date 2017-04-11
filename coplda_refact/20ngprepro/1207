@@ -1,0 +1,19 @@
+: ron albury 
+subject : re : procomm plus window problem ... 
+organization : sdrc 
+lines : 14 
+lot problem keep hardware interrupt windows 
+dos - regardless communication software use . 
+try following : 
+1 turn disk write cache disk download . 
+
+cache save much grab control machine 
+take long write disk loose character . 
+2 use different uart serial line . 
+old uart 's 8250 
+buffer one character internally . 
+new uart 's 
+buffer 16 , plenty situation . 
+run 
+\ window \ find uart machine . 
+ron 

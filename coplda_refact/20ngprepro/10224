@@ -1,0 +1,1062 @@
+: david b. lewis 
+subject : frequently ask question faq 
+summary : useful information x window system 
+: x faq maintenance address 
+organization : visual , inc. . 
+expire : sun , 2 may 1993 gmt 
+lines : 998 
+: 
+: 
+
+subject : 58 ! 
+get patch ? 
+release new public patch mit x consortium announce 
+newsgroup . 
+patches available via ftp export 
+site x11 available . 
+also distribute 
+newsgroup . 
+source may include patch 
+source distribution x11 . 
+people without ftp access use mail server . 
+
+23 patch . 
+send subject line 
+send fix # 
+# name patch usually number patch . 
+complication : 
+1 fix 5 four part ; need request `` 5a '' , `` 5b '' , `` 5c '' 
+`` 5d '' separately 
+2 file , part earlier patch , 
+re-release patch 7 note : file work solaris 
+3 fix 8 two part : `` 8a '' `` 8b '' 
+4 fix 13 three part : `` 13a '' , `` 13b '' , `` 13c '' 
+5 fix 16 two part : `` 16a '' `` 16b '' 
+6 fix 18 replace x test suite , 
+previously optional 
+7 fix 19 also need , obtain 
+ask `` . 
+1234 '' . 
+8 fix 22 9 part , `` 22a '' `` '' 
+
+subject : 59 ? 
+server program . 
+mean mail 
+request , mail back response . 
+four possible command must first word line . 
+
+server read entire message anything , 
+several different command single message unless ask help . 
+server treat `` subject : '' header line like line 
+message . 
+archive organize series directory 
+subdirectory . 
+directory index , subdirectory 
+index . 
+top-level index give overview 
+subdirectory , index subdirectory tell . 
+1 command `` help '' `` send help '' cause server send 
+detailed version help file . 
+2 message contain line whose first word `` index '' , 
+server send top-level index contents archive . 
+
+word line match name subdirectory , 
+index subdirectory send instead top-level index . 
+example , say `` send index fix '' `` index fix '' . 
+message 
+request index request datum . 
+3 message contain line whose first word `` send '' , 
+server send item name rest line . 
+name 
+item , give directory name . 
+example 
+send fix 1 4 8a 8b 9 
+may issue multiple send request . 
+server contain many 
+safeguard ensure monopolize people ask large 
+amount datum . 
+mailer set send fix 
+amount datum day . 
+work queue contain request 
+day 's quota , unsent file process next day . 
+whenever mailer run send day 's quota , send request 
+. 
+4 mailer produce mail header unusable extract 
+return address . 
+use mailer , get response . 
+
+happen know explicit path , include line like 
+path 
+
+path 
+body message , daemon use . 
+server reach . 
+
+mailer deal '' ! '' 
+notation , try send 
+someplace ! 
+! 
+. 
+base information mit x consortium , , . 
+
+subject : 60 ! 
+get source binary ? 
+integrated computer solutions , inc. , ship half-inch , 
+quarter-inch , format . 
+call order information . 
+free software foundation sell half-inch 
+tape cartridge . 
+yaser p.o. box 1301 , kent , oh 
+make available hp format tape , 16 track , sun cartridge . 
+
+european site obtain free distribution jamie watson , 
+may reach ! 
+. 
+
+non standard logics +33 1 43 36 77 50 ; make source 
+available . 
+limited sell source quarter-inch 
+cartridge format 5.25 '' 3.5 '' floppy , format available 
+request . 
+, 
+virtual technologies provide entire 
+compress source release single quarter-inch cartridge also 
+1.2 meg 1.44 meg floppy upon request . 
+conor cahill 
+
+young mind make r4 gnu distribution available 
+cd-rom . 
+note distribution include doc . 
+; site preferable , 
+though , direct : 
+machine internet ftp 
+location name address directory 
+-------- ------- -------- ------------- 
+1 west usa 
+central usa 
+2 central usa . 
+edu . 
+
+southeast usa 
+3 northeast usa 
+4 uk janet 
+uk 
+5 australia 
+. 
+edu site , particular , know much 
+stuff find export . 
+release available dec easynet site crl : : '' '' . 
+site australia may contact address : 
+check directory . 
+machine shadow export archive 
+. 
+mark prior , 
+note : much complete list distribute part introductory 
+posting . 
+set binary build tom roell 
+available 
+europe . 
+stephen hite 
+also distribute folk without ftp facility 
+via disk send sase ; contact shipping detail . 
+
+addition , binary available via uucp , tb + 
+pep ; : sword : x. addition , source 
+. 
+. 
+addition , us , 
+latest svr4 binary april 15 , patch , font available 
+directory , filename 
+. 
+please use 6pm pacific , large file . 
+
+set hp binary available 
+~ 800 . 
+z. 
+set binary next 2 . 
+x make available howie kaye 
+
+set binary john coolidge mac run 
+2.0 available file 
+. 
+. 
+also set 
+patch make shared library . 
+complete distribution sco binary baruch 
+find uunet . 
+server roell 's 
+1.1 b , compile base svga board . 
+
+subject : 61 get ? 
+obtain either source binary number 
+vendor . 
+motif source available ; base . 
+motif 1.1 base r4 .18 intrinsic currently 
+. 
+source license must obtain osf source 
+obtain open software foundation value-added vendor 
+version . 
+call direct channel desk osf order 
+information . 
+various hardware vendor produce developer 's toolkit binary , 
+header file , documentation ; check hardware vendor , particularly 
+vendor osf member . 
+addition , independent binary vendor produce motif toolkit 
+machine motif support vendor ; kit include vary 
+level support shared library base widely 
+divergent version motif : 
+quest sell kit suns , well ; 
+offer kit . 
+nsl +33 1 43 36 77 50 ; offer kit sun 3 
+sun 4 . 
+bluestone consulting make kit sun system . 
+ic make several binary kit , notably sun , dec. . 
+hp dec announce support motif sun system . 
+currently offer sun system motif 
+development kit include base motif . 
+us distributor 
+expert object corp . 
+bim ship motif 1.1 binary suns . 
+share library support 
+include . 
+contact alain danny 
++32 2 fax : +32 2 belgium . 
++33 ship motif 1.2 motif 1.1 sun 
+machine . 
+s.i. systems offer motif 1.2 solaris 2.1 ; info : 
+usa canada . 
+metro link inc. , europe contact 
+, 33 1 , univision uk ltd. 44 628 82 22 81 ship 
+implementation motif include 
+implementation unix market . 
+motif 
+also available sun sparc base workstation . 
+also announce 
+motif 1.2 solaris system . 
+
+subject : 62 motif work ? 
+? 
+motif 1.2 base . 
+motif 1.1 , available source form osf august 1990 , use 
+`` vanilla '' intrinsic , `` vanilla '' mean `` 
+patch '' ; file osf distribute obsolete mit 's patch 
+15-17 . 
+file distribute 1.1.1 version 
+subsequent modification need apply mit , though . 
+motif 1.1.1 work compile 
+- ; later work vanilla r5 , although 
+known new problem . 
+
+subject : 63 get toolkit implement open look ? 
+sun 's api . 
+version tape ; 
+latest 3.0 source export . 
+x binary sun `` roadrunner '' available 
+ftp . 
+, directory _ . 
+support binary 2.0 3.0 include : 
+platform domestic selected international vendor . 
+several also available sun ; contact local sale office . 
+amiga , inc. . 
+1881 drive 
+milpitas , ca 
+fax : 
+sgi 
+sony 
+ibm 
+hp 9000 
+decstation software 2025 lincoln highway 
+ultrix edison , nj 
+fax : 
+software , ltd. . 
+po box 70 
+viking house 
+fax : nelson street 
+douglas , isle man 
+united kingdom 
+dec tgv 603 mission street 
+vm 800 santa cruz , ca 
+
+fax : 
+ltd. . 
+st. neots road 
+hardwick 
+fax : cambridge 
+england 
+intel 386 quarterdeck office 150 pico boulevard 
+systems santa monica , ca 
+
+fax : 
+intel 386 sunsoft corporation center drive west 
+interactive suite 700 
+unix los angeles , ca 
+sco unix 
+scripps institute clinic 
+os fax : n. torrey pine road 
+titan os include la jolla , ca 
+ftp : , 
+at&t 's open look gui 3.0 toolkit generally available 
+; contact # 544 information . 
+binary produce 
+sparc system international quest corporation . 
+version 
+toolkit also produce name sun . 
+recent version port ibm 6000 dec mips 
+ic . 
+also available hp melillo consulting 
+. 
+somerset , nj make 4.0 hp series run 
+8.0 , decstation , thanks joanne , 
+. 
+sun ship 3.0 ; contact local sale 
+representative detail ; package include toolkit binary 
+header file . 
+'s formerly 's extensible c + + - base object 
+interface library , support run-time selection open look 
+motif , available . 
+
+
+subject : 64 ! 
+get x source ? 
+include r5 modification 
+mit software center ship x test suite tape . 
+multi-threaded version xlib base patch 12 
+available anonymous ftp new version : 
+dec .1 
+mit -1.1 
+hp make available driver permit building 
+sample server hp 9000 series 700 workstation ; file 
+~ . 
+. 
+
+software distribute newsgroup 
+, moderate chris olson ; also check 
+group post information . 
+richard hesketh create list freely - 
+available x source . 
+list store 
+. 
+z. list main storage location program 
+international site may ftp ` ed . 
+machine great deal 
+software directory ; good deal present current 
+earlier version , , tape . 
+also 
+directory fix software . 
+file export 
+. 
+txt quick overall index software area , 
+provide daniel . 
+site use may still mirror export particular 
+use australasia : anonymous ftp : ; : 
+. 
+material . 
+edu , tend duplicate 
+export archive , also available via anonymous uucp , tb + 
+v. 32 speed . 
+write ! 
+uucp 
+instruction . 
+archive maintain karl 
+new west-coast uucp x11 archive administer mark 
+contain full x11 distribution , 
+distribution , entire archive goody . 
+machine tb + modem connect 19.2 k , 2400 , 
+1200 baud order . 
+anonymous uucp account password 
+. 
+modem 's phone number . 
+sample systems entry might : 
+acu : -- : word : 
+get current listing file available , download 
+file '' . 
+z '' . 
+full subject index file available 
+file '' . 
+index '' . 
+machine one modem , please fetch large 
+amount datum one sit . 
+courtesy mark , 
+addition , uunet source archive track 
+provide + compress program 6250 tape '' tape . 
+
+also mirror directory . 
+
+subject : 65 ! 
+get interesting widget ? 
+free widget foundation fwf library sponsor brian totty 
+available 
+3.41 . 
+. 
+set widget intend form basis 
+future contribution . 
+add discussion list , send 
+message say `` subscribe '' 
+one , , 
+. 
+version 3.4 current ; look 4.0 . 
+widget set contain widget datum representation . 
+version 
+1.2 export -1.2 . 
+. 
+peter ware 's xo `` open widget '' set , functionality , 
+. 
+edu -2.1 . 
+. 
+plotter widget set version maintain 
+peter include many graph plot 
+widget ; copy export 6b . 
+, , 
+, . 
+latest version may fact 
+. 
+advance version marc quinton 's motif port fwf 
+widget 7 . 
+: . 
+. 
+additional widget available portion 
+tape ; include set . 
+paul johnston 's x control panel widget set 
+emulate hardware counterpart ; source 
+.3 . 
+. 
+o'reilly volume 4 , doug young 's book , book , jerry 
+smith 's `` object-oriented program x window system toolkits '' 
+include detail write widget include several useful widget ; source 
+typically export uunet . 
+dirt interface builder include set extend 
+functionality . 
+graph widget widget sundar 
+narasimhan available 
+. 
+. 
+graph widget update 
+documentation histogram capability . 
+graph widget available 7 . 
+
+. 
+; use segment list draw hence support zoom 
+operation . 
+ken lee 's xm widget demo use display postscript draw label 
+angle export . 
+. 
+table widget work like troff tbl table available several 
+flavor , one widget creation library release . 
+bell communications research develop matrix widget complex 
+application layout ; export -3.8 . 
+. 
+distribution also include `` caption '' widget associate label 
+particular gui component . 
+
+dan connolly 's interpret rtf datum ; 
+export -1.1 . 
+. 
+graph widget 
+although may stable . 
+layout widget keith packard describe 
+proceedings 7th mit technical conference o'reilly x resource volume 5 ; 
+source available export . 
+. 
+version lee iverson 's tool 
+available . 
+. 
+package 
+also include widget widget . 
+; 
+addition , toolkit rich thomson 
+available export ; include pex widget make easier 
+use pex program . 
+motif port clock widget 7 . 
+
+. 
+. 
+modification widget support arrowhead 
+style toolkit export . 
+. 
+beta 0.3 release r5 widget 3d visual 
+appearance kaleb keithley available export 
+.3 . 
+. 
+library , 
+mit , implement 3d subclass handle extra drawing . 
+also : 
+`` motif tools '' , dovetail systems 's shareware library 9 
+widget many convenience function , available 
+: : 
+.0 . 
+. 
+xtra set include widget pie bar chart , xy 
+plot , help , spreadsheet , datum entry form , line bar graph . 
+contact 
+graphical software technology information . 
+widget , available motif , , display 
+x-y plot , bar pie chart , support , fast update 
+postscript output . 
+contact kl group inc. . 
+set widget motif available marlan 
+software , . 
+set graph widget available expert database systems 
+. 
+set compound widget support routine 2d 
+visualization available ms quek lee hian , national computer board , 
+republic singapore ; tel : ; fax : ; 
+. 
+ic widget include variety control widget 
+special-purpose widget , available variety platform . 
+information : 
+, . 
+information graphing tool may obtain 
++1 , fax : +1 . 
+
+subject : 66 get good widget ? 
+free widget foundation set offer widget , 
+separate directory path file listing window , , 
+file completion ~ expansion . 
+available widget include 
+iris software 's book , extract david 
+, axe distribution . 
+, , package also include 
+widget . 
+
+subject : 67 widget appropriate use draw canvas ? 
+widget set widget particularly purpose -- 
+workspace display anything let xt 
+application know , resize , receive 
+user key mouse input . 
+best thing widget set -- include athena set 
+-- create obtain widget ; preferable draw 
+core widget grab event , lose number 
+benefit xt encapsulation functionality . 
+least one version post name ??? 
+. 
+program include version . 
+athena widget manual template r5 distribution 
+include tutorial source code simple widget suitable 
+use . 
+free widget foundation set contain canvas widget . 
+
+subject : 68 current state world x terminal ? 
+jim morton post quarterly list 
+manufacturer terminal ; include price information . 
+notable survey include : 
+- september 1991 issue systems integration 
+
+subject : 69 get x server touchscreen ? 
+3 587 1444 , fax 3 580 offer 19 '' surface 
+acoustic wave touch-screen option terminal . 
+tektronix provide x terminal 
+touch-screen . 
+terminal may also resell trident systems 
+. 
+metro link support serial touch screen 
+controller . 
+
+subject : 70 get x server pc unix ? 
+mit already provide server many 
+support many popular video graphic adapter ; 
+pc obtain server source : 
+xfree86 formerly 1.2 e enhance version 1.2 , 
+distribute ; include many bug fix , speed improvement , 
+enhancement . 
+source version 1.2 
+, , . 
+
+addition , binary , among 
+system . 
+info : . 
+note : package obsolete glenn lai 's speedup patch 
+enhance server 386 unix board 
+export . 
+metro link inc. , europe contact 
+, 33 1 ship implementation unix 
+market . 
+sgc offer version 1.3 , base thomas roell 's two-headed 
+server , binary source form . 
+information : , . 
+isc , sco , uhc , well-known vendor typically 
+offer x server . 
+pc : 
+daniel j. mccoy start post monthly 
+list server pc , mac , amigas ; include pricing 
+information . 
+current copy keep export 
+. 
+. 
+article pc x server appear march 2 , 1992 open systems today . 
+also possible use : 
+enable communication among 
+dos , unix machine use display pc session 
+unix x display . 
+
+subject : 71 get x server macintosh run macos ? 
+exodus white pine software run mac 
+least 1mb memory run x server within standard macintosh 
+window . 
+version 3.0 support intermixing x mac window 
+protocol . 
+version support shape extension include 
+support . 
+apple 's run newer machine > 2mb memory 
+system software later . 
+version 1.1 fully . 
+
+support full cut paste text graphic 
+macintosh x11 world , shape extension include shaped window 
+macintosh desktop , optional built-in window manager , 
+font color , built-in bdf font compiler , built-in standard 
+. 
+upgrade available ftp . 
+info : . 
+note : also name xmodem transfer utility . 
+also : 
+liken software enable monochrome 
+68000 mac application run sparc system run x. 
+enable mac 
+application display workstation turn mac x 
+client . 
+intercon product call enable mac application 
+display x server . 
+
+subject : 72 get x amiga ? 
+new amiga 3000 machine offer x server open look tool 
+library full svr4 implementation . 
+, inc. provide `` x11 r4 .1 '' amigados computer ; 
+contain client , font , etc. , release 4 color server . 
+optional 
+programmer 's toolkit include header file , library , sample program . 
+info , . 
+dale luck 
+uunet ! 
+| pyramid ! 
+; 
+
+subject : 73 get fast x server workstation ? 
+r5 server among fastest available machine . 
+sun sell `` direct xlib '' product improve render 
+application run machine x server ; replacement xlib 
+library access graphic hardware directly use sun 's direct graphics access 
+dga technology . 
+international quest corporation optimize r4 
+server suno 4.0 . 
+r4 server sparc platform . 
+
+optimise use graphic hardware run . 
+information : 
+. 
+'s x server implement 
+boast impressive result sun 3 sparc system . 
+
+several company make hardware board : 
+dupont pixel systems , sun . 
+'s board sun 3 sun 4 
+base ti ; company claim performance improvement 5x 
+10x sample server . 
+
+subject : 74 ! 
+get server high-end sun graphic board ? 
+takahashi naoto electrotechnical laboratory , 
+modify mit server support sun , , board . 
+file export -3 . 
+01 . 
+. 
+note file 
+necessary build .1 . 
+jpl r5 multi-screen server general purpose replacement 
+mit layer ; provide screen split among 
+several monitor implement several feature mit 
+implementation . 
+available file 
+. 
+. 
+. 
+kaleb keithley , 
+; file update 24 mar 1993 . 
+
+subject : 75 get `` x terminal '' server low-end sun ? 
+seth robertson write ; current 
+version 1.4 , 2.0 expect rsn 
+. 
+gamma . 
+turn sun pseudo - x 
+terminal ; overhead operating system , 
+fairly fast need little disk space . 
+similar approach run regular x server make 
+shell script minimal setup invoke , like 
+example script 
+# ! 
+
+exec > 2 > & 1 
+- p 
+case $ ? 
+
+0 ; ; 
+4 - q - n 
+; ; 
+8 echo nd fail - get help 
+
+; ; 
+12 echo interrupt 
+
+; ; 
+echo unknown error reboot - get help 
+
+; ; 
+esac 
+b 512 count 128 > 2 > & 1 
+tmp 
+broadcast 
+- o ro apollo : 
+add default 1 > 
+set ` ` 
+exec - - - mux - query \ 
+` sh - vn < $ 2 2 > & 1 ` 
+
+subject : 76 terminal emulator available ? 
+pc rewrite scratch use approach 
+use application . 
+version r5 tape 
+export . 
+. 
+information , contact 
+. 
+, available 
+, file 
+_ . 
+. 
+color terminal widget provide emulation compatible 
+series ; version export -1.1 . 
+. 
+
+motif version 7 . 
+-1.0 . 
+. 
+4.1.2 tektronix 4014 terminal 
+emulator support display chinese , japanese , korean text vt 
+mode . 
+also support : color sequence , word selection , 
+limited compound text support , tab newline preservation selection . 
+4.1.2 also available anonymous ftp site : 
+: . 
+
+: . 
+
+: . 
+
+courtesy mark < > 
+. 
+export . 
+, x terminal emulator 
+include ansi x3 .64 dec emulation mode . 
+ftp 
+, . 
+. 
+. 
+chinese , support 
+so-called encoding . 
+hanzi input conversion mechanism builtin 
+. 
+input method store external file load run 
+time . 
+user redefine exist input method create one . 
+rewrite version base 
+; r5 software . 
+thanks zhou ning 
+< > steinar bang < > . 
+available export 's .0 . 
+
+.0 . 
+readme . 
+design offer 's functionality lower swap 
+space may particular use system drive many x terminal . 
+. 
+also : 
+ibm sell 3270 emulator part # ; base 
+motif . 
+century software sell terminal emulator x. 
+, wyse 50 sco color console emulation also available . 
+'s provide emulation tektronix , , 
+graphic terminal ; available major platform . 
+information 
+inc. free demo copy : ; fax . 
+; . 
+'s , package integrate character-based 
+application x environment , include number 
+module . 
+information : +44 0223 . 
+
+produce , set several emulation package 
+number tek , dec , westward , data general terminal . 
+software run 
+sun 3 , sun 4 , apollo , dec , isc , . 
+information : us : , 
+uk : +44 . 
+
+sco 's , part open desktop environment , 
+sco ansi color console emulator . 
+
+subject : 77 ! 
+get editor ? 
+ftp version gnu emacs , extensible , customizable , 
+, real-time display editor , include x11 support , 
+: . 
+
+. 
+de : .59 . 
+. 
+epoch modify version gnu emacs 18 additional 
+facility useful x environment . 
+current source 
+~ epoch ; current version 
+4.0 . 
+europe , try . 
+de . 
+two 
+subdirectory : epoch contain epoch source , contain source 
+programmable window manager , epoch work well . 
+get epoch mailing list send request 
+. 
+lucid emac version gnu emac derive early version 
+emac version 19 . 
+currently require x windows run ; x support 
+greatly enhance gnu emacs version 18 , include support multiple x 
+window , input display iso-8859-1 character , 
+style region highlight , customizable , powerful 
+support , flexible text attribute , support regional 
+basis x resource lisp , support x11 selection 
+mechanism . 
+lucid emac free ; latest version 19.4 , 
+available directory . 
+andrew system x11 tape describe one 
+best word-processing package available . 
+support word processing 
+multi-media embedded object : raster , sheet , drawing , style 
+editor , application builder , embedded programming language , & c. release 5.1 
+become available 2 june 92 . 
+fred hansen 
+may able use remote andrew demo service try 
+software ; try `` finger '' help . 
+interviews c + + toolkit contain editor call doc ; 
+save load file latex - like format quite latex . 
+package 
+also import drawing . 
+simple editor axe available 
+export .1 . 
+. 
+
+base around text widget . 
+ted simple text editor ; wrapper around 
+motif text widget offer , paragraph formatting , 
+navigation feature . 
+ted available 
+. 
+; also executable . 
+point , charlie crowley , 
+offer configuration programming tcl macro language . 
+editor available 
+.1 - . 
+, andrzej export 
+. 
+. 
+simple text editor build around motif text 
+widget . 
+version 1.11 release . 
+also : 
+elan computer group mountain view , ca ; announce 
+avalon publisher 2.0 , look wysiwyg electronic publishing system . 
+framemaker available binary product 
+several machine . 
+frame ca : . 
+formerly available non standard logics 
++33 1 43 36 77 50 ; . 
+buzzwords international inc. editor call ` professional edit ' 
+run various platform . 
+info : +1 . 
+available dec dec hardware 
+available sun . 
+soon available island graphics 
+hp & apollo platform . 
+interleaf currently available interleaf , 
+ma : sun dec platform ; development . 
+aster x office integration tool applix , 
+ma : include document composer ; several 
+system . 
+, inc. provide x11 version electronic publishing 
+program call `` publisher '' . 
+publisher available sun , hp 
+apollo workstation . 
+contact . 
+
+iris computing laboratories offer `` ie '' editor . 
+info : 
++1 . 
+bbn software products include word 
+processor multiple font style sheet . 
+support x 
+multiple platform . 
+
+powerful `` sam '' editor rob pike split host portion 
+front-end graphic portion , x implementation . 
+sam 
+available anonymous ftp , . 
+z. watch 
+space update version . 
+mailing list sam user ; 
+request < > . 
+set extension 
+augment mouse activity keyboard available 
+.0 . 
+shar . 
+innovative solutions ; brian , 
+publish 
+editor . 
+offer product . 
+information : 
+. 
+editor available several system . 
+information : research , , fax . 
+wordperfect offer version wordperfect 5.1 several 
+workstation . 
+information : . 
+
+subject : 78 get mailer ? 
+, x interface mh , distribute x11 release . 
+window interface mail handler ; 
+style primarily application build 
+unix system . 
+current release 1.4 , available mit 
+tape export uunet . 
+info : jeff markham , 
+. 
+mmh mail handler , motif interface mh mail handler , 
+available . 
+; bundle 
+ted editor , use compose message . 
+motif 1.1 
+require ; , look dec sparc executable 
+place . 
+information problem : erik scott , . 
+
+andrew toolkit support andrew message system ; available 
+export many x archive 
+, send email . 
+release 5.1 become 
+available 2 june 92 . 
+may able use remote andrew demo service try 
+software ; try `` finger '' help . 
+interface mail reader ; version 
+2.0 release . 
+information : bob , . 
+cem mailer use standard mailbox format ; 
+. 
+information : sam moore . 
+also : 
+alfalfa software offer poste , unix-based mailer motif - 
+interface . 
+include support multimedia enclosure , 
+support internet x. 400 mail standard . 
+information : 
++1 . 
+software offer unix system ; binary support 
+tty motif interface . 
+mailer include scripting 
+language customize extend mail capability . 
+information : 
++1 . 
+several vendor ' system include mailer . 
+dec offer ; 
+sun offer ; sco include open 
+desktop product . 
+several integrate tool include mailer : 
+aster x office integration tool applix , 
+ma : include mailer . 
+
+subject : 79 ! 
+get program ? 
+object-oriented drawing program . 
+support multiple font 
+style size variable line width ; rotation zoom . 
+quite suitable interactive front-end pic , though 
+produce convert postscript . 
+latest version 
+r4 tape . 
+brian v. smith object-oriented 
+draw program support compound object . 
+format convert 
+postscript format . 
+recent version r5 tape 
+export version . 
+support numerous font various line style arbitrary 
+rotation . 
+support zoom scroll color draw fill . 
+file 
+format postscript dialect . 
+import tiff file . 
+distribute part 
+interviews c + + toolkit current release 3.1 , 
+. 
+version robert forsman 's , 
+8-bit paint program x , . 
+
+available . 
+rewrite , 2.0 , david release 
+. 
+. 
+editing tool . 
+new graphical editor name ` ice ' 
+available anonymous ftp internet host 
+. 
+ice image composition environment imaging tool 
+allow raster image combine wide variety postscript 
+annotation wysiwyg fashion via x11 imaging routine news postscript 
+. 
+may require sun c + + 2.0 . 
+tgif william cheng available 
+uucp site also export . 
+frequently update ; 
+version release . 
+`` '' program info : create 
+r5 tape ; resemble bitmap client . 
+version 2.1 
+available . 
+
+although generally classify paint program , 
+full 24-bit color image editor build program , use 
+light image editing produce color icon . 
+
+available via anonymous ftp , , 
+. 
+j. michael flanery produce output . 
+also : 
+drawing program like macpaint ; 
+good use artist commonly hold bad draw figure 
+draft . 
+part dec 's ultrix release . 
+framemaker draw capability . 
+
+bbn software products include full-featured draw 
+paint program object grouping multiple pattern ; multiple x platform . 
+. 
+
+dux ! 
+, 
+offer , , . 
+info : . 
+corel draw , ; port x prior data sciences 
+
+arts & letters composer , 
+autograph , 
+include editor . 
+sco odt include editor . 
+hp vue include editor . 
+several integrate tool include capability : 
+aster x office integration tool applix , 
+ma : include capability . 
+thanks part stephen j. byers 
+j. daniel smith 
+
+david b. lewis 
+`` faq , ma'am . '' 
+-- joe friday 
+-- 
+david b. lewis temporarily speak visual , inc. . 
+day : evening : 

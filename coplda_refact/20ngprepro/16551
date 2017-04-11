@@ -1,0 +1,52 @@
+: conrad kimball 
+subject : re : problem r4 release 
+organization : boeing computer services , seattle , wa 
+lines : 48 
+: zulu 
+article < > , mike mcgary write : 
+| > article < > pramod mahadev write : 
+| > 
+| > > ld : unidentified external symbol 
+| > > _ 
+| > > _ 
+| > > 
+| > > use - - - - - order proper order 
+| > > 
+| > > wonder change link library 
+| > > include library . 
+| > > 
+| > > help matter useful highly appreciate 
+| > > 
+| > 
+| > get . 
+put - option go away . 
+| > thing seem run ok without ... must call often . 
+faq : 
+subject : 96 ! 
+link problem suno 4.1 . 
+23 ? 
+suno 4.1.2 sun fix bug ld conflict 
+way x build shared library , cause symbol , notably , 
+build x11 client : 
+_ 
+_ 
+compile '' - - - '' appear work . 
+solve problem use 3.0 xt , please 
+contact local sun office request follow patch : 
+patch i.d. description 
+4.1 . 
+x 3.0 jumbo patch 
+4.1 . 
+x 3.0 undefined symbol use 
+share 
+greg earle , 
+source patch use mit library develop conrad 
+kimball ; retrofit r4 fix make r5 
+get around problem . 
+patch export 
+_ _ . 
+z 
+-- 
+conrad kimball | client server tech services , boeing computer services 
+| p.o. box , m 
+| seattle , wa 

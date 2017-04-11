@@ -1,0 +1,30 @@
+: juergen 
+subject : char big font show partially 
+organization : research institute discrete mathematics , bonn 
+lines : 30 
+hus , 
+write small application use copy window 
+show drawing . 
+work perfectly kind object 
+expect large font . 
+happen screen right 
+half font show . 
+way create thing 
+quite simple ; aggregated code : 
+, , , 0 , 0 , width , height ; 
+line | | string ... ; 
+, , win , 0 , 0 , width , height , 0 , 0 ; 
+use 340 bo 3.2 . 
+question : 
+bug aix may ptf , 
+something wrong within code ?? 
+sorry , really know kind 
+error . 
+juergen 
+research insitute discrete mathematics 
+university bonn 
+. 
+2 
+5300 bonn 1 germany 
+tel : 
+e-mail : 

@@ -1,0 +1,93 @@
+: david rex wood 
+subject : call library create widget multiple time 
+: 
+organization : university colorado , boulder 
+lines : 91 
+day ago post question try call function set 
+x app multiple time . 
+point 
+never call . 
+help . 
+however , still 
+problem . 
+new little test program closely model 
+real program . 
+actual program , write library , callable 
+program . 
+mean first time lib function 
+call , must initialize thing , , use 
+old stuff still around static variable . 
+demo , 
+main represent main program call library doit represent 
+interface library function . 
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+
+
+void blum app , widget top 
+
+widget top ; real prog , member var 
+app ; class 
+int junk 0 ; 
+display dis , null , null , null , null , 0 , & junk , 
+null ; 
+widget box `` '' , , 
+, 
+, 50 , 
+, 50 , 
+null ; 
+; 
+int 0 ; < 25 ; + + real prog return `` exit '' button click 
+
+event ; 
+, & event ; 
+& event ; 
+
+box ; 
+di ; 
+
+- call 
+void app , widget top 
+
+int junk 0 ; 
+top app , `` test '' , null , 0 , & junk , null , 
+null , null , 0 ; 
+
+doit - library function callable outside 
+void doit 
+
+static app ; use every time call 
+static widget top ; 
+static int setup 0 ; 
+! 
+setup 
+
+& app , & top ; 
+setup 1 ; 
+
+blum app , top ; 
+
+main - program link library 
+main 
+
+int 0 ; < 20 ; + + 
+
+doit ; 
+printf `` sleep ... \ n '' ; widget still screen point 
+sleep 5 ; 
+
+
+problem widget go away new one create . 
+still screen -- -- `` sleep '' main prog , 
+despite call . 
+anyone see something miss ? 
+thanks much . 
+please respond via email 
+-- 
+
+david rex wood -- -- university colorado boulder 
+

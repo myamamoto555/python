@@ -1,0 +1,1103 @@
+: duncan sinclair 
+subject : glasgow rx - remote execution x program , 
+summary : nice program remote . 
+keyword : perl x remote execution 
+organization : glasgow university computing science dept. . 
+lines : 976 
+post week back , get back error 
+message `` : : permission deny '' . 
+yep , 
+mode 600 . 
+!! 
+renew interest `` set display variable '' , etc. . 
+
+thought would post contribution . 
+perl script solution . 
+try intelligent 
+able type `` rx '' , 
+get run `` '' , difficult 
+stuff take care . 
+theory , program everything ever want 
+want run remote command background - 
+even need x program . 
+try `` rx make '' 
+instance , background make remote `` '' . 
+detail full list feature read readme file , 
+20 line ... comment welcome . 
+duncan . 
+# ! 
+
+# shell archive . 
+remove anything line , unpack 
+# save file typing `` sh file '' . 
+overwrite exist 
+# file , type `` sh file - c '' . 
+also feed standard input via 
+# , typing `` sh < file '' , e.g. . 
+archive complete , 
+# see follow message end : 
+# `` end archive 1 1 . '' 
+# contents : readme manifest 
+# wrap thu apr 8 1993 
+path bin : : ; export path 
+test - f ` readme ' - `` $ 1 '' ! 
+'' - c '' ; 
+echo shar : clobber exist file \ '' ` readme ' \ '' 
+else 
+echo shar : extract \ '' ` readme ' \ '' \ 1442 character \ 
+sed `` ^ x '' > ` readme ' ` ' 
+x 
+x glasgow rx - remote execution x program . 
+version 
+x 
+1992 duncan sinclair < > 
+x 
+install , make even trivial . 
+x 
+perl script need customisation install , 
+`` '' file , read comment . 
+
+`` '' , `` make install '' . 
+x 
+: 
+x 
+x right thing off-site remote execution . 
+include 
+x set $ display include domain name , pass 
+x magic cookie , `` '' stuff . 
+x 
+x allow different remote user name . 
+rx - l user host ... 
+x 
+x smart quote argument - make pass wild-card easy . 
+x 
+x custom command execution - link `` '' get remote 
+x emac command . 
+x 
+x automatic option - name accord hostname , 
+x turn `` login shell '' . 
+x 
+x default command . 
+x 
+x propagate env . 
+variable remote session - user may 
+x extend list variable pass . 
+x 
+x special handling bourne shell user . 
+x 
+x try remote execution directory local . 
+x , propagate $ pwd , intelligent manner . 
+x 
+x logs error file . 
+x 
+x overall intelligence tm - make reason decision 
+x try , try `` right thing '' . 
+x 
+x write perl , portability . 
+x 
+info , read man page source . 
+x 
+
+test 1442 - ne ` wc - c < ` readme ' ` ; 
+echo shar : \ '' ` readme ' \ '' unpacked wrong size ! 
+fus 
+# end ` readme ' 
+fus 
+test - f ` ' - `` $ 1 '' ! 
+'' - c '' ; 
+echo shar : clobber exist file \ '' ` ' \ '' 
+else 
+echo shar : extract \ '' ` ' \ '' \ 370 character \ 
+sed `` ^ x '' > ` ' ` ' 
+x # glasgow rx . 
+x 
+x program rx 
+x 
+: : $ program 
+x 
+: : safe 
+x 
+, rx , $ 
+rx , $ mandir 
+x 
+: : 
+x $ rm $ 
+x $ ln $ rx $ 
+x 
+: 
+x - ` debug 0 ' | | false 
+x 
+: safe 
+x - m - p 
+x @ - perl - pi - e `` '' part 
+x 
+
+test 370 - ne ` wc - c < ` ' ` ; 
+echo shar : \ '' ` ' \ '' unpacked wrong size ! 
+fus 
+# end ` ' 
+fus 
+test - f ` manifest ' - `` $ 1 '' ! 
+'' - c '' ; 
+echo shar : clobber exist file \ '' ` manifest ' \ '' 
+else 
+echo shar : extract \ '' ` manifest ' \ '' \ 313 character \ 
+sed `` ^ x '' > ` manifest ' ` ' 
+x file name archive # description 
+x 
+x readme 1 read first 
+x 1 
+x manifest 1 shipping list 
+x 1 
+x 1 
+x 1 
+
+test 313 - ne ` wc - c < ` manifest ' ` ; 
+echo shar : \ '' ` manifest ' \ '' unpacked wrong size ! 
+fus 
+# end ` manifest ' 
+fus 
+test - f ` ' - `` $ 1 '' ! 
+'' - c '' ; 
+echo shar : clobber exist file \ '' ` ' \ '' 
+else 
+echo shar : extract \ '' ` ' \ '' \ character \ 
+sed `` ^ x '' > ` ' ` ' 
+x # generate - edit ! 
+x # $ : , v 1.65 rw exp $ 
+x # 
+x # cpp use machine replace newline multiple tab 
+x # space macro expansion single space . 
+try compensate 
+x # , always successful . 
+x # 
+x 
+x # 
+x # generate `` '' < . 
+> 
+x # $ : , v rw exp $ 
+x # 
+x # platform-specific parameter may set appropriate . 
+cf 
+x # configuration file . 
+site-specific parameter set file 
+x # . 
+full rebuild recommend parameter change . 
+x # 
+x # c preprocessor define unique symbol , need 
+x # set rebuild usually 
+x # `` make world '' first time . 
+x # 
+x 
+x # 
+x # site-specific configuration parameter need come 
+x # platform-specific parameter - edit change 
+x 
+x # site : $ : , v 1.2 rw exp $ 
+x 
+x # 
+x # platform-specific configuration parameter - edit change 
+x 
+x # platform : $ : , v rw exp $ 
+x 
+x # operate system : suno 
+x 
+x # $ : , v 1.7 rw exp $ 
+x 
+x # 
+x # site-specific configuration parameter go 
+x # platform-specific parameter - edit change 
+x 
+x # site : $ : , v 1.2 rw exp $ 
+x 
+x shell 
+x 
+x top . 
+x . 
+x 
+x ar ar cq 
+x 
+x cc gcc - 
+x 
+x 
+x compress compress 
+x cpp $ 
+x gcc - - e $ 
+x install install 
+x ld ld 
+x lint lint 
+x - c 
+x - 
+x ln ln - 
+x make make 
+x mv mv 
+x cp cp 
+x 
+x 
+x 
+x 
+x rm rm - f 
+x troff 
+x - m 
+x tbl tbl 
+x 
+x 
+x 
+x 
+x 
+x 
+x tag 
+x 
+x - 
+x - 
+x 
+x 
+x 
+x 
+x 
+x - m 0755 
+x - m 
+x - m 
+x - m 
+x - m 
+x - m 
+x - g - m 
+x 
+x 
+x 
+x - 
+x 
+x - o2 
+x 
+x 
+x $ include $ $ $ 
+x $ $ $ $ $ define 
+x $ $ $ 
+x $ - $ 
+x 
+x $ $ 
+x 
+x $ $ $ - 
+x 
+x - x - r 
+x 
+x 
+x 
+x $ rm . 
+ckp . 
+ln . 
+bak . 
+bak . 
+o core err , ~ . 
+. 
+emac _ tag tag makeout 
+x 
+x 
+x 
+x $ 
+x $ - - $ 
+x 
+x $ $ \ 
+x $ $ \ 
+x $ $ $ 
+x 
+x # 
+x # x window system build parameters 
+x # $ : , v rw exp $ 
+x 
+x # 
+x # x window system make variable ; need coordinate rule 
+x 
+x 
+x 
+x bin 
+x 
+x $ top 
+x $ x11 
+x . 
+. 
+x $ x11 
+x 
+x $ x11 
+x $ config 
+x $ lint 
+x 
+x $ font 
+x $ 
+x $ 
+x $ twm 
+x 
+x $ man 
+x n 
+x 3 
+x mandir $ $ 
+x $ $ 
+x $ nl 
+x $ pex 
+x $ 
+x - 
+x 
+x $ 
+x 
+x 
+x depend 
+x rgb rgb 
+x 
+x 
+x 
+x 
+x $ 
+x 
+x $ top config 
+x $ top 
+x $ top client 
+x $ top demo 
+x $ top lib 
+x $ top font 
+x $ top x11 
+x $ top server 
+x $ top util 
+x $ script 
+x $ top example 
+x $ top . 
+. 
+
+x $ top doc 
+x $ top rgb 
+x $ 
+x $ 
+x $ 
+x $ x 
+x $ 
+x $ xt 
+x $ 
+x $ 
+x $ 
+x $ 
+x $ 
+x $ 
+x $ 
+x $ 
+x $ server 
+x $ top extension 
+x $ 
+x $ 
+x $ 
+x 
+x # $ : , v rw exp $ 
+x 
+- assert 
+- 
+x 
+x 
+x - 
+x 
+x $ 
+x xlib $ - 
+x 
+x $ . 
+$ 
+x - 
+x - 
+x 
+x 
+x - 
+x 
+x $ . 
+$ 
+x - 
+x 
+x $ . 
+$ 
+x - 
+x 
+x 
+x - lxi 
+x 
+x 
+x - 
+x 
+x 4.10 
+x 4.10 
+x 5.0 
+x 4.10 
+x 4.10 
+x 4.10 
+x 4.10 
+x 1.0 
+x 
+x $ 
+x - 
+x $ 
+x - 
+x 
+x $ 
+x - 
+x 
+x $ 
+x - 
+x 
+x $ . 
+ln 
+x $ . 
+ln 
+x $ . 
+ln 
+x $ . 
+ln 
+x $ . 
+ln 
+x $ . 
+ln 
+x $ . 
+ln 
+x $ . 
+ln 
+x 
+x $ $ $ $ 
+x 
+x $ 
+x $ 
+x $ 
+x 
+x # 
+x # rule build library , program , script , datum file 
+x # rule : $ : , v rw exp $ 
+x 
+x # 
+x # start 
+x 
+x # glasgow rx . 
+x 
+x program rx 
+x 
+: : $ program 
+x 
+: : safe 
+x 
+: : 
+x - d $ $ ; set + x ; \ 
+x else set - x ; $ $ $ ; fus 
+x $ install - c $ $ $ rx 
+x 
+: : 
+x - d $ $ mandir ; set + x ; \ 
+x else set - x ; $ $ $ mandir ; fus 
+x $ install - c $ $ $ mandir rx . 
+$ 
+x 
+: : 
+x $ rm $ 
+x $ ln $ rx $ 
+x 
+: 
+x - ` debug 0 ' | | false 
+x 
+: safe 
+x - m - p 
+x @ - perl - pi - e `` '' part 
+x 
+x # 
+x # common rule - edit 
+x 
+: : 
+x 
+: : 
+x $ '' # '' 
+x 
+: : 
+x - - f ; set - x ; \ 
+x $ rm ; $ mv ; \ 
+x else exit 0 ; fus 
+x $ - $ top - $ 
+x 
+: : 
+x $ tag - w . 
+ch 
+x $ tag - xw . 
+ch > tag 
+x 
+: 
+x # load $ $ src 
+x 
+: 
+x # load $ $ obj 
+x 
+x # 
+x # empty rule directory - edit 
+x 
+: : 
+x `` install $ '' 
+x 
+: : 
+x `` $ '' 
+x 
+: : 
+x 
+: : 
+x 
+x # 
+x # dependency generate 
+x 
+
+test - ne ` wc - c < ` ' ` ; 
+echo shar : \ '' ` ' \ '' unpacked wrong size ! 
+fus 
+# end ` ' 
+fus 
+test - f ` ' - `` $ 1 '' ! 
+'' - c '' ; 
+echo shar : clobber exist file \ '' ` ' \ '' 
+else 
+echo shar : extract \ '' ` ' \ '' \ character \ 
+sed `` ^ x '' > ` ' ` ' 
+rx 1 `` 4 march 1993 '' `` x version 11 '' 
+name 
+xrx , , r - remote command , , anything execution 
+synopsis 
+rx 
+x 
+\ - l 
+username 
+x 
+host 
+x 
+command 
+x 
+
+
+x 
+\ - l 
+username 
+x 
+host 
+x 
+arg . 
+\ | . 
+\ | . 
+x 
+description 
+
+rx 
+connect specify 
+host 
+execute specify 
+command 
+xin background , return immediately . 
+allow execution 
+x program , copy number environmental variable 
+remote session . 
+omit 
+command , 
+rx start remote host . 
+
+
+start remote host , also pass 
+arg 
+xto remote argument . 
+
+quote interpret local 
+, quote interpret remote 
+. 
+
+name file 
+rx 
+xi execute anything `` rx , '' 
+rx 
+name , strip lead `` r '' command 
+xto run remote host , use 
+command 
+argument remote command . 
+
+
+rx 
+use 
+
+x authorisation , call off-site host , 
+xto different username , attempt copy authorization 
+remote account . 
+otherwise try use 
+1 
+xto grant access remote host . 
+option 
+
+\ - l '' username '' 
+
+username 
+xas remote username instead local username . 
+absence 
+option , remote username local username . 
+x 
+environment 
+set , value path , display , , , 
+, , , , 
+export remote program , unless 
+username different , remote host off-site , 
+display export , case variable name 
+. 
+
+display variable tweak appropriate , contain qualify 
+xa hostname need . 
+diagnostics 
+
+command '' : recognize name . '' 
+rx 
+decode name call . 
+case 
+xit print warning message , continue , normal . 
+
+`` rx : usage : rx - l username hostname arg ... '' 
+mean could decode argument give . 
+author 
+sinclair < > , july 1992 
+
+base program name 
+
+. 
+distinguish `` rx '' program 
+similar name , refer program 
+glasgow 
+rx . 
+`` see also '' 
+xx 1 , rsh 1 , 1 , 1 , 1 , 1 
+bug 
+rx 
+number assumption relationship 
+user , remote one , depend whether remote 
+onsite , whether alternative username use 
+xor . 
+
+xin particular , either locally use shell , remotely 
+shell standard bourne shell , 
+sh 1 
+strange thing likely happen . 
+especially 
+xit 's one . 
+
+quote get mess . 
+
+xit 's easy fool smart 
+rx 
+xto make believe something true , fail . 
+
+
+rx 
+
+
+xto grant access , 
+
+may fail silently . 
+
+
+rx 
+send large command remote machine , 
+fail parse error csh . 
+happen , 
+probably reduce size export environment . 
+
+test - ne ` wc - c < ` ' ` ; 
+echo shar : \ '' ` ' \ '' unpacked wrong size ! 
+fus 
+# end ` ' 
+fus 
+test - f ` ' - `` $ 1 '' ! 
+'' - c '' ; 
+echo shar : clobber exist file \ '' ` ' \ '' 
+else 
+echo shar : extract \ '' ` ' \ '' \ character \ 
+sed `` ^ x '' > ` ' ` ' 
+x # ! 
+perl 
+x # config : change line point copy perl . 
+x 
+x # glasgow rx version 
+x # 
+x # copyright 1992 duncan sinclair < > 
+x # 
+x # last modify : early april 1993 . 
+x # 
+x # distribution limited , per usual mit copyright . 
+x 
+x # remote execution x program . 
+base script old version . 
+x # 
+x # install , put rx bin make link . 
+x # configuration necessary , see `` config '' comment ... 
+x # 
+x # less less like original ... 
+x # 
+x # major hack work set , also partly 
+x # re-written work sh , rather ksh . 
+x # 
+x # maybe 'll turn first script ! 
+x # 
+x # look like turn perl script point - big improvement . 
+x 
+x # code try intelligent way work . 
+mean 
+x # ton implicit assumption environment run . 
+x # assumption valid machine use , 
+x # environment . 
+time , try make assumption possible 
+x # remote machine . 
+list tricky one ... 
+x # remote machine csh . 
+linux ? 
+x # $ bin k ? 
+sh > remote shell bin k ? 
+sh . 
+make . 
+x # remote shell sh , $ path compatible . 
+use csh , etc. . 
+x # pass cookie remote machine need , 
+x # know cookie . 
+eat ? 
+x # must ... 
+x 
+x # use csh run remote command ? 
+simply 
+x # interact badly rsh , hang wait file descriptor 
+x # close . 
+would rather use , bash , even perl , 
+x # universal csh . 
+x 
+x # 
+`` '' ; 
+x # 
+x # call ? 
+x # 
+$ 0 ; 
+~ : . 
+: : ; 
+x # 
+x # config : 
+x # change variable domain name , pattern 
+x # match variation domain name . 
+must include 
+x # lead dot !!! 
+hostname include domain , see 
+x # code , marked `` xxx '' 
+x # 
+dom '' . 
+'' ; 
+'' \ . 
+dc \ . 
+glum ? 
+\ . 
+ac \ . 
+uk ? 
+? '' 
+; 
+x # 
+x # config : 
+x # change value , set variable '' '' 
+x # think user smarter . 
+x # 
+xpath '' '' ; 
+x # 
+x # config : 
+x # make name `` remote shell '' command . 
+x # 
+rsh `` rsh '' ; 
+x # 
+x # end config 
+x # 
+x # variable 'll doubt use sometime ... 
+x # 
+usage `` $ : usage : $ - l username hostname arg ... \ n '' ; 
+$ < 8 | | '' '' ; 
+home $ env `` home '' | | $ < 7 ; 
+$ env `` '' | | $ home . '' 
+. 
+'' ; 
+'' ~ . 
+'' ; 
+; 
+debug 0 ; 
+x # 
+x # anything else , close . 
+might stop rx hanging 
+x # due rsh weirdness . 
+x # 
+; 
+x # 
+x # '' - l '' flag ... 
+x # 
+$ 0 eq '' - l '' 
+x shift ; 
+x $ user $ 0 | | die $ usage ; 
+x '' - l '' , $ user ; 
+x shift ; 
+x 
+x # 
+x # pick host , host ... 
+x # 
+mach $ 0 | | die $ usage ; 
+; 
+x # 
+x # thing think remote machine . 
+x # 
+mach ~ $ ; 
+offsite $ mach ~ \ . 
+; 
+x # 
+x # ? 
+seem trust dumb user set hostname right ! 
+x # 
+x # $ hostname $ env hostname | | ` hostname ` ; # current host 
+hostname ` hostname ` ; # current host 
+hostname ~ \ n ; 
+x # 
+x # hostname include domain , comment next line . 
+x # 
+$ offsite $ hostname $ hostname . 
+$ dom ; # xxx 
+x # 
+x # know , , different ? 
+x # 
+diff $ hostname ne $ mach ; 
+x # 
+x # display go ? 
+x # !! 
+danger !! 
+heavy regular expression follow ... 
+x # need re-written modular extend 
+x # support reset host : unix : , require . 
+x # 
+display $ env `` display '' | | '' '' ; 
+display ~ $ ; 
+display ~ ^ unix ? 
+: \ d \ . 
+\ d ? 
+$ $ 2 $ diff ; 
+display ~ ^ ^ . 
+: \ d \ . 
+\ d ? 
+$ $ 1 $ 2 $ offsite ; 
+env `` display '' $ display ; 
+x # 
+x # come hard bit sh . 
+quote arg . 
+x # also quote quote . 
+cope csh , 
+x # quote quote thus ; ' - > ' \ '' 
+x # arg `` foo ` bar '' , get '' ` foo ' \ '' bar ' '' . 
+x # 
+
+x # \ ' # \ ' \ \ \ ' \ ' ; 
+x # . 
+# \ ' $ 1 \ ' # ; 
+x 
+x # 
+x # ? 
+x # 
+: 
+x $ eq `` rx '' last prog ; 
+x $ eq `` '' 
+x , '' - l '' $ diff ; 
+x , `` '' , '' - l '' , '' - n '' , $ mach ; 
+x last prog ; 
+x 
+x $ ~ r . 
+, $ 1 ; last prog ; 
+x warn `` $ : recognize name . '' 
+; 
+x 
+x # 
+x # nothing else , become . 
+x # 
+0 
+x , '' - l '' $ diff ; 
+x , `` '' , '' - l '' , '' - n '' , $ mach ; 
+x 
+x # 
+x # special consideration side . 
+x # 
+$ offsite | | $ user 
+x # 
+x # want pass cookie . 
+x # 
+x - e $ 
+x # 
+x # go unsecure , cookie appear number 
+x # command line arg . 
+least 'll work . 
+x # need enhance ever fix code 
+x # set display '' '' , return server . 
+x # 
+x $ cookie ` path $ path : $ list $ display ` ; 
+x chop $ cookie ; 
+x split ' ' , $ cookie ; 
+x shift ; 
+x , `` '' , `` add '' , $ '' ; '' 2 ; 
+x else 
+x # 
+x # yuk . 
+crock . 
+hate . 
+x # 
+x system `` + $ mach > 2 > '' $ diff ; 
+x 
+x # 
+x # really want pass value $ display . 
+x # 
+x `` display '' , split ' ' , $ env `` '' ; 
+x else 
+x # 
+x # variable wish export 
+x # 
+x 
+x `` display '' , 
+x `` '' , 
+x `` '' , 
+x `` '' , 
+x `` '' , 
+x `` '' , 
+x `` '' , 
+x # `` '' , # `` '' , bourne shell user . 
+x `` '' , 
+x split ' ' , $ env `` '' , 
+x ; 
+x # 
+x # braindead bourne shell , need give $ path ... 
+x # would rather pass current $ path , might work 
+x # destination machine . 
+would rather set user 's 
+x # remote shell rsh . 
+x # fortunately , x program arch independant place , 
+x # co problem , locally . 
+x # check $ , might run another shell , 
+x # login shell . 
+know , sound weird , 
+x # common round . 
+x # also include ksh , cos see easy way 
+x # pass throught $ env `` env '' without late . 
+
+x # one person ksh login shell anyway ... 
+x # oh , yeah . 
+. 
+assume bourne shell , 
+x # bourne shell . 
+much important isnt 
+x # bourne shell , better bourne shell . 
+x # 
+x $ ~ m # k ? 
+sh # push , `` path '' ; 
+x 
+x # 
+x # validate $ pwd routine ... 
+x # 
+
+x local , ; 
+x local $ pwd $ _ 0 ; 
+x 
+x unless define $ pwd return ; ; 
+x unless stat '' . '' 
+return ; ; 
+x unless stat $ pwd return ; ; 
+x $ $ ! 
+$ $ | | 
+x $ $ ! 
+$ $ return ; ; 
+x $ pwd ; 
+x 
+x # 
+x # try find nice , valid , pwd . 
+x # 
+: 
+x $ pwd $ env `` pwd '' 
+x $ $ pwd ; 
+x $ ~ # | export ? 
+. 
+# $ 2 # ; 
+x $ pwd & $ | | & $ pwd ; 
+x ; 
+x unless $ pwd 
+x chop $ pwd ` pwd ` ; 
+x $ $ pwd ; 
+x $ ~ # | export ? 
+. 
+# $ 2 # ; 
+x $ pwd & $ | | & $ pwd | | $ home ; 
+x 
+x 
+pwd ~ # . 
+# \ ' $ 1 \ ' # ; 
+x # 
+x # try find somewhere nice live side . 
+x # 
+$ offsite 
+x , `` test '' , '' - d '' , $ pwd , '' & & '' , `` cd '' , $ pwd , '' ; '' ; 
+x 
+x # 
+x # start build full command . 
+x # 
+$ var 
+x $ val $ env $ var & & 
+x , `` '' , `` $ var '' , '' \ ' '' . 
+`` $ val '' . '' 
+\ ' '' , '' ; '' ; 
+x 
+x # 
+x # command side ... 
+x # 
+, `` set '' , `` '' , '' ; '' ; # use csh . 
+x # 
+x # build remote command . 
+x # 
+remote '' 077 ; '' . 
+join '' '' , , . '' 
+< > & $ & '' ; 
+remote ~ # \ '' # \ \ \ '' ; 
+remote '' \ '' '' . 
+$ remote . '' 
+\ '' '' ; 
+x # 
+x # build arg list exec . 
+x # 
+$ `` $ mach '' , `` csh '' , '' - fc '' , $ remote ; 
+x # 
+x # ! 
+x # 
+$ debug 
+x print '' \ n '' ; 
+x else 
+x exec ; 
+x 
+x # 
+x # rsh return indication go 
+x # side , ok , cos aint go 
+x # wait around see happen . 
+x # 
+0 ; 
+x # 
+x # end 
+
+test - ne ` wc - c < ` ' ` ; 
+echo shar : \ '' ` ' \ '' unpacked wrong size ! 
+fus 
++ x ` ' 
+# end ` ' 
+fus 
+echo shar : end archive 1 \ 1 \ . 
+cp 
+miss '' '' 
+1 ; 
+test ! 
+- f ark $ ; 
+miss `` $ miss $ '' 
+fus 
+
+test `` $ miss '' '' '' ; 
+echo archive . 
+rm - f ark 1-9 
+else 
+echo still need unpack follow archive : 
+echo '' '' $ miss 
+fus 
+## end shell archive . 
+exit 0 
+-- 
+duncan sinclair | | 
+-- would real unix operating system please stand . 
+-- 

@@ -1,0 +1,33 @@
+: wayne smith 
+subject : re : 
+organization : john p. robarts research institute , london , ontario 
+keywords : scsi , dos , streamer 
+: 
+lines : 21 
+article < > ib write : 
+> question concern scsi dos . 
+> 
+> controller two hard-disk 
+> id 's 0 1 . 
+would like connect streamer , 
+> software access . 
+beast exist 
+> shareware pd ? 
+> also want third disk ? 
+know 
+> `` see '' two two physical four logical disk . 
+
+> possible use extra disk ? 
+contrary might think , actually drive 
+. 
+seagate controller . 
+find 
+controller could keep 1:1 interleave , best could 
+drive 2:1 interleave datum transfer 450 . 
+coexist mfm , rll , ide drive 
+bio kinda muscle help 
+need computer 's bio . 
+dos see many logical drive , much 
+4 10 . 
+often wonder many drive 
+could hang 02 . 

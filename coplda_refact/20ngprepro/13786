@@ -1,0 +1,86 @@
+: chris sherman 
+subject : re : : tga - > rle 
+: 
+organization : sas institute inc. . 
+lines : 77 
+< > craig andrew humphrey write : 
+> article < > , park write : 
+hello , 
+problem convert tga file generate 
+rle file . 
+convert , get warning message . 
+
+use , something wrong . 
+> edit 
+know need install , spend 
+time install . 
+even want generate . 
+rgb 
+convert rle , possible . 
+. 
+rgb rle work , 
+mess directory many file , need 2 
+step finally convert rle file . 
+say cat | | 
+body ? 
+> well starter , use rle file ? 
+exactly ... 
+want mess tga rle . 
+write follow script . 
+need standard set pbm utility . 
+script . 
+pov . 
+jpg converter . 
+run like : 
+1280 1024 
+need modify path 's script reflect put 
+include file . 
+problem disk space , 
+use name pipe instead temporary file . 
+hope find useful ... 
+
+# ! 
+
+$ # - lt 3 ; 
+echo `` usage : $ 0 width height '' 
+exit 
+fus 
+width $ 1 
+height $ 2 
+datafile $ 3 
+shift 3 
+` echo $ datafile | sed - e `` \ . 
+\ \ . 
+pov \ 1 '' ` 
+` $ datafile ` 
+` $ datafile . 
+pov ` 
+` $ datafile ` 
+cd $ 
+. 
+\ 
++ . 
+\ 
++ $ $ + w $ width + h $ height + fr + $ $ 
+echo '' '' 
+$ width $ height < $ $ . 
+grn > $ $ 
+$ width $ height < $ $ . 
+red > $ $ 
+$ width $ height < $ $ . 
+blu > $ $ 
+$ $ $ $ $ $ | > $ . 
+jpg 
+rm $ $ $ $ $ $ $ $ . 
+grn $ $ . 
+red \ 
+$ $ . 
+blu 
+echo `` write output $ . 
+jpg '' 
+
+-- 
+____ __ _ _ ____ 
+chris sherman 
+___ _ 
+_____ __ __ __ _ \ _____ _____ 

@@ -1,0 +1,30 @@
+: jim frost 
+subject : make simplest possible composite widget ? 
+organization : centerline software , inc. . 
+lines : 33 
+: 
+xt programmer stretch imagination , 
+drive crazy probably really simple . 
+need make composite widget nothing 
+merely placeholder widget instance heirarchy -- allow 
+additional resource name level . 
+illustrate application follow widget 
+heirarchy : 
+shell widget 
+| 
+application 
+want following : 
+shell widget 
+| 
+intermediate widget 
+| 
+application widget 
+intermediate widget name get 
+property propagate new value shell widget . 
+assume simple way find example 
+documentation rather vague implement 
+composite widget . 
+please respond via email . 
+help much appreciate . 
+jim frost 
+

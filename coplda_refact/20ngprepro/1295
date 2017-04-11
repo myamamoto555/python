@@ -1,0 +1,1456 @@
+: nick c. fotis 
+subject : 17 apr 93 computer graphics resource listing : weekly part 
+lines : 1566 
+: nick nikolaos fotis 
+organization : national technical univ. athens 
+: 
+: 
+computer graphics resource listing : weekly post part 
+
+last change : 17 april 1993 
+many faq , include listing , available archive site 
+. 
+alias directory 
+. 
+answer . 
+name faq archive appear 
+line top article . 
+faq archive 1-3 
+mail server machine . 
+send e-mail message 
+contain keyword `` help '' without 
+quote ! 
+message body . 
+see many place listing . 
+see item : 
+0 . 
+places find resource listing 
+information . 
+item change : 
+-------------- 
+re-arrange subject , order fir better limit . 
+plan change header soon , careful ! 
+`` resource listing '' 
+key sure remain subject : line ! 
+0 . 
+places find resource listing 
+6 . 
+3d graphic editor 
+a. public domain , free shareware system 
+9 . 
+plot package 
+18 . 
+molecular visualization stuff 
+think make post bi-weekly . 
+think ??? 
+-------------- 
+line get change , ` # ' character front . 
+add line ` + ' 
+remove line remove . 
+use ` diff ' locate change . 
+
+text c copyright 1992 , 1993 nikolaos c. fotis . 
+copy 
+freely file , provide keep copyright notice intact . 
+compile nikolaos nick c. fotis , e-mail : 
+please contact update , correction , etc. . 
+disclaimer : guarantee accuracy document . 
+use risk . 
+
+mainly guide computer graphic software . 
+would suggest read comp . 
+graphics faq image analysis stuff . 
+entitle : 
+date frequently ask question faq 
+john t. < > poster 
+official faq 
+include comment within brace ' ' ' ' . 
+nikolaos fotis 
+
+contents resource listing 
+
+: 
+------ 
+0 . 
+places find resource listing 
+1 . 
+archie 
+2 . 
+note 
+3 . 
+computer graphic ftp site list , eric haines 
+4 . 
+mail server bbs 
+5 . 
+mailing list . 
+6 . 
+3d graphic editor 
+a. public domain , free shareware system 
+b. commercial system 
+7 . 
+scene description language 
+8 . 
+solids description format 
+: 
+------ 
+9 . 
+plot package 
+10 . 
+image analysis software - image processing display 
+: 
+------ 
+11 . 
+scene file 
+12 . 
+3d scanner - digitized 3d data . 
+13 . 
+background 
+14 . 
+introduction render algorithm 
+a. ray trace 
+b. z-buffer 
+c. 
+15 . 
+find geometric datum : 
+a. teapot ? 
+b. space shuttle ? 
+16 . 
+image annotation software 
+17 . 
+scientific visualization stuff 
+18 . 
+molecular visualization stuff 
+19 . 
+gi geographical information systems software 
+future addition : 
+please send ! 
+
+0 . 
+places find resource listing 
+
+file , , 
+locate , advise search 
+
+latter group usually archive site . 
+contact 
+info . 
+3 article post 3-4 time month keep 
+many place see 
+-- 
+many faq , include one , available archive site 
+. 
+alias directory 
+. 
+answer . 
+name faq archive appear 
+line top article . 
+faq archive 1-3 
+mail server machine . 
+send e-mail message 
+containing : help subject : field 
+-- 
+mail server mirror post see 
+subject 4 : mail server 
+-- 
+resource listing wais machine 
+port 8000 name . 
+get line every number item purpose 
+indexing . 
+-- 
+another place monitor listing file . 
+info contact robert e. maas < > 
+-- 
+yet another place search faq general switch 
+swiss academic research network system switzerland : 
+interactive : 
+telnet , login `` info '' . 
+move 
+directory . 
+search 
+file typing '' '' word look . 
+may read faq `` faq '' directory , decide 
+fetch one follow method . 
+ftp : 
+login user anonymous 
+enter address prompt 
+password . 
+cd 
+mail : 
+send e-mail 
+: 
+
+x. 400 : 
+ch 
+enter ` help ' receive instruction . 
+information 
+require subject header line . 
+1 . 
+archie 
+
+archie service system locate ftp place 
+request file . 
+appreciate use archie 
+ask help newsgroup . 
+archie server : 
+
+. 
+. 
+de ger . 
+israel 
+. 
+japan 
+korea 
+telnet twn 
+
+usa md 
+password : usa ne 
+usa ny 
+usa nj 
+new zealand 
+connect archie server telnet type `` archie '' username . 
+get help type ` help ' . 
+get ` ' ` archie ' , client call archie 
+without burden telnet session . 
+` ' x11 . 
+r5 tape , ` archie ' , 
+vol . 
+27 . 
+get information use archie via e-mail , send mail 
+subject `` help '' `` archie '' account site . 
+note user -- united kingdom archie site 
+accessible janet host . 
+connect specify `` archie '' host name `` archie '' 
+username . 
+
+2 . 
+note 
+
+excerpt faq article 
+please post mail message say `` ftp , could 
+someone mail ? '' 
+number automated mail server 
+send thing like response message . 
+number site archive usenet source newsgroup 
+make available via email query system . 
+send message 
+automate server say something like `` send fbm '' , 
+hour day later get file mail . 
+
+3 . 
+computer graphic ftp site list , eric haines 
+
+computer graphic related ftp site maintainer , 
+compile eric haines , 
+nick fotis , 
+: 
+------------ 
+- great ray tracer workstation , also pc , mac & amiga . 
+pov - son successor dkb trace , write . 
+question call drew wells -- 
+dave buck -- 
+art - ray tracer good range surface type , part package . 
+- another good ray tracer , report ; pc , mac ii , 
+amiga , unix , vms last two x11 , etc. . 
+- portugese ray tracer , patch , csg , 3d text , etc. etc. . 
+version use dos extender exist also , 
+mac port . 
+- shareware pc - binary . 
+author : 
+stephen coy . 
+source version 
+available register user us$ 50 direct author . 
+- steve 's 4-dimensional ray tracer - render hypersphere , 
+, hyperplane , 
+separate real-time wireframe viewer write gl call . 
+mtv , , - yet ray tracer , interesting feature . 
+: 
+-------------------------------- 
+- distribute run x11 . 
+server binary 
+work decstation , sparc , hp snakes series next . 
+client distribute binary c source . 
+- network version 4.0 . 
+need sun rpc 4.0 newer . 
+contact andreas 
+prt , - parallel ray tracer . 
+volume renderer : 
+----------------- 
+- cornell 's volume renderer , warren fortran . 
+radiosity diffuse lighting renderer : 
+
+radiance - ray tracer effect , greg ward . 
+excellent shading 
+model physically base lighting simulation . 
+base , though 
+port amiga pc 386 . 
+india - indian radiosity package base radiance . 
+- interactive radiosity package run sgi machine 
+spaceball . 
+include house database . 
+author : guy < > 
+rad - simple public-domain radiosity package c. solution run 
+stand-alone unix box , walk-through require sgi 4d . 
+author : bernard kwok < > 
+renderer , graphic library : 
+
+sipp - scan line z-buffer phong shade renderer . 
+use shadow buffer algorithm . 
+- tcl command interface sipp render 
+program . 
+set tcl command use program 
+sipp without write compile c code . 
+command use specify surface , object , 
+scene render option . 
+render either ppm format utah raster toolkit rle format 
+photo widget x11 application . 
+- graphic learn environment device portable . 
+vogl - sgi library base . 
+- fast polygon renderer intel 386 . 
+version 2 . 
+photorealistic , rather real-time renderer 
+- dr. dobb 's journal pc renderer source code , budget texture 
+mapping . 
+modellers , wireframe viewer : 
+----------------------------- 
+- mac modeler , output radiance & file . 
+irit - csg solid modeler , support freeform surface . 
+x3d - wireframe viewer x11 . 
+- 3-d wireframe graphic toolkit , c source , object , stuff 
+look major pc archive like . 
+one file . 
+zip 
+- shareware front end modeler , still beta test . 
+french doc , price register 250 french franc . 
+save disabled . 
+extra utility , dxf file register version . 
+geometric viewer : 
+------------------ 
+salem - package dobkin et al. explore mathematical 
+structure . 
+- package look interactively manipulate 
+3d object , geometry center minnesota . 
+xyz - experimental geometry zurich workbench geometric 
+computation macintosh computer . 
+- gl wireframe steve 's see 
+datum format datum set ray tracing : 
+
+spd - set procedural database testing ray tracer . 
+nff - simplistic file format use spd . 
+- another file format . 
+- file format . 
+- imagine 3d modeler format , converter , nff , , etc. . 
+also include nice postscript object . 
+great model . 
+- convert , , nff , 4.0 , imagine , 
+3d object . 
+also output framemaker mif file isometric 
+view postscript . 
+registered user get tex pk font converter 
+surface generator . 
+glenn lewis < > 
+note : also know 
+- chapel hill volume render test dataset , include volume set 
+two head , brain , knee , electron density map rna . 
+write material rendering : 
+
+rt news - collection article ray trace . 
+rt bib - reference article ray trace `` refer '' format . 
+rad bib - reference article radiosity global illumination . 
+speer rt bib - rick speer 's cross-referenced rt bib , postscript . 
+rt abstract - collection tom wilson abstract many rt article . 
+paper bank project - various technical papers electronic form . 
+contact 
+< > 
+online bibliography project : 
+acm siggraph online bibliography project database 
+15,000 unique computer graphic computational geometry 
+reference bibtex format , available computer graphic 
+community research educational resource . 
+database located `` '' . 
+user may download 
+bibtex file via ftp peruse offline , telnet 
+`` '' log `` '' interactively search 
+database entry interest , keyword . 
+people without internet access , also e-mail 
+server . 
+send mail 
+
+subject body message include message send 
+follow topic wish . 
+good place start 
+command 
+send index 
+give up-to-date list available information . 
+may direct admin , 
+`` '' . 
+image manipulation library : 
+----------------------------- 
+utah raster toolkit - nice image manipulation tool . 
+- great package image conversion manipulation . 
+- library tiff image . 
+- x11 package display interactive manipulation 
+image . 
+use format miff , include converter . 
+xv - image display , manipulation , format converter . 
+, xli - display various format x11 screen . 
+- huge , excellent system image processing , visual 
+programming interface much much . 
+use x window . 
+fbm - another set image manipulation tool , somewhat old . 
+img - image manipulation , display x11 screen , bit old . 
+- plays . 
+fli animation x11 
+- play resolution fli along gif 's include animation 
+extension , dl 's amiga iff animation 3,5 , j , l iff 
+picture include ham , color cycling 
+sdsc - sdsc image tool package san diego supercomputing center 
+image manipulation conversion 
+- 24-bit paint program sgi workstation indigo . 
+library code graphic : 
+--------------------------------- 
+graphics gem , ii , iii - code ever useful book . 
+. 
+- spline patch ray intersection routine sean graves 
+- computation 3d display uniform polyhedra . 
+mirror 
+. 
+package compute display metrical 
+property 75 polyhedron . 
+author : dr. zvi har ` el , 
+e-mail : 
+mean site `` official '' distributor , date . 
+north america please look thing continent first ... : 
+------------- 
+: - get contents file 
+roadmap . 
+- object 
+converter , - ray tracer , mtv 
+ray tracer , ray tracer , fbm , , , utah raster toolkit . 
+- dkb ray tracer , fli demo . 
+. 
+- , - radiance 
+indian radiosity package . 
+. 
+zip - version 21 
+, fast texture mapping . 
+lot , include 
+bib , graphics gem & ii code , , rtn , radiance , nff , sipp , spline 
+patch intersection routine , textbook erratum , source code roy 
+hall 's book `` illumination color computer generated imagery '' , etc 
+- 
+george kyriazis < > 
+: note capital `` g '' - 
+4.0 ray tracer separate 387 executable , color quantization 
+code , spd , rt news , wilson 's rt abstract , `` rt bib , utah 
+raster toolkit , newer fbm , graphics gems , ii & iii code . 
+directory - salem stuff . 
+craig kolb < > 
+replace - note capital `` g '' 
+trouble princeton 's incoming 
+area , upload stuff 
+
+: - dkb ray tracer , 
+1.0 - compuserve group ray tracer pov . 
+david buck < > 
+: 3d object multiple format , 
+utility , file format document . 
+site create 3d object `` repository '' net . 
+francisco x dejesus < > 
+: - chapel hill 
+volume rendering test dataset . 
+: - official ddj ftp repository . 
+
+: pilot european image processing 
+archive ; directory something like , 
+image synthesis package . 
+adrian clarke < > 
+: .0 - 
+
+mark < > 
+: - x window font converter 
+3.0 polygon , animation tool . 
+ron sass < > 
+: radiance ray package . 
+greg ward < > 
+: - 
+contact : 
+: . 
+- latest version bob , 
+raz . 
+source , manual , man page , binary 
+irix include bob real time volume renderer 
+pub contain also many volume dataset . 
+ken < > 
+: - steve 's 
+thesis , - , - . 
+- mirror avalon 's 3d object repository . 
+steve < > 
+: -4 d - , 
+sgi explorer module postscript manual , etc. . 
+: . 
+format - various electronic 
+document many object image format . 
+mark hall < > 
+apparently longer maintain , see . 
+: - facet 
+base modeller , output radiance file . 
+: . 
+. 
+format - 
+contain various image - description . 
+many 
+tool various directory , e.g. -1.0 . 
+- 
+3d visualizer machine , 
+.0 - interactive visualization analysis 
+3d geometrical structure . 
+quincey koziol < > 
+: iraf - iraf astronomy package 
+: - spd image haines thesis 
+image . 
+- various 24 8 bit image still sequence . 
+kevin martin < > 
+: - . 
+tar scene 
+language & renderer . 
+joel welling < > 
+: , datum file . 
+jef < > 
+: . 
+- cc complex 
+conversion system , standard software interface image processing 
+: . 
+graphic - best 
+extensive , - , mtv , , . 
+joe dellinger < > 
+: graphic - irit , rt news back issue 
+complete , model , graphic related material . 
+. 
+v ? 
+. 
+- independent jpeg group package 
+reading write jpeg file . 
+: utah raster toolkit , 
+spencer thomas < > 
+: - , image magick , , 
+xli , xv , img , lot . 
+- ncga graphics 
+performance characterization gpc suite . 
+: - kyriazis stochastic ray tracer . 
+george kyriazis < > 
+: pub - utah raster toolkit , database . 
+jamie painter < > 
+: . 
+- model , 
+also gpc benchmark file plan , check . 
+randi rost < > 
+: imagine - stuff 
+amiga imagine & turbo silver ray tracer . 
+- 
+- many object . 
+glenn lewis < > 
+: - image processing 
+package huge , great . 
+danielle < > 
+: - portable bitmap package , 
+bitmap collection , raveling img , . 
+jef 
+< > 
+: . 
+- image 
+manipulation , - rgb separation photo . 
+paul raveling < > 
+: graphic - utah rle toolkit , , fbm , 
+database , mtv , ray tracer , world map , stuff . 
+update much recently . 
+: . 
+- x3d 
+. 
+- 
+mark < > 
+: - tiff 6.0 spec & software 
+pic . 
+also much sgi - stuff e.g. opengl manual 
+sam leffler < > 
+supercede stuff 
+: graphic - fbm , ray tracer 
+: - sdsc 
+: - information get 
+brl cad package & ray tracer . 
+image - various test image . 
+texture library also begin . 
+lee a. butler < > 
+: - grayscale 
+texture , 
+julien flack < > . 
+: . 
+shar . 
+z - wilson 's 
+rt abstract , . 
+j. eric townsend < > 
+: - 24 bit image archive 
+small . 
+james ralston crawford < > 
+: - 
+: - vivid , 
+
+: - pc graphic stuff . 
+- . 
+? 
+: . 
+: - spd package , ~ polyhedron - 
+polyhedron database . 
+ftp , use 
+automatic mail : uucp - , internet - 
+. 
+send one line message `` send index '' info , 
+`` send haine graphic '' get spd 
+: siggraph archive site . 
+publication - online bibliography project , conference proceedings 
+various electronic format papers , panel , siggraph video review 
+information order form . 
+stuff various directory . 
+automatic mailer `` send index '' . 
+: _ diffusion - greg turk 's work 
+texture , x window code siggraph ' 91 
+: ~ - volume dataset 
+boston workshop volume visualization ' 92 . 
+site also 
+international avs center . 
+terry myerson < > 
+: sparc , dec , etc - suit 
+simple user interface toolkit . 
+`` finger '' 
+get detailed instruction . 
+: _ - rad 
+_ - rad msc . 
+thesis 
+site change near future 
+- ~ - veo virtual 
+reality distribute application prototype environment 
+unix . 
+software support : 
+- fly ! 
+3d visualization software demo . 
+package build `` '' various dataset 
+near real-time . 
+binary many platform . 
+also , much virtual reality stuff . 
+: 3d file lcd glass shutter 
+amiga computer - great vr stuff ! 
+: various image . 
+close 
+: - 
+final copy archive cease exist . 
+contain code , vr papers , 3d image irc research 
+material . 
+jonathan magid < > 
+. 
+edu : - code 
+siggraph '92 course 23 procedural modeling rendering technique 
+dr. david s. ebert < > 
+: machine consider 
+repository preprint program nonlinear dynamics , 
+signal processing , related subject fractal , course ! 
+matt kennel < > 
+: . 
+p , tex , - short survey 
+method interpolate contour bivariate datum 
+: honig -- various image , 
+- animate movie x display 8-bit mono 
+digital subtraction . 
+: _ - human 
+head datum 
+: _ map - hans du buf 's grayscale 
+test texture aerial swatch , texture , synthetic swatch . 
+space & planetary image repository . 
+provide access > 150 cd-rom 
+3 on-line time . 
+- start browse . 
+colby kraybill < > . 
+: . 
+info : 
+mail - ` ' 
+datum various organic molecule , 
+bond different atom , etc. . 
+atomic coordinate load stuff contain 
+'' . 
+ent '' file , actual atomic seem miss . 
+could convert datum pov , , etc. . 
+: - renoir painting , 
+escher 's picture , etc. . 
+. 
+: - sample set image 
+` image edge ' cd-rom image atomic landscape , advance 
+semiconductor , superconductor experimental surface 
+chemistry among . 
+contact 
+: - 
+. 
+- , tool aid visualization 
+gi dataset may format like dxf , dem , , etc. . 
+: - image magellan 
+viking mission etc. . 
+get first . 
+service datum see 
+e-mail server available : send mail 
+- server subject : `` help '' 
+`` send space index '' without quote ! 
+peter yee < > 
+: image , datum , etc. jpl 
+mission . 
+modem access 818 parity , 8 datum bit , 1 
+stop bit . 
+phone 818 
+: guest : space graphic 
+gif image nasa 's planetary probe hubble telescope . 
+main function support teacher telnet also 
+site . 
+dial access : 205 9600 v. 32 baud , 
+8 bit , parity , 1 stop bit . 
+: hubble space telescope stuff image 
+datum . 
+read readme first ! 
+pete reppert < > chris o'dea < > 
+. 
+: . 
+answer - land 
+faq . 
+graphic picture directory particular interest . 
+also available send mail 
+message containing : help 
+uucp archive : avatar - rt news back issue . 
+detail , write kory hamzeh 
+< > 
+europe : 
+------- 
+: - paper bank project , 
+include pete shirley 's entire thesis pic , wilson 's rt 
+abstract , _ - cia world datum bank , 
+archive , india , much , much . 
+< > 
+. 
+: radiance . 
+good european site , 
+carry add-on available radiance . 
+: -3.0 . 
+- sipp scan line z-buffer 
+phong shade renderer . 
+jonas < > 
+: _ pray ray tracer , spd , nff - many 
+nff format scene , datum file . 
+didier 
+< > may disappear 
+: fli animation file pc vga - 
+also big . 
+fli 640 480 demo americans : check 
+first . 
+animation come . 
+jari kahkonen 
+< > 
+: - many ray tracer , include 
+, , dkb , mtv , , , rt news , nff file . 
+jari 
+< > 
+: much pc stuff , etc. , . 
+f - 
+fortran program contour scattered datum use linear 
+interpolation 
+: - nff 
+utility , medical datum cat , etc. converter nff , 
+autocad nff code , autocad 11 scn 's language 
+converter goody . 
+antonio costa 
+: graphic - rtn archive , ray tracer mtv , , 
+, nff , model . 
+shut month ago , check -- 
+. 
+: - , mtv , etc 
+: - cgm viewer 
+converter . 
+e-mail server also - mail 
+message body `` send '' 
+: - prt , , ~ doc - 
+wilson 's rt abstract , vivid . 
+. 
+de : .0 input - 
+aquarium americans : check first . 
+heiko schlichting < > 
+: - sun rpc 4.0 code 
+andreas < > 
+: radiance - amiga 
+port radiance 2.0 . 
+per < > 
+. 
+de : pov 
+mirror , many goods pov . 
+- 
+- 
+. 
+de : imagine - mirror 
+hubcap imagine file . 
+: xyz - xyz 
+peter < > 
+: - interpreter . 
+christoph streit < > 
+: - graphic stuff 
+amiga computer . 
+: on-line access huge astronomical 
+database . 
+login : ; 
+decnet : space telescope european coordination facility 
+benoit pirenne < > , phone 89 320 06 433 
+middle east 
+----------- 
+: kaleida 
+australia : 
+---------- 
+: pub - art ray tracer , , 
+wilson 's ray trace abstract , art scene 
+italy , - haines thesis image , graphics gems code , 
+spd , nff & database , nff , plus 8 - 
+image lot stuff . 
+. 
+- 
+bernie kirby < > 
+: . 
+- art 2.1 csg 
+algebraic surface ray tracer , , pub - , . 
+graphic 
+- art scene italy . 
+david hook < > 
+: , 
+morph , ui - 
+stuff facial animation , morph user interface . 
+- fred parke 's fascia program . 
+valerie hall < > 
+oceania - asia : 
+--------------- 
+. 
+: - facet 
+base modeller , output file . 
+many neat thing 
+mac . 
+paul bourke < > 
+: - steve franks 
+site facial animation . 
+steve franks < > 
+4 . 
+mail server bbs 
+
+please check first ftp place , archie 's help . 
+overuse mail server . 
+trouble wrong return address . 
+many 
+mail server command like 
+path 
+get hint send back stuff . 
+dec 's 
+------------- 
+send one-line message without subject : field , 
+line contain word ` help ' . 
+get back message detail relevant procedure 
+must follow order get file want . 
+note `` reply '' `` answer '' command mailer work 
+message mail receive . 
+send 
+request , send original mail message , reply . 
+complaint send 
+address rather postmaster , since 's postmaster 
+responsible fix problem . 
+
+------ 
+bitnet site , . 
+send one-line ` help ' message address info . 
+lightwave 3d mail base 
+
+mail base file server 3d object , jpeg image , gif image 
+image map online internet mail access . 
+server official archive site lightwave 3d 
+contain many pd shareware graphic utility 
+several computer platform include amiga , atari , ibm macintosh . 
+server reside bb call `` graphics bbs '' . 
+bb 
+operational 24 hour day 7 day week phone number +1 
+. 
+upgrade modem hayes ultra 144 
+v. .42 bi , speed 38,400 bp . 
+would like submit object , scene image server , 
+please pack , mail file address : 
+. 
+information obtain file server send mail message 
+address follow 
+body message : 
+help 
+dir 
+help file describe use server complete 
+directory listing send via mail . 
+include head format ! 
+check 
+, use ftp ! 
+-- 
+
+-------------- 
+pierre sabine launch mail 
+server month ago . 
+echo help | mail 
+give quick summary contain 
+browse among file . 
+echo send contents | mail 
+return extended summary . 
+example : 
+echo send misc | mail 
+return computer graphics resource listing mirror 
+. 
+bbs 
+----- 
+many bbs store datafile , , guide 
+beyond scope listing resource author ! 
+point internet - mail - accessible bbs carry 
+interesting stuff , send info ! 
+studio amiga 3d modelling ray trace specific bb , . 
+24 hour , 105 meg online . 
+-- 
+jeff walkup < > : 
+`` castle '' 14.4 .32 .42 v. 
+pacifica , dang close san francisco , california , usa 
+password : `` tao '' . 
+j oin base # 2 ; castle , anim , video , 3d , 
+, `` '' . 
+-- 
+bob operate bb see entry `` graphics bbs '' 
+-- 
+` call ray ' ray trace related bb chicago suburb 
+
+-- 
+digital pixel sysop : mark ng < > base 
+toronto , ontario , canada . 
+phone : 
+storage space : 330 meg 
+modem type : 14.4 k baud k , , , mnp 5 
+access fee : none . 
+. 
+free 
+system support : dos , , amiga , mac . 
+netmail : currently echo mail . 
+topic : , fractals , graphics programming , cad , comp . 
+graphics related 
+-- 
+: david tiberio < > 
+amiga graphics bbs long island , new york , 
+run 24 hour 14.4 k v. , 157 meg line . 
+also subscribe 9 mailing list , 5 originate 
+bb , 3 add soon . 
+include : 
+lightwave , imagine , real 3d ray trace 
+database file include : 
+imagine 3d object , 3d rendering , scalable font , music 
+module , sound sample , demo , animation , utility , 
+text database , pend lightwave 3d object . 
+-- 
+graphics alternative 
+graphics alternative el cerrito , ca. , run 24 hour 
+day 14.4 k .32 bi , online 1300 + user base . 
+tga run two node , node 1 public access 
+include free 90 day trial subscription . 
+tga west coast 
+host , profesional cad graphics network , support 
+node across continental u.s. , alaska , new zealand , australia , 
+france uk . 
+tga 's file database include executable pov , vivid , 
+, , , . 
+tga also numerous 
+graphic utility , viewer , conversion utility . 
+registered 
+vivid user also download latest vivid aeta code 
+special vivid conference . 
+-- 
+: scott bethke < > 
+intersection bbs , . 
+bb dedicate support 3d system provide 
+free charge , commercialize anyway . 
+user give full access first call . 
+feature : usenet news & internet mail , fidonet echo 's & netmail , 
+200 megs online , v. .42 bi modem . 
+platform interest : amiga & , macintosh , ms-dos , 
+unix workstations sun , sgi , etc , . 
+-- 
+: alfonso hermida < > : 
+pi square bbs maryland . 
+support pov 
+vivid . 
+bbs run , hard drive cd rom . 
+run change soon 
+topic : graphic programming , animation , , programming general 
+-- 
+: lynn falkow < > : 
+design 's graphic connection . 
+portland , oregon . 
+v. .42 bi . 
+bbs , aside carry typical bb service like message basis 
+topic specific file cad graphic relate -- hundred 
+megabyte , also offer material texture file full color , 
+seamlessly tile , photo-realistic image . 
+sample available 
+first time caller . 
+bb subscription system although caller 
+2 hour must subscribe , several subscription 
+rate available . 
+people interested material subscribe 
+library addition basic subscription rate , use 
+purchase time download whichever material wish . 
+
+5 . 
+mailing list 
+
+imagine 
+------- 
+modeling animation system amiga : 
+send subscription request 
+send material 
+dave wickard substitute steve worley maintenance 
+mailing list - please note address 
+longer valid !!! 
+lightwave 
+--------- 
+amiga . 
+part newtek 's video toaster : 
+send subscription request 
+send material 
+bob 
+toaster 
+------- 
+send subscription request body : 
+subscribe 
+real 3d 
+------- 
+another modeling animation system amiga : 
+subscribe , send mail contain body 
+subscribe 
+
+
+-------- 
+send subscription request 
+send material 
+craig kolb 
+alladin 4d amiga 
+---------- 
+send subscription request 
+body message write 
+4d 
+radiance 
+-------- 
+greg ward , author , send register via e-mail user digest 
+, note fix , update , etc. . 
+address : 
+
+------- 
+send subscription request 
+send material 
+pov ray dkb 
+------------------------ 
+subscribe , send mail contain body 
+subscribe 
+
+send material 
+mail list massively parallel rendering 
+
+send subscription request 
+send material 
+
+6 . 
+3d graphic editor 
+
+a. public domain , free shareware system 
+
+
+--------- 
+program write paul d. bourke . 
+program use generate model directly 
+radiance file format polygon . 
+shareware list ftp list . 
+brl 
+-- 
+solid modeling system environment -- include sgi x11 . 
+csg nurbs , plus support geometry 
+whatever . 
+get free via ftp signing return relevant license , 
+find . 
+use engineering analysis . 
+contact : 
+ms. carla moyer 
+410 tel. . 
+410 fax 
+e-mail 
+snail mail : 
+distribution 
+aberdeen satellite office 1003 
+old philadelphia road , 
+suite 103 aberdeen 
+md usa 
+irit 
+-- 
+constructive solid geometry csg modeling program pc x11 . 
+include freeform surface support . 
+free - see ftp list 
+find . 
+
+--------- 
+solid modeling program pc write turbo pascal 6.0 
+ken van camp . 
+available , : directory . 
+noodle 
+------- 
+cmu , namely fritz printz levent . 
+base non manifold topology . 
+ask info , know give away . 
+
+-- 
+interactive 3-d write dale p. stocker 
+create object , , dkb package . 
+free find , example , 
+. 
+zip ?? 
+
+----- 
+program . 
+check , 
+. 
+. 
+undocumented file format : - 
+c 1991 micah silverman , 25 pierrepoint ave. , , 
+new york , tel. 
+
+-------- 
+shareware , . 
+zip . 
+undocumented file format : - 
+vertex 
+------ 
+amiga 
+shareware , send $ 40 us check money order : 
+art machine , nickolas 
+sterling heights , mi 
+usa 
+addition standard file format , include lightwave , 
+imagine , sculpt , turbo silver , geo wavefront , release offer 
+3d professional support . 
+support 
+primitive `` triangle '' , easily include output 
+script 
+latest demo , version 1.62 , available fred fish # 727 . 
+information , contact author , alex , : 
+phone : 
+
+------ 
+amiga 
+spline base object modeller `` '' interactive 
+coons path editor .0 . 
+. 
+free gnu licence require fpu . 
+program look & feel cross journeyman 
+imagine , generate object format . 
+possible load journeyman object , program 
+use convert object imagine format . 
+author : helge e. rasmussen < > 
+phone + 45 36 72 33 00 , fax + 45 36 72 43 00 
+also fred fish disk series n. 775 - 
+3d 
+----------- 
+ver 1.1 shareware ? 
+. 
+. 
+zip pc 
+menu layout : 
+file file handling load , save , import , ... 
+draw draw 2d object line , circle , box ... 
+3d draw 3d object mesh , sphere , block ... 
+edit editing feature copy , move ... 
+surface modify object revolve , , sweep ... 
+image image zoom feature update , window , half ... 
+option global default grid , toggles , axis ... 
+plot print go , image ... 
+render shade object frame , lighting , tune ... 
+layer layer option select active layer , set color ... 
++ 
++ --------- 
++ run windows 3.1 , output pov file . 
+demo find 
++ . 
+zip 
++ 
++ author : michael gibson < > 
+b. commercial system 
+
+
+------- 
+modeling program write university utah . 
+feature : spline trim ; support boolean operation ; 
+sweep , bend , warping , flatten etc. ; group object , 
+transformation ; extensible object type . 
+application include : nc machining , animation utility , 
+dimensioning , fem analysis , etc. . 
+render subsystem , support animation . 
+support follow platform : hp 300 800 's , hp-ux 6.5 , 
+sgi 4d pi machine gl , irix , sun sparcstation 
+, suno . 
+licensing distribution handle egs : 
+glenn mcminn , president 
+engineering geometry systems 
+275 east south temple , suite 305 
+salt lake city , ut 
+
+
+educational pricing 
+charge $ 675 per platform . 
+may run system many 
+different workstation type wish . 
+platform 
+also $ 250 licensing fee portable standard lisp psl 
+bundle system . 
+need obtain additional 
+license university utah psl follow address : 
+professor robert kessler 
+computer science department 
+university utah 
+salt lake city , utah 
+eg handle licensing psl u.s. institution 
+300 $ usd nominal fee -- 
+vertigo 
+------- 
+educational institution program . 
+package use 
+industrial design , architectural , scientific visualization , 
+educational , broadcast , imaging post production field . 
+'ll quote letter send -- `` donate fully 
+configure vertigo 3d graphics software worth $ 29,000 usd per 
+package qualify educational institution licencing 
+number silicon graphics personal iris power series workstations . 
+use iris indigo station , also licence vertigo 
+revolution software worth $ 12,000 usd . 
+interested participate program please send 
+letter mail fax institution 's letterhead 
+briefly outline potential use vertigo together 
+follow information : 1 . 
+unix version 2 . 
+model number sgi 
+system 3 . 
+peripheral device 4 . 
+third party software . 
+participant ask contribute $ per institution cover 
+cost manual , administration , shipping . 
+recommend vertigo user subscribe technical support 
+service . 
+annual fee receive : technical assistance 
+support hotline , bug fix , software upgrade manual update . 
+educational institution waive $ 750 administration fee 
+support purchase . 
+annual support fee $ 2,500 plus follow cost additional 
+machine : 
+number machine : 2-20 20 + 
+additional cost per machine : $ 700 $ 600 '' 
+also 5-day training program - 
+contact : 
+vertigo technology inc 
+suite 1010 
+1030 west georgia st. 
+vancouver , bc 
+canada , 
+phone : 
+fax : 
+anyone know offer tdi , alias , softimage , wavefront , 
+etc. ??? 
+would interesting part !! 
+-- 
+
+------ 
+basically , solid modeling kernel top build 
+application 
+available license 
+cornell programmable automation 
+cornell university 
+106 engineering theory center 
+ithaca , ny 
+license fee low educational institution gov ' agency . 
+internal commercial available . 
+information packet , write address , send 
+address : richard marisa 
+aci 
+-- 
+spatial technology . 
+solid modelling kernel callable c. 
+hear many university get free copy company . 
+person contact regard acis academic institution 
+scott owens , e-mail : 
+address : 
+spatial technology , inc. . 
+2425 55th st. , bldg . 
+
+boulder , co 
+phone : , fax : 
+
+--------------------- 
+basically understanding , fem pre - 
+system . 
+fairly old today , still serve people 
+mech . 
+eng . 
+dept . 
+supersede pronounced `` sequel '' . 
+
+complete modelling , animation visualization package . 
+run usual 
+workstation environment sun , dec , hp , sgi , ibm , 
+get demo version 30-days trial period either send $ 20 
+usd address blank tape . 
+cost 1,500 full run-time 
+licence . 
+contact : 
+engineering computer graphics lab 
+368 clyde building , brigham young univ. . 
+provo , ut 
+phone : 
+e-mail : 
+twixt 
+----- 
+soon add stuff ... get reply fax 
+
+-------- 
+volume renderer market : 
+inc. fairfield , iowa phone : , run pc 
+386 + fpu least . 
+call info . 
+
+-------- 
+3d volume renderer windows . 
+feature include direct 
+volume rendering , color alpha mapping , 
+gradient lighting , animation , reflection shadow . 
+run pc 386 higher least 8 bit video card svga fine 
+windows 3 . 
+x. cost $ 495 . 
+contact : 
+jaguar software inc. . 
+573 main st. , suite 9b 
+winchester , ma 
+
+john w 
+
+7 . 
+scene description language 
+
+nff 
+-- 
+neutral file format , eric haines . 
+simple , 
+procedural database generator spd package , many object 
+float various ftp site . 
+also write 
+hp starbase . 
+also one write , 
+use device output . 
+check site carry , like 
+
+-- 
+object file format , dec 's randy rost . 
+object archive server seem . 
+future version , 
+'ll remove ref . 
+-- 
+available also mail server . 
+obtain help use 
+service , send message `` subject : '' line contain word 
+`` help '' null message body : . 
+ftp place get , see relevant place . 
+
+sgi 4d machine , call 
+. 
+, 
+also gondwana . 
+
+-- 
+library 3d object translator , nff , 
+, imagine object . 
+edited copy announcement follow news , v4 , # 3 : 
+new library 3d objects available via ftp , steve worley 
+
+assemble set 150 3d object binary format 
+call . 
+object range human figure airplane , 
+semi-truck lamppost . 
+object freely 
+distributable , readme describe . 
+order convert object human-readable format , file 
+specification include directory 
+object . 
+also shareware system call officially 
+convert alum pbm + various 
+object format : imagine extension ? 
+, , nff , 
+4.0 , . 
+source include executable 
+amiga . 
+also output framemaker mif file isometric view 
+postscript . 
+
+-- 
+pittsburgh supercomputing center . 
+use lisp slight 
+extension store three-dimensional model . 
+simple lisp 
+interpreter include release , need 
+access vendor 's lisp run software . 
+user interface motif , open look , silicon 
+graphics gl , subroutine library generate 
+without ever look underlie lisp . 
+software currently support nine renderer . 
+: 
+painter - painter 's algorithm , dore , silicon graphics inc. . 
+gl language , 
+generic , sun + , dec + , , art ray tracer 
+package pixar renderman . 
+code available via anonymous ftp machine 
+, directory , , directory 
+. 
+renderman 
+--------- 
+pixar 's renderman free - call pixar detail . 
+
+8 . 
+solids description format 
+
+a. eec 's esprit project 322 cad cad interfaces develop 
+neutral file format transfer cad datum curve , surface , 
+solid model cad system cad caa computer aid 
+analysis cam computer aid manufacturing 
+b. ige v. 5.1 try define standard tranfer solid 
+model - csg . 
+current standard number ansi 
+documentation , might want contact nancy flower 
+ncga technical services standards , ext. 325 
+cost $ 100 . 
+standard available electronic format . 
+c. : slowly emerge standard try encompass 
+geometrical information , also thing like fem , etc. . 
+main body besides standard nist darpa . 
+get 
+information pde send mail 
+put line 
+send index 
+body subject area message . 
+people rutherford appleton lab . 
+also work 
+step tool : express compiler exchange file parser , 
+available source form free research purpose . 
+soon also database system . 
+tool contact mike mead , phone : +44 0235 44 fax : x , 
+e-mail : ... ! 
+
+
+
+end part 1 resource listing 
+-- 
+nick nikolaos fotis national technical univ. athens , greece 
+home : 16 st. , internet : 
+halandri , gr - 152 32 uucp : 
+athens , greece fax : +30 1 77 84 578 

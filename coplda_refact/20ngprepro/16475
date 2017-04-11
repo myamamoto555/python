@@ -1,0 +1,48 @@
+: garth dickie 
+subject : re : centris 610 video problem - also ! 
+organization : univ. wisconsin dept. mathematics 
+lines : 44 
+david horton write : 
+> david kantrowitz write : 
+
+> computer set 256 color certain operation , 
+> particularly vertical scroll window , horizontal white line 
+> appear monitor generally always spare open 
+> window . 
+line operation continue . 
+
+> window move involved area screen move away 
+> line disappear area screen . 
+problem 
+> observe monitor configure 16 color 14 inch apple 
+> monitor 256 color use . 
+> 
+anyone problem give configuration ? 
+would help eliminate design flaw explanation 
+> datum point , use centris apple 16 '' 
+> monitor problem . 
+produce similar artifact . 
+use centris 610 apple 16 '' monitor . 
+get 
+configuration , on-board ethernet 1 megabyte video ram . 
+effect occur 256 color 256 gray mode . 
+vertical scrolling operation , whether , say , use vi insert line , 
+produce scattering horizontal flickering line screen . 
+persist -- visible perhaps one refresh , 
+part screen back usual . 
+seem always start 64th pixel left , 
+maybe 512 pixel wide . 
+certainly prevent 
+use macintosh , seem sign something 
+perhaps ground incorrectly video circuitry ... 
+go ahead call apple customer assistance center , : 
+, direct ? 
+person answer polite . 
+also take chance complain 
+mouse button sticking , mac hang boot 
+hard - kill crash leave cd drive . 
+play 
+paperclip 5 minute get thing eject , 
+mac boot fine . 
+-- 
+garth dickie : 

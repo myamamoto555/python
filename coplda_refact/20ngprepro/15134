@@ -1,0 +1,39 @@
+: marcel aio 
+subject : resources cpp - help ! 
+organization : , university amsterdam 
+lines : 35 
+: 
+hus , 
+run ibm aix 3.2 suno 4.1 . 
+since run x color black & white display , need different 
+value resource , want use color 
+application default file . 
+however , cpp invoke , 
+resource load demand . 
+proper solution ? 
+far , proper solution come think , create 2 
+different file ~ , say , 
+set either $ home % % n $ home % % . 
+always seem work e.g. execute remote shell 
+command without read . 
+set . 
+furthermore , think use `` '' . 
+however , resource want override , 
+thing different machine . 
+sun , first find resource 
+use i.e. one , b & w one , , 
+last find value use i.e. one . 
+
+? 
+one last question : specification , 
+use % , % n , % c % s. % stand , % n 
+resource class , % c % stand ? 
+thanks advance reply , 
+marcel . 
+-- 
+x dr. marcel aio visualization 
+| x | faculty mathematics computer science ph : 
+x university amsterdam netherlands fx : 
+life stink . 
+fortunately , get cold . 
+

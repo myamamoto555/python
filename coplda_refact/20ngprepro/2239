@@ -1,0 +1,65 @@
+: hj lu 
+subject : re : debugging possible hardware problem 
+: serval 
+organization : washington state university ! 
+lines : 54 
+article < > john f carr write : 
+> 
+> run linux 80486 eisa system , think 
+> hardware problem . 
+could software , see would 
+> one trouble . 
+would like advice best debug . 
+> 
+> symptom : try build gcc , get unpredictable unrepeatable 
+> result . 
+sometimes . 
+o file valid format . 
+recompile 
+> file give valid binary . 
+sometimes compiler abort dump core , 
+> work fine run input . 
+compile 
+> source file argument give slight difference 
+> object file . 
+note linux , unlike many system , put 
+> timestamp object file compile twice give 
+> result . 
+> 
+> also occasional filesystem corruption drive , 
+> could cause use development software . 
+could also relate 
+> problem compile . 
+compile problem cause disk 
+> problem : get result whether work ide 
+> disk . 
+> 
+> set memory speed cache write speed recommend value . 
+recommend , dos ? 
+junk . 
+> 
+> suspect external cache , real evidence . 
+> 
+> motherboard nice 256 kb cache 
+> 66 mhz processor . 
+> 
+> look : 
+> 
+> . 
+system test program run dos linux 
+linux + gcc . 
+fire gcc compile kernel 
+time run . 
+> 
+> . 
+suggestion cause problem 
+bad memory , bad motherboard , bad cache . 
+> 
+> . 
+suggestion debug problem 
+> 
+change wait state ram . 
+turn turbo . 
+change bus speed 
+swap ram . 
+h.j. 

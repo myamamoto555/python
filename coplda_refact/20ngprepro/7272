@@ -1,0 +1,85 @@
+: marc andreessen 
+subject : ncsa mosaic x 1.0 available . 
+: 
+organization : nat'l center supercomputing application 
+lines : 79 
+version 1.0 ncsa mosaic x window system , networked 
+information system world wide web browser , hereby release : 
+file : 
+... . 
+z 
+... . 
+z 
+... . 
+z 
+... . 
+z 
+... . 
+z 
+... -1.0 - 
+ncsa mosaic provide consistent easy-to-use 
+interface wide variety networked information source , 
+include gopher , wais , world wide web , news , , 
+ftp , local filesystem , archie , finger , , , , 
+telnet , , . 
+release ncsa mosaic know compile follow 
+platform : 
+sgi irix 
+ibm aix 3.2 
+sun 4 suno stock motif 1.1 , gcc . 
+dec ultrix . 
+dec alpha axp . 
+documentation available online . 
+change since 0.13 include : 
+o add new resource , , sun 's 
+call try find 
+name . 
+command-line flag - . 
+o explicitly pop dialog box document view 
+window close , window manager dull 
+. 
+o better visit anchor color 's . 
+o add . 
+. 
+uu list file extension handle like . 
+tar file . 
+o add ` clear ' button open box , allow convenient 
+entry url 's . 
+o new resource ` ' ; set false , new document 
+view window automatically position 
+program still window manager 
+place . 
+o command-line flag - - iconic desire effect new 
+resource also use . 
+o code little bulletproof . 
+o obscure infinite loop trigger extra space img tag fix . 
+o eliminate error message image read 
+inline ncsa bitmap indication enough something 's 
+right author , reader anything bad image 
+case . 
+o obscure parse bug construct like < 
+o fix mysterious stupid hit suns . 
+o fix stupid url 's like ' : ' . 
+o fix handle url 's . 
+o new support courtesy 
+. 
+o better support hp-ux 8 . 
+x 9 . 
+x courtesy 
+. 
+o better support next courtesy . 
+o miscellaneous portability fix courtesy 
+. 
+o miscellaneous bug fix cleanup . 
+comment , question , bug report send 
+. 
+thanks advance feedback 
+provide . 
+cheers , 
+marc 
+-- 
+-- 
+marc andreessen 
+software development group 
+national center supercomputing application 
+

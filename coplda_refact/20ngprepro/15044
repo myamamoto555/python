@@ -1,0 +1,1225 @@
+: liam r. e. quin 
+subject : open look gui frequently ask question 
+organization : softquad inc. , toronto , canada 
+expire : 10 jun 1993 gmt 
+lines : 1231 
+question open look graphical user interface . 
+question , please try least 
+man 
+man 
+man 7 
+look appropriate manual list bibliography 
+post , 
+newsgroup corresponding mailing list . 
+special note : 
+update faq 4 , 
+due ship later year . 
+yes , sun move motif , along cose . 
+motif 
+move new motif , open look ui 
+feature add . 
+yes , 4 use dps instead news . 
+news dead . 
+mean tnt dead , . 
+support , probably enhance 
+next release . 
+know source release 
+3.1 . 
+cose environment include least sun 's , 
+port motif . 
+look calendar manager , least . 
+yes , new . 
+frequently ask question x11 post monthly . 
+version : $ revision : 1.48 $ ; last post version : 1.46 
+contents : rn trn use go next topic 
+subject : terminology : open look , , x11 , , mo , motif 
+subject : window managers -- , 
+subject : , terminal , display 
+subject : configuration files : get start 
+subject : key bindings , cut paste 
+subject : application : finding ... 
+subject : , calendar manager , etc. . 
+subject : trouble shooting : strange error message 
+subject : trouble shooting : let type 
+subject : trouble shooting : authorize use display 
+subject : trouble shooting : common problem 
+subject : trouble shooting : problem 
+subject : font 
+subject : environment variables 
+subject : get ? 
+ftp , implementation , etc. . 
+. 
+subject : bibliography -- book , manual , journal , papers , 
+subject : get file , revision history , recent change 
+subject : terminology : open look , , x11 , , , , motif 
+@ open look ? 
+open look specification graphical user interface gui . 
+gui determine ` look feel ' system -- shape 
+window , button , resize thing , 
+edit file , etc. . 
+open look gui specify , develop maintain jointly 
+sun microsystems at&t usl ? 
+. 
+see also : 
+bibliography 
+@ ? 
+windowing environment conform open look 
+graphical user interface specification . 
+compatible 
+x11 window system mit well currently sun 's news , 
+intermix program write system . 
+come sun also system v release 4 certain vendor . 
+sometimes also call , 
+program use start main executable , respectively . 
+call ` windows ' ` open look ' ` ' , 
+term either wrong apply something else . 
+commerical source licence cost $ 5,000 server , 
+plus $ 25,000 , another $ 40,000 . 
+current version various platform : 
+suno sun 3 : 2.0 
+solaris 1 . 
+x suno 4.1 . 
+x sparc : 3.0 
+solaris 2.0 suno 5 sparc : 
+see also : 
+mix x11 
+get ? 
+@ , tnt ? 
+toolkit programmer use develop program 
+conform open look specification . 
+see bibliography 
+documentation individual toolkit . 
+brief summary : 
+at&t 's open look toolkit x window system ; 
+use widget set , probably easiest people 
+already programmer learn . 
+could buy source at&t , 
+although get version tht sun ship . 
+sun include 
+library q.v. ; also often include 
+system v release 4 . 
+write c. release 
+3.0 3.0 . 
+support pass usl 
+division at&t , novell , replace q.v. . 
+note nature xt , probably 
+want need source order develop large application 
+anything else use subclass . 
+see proceedings 1991 x technical conference 
+sun 's toolkit x11 , write c. similar 
+programmer interface . 
+even shell script help 
+migrate source code . 
+often say 
+easiest toolkit learn familiar x windows . 
+toolkit include , full source 
+available anonymous ftp elsewhere . 
+current version sun 3.0 . 
+despite rumor contrary -- even within sun -- 
+toolkit drop sun . 
+
+include next release , unlike news . 
+hand , toolkit likely receive much 
+attention sun future . 
+news toolkit tnt object-oriented programming system base 
+postscript language news . 
+tnt implement many 
+open look interface component require build user interface 
+application . 
+currently include . 
+current version tnt sun 3.1 ; release 3 contain 
+incompatibility ` tnt ' 1.0 tnt 2.0 , sun commit 
+support api , least stop news support time 
+later year replace display postscript . 
+wail . 
+might ask ` commit ' mean context ; 
+answer seem mean absolutely nothing . 
+sun currently assert commit , however . 
+c + + user interface toolkit uit consist object-oriented c + + 
+class library layer top tool generate code 
+3 gil file . 
+uit also include feature simplify 
+event management use postscript color . 
+say 
+compatible v2 v3 , presumably v3 , since 
+release mention work solaris 2 . 
+uit official product ongoing project 
+various people within sun . 
+find 
+mit directory . 
+use binary mode ! 
+. 
+@ motif fit ? 
+. 
+motif alternative graphical user interface 
+develop osf . 
+` look feel ' reminiscent 
+microsoft windows presentation manager . 
+non - 
+commercial motif toolkit available , although motif source sell 
+reasonably cheaply osf . 
+although motif currently available 
+platform , open look gui almost certainly 
+use many machine , simply sun 
+large install base . 
+sun 's volume 2 contain roadmap improve motif 
+application convert ; also note 
+` periodic table ' demo , $ . 
+@ ? 
+version at&t usl let user choose 
+motif open look ui feel run-time . 
+part system v 
+release 4.2 . 
+contact : joanne , 
+@ display postscript thing ? 
+sun adobe agree sun include dps extension x 
+next release . 
+dp essentially badly design 
+hack top slow level 2 postscript interpreter intend give 
+small subset functionality news whilst simultaneously 
+harder use , understand . 
+real advantage 
+news manual much smaller , generally less 
+complete ; dp also available kind machine . 
+performance suitable interactive work ; 
+like sparcstation remain see . 
+note whereas font share subsystem , dp 
+extension x _ _ make type 1 postscript font available 
+ordinary x11 program . 
+like atm pc regard . 
+least one third-party version make font 
+available , however 
+subject : window managers -- , 
+@ ? 
+window manager . 
+window manager part x window 
+system e.g. x11 responsible decide lay window 
+screen , manage user 's interaction window . 
+standard open look window manager . 
+include q.v. implementation , 
+also get source ftp , since sun donate . 
+version manage ` virtual desktop ' hence 
+` v ' name . 
+show little map screen , 
+currently display area represent little rectangle . 
+
+move around drag rectangle arrow key . 
+
+let run several client application move display around 
+one . 
+derive 3.0 
+scott oaks ; need 3.0 compile . 
+get ftp site 
+directory ; three patch . 
+@ use favorite window manager instead ? 
+yes . 
+use twm , example , mwm , able use 
+pin feature , probably see 
+footer window use display certain message . 
+use twm , 'll want use function menu 
+get rid program ` quit ' button run 
+. 
+twm , put $ home . 
+: 
+`` target '' 
+`` target '' icon bitmap . 
+alternatively , try 
+# add menu window manage twm 
+'' : menu '' `` '' 
+menu `` '' 
+`` quit '' 
+
+mwm , menu icon left title 
+bar dismiss pop-up window tell . 
+see manual page window manager twm , etc . 
+subject : , terminal , display 
+@ use without x terminal ? 
+server combine , news postscript x11 . 
+mean run program compile system . 
+unfortunately , mean program need either new 
+support , thus run x terminal . 
+include 
+particular . 
+use see x terminal - 
+windows display , open look client e.g. one 
+work perfectly well . 
+may find get complaint 
+font find . 
+, see fonts section . 
+run window manager built-in ncd terminal , 
+may problem input focus ; set input : true terminal 's 
+file may may help . 
+subject : configuration files : get start 
+@ configuration file need know ? 
+. 
+. 
+
+first time run , . 
+file create 
+login directory $ home . 
+already exist , might 
+edit somewhat ; simplest move old x11 file 
+another directory , merge old new file . 
+site use , use . 
+instead . 
+, 
+since look . 
+file . 
+. 
+, . 
+. 
+
+optional file create $ home directory , 
+depend version use . 
+look $ normally file 
+without lead . 
+copy want change . 
+may need 
+edit . 
+get recognize . 
+
+x terminal , want run console window - c , 
+- c , - c chuck 's `` '' program 
+system output direct instead write screen . 
+note . 
+execute unless edit . 
+. 
+. 
+
+put x windows resource specification . 
+particular , 
+good idea include least : 
+: true 
+input : true 
+allow program receive input even 
+forget ask . 
+prop , program run select ` property ' default 
+root menu , write choice . 
+. 
+put comment . 
+, since ` prop ' delete . 
+. 
+
+news user profile file , read actually 
+startup . 
+document news programming manual , near 
+back . 
+useful thing put postscript code change 
+keyboard repeat rate , although must careful , since 
+syntax error postscript mean either start 
+get break strange way . 
+news manual give code 
+incorrect insufficient . 
+warning : thing file rarely work 2 3 . 
+note mouse speed best set . 
+m ; see 
+man page `` man '' , `` - help '' information . 
+$ home . 
+look like want delay 
+third second microsecond , repeat rate 
+twenty key per second 30000 microsecond repeat 
+3 . 
+'ll experiment bit 
+delay key send , thus include time 
+process key , probably higher 
+gti injection , 3 ... 
+% want demo - see p. xxxii news toolkit reference manual 
+% ? 
+false def 
+begin 
+0 def 
+0 30000 def 
+% note : 30000 differ greatly ... 
+end 
+must also . 
+file directory , like : 
+news 3 0 
+3 0 
+tnt 3 0 
+pop % force 
+
+change parameter , test without restart 
+server like : 
+$ psh - . 
+
+welcome 
+$ psh - 
+welcome 
+send 
+% % % press 
+also either two file . 
+. 
+make 
+root window `` retain '' , postscript drawing 
+background erase move window : 
+retain true put 
+. 
+note may increase amount memory use 
+news server dramatically . 
+see also : 
+trouble shooting : let type 
+trouble shooting : easy way edit ? 
+environment variables 
+@ configure open look left-handed mouse keyboard ? 
+use change mouse button , prepare one 
+two occasional surprise . 
+see also `` man 7 '' list 
+change , least program . 
+2.0 , use set mouse mapping 
+let handle . 
+status return 
+tell whether server run ; put 
+. 
+: 
+eval ` - env ` 
+
+- e `` pointer 1 2 3 '' 
+
+else 
+- e `` pointer 3 2 1 '' 
+fus 
+@ get screen go blank system idle ? 
+run . 
+local ; boring 
+effective screen saver . 
+see ` man ' . 
+solaris 2 'll need copy older system , 
+supply . 
+add new file . 
+d make system 
+run automatically . 
+subject : key bindings , cut paste 
+@ cut paste program ? 
+go say : 
+select text want copy drag select mouse button 
+
+press copy key l6 , meta + c o'reilly 
+manual get wrong 
+move window , press paste l8 meta + v 
+work , see trouble shooting : cut paste 
+go way , : 
+select text . 
+need use copy 
+move window press adjust middle mouse button . 
+also use paste button . 
+@ bore . 
+short-cut available ? 
+quick copy within , , etc : 
+click select get text caret want copy text go 
+press hold paste cut button 
+select text want . 
+'ll see underline 
+cross , appropriate . 
+jed demo go gray 
+let go paste cut button . 
+text underline cross appear insert caret . 
+drag drop move selection 
+select text want copy move , drag multiple - 
+click select adjust mouse button 
+put mouse pointer anywhere within selection 
+press hold select mouse button , move mouse 
+pointer little right ; 'll see cursor change 
+first 3 letter text icon . 
+still hold select , move mouse point want 
+drop text 
+may see mouse pointer change target , show 
+ok drop thing 
+let go select , text move . 
+work text field 
+dialogue box well text . 
+drag drop copy selection 
+use drag drop move selection , except 
+must hold control key well select mouse button . 
+@ default key binding elsewhere ? 
+see man page 1 . 
+general , command go opposite direction 
+shift - e.g. ctrl + w deletes word , ctrl + w delete word 
+right insert point . 
+- include file - find selection 
+- start line ctrl - < - back word 
+- end line ctrl - > - forward word 
+- delete word - delete line 
+- move document 
+see o'reilly reference manual list default 
+key ; see also manual page . 
+@ put . 
+? 
+document ? 
+see manual page . 
+subject : application : finding ... 
+contact sunsoft sun ask catalyst open look guide , 
+list 200 page application , also _ huge _ 
+catalyst listing product suns , update . 
+sun 's free contain demo version several popular 
+open look application . 
+often simply contact vendor 
+concern license upgrade demo , receive full 
+product documentation . 
+produce newsprint user , printer 's , 
+contain newsprint driver variety printer plotter , 
+well 600 font license . 
+separate faq post list 
+number free commercial ; mail 
+copy , include open look ui application list subject 
+faster reply . 
+subject : , , calendar manager , etc. . 
+@ interface cm calendar manager ? 
+yes , , ; manual page . 
+`` man '' work give strange message , see 
+trouble shooting : strange error message , . 
+@ arrange . 
+signature include outgoing mail ? 
+best way : 
+$ cd 
+$ cp . 
+. 
+$ + w . 
+
+edit . 
+use vi , , whatever prefer 
+add follwing : 
+3 filter 
+cat ~ . 
+signature 
+might need change ~ $ home 
+press r3 insert . 
+signature file . 
+subject : font 
+@ support type 1 postscript font ? 
+yes , either solaris 2.0 2.1 sure . 
+, yet , word . 
+framemaker utility import , tell . 
+57 font supply fully hint , though , 
+compare microsoft windows apple truetype font 
+interesting ... f3 font format describe publication 
+sun group , list bibliography . 
+documentation 
+unbundled version also available sun . 
+buy f3 font , monotype , linotype , urw probably 
+major foundry . 
+' newsprint software support type 1 font . 
+@ improving font rendering time 
+although sun type renderer pretty fast , 
+fast load bitmap . 
+bitmap font size 
+use lot , also alter access font cache 
+parameter . 
+lot memory might want increase 
+font cache size . 
+$ psh - 
+welcome < -- psh say 
+% type line ... 
+300 % 's server use -- 300 
+1024 
+% check : 
+
+1024 
+see pp. news 3.0 programmer 's guide . 
+need say psh - 
+postscript package load - see psh man page . 
+@ make bitmap font faster startup : 
+$ $ 
+$ cd $ 
+$ -20 - m $ 3b 
+create . 
+afb 
+$ - b . 
+afb 
+. 
+afb - > . 
+. 
+fb 
+char parameter greater number character supply . 
+$ ls 
+. 
+afb . 
+fb 
+$ 
+bembo . 
+encoding : latin 
+cat : . 
+: file directory 
+$ + fp ` pwd ` 
+$ fp rehash 
+want server see new font directory every time , 
+add directory environment variable one 
+start-up file , e.g. . 
+login . 
+profile . 
+@ convert font format , etc. . 
+also use folio font x11 server , convert 
+bitmap x11 bdf format first . 
+licence forbid use 
+font another machine , unless newsprint 
+use printing . 
+say ... use 
+generate bdf file compile 
+. 
+use distribution convert tex pk font 
+x11 bdf format , use either x11 . 
+also use der mouse 's `` '' get bdf font run 
+x display server -- ftp : 
+@ font 100 
+. 
+precisely , various text font , 
+lucida typewriter sans , available 100 , fact 
+scalable . 
+glyph font bitmap , 
+scale well . 
+subject : trouble shooting : strange error message 
+@ manual entry 
+man seem find command , even though 
+run , try set environment variable : 
+$ : ; export 
+
+$ : 
+csh user . 
+$ system . 
+@ window : window creation fail get new fd 
+@ window : base frame pass parent window environment 
+@ create base frame . 
+process abort . 
+message come program . 
+
+earlier windowing system suns , network . 
+
+program still around , name 
+counterpart . 
+almost 
+certainly want run program $ instead . 
+set path $ $ 
+2 come bin , , 
+'ll get version , , , etc. . 
+@ memory fault - core dump 
+get binder , binder vanish suddenly , 
+get follow patch : 
+binder 
+
+
+@ trouble compile xt , program : _ 
+use 3.0 xt , contact local 
+sun office request follow patch : 
+4.1 . 
+x 3.0 jumbo patch 
+4.1 . 
+x 3.0 undefined symbol use shared 
+install patch , workaround add 
+- u - u 
+link ld cc ... - o ... line . 
+alternative add 
+- assert 
+, even . 
+subject : trouble shooting : let type 
+@ try type program , get beep nothing happen 
+good idea include least : 
+: true 
+input : true 
+. 
+file , allow program 
+receive input even forget ask . 
+see next item editing . 
+
+subject : trouble shooting : cut paste work 
+@ paste include sun program 
+2 , need add follow either 
+$ home . 
+file , $ instead : 
+vt100 . 
+translation : \ 
+l6 : clipboard \ n \ 
+l8 : clipboard 
+must move mouse end selection press 
+l8 paste key ! 
+3 , already file , 
+work , check set 
+% % n % 
+, either set line 
+$ . 
+see also : environment variables 
+version automatically put selection onto clipboard : 
+vt100 . 
+translation : \ n \ 
+~ ctrl ~ meta : primary , \ n \ 
+~ ctrl ~ meta : primary , , clipboard \ n \ 
+l8 : clipboard 
+note : sure \ n \ end line , must 
+follow space , + | sign show faq file 
+alter must also remove ! 
+use , may find add line 
+l10 : primary , clipboard , \ n \ 
+l10 : \ n 
+l8 line make l10 cut work cut key ! 
+alter $ home . 
+instead , must use x call 
+` specific ' resource name : 
+100 . 
+translation 
+. 
+@ paste include sun program 
+sun l key left keyboard , 
+use , cut , coy paste respectively . 
+change key add follow two line 
+. 
+file , edit wish value show 
+default : 
+: c + meta , l6 
+'' , `` v + meta , l8 
+list resource manual page , also 
+blue book ` companion volume 7 , reference manual ' 
+o'reilly , also manual page . 
+@ always get piece text press paste l8 , meta + v 
+remove file _ shelf see help ; see also 
+next item . 
+@ cut copy paste work 
+oh dear . 
+use ps - | grep xv check run 
+either root start , depend whether start 
+`` '' log . 
+, start . 
+die , check tmp . 
+
+restart - may need root remove , 
+reboot workstation . 
+check space tmp use `` df tmp '' , also see 
+lot file name like . 
+; 
+several hundred , cut paste may take long time . 
+quit tool , cm calendar , start 
+terminal emulator remove . 
+txt file 
+still . 
+simplest quit start 
+, cut paste break , start work 
+carry . 
+note file tmp 
+might use another worker comrade , remove without 
+check first ! 
+subject : trouble shooting : authorize use display 
+get error message look like 
+xlib : connection '' '' refuse server 
+xlib : internal error connection authorization check 
+error : open display 
+try , machine run x11 , 
++ machine 
+`` machine '' computer run command fail . 
+want let user run program machine , 
+use display , type 
++ ` hostname ` 
++ , name workstation . 
+let user ` ' access display . 
+3.0 also use , programmer 's guide 
+describe chapter 8 , p. 101 . 
+secure . 
+also check man page 5 stop user access 
+framebuffer directly ! 
+also note sun patch 3.0 suno 
+fix serious security problem . 
+available local 
+sun answer center well anonymous ftp 
+system : 
+fix filename checksum 
+. 
+5 
+x terminal , may setup menu let change 
+disable list host access display . 
+start get message log overnight , 
+might cron job remove unix socket tmp 
+use communicate server $ display 
+hostname : , empty . 
+system administrator 
+change cron script skip socket . 
+subject : trouble shooting : common problem 
+@ get console error message screen go away sun 3 4 
+`` refresh '' make message vanish , new one come along later , 
+need run `` - c '' . 
+, start one 
+background choose save workspace 
+workspace - > utility menu . 
+better still , pick `` '' run 
+. 
+get directory . 
+
+monitor console open , flash icon beep 
+message appear ; easy configure . 
+`` refresh '' workspace - > utility menu make message , 
+go away ... 
+sun frame buffer two screen - move 
+mouse right-hand default edge screen onto 
+whole new monochrome display , call '' '' . 
+see man . 
+page ; shell script check , 
+, 
+- dev - dev 
+run x11 2 , might need add 
+. 
+startup file : 
+
+eval ` - display unix - env ` 
+- display unix 
+& 
+later release automatically . 
+also run switcher - e 0 get rid message . 
+also , see 
+note , . 
+@ easy way editing . 
+? 
+use ` prop ' , appear default root menu ` property ' . 
+start ` prop ' , property editor re-write 
+. 
+remove comment . 
+apply change . 
+keep comment use `` comment . '' 
+instead '' ! '' 
+, example , 
+comment . 
+. 
+font : 
+@ get file manager use emac instead ? 
+set default editor 
+sh - c `` exec emac - font \ `` $ file \ '' '' 
+change font prefer smaller one 
+@ run inverse video ? 
+tend work 2 . 
+3.0 , 
+various way , include use - bg - fg option . 
+` re 
+use 2 sun 3 , probably best short 
+upgrade workstation sparc ! 
+use instead . 
+@ flat work ? 
+known bug may make guide 's output dump core use . 
+workaround edit guide output , guide 's output 
+break , actual code . 
+apply version 3.0 . 
+` re 
+still use ancient , upgrade soon possible ; 
+new one fantastic ! 
+@ leave , screen go blank mouse cursor stay 
+screen . 
+try run ; help , put last line 
+shell script use start e.g. ` ' . 
+@ use snapshot , system crash , server hang , something . 
+bug related system . 
+
+use screen dump program , , xv 2.21 . 
+@ function key stop work ? 
+key f11 f12 change 
+respectively 3 . 
+application must recompile , 
+might able use public domain program 
+change keyboard layout back . 
+@ type , get version 
+see `` trouble shooting : strange error message '' . 
+see also next item 
+@ mix x11 
+see also next item 
+note 3.0 include core distribution patch 
+level 18 , directory . 
+note apply 
+2.0 , although could also sort thing 
+3.0 . 
+install x11 library . 
+intermix 
+, compatible respect . 
+put x11 binary example . 
+put last path , get version 
+program instead x11 one appropriate , although 
+matter preference . 
+event , put bin directory 
+first -- see precede item detail . 
+
+bin , directory suno earlier 
+path $ , 'll get program instead 
+one ! 
+set last , x11 
+library directory . 
+matter 3.0 , 
+older version 'll get error message x11 program 
+. 
+message generally harmless see next item , although 
+core dump right . 
+set directory contain 
+. 
+see also : 
+environment variables especially . 
+@ get error message screen : . 
+.4 find 
+set . 
+also use x11 , use 
+: : 
+put shell script . 
+profile , use 
+$ - lib instead ; 
+; csh different . 
+@ launch get : map heap error 9 
+system need patch . 
+look $ 
+install patch . 
+@ run ? 
+must run use . 
+run 
+x11 x terminal anything else use news draw 
+postscript text picture . 
+use 3.0 , need use 3.0 
+compatible navigator ; call . 
+3 . 
+user use 3.0 , replace 
+navigator wih . 
+3 altogether rename old one first 
+satisfy sense paranoia ! 
+3 binary also vol 2 . 
+note datum file postscript , look 
+viewer q.v. . 
+@ fish ? 
+fix version available ftp 
+. 
+z 
+@ properties choice disabled window menu ? 
+implement yet . 
+many program respond properties 
+key l3 , though , pop-up menu properties . 
+@ file completion break 
+sadly true , use instead fine . 
+also 
+work run command tool remote machine . 
+fix ship solaris 2 . 
+@ run program , widget red ! 
+release 3 add operation ; action widget 
+select via keyboard . 
+currently select item highlight 
+red ` red stain ' show input focus . 
+disable place , add $ home . 
+file : 
+: 
+: 
+: 
+change color use example 
+: 
+input : green 
+list : 
+see man page resource 3w , start 3 widget set 
+reference manual include 3 programmer documentation . 
+meanwhile contact distributor ask patch id , 
+.0 cte jumbo patch . 
+@ run several program , color screen change 
+move different window ! 
+`` flash '' 
+becasue hardware display color time . 
+however , minimize effect follow procedure : 
+start application color wish reserve . 
+run 
+save 
+create . 
+file 
+put line 
+init 
+near start start-up file . 
+
+exit restart window system . 
+init push color . 
+end 
+reserve . 
+also note lock color current window , 
+unlock -- describe manual page . 
+@ use wrong color , make flash see : 
+problem report people reason run motif 
+window manager mwm . 
+try run like : 
+$ - 
+$ 
+$ - discard 
+@ break thing 
+command tool like run without unix ` controlling terminal ' . 
+use start command tool well . 
+application may need run , 
+- exec 
+set necessary environment variable . 
+note mit start x server root , security 
+hole ; use 3.0 aware 
+user access file start unix process ass root ... 
+@ function key 11 12 stop work 
+3.0 , x11 name `` '' key change 
+. 
+code use recompile , 
+might able get away 
+- e ` ' 
+subject : trouble shooting : problem 
+section faq appear , 
+promise , reach . 
+note also usenet 
+newsgroup , , although sem 
+wide distribution order one two article 
+per month . 
+also look faq . 
+@ set font individual scrolling list item ? 
+take int . 
+take null terminate list . 
+easy way make entire list fix width font . 
+make sure always specify 
+insert new row list , write convenience function 
+list , row , string hide nasty bit . 
+@ keep pop-up window display button press ? 
+button callback , 
+button , , , null ; 
+keep window visible . 
+might also need investigate attribute . 
+@ make button look press ? 
+call ; 
+document -- er -- 3 source ... 
+@ 3 work properly 
+greg earle 's patch , apply $ ; note 
+edit . 
+cf afterwards get 
+right 1 suno 4.1.2 , example . 
+edit patch little , bug mine : - 
+. 
+orig wed sep 18 1991 
+-- tue aug 6 1991 
+
+
+elif - n `` $ '' ; 
+! 
+arg '' - $ '' 
+else 
+-- -- 
+elif - n `` $ '' ; 
+! 
+arg '' - - - ' # ' '' 
+else 
+. 
+wed sep 18 1991 
+-- . 
+def tue aug 6 1991 
+
+0 
+-- 1,7 -- 
++ $ bin 
++ $ lib 
++ $ 
++ file , dest \ 
++ install : : file \ 
++ $ install - c $ file dest 
++ 
+note : patch new , marked line '' + '' -- liam 
+subject : environment variables 
+environment variable , plausible value use -- list 
+take account local change might make , course . 
+list 3.0 -- difference 2.0 
+marked , add comment user , . 
+display name x windows display use 
+local machine , one actually run x11 
+machine second , monochrome screen 
+machine 
+may need `` + '' let program 
+machine use display ; see also trouble shooting , see 
+section version 3 programmer 's guide , 
+p. 
+see also : console message , trouble shooting 
+search font 
+font 
+also use `` fp + dir '' add directory font path , 
+may `` fp rehash '' afterwards . 
+fine 
+, many x11 server font problem 
+look press help key f1 
+locale : help 
+suno 4.0 . 
+, 2.0 , omit first entry , 
+site use local `` c '' `` usa '' . 
+look find shared c library 
+: : : ` arch ` 
+` arch ` lib entry need use c + + program 
+life 
+
+keyboard , mouse -- serial device use instead console 
+set normal use ; 
+path shell search program run 
+$ bin : $ : : . 
+\ 
+$ . 
+` arch ` : : : : : \ 
+certainly want change example ! 
+
+$ 3.0 
+program look file 
+% % n % 
+set automatically `` '' 3.0 
+might want use % % n % , perhaps , 
+separate : , example sh user 
+$ % % n % : % % n % 
+export 
+use , might instead want 
+% l % % n % c % : 
+% l % % n % c % : 
+% % n % c % : 
+% l % % n % : 
+% l % % n % : 
+% % n % : 
+$ % % n % 
+put one line , though , space ! 
+together follow 
+- merge ` ' 
+customization : 
+
+- merge ` ' 
+color 
+customization : - color 
+
+
+automatically get color , , bitmap , , 
+since use '' customization '' resource appear % c 
+. 
+see n 
+accord rainer < > . 
+subject : get ? 
+ftp , implementation , etc. . 
+. 
+3.0 available anonymous ftp 
+elsewhere . 
+buy at&t source form . 
+obtain sun , get source 
+interactive systems inc. . 
+also include vendor ' system v 
+release 4 implementation , although always latest version . 
+current release sun support architecture 
+3.0 ; sun 3 series freeze 2.0 . 
+note sun include suno , also include 
+windowing system solaris . 
+say sun 35 port either 
+available progress . 
+unfortunately , none seem 
+available anywhere . 
+contact information . 
+subject : bibliography : book , manual , journal , papers , 
+open look tm graphical interface document two book : 
+sun microsystems inc. , ` open look graphical user interface application 
+style guideline ' , addison wesley , 1989 
+
+sun microsystems inc. , ` open look graphical user interface functional 
+specification ' , addison wesley 
+main documentation x window system come 
+o'reilly & associates nine ten volume . 
+useful open look user : 
+volume 1 : xlib programming manual 
+volume 2 : xlib reference manual 
+volume 3 : x window system user 's guide 
+open look edition volume 3 appear later year 
+volume 7 : programmer 's manual dan heller 
+make sure get 3rd edition 3.0 
+companion volume 7 : reference manual ed . 
+thomas van raalte 
+companion volume 7 expand version attribute 
+summary previous edition programming manual , 
+together reference information , practice 
+buy book . 
+o'reilly also orange book difference 
+. 
+programmer also want xt book - volume 4 5 . 
+new big fat green vol 5 update . 
+journal , x resource , may also interest . 
+o'reilly & associates , 103 morris street , suita , sebastopol , ca 
++1 , , usa canada , 
+fax : +1 . 
+email . 
+distributor : mail , fax , call +1 . 
+o'reilly example available fro ftp 
+directory . 
+system v release 4 documentation prentice hall may also include 
+section . 
+david miller describe programming 
+` open look unix ' m&t press . 
+give excellent introduction x 
+programming , well set use x , : 
+` unix r desktop guide open look ' 
+sams , 1992 isbn 
+get example book 
+: . 
+
+also use , xt particular : 
+x window system : programming application xt , 
+open look edition , 
+doug young john pew , prentice hall , 1992 , 
+isbn 
+also hp widgets motif ugh version book . 
+example source code book obtain ftp 
+, file `` . 
+'' . 
+introduction 
+` write application sun systems ' , vol 1 , ` guide 
+macintosh r programmer ' sun microsystems , pub . 
+addison wesley 
+learn news postscript language , see 
+news book , springer verlag , 1989 sadly , little date 
+postscript language reference manual , second edition , 
+adobe systems inc. , addison wesley , 1990 `` red book '' 
+note 3 level 1 postscript implementation , 
+certain level 2 feature composite fonts 
+degree . 
+postscript language tutorial cookbook , 
+adobe systems inc. , addison wesley , 1985 `` blue book '' 
+least one book use solaris i.e. sunos . 
+sun also supply large amount documentation , 
+although may order separately . 
+; 
+little 21 cm square wider a4 paper , vary 
+1 cm thick . 
+say ` user 's guide ' ` programmer 's 
+guide ' front . 
+user manual red stripe bottom , 
+programmer one green stripe . 
+version 3 release manual 
+version 3 installation start-up guide 
+version 3 reference guide 
+version 3 user 's guide 
+desktop integration guide also available bookstore ? 
+programmer 's guide 
+version 3 reference manual man page 
+news toolkit 3.0 reference manual 
+news 3.0 programming guide 
+3.0 widget set reference manual 
+3.0 reference manual : convert application 
+f3 font format specification order separately 
+also set documentation , include 
+documentation group , example . 
+seem 
+complete list anywhere . 
+
+1.0 setup administration guide sunsoft , 1991 
+1.0 programmer 's guide sunsoft , 1991 
+might documentation link manager somewhere , . 
+at&t include several large thorny bush ' worth paper . 
+sun 's contain lot documentation , 
+include o'reilly book 3 volume 7 , though . 
+volume 8 o'reilly series x administration , mention 
+, although primarily aim . 
+several book work ... 
+subject : get file , revision history , recent change 
+mail ask . 
+douglas n. arnold 
+keep up-to-date copy currently 
+file ~ . 
+archive server may may know file , 
+since change hand file previously one 
+archive . 
+$ id : . 
+faq , v 1.48 lee exp $ 
+acknowledgement : 
+andrei arkhipov < > patch 
+douglas n arnold < > change 
+ian darwin < > 
+christopher davis < > 
+paul eggert < > solaris 2.1 
+ellis < > feb - assert 
+jeff fleck < > stuff 
+rick heli < > . 
+signature 
+nicholas < > cc workaround 
+larry matthias < > flash 
+john b. melby < > paws 
+christian < > jumbo patch 
+kevin w. thomas < > patch 
+larry w. virden < > comment 
+many ... get delete list . 
+-- 
+liam quin , manager contract , softquad inc , +1 
+open look uus faq ; metafont list ; news game ; text retrieval 

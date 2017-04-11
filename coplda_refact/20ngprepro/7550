@@ -1,0 +1,147 @@
+: gordon 
+subject : re : save hard disk ?! 
+allocation error , cross-linked 
+organization : public access 
+lines : 137 
+brad banko write : 
+> run m quick c compiler dos window windows 3.1 
+> evening , get `` program violate system integrity ... close 
+> application , exit window restart computer '' error . 
+gawd , love windows : - 
+> 1 easy way restore everything work order ? 
+> might better approach ? 
+'ll probably want delete damaged executable reload 
+fresh . 
+datum file examine repair . 
+> 2 might cause ? 
+cache make 
+> vulnerable ? 
+suspicious hard drive cache especially 
+> cache datum write . 
+stupid . 
+cache thing , windows also run 
+swap file may contain datum also . 
+pretty risky 
+stuff pc environment . 
+> straightforward approach would run chkdsk f option 
+> fix disk look like would probably reinstall windows 
+> thing . 
+reasonably accurate prediction ... 
+brief description dos store file : 
+three piece file . 
+directory entry , fat chain , 
+datum area . 
+think sheet line 
+notebook paper , sheet graph paper , stack 3x5 card . 
+directory entry notebook paper hold file name , actual size , 
+first cluster number . 
+also hold information 
+important right . 
+file allocation table fat chain graph paper tell find 
+actual datum . 
+square graph paper hold number . 
+
+number zero , cluster associate box available . 
+
+hold `` magic '' number , either last piece file bad 
+spot disk . 
+number tell cluster 
+contain next section file . 
+datum area 3x5 card actual information store . 
+datum area organize cluster fix size ; storage 
+dole `` chunk '' one cluster . 
+case , one cluster 
+2048 byte . 
+cluster fill , another allocate . 
+read file , first look directory entry get 
+start cluster number . 
+read datum cluster . 
+next , look fat entry cluster read . 
+
+tell cluster number next chunk file . 
+naturally , number usually sequential , jump 
+around even go backwards . 
+continue reading , one cluster 
+time , walk chain fat , hit marker 
+say last cluster file . 
+chkdsk dos utility check sanity coherence 
+directory fat bludgeon flaw 
+submission . 
+intelligence , 
+anything `` fix '' . 
+let 's bit post-mortem : 
+> c : \ \ \ 
+> c : \ \ \ 
+> c : \ \ \ . 
+cfg 
+> c : \ \ \ . 
+cfg 
+> c : \ \ \ 
+> c : \ game \ goose \ . 
+x 
+> c : \ \ adv21 \ 
+> allocation error , size adjust 
+file size accord fat match 
+size report directory entry . 
+chkdsk f alter 
+directory entry match fat size . 
+word , 
+directory entry may say file byte long . 
+chkdsk find fat chain 43 cluster attach . 
+number , 
+obviously , make . 
+> 316 lose allocation unit find 224 chain . 
+> byte disk space would free 
+disk space find allocate fat , attach 
+directory entry . 
+chkdsk f give option convert 
+`` lose chain '' file . 
+examine file . 
+chk 
+. 
+chk rename discard . 
+, tell 
+chkdsk _ _ convert file , cluster simply 
+mark `` available '' fat . 
+> c : \ \ \ 
+> cross link allocation unit 
+... 
+> c . 
+par 
+> cross link allocation unit 
+file reference _ _ datum cluster . 
+obviously , 
+one least must wrong . 
+interesting note 
+c . 
+par windows swap file ... 
+fix , copy cross-linked file new name . 
+`` fix '' cross-link give file unique datum space . 
+delete cross-linked file . 
+examine copy try 
+assemble properly . 
+good luck . 
+hint : `` miss piece '' 
+likely find `` lose chain '' top ... 
+> byte total disk space 
+> byte 4 hidden file 
+> byte 67 directory 
+> byte 1496 user file 
+> byte available disk 
+disk pretty close full . 
+may actual cause 
+problem ; perhaps windows need expand 
+amount exceed available disk space ... 
+case , short summary something trash fat . 
+utility mirror fat help repair damage 
+something like , run _ _ 
+problem occur . 
+sorry . 
+-- 
+---------------------------------------------------- 
+gordon s. 
+vote straight ticket procrastination party dec. 3rd ! 
+-- 
+---------------------------------------------------- 
+gordon s. 
+vote straight ticket procrastination party dec. 3rd ! 

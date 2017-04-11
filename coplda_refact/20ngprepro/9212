@@ -1,0 +1,29 @@
+: zapper 
+subject : re : , spec ? 
+organization : iowa state university , ames ia 
+lines : 35 
+> could kind soul post max rating 
+> transistor , conductance type pinout . 
+> use sweep portion tv set . 
+
+maximum rating : 
+
+
+ic 3a 
+pc 10w 25c 
+max 
+
+cob 
+vce 5 , ic 1a -- > hfe 100 
+
+maximum rating : 
+-40 v 
+-30 v 
+ic -3 
+pc 10w 25c 
+max -1 ua 
+-30 v 
+cob 
+vce -5 v , ic -1 -- > hfe 100 
+get datum book , hope help . 
+

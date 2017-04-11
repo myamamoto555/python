@@ -1,0 +1,25 @@
+: 
+subject : re : gray level screen 
+organization : tampere university technology 
+lines : 21 
+distribution : inet 
+: 
+article < > 
+kenneth sloan write : 
+> 
+> create 8 image , display 
+> ... time slice ? 
+' 8 gray level image ' mean 8 item image ? 
+work ! 
+, work 
+screen screen intensity non-linear . 
+2 bit per pixel ; could 1 + 4 timing , 
+give 16 level , linear screen intensity 
+linear . 
+1 + 2 work , find best 
+-- 10 level , 16 ; best 10 must 
+choose . 
+different level , vary bit , 
+level keep order . 
+reader verify write ... : - 
+

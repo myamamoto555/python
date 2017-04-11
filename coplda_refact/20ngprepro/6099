@@ -1,0 +1,23 @@
+: arun 
+subject : re : cylinder ray 
+: 
+organization : university michigan eecs dept. , ann arbor , mi 
+lines : 19 
+article < > , write : 
+| > would thrill kind person could help follow 
+| > give cylinder 3d - define line segment two point 
+| > radius e.g. sx , sy , sz ex , ey , ez r , easiest 
+| > expensive way find ray - define another line two 
+| > point - cut cylinder ? 
+| > think test touch rather simple : closest approach 
+| > two line less r , ray penetrate cylinder . 
+nope , work cylinder . 
+line arbitrarily close 
+cylinder backbone , yet intersect . 
+test work 
+pillbox , though . 
+cylinder two hemisphere attach end . 
+| > thanks , 
+| > ryan 
+- arun 
+-- 

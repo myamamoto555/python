@@ -1,0 +1,45 @@
+: michael linder 
+subject : windows nt : help need io error 
+organization : 
+lines : 33 
+: . 
+de 
+hus everybody , 
+get third beta release disk march 93 
+still able boot system . 
+final step 
+achieve display . 
+, since 
+beta release sdk nt nt , microsoft 
+include manual os , explain 
+error mean get rid . 
+configuration 
+: 
+mainboard hauppauge , rev. a7 486 socket i860 
+memory 512k m m 36 
+ami eisa scsi controller , latest bio , 16mb cache 
+hard disk 
+syquest 555 removable disk 
+toshiba 3301 cd rom drive 
+spectrum plus 16 
+ethernet card comp . 
+graphic card , 
+system run fine dos windows 3.1 etc , 
+try setup nt , 
+- automatic setup recognize controller . 
+add manually , nt complain fing cd-rom drive 
+- manual setup copy everything cd hd , 
+recognize controller , take manually . 
+setup continue try boot . 
+start load 
+several stuff disk seem fing hd , mess 
+damned 69 . 
+take away io card essential , make 
+effect . 
+anybody get idea ? 
+help would greatly appreciate . 
+michael linder 
+institute optics 
+tech . 
+univ. . 
+berlin , germany 

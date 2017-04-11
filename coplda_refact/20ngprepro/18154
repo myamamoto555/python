@@ -1,0 +1,211 @@
+: chris lilley 
+subject : oh make mind !! 
+: re : xv problem 
+lines : 220 
+: 
+organization : computer graphics unit , mcc 
+article < > , write : 
+> article < > 
+> write : 
+article < > , 
+write : 
+> write something make color modification quickly 
+> quantize image save image file 
+> process make modification image . 
+> make sense , main use xv view image . 
+> many change image , keep modification 
+> buffer ; make operation image , 
+> simplify operation list unnecessary operation . 
+think say . 
+24 bit image 8 
+bit many ` similar ' color map onto single palette color . 
+
+color get modify fairly arbitrary way . 
+want apply 
+modification back 24 bit file , find 
+color map one palette color . 
+> suppose know discuss . 
+> discuss error xv 2.21 show image , 
+> suggestion work perfectly . 
+look consistent . 
+first post something seem suggest see 
+xv 8 bit program sort error . 
+post bug , mean like . 
+post say bug , never say , misunderstand 
+etc. . 
+say : 
+> discuss error xv 2.21 show image , 
+would make mind claim would make 
+discussion lot easier . 
+---------------- 
+> far see editing window xv -- , 
+> must anyway . 
+problem present exist anyway , 
+> try solve , would make 
+> problem program first place . 
+eh ? 
+sorry , understand say . 
+aware english 
+native language try hard fathom meaning , 
+paragraph defeat . 
+> gamma color correction easily image 
+> present . 
+need make trick image 
+> back 24 bit image . 
+yes originally say , global change easily possible . 
+statement contradict say earlier : 
+> write something make color modification quickly 
+> quantize image save image file 
+> process make modification image . 
+--------------- 
+would suggest color editing 24 bit file ? 
+
+would group ` related ' color edit together ? 
+global 
+change could unless software different 
+much complicated . 
+> ok , write situation user want edit image 
+> user want edit individual color -- question , way , 
+> jump discussion bit . 
+think actually . 
+talk load 24 bit image xv , 
+manipulate color color editor , apply 
+change 24 bit file exit xv . 
+xv let edit individual 
+color . 
+sudden jump topic ? 
+> solution work , withing real 
+> image 
+yes aware 24 bit file !! 
+> -- see , user see image ; go back silly . 
+understand statement suppose mean . 
+> change individual color image : 
+> change individual color useless 
+> case image quantize -- small change may 
+> make serious error anywhere image . 
+??? 
+say 
+??? 
+> xv allow feature , recommend use 
+> mention type image . 
+ah ! 
+see thew problem ! 
+first want extend xv allow editing 8 
+bit preview 24 bit image . 
+point problem . 
+
+say problem , personally , happen use 
+part program cause problem !! 
+> moreover , xv paint program ; make global 
+> change . 
+sure say . 
+certainly one make local change . 
+> full xv , change individual color sound like 
+> paint program job . 
+> person screen , need trick get 
+> original image modify . 
+user see full 
+> image , need make approximation possible 
+> modify individual color individual pixel pixel group 
+> image . 
+select color , could 7x7 
+> cursor window show true color image cursor window area -- 
+> selecting individual color possible . 
+yes one possible approach . 
+would find program take 
+approach clumsy , however . 
+> ok , think much painting program , never see 
+> good view plan make . 
+mention 
+> painting program screen ... 
+well agree - think much . 
+seem 
+consistent point make contradict one post 
+next . 
+ok , day - perhaps step back think one 
+. 
+yes . 
+? 
+wrong xv ? 
+> save image jpeg ; jpeg 
+> design . 
+say last post , jpeg compression algorithm . 
+way 
+save disk space trade quality compression . 
+fail see 
+problem . 
+propose workable alternative . 
+> also , human expect save image ; 
+speak . 
+person meet speak , 
+24 bit image 8 bit , expect process somehow 
+reverse file save ; keep heve make 
+8 bit image palette . 
+perhaps yus singular ? 
+> say , 
+> person would like crop part image save , 
+> expect image still . 
+look , next time import 24 bit image xv look carefully main 
+control panel - tell many color allocate 8 bit 
+image . 
+xv make abundantly clear editing original 24 bit 
+file . 
+person claim confusing . 
+> , xv design 
+> without think human interface human expect 
+> program work -- design error . 
+design error bug ? 
+; - 
+read lip . 
+xv program view modify 8 bit image . 
+let 
+import image . 
+show , would say , good deal think 
+human interface . 
+everyone else seem use happily purpose 
+design . 
+make false claim . 
+> hear xv design first , 
+> good idea take full image without make 
+> major change original design . 
+would come solid , logical , well argue lucid description 
+precisely propose extension would work , feel free post . 
+
+far , . 
+> , even screen image , process image save 
+> image could easily , instead . 
+argh !! 
+, comment like . 
+` easily ' . 
+ok , go ahead code 
+easy . 
+alternatively , look term ` import ' ` transformation ' . 
+> anybody make note : yes , may well make lift 
+> ` ' mean lift go ` ' mean lift go 
+> , put note design solution manual -- however , 
+> even manual tell correct situation , solve problem . 
+> americans : lift example : 
+think bit . 
+actually say , get lift elevator , 
+state mistakenly press button go . 
+everyone else 
+problem . 
+try sue manufacturer ... 
+> well , text may bit hard reading , 
+bet 
+> hopefully 
+> read . 
+mostly . 
+leave aside language issue however , betray wooly 
+think admit language . 
+go think 
+. 
+-- 
+chris lilley 
+
+technical author , computer graphics visualisation training project 
+computer graphics unit , manchester computing centre , oxford road , 
+manchester , uk . 
+m13 internet : 
+voice : +44 0 fax : +44 0 janet : 
+

@@ -1,0 +1,45 @@
+: tom mcfarland 
+subject : re : mysterious beeping 
+: 
+: 
+organization : hewlett packard 
+lines : 40 
+article < > , andy write : 
+| > article 
+| > author andy 
+| > post mon , 19 apr 1993 gmt 
+| > 
+| > reason follow code cause x application beep whenever 
+| > intercept keystroke change meaning . 
+intent code 
+| > allow `` date '' field following special key : 
+| > 
+| > tt : insert today 's date 
+| > - _ : bump day one 
+| > 
+| > date example . 
+perhaps use 
+| > field . 
+| > 
+| > 
+| > 
+| > reason follow code beep whenever special key 
+| > tt + - _ hit . 
+? 
+idea code interpret 
+| > key special meaning imply code . 
+would like get 
+| > rid beeping , far tell , beep 
+| > lose understand beeping occur . 
+| > 
+| > 
+code delete ... 
+man page discussion resource : 
+
+specify whether bell sound action reverse 
+verification callback . 
+set doit false callback , text field beep 
+. 
+turn behavior , set boolean resource false . 
+tom mcfarland 
+< > 

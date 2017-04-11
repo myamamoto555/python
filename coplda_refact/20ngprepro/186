@@ -1,0 +1,1663 @@
+: peter ware 
+subject : frequently ask question faq 
+supersedes : < > 
+organization : ohio state university dept. computer info . 
+science 
+lines : 1609 
+expire : 14 may 1993 gmt 
+: 
+: . 
+edu 
+summary : answer x11 window system widget xt intrinsic library 
+: 
+version : $ id : , v 1.28 ware exp $ 
+x toolkit intrinsic 
+monthly post 
+article contain answer frequently ask question 
+faq x toolkit intrinsic . 
+submit 
+question preferably answer send email : 
+many faq , include one , available archive site 
+directory . 
+answer . 
+name 
+faq archive appear 
+line top article . 
+faq archive . 
+code fragment public domain . 
+contents 
+0 . 
+xt glossary 
+1 . 
+software versions 
+2 . 
+related faq 's 
+3 . 
+application core dump use ? 
+4 . 
+use different visual default ? 
+5 . 
+visual application use ? 
+6 . 
+shell widget visual ? 
+7 . 
+visual , depth shell inherit ? 
+8 . 
+still get error . 
+? 
+9 . 
+widget get destroy call ? 
+10 . 
+exit still execute ? 
+11 . 
+resize shell widget ? 
+12 . 
+handle file ? 
+13 . 
+good book magazine xt ? 
+14 . 
+widget available ? 
+15 . 
+alternative ? 
+16 . 
+pass float value ? 
+17 . 
+write resource converter ? 
+18 . 
+open multiple display ? 
+19 . 
+change r3 r4 r5 ? 
+20 . 
+resource load ? 
+21 . 
+order callback execute ? 
+22 . 
+know widget visible ? 
+23 . 
+widget xt , i.e. ? 
+24 . 
+use , , etc ? 
+25 . 
+debug xt application ? 
+26 . 
+, work ? 
+27 . 
+implement drag drop ? 
+
+0 . 
+xt glossary 
+
+o xt intrinsic implement object orient interface c code 
+allow useful graphical component create . 
+include 
+class provide base functionality : object , 
+, core , composite , constraint , shell , , , 
+etc. . 
+term `` xt '' `` '' use interchangeably , 
+however , use precisely mean specific library x 
+window system . 
+particular , include athena , 
+motif , widget set . 
+without widget 
+intrinsic especially useful . 
+o widget refer user interface abstraction create via xt . 
+
+precise use , object subclass core class . 
+
+use loosely refer anything subclass 
+object class although accurately call windowless 
+widget gadget . 
+o xlib c interface x11 protocol . 
+one layer 
+xt . 
+typically widget use relatively xlib 
+function xt provide service although 
+understanding xlib help problem . 
+
+1 . 
+software versions 
+
+follow latest version xt base software : 
+
+software version release next expect 
+
+patch 18 none 
+patch 21 ?? 
+athena widgets see 
+motif ?? 
+?? 
+?? 
+?? 
+xtra 2.5 ?? 
+xw none 
+none 
+fwf 3.4 
+
+
+2 . 
+related faq 's 
+
+david b. lewis maintain faq x. 
+post monthly located export . 
+liam r. e. quin post faq list open look 
+. 
+jan newmarch post faq list motif 
+. 
+peter ware post faq list 
+; export . 
+
+3 . 
+application core dump use ? 
+
+brief , xlib , xt widget set mutual exclusion 
+critical section . 
+interrupt handler likely leave one 
+library inconsistent state -- 
+appropriate flag yet set , dangle pointer , middle 
+list traversal , etc. . 
+note c standard point 
+behavior signal handler undefined signal handler call 
+function signal , problem 
+specific xlib xt ; posix specification mention 
+function may call safely may assume 
+function call xlib xt function . 
+safe way deal signal set flag 
+interrupt handler . 
+flag later need check either 
+work procedure timeout callback . 
+incorrect add either 
+interrupt handler . 
+another note , dangerous 
+add work procedure never finish . 
+effectively 
+preempt work procedure previously add never 
+call . 
+another option open pipe , tell event loop 
+read end use signal handler 
+write byte write end pipe signal . 
+however , could deadlock process pipe fill . 
+deal problem ? 
+primarily 
+suppose portable layer hardware operating 
+system . 
+good enough reason -- think . 
+note : article x journal 1:4 example o'reilly 
+volume 6 error . 
+
+4 . 
+use different visual default ? 
+
+require complicated answer . 
+window 
+three thing visual specific -- visual , 
+border . 
+widget 
+resource ; shell widget visual resource another question 
+deal shell visual . 
+default value 
+resource exactly say . 
+
+shell widget get 
+. 
+one three resource 
+properly set , error occur window 
+create . 
+properly set value depend 
+visual use . 
+get work ? 
+two part answer . 
+
+first want application start particular visual 
+second want particular shell within application 
+start different visual . 
+second actually easier 
+basic information need available . 
+first 
+little harder 'll need initialize much toolkit 
+order determine need information . 
+
+sample code start application use something 
+default visual . 
+
+compile : 
+cc - g - o visual - - - - - - lm 
+
+run : 
+. 
+visual - geometry - depth 24 - visual - fg blue - bg yellow 
+
+need move mouse get particular visual 
+install . 
+
+< . 
+h > 
+< . 
+h > 
+< . 
+h > 
+struct 
+
+visual visual ; 
+int depth ; 
+; 
+options ; 
+resource 
+
+`` visual '' , `` visual '' , , visual , 
+, visual , , null , 
+`` depth '' , `` depth '' , , int , 
+, depth , , null , 
+; 
+desc 
+
+'' - visual '' , '' visual '' , , null , 
+'' - depth '' , '' depth '' , , null 
+; 
+int 
+main , 
+int ; 
+char ; 
+
+app ; application context 
+widget top ; widget 
+display ; display 
+char ; save argument vector 
+int ; save argument count 
+; create 
+; template find visual 
+; return list visual 
+int count ; number match 1 ? 
+
+arg arg 10 ; 
+cardinal cnt ; 
+char name `` test '' ; 
+char class `` test '' ; 
+
+save command line argument 
+
+; 
+char char ; 
+char , char , char ; 
+
+follow create _ dummy _ widget 
+retrieve appropriate visual resource . 
+
+cnt 0 ; 
+top & app , class , desc , desc , & , , 
+string null , arg , cnt ; 
+top ; 
+cnt 0 ; 
+top , & options , resource , 
+resource , 
+arg , cnt ; 
+cnt 0 ; 
+& & ! 
+top 
+
+arg cnt , , ; + + cnt ; 
+
+create appropriate . 
+could 
+use default base class 
+visual ; could examine property 
+find right ; could 
+sort thing ... 
+
+, 
+top , 
+, 
+; 
+arg cnt , , ; + + cnt ; 
+
+find information visual . 
+
+; 
+, , & , & count ; 
+& & count > 0 
+
+arg cnt , , 0 . 
+depth ; 
++ + cnt ; 
+; 
+
+
+top ; 
+
+create real widget . 
+
+arg cnt , , ; + + cnt ; 
+arg cnt , , ; + + cnt ; 
+top char null , class , 
+, 
+, arg , cnt ; 
+
+display application loop handle event . 
+
+top ; 
+app ; 
+return 0 ; 
+
+
+5 . 
+visual application use ? 
+
+point argue one opinion 
+way application know appropriate visual -- 
+specify user . 
+disagree 
+application probably fall category always use 
+default visual hardware specific expect particular 
+visual extension 
+. 
+? 
+application run isolation . 
+depend way server 
+allocate resource may always want application run 
+mode go mess application . 
+may 
+upset choose run greyscale instead 
+monochrome . 
+example , low end color sun server many different 
+possible visual : monochrome , 256 entry , static gray , static 
+color , . 
+sgi iris 's offer 
+plus 12 bit , 24 bit , overlay plane . 
+
+6 . 
+shell widget visual ? 
+
+strictly convention . 
+make possible arbitrary 
+widget know visual use find look 
+shell widget ancestor obtain visual 
+shell . 
+widget visual resource . 
+, must 
+realize method use visual call 
+. 
+also make resource 
+obtain widget find . 
+
+reasonable value probably . 
+
+7 . 
+visual , depth shell inherit ? 
+
+default value resource set . 
+
+interpret , 
+default visual screen widget parent -- i.e. 
+root widget tree . 
+parent widget null , shell copy 
+depth parent use 
+visual . 
+
+8 . 
+still get error . 
+? 
+
+resource converter improperly cache reference . 
+
+especially true earlier version motif . 
+
+9 . 
+widget get destroy call ? 
+
+see section 2.8 xt specification . 
+eventually get destroy , immediately . 
+
+intrinsic destroy widget two-phase process . 
+first 
+child flag set indicate destroy . 
+put list widget destroy . 
+way 
+pend x event reference widget clean 
+memory actually free . 
+second phase 
+perform callback , event handler , action 
+complete , check next x event . 
+point 
+list traverse widget 's memory actually free would , among 
+thing . 
+, widget may destroy 
+intrinsic determine reference 
+widget list . 
+, phase 2 destruction occur 
+immediately . 
+also , nested event loop use , widget place 
+destroy list enter inner event loop 
+destroy return outer event loop . 
+
+10 . 
+exit still execute ? 
+
+problem simple entirely reasonable approach exit 
+application use , call exit directly , widget 
+may chance clean external state -- open 
+socket , temporary file , allocate x resource , etc. . 
+code 
+simplicity reason assume single widget : 
+widget 
+gw 
+widget gw ; widget find 
+
+widget top ; 
+top gw ; top ; top top 
+empty ; 
+return top ; 
+
+void 
+gw , closure , 
+widget gw ; widget 
+closure ; datum app specify 
+; widget specific datum 
+
+widget ; 
+gw ; 
+; make disappear quickly 
+; 
+exit 0 ; 
+
+one see code exit 's immediately destroy 
+widget . 
+trouble phase 2 destruction may never 
+occur . 
+work widget application work 
+widget external state . 
+might think 
+since work always work remember part 
+reason object orient approach use one ignorant 
+implementation detail widget . 
+mean 
+widget may change someday require external state 
+clean destroy callback . 
+one alternative modify set global flag 
+test flag private event loop . 
+however , private 
+event loop frown upon tend encourage sloppy , 
+difficult maintain practice . 
+try follow code instead . 
+< . 
+h > 
+extern widget 
+
+widget gw 
+
+; 
+extern boolean 
+
+closure 
+
+; 
+extern void 
+
+widget gw , 
+closure , 
+
+
+; 
+widget 
+gw 
+widget gw ; widget find 
+
+widget top ; 
+top gw ; top ; top top 
+empty ; 
+return top ; 
+
+void 
+gw , closure , 
+widget gw ; widget 
+closure ; datum app specify 
+; widget specific datum 
+
+widget ; 
+gw ; 
+; make disappear quickly 
+; 
+gw , 
+, null ; 
+
+boolean 
+closure 
+closure ; 
+
+exit 0 ; 
+
+
+add work procedure get call 
+application next idle -- happen event 
+process destroy callback execute . 
+
+11 . 
+resize shell widget ? 
+
+realize , one resize shell widget . 
+proper 
+thing resize currently manage child shell widget 
+use . 
+geometry change propagate 
+shell ask window manager may may allow 
+request . 
+however , shell must resource 
+set true otherwise even ask 
+window manager grant request shell resize . 
+change position shell , use shell , 
+child , within limit window manager grant . 
+
+12 . 
+handle file ? 
+
+, however unix semantics ready file 
+fit people ' intuitive model . 
+unix term file 
+descriptor ready read whenever read call would 
+block , ignore setting optional flag indicate 
+block . 
+work expect terminal , socket pipe . 
+
+file read always return return indicate eof 
+-- i.e. datum . 
+result code always 
+call input handler always think something 
+read . 
+culprit select system call base 
+os 's poll system call . 
+get around unix system ? 
+best approach use 
+another process check available input file . 
+use pipe 
+connect application process pass file 
+descriptor pipe . 
+suitable program 
+bsd system `` tail - f filename '' . 
+rumor select system _ completely _ 
+reliable . 
+particular : 
+- ibm aix 3.1 : one would work 
+several thousand time stop 
+event wake . 
+seem result race 
+condition kernel . 
+ibm claim fix . 
+- pyramid , work . 
+- ultrix possibly pipe implement 
+socket , completely break , although writing 
+side write 512 byte block reading side receive 
+break put pipe byte 
+time . 
+waste lot time read small block 
+get detect situation 
+select ignore pipe 10 - 
+give whole block . 
+note description use unix terminology 
+read , file descriptor , pipe , etc. . 
+os dependent area 
+may identical system . 
+however intrinsic designer 
+feel common enough operation include 
+part toolkit . 
+also deal signal 
+point know . 
+
+13 . 
+good book magazine xt ? 
+
+favorite definitive reference . 
+perspective 
+offer reasonable introduction also go full 
+detail . 
+start use already 
+familiar xt concept behind , newcomer may may 
+find useful . 
+always find accurate complete , 
+mean 1000 page . 
+, paul j. , swick , ralph r. , `` x window system toolkit , 
+complete programmer 's guide specification '' , digital press , 
+1990 , isbn , order number ; 
+prentice-hall , isbn . 
+also available dec 
+direct . 
+book commonly novice : 
+young , doug . 
+`` x window system : application program 
+xt motif version , '' prentice hall , 1989 isbn . 
+isbn 
+course o'reilly entire series manual x xt . 
+o'reilly order . 
+particular , volume 5 xt 
+reference manual page style . 
+3rd edition extensively 
+overhaul go far beyond mit manual page . 
+find 
+useful . 
+particular , index reference 
+manual page help great deal chase related 
+information . 
+read two periodical , `` x resource '' `` x journal '' . 
+two deal specifically x. `` x resource '' 
+publish quarterly , o'reilly , one issue 
+mit x consortium technical conference proceedings . 
+
+advertising . 
+find informative pretty good depth . 
+
+order , call , email . 
+editorial 
+matter , email . 
+table contents post 
+~ bib tex form 
+~ ascii form . 
+`` x journal '' bimonthly trade rag lot advertising . 
+article informative orient toward less technical 
+audience . 
+read see go 
+expectation learn great deal remember , represent 
+fairly small percentage people . 
+also , pretty good 
+collection people advisory board columnist . 
+call 
+. 
+
+14 . 
+widget available ? 
+
+three popular widget set : 
+athena - set provide x11 . 
+sufficient 
+purpose ugly side . 
+recently , 3d look 
+available ftp : . 
+. 
+motif - osf available license fee commonly ship 
+many workstation vendor platform almost everyone 
+sun . 
+look good work well personally think 
+poorly implement . 
+- open look toolkit set widget 
+implement sun 's open look specification . 
+develop 
+at&t . 
+never use comment quality . 
+hear rumor pain actually get . 
+addition follow collection widget also available : 
+xtra - library widget sale graphical software 
+technology . 
+include bar graph , stack 
+bar graph , line graph , pie chart , xy plot , hypertext , help , 
+spreadsheet , datum entry form widget . 
+never see 
+comment . 
+fwf - free widget foundation attempt collect set 
+freely available widget . 
+include editor , 
+, . 
+current set widget 
+obtain via anonymous ftp machine 
+file . 
+. 
+- cornell university widget gene dykes . 
+one 
+early widget set release . 
+provide nice appearance 
+button mini command language . 
+probably 
+widely use . 
+xs - sony widget set . 
+around r3 day 
+seem disappear . 
+look like promise . 
+xw - hp widget . 
+precursor motif . 
+originally write 
+r3 exist diff get work r4 & r5 . 
+, pretty good widget set less die . 
+precursor xray toolkit 
+originally implement apparently provide 
+much experience designer xt . 
+xo - widget set work . 
+still primitive 
+give try . 
+edu : 
+follow specialize widget also available : 
+tbl - implement tabular layout widget . 
+support motif 
+widget child . 
+part wcl . 
+plot - athena plotting widget athena widget . 
+contact . 
+
+15 . 
+alternative ? 
+
+
+name language vendor 
+
+c sun 
+ous c + + 
+interview c + + stanford 
+c 
+
+however much like c admire skill design 
+implement , hopefully alternative develop 
+next 3-5 year use object orient language . 
+keep 
+eye open expect change time language 
+c _ start _ gain acceptance . 
+
+16 . 
+pass float value ? 
+
+first , go wrong structure arg essentially 
+struct 
+
+string name ; 
+long value ; 
+arg ; 
+code : 
+arg arg ; 
+arg , `` name '' , 3.2 
+expand 
+arg arg ; 
+`` name '' ; 
+3.2 ; 
+see normal c type conversion , 
+get integer `` 3 '' instead floating point value `` 3.2 '' . 
+
+value copy widget resource , bit pattern 
+wildly different require floating point value . 
+, 
+get around ? 
+follow macro athena widget document 
+previous suggestion . 
+arg , n , d \ 
+float > \ 
+arg , n , & d ; \ 
+else \ 
+ld & d ; \ 
+arg , n , ld ; \ 
+
+
+17 . 
+write resource converter ? 
+
+courtesy rich thomson : 
+follow discussion resource converter assume r4 r5 
+intrinsic . 
+resource converter change r3 r4 allow 
+destructor caching convert value . 
+several main type resource converter : 
+string datum type 
+datum type string 
+datum type datum type 
+string datum type 
+usually string datum type converter fixed set string 
+convert datum type value . 
+often 
+use map enumerated name enumerated value : 
+name value 
+`` true '' 1 
+`` false '' 0 
+case , string datum type converter need compare 
+resource value list fix string . 
+
+readily accomplish use `` quark '' mechanism 
+resource manager . 
+resource value turn quark , 
+unique representation string fit 
+single word . 
+resource quark compare 
+quark fix string represent enumerated value . 
+many enumerate string converter many 
+converter , small number enumeration string , 
+global initialization routine might use turn 
+resource string quark . 
+way , first time one 
+converter use , string turn quark 
+hold static variable use next invocation one 
+converter . 
+ii datum type string 
+type converter slightly easier string datum 
+type converter since use quark necessary . 
+instead , 
+datum type value simply convert string value , 
+probably use . 
+datum type string converter useful application 
+wish convert internal datum type value string 
+write valid resource specification file . 
+
+mechanism use provide `` snapshot '' application state 
+file . 
+snapshot use restore program 
+known state via usual x resource database mechanism . 
+take trouble write string datum type 
+converter , much extra effort write datum type 
+string converter . 
+write time help ensure 
+consistent . 
+iii datum type datum type 
+type converter use convert exist datum type 
+value another datum type . 
+instance , x pixel value 
+convert rgb datum type contain separate field 
+red , green blue . 
+type signature resource converter follow : 
+boolean display , , cardinal , 
+, , ; 
+display ; 
+arg ; 
+cardinal ; 
+; 
+; 
+; 
+converter invoke , `` '' argument point source 
+x resource manager value `` '' argument point 
+destination x resource manager value . 
+`` '' argument 
+opaque pointer datum specify 
+converter register . 
+`` arg '' `` '' argument 
+allow extra information pass converter 
+invoke . 
+instance , pixel rgb structure converter discuss 
+would need visual argument lookup 
+pixel obtain rgb value correspond pixel . 
+care must take `` '' argument . 
+
+follow type definition specify size location 
+convert value : 
+struct 
+unsigned int size ; 
+; 
+, ; 
+converter invoke , address may point location 
+give size convert value location null . 
+former case , converter ensure size 
+destination area large enough handle convert value . 
+
+destination area large enough , converter 
+set size amount space need return false . 
+
+caller ensure enough space allocate 
+converter . 
+size large enough , converter simply 
+copy convert value space give return true . 
+location null , converter assign location 
+address static variable contain convert value 
+return true . 
+write group converter , code often repeat 
+become convenient define macro : 
+done var , type \ 
+- > \ 
+\ 
+- > size < type \ 
+\ 
+- > size type ; \ 
+return false ; \ 
+\ 
+else \ 
+type - > var ; \ 
+\ 
+else \ 
+- > & var ; \ 
+- > size type ; \ 
+return true ; 
+str \ 
+- > & & - > size < string \ 
+\ 
+- > size string ; \ 
+return false ; \ 
+\ 
+else \ 
+- > str ; \ 
+- > size string ; \ 
+return true ; 
+inside converter , good idea perform little safety 
+check `` '' `` arg '' argument ensure 
+converter call properly . 
+write converter , need register 
+intrinsic . 
+invoke resource converter create 
+widget fetch resource value resource database . 
+register converter single application context , use 
+: 
+void context , , , converter , arg , , 
+cache , destructor 
+context ; 
+string ; 
+string ; 
+converter ; 
+arg ; 
+cardinal ; 
+cache ; 
+destructor ; 
+register converter application context , use 
+: 
+void , , converter , arg , , 
+cache , destructor 
+string ; 
+string ; 
+converter ; 
+arg ; 
+cardinal ; 
+cache ; 
+destructor ; 
+r3 intrinsic , routine 
+; supersede 
+. 
+whenever possible , newer routine 
+use . 
+converter register , `` cache '' argument 
+specify converted resource value cache : 
+cache converted value 
+cache convert value 
+cache convert value per display basis 
+cache convert value require round-trip server 
+good idea instance string pixel conversion . 
+`` destructor '' argument routine invoke 
+resource destroy , either cached reference count 
+decrement zero widget value 
+destroy . 
+follow type definition : 
+void , , , 
+, cardinal ; 
+context ; 
+; 
+; 
+arg ; 
+cardinal ; 
+destructor invoke free auxiliary storage associate 
+`` '' argument , actually free storage point 
+`` '' argument - > . 
+destructor pass 
+extra argument pass converter 
+conversion perform instance , visual argument 
+string pixel converter since destructor would need 
+free allocate pixel well private 
+datum pass converter register . 
+sample converter code find follow file mit 
+r5 distribution : 
+
+
+
+
+18 . 
+open multiple display ? 
+
+see `` multi-user application software use xt '' , x resource , issue 3 , 
+summer 1992 oliver jones complete coverage issue 
+involve . 
+answer base article . 
+
+nutshell , one use add display _ single _ 
+application context shutdown display 
+remove application context . 
+real problem occur try close display . 
+
+happen 3 way : 
+1 . 
+user select `` quit '' button one display , 
+2 . 
+user window manager send message , 
+3 . 
+server disconnect -- possibly message , 
+server , network failure . 
+'ll assume deal gracefully 1 & 2 since _ merely _ 
+problem translate widget display remove 
+display . 
+, read oliver jones article . 
+third one difficult handle . 
+following base 
+oliver jones article include difficult 
+problem . 
+difficulty arise xlib design presume 
+error always unrecoverable fatal . 
+essentially true 
+single display x base application , true 
+multiple display program application thing 
+display information x server . 
+x error occur 
+error handler call _ _ return exit 
+happen . 
+way around use avoid 
+return error handler . 
+follow code fragment 
+demonstrate : 
+
+; 
+void 
+
+display ; 
+
+; 
+, 1 ; 
+
+main 
+
+... 
+0 
+; 
+; 
+
+something give display pointer go 
+back application specific datum perform necessary 
+cleanup . 
+also call . 
+unfamiliar , 
+first call return 0 save 's enough information 
+latter execution return program 
+state execute . 
+return value 
+second value second argument 
+. 
+several caveat use 
+purpose adequate . 
+problem might run resource converter 
+improperly cache resource . 
+likely symptom xlib error 
+, , . 
+may problem 
+total number display open since typically limited 
+number file descriptor available 32 typical 
+value . 
+may also run authorization problem try 
+connect display . 
+much discussion topic 
+november 91 . 
+robert post article basically 
+say way xlib change . 
+
+19 . 
+change r3 r4 r5 ? 
+
+address change . 
+first , general 
+change release describe . 
+, certainly incomplete , 
+list new function add deprecate 
+list . 
+brevity primary goal . 
+much follow information retrieve chapter 13 mit 
+xt manual o'reilly volume 5 , 3rd edition . 
+r3 r4 
+- addition gadget windowless widget 
+- new resource type converter interface handle 
+additional datum . 
+- variable argument list interface . 
+- 4 add release 
+- , & change 
+. 
+- , _ value add count parameter 
+- event handler parameter add 
+- _ specification change . 
+- _ exposure change enumerate datum type boolean 
+- _ init change enumerate datum type boolean 
+- _ add extension record 
+- _ hook obsolete info pass 
+- _ add extension record 
+- _ obsolete info pass _ value 
+- call must store complete geometry . 
+- add . 
+- actually work r4 . 
+r4 r5 : 
+- resource add . 
+- searching , file , make flexible 
+- customization resource add . 
+- resource database . 
+- support permanently allocate string . 
+- allocate string require several class field . 
+- arg argument , , 
+, , change 
+cardinal int 
+- many performance improvement summarize article 
+`` xt performance improvements release 5 '' gabe `` 
+x resource '' , issue 3 : 
+- augment 
+avoid string copy . 
+several field class record 
+indicate need permanent string . 
+- use array strings resource 
+- callback list redesign use less memory 
+- translation manager redesign rewrite take 
+less memory , translation table merge faster , cache 
+action binding 
+- cache . 
+- better sharing gc 's modifiable field 
+- window widget translation use less space faster 
+- space widget name since quark available 
+- widget space allocate include constraint 
+- several example program , 26 % reduction 
+memory usage . 
+function new r5 : 
+---------------------- 
+- gc modifiable field 
+- get action table class 
+- return resource database screen 
+- register language procedure call set locale 
+function new r4 : 
+---------------------- 
+- procedure call _ every _ action . 
+- lot initialization work . 
+- decrement cache reference count converter 
+- specify default resource 
+- register new style converter 
+- directly execute callback list 
+- invoke new style converter 
+- release cached resource value 
+- release list cached resource value 
+- find call resource converter 
+- invoke old-style converter 
+- return display 
+- issue warn conversion 
+- find file 
+- retrieve & modify action 
+- return name class 
+- get constraint widget 
+- return mapping table 
+- read time 
+- retrieve event 
+- obtain selection value incrementally 
+- obtain selection value incrementally 
+- initialize widget class manually 
+- register event handler 
+- register event handler without modify input mask 
+- test subclass object 
+- test subclass 
+- return list 
+- retrieve recent event time 
+- action pop widget 
+- action pop widget 
+- macro structure offset 
+- make selection datum availabe incrementally 
+- map spring-loaded popup 
+- indicate action procedure need passive grab 
+- remove function call every action 
+- find file 
+- return screen object . 
+- set time 
+- set custom 
+- cancel passive button grab 
+- cancel passive key grab 
+- release active keyboard grab 
+- release active pointer grab 
+- interface bunch function 
+- return window nearest widget ancestor 
+deprecated replacement 
+
+r3 
+r3 
+r3 
+r3 
+r3 
+r4 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+action action r4 
+action action r4 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+r3 
+
+20 . 
+resource load ? 
+
+resource widget fill follow place 
+highest priority lowest priority : 
+1 . 
+arg pass creation time . 
+2 . 
+command line argument . 
+3 . 
+user 's per host default file 
+4 . 
+user 's default file . 
+5 . 
+user 's per application default file . 
+6 . 
+system wide per application default file . 
+note 2-6 read application startup . 
+result 
+step 3-6 single resource database use query . 
+per host default file contain customization 
+application execute specific computer . 
+file either 
+specify environment variable 
+set file $ home . 
+- use . 
+user default file either obtain 
+property root window display set 
+file $ home . 
+use . 
+typically , program `` '' 
+use set property . 
+please note 
+keep relatively small client connect 
+display must transfer property . 
+size around 
+reasonable . 
+toolkit may track change 
+. 
+user may many per application default file contain 
+customization specific application . 
+intrinsic quite 
+flexible file find . 
+read next part describe 
+various environment variable effect file 
+find . 
+system wide per application default file typically find 
+. 
+file find 
+fallback resource use . 
+intrinsic quite flexible 
+file find . 
+read next part describe various 
+environment variable effect file find . 
+thanks oliver jones follow , 
+use several environment variable control resource 
+load program -- , 
+, . 
+environment variable 
+control xt look file 
+application initialize . 
+xt load one file 
+path define another path 
+define . 
+set software install system 
+way file appear several different directory 
+hierarchy . 
+suppose , example , run sun 's open 
+windows , also r4 x application install 
+. 
+could set value like 
+, would cause xt look file 
+wherever 
+located : 
+% % n : $ % % n 
+value environment variable list 
+. 
+contain replacement character follow 
+see : 
+% n value filename parameter , 
+application 's class name . 
+% value file `` type '' . 
+case , 
+literal string `` '' 
+% c customization resource r5 
+% suffix . 
+none . 
+% l language , locale , e.g. `` . 
+euc '' 
+% l language part % l e.g. `` ja '' 
+% territory part display 's language string 
+% c part display 's language string 
+let 's take apart example . 
+suppose application 's class name 
+`` '' . 
+also , suppose open windows install . 
+notice example omit lookup . 
+% % n mean 
+$ % % n mean 
+application initialize , xt try open 
+file , order show . 
+soon find one , 
+read use , stop look . 
+effect 
+path search first , . 
+let 's consider another example . 
+time , let 's set 
+look file current 
+work directory , directory ~ . 
+. 
+% : $ % n 
+first path list expand . 
+. 
+second expand 
+$ . 
+convenient setting 
+debugging follow convention name 
+file application 's source directory , 
+run application directory 
+work still resource load properly . 
+note : look file , 
+bizarre reason , neither type file suffix 
+define % % useless . 
+r5 , another twist . 
+may specify customization 
+resource value . 
+example , might run `` '' application 
+like : 
+- '' customization : - color '' 
+one specification value 
+'' % n % c '' expand would 
+'' '' % c substitution 
+character take value customization resource . 
+default , compile xt , : 
+% l % % n % c r5 
+% l % % n % c r5 
+% % n % c r5 
+% l % % n : \ 
+% l % % n : \ 
+% % n 
+note : site replace 
+batch default setting . 
+default , also compile xt , 
+% l % n % c r5 
+% l % n % c r5 
+% n % c r5 
+% l % n : \ 
+% l % n : \ 
+% n : 
+either value user 's home directory 
+set . 
+set 
+value default , xt ignore altogether . 
+notice quick dirty way make application find 
+file current work directory set 
+'' . '' 
+, single dot . 
+r3 , machinery work 
+differently ; r3 , many people set 
+value '' . 
+'' , dot follow slash . 
+
+21 . 
+order callback execute ? 
+
+courtesy donna converse , 
+library guarantee order . 
+
+widget writer application writer ability 
+modify entire contents callback list . 
+neither one 
+currently know 
+guarantee order execution . 
+application programmer rely widget writer ; 
+widget writer require document widget add 
+remove callback list effect ; 
+therefore functionality contain callback 
+independent functionality contain callback 
+list . 
+even though xt standard definition 
+say : 
+`` : specify callback list 
+procedure append . '' 
+may infer word `` append '' callback routine 
+call order add callback 
+list . 
+
+22 . 
+know widget visible ? 
+
+courtesy donna converse , 
+> build widget need know visible . 
+set visible 
+> interest field core window completely obscure , core 
+> visible flag go false . 
+however , window , flag 
+> stay set true . 
+right , everything implement correctly . 
+demonstrate `` deficiency '' 
+x protocol , core widget reflect capability 
+protocol . 
+`` deficiency '' information available one way , 
+case inconvenient way . 
+xt specification accurate , 
+second third paragraph section , read section 
+carefully . 
+visible field change response . 
+event receive window go 
+viewable , , widget ancestor unmapped ; 
+, occur . 
+protocol deficiency . 
+visibility state viewable state specific meaning x protocol ; 
+see glossary xlib x protocol reference manual . 
+> problem `` mwm '' something 
+> else need ? 
+'ll see window manager , window manager . 
+> problem `` mwm '' , fastest 
+> way determine window ? 
+application writer , keep track global boolean action 
+routine translation shell widget 
+contain custom widget . 
+custom widget writer , see 
+field return call . 
+
+suggestion . 
+
+23 . 
+widget xt , i.e. ? 
+
+. 
+
+24 . 
+use , , etc ? 
+
+unfortunately , code call , 
+tend ignore possibility return null . 
+best 
+handle something like : 
+ptr type type 
+! 
+ptr 
+
+`` xyzzy '' ; 
+exit 1 
+
+handle common case define function 
+, , , 
+use standard c language function , 
+execute null value return . 
+xt 
+error handler suppose return effectively exit . 
+addition , call null pointer , use 
+get initial space . 
+allow code like : 
+! 
+ptr 
+ptr type type ; 
+else 
+ptr type ptr , type count + 1 ; 
++ + count ; 
+write : 
+ptr ptr , ptr + + count ; 
+also , accept null pointer argument . 
+generally , ` ve 
+find xt function use . 
+however , anytime 
+allocate anything potentially large use standard function 
+fully recover enough memory error . 
+macro allocate 
+structure copy string : 
+struct abc xyzzy ; 
+char ptr ; 
+char str `` '' ; 
+xyzzy struct abc ; take care type casting 
+ptr str ; 
+strict interpretation reference manual allow 
+implementation provide function 
+free . 
+i.e. code : 
+char ptr ; 
+ptr 100 ; 
+... 
+free ptr ; 
+may work . 
+personally , would call implementation 
+broken complain vendor . 
+common error motif programmer use string 
+really use . 
+
+25 . 
+debug xt application ? 
+
+first , would get `` purify '' pure software . 
+
+great package trace memory problem sun 's . 
+bit pricey 
+$ 2750 would still . 
+excuse marketing blurb 
+contact info . 
+purify insert additional check instruction directly 
+object code produce exist compiler . 
+
+instruction check every memory read write perform 
+program test detect several type access 
+error , read memory , write past 
+would bound , write free memory . 
+purify insert 
+check logic code program , include 
+third party vendor library , verify 
+system call interface . 
+addition , purify track memory 
+usage identify individual memory leak use novel 
+adaption garbage collection technique . 
+purify 's nearly 
+comprehensive memory access check slow target program 
+typically factor two five . 
+alternative package pricey $ 395 sun , run 
+many unix 's pretty similar feature `` sentinel debugging 
+environment '' . 
+replace several c library 
+function add additional check . 
+contact 
+info 
+next , get sort xlib error , 'll need run 
+synchronous mode , easily accomplish '' - sync '' command line 
+argument set variable 1 debugger . 
+
+set break point exit . 
+let trace back 
+original xlib function call . 
+run synchronous 
+mode , actual error may occur number call 
+xlib previously since xlib call buffer reply 
+server asynchronous . 
+next , trouble window layout , use 
+undocumented resource `` '' class resource 
+`` '' cause widget name identify window . 
+example : 
+example % - ' : true ' & 
+example % - tree 
+
+give normal information widget name class 
+window include . 
+help check location size 
+errant widget . 
+next , trouble geometry manager want 
+test way widget manage child , try 
+: . 
+. 
+act filter 
+child geometry manager check behavior 
+. 
+clever idea . 
+unfortunate problem debug callback 
+application execute grab keyboard mouse 
+pulldown menu . 
+server effectively lock 'll need 
+go another machine kill debugger manually . 
+server 
+lock application debug say one else 
+access keyboard application stop 
+wait debugger wait command . 
+unfortunately give input go 
+application stop . 
+best way debug kind problem two machine 
+desk , run program debugger environment 
+one machine , run application , possibly 
+use command sequence like : 
+% + 
+% display :0 ; 
+% gdb application # favorite debugger . 
+: 
+% + 
+% gdb application 
+gdb set environment display :0 
+gdb run ... 
+believe , c debugger method 
+deal call xlib function 
+release grab breakpoint . 
+debug widget problem require pretty good debugging skill 
+knowledge widget work . 
+go long way without know 
+internal particular widget far without 
+understand widget work . 
+judicious use conditional 
+breakpoint add print statement debugger help great 
+deal . 
+
+26 . 
+, work ? 
+
+get delicate problem three routine , 
+. 
+problem 
+use application seem properly . 
+make handy little everything work 
+perfect , `` real '' application nothing happen . 
+introduction r3 function obsolete 
+routine see change r3 , r4 , r5 . 
+happen 
+use default application context different one may 
+create . 
+since event timeout distribute per 
+application context basis use two application context , 
+get event . 
+example : 
+... 
+cnt 0 ; 
+& app , class , 
+desc , desc , 
+& , , 
+fallback , arg , cnt ; 
+... 
+... 
+app 
+would never invoke timeout . 
+
+27 . 
+implement drag drop ? 
+
+courtesy roger reynolds , 19 feb 93 
+buzzword move datum client , 
+`` intuitive '' fashion . 
+motif version 1.2 support capability , 
+support along . 
+two protocol 
+, far know , publish . 
+write package call rdd design flexible public 
+protocol drag 'n drop operation client . 
+
+intention provide tool would make easy people 
+support `` standard '' protocol program develop 
+contribute sell , regardless widget set use long 
+base xt . 
+implementation base upon understanding 
+convention , detail read code . 
+hear dozen people use rdd like feel 
+work whole lot better motif 1.2 stuff . 
+also , seem 
+many think neat constrain use motif 
+anyway . 
+latest rdd stuff available ftp 
+, . 
+possibly older version also 
+available . 
+-- 
+pete ware 
+ci dept , ohio state university w 
+228 bolz hall , 2036 neil ave. h 
+columbus , oh 

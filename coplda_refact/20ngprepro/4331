@@ -1,0 +1,36 @@
+: stephen kelley 
+subject : event handling r4 vs r5 
+organization : , university maryland , college park , md 
+lines : 29 
+two question well probably ... expose & configure 
+event handle . 
+appl . 
+use 1 window draw . 
+since give user 
+capability scaling zoom well allow window 
+resize , make translation table expose & configure event . 
+expose event call redraw method configure event 
+call method . 
+method invoke `` fake '' expose 
+event actually call redraw w appropriate expose struct 
+draw datum . 
+quest 1 . 
+appl . 
+w r4 run either r4 r5 env . 
+get multiple > 4 redraw window get uncovered size 
+change . 
+assume get cascade event . 
+right ? 
+suggestion event better way ? 
+quest 2 . 
+appl . 
+w r5 get expose event 
+whatsoever . 
+event translation table act differently r5 ? 
+thanks advance 
+steve 
+-- 
+
+steve kelley captain , protest ! 
+internet : merry man ! 
+- worf 

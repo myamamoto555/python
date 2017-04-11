@@ -1,0 +1,58 @@
+: john schuch 
+subject : re : need pinout dtmf decoder chip 
+: . 
+
+organization : motorola computer group , tempe , az . 
+distribution : usa 
+lines : 59 
+article < > mont pierce write : 
+> 
+> buy chip suncoast technology try build 
+> dtmf decoder circuit . 
+work ... 
+> 
+> anyone pinout possibly voltage spec would sure 
+> appreciate . 
+presume corporation . 
+pin description 
+1 + input 
+2 - input 
+3 g gain select use feed back resistor 
+4 reference voltage output , 
+5 connect vss 
+6 connect vss 
+7 clock input 
+8 clock output connect crystal across pin 7 8 
+9 vss 
+10 oe output enable logic high allow datum output 
+11 q1 datum output 
+12 q2 datum output 
+13 q3 datum output 
+14 q4 datum output 
+15 std delay steer output company would call ` datum valid ' . 
+16 est early steer output , sort like `` start hear tone '' . 
+17 steering time output 
+18 
+power supply : 4.75 v min. , 5.25 v max . 
+current : 3.0 ma typ , 7.0 ma max . 
+... . 
+. 
+really buy motorola part . 
+: - 
+still stock 
+john 
+someone could fax , email , snail mail copy 
+> spec sheet chip would even better . 
+: 
+> 
+> please email help . 
+> 
+> thanks advance , 
+> -- 
+> mont pierce 
+> 
+> + + 
+> | ham call : internet : | 
+> | band : ibm : | 
+> | mode : cw , ssb , fm | 
+> + + 

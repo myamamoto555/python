@@ -1,0 +1,35 @@
+: david 
+subject : re : mysterious tv problem -- source ? 
+: chip 
+: david 
+organization : mpr ltd. . 
+lines : 30 
+write : 
+> initial symptom : 
+> - picture sound 
+> - crt filament glow 
+> - flyback tick describe 
+> discover hook scope : 
+> - strip put audio video signal 
+> - everything make simple 20-30 hz pulse 
+> - transistor collector case to-3 20-30 hz 
+> sawtooth ca. ring front end 
+> guy , `` going ? 
+anyone see ? 
+happen : 
+1 turn tv . 
+2 horizontal output begin normal operation . 
+power 
+high voltage rest circuitry . 
+3 problem sense horizontal oscillator shut . 
+4 power cycle repeat . 
+thing check : 
+first check short high power component . 
+best bet vertical 
+output transistor , one , voltage regulator . 
+
+common cause type failure much current draw 
+somewhere . 
+also look shutdown circuit tv may may , 
+find one shut horizontal oscillator 
+hard find problem . 

@@ -1,0 +1,78 @@
+: matthias 
+subject : re : available memory . 
+get actual size ? 
+: matthias 
+organization : zentrum fuer , darmstadt , frg 
+lines : 78 
+hello ! 
+article < > , 
+der mouse write : 
+> article < > , matthias write : 
+> 
+possibility determine via x protocol call size 
+free memory available ? 
+> 
+> . 
+even could , answer could date even 
+> get even grab server , could take buffer 
+> user action . 
+try whatever want ; 
+> error indication insufficient server memory available . 
+> 
+> der mouse 
+much help ! 
+especially pex via 
+supply mit , much trouble together 
+enough memory ! 
+perform following : 
+; 
+, ; 
+_ store ; 
+_ mask | ; 
+_ pixel ; 
+
+, 
+, 
+, 
+0 , 
+0 , 
+, 
+, 
+, 
+, 
+unsigned int 0 , 
+8 , 
+, 
+& visual , 
+| | , 
+& ; 
+, ; 
+sync wait exposure event 
+, false ; 
+, , , & ; 
+; 
+_ id ; 
+; 
+_ monitor 0 ; false - > monitor run ! 
+
+_ 0 ; false ! 
+
+null , 0 , | 
+| 
+, & ; 
+1 , & conn , ; 
+get core dump call ! 
+, etc. ! 
+simply core 
+dump ! 
+need way get info maximal available memory 
+! 
+thanks ! 
+, 
+matthias 
+-- 
+matthias | : | @home : 
+6100 darmstadt , frg | , 7 | 73 
+| keith packard say : 
+r5 different r4 . 
+change release number : - 

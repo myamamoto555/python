@@ -1,0 +1,60 @@
+: dan 
+subject : re : question 
+organization : university california ; santa cruz 
+lines : 42 
+: 
+article < > tiger zhao write : 
+> mohit k goyal write : 
+anyone tell card work march 2.1 beta ? 
+> 
+> believe , since card prove 
+> reliable 2.0 ... 
+> 
+card 2.0 driver work march 2.1 
+beta . 
+support card include 2.0 longer . 
+wish install beta , need rem 
+adaptec device driver , nasty tendency crash 
+card attempt use . 
+thanks adaptec ! 
+add driver config.sys cd-rom boot disk , 
+rem adaptec driver . 
+install whole 1st half beta . 
+. 
+work ! 
+ibm 
+nicely copy adaptec driver . 
+thanks ibm ! 
+. 
+. 
+rem 
+adaptec driver . 
+. 
+reboot . 
+everything 
+right order . 
+. 
+work . 
+thing pretty smooth rest installation . 
+. 
+except 
+try install adaptec scsi driver end ... . 
+. 
+
+rem statement fun . 
+bt come driver cost adaptec card 
+come driver . 
+dos driver work great . 
+card easily 
+configure work 8 different set port use 
+multiple host adapter one machine get new card . 
+. 
+also 
+able support 8 gb drive dos . 
+hope help . 
+. 
+- dan 
+-- 
+
+dan galpin 
+

@@ -1,0 +1,38 @@
+: casper h.s. dik 
+subject : re : find default font .1 
+: 
+organization : , university amsterdam 
+lines : 36 
+joel reymont write : 
+> hus , netter ! 
+> build pl 21 solaris 2.1 . 
+use multi-screen 
+> patch , well r5 . 
+suno ... patch everything build great , except 
+> error message give upon startup . 
+say : 
+> `` set default font path ' stuff delete ' '' `` set default font 
+> ` fix ' '' . 
+supply - fp option , complain font path 
+> still complain font . 
+
+> place distribution life . 
+try run truss 1 . 
+best way log network 
+typing : 
+truss - open 
+open '' '' , , 8 
+open '' '' , , 8 
+open '' '' , , 8 
+open '' '' , , err # 2 
+open '' '' , , 8 
+open '' '' , , 8 
+open '' '' , , 8 
+open '' '' , , 8 
+open '' . 
+pcf '' , , 8 
+open '' '' , , 8 
+give idea thing font . 
+define project root make install , everything 
+go right default , even without symbolic link . 
+casper 

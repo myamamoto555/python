@@ -1,0 +1,63 @@
+: alan christiansen 
+subject : re : fast polygon routine need 
+organization : swinburne university technology 
+lines : 49 
+: 
+keyword : polygon , need 
+lucas adamski write : 
+> article < > ian d write : 
+kind polygon ? 
+shade ? 
+? 
+hm ? 
+come play 
+fast routine `` polygon '' . 
+would nice know 
+system vga start , processor ? 
+specifics 
+implementation . 
+need give info want get answer ! 
+: p 
+> want texture map , cause would ask . 
+
+> simple fast routine fill polygon . 
+processor , would 
+> minimum 286 ... maybe 386 find good one 286 . 
+> ideally , want function clip user-defined viewport , 
+> write arbitrary location memory . 
+course chance 
+ok game 3d list characteristic 
+look . 
+think may leave 
+important parameter . 
+polygon convex . 
+less n side . 
+draw mesh wall door etc. . 
+believe algorithm get draw convex 
+polygon much efficient draw 
+concave self intersect polygon . 
+efficiency largely attribute fact 
+simple convex polygon left right edge scan line . 
+complex figure 8 type polygon bit trickier . 
+less n side specification especially small 
+number like 3 4 allow othe optimisation make . 
+thus high speed game application think look 
+code exploit hence limit draw simple convex 
+polygon . 
+> finding something like pretty remote , guess would need source 
+> . 
+oh , guess would need asm otherwise would 
+> slow . 
+see polygon routine c , 
+> slow . 
+3d vector graphic program . 
+hunting high low 
+may general purpose algorithm . 
+limit 3 four side simple convex polygon 
+think might suprised fast c algorithm 
+asm block move fill scan line might actually . 
+> function asm , find one anywhere use . 
+> find one two function , asm pretty bad , 
+> even try rewrite . 
+: 
+> lucas . 

@@ -1,0 +1,48 @@
+: kevin routh 
+subject : : windows ... 
+organization : ford motor company research laboratory 
+lines : 53 
+: . 
+
+: tin 1.1 
+article 
+author kevin routh 
+post 19 apr 1993 gmt 
+information : 
+hook serial port use 
+driver windows 3.1 . 
+cable use 
+cable connect null modem adapter get radio shack catalog 
+# $ 4.95 . 
+seem work fine windows . 
+use follow command dos 
+c : \ dos \ mode , n , p 
+set port way windows port setup . 
+null modem connection follow : 
+1 1 
+2 3 
+3 2 
+4 5 
+5 4 
+6 +8 20 
+20 6 +8 
+7 7 
+print several application seem ok . 
+-- 
+kevin c. routh internet : 
+ford electronics prof : 
+eld ic engineering 
+17000 rotunda drive , voice mail : 
+dearborn , mi facsimile : 
+-- 
+kevin c. routh internet : 
+ford electronics prof : 
+eld ic engineering 
+17000 rotunda drive , voice mail : 
+dearborn , mi facsimile : 
+-- 
+kevin c. routh internet : 
+ford electronics prof : 
+eld ic engineering 
+17000 rotunda drive , voice mail : 
+dearborn , mi facsimile : 

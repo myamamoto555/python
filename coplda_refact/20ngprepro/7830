@@ -1,0 +1,24 @@
+: oliver jones 
+subject : re : q : avoid hang ? 
+keyword : xlib 
+: . 
+
+organization : shawsheen software 
+lines : 18 
+article < > write : 
+> write ` ' , simple x version ` wall ' , want 
+> put message default list display . 
+problem 
+> hang one display currently 
+> control login screen . 
+run secure mode 
+. 
+really simple way tell case . 
+take secure mode ; probably cool . 
+wrap call code 
+future past signal 
+handler . 
+example see source . 
+note probably cause memory 
+leak ; program function way probably need exit 
+regularly . 

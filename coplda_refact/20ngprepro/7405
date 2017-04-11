@@ -1,0 +1,19 @@
+: reiner 
+subject : truetype font mix-up times > cyrillic 
+organization : dlr insitute flight guidance 
+lines : 13 
+: 
+hus 
+problem truetype font window 3.1 . 
+install 
+cyrillic font find cica strange thing happen : 
+sometimes window use cyrillic suppose use times roman . 
+example : backup version 7.1 one line cyrillic text 
+opening banner , next last line . 
+import word windows 
+text write times .2 also result cyrillic . 
+anyone idea look problem ? 
+thanks 
+-- 
+reiner | institute flight guidance 
+| german aerospace research establishment dlr 

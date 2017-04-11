@@ -1,0 +1,48 @@
+: casper h.s. dik 
+subject : re : trouble compile 
+: 
+organization : , university amsterdam 
+lines : 29 
+jeremy epstein write : 
+> david write : 
+> description compile problem delete . 
+gcc - - o - o2 - - l. . 
+. 
+. 
+. 
+
+- - l. . 
+. 
+. 
+. 
+- l. . 
+. 
+. 
+. 
+- l. . 
+. 
+. 
+. 
+- 
+_ 
+ld : undefined symbol 
+_ 
+_ 
+_ 
+> etc. . 
+> bug suno , allude faq although 
+> talk affect . 
+need force 
+> link statically , rather dynamically , work 
+> around linker error . 
+simplest thing edit 
+> failure change line read : 
+> - - 
+> : 
+> - - - - 
+. 
+relevant 3 . 
+x ship suno . 
+relevant mit r5 . 
+mit r5 compile without problem . 
+casper 

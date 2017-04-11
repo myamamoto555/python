@@ -1,0 +1,155 @@
+: ron 
+subject : galileo update - 
+keyword : galileo , jpl 
+organization : jet propulsion laboratory 
+lines : 134 
+: 
+: 1.41 
+forward neal ausman , galileo mission director 
+galileo 
+mission director status report 
+post-launch 
+april 23 - 29 , 1993 
+spacecraft 
+1 . 
+april 22 23 , delta differenced one-way range dor pass 
+perform 63 70 meter antenna 43 
+70 meter antenna , respectively . 
+initial result 
+indicate delta dor pass april 22 unsuccessful due ground 
+station hardware problem one april 23 successfully perform . 
+2 . 
+april 23 , cruise science memory readout mro perform 
+magnetometer mag instrument . 
+analysis indicate datum receive 
+properly . 
+3 . 
+april 23 , spare power relay contact command closed via 
+spacecraft store sequence . 
+relay command close cd 
+command datum subsystem prior launch command close 
+preclude possibility jupiter pps 
+source internal electrostatic charge . 
+4 . 
+april 26 , cruise science memory readout mro perform 
+extreme ultraviolet spectrometer euv , dust detector dd , magnetometer 
+mag instrument . 
+preliminary analysis indicate datum receive 
+properly . 
+5 . 
+period april 26 april 27 , navigation cycle 
+perform . 
+navigation cycle provide near-continuous acquisition 
+two-way doppler range datum three consecutive pass 
+spacecraft , , . 
+6 . 
+april 26 , real-time command send test slew radio relay 
+antenna rra preparation slew test april 28 . 
+rra slew approximately 3.5 degree stow approximately 
+20.3 degree . 
+preliminary analysis indicate antenna slew 18 
+degree well within predict range . 
+rra command back 
+approximately 15.2 degree stow . 
+preliminary analysis indicate 
+antenna reach 15.8 degree also well within predict range . 
+
+rra motor temperature 1 degree c start activity 
+increase 1.6 degree c completion . 
+verify proper rra slewing , rra slew test 
+uplink spacecraft execution april 28 . 
+upon successful uplink , 
+delay action command dac send reposition stator 
+may 4 initial pre-test position . 
+also , dac send turn 
+two-way april 28 prior start rra slew test 
+. 
+7 . 
+april 27 , command send reset command loss timer 
+264 hour , plan value mission phase . 
+8 . 
+april 28 , rra slew test execute nominally . 
+spacecraft 
+store sequence control perform six rra slew start 16 degree 
+stow go 53 degree , back 25 degree , 51 degree , 
+back 22 degree , 48 degree back 21 degree . 
+
+slew well within predict range . 
+rra motor temperature 
+2.3 degree c start activity increase 4.4 
+degree c completion . 
+completion rra slew , real-time 
+command send reconfigure back pre-test configuration . 
+9 . 
+bus imbalance measurement exhibit significant change 
+greater 25 dn throughout period . 
+ac measurement read 17 dn 
+3.9 volt . 
+dc measurement read 134 dn 15.7 volt . 
+
+measurement consistent model develop special 
+anomaly team . 
+10 . 
+spacecraft status april 29 , 1993 , follow : 
+system power margin - 75 watt 
+b spin configuration - 
+c spin - 3.15 scanner 
+d spacecraft attitude approximately 23 degree 
+lagging 4 degree lead 
+e downlink telemetry - code 
+f general thermal control - temperature within 
+acceptable range 
+g rpm tank pressure - within acceptable range 
+h orbiter science - instruments power pws , 
+euv , uvs , epd , mag , hic , dd 
+- power , temperature within 
+acceptable range 
+j cmd loss timer setting - 264 hour 
+time initiation - 203 hour 
+gd ground data systems : 
+1 . 
+first test mgd .0 command system cmd take 
+place april 27 , 1993 madrid 34 meter antenna . 
+test go 
+well demonstrate new command system interface new dsn 
+deep space network group 5 command processor assembly cpa . 
+test 
+successful next test .0 cmd schedule may 1 , 1993 
+goldstone 34 meter antenna . 
+2 . 
+april system engineers monthly report ground system development 
+office mmr conduct thursday , april 29 . 
+review current 
+project institutional dsn moso system status conduct . 
+on-going 
+cruise development plus phase 1 2 delivery schedule , past month 
+accomplishment potential problem area discuss . 
+significant 
+schedule change significant problem report . 
+trajectory 
+noon thursday , april 29 , 1993 , galileo spacecraft trajectory 
+status follow : 
+distance earth km 1.26 au 
+distance sun km 1.98 au 
+heliocentric speed km per hour 
+distance jupiter km 
+round trip light time 20 minute , 58 seconds 
+special topic 
+1 . 
+april 29 , 1993 , total real-time command 
+transmit galileo since launch . 
+, initiate 
+sequence design process initiate real-time command process . 
+past week , 74 real time command transmit : 73 initiate 
+sequence design process one initiate real time command 
+process . 
+major command activity include command perform initial 
+rra slew test , uplink rra slew test , dac reposition 
+stator turn , reset command loss timer , execute 
+rra slew test . 
+___ _____ ___ 
+_ | ____ \ _ | ron | 
+| | | | __ \ | | | | jet propulsion lab | 
+___ | | | | | __ | | | | __ telos | new zealand 
+___ | | | | ___ | | __ | pasadena , ca | part caterpillar 
+| _____ | | _ | | _____ | | part vegetable . 

@@ -1,0 +1,64 @@
+: lawrence , waikato university 
+subject : re : rumours 3do ??? 
+organization : university waikato , hamilton , new zealand 
+lines : 52 
+article < > , ricardo hernandez write : 
+> article < > , sean mcmains < > write : 
+> 
+> | > 
+> | > ricardo , animation playback lawrence refer 
+> | > earlier post plain old quicktime 1.5 compact video codec . 
+> | > see digitized video apple 's early commercial , 
+> | > precise run centris 650 nicely 16-bit 
+> | > color depth . 
+would expect use algorithm , risc 
+> | > processor able approach full-screen full-motion animation , 
+> | > though imply , processor tax highly 
+> | > dynamic material . 
+> 
+> 
+> sean , want get ` ' go say , 
+> little bit skeptic performance 
+> claim centris , 'll see please , , reserve 
+> 
+> 
+> chicago last consumer electronics show , apple 
+> booth . 
+walk , show real-time video capture 
+> use supermac ? 
+card digitize make right spot 
+> quicktime movie . 
+think quicktime use old one 
+> 1.5 . 
+fact current version come december . 
+> digitize guy talk something . 
+play back quite 
+> nicely real time . 
+guy expand window resize 
+> 3xx 320 y think frame rate decrease enough notice 
+> anymore . 
+drop like 15 fp . 
+
+> increase bit , drop 10 < - > 12 fp . 
+> 
+> ask mac use ... use quadra know 
+> model , 900 ? 
+, tell guy quicktime 
+> could play back speed even . 
+> 
+> well , spoil claim say , since 68040 quadra mac 
+> little bit trouble . 
+even ! 
+
+> memory ! 
+test movie create 320 240 resolution , scale . 
+scale operation original quicktime 1.0 ; 
+current version optimization ratio like 4:1 160 120 - > 320 240 , 
+even , prepared believe performance good 
+play back actual 320 240 movie . 
+numerical 
+measurement scale playback . 
+lawrence fone : -7 
+computer services dept fax : -7 
+university waikato electric mail : 
+hamilton , new zealand 37 ^ 47 ' 26 '' , 175 ^ 19 ' 7 '' e , gmt 

@@ -1,0 +1,21 @@
+: robert j.c. 
+subject : re : vga graphic mode 
+distribution : world 
+organization : neptune software inc 
+lines : 15 
+write article < > : 
+> 
+> greeting ! 
+> 
+> anybody know possible set vga graphic mode 
+> instead 640x480 ? 
+info appreciate ! 
+vesa bios 's support mode . 
+vga able 
+support 640x480 256 color since require 256,000 byte . 
+vesa tsr support ; vesa mode card support 
+due restriction . 
+
+-- 
+responsible anything say -- opinion . 
+robert j.c. 

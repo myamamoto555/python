@@ -1,0 +1,360 @@
+: carl 
+subject : nhl alltime scoring leader 
+organization : purdue university department computer sciences 
+lines : 235 
+distribution : world 
+: 
+nhl 's alltime leader goal point end 
+1992-3 season . 
+, much thanks joseph . 
+carl 
+note : active player player score least one 
+point past season . 
+point leader follow goal leader . 
+find mistake , please send email . 
+
+time nhl leading goal scorer denote active player : 
+1 . 
+gordie howe 801 
+2 . 
+wayne gretzky 765 
+3 . 
+marcel dionne 731 
+4 . 
+phil esposito 717 
+5 . 
+bobby hull 610 
+6 . 
+mike gartner 583 
+7 . 
+mike bossy nyi 573 
+8 . 
+guy lafleur 560 
+9 . 
+johnny bucyk 556 
+10 . 
+maurice richard mtl 544 
+11 . 
+stan mikita chi 541 
+12 . 
+frank mahovlich 533 
+13 . 
+michel goulet 532 
+14 . 
+jari kurri 524 
+15 . 
+bryan trottier 520 
+16 . 
+gilbert perreault buf 512 
+17 . 
+jean beliveau mtl 507 
+18 . 
+lanny mcdonald 500 
+19 . 
+jean ratelle 491 
+20 . 
+norm ullman 490 
+21 . 
+dino ciccarelli 485 
+22 . 
+darryl sittler 484 
+23 . 
+mario lemieux pit 477 
+24 . 
+glenn anderson 459 
+25 . 
+alex delvecchio det 456 
+26 . 
+mark messier 452 
+27 . 
+dale hawerchuk 449 
+28 . 
+rick middleton 448 
+29 . 
+steve yzerman det 445 
+30 . 
+peter stastny 444 
+31 . 
+rick 441 
+32 . 
+joe mullen 433 
+33 . 
+yvan cournoyer mtl 428 
+34 . 
+dave taylor la 427 
+35 . 
+steve shutt 424 
+36 . 
+denis savard 423 
+37 . 
+bill barber phi 420 
+38 . 
+brian propp 413 
+39 . 
+gary unger 413 
+40 . 
+rod gilbert nyr 406 
+41 . 
+steve larmer chi 406 
+42 . 
+john 402 
+----------------------------------------------------------------- 
+active player : 
+bernie nicholls 397 
+pat lafontaine 386 
+brian bellows 382 
+dave andreychuk 373 
+tim kerr 370 
+bobby smith 357 
+brett hull 356 
+luc robitaille la 353 
+mike foligno 351 
+dave christian 340 
+paul coffey 330 
+brent sutter 325 
+pat verbeek 318 
+ron francis 311 
+cam neely 292 
+ray bourque bos 291 
+bob carpenter 285 
+brent ashton 284 
+doug gilmour 277 
+rick tocchet 277 
+kevin dineen 275 
+tomas sandstrom 273 
+dale hunter 269 
+ryan walter 264 
+brian mullen 260 
+ed olczyk 260 
+kirk muller 258 
+joe nieuwendyk 257 
+jimmy carson 254 
+
+time nhl score leader denote active player : 
+1 . 
+wayne gretzky 
+2 . 
+gordie howe 
+3 . 
+marcel dionne 
+4 . 
+phil esposito 717 873 1590 
+5 . 
+stan mikita chi 541 926 1467 
+6 . 
+bryan trottier 520 890 1410 
+7 . 
+johnny bucyk 556 813 1369 
+8 . 
+guy lafleur 560 793 1353 
+9 . 
+gilbert perreault buf 512 814 1326 
+10 . 
+alex delvecchio det 456 825 1281 
+11 . 
+jean ratelle 491 776 1267 
+12 . 
+mark messier 452 780 1232 
+13 . 
+norm ullman 490 739 1229 
+14 . 
+peter stastny 444 777 1221 
+15 . 
+jean beliveau mtl 507 712 1219 
+16 . 
+dale hawerchuk 449 763 1212 
+17 . 
+bobby clarke phi 358 852 1210 
+18 . 
+paul coffey 330 871 1201 
+19 . 
+denis savard 423 769 1192 
+20 . 
+jari kurri 524 666 1190 
+21 . 
+mario lemieux pit 477 697 1174 
+22 . 
+bobby hull 610 560 1170 
+23 . 
+bernie federko stl 369 761 1130 
+24 . 
+mike bossy nyi 573 553 1126 
+25 . 
+michel goulet 532 590 1122 
+26 . 
+darryl sittler 484 637 1121 
+27 . 
+mike gartner 583 524 1107 
+28 . 
+frank mahovlich 533 570 1103 
+29 . 
+ray bourque bos 291 806 1099 
+30 . 
+dave taylor la 427 635 1062 
+31 . 
+denis potvin nyi 310 742 1052 
+32 . 
+henri richard mtl 358 688 1046 
+33 . 
+steve yzerman det 445 595 1040 
+34 . 
+bobby smith 357 679 1036 
+35 . 
+rod gilbert nyr 406 615 1021 
+36 . 
+glenn anderson 459 559 1018 
+37 . 
+lanny mcdonald 500 506 1006 
+38 . 
+rick middleton 448 540 988 
+39 . 
+dave keon 396 590 986 
+40 . 
+ron francis 311 675 986 
+41 . 
+bernie nicholls 397 580 977 
+42 . 
+brian propp 413 561 974 
+43 . 
+andy bathgate 349 624 973 
+44 . 
+maurice richard mtl 544 421 965 
+45 . 
+larry robinson 208 750 958 
+46 . 
+dino ciccarelli 485 472 957 
+47 . 
+steve larmer chi 406 517 923 
+48 . 
+joe mullen 433 486 919 
+49 . 
+bobby orr 270 645 915 
+50 . 
+brad park 213 683 896 
+51 . 
+butch goring 375 513 888 
+52 . 
+bill barber phi 420 463 883 
+53 . 
+dennis 356 521 877 
+54 . 
+ivan 361 505 866 
+55 . 
+yvan cournoyer mtl 428 435 863 
+56 . 
+dean prentice 391 469 860 
+57 . 
+ted lindsay 379 472 851 
+58 . 
+tom 292 551 843 
+59 . 
+dale hunter 269 570 839 
+60 . 
+john tonelli 325 511 836 
+61 . 
+jacques lemaire mtl 366 469 835 
+62 . 
+larry murphy 203 631 834 
+63 . 
+john 402 425 827 
+64 . 
+doug wilson 237 590 827 
+65 . 
+doug gilmour 277 548 825 
+66 . 
+red kelly 281 542 823 
+67 . 
+pierre larouche 395 427 822 
+68 . 
+bernie geoffrion 393 429 822 
+69 . 
+steve shutt 424 393 817 
+70 . 
+phil housley 242 575 817 
+71 . 
+wilf 356 458 814 
+72 . 
+peter mcnab 363 450 813 
+73 . 
+brian bellows 382 428 810 
+74 . 
+dave andreychuk 373 436 809 
+75 . 
+pit martin 324 485 809 
+76 . 
+pat lafontaine 386 421 807 
+77 . 
+ken linesman 256 551 807 
+78 . 
+gary unger 413 391 804 
+79 . 
+ken hodge , sr 328 472 800 
+80 . 
+neal broten min 249 547 796 
+81 . 
+wayne cashman bos 277 516 793 
+82 . 
+rick 441 347 788 
+83 . 
+borje salming 150 637 787 
+84 . 
+jean pronovost 391 383 774 
+85 . 
+peter mahovlich 288 485 773 
+86 . 
+dave christian 340 430 770 
+87 . 
+rick kehoe 371 396 767 
+88 . 
+rick macleish 349 410 759 
+89 . 
+thomas steen wpg 240 511 751 
+
+active player : 
+al macinnis 185 555 740 
+luc robitaille la 353 371 724 
+mike foligno 351 367 718 
+brent sutter 325 389 714 
+mark howe 192 520 712 
+kirk muller 258 433 691 
+tim kerr 370 304 674 
+adam oates 167 490 657 
+randy carlyle 148 499 647 
+ryan walter 264 382 646 
+pat verbeek 318 313 631 
+brent ashton 284 345 629 
+bob carpenter 285 337 622 
+brian mullen 260 362 622 
+ed olczyk 260 358 618 
+kelly 215 402 617 
+brett hull 356 247 603 
+rick tocchet 277 324 601 
+dan quinn 232 367 599 
+scott stevens 132 462 594 
+tomas sandstrom 273 320 593 
+tom fergus 235 346 581 
+dave babych 120 460 580 
+mike ridley 230 348 578 
+laurie 225 350 575 
+keith acton 224 350 574 
+murray craven 205 365 570 
+kevin dineen 275 290 565 
+rob ramage 139 423 562 
+mike 234 319 553 
+gary suter 124 428 552 
+pierre turgeon 218 324 542 
+troy murray 217 324 541 
+cam neely 292 241 533 
+geoff courtnall 246 274 520 
+vincent damphousse 195 320 515 
+jimmy carson 254 259 513 
+peter zezel 182 328 510 
+guy carbonneau mtl 207 302 509 
+mark osborne 202 301 503 
+chris chelios 108 394 502 
+dave poulin 195 301 496 
+ray ferraro 230 263 493 
+russ courtnall 208 284 492 
+joe nieuwendyk 257 234 491 
+john maclean nj 241 248 489 
+-- 

@@ -1,0 +1,44 @@
+: tobias ` dope ' 
+subject : re : force window manager accept specific coordinate window 
+organization : technical university berlin , germany 
+lines : 36 
+distribution : world 
+< > < > 
+: . 
+de 
+: 1.0 
+: ; charset iso-8859-1 
+: 
+: message 22 apr 1993 
+article < > richard verhoeven write : 
+sorry , . 
+place title position 
+window position . 
+become problem want program able save current 
+configuration restore later . 
+currently , solution : 
+... ; 
+. 
+. 
+; 
+... ; 
+... ; 
+... ; 
+work , less elegant . 
+leave wonder 
+overlook something obvious . 
+richard . 
+know mwm resource specify position use 
+border window `` user '' window . 
+maybe window manager 
+similar option . 
+another way figure difference `` user '' window position 
+window manager decoration window position subtract 
+position . 
+use remember window manager 
+decoration window parent window . 
+unfortunately , 
+figure decoration width height window map 
+way . 
+greeting , 
+tobias 

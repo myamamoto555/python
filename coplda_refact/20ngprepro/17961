@@ -1,0 +1,62 @@
+: tony stewart 
+subject : re : voltage regulation current limit 
+organization : inquiring mind bbs 1 
+lines : 54 
+andy collins write : 
+> one question throw guy ... 
+> 
+> class project , need design build power supply 
+> follow spec : 
+> 
+> : adjustable 
+> current : limit 1a 
+> 
+> voltage must stay within 2 % designate value 
+> ac ripple less 5 mv rm 
+> 
+> course , use adjustable voltage , 
+> regulator chip ; ^ 
+> 
+> problem current limit i.e. find stuff 
+> rest part circuit . 
+supply must , 
+> present load would draw 1a , give 
+> supply voltage , reduce voltage current equal 
+> one amp . 
+thus , short thing ammeter , 
+> read one amp . 
+measure current 1 ohm 
+> resistor 12v , read one amp output voltage , 
+> necessity , must 1v . 
+> 
+> basic idea see current limiter involve 
+> circuit pull current base output 
+> power transistor , therefore reduce output . 
+> 
+> , anybody idea could work ? 
+> 
+> thanks advance . 
+> 
+> andy collins , 
+> 
+> 
+> p : anybody want flame stupid project , agree fully , 
+> still , grade ; ^ 
+> 
+design ramp shutoff , current limit even 
+cutoff ... sound like want `` '' current limit . 
+lead correct pull bias series regulator base 
+drive . 
+order get brick - wall , need enough voltage gain 
+current sensor . 
+normally darlington current sense 
+resistor adequate , infinite gain . 
+. 
+use op amp sense 
+current stable voltage reference use driver 
+turn base bias transistor . 
+phase compensation 
+may necessary closed loop control system 
+180 degree phase shift circuit unity gain ok ?? 
+
+inquiring mind bbs , winnipeg , manitoba 

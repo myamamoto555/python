@@ -1,0 +1,35 @@
+: roger c. pao 
+subject : re : 16mb isa limit 
+keyword : monitor , vga , question 
+organization : microtech software 
+lines : 29 
+mark ashley write : 
+> latest pc magazine pentium , 
+> editorial 
+> advantage pc use rather 
+> plain . 
+supposedly user 
+> eventually want 16mb ram . 
+> however since isa bus 24 bit , 
+> anything bus access 16mb 
+> even 32mb motherboard . 
+> far agree argument . 
+> writer claim glitch 
+> occur system 16mb 
+> limit . 
+part understand 
+> ram right motherboard . 
+> cpu problem talk 
+> ram . 
+anybody explain ? 
+problem isa 
+address first 16mb system 
+memory . 
+use cpu 
+system dma actual datum 
+transfer transfer datum directly 
+system ram . 
+
+-- 
+roger c. pao gordius , bagdad , ! 
+, 

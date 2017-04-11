@@ -1,0 +1,27 @@
+: tim channon 
+subject : re : use analog multiplexer digital signal 
+: 
+distribution : world 
+: $ revision : 1.20 $ 
+organization : null 
+lines : 19 
+> subject say - use digital signal ? 
+see 
+> could handle digital signal , could wrong . 
+anyone 
+> advice ? 
+thanks . 
+yes . 
+use purpose rest assure 
+work fine . 
+one case route bit serial digital audio use 
+difficult see signal degradation surprise give 
+pretty fast edge . 
+spec would something like -3 db @ 
+50 ohm . 
+complex type generally little slower 
+resistive . 
+plain 4000 series good handle 5v logic . 
+remember output load see input device . 
+tc . 
+e-mail : 

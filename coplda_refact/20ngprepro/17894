@@ -1,0 +1,948 @@
+: john t. 
+subject : frequently ask question faq 
+originator : 
+: cerberus 
+: < > 
+organization : jet propulsion laboratory , pasadena , ca 
+expire : mon , 10 may 1993 gmt 
+lines : 956 
+: 
+message automatically post week effort 
+cut repetitive junk . 
+last change 
+. 
+answer frequently ask question 
+would like include post , please send mail . 
+
+want see post every week , please add subject line 
+kill file . 
+thank . 
+copy faq couple week old , may want 
+seek recent version . 
+latest version faq always 
+available archive site . 
+alias 
+. 
+. 
+-- 
+_ john 
+john 
+-- 
+last update : 
+sorry post couple week , call 
+town due death family . 
+reality , folk . 
+new ? 
+siggraph online bibliography project . 
+
+contents : 
+1 general reference graphic question . 
+2 draw three-dimensional object two-dimensional screen . 
+3 quantize 24 bit image 8 bit . 
+4 convert color grayscale . 
+5 quantize grayscale black & white . 
+6 rotate raster image arbitrary angle . 
+7 free image manipulation software . 
+8 format document tiff , iff , biff , nff , , fit , etc. . 
+9 convert vector format . 
+10 get pixar film . 
+11 draw circle curve ? 
+12 order standard document . 
+13 ftp email . 
+14 tell whether point within planar polygon . 
+15 tessellate sphere . 
+16 specific reference global illumination . 
+17 siggraph information online 
+18 siggraph panels proceedings available 
+19 graphics mailing list 
+20 specific reference file format 
+21 gif ? 
+22 morph ? 
+23 height field 
+24 find area 3d polygon 
+25 join 
+26 find mri ct scan volume datum ? 
+27 specific reference spatial datum structure include 
+
+28 get program plot xy z datum f x datum ? 
+29 specific reference pex 
+30 siggraph online bibliography project 
+1 general reference graphic question : 
+computer graphics : principle practice 2nd ed . 
+, j.d. foley , 
+a. van dam , s.k. feiner , j.f. hughes , addison-wesley 1990 , isbn 
+
+procedural element computer graphics , david f. rogers , mcgraw 
+hill 1985 , isbn 
+mathematical element computer graphics 2nd ed. , david f. rogers 
+j. alan adams , mcgraw hill 1990 , isbn 
+three dimensional computer graphics , alan watt , addison-wesley 1990 , isbn 
+
+introduction ray tracing , andrew glassner ed . 
+, academic press 
+1989 , isbn 
+graphic gem , andrew glassner ed . 
+, academic press 1990 , isbn 
+
+graphics gems ii , james arvo ed . 
+, academic press 1991 , isbn 
+
+graphic gem iii , david kirk ed . 
+, academic press 1992 , isbn 
+ibm disk mac disk 
+digital image warping , george , ieee computer society press 
+monograph 1990 , isbn 
+digital image processing 2nd ed . 
+, rafael c. gonzalez , paul wintz , 
+addison-wesley 1987 , isbn 
+programmer 's geometry , adrian bowyer , john , butterworths 1983 , 
+isbn pbk 
+automatic mail handler brown university allow user `` computer 
+graphic : principle practice , '' foley , van dam , feiner , 
+hughes , obtain text erratum information distribution 
+software package describe book . 
+also , user send 
+author feedback , report text error software bug , make 
+suggestion , submit exercise . 
+receive information describe 
+use mail handler , simply mail 
+put word `` help '' subject line . 
+use subject line 
+`` '' receive information specifically concern 
+software package . 
+errata `` introduction ray tracing '' available 
+. 
+errata `` digital image warping '' directory 
+`` . 
+erratum '' . 
+c code `` graphics gems '' series available via anonymous ftp 
+. 
+look directory 
+various volume gem , , , get readme file first . 
+errata _ graphics gems _ _ graphics gems ii available 
+. 
+list computer graphic , computational geometry image processing 
+journal available , . 
+2 draw three-dimensional object two-dimensional screen . 
+simple answer , divide depth . 
+verbose 
+explanation , see reference , start : 
+foley & van dam & feiner & hughes `` computer graphics '' book certainly 
+good start . 
+chapter 6 `` view 3d '' , read chapter 15 , 
+`` determination '' . 
+information go chapter 16 
+shading , chapter 19 clipping , branch . 
+3 quantize 24 bit image 8 bit . 
+find copy `` color image quantization frame buffer display '' 
+paul , siggraph '82 proceedings , page 297 . 
+
+algorithm , one work well fairly simple . 
+implementation 
+include raster toolkit see item 7 . 
+variant method describe `` graphics gems '' , p. . 
+note 
+code `` graphics gems '' series available ftp site , 
+describe . 
+check john bradley 's `` diversity algorithm '' , incorporate 
+xv package describe back manual . 
+package see section 7 contain another 
+quantize algorithm present `` better job 
+algorithm , slower '' . 
+also implementation : 
+wan , wong , , _ algorithm multidimensional data 
+clustering _ , transaction mathematical software , vol . 
+14 # 2 june , 1988 , 
+p. . 
+: . 
+shar . 
+code , 
+modified form , appear utah raster toolkit well . 
+4 convert color grayscale . 
+ntsc : 
+luminosity .299 red + .587 green + blue 
+5 quantize grayscale black & white . 
+reference need stuff : 
+digital , robert , mit press 1987 , isbn 
+go start code , check image manipulation 
+software mention item 7 . 
+package mention 
+form gray b & w conversion . 
+6 rotate raster image arbitrary angle . 
+obvious wrong method loop pixel source 
+image , transform coordinate , copy pixel destination . 
+wrong leave hole destination . 
+instead , 
+loop pixel destination image , apply reverse 
+transformation coordinate , copy pixel source . 
+method quite general , use one-to-one 
+2-d mapping , rotation . 
+add anti-aliasing 
+sub-pixel sampling . 
+however , much faster method , include , 
+involve three shear operation . 
+method originally 
+create im raster toolkit see ; implementation 
+also present . 
+reference : `` fast algorithm raster 
+rotation '' , alan graphic 
+interface '86 vancouver . 
+article im toolkit appear 
+journal . 
+update version rotation paper appear 
+`` graphics gems '' see section 1 original title . 
+7 free image manipulation software . 
+number toolkit convert one image format 
+another , simple image manipulation size scaling , plus 
+above-mentioned 24 - > 8 , color - > gray , gray - > b & w conversion . 
+pointer : 
+xv john bradley . 
+image display , manipulation , format 
+conversion package . 
+xv display many image format permit editing 
+gif file , among . 
+program update ; see file 
+. 
+. 
+, jef . 
+comprehensive format conversion image 
+manipulation package . 
+latest version always available via 
+anonymous ftp : . 
+, 
+: . 
+, 
+: . 
+. 
+im raster toolkit , alan . 
+provide portable efficient format related toolkit . 
+
+format versatile support pixel arbitrary channel , 
+component , bit precision allow compression machine 
+independence . 
+kit contain 50 tool 
+extensive support image manipulation , digital format 
+conversion . 
+previously distribute tape university 
+waterloo , ftp version appear someday . 
+utah rle toolkit . 
+conversion manipulation package , similar 
+. 
+available via ftp : - , 
+: - , : - . 
+fuzzy manipulation , michael mauldin < > . 
+conversion manipulation package , similar . 
+version 1.0 
+available via ftp : , 
+: . 
+, : . 
+. 
+img software set , paul raveling < > . 
+read 
+write image format , display x11 screen , 
+image manipulation . 
+version 1.3 available via ftp 
+: _ 1.3 . 
+, 
+: _ 1.3 . 
+along large collection color 
+image . 
+xim , x image manipulator , philip r. thompson . 
+essential 
+interactive image manipulation use toolkit 
+interface . 
+support image 1 , 8 , 24 32 bit format . 
+convert gif , , , tiff , rle , xim , 
+format . 
+write level 2 postscript . 
+utility image 
+application library include . 
+paint package . 
+available via 
+ftp . 
+, jim frost < > . 
+read image various 
+format display x11 screen . 
+available via ftp 
+: , nearest 
+archive . 
+xli , gill , update numerous improvement 
+speed number format support . 
+available 
+place tape , archive . 
+tiff software , sam leffler < > . 
+nice 
+portable library reading write tiff file , plus tool 
+manipulate read format . 
+available via ftp 
+: . 
+: . 
+
+, x11 tool view tiff file . 
+write handle 
+many different kind tiff file possible remain 
+simple , portable efficient . 
+illustrate common problem 
+building use different visual class . 
+
+distribute part sam leffler 's package also 
+available , . 
+2.0 announce ; include xlib xt version . 
+alv , image toolkit . 
+version post 
+. 
+also available via email 
+. 
+, image manipulation language . 
+version 2.1 post 
+. 
+, x11 package display interactive manipulation 
+image . 
+include tool image conversion , annotation , compositing , 
+animation , create montage . 
+read write many 
+popular image format . 
+available via ftp 
+: . 
+. 
+, huge ~ 100 meg graphical development environment base 
+. 
+component include visual programming language , code 
+generator extend visual language add new application 
+package system , interactive user interface editor , 
+interactive image display package , extensive library image 
+signal processing routine , plot package . 
+available via 
+ftp : . 
+, image processing analysis package . 
+
+include 200 image manipulation , processing measurement 
+routine , on-line help , plus tool image editor , color 
+table editor several biomedical utility . 
+available via anonymous 
+ftp : .1 . 
+
+san diego supercomputer center image tool , software tool 
+reading , write , manipulate raster image . 
+binary 
+machine available via anonymous ftp : . 
+independent jpeg group write package reading 
+write jpeg file . 
+ftp : . 
+v ? 
+. 
+
+forget set binary mode ftp tar file . 
+
+folk still name server , ip address : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. 
+
+
+
+
+
+
+
+
+
+please post mail message say `` ftp , could someone 
+mail ? '' 
+number automated mail server 
+send thing like response message . 
+see item 13 
+detail . 
+also , newsgroup specifically discussion 
+software like . 
+may find useful information . 
+8 format document tiff , iff , biff , nff , , fit , etc. . 
+almost certainly need . 
+read item 7 free 
+image manipulation software . 
+get one package 
+look . 
+chance excellent image converter 
+go write already . 
+still want one 
+format document , many file available anonymous ftp 
+directory . 
+format . 
+file collect net believe correct . 
+archive include pixel format , two - three-dimensional object 
+format . 
+future archive uncertain moment , mark 
+hall < > apparently longer maintain . 
+second graphic file format archive actively maintain 
+quincey koziol . 
+latest version exist 
+. 
+. 
+format . 
+apparently , 
+neither complete , might want check . 
+fit stand flexible image transport system . 
+file format 
+often use astronomy . 
+despite name , contain image 
+thing well . 
+regular monthly fits basics 
+information post - read want know . 
+9 convert vector format . 
+lot people ask convert postscript , 
+cgm , whatever . 
+important understand 
+different problem image format conversion item 7 . 
+convert 
+one image format another fairly easy problem , since 
+get past file header junk , pixel pixel -- basic object 
+image format . 
+vector format . 
+basic object -- circle , ellipsis , 
+rectangle , etc. -- vary one format another . 
+except extremely restricted case , simply possible 
+one-to-one conversion vector format . 
+software convert cgm file . 
+
+contributor state run unix , , possibly mac . 
+better , specific blurb would welcome . 
+hand , quite possible close approximation , 
+render image one format use primitive another . 
+far know , one put together general toolkit 
+converter , two different postscript converter 
+post . 
+check index nearest archive 
+site . 
+related frequent question convert vector format 
+bitmapped image - postscript sun raster format , 
+x11 bitmap . 
+example , commercial postscript clone 
+pc 's allow render disk file well printer . 
+also , 
+postscript interpreter next box sun 's 
+use render file clever . 
+general , 
+answer . 
+however , someone put together vector 
+vector conversion toolkit , add vector raster converter would 
+trivial . 
+gnu ghostscript fsf - current version include 
+driver ppm gif format file , thus use 
+postscript ppm postscript gif filter . 
+implement 
+essentially postscript level 1 alot display postscript 
+level 2 . 
+10 get pixar film . 
+various john lasseter pixar computer animated shorts available 
+video tape . 
+order direct cinema limited : 
+film individual price institutional price 
+luxo , jr. . 
+$ 14.95 $ 50.00 
+red 's dream $ 19.95 $ 75.00 
+tin toy $ 24.95 $ 75.00 
+knickknack $ 24.95 $ 75.00 
+luxo , jr. red 's toy $ 39.95 $ 100.00 
+tape '' vhs ntsc . 
+add $ pal format . 
+also 
+available : 
+tin toy t-shirt $ 15.00 
+knickknack 3d t-shirt $ 15.00 include glass 
+individual order , add $ 5 s&h first tape shirt , $ 2 
+additional tape shirt . 
+institutional order , add $ 5 s&h 
+first tape , $ 3 additional tape . 
+foreign shipping , add 
+$ shirt . 
+call international , 
+fax charge credit card . 
+call first verify 
+price availability . 
+, write : 
+direct cinema limited 
+1749 14th street 
+santa monica , ca 
+allan say : 
+siggraph sell tape four shorts 
+$ 25 . 
+sale price . 
+get slightly 
+normally . 
+$ 35 maybe . 
+believe 
+available renderman retail pixar 's address . 
+pixar 
+1001 west cut blvd. . 
+richmond , ca. 
+
+fax 
+obtain video directly pixar contain `` luxo , jr. '' , `` red 's 
+dream '' , `` tin toy '' `` '' $ 25.00 , plus $ 2.50 shipping . 
+
+take order phone via fax major credit card . 
+
+order mine last week receive several day later . 
+expect 
+able rent copy local video store . 
+accord license 
+agreement print back cover case , rent . 
+11 draw circle curve ? 
+short answer , `` . '' 
+unless use rational spline 
+approximate circle . 
+approximation may look acceptable , 
+sensitive scale . 
+magnify scale error 
+approximation magnify . 
+deviation circularity 
+visible small become glaring large . 
+want 
+job right , consult article : 
+`` menagerie rational circle '' 
+leslie wayne tiller 
+ieee computer graphics application , volume 9 , number 9 , 
+september , 1989 , page . 
+rough , non-rational approximation , consult book : 
+computational geometry design manufacture 
+i. d. faux m. j. pratt , 
+ellis horwood publishers , halsted press , john wiley 1980 . 
+best know non-rational approximation , consult article : 
+`` good approximation circle curves '' 
+tor dokken , morten , tom , knut 
+computer aid geometric design , volume 7 , number 1-4 combine , 
+june , 1990 , page elsevier science publishers 
+12 order standard document . 
+american national standards institute sell ansi standard , also 
+iso international standard . 
+sale office , 
+mail address 1430 broadway , ny ny 10018 . 
+help 
+complete name number . 
+useful number know : 
+cgm computer graphics metafile iso 1987 . 
+gk graphical 
+kernel system ansi . 
+programmer 's hierarchical 
+interactive graphics system ansi . 
+ige 
+. 
+language binding often separate related number ; 
+example , gks fortran binding . 
+make available key milestone solicit 
+comment graphical public include ! 
+. 
+ansi let 
+know order ; available global engineering 
+. 
+13 ftp email . 
+number site archive usenet source newsgroup 
+make available via email query system . 
+send message 
+automate server say something like `` send fbm '' , 
+hour day later get file mail . 
+addition , least one server . 
+send mail 
+say `` help '' tell use 
+. 
+note service time turn due abuse . 
+14 tell whether point within planar polygon . 
+consider ray originate point interest continue 
+infinity . 
+cross odd number polygon edge along way , 
+point within polygon . 
+ray cross even number 
+edge , point either outside polygon , within interior 
+hole form intersect polygon edge . 
+idea know 
+trade jordan curve theorem ; see eric haines ' article 
+glassner 's ray trace book information , include 
+treatment special case . 
+another method sum absolute angle point 
+vertex polygon . 
+sum 2 pi , point inside , 
+sum 0 point outside . 
+however , method 
+order magnitude slower previous method evaluate 
+trigonometric function usually quite costly . 
+code method plus barycentric triangle testing find 
+ray tracing news , vol . 
+5 , no. 3 , available : 
+. 
+z. 
+15 tessellate sphere . 
+one simple way recursive subdivision triangle . 
+
+base recursion octahedron , level divide 
+triangle four smaller one . 
+jon leech < > 
+post nice routine call generate coordinate . 
+available ftp . 
+16 specific reference global illumination . 
+rick speer maintain bibliography : 
+highlight edition - 
+500 citation span period 1968 
+november ' 91 ; 
+ii papers siggraph , graphics interface , , cg 
+international proceedings december , ' 91 ; 
+iii citation keyword easy lookup ; 
+iv keyword author ; 
+v glossary 119 keyword use . 
+bib form postscript file . 
+printout 41 page long . 
+list ftp site dir contain file . 
+name 
+`` '' compress site - 
+site dir 
+
+
+
+graphic 
+
+eric haines maintain ray trace 
+illumination bibliography . 
+`` refer '' format , 
+search electronically simple awk script search keyword 
+include . 
+bibliography available 
+site list , current version maintain 
+: `` . 
+'' `` . 
+'' . 
+tom wilson collect 300 abstract ray 
+trace related research papers book . 
+information essentially 
+plaintext , latex troff formatting program include . 
+
+collection available site `` . 
+'' . 
+17 siggraph information online 
+steve cunningham ralph 
+announce online information site 
+. 
+site provide siggraph information via 
+anonymous ftp electronic mail archive server . 
+anonymous ftp service standard , ftp directory include 
+conference publication subdirectory . 
+retrieve information electronic mail , send mail 
+
+subject body message include message send 
+follow topic wish . 
+good place start 
+command 
+send index 
+give up-to-date list available information . 
+18 siggraph panels proceedings available 
+steve cunningham bob judd 
+acm siggraph announce availability siggraph '91 panels proceedings 
+site . 
+proceedings available 
+three format : 
+text 
+rtf rich text format , suitable many word processor 
+word m word macintosh 
+may retrieve two way : 
+1 anonymous ftp 
+change one directory 
+_ proceedings text | rtf | word 
+text rtf file may download ascii mode , word 
+file store format must download binary 
+mode . 
+directory contain table contents file toc describe 
+contents panel file . 
+2 electronic mail 
+send mail 
+
+retrieve either text rtf file . 
+suggest 
+first retrieve index file put one message 
+send index 
+send index 
+subject body message . 
+get necessary 
+information retrieve actual transcript file . 
+19 graphics mailing list 
+variety mailing list , 
+cover either single product single topic . 
+
+active participant one time , find 
+focus expertise bring bear isolate topic 
+nothing short amazing . 
+please send appropriate information 
+would like see add . 
+name : imagine mailing list 
+description : discussion forum user imagine 3d rendering 
+animation package impulse , inc. . 
+platform : amiga , ibm 
+subscription : 
+post : 
+name : mailing list 
+description : discussion forum user digital creations 
+box , software , file format 
+platform : amiga 
+subscription : 
+post : 
+name : users mailing list 
+description : discussion forum user 
+platform : unix box , amiga , mac , ibm 
+subscription : 
+post : 
+name : lightwave 3d software toaster mailing list 
+description : discussion forum user lightwave , video 
+toaster modelling render package 
+platform : amiga 
+subscription : 
+`` subscribe '' message 
+post : 
+name : pov mailing list 
+description : discussion forum pov renderer 
+platform : unix 
+subscription : 
+post : 
+name : mailing list massive parallel rendering 
+description : ? 
+platform : unix 
+subscription : 
+post : 
+20 specific reference file format 
+graphics file formats , david kay john levine , 
+1992 , isbn paper , isbn $ 36.95 hardcover , 
+isbn $ 24.95 paper . 
+comment - 26 format , software 
+good , - prefer book . 
+question book may send . 
+21 gif ? 
+gif stand graphics interchange format . 
+portable usable upon 
+wide variety platform . 
+quite limit way yes , 
+keeper faq opinion , fact , like 
+much . 
+however , look like ask question 
+previously cover list . 
+following list 
+newsgroup like one could go find gif . 
+subject : faq - general info 
+subject : faq - os specific info 
+newsgroup : , , 
+, , 
+. 
+d , 
+available indicate usenet newsgroup , via anonymous ftp 
+. 
+file : 
+. 
+
+. 
+
+also available send mail 
+message contain : 
+send . 
+
+send . 
+
+send message contain `` help '' get general information 
+mail server . 
+also , could check resource describe section 7 , 8 , 
+20 information . 
+22 morph ? 
+warp deformation image map pixel new 
+location . 
+morph blend one image object another one . 
+valerie hall write excellent introduction warping 
+morph . 
+available anonymous ftp 
+directory morph . 
+three file : 
+. 
+postscript version , many picture - 1.5 m 
+. 
+text version 
+. 
+z response morph question 
+file compress , must use binary transfer 
+afterwards . 
+23 height field 
+height field special case . 
+number use , 
+terrain rendering , optimization possible . 
+thus , 
+get faq section . 
+note reference doubt 
+located via bib section 16 . 
+follow paper seem definitive reference : 
+f. kenton musgrave 
+grid tracing : fast ray tracing height fields 
+july , 1988 
+
+available `` research report '' yale university , 
+also siggraph '91 fractal modeling 3d computer graphics 
+imaging course note , best available net : 
+. 
+
+. 
+
+. 
+
+. 
+
+. 
+. 
+
+implementation paper may find . 
+another paper exist : 
+% david w. 
+% sidney m. petersen 
+% parametric height field ray tracing 
+% j proceedings graphics interface ' 92 
+% canadian information processing society 
+% c toronto , ontario 
+% d may 1992 
+% p 
+still one : 
+musgrave , kolb , mace 
+`` synthesis rendering erode fractal terrain '' , 
+computer graphics vol 23 , no. 3 siggraph '89 p. 
+24 find area 3d polygon 
+area triangle give c notation , 
+area 0.5 x 0 y 1 + x 1 y 2 + x 2 y 0 - 
+x 1 y 0 - x 2 y 1 - x 0 y 2 ; 
+area planar polygon give 
+area 0.0 ; 
+0 ; < n - 1 ; + + 
+area + x y + 1 - x + 1 y ; 
+area + x n - 1 y 0 - x 0 y n - 1 ; 
+area 2.0 ; 
+area negative number , polygon triangle 
+clockwise , positive , counterclockwise . 
+> ronald 's gem graphics gems ii - see section 1 , `` area 
+planar polygons volume polyhedra : '' 
+area polygon p0 , p1 , p2 , ... pn , x-y plane , 
+give 
+area polygon | n . 
+sigma pk x pk +1 | 
+n unit vector normal plane p polygonal 
+vertex . 
+. 
+represent dot product operator x 
+represent cross product operator . 
+sigma represent summation 
+operator . 
+| | represent absolute value operator . 
+pn +1 equal 
+p0 . 
+25 join 
+probably easiest way join trot 
+local technical library find copy communications acm . 
+somewhere within first page application blank . 
+fill mail . 
+acm membership student cost $ 23.00 , 
+voting associate membership $ 77.00 yearly 
+siggraph student membership cost additional $ 16.00 , $ 26.00 
+voting associate members also yearly . 
+get tog transaction 
+graphic another $ 26.00 student $ 31.00 voting 
+associate members . 
+want join siggraph without join acm , 'll cost 
+$ 59.00 student discount . 
+surcharge overseas publication . 
+acm member service may contact via email . 
+phone number . 
+fax number . 
+address : 
+acm 
+po box 
+church street station 
+new york , new york 
+siggraph ` 93 hold anaheim , california , anaheim 
+convention center street disneyland august 1-6 , 1993 . 
+26 find mri ct scan volume datum ? 
+volume datum set available university north carolina 
+. 
+commerical 
+use prohibit . 
+head datum - mri datum set human head . 
+knee datum - mri datum set human knee . 
+datum - result quantum mechanical calculation sod datum 
+one-electron orbital , iron protein . 
+sod datum - electron density map active site sod superoxide 
+dismutase . 
+ct cadaver head datum - mri datum set ct study cadaver 
+head . 
+mr brain datum - mri datum set head skull partially 
+remove reveal brain . 
+rna datum - electron density map staphylococcus aureus ribonuclease . 
+27 specific reference spatial datum structure include 
+
+h. samet , 
+design analysis spatial data structure , 
+addison-wesley , reading , ma , 1990 . 
+isbn . 
+h. samet , 
+application spatial data structures : computer graphics , image processing , 
+nd gi , 
+addison-wesley , reading , ma , 1990 . 
+isbn . 
+28 get program plot xy z datum f x datum ? 
+interactive plot program . 
+
+run machine , flexible term support 
+output device . 
+official north american distribution site latest 
+version . 
+information available 
+usenet newsgroup faq , . 
+- - plot tool 
+workstation use x. available 
+. 
+robot general purpose plot datum analysis program . 
+require , workstation . 
+available 
+_ analysis . 
+popular two-dimensional plot program accept datum 
+form similar unix program graph display line graph , scatter plot , 
+bar chart x11 display . 
+available pub . 
+program draw 2d plot window , 
+display , terminal . 
+available . 
+29 specific reference pex 
+programming manual , tom gaskins , 1154 page , o'reilly & associates , 
+isbn 
+reference manual , edit steve talbott , 577 page , o'reilly & 
+associates , isbn 
+programming manual , tom gaskins , 908 page , o'reilly & associates , 
+isbn softcover , isbn 
+reference manual , edit linda kosko , 1099 page , o'reilly & 
+associates , isbn 
+30 siggraph online bibliography project 
+acm siggraph online bibliography project database 15,000 
+unique computer graphic computational geometry reference bibtex 
+format , available computer graphic community research 
+educational resource . 
+database located `` '' . 
+user may download bibtex 
+file via ftp peruse offline , telnet `` '' log 
+`` '' interactively search database entry interest , 
+keyword . 
+may direct admin , 
+`` '' . 
+-- 
+john t. telos @ jet propulsion laboratory 
+4800 oak grove drive , pasadena , ca. 
+uucp : , elroy , ! 
+! 
+
+arpa : ... 

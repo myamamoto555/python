@@ -1,0 +1,52 @@
+: joe kelsey 
+subject : re : xv 3.00 escape ! 
+organization : motorola , mobile data division - seattle , wa 
+lines : 53 
+< > george lindholm write : 
+> article < > , george lindholm write : 
+article < > john bradley write : 
+first patch follow fix problem 
+file make possible compile .00 solaris without 
+use ucb stuff : 
+> oops , get signal processing right get 
+> work ascii terminal . 
+fixed patch : 
+patch need use `` svr4 '' rather 
+overly complex `` define sun & & define '' order 
+generically compile xv . 
+also , rand 
+work well -- use get better result . 
+otherwise , .00 compile fine system v box 
+xfree86 . 
+gcc definition 
+, add - lib - include copt 
+line modify lib include - - . 
+really john , 
+use thing like even get 
+mention ... 
+1.1 
+-- 
+
+
+-- -- 
+signal macro 
++ svr4 
++ 
++ 
++ 
++ 
+
+0 
+0 
++ 
+default folk 
+
+
+-- -- 
+random rand 
+
+
++ svr4 
++ random 
++ 
++ 

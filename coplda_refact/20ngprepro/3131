@@ -1,0 +1,44 @@
+: 
+subject : re : please help identify old 3com ethernet card 
+organization : university helsinki 
+lines : 29 
+mike simon write : 
+> article < > , lee , speedy write : 
+> | > old 3com ethernet card pc bus come apollo 
+> | > workstation . 
+try identify order use pc . 
+> | > 
+> | > assembly number rev 2 16 bit card , circa 
+> | > 1985 . 
+port well bnc coax connection . 
+
+> | > selectable address bios , io , dma , irq location via berg 
+> | > jumper . 
+also appear intel 80186 processor board , 
+> | > presumably buffer . 
+> | > 
+> | > ethernet chip appear intel , 48 pin dip package . 
+
+> | > chip equivalent use card ? 
+also 
+> | > 68 pin chip , call link + 
+get two similar sound board dirt cheap , . 
+assy 
+number , description fit otherwise . 
+
+3com 's aka plus card . 
+check ftp .3 , 
+driver diagnostic program 3com 
+card . 
+conclude card 505 run diagnostic 
+program succesfully '' . 
+. 
+pass fly color '' : 
+anybody know packet driver card . 
+. 
+? 
+-- 
+juha , aka 
+university helsinki , dept. lose soul 
+`` trust , know . '' 
+- sledge hammer 

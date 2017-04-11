@@ -1,0 +1,32 @@
+subject : xlib 24 bit display info needed 
+: thakkar rahul chandrakant 
+: thakkar rahul chandrakant 
+distribution : world 
+organization : digital equipment corporation 
+keyword : xlib 
+: 
+lines : 23 
+hus , 
+name rahul m usu , logan 
+query : 
+hp workstation : hp series 400 x run . 
+true color - color monitor connect machine . 
+normally capability display 256 color max 
+16.7 million . 
+since monitor true color see 16.7 
+million time . 
+que : facility x call enable 
+specify rgb combination see screen ? 
+use 
+set pallette max 256 color . 
+que : . 
+way display true color image 
+true color monitor use xlib function call ? 
+generate ray trace image 256 color indeed 
+painful limit . 
+besides need facility display true color image 
+generate true color system without color 
+quantification . 
+please , anyone help would oblige 
+rahul 
+

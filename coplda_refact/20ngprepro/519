@@ -1,0 +1,33 @@
+: dave stampe 
+subject : re : fast polygon routine need 
+keyword : polygon , need 
+organization : department psychology , university toronto 
+lines : 27 
+stephen quan write : 
+... , look fast polygon routine use 3d game . 
+> fast polygon routine ? 
+draw polygon course . 
+vga mode 13h game , ... 
+> 
+> hus , come across fast triangle routine mode 13h . 
+
+> call routine enough time , fast polygon draw routine . 
+> 
+> think ftp ` ed : _ . 
+> copy . 
+file 
+> say : 
+> 
+c inline assembly source vga mode 13h triangle drawer . 
+> 
+another source : poly blitter mode y mode x 
+. 
+also , even faster 3d 
+renderer vr extension . 
+
+| life hardware , | dave stampe | 
+| destiny software , | | 
+| cpu wetware ... | | 
+| , ?? 
+| 
+

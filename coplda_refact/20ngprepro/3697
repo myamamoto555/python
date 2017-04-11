@@ -1,0 +1,62 @@
+: cyberman 
+subject : crt driver transistor 
+lines : 28 
+: 1.00 r 
+device ... ... @ ic ma ... 50 
+v br ceo v . 
+. 
+70 ccb pf ... . 
+2.5 
+v br cbo v . 
+. 
+120 vce v ... . 
+. 
+15 
+ic ma max ... 300 polarity ... . 
+npn 
+hfe min ... . 
+. 
+20 package ... . 
+. 
+
+hfe max ... . 
+. 
+60 material ... . 
+metal 
+ft ghz ... . 
+1 price 100 + . 
+. 
+device ... ... @ ic ma ... 60 
+v br ceo v . 
+. 
+65 ccb pf ... . 
+1.5 
+v br cbo v . 
+. 
+80 vce v ... . 
+. 
+10 
+ic ma max ... 300 polarity ... . 
+pnp 
+hfe min ... . 
+. 
+15 package ... . 
+. 
+
+hfe max ... . 
+. 
+60 material ... . 
+metal 
+ft ghz ... . 
+1.5 price 100 + . 
+. 
+@ vce v ... 10 
+anyone know source part straight 
+? 
+need 4 's 2 try standard 
+say `` ! '' 
+stephen 
+mangled fri 
+... one thing stand , intolerance . 
+-- 
+blue v2 .12 

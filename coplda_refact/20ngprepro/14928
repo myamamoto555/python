@@ -1,0 +1,1076 @@
+: nick c. fotis 
+subject : 27 apr 93 computer graphics resource listing : weekly part 
+lines : 1029 
+: nick nikolaos fotis 
+organization : national technical univ. athens 
+: 
+: 
+computer graphics resource listing : weekly post part 
+
+last change : 27 april 1993 
+14 . 
+plot package 
+
+3.2 
+----------- 
+one best 2 - 3-d plot package , 
+online 's command-line drive interactive function plot utility 
+unix , , amiga , archimedes , vms platform least ! 
+. 
+freely distribute , support many terminal , plotter , printer 
+easily extensible include new device . 
+post version 3.0 , plus 2 patch . 
+practically find everywhere use archie find site near ! 
+. 
+newsgroup devote discussion . 
+
+----------------------- 
+tool unix workstation use 
+x . 
+version call 
+suns . 
+collectively , 2 tool know . 
+compile require motif toolkit version 1.1 
+- compile 1.0 x. 
+check 
+.09 . 
+motif version 
+.09 . 
+version 
+comment , suggestion , bug report paul j turner 
+< > mail fail , try . 
+due time constraint , reply far . 
+robot 
+----- 
+release 0.45 : 2-d limited 3-d . 
+base 3 , write 
+c fortran need fortran compiler translator . 
+mainly test , less decstation . 
+check 
+, . 
+vg plot library 
+------------------- 
+library fortran callable routine 
+
+
+----- 
+develop bellcore , speciality 
+multidimensional datum set analysis exploration . 
+call 
+language also , work x11 client use athena 
+widget set ascii terminal . 
+distribute free charge 
+cmu . 
+get via e-mail , send email 
+body area message , put line 
+send general 
+want pick via ftp , connect . 
+log 
+`` '' use e-mail address password . 
+type 
+cd general 
+. 
+
+warning : 2 mb source + large postscript manual . 
+read 
+relevant readme decide whether need . 
+
+------ 
+run supposedly unix . 
+set fortran routine freely 
+available though copyright require nominal fee $ 50 
+include contour plot support various device , include p . 
+contact 
+
+------ 
+host : . 
+
+unknown detail . 
+epigraph 
+-------- 
+pc . 
+call vladimir j. dmitriev detail . 
+get program demo play version , send 10 $ 
+1251 budapest posta 60 
+hungary 
+budapest 
+ph 
+
+------------- 
+amigas , shareware $ 30 usd , # 20 uk $ 40 aust . 
+. 
+advanced 2d package 
+big list feature . 
+contact : 
+dr. alan baxter < > , 
+cambridge university 
+department pathology , 
+tennis court road , 
+cambridge cb2 , uk 
+athena plotter widget set 
+------------------------- 
+version v6 .0 base gregory bond 's version . 
+add 
+stuff scientific graph , i.e. log axis , free scalable axis , 
+, re-added plotter callback v4 , e.g. 
+request current pointer position , cut rectangle 
+plot area . 
+version v6 .0 log bug fix 
+log improvement . 
+additionally 
+, besides 
+- origin frame line axis . 
+- line position . 
+- line plot different line type line , point , line + point , 
+impulse , line + impulse , step , bar , line style solid , dot , 
+dash , marker type datum point . 
+- legend right left hand side plot . 
+- optional draw instead window . 
+- layout callback align axis position use 
+multiple plotter one application . 
+available , directory 
+
+------- 
+scientific 2d plot manipulation program . 
+next require nextstep 3.0 , shareware . 
+feature : 
+ascii import export ; eps export ; copy , cut , paste datum buffer ; 
+free number datum point , datum buffer , document window ; 
+selective open save ; plot many style ; automatic legend ; 
+; linear logarithmic axis ; two different axis ; text graphic ; 
+color support ; zoom ; normalize move ; axis conversion ; 
+free hand datum manipulation cut , edit , move , etc. ; datum editor ; sort 
+datum ; absolute , relative , free define error bar ; 
+calculate buffer + , - , , ; background subtraction 
+linear , shirley , , ; integration relative integration ; 
+fitting one free define function ; linear regression ; 
+calculation + , - , , , sin , cos , log , etc. ; function generator ; 
+spline interpolation ; least square smooth fft smooth ; differentiation ; 
+fft ; esca calculation database ; . 
+. 
+something 
+find : 
+. 
+de : .1 . 
+
+author : 
+michael wesemann 
+. 
+berlin 12 , germany 
+
+
+------ 
+scientific plot package many system , small micro 
+large super alike . 
+despite small size quickness , 
+enough power satisfy user , include : 
+standard x-y plot , plot , log-log plot , contour plot , 3d plot , 
+mesh plot , bar chart pie chart . 
+multiple graph 
+different size may place single page multiple line 
+graph . 
+different line style , width color support . 
+virtually 
+infinite number distinct area fill pattern may use . 
+
+almost 1000 character extended character set . 
+include four 
+different font , greek alphabet host mathematical , musical , 
+symbol . 
+font scale size various effect . 
+many different output device driver available system dependent , 
+include portable metafile format renderer . 
+freely available copyright via anonymous ftp 
+, directory 
+present v. 4.13 , know work follow system : 
+unix : suno , , hp-ux , unicos , , ultrix 
+platform : vms , , ms-dos , , next 
+author : many . 
+main supporter : 
+maurice lebrun < > : kernel metafile , 
+, , tektronix , amiga driver . 
+geoff furnish < > : driver 
+tony richardson < > : next 
+
+---------- 
+2-d plot package cmu , filename ~ . 
+
+probably machine ? 
+gle 
+-- 
+gle high quality graphic package scientist . 
+run 
+variety platform pc , vax , unix driver , 
+regi , , pc graphic card , vt100 , hp plotter , postscript 
+printer , printer printer . 
+
+provide latex quality font , well full support postscript 
+font . 
+graphing module provide full control feature 
+graph . 
+graphic primitive include user-defined subroutine 
+complex picture diagram . 
+accompany utility include surface hidden line surface 
+plot , contour contour plot , manipulation 
+columnar datum file , fitting arbitrary equation 
+datum . 
++ available via anon . 
+ftp place : 
++ 
++ pc gle : , , mirror , . 
+
++ unix gle : , 
++ vms gle : , 
+mailing list : . 
+send message 
+message boyd contain 
+sub `` name '' 
+maintainer : dean < > 
+
+15 . 
+image analysis software - image processing display 
+
+pc tool multi-platform software 
+
+
+------ 
+write jpl nasa site . 
+simple display , 
+enhance , smooth . 
+works fit 
+datum format nasa . 
+read tiff image , know dimension 
+pc mac 
+labview 2 
+--------- 
+labview use framework image processing tool . 
+provide 
+graphical programming environment use block diagram sketch 
+`` program '' graphical element represent programming element . 
+hundred function already available connect use 
+wiring tool create block diagram program . 
+function 
+block diagram represent include digital signal processing 
+filter , numerical analysis , statistics , etc. . 
+tool allow 
+virtual instrument vi , software file look act like real 
+laboratory instrument use part virtual 
+instrument . 
+national instruments market plug-in digital signal processing dsp 
+board macintosh pc allow real-time 
+acquisition analysis personal computer . 
+new software tool 
+dsp allow engineer harness power technology . 
+
+tool range low-level debugging software high-level block 
+diagram development software . 
+three level dsp programming 
+associate board labview : 
+use analysis library : fft , power spectrum , filter 
+routine callable think c macintosh workshop mpw c 
+execute board . 
+analysis virtual 
+interface library ready-to-use vi optimize . 
+use national instruments developers toolkit include 
+optimize c compiler , assembler linker low-level 
+programming dsp hardware . 
+approach offer highest level 
+performance must difficult term ease use . 
+use national instruments interface kit software package 
+utility function memory management datum communication 
+download code board . 
+easiest route 
+development custom code . 
+concept vi 
+------------------- 
+concept vi family image processing virtual 
+instruments vi give labview 2 describe user high-end 
+tool design , integrate monitor imaging control system . 
+vi software file look act like real laboratory 
+instrument . 
+typical application concept vi include thermography , 
+surveillance , machine vision , production testing , biomedical imaging , 
+electronic microscopy remote sense . 
+concept vi address application require 
+qualitative quantitative analysis . 
+include complete set 
+function image enhancement , histogram equalization , spatial 
+frequency filter , isolation feature , thresholding , mathematical 
+morphology analysis , density measurement , object counting , size 
+characterization . 
+program load image minimum resolution 64 64 , pixel 
+depth 8 , 16 , 32 bit , one image plane . 
+standard input 
+output format include pict , tiff , satie , . 
+format 
+import . 
+image enhancement feature include lookup table transformation , spatial 
+linear non-linear filter , frequency filter , arithmetic logic 
+operation , geometric transformation , among . 
+morphological 
+transformation include erosion , dilation , opening , closing , hole 
+removal , object separation , extraction skeleton , among . 
+quantitative analysis provide object ' detection , measurement , 
+morphological distribution . 
+measure include area , perimeter , center 
+gravity , moment inertia , orientation , length relevant chord , 
+shape factor equivalence . 
+measure save ascii format . 
+
+program also provide macro scripting integration custom 
+module . 
+3-d view command plot perspective datum graph image intensity 
+depict mountain valley plot . 
+histogram tool 
+plot either linear logarithmic scale . 
+twenty-eight 
+arithmetic logical operation provide : mask average 
+section image , noise removal , make comparison , etc. . 
+
+13 spatial filter alter pixel intensity base local 
+intensity . 
+include high-pass filter contrast outline . 
+frequency datum result fft analysis display 
+either real , imaginary component phase , magnitude 
+datum . 
+morphological transformation useful datum sharpen 
+define object remove artifact . 
+transformation include : thresholding , erode , dilate even 
+hole filling . 
+program 's quantitative analysis measurement include : area , 
+perimeter , center mass , object count , angle point . 
+, inc. 2455 bennett valley road # 100c santa rosa , ca 
+
+spectrum 
+-------------- 
+spectrum support image processing analysis lack 
+morphology quantitative analysis feature provide 
+concept vi . 
+use scripting tool , user 
+tell system operation perform . 
+problem far 
+many basic operation require manual intervention . 
+tool 
+support : fft , 16 arithmetic operation pixel alteration , 
+movie command cycling window . 
+tool 
+
+ncsa image , ncsa 
+--------------------------------- 
+ncsa provide whole suite public-domain visualization tool 
+macintosh , primarily aim researcher want visualize result 
+numerical modelling calculation . 
+application , 
+documentation , source code available anonymous ftp 
+. 
+commercial version ncsa program 
+develop spyglass . 
+spyglass , inc. 701 devonshire drive champaign , il 
+fax : 
+nih image 
+--------- 
+available preferably 
+, directory : . 
+painting image manipulation tool , macro language , 
+tool measure area , distance angle , count 
+thing . 
+use frame grabber card , record sequence 
+image play back movie . 
+invoke user-defined 
+convolution matrix filter , gaussian . 
+import raw 
+datum ascii , 1 quantity . 
+also 
+histogram even 3-d plot . 
+limit , 
+though 8 bit map color lookup table . 
+run mac 
+256-color screen fpu get version 
+
+
+-------- 
+datum translation , inc. 100 locke dr. marlboro , ma 
+
+---------- 
+blue solutions marigold place thousand oaks , ca 
+
+------------------------ 
+`` complete family hardware accelerator application 
+software scientific image processing analysis . 
+
+capture , display , processing , analysis high-resolution 
+monochromatic color image . 
+include c source code . '' 
+: 
+`` software package scientific , quantitative image processing 
+analysis . 
+provide complete language capture , enhancement , 
+extraction quantitative information image . 
+200 function image processing , contain 
+element need full programming language algorithm 
+development -- variable control structure . 
+easily 
+extensible `` script '' indirect command file . 
+script 
+file simply text file contain command . 
+
+execute normal command include ability pass parameter . 
+direct capture video image support via popular frame 
+grabber board . 
+come utility provide 
+conversion common image file type , tiff . '' 
+725 pellissippi parkway knoxville , tn 
+satellite image workshop 
+------------------------ 
+come number satellite picture raw datum 
+sort image enhance . 
+'ll need least mac ii co - 
+processor ; 256 color display large . 
+program 
+run system 7 . 
+1 v1 
+documentation contact address give : liz smith , jet 
+propulsion laboratory , m , 4800 oak grove dr , . 
+pasadena , ca 
+
+visualization workbench 
+----------------------- 
+`` electronic imaging software system perform interactive image 
+analysis scientific 2d 3d plot . '' 
+paragon imagine 171 lincoln st. lowell , ma 
+adobe photoshop 
+--------------- 
+tool support colors 24-bit image 256 level gray 
+scale . 
+image import 
+various editing tool typical use 
+application . 
+include eraser , pencil , brush air brush . 
+advanced tool control interaction paste 
+selection receive site also incorporate . 
+
+example , red pixel selection easily prevent 
+paste . 
+photoshop transparency range 0 100 % , 
+allow create ghost overlay . 
+tool include 
+control brightness contrast , color balancing , 
+modification spectrum equalization . 
+image subject 
+various signal processing algorithm smooth sharpen image , 
+blur edge , locate edge . 
+image scaling also support . 
+storage savings , image compress use standard 
+algorithm , include externally supply compression jpeg , 
+storm technologies . 
+latest version adobe 
+photoshop support import numerous image format include : , 
+, tiff , pict resource , amiga , compuserve gif , macpaint , 
+pixar , , scitex ct , tga . 
+. 
+adobe systems , inc. 1585 charlestown road po box 7900 mountain view , ca 
+
+
+
+paint package letraset 
+feature adobe photoshop decidedly complex 
+therefore difficult use . 
+several step often require 
+accomplish single step use photoshop . 
+
+application require great deal available disk space one 
+easily end image 30 mb range . 
+program provide 
+variety powerful selection tool include `` auto selection tool '' 
+let user choose image area basis color , close 
+hue , color range mask . 
+: know ... 
+letraset usa 40 eisenhower drive paramus , nj 
+dapple systems 
+-------------- 
+`` high resolution image analysis software provide processing tool 
+work multiple image , enhance edit , measure variety 
+global feature parameter , interpret datum . '' 
+dapple systems , 355 w. olive ave , # 100 sunnyvale , ca 
+digital darkroom 
+---------------- 
+latest release digital darkroom five new selection 
+editing tool enhance image . 
+one feature allow user 
+select part image simply `` painting '' . 
+new 
+selection tool create selection tool single pixel wide 
+selection . 
+brush let operator `` paint '' select portion 
+image . 
+note true color image enhancement tool . 
+tool use user intend operate 
+image . 
+note digital darkroom 
+powerful either adobe photoshop . 
+silicon beach software carroll ctr . 
+rd. , suite j san diego , ca 
+
+dimple 
+------ 
+compatible system 6.05 system 7.0 , require mac lc 
+ii series 256 color , recommend min ram . 
+
+capability read erdas file . 
+function include ; image 
+enhancement , 3d contour plot , image statistics , supervise 
+unsupervised classification , pca image transformation . 
+
+also means image operation language iol write 
+transformation . 
+image rectification , however 
+dimple . 
+latest version 1.4 
+beta stage testing . 
+dimple initially develop teaching 
+tool good purpose . '' 
+`` dimple run color macintosh . 
+product still 
+development phase . 
+. 
+i.e. inbuilt feature 
+package , come along nicely . 
+inbuilt 
+language write `` program '' process image , define 
+convolution filter etc. . 
+dimple full mac application pull 
+menu etc. . 
+. 
+unprotected software . '' 
+process software solutions , po box 2110 , wollongong , new south wales , 
+australia . 
+2500 . 
+phone fax . 
+enhance 
+------- 
+enhance tool support measurement additionally 
+provide angle datum . 
+tool 80 mathematical filter 
+variation : `` laplacian , medium noise filter '' , etc. . 
+file save 
+either tiff , pict , text however file import . 
+7650 hickman road des moines , ia 
+image analyst 
+------------- 
+image processing product user need extract quantitative 
+datum video image . 
+image analyst let user configure 
+sophisticated image processing measurement routine without 
+necessity know programming language . 
+design 
+task compute number size cell image project video 
+camera attach microscope , enhance measure distance 
+radiograph . 
+image analyst provide user array video 
+analysis technique enable easily assemble sequence 
+instruction enhance feature appearance ; count object ; determine 
+density , shape , size , position , movement ; perform object feature 
+extraction ; conduct textural analysis automatically . 
+image analyst 
+work either board standard video camera , 
+image . 
+within minute , without need programming , image analyst user 
+set process identify analyze element image . 
+measurement statistics automatically 
+generate tiff pict file capture video tape image . 
+image analyst recognize item image base size , shape 
+position . 
+tool provide direct support datum translation 
+scion frame grabber . 
+menu command allow image capture vcr 
+video camera ntsc pal device . 
+2 type file , image related sequence 
+file hold processing , measurement analysis user 
+define . 
+automate sequence set region interest rous 
+represent movable , sizable box atop image . 
+inside rous , 
+program find distance two edge , area shape , 
+thickness wall , etc. . 
+image analyst find center , edge 
+position automatically . 
+application also provide tool 
+user work interactively find edge object . 
+also 
+support histogram color look-up table clut tool . 
+, inc. 775 middlesex turnpike billerica , ma 
+
+----- 
+signal analytics corp. 374 maple ave. e vienna , va 
+fax 
+`` image processing software support 24-bit color 
+image display manipulation . '' 
+map ii 
+------ 
+among mac gis system , map ii distribute john wiley 
+integrate image analysis . 
+image 
+----- 
+stanford : try anonymous ftp . 
+
+pd source image v2 , ready run code mac 
+image v3 . 
+pc-based tool 
+
+ccd 
+-- 
+richard berry 's ccd imaging book contain optional ? 
+disk image manipulate software . 
+source code include . 
+erda 
+----- 
+`` erdas thing want : rectification , 
+classification , transformation & user-defined , overlay , 
+filter , contrast enhancement , etc. ... use thesis & 
+change topic bit & work become secondary . '' 
+erdas , inc. 2801 buford highway suite 300 atlanta , ga 
+fax 
+
+----- 
+`` get speed program call available 
+eidetic digital image ltd. british columbia . 
+ibm pc 's 
+clone , cheap $ 400 stuff erdas 
+fast powerful , though limited experience 
+erdas . 
+use 6 7 landsat band good 
+starter program except obtuse manual '' 
+
+---------- 
+32 bit package suppose pc call `` '' 
+`` '' program modest amount image processing -- add , 
+subtract , multiply , divide , display , plot x y cut across image . 
+also display number image simultaneously . 
+company , santa barbara , ca . 
+pc vista 
+-------- 
+announce 1989 august edition . 
+know 
+available mike richmond , whose email address 
+
+
+address : 
+michael richmond , astronomy department , campbell hall , berkeley , ca 
+latest version , version 1.7 , include source 
+code help file , also complete set executable program 
+number sample fit image . 
+wish use source code , 
+need microsoft c , version 5.0 later ; compiler may work , 
+require substantial modification . 
+receive documentation nine double-density floppy 
+three inch floppy 1.44 m everything , 
+send request , together name 
+address , 
+office technology licensing 
+2150 shattuck ave. , suite 510 
+berkeley , ca. 
+include check traveller 's check fine purchase order $ 150.00 
+u.s. dollar , address inside continental u.s. , $ 165.00 
+otherwise , make regents university california 
+cover duplication mailing cost . 
+software tool 
+-------------- 
+set software `` tool '' put canyon state 
+systems software . 
+free , rather cheap $ 30 
+hear . 
+handle format use frame grabber 
+software . 
+mirage 
+------ 
+image processing software write jim gunn 
+astrophysics dept princeton . 
+run pc among platform . 
+forth base system - i.e. forth language many image 
+process display function build . 
+data translation source book 
+---------------------------- 
+data translation company massachusetts publish free book 
+contain vendor datum analysis hardware software 
+compatible datum translation frame grabber . 
+surely find much stuff . 
+
+-------- 
+couple canadians write program name 
+maximum entropy image deconvolution . 
+company name digital 
+signal processing software , something like , software 
+mention article astronomy magazine , either jan feb 92 
+article ccd 's vs film . 
+scientific java 
+------------------------ 
+another software package java put scientific . 
+scientific , 65 koch road , corte madera , ca , , 
+. 
+
+---------- 
+run m platform use 32 bit graphic card 
+vista , release version support number 
+super vga card . 
+full blow remote sense datum processing 
+system . 
+. 
+menu drive character base screen , use 
+windowed user interface . 
+hardware protect dongle . 
+micro barrier reef image system . 
+develop 
+csiro commonwealth scientific & industrial organization 
+market support : 
+mpa australia 51 lusher road , croydon , victoria 
+tel + 61 3 724 fax 3 724 
+educational commercial price , prepare set 
+aside $ first educational licence . 
+subsequent one come 
+cheaper need ! 
+install site worldwide . 
+widely 
+use anu . 
+
+---------- 
+remote sense lab dartmouth currently use 's 
+, 486 pc fancy display hardware . 
+resource information services , inc. . 
+1937 landings drive mountain view , ca fax 
+
+unix-based tool 
+
+iraf image reduction analysis facility 
+
+develop national optical astronomy observatory , kitt peak az 
+free , ftp 
+complement . 
+email detail . 
+apparently one _ de facto _ standard astronomical 
+image community . 
+issue newsletter also . 
+seem support well user . 
+works vms also last 
+hear , practically shell top shell . 
+suggest get copy display x window . 
+-- ton literally 3 linear foot 
+documentation general user , skilled user , programmer . 
+alv 
+-- 
+image toolkit . 
+version post 
+. 
+also available via email 
+. 
+aip 
+-- 
+astronomical image processing system . 
+contact : 
+also see usenet newsgroups 
+build nrao national radio astronomy observatory , hq charlottesville , 
+va , site nm , az , wv . 
+software distribute , exabyte , dat , 
+internet ftp . 
+documentation postscript mostly 
+available via anonymous ftp , 
+directory publ . 
+installation require building 
+system thus fortran c compiler . 
+package read write fits datum see , 
+primarily reduction , analysis , image enhancement radio astronomy 
+datum radio telescope , particularly large array , 
+synthesis instrument . 
+consist almost 300 program everything 
+copy datum sophisticated deconvolution , e.g. via maximum entropy . 
+image tool xa 
+graphic tool build aip . 
+xas tool model hardware 
+functionality international imaging systems model 70 display unit 
+image arithmetic , etc. . 
+code mostly fortran 77 system c language module , 
+available suns , ibm , , convex , cray unicos , 
+alliant support plan , solaris 2.1 , maybe sgi . 
+currently project - `` aip + + '' - underway rewrite 
+algorithmic functionality aip modern setting , use c + + 
+object orient approach . 
+whereas aip proprietary code license 
+free non-profit institution owner nrao nsf , aips + + 
+public domain level , international effort 
+contribution us , canada , england , netherlands , india , 
+australia name . 
+
+--------- 
+version 4.0 x11 write c , currently 
+run sun , sun .5 , 4.0 . 
+expert system image segmentation write allegro common lisp . 
+use following domain : computer science image analysis , 
+medicine , biology , physics . 
+distribute free charge source code . 
+available via anonymous ftp , 
+_ 
+contact : prof. thierry pun , computer vision group computing science center , 
+12 , rue du lac , geneva switzerland 
+phone : 22 787 65 82 ; fax : 22 735 39 05 
+e-mail : 
+figaro 
+------ 
+originally make vms , obtain 
+keith shortridge australia 
+unix sam southard caltech . 
+sun . 
+
+------ 
+move scientific visualization category 
+vista 
+----- 
+`` real thing '' available via anonymous ftp . 
+email 
+detail . 
+total size less . 
+
+------ 
+device independent software image processing powerful 
+system provide user friendliness high functionality 
+interactive time . 
+feature description 
+incorporate rich library image processing utility 
+spatial datum option . 
+function easily access via 
+executive . 
+menu modular design group image 
+process function . 
+logical structure mean 
+complicated process simply progression series 
+module . 
+process include image rectification , classification unsupervised 
+supervise , intensity transformation , three dimensional display 
+principal component analysis . 
+also support simple 
+effective enhancement technique filter , band subtraction 
+. 
+host configuration requirement 
+run unix workstation , capable process 
+computational intensive technique interactive processing time . 
+available runtime programmer 's environment . 
+use 
+programmers environment , utility develop specific 
+application program . 
+graphic govern display panel allow quick 
+display image . 
+manipulation look table , 
+color stretch , change histogram , zoom panning 
+interactively drive control . 
+range geographic projection enable integrate datum 
+image , graphic textual type . 
+image rectify number 
+coordinate system , provide true geographic knowledge essential 
+ground . 
+overlay grid , text vector datum 
+add enhance reference imagery . 
+system flexible package allow user various skill level 
+determine work environment , include amount help 
+require . 
+come fully configure optional extra . 
+
+purchase price include functionality require professional 
+processing remote sense datum . 
+information , please contact : 
+business manager , clough engineering group systems division , 627 
+chapel street , south yarra , australia . 
+telephone : 3 825 5555 
+fax : 3 826 
+global imaging software 
+----------------------- 
+`` use global imaging software process avhrr datum , dish 
+final display . 
+select chunk five band datum pass , 
+automatic navigation , calibrate albedo temp , convert 
+byte , register window , relatively automatically 
+carefree . 
+classification routine speak , 
+difficult write programmer 's module . 
+small operation : one design , one code , one sell . 
+around 
+number year , sell weather service navy . 
+run 
+hp-ux . 
+support 24-bit display '' 
+hip 
+-- 
+human information processing laboratory 's image processing system 
+michael landy co-wrote sell general-purpose package image 
+processing use basically usual image 
+process application robotic , medical , satellite , engineering , oil 
+exploration , etc. . 
+call hips , deal sequence 
+multiband image way deal single image . 
+
+grow since first write , addition well 
+huge library . 
+feature description 
+hip set image processing module together provide 
+powerful suite tool interested research , 
+system development teaching . 
+handle sequence image 
+movie precisely manner single frame . 
+program subroutine develop simple image 
+transformation , filter , convolution , fourier transform 
+processing , edge detection line drawing manipulation , digital 
+image compression transmission method , noise generation , image 
+statistics computation . 
+150 image transformation program 
+develop . 
+result , almost image processing task 
+perform quickly conveniently . 
+additionally , hip allow 
+user easily integrate custom routine . 
+new user 
+become effective use hip first day . 
+hip feature image . 
+image store 
+system contain history transformation 
+apply image . 
+hip include small set subroutine 
+primarily deal standardized image sequence header , 
+large library image transformation tool form unix 
+`` filter '' . 
+come complete source code , on-line manual 
+page , on-line documentation . 
+host configuration requirement 
+originally develop new york university , hips represent 
+one extensive flexible vision image processing 
+environment currently available . 
+run unix operating 
+system . 
+modular flexible , provide automatic documentation 
+action , almost entirely independent special equipment . 
+hip use variety computer include vax 
+microvax , sun , apollo , , ncr tower , iris , ibm , etc. . 
+image display input , driver supply grinnell 
+adage image processor , , , sun - 4 , 
+console . 
+also supply driver 
+number windowing package sun , sun 
+console , matrox , iti , , macintosh ii , x 
+windowing system , iris . 
+package include 
+interface . 
+simple matter interface hip 
+frame - store , put interested user touch 
+user interface hip max - 
+video . 
+hip easily adapt image display device 
+98 % hip machine independent . 
+availability 
+hip prove highly flexible system , 
+interactive research tool , production - orient task . 
+
+easy use , quickly adapt extend new use . 
+hip 
+supply magnetic tape unix tar format either reel - 
+sun cartridge , come source code , library , library 
+- tion mask , on-line documentation manual page . 
+michael landy software p.o. box 373 , prince street station 
+new york , ny voice : fax : 
+
+mira 
+-- 
+please confuse animation system 
+montreal . 
+altogether different beast ! 
+- 
+mira stand microcomputer image reduction analysis . 
+mira give 
+workstation level performance dos computer use svga card 
+256 color mode 1024x768 . 
+mira contain 
+gui mouse keystroke operate . 
+mira tiff fit 
+format , native format number ccd camera , uncompressed binary 
+image byte , short integer , 4-byte real pixel format 1 - 2 - 
+dimension . 
+result image processing operation short integer 
+real pixel , input image . 
+mira 
+operation use short floating point arithmetic maintain precision 
+accuracy pixel format . 
+100 function 
+assembly language maximum speed intel hardware . 
+entire 
+graphical interface also write assembly language maximize 
+speed windowing operation . 
+windows 2-d image 1-d 
+display analysis dedicate cursor read position value 
+value real time move mouse . 
+also smooth , real time 
+contrast brightness stretch panning magnify portion 
+display image , operate mouse . 
+wide selection 
+grayscale , , random palette provide , 
+palette generate . 
+support function include nicety following : 
+o image & image : + - interpolation 
+o image & constant : + - 
+o unary operation : ab value , polynomial pixel value , ch , , log , 
+, clip value limit , short - > real real - > short . 
+o combine image mean , median , mode , sum pixel value , 
+without mean , median , mode image section . 
+o : laplacian , sobel edge operator , directional gradient , 
+line , gaussian , elliptical rectangular equal weight filter , 
+mask , median filter , user define filter kernel . 
+ellipse , rectangle , 
+line , gradient , gaussian , user define filter rotate 
+specify angle . 
+o ccd datum reduction : flat fielding , dark subtraction , column 
+bias removal , remove bad pixel column defect , normalize 
+region target mean , median , modal value . 
+o create , mosaic m x n 1-d 2-d image get larger image , 
+collapse 2-d image 1-d image . 
+o plot 1-d section collapse section 2-d image , plot histogram 
+region image . 
+o image datum , rename keyword , plot 
+keyword value set image . 
+o : elliptical circular aperture photometry , 
+brightness profile , photometry set upper & lower 
+luminance , area luminance inside trace polygon . 
+interactive 
+background fitting removal part image , fit elliptical 
+aperture shape image . 
+o interactive 2-d image : , x - y - diagonal plot 
+pixel value , distance two point , compute region stats , ` 
+centroid , pan x , y location image center , zoom 10 time , 
+change cursor rectangle crosshair , full image crosshair , , 
+adjust cursor size image . 
+select linear , log gamma transfer function 
+histogram equalization . 
+o interactive specify image offset computation 
+registration . 
+o interactive 1-d image : zoom x - y - step 
+2 time current , plot , enlarge frame area . 
+4 plot buffer 
+cycle . 
+interactive datum analysis : polynomial fitting , 
+point deletion , , change value , point weighting , linear 
+quadratic loess binomial smoothing , revert unit point weight 
+original datum buffer , substitute result datum buffer pass 
+back call function . 
+dump datum buffer + overlay error bar 
+file printer . 
+change user specify coordinate system . 
+o tricolor image combination display , hardcopy halftone printout 
+compatible printer laserjet , deskjet , etc. . 
+o documentation 300 page custom vinyl binder . 
+cost : 995 $ 
+available : 
+axiom research , inc. . 
+box 
+tucson , az 
+. 
+international marketing rep : saguaro scientific corporation , tucson , arizona . 
+
+end part 2 resource listing 
+-- 
+nick nikolaos fotis national technical univ. athens , greece 
+home : 16 st. , internet : 
+halandri , gr - 152 32 uucp : 
+athens , greece fax : +30 1 77 84 578 

@@ -1,0 +1,628 @@
+: russell earl whitaker 
+subject : crossbows cryptography 
+distribution : world 
+organization : institute 
+: 
+: simple news 1.90 di 1.19 
+lines : 566 
+----- begin pgp sign message ----- 
+please note follow speech make chuck hammill 
+1987 . 
+address letter address , give end 
+document . 
+-- russell 
+crossbows cryptography : thwarting state via 
+technology 
+give future freedom conference , november 1987 
+know , technology -- particularly computer 
+technology -- often get bad rap libertarian cir - 
+cle . 
+tend think orwell 's 1984 , terry gilliam 's 
+brazil , proximity detector keep east berlin 's 
+side border , - 
+bugging device nixon use harass 
+`` enemy list . '' 
+, recognize price 
+ticket concorde fly twice speed 
+sound , first walk thru magnetometer run 
+government policeman , permit paw thru - 
+longing beep . 
+think mind-set mistake . 
+
+cattle prod , government tortured prisoner 
+club rubber hose . 
+laser 
+eavesdropping , government use binoculars . 
+though government certainly use technology oppress , 
+evil lie tool wielder tool . 
+fact , technology represent one promis - 
+ing avenue available re-capture freedom 
+steal . 
+nature , favor 
+bright put use dull - 
+. 
+favor adaptable quick see 
+merit new sluggish cling time - 
+test way . 
+two better word de - 
+scribe government bureaucracy `` dull '' `` sluggish '' ? 
+one clearest , classic triumph technology 
+tyranny see invention man-portable 
+crossbow . 
+, untrained peasant could reliably 
+lethally engage target fifty meter -- even 
+target mount , knight . 
+unlike 
+longbow , , admittedly powerful , could 
+get shot per unit time , crossbow require 
+formal training utilize . 
+whereas longbow require 
+elaborate visual , tactile kinesthetic coordination 
+achieve degree accuracy , wielder crossbow 
+could simply put weapon shoulder , sight along 
+arrow , reasonably assure hit tar - 
+get . 
+moreover , since mount knight 
+likely visit average peasant would government 
+soldier tax collector , utility device 
+plain : , common rabble could defend 
+one another , governmental 
+master . 
+medieval equivalent armor - 
+pierce bullet , , consequently , king priest 
+medieval equivalent bureau alcohol , tobacco 
+crossbow threaten death excommunication , - 
+, unlawful possession . 
+look later development , see technology 
+like firearm -- particularly repeat rifle 
+handgun , later follow gatling gun advanced 
+machine gun -- radically alter balance interpersonal 
+inter-group power . 
+without reason colt .45 
+call `` equalizer . '' 
+frail dance-hall hostess one 
+possession fully able protect 
+roughneck saloon . 
+advertise - 
+ment period also reflect merchandising 
+repeat cartridge rifle declare `` man 
+horseback , arm one rifle , simply 
+capture . '' 
+, long captor rely upon 
+flintlock single-shot rifle , quote doubtless 
+true one . 
+update present , public-key cipher 
+personal computer run represent - 
+quantum leap -- defensive weapon . 
+
+technique use protect sensitive datum one 's 
+possession , also permit two stranger ex - 
+change information insecure communication 
+channel -- wiretapped phone line , example , 
+skywriting , matter -- without ever previously 
+meet exchange cipher key . 
+com - 
+puter , create cipher cray 
+crack year . 
+within year , 
+economically feasible similarly encrypt voice - 
+cation ; soon , full-color digitized video image . 
+technology make wiretap obsolete , 
+totally demolish government 's control - 
+formation transfer . 
+would like take moment sketch - 
+ic make principle possible . 
+algorithm 
+call rsa algorithm , rivest , shamir , adleman 
+jointly create . 
+security derive fact 
+, large number product two 
+large prime , extremely difficult obtain 
+two prime factor analysis product . 
+`` ex - 
+'' sense prime p q 100 
+digit apiece , product gen - 
+eral factored less 100 year powerful 
+computer existence . 
+`` public '' part key consist 1 prod - 
+uct pq two large prime p q , 2 one fac - 
+tor , call x , product xy xy p-1 
++ 1 . 
+`` private '' part key consist 
+factor y. 
+block text encrypt first turn 
+integer -- either use ascii , even simple 
+01 , b 02 , c 03 , ... , z 26 representation . 
+integer 
+raise power x modulo pq result 
+integer send encrypted message . 
+receiver 
+decrypt take integer secret power y 
+modulo pq . 
+show process always 
+yield original number start . 
+make development , 
+call `` public-key '' cryptography , '' 
+openly publish product pq number x , 
+keep secret number y -- anyone send 
+encrypted message , namely 
+x 
+mod pq , 
+recover original message , take 
+send , raise power y take 
+result mod pq . 
+risky step meeting exchange cipher 
+key eliminate . 
+people may even trust 
+enough want meet , may still reliably ex - 
+change encrypted message -- party select 
+disseminate pq x , maintain 
+secrecy y. 
+another benefit scheme notion `` dig - 
+ital signature , '' enable one authenticate source 
+give message . 
+normally , want send message , 
+raise plaintext x take result mod 
+pq send . 
+however , message , take plaintext 
+raise secret power y , take result mod 
+pq , raise result x mod pq 
+send , even normally `` decrypt '' 
+message , still look like garbage . 
+however , 
+raise public power x , take result 
+mod public pq , recover orus - 
+plaintext message , know one 
+could send since one else know secret 
+y . 
+concern way - 
+day torment soviet union whole question 
+personal computer . 
+one hand , recognize 
+american schoolchildren right grow com - 
+puter commonplace use -- , 
+fact , thing computer 
+interest instruct 3 - 4-year-old . 
+pre - 
+student one generation hence go 
+head-to-head soviet counterpart . 
+
+soviet hold back might suicidal continue 
+teach swordsmanship adversary learn 
+ballistics . 
+hand , whatever else personal 
+computer may , also exquisitely efficient copying 
+machine -- floppy disk hold upward 50,000 word 
+text , copy couple minute . 
+
+threaten enough , computer perform 
+copy also encrypt datum fashion 
+unbreakable . 
+remember soviet society publicly ac - 
+xerox machine unknown . 
+relatively 
+copying machine existence control inten - 
+machine gun united states . 
+`` conservative '' position 
+sell computer soviets , could use 
+weapon system . 
+`` liberal '' position 
+sell , interest mutual trade 
+cooperation -- anyway , make sale , 
+certainly nation willing . 
+part , ready suggest libertarian 
+position give soviets free , 
+necessary , make take ... 
+work load sr-71 blackbird air drop 
+moscow middle night . 
+pay private sub - 
+, course , taxation ... confess 
+position gain much support among member 
+conventional left-right political spectrum , , af - 
+ter , word one illuminatus 's character , 
+political non-euclidean : shortest distance 
+particular goal may look anything like people 
+would consider `` straight line . '' 
+take long enough 
+world-view , arguable break soviet govern - 
+ment monopoly information transfer could better lead 
+, indeed , ultimate dissolution 
+soviet empire would production another dozen 
+missile aim moscow . 
+rub : `` long enough '' world view 
+suggest evil , oppressive , coercive 
+simply stupid `` get deserve , '' 
+immediately clear rest escape 
+kill , enslave , process . 
+liberal collectivist begin - 
+tack freedom , possess reasonably stable , healthy , 
+function economy , almost unlimited time proceed 
+hamstring dismantle . 
+policy political 
+gradualism least conceivable . 
+, 
+patchwork economy hold together bale wire 
+spit . 
+state tax `` feed poor '' 
+also induce farmer slaughter milk cow drive 
+food price -- simultaneously turn around sub - 
+research agricultural chemical design - 
+crease yield milk cow leave alive . 
+witness 
+fact decline price oil consider 
+potentially frightening comparable increase year 
+ago . 
+price go , tell , economy 
+risk collapse want energy . 
+price increase 
+call `` moral equivalent war '' feds swing 
+action . 
+first time american history , 
+speed drive car work morning - 
+come issue federal concern . 
+, price 
+oil drop , risk problem , time ameri - 
+oil company third world nation 
+sell oil may able ever pay debt 
+grossly over-extended bank . 
+suggest panacea 
+government oil price opec 
+lower , via new oil tax . 
+since government seek 
+raise oil price extent opec , 
+call except `` moral equivalent civil 
+war -- government people ? '' 
+, classically , international trade , - 
+ine entity world except government go 
+court claim vendor sell goods 
+cheaply demand naughty vendor 
+compel court raise price , also 
+punish act lower first place ? 
+statist could afford take couple 
+hundred year trash economy liberty -- 
+certainly count equivalent period 
+stability reclaim . 
+contend 
+exist almost `` black hole '' effect evolution 
+nation-state evolution star . 
+free - 
+dom contract beyond certain minimum extent , state 
+warp fabric political continuum 
+degree subsequent re-emergence freedom become 
+impossible . 
+good illustration see 
+area so-called `` welfare '' payment . 
+
+sup public trough outnumber thus outvote 
+whose tax must replenish trough , possible 
+choice democracy perpetuate expand tak - 
+ing unearned benefit many ? 
+go 
+nearest `` welfare '' office , find two people 
+dole ... recognize form 
+voting bloc forever outvote question 
+life -- fruit life 's labor . 
+essentially love liberty need `` edge '' 
+sort ultimately go prevail . 
+- 
+use altruist ' `` '' 
+`` work , slave , suffer , sacrifice , next generation 
+billion random stranger live better world . '' 
+recognize , however immoral appeal might , 
+nonetheless extremely powerful one today 's culture . 
+convince people work energetically 
+`` cause , '' care enough personal welfare 
+remain alive enough healthy enough continue 
+work -- truly massive reservoir energy 
+draw . 
+equally clearly , sort ap - 
+peal utilize egoistic 
+libertarian goal . 
+stand tonight 
+say something like , `` listen , follow enunciate 
+noble `` cause , '' contribute money support `` cause , '' 
+give free time work `` cause , '' strive 
+selflessly bring , 
+child dead maybe child 's child actu - 
+ally live egoism '' -- would think would go mad . 
+
+course would right . 
+point try 
+make libertarianism egoism spread , 
+, , individual libertarian egoist find 
+profitable enjoyable . 
+probably 
+. 
+certainly disparage concept polus - 
+tical action , believe , even 
+necessarily cost-effective path toward increase 
+freedom time . 
+consider , fraction 
+investment time , money effort might expend try - 
+ing convince state abolish wiretapping 
+form censorship -- teach every libertarian - 
+use cryptography abolish 
+unilaterally . 
+maxim -- proverb -- generally attribute 
+, likely libertarians al - 
+ready hear . 
+likely would quarrel 
+say , might well feel hear often 
+enough already , nothing teach , 
+moreover , maybe even tire hear . 
+
+shall therefore repeat : 
+give man fish , say run , feed 
+day . 
+teach man fish , feed 
+lifetime . 
+exposure quote probably sort 
+`` workfare '' vs. `` welfare '' context ; namely , 
+genuinely wish help someone need , teach 
+earn sustenance , simply beg . 
+course true , next time 
+hungry , might anybody around willing even 
+able give fish , whereas information 
+fish , completely self sufficient . 
+submit exhaust first order 
+content quote , nothing 
+glean , would waste time cite 
+. 
+, seem almost 
+slant , though imply structure ac - 
+maximize benefit hungry 
+beggar may encounter . 
+consider : 
+suppose eskimo know fish , 
+know hunt walrus . 
+, hand , 
+often go hungry travel thru walrus country 
+idea catch damn thing , 
+eat fish could catch . 
+suppose 
+two decide exchange information , bartering 
+fishing knowledge hunting knowledge . 
+well , first 
+thing observe transaction type 
+categorically unambiguously refute marxist premise 
+every trade must `` winner '' `` loser ; '' 
+idea one person gain , must necessarily 
+`` expense '' another person lose . 
+clearly , 
+scenario , case . 
+party gain - 
+thing , neither - 
+ish way . 
+come exchange information 
+rather material object life longer zero-sum 
+game . 
+extremely powerful notion . 
+`` law 
+diminish return , '' `` first second law 
+thermodynamics '' -- `` law '' constrain - 
+bility context -- longer bind ! 
+
+anarchy ! 
+consider another possibility : suppose hungry 
+eskimo never learn fish ruler 
+nation-state decree fishing illegal . 
+fish 
+contain dangerous tiny bone , sometimes sharp spine , 
+tell , state decree consumption -- 
+even possession -- hazardous people 's 
+health permit ... even knowledgeable , willing 
+adult . 
+perhaps citizen ' body think 
+government property , therefore function 
+state punish improperly care govern - 
+ment property . 
+perhaps state gener - 
+extend competent adult `` benefit '' provide 
+child mentally ill : namely , full-time , 
+supervisory conservatorship -- need 
+trouble make choice behavior 
+think physically risky morally `` naughty . '' 
+, 
+case , stare stupefied , eskimo informant re - 
+late law take seriously friend 
+recently imprison year crime `` pos - 
+session nine ounce trout intent distribute . '' 
+may conclude society grotesquely 
+oppressive enforce law type simply 
+affront dignity human . 
+may go far - 
+ther decide commit portion discretion - 
+ary , recreational time specifically task thwart 
+tyrant 's goal . 
+rationale may `` altruistic '' 
+sense want liberate oppressed , 
+`` egoistic '' sense prove outsmart 
+oppressor -- likely combination per - 
+hap even motive . 
+, since zero desire become martyr 
+`` cause , '' mount military campaign , 
+even try run boatload fish blockade . 
+however , technology -- particular - 
+formation technology -- multiply efficacy literally 
+hundredfold . 
+say `` literally , '' fraction 
+effort virtually none risk attendant 
+smuggling hundred fish , quite readily produce 
+hundred xerox copy fishing instruction . 
+tar - 
+gete government , like present-day america , least permit 
+open discussion topic whose implementation re - 
+strict , suffice . 
+, government 
+attempt suppress flow information well , 
+take little effort perhaps write 
+fishing manual floppy disk encrypted accord 
+mythical eskimo 's public-key parameter . 
+far 
+increase real-world access fish make genuine 
+nonzero headway -- may continue snowball 
+information provide . 
+
+waste time try convert id - 
+adversary , even try win unde - 
+cide . 
+recall harry browne 's dictum `` freedom 
+unfree world '' success endeavor general 
+inversely proportional number people whose - 
+sion necessary fulfilment . 
+look history , deny 
+dramatically shape man name like washington , 
+lincoln , . 
+. 
+. 
+nixon . 
+. 
+. 
+marcos ... duvalier ... 
+... ilk . 
+also shape 
+people name like edison , curie , marconi , tesla 
+wozniak . 
+latter shaping least per - 
+, nearly bloody . 
+try take 
+project . 
+rather beseech state please en - 
+slave , plunder constrain , propose libertarian net - 
+work spread technology may seize 
+freedom . 
+must bit careful . 
+
+present illegal encrypt information government 
+want spy , guarantee fu - 
+ture may hold . 
+bill introduce , exam - 
+ple , would make crime wear body armor 
+government want shoot . 
+, 
+commit certain crime wear kevlar vest , 
+fact would constitute separate federal crime . 
+law knowledge pass ... yet ... 
+indicate government think . 
+technological application , however , indeed 
+pose legal risk . 
+recognize , example , anyone 
+help pre-civil war slave escape `` underground 
+railroad '' make clearly illegal use technology -- 
+sovereign government united states america 
+time find buying selling human quite 
+acceptable buying selling cattle . 
+simi - 
+, prohibition , anyone use bathtub 
+ferment yeast sugar illegal psychoactive drug , 
+alcohol -- controlled substance , wine -- use - 
+way could get shoot dead federal agent 
+`` crime '' -- unfortunately restore life 
+congress reverse use 
+drug . 
+... quote former president , co - 
+conspirator pardon felon ... `` let make one thing 
+perfectly clear : '' project advocate , 
+participate , conspire violation law -- 
+matter oppressive , unconstitutional simply stupid 
+law may . 
+engage description - 
+tional informational purpose technological 
+process , process like fly plane 
+manufacture firearm may well require appropriate li - 
+perform legally . 
+fortunately , license 
+need distribution receipt information - 
+self . 
+, next time look political scene 
+despair , think , `` well , 51 % nation 51 % 
+state , 51 % city turn libertarian 
+'ll free , somebody might well cut 
+goddamn throat , put misery '' -- recognize 
+case . 
+exist way make - 
+self free . 
+wish explore technique via project , 
+welcome give name address -- fake 
+name mail drop , matter -- 'll go 
+mailing list newsletter . 
+
+friend acquaintance think would interested 
+welcome well . 
+even ask stamped self - 
+address envelope , since printer handle mailing la - 
+bel actual postage cost noise compare 
+effort get issue . 
+
+idea share , even useful product 
+plug , 'll glad write publication . 
+even want proverbial `` free rider '' 
+benefit contribute -- still welcome : 
+everything public domain ; feel free copy 
+give away sell , matter , 'cause 
+get money take full-page ad try 
+give away , certainly entitle capitalist 
+profit ... anyway , every application principle 
+make world little freer , certainly 
+willing underwrite , least forseeable fu - 
+ture . 
+leave one final thought : 
+learn beat plowshare sword 
+outlaw sword , sure hell ought learn 
+outlaw plowshare . 
+-- chuck hammill 
+project 
+queensbury drive 
+los angeles , california 
+
+
+
+address update december 1992 , 
+permission chuck hammill , russell whitaker 
+interested issue raise piece participate 
+least newsgroup : 
+
+
+
+
+copy public key encryption program , pgp 2.1 pretty 
+good privacy , obtain various ftp site around world . 
+one site , version 
+anonymous ftp . 
+zip . 
+version operate system , include unix variant 
+macintosh , also available . 
+source code also 
+available . 
+blurb pgp , way : 
+- ---------------------- quote 
+pgp pretty good privacy ver 2.2 - rsa public-key encryption freeware 
+, protect e-mail . 
+let communicate securely people 
+never meet , secure channel need prior exchange 
+key . 
+well feature fast ! 
+excellent user documentation . 
+pgp sophisticated key management , hybrid 
+encryption scheme , message digest digital signature , datum 
+compression encryption , good ergonomic design . 
+source 
+code free . 
+filename : . 
+zip executable manual , . 
+zip source 
+keywords : pgp , pretty good privacy , rsa , public key , encryption , 
+privacy , authentication , signature , email 
+- ---------------------- end quote 
+russell earl whitaker 
+communications editor : 
+: journal transhumanist thought 
+board member , institute 
+----- begin pgp signature ----- 
+version : 2.2 
+
++4 + + 
++ + 
+
+
+----- end pgp signature ----- 

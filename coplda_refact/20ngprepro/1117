@@ -1,0 +1,175 @@
+: jon leech 
+subject : space faq - mission schedules 
+supersedes : < > 
+organization : university north carolina , chapel hill 
+lines : 177 
+distribution : world 
+expire : 6 may 1993 gmt 
+: 
+keyword : frequently ask question 
+: 
+: $ date : $ 
+space shuttle answers , launch schedules , tv coverage 
+shuttle launchings landings ; schedule see 
+shuttle operation discuss usenet group , 
+ken hollis post compress version 
+shuttle manifest launch date information 
+periodically . 
+manifest also available ames space 
+archive . 
+portion manifest formerly 
+include faq remove ; please refer post 
+archived copy . 
+date information 
+mission , call 407 kennedy space center . 
+official nasa shuttle status report post 
+frequently . 
+shuttle roll liftoff ? 
+follow answer translation provide ken jenks 
+. 
+`` ascent guidance flight control training manual , '' asc 2102 , 
+say : 
+`` vertical rise phase , launch pad attitude 
+command v rel sufficient assure launch tower 
+clearance achieve . 
+, tilt maneuver roll program 
+orient vehicle head attitude require generate 
+negative , turn alleviate structural loading . 
+
+advantage attitude performance gain , decrease abort 
+maneuver complexity , improve s-band look angle , crew view 
+horizon . 
+tilt maneuver also require start gain 
+downrange velocity achieve main engine cutoff meco target 
+second stage . '' 
+really good answer , couch nasa jargon . 
+'ll try 
+interpret . 
+1 wait shuttle clear tower roll . 
+2 , roll shuttle around angle attack 
+wind cause passage atmosphere 
+`` relative wind '' chord wing imaginary line 
+leading edge trail edge slightly 
+negative angle `` negative '' . 
+cause little bit 
+`` downward '' force toward belly orbiter , + z 
+direction force `` alleviate structural loading . '' 
+careful wing -- 
+`` delicate '' part vehicle . 
+3 new attitude roll also allow carry 
+mass orbit , achieve higher orbit mass , 
+change orbit higher lower inclination would 
+case roll `` performance gain '' . 
+4 new attitude allow crew fly less complicated 
+flight path execute one dangerous abort 
+maneuver , return launch site `` decrease abort maneuver 
+complexity '' . 
+5 new attitude improve ability ground-based radio 
+antenna good line-of-sight signal s-band radio 
+antenna orbiter `` improve s-band look angle '' . 
+6 new attitude allow crew see horizon , 
+helpful mandatory part pilot fly machine . 
+7 new attitude orient shuttle body 
+nearly parallel ground , nose east 
+usually . 
+allow thrust engine add velocity 
+correct direction eventually achieve orbit . 
+remember : 
+velocity vector quantity make speed direction . 
+shuttle large horizontal component 
+velocity small vertical component attain orbit . 
+beg question , `` launch pad orient give 
+nice attitude begin ? 
+shuttle need roll 
+achieve attitude ? '' 
+answer pad leftovers 
+apollo day . 
+shuttle straddle two flame trench -- one 
+solid rocket motor exhaust , one space shuttle main 
+engine exhaust . 
+see effect daytime 
+launch . 
+srm exhaust dirty gray garbage , ssme exhaust 
+fluffy white steam . 
+watch difference `` top '' 
+orbiter side `` bottom '' external tank side stack . 
+
+access tower support service structure orient 
+basically way saturn v 's . 
+side note : 
+saturn v 's also roll program . 
+ask -- shuttle 
+guy . 
+check buddy ascent dynamics . 
+add `` roll 
+maneuver '' really maneuver three axis : roll , pitch yaw . 
+roll component maneuver perform reason 
+state . 
+pitch component control load wing keep 
+angle attack within tight tolerance . 
+yaw 
+component use determine orbital inclination . 
+total 
+maneuver really express `` quaternion , '' 
+concept combine three rotation matrix one 
+array . 
+receive nasa tv channel , nasa select 
+nasa select broadcast satellite . 
+access satellite 
+dish , find select satcom , transponder 13 , c-band , 72 
+degree west longitude , audio 6.8 , frequency mhz . 
+station 
+atlantic , increasingly difficult receive 
+california point west . 
+event special interest e.g. 
+shuttle mission , select sometimes broadcast second satellite 
+viewer . 
+get satellite feed , cable operator carry select . 
+worth ask . 
+select schedule find nasa headline news 
+frequently post . 
+generally carry press 
+conference , briefing nasa official , live coverage shuttle 
+mission planetary encounter . 
+select recently begin carry 
+much secondary material associate mission 
+cover . 
+amateur radio frequencies shuttle mission 
+follow believe rebroadcast space shuttle mission audio : 
+- los angeles 
+- ames research center , mountain view , california 
+- goddard space flight center gsfc , greenbelt , maryland . 
+- johnson space center jsc , houston , texas 
+- jet propulsion laboratory jpl , pasadena , california . 
+voice bulletin 
+station vhf 10m 15m 20m 40m 80m 
+------ ------ ------ ------ ------ ----- ----- 
+
+
+
+
+
+
+
+transmit mission audio , special event station 
+frequency supply keplerian element mission information . 
+also transmit , . 
+mission audio 
+transmit voice bulletin 0245 0545 utc . 
+frequency band require usb frequency 40 
+80m band lsb . 
+use fm vhf frequency . 
+item recently update courtesy gary morris 
+, 
+solid rocket booster fuel composition 
+reference : `` shuttle flight operations manual '' volume 8b - solid rocket 
+booster systems , nasa document 
+propellant composition percent 
+ammonium perchlorate oxidizer 69.6 
+aluminum 16 
+iron oxide burn rate catalyst 0.4 
+rubber 12.04 
+epoxy cure agent 1.96 
+end reference 
+comment : aluminum , rubber , epoxy burn oxidizer . 
+next : faq # - historical planetary probe 

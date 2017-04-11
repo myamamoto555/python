@@ -1,0 +1,56 @@
+: john haddy 
+subject : re : help want 
+organization : macquarie university 
+lines : 54 
+distribution : world 
+: 
+article < > , ogawa taro stephen ise write : 
+| > could someone please tell decoder 1 4 
+| > . 
+know link 2 get 8 output circuit , 
+| > link 5 make multiplexer . 
+sorry 
+| > seem like lame question , newbie electronics , 
+| > circuit . 
+please make mail possible . 
+| > 
+| > , 
+| > taro ogawa 
+| > 
+1 4 decoder need 1 4 , although 
+many commercial ssi implementation allow use one . 
+strictly , 
+1 4 decoder need take two line make one output change 
+state , accord input . 
+, hand , use two control input determine 
+four output reflect state input signal . 
+
+three input require . 
+decoder use equip output enable 
+input , since use datum input e.g. high , 
+output high ; low , select control input output 
+low . 
+eight way decoder create use high order bit bit 2 
+select two four way enable . 
+thus achieve 
+aim one output eight reflect input bit . 
+note 
+method use create true eight way , since 
+datum input enable line four way decoder leave 
+commit enable line intended purpose . 
+sixteen way decoder obviously require four , four-way decoder , plus 
+mechanism enable one four time . 
+therefore , use 
+fifth decoder , attach two high order bit , provide 
+four enable line . 
+course , two low order bit must connect parallel 
+four final stage decoder . 
+please give credit submit homework . 
+
+
+| _ | _ _ | _ | _ _ | _ | electronics department 
+| _ | _ | | | | | | _ | _ | _ | \ school 
+--------------------------------- - macquarie university 
+sydney , australia 2109 
+email : ph : 2 805 , fax : 2 805 
+

@@ -1,0 +1,36 @@
+: subbarao 
+subject : start x window 
+organization : cambridge technology partners 
+lines : 40 
+soon log linux , type 
+# 
+set tcp : protocol available 
+
+xfree86 version 1.2 x window system 
+protocol version 11 , revision 0 , vendor release 5000 
+configure driver : 
+256 svga : 
+, et 3000 , , , , , 
+use vt number 7 
+mouse : type : mouse systems , device : , 
+font path set `` , , 
+, , 
+. 
+vga 256 : mem : ok : 16 
+vga 256 : clock : 25.2 28.3 47.8 41.2 25.4 0.0 47.6 0.0 
+vga 256 : clock : 0.0 0.0 0.0 0.0 0.0 0.0 0.0 41.3 
+vga 256 : little memory virtual resolution 1024 1204 
+configure device find , display mode could resolve . 
+
+fatal server error : 
+screen find 
+give . 
+: interrupt system call 4 : unable connect x server 
+: process 3 : server error . 
+
+get message type ? 
+configuration file like config.sys ? 
+start x session shell ? 
+
+subbarao 
+

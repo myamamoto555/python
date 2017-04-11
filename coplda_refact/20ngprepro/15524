@@ -1,0 +1,26 @@
+: hirsch 
+subject : none 
+organization : internet 
+lines : 30 
+: 
+add motif wrapper family datum display program . 
+program write ` main loop ' step : 
+- use check semaphore true access new datum 
+otherwise block new datum come quite often 
+- use check message true read 
+otherwise continue message user command often 
+- update display accord latest datum message . 
+typically several run window , 
+plus datum producer serve device set flag . 
+everyone blocking make sure device server get run . 
+xt xm also ` main loop ' model must fit . 
+o'reilly vol iv ch 9 discuss add also 
+add run idle time . 
+` ' exist main loop call . 
+problem block new datum longer appropriate . 
+neither let program hurt . 
+unix select call let block several ready . 
+want x main loop except file . 
+suggestion example welcome ! 
+run sgi personal iris indigo system . 
+morris hirsch aka 

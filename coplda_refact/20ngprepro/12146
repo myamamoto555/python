@@ -1,0 +1,35 @@
+: 
+subject : card show 's address irq ! 
+keyword : com port guru , help ! 
+distribution : usa 
+organization : genesis public access unix +1 
+lines : 35 
+internal modem configure irq 3 , 
+insert card dos 5.02 pc , show 
+, 's address ! 
+get debug , dump datum , show 
+address belong - even though modem 
+. 
+, know modem work correctly since test 
+different pc - show correctly , , . 
+make work dos 5.02 pc , configure 
+modem , , -- though comm program 
+allow , fax program come modem work . 
+anyway , would like computer display modem set , 
+... 
+run diagnostic program , help : 
+display modem , display 
+. 
+use windows , problem ... help 
+pointer appreciate ... 
+various reason , must modem work , thus 
+switch com port answer ... 
+last time post , get specific answer , 
+time include specific information ... please help ! 
+----- 
+avinash 
+
+-- 
+avinash 
+
+

@@ -1,0 +1,36 @@
+: galen watts 
+subject : re : suggestion audio relay ??? 
+: 
+organization : colorado concert sound 
+lines : 25 
+article < > tom wagner , wizzard old equipment ... ... nanaimo campus write : 
+> article < > , aaron lung write : 
+article < > billy quinn write : 
+> build little project use radio shack relay switch 
+> audio . 
+get pretty bad ` click ' thing switch . 
+
+> question : 
+> good circuit use switching 
+> audio , noise kind audio line . 
+
+switch high level signal low level signal like 
+> novel circuit use build primitive `` optical isolator '' . 
+. 
+consist 
+> resistive photocell lamp , package tube . 
+lamp 
+> cell high resistance . 
+turn lamp resistance lower 
+use fet switch microphone level signal . 
+click , since put .1 uf cap across led . 
+distortion 
+measurement low mic level , go 0.03 % 
++ 14 db line level . 
+put fet series one leg 
+balanced line . 
+hum , pop , audio jump silence . 
+fet run 100 million ohm lead dark drop 150-200 
+ohm . 
+hey , work , work well . 
+galen watts , 

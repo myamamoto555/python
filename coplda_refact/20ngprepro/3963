@@ -1,0 +1,64 @@
+: andre beck 
+subject : re : font pov ?? 
+organization : dept. computer science , tu dresden , germany . 
+lines : 57 
+distribution : world 
+: 
+: . 
+de 
+keyword : font , 
+article < > , coronado emmanuel abad write : 
+| > 
+| > 
+| > see several scene mtv 
+| > ?? 
+stroke font appear object image . 
+| > color , depth even texture associate 
+| > . 
+wonder , possible pov ?? 
+| > 
+hi noel , 
+make attempt write converter read adobe type 1 font , 
+triangulate , extrude result generic 
+3d object could use pov 
+problem currently stick algorithm 
+triangulate arbitrary polygonal shape . 
+delaunay seem limit 
+convex hull . 
+constrain delaunay may okay , code 
+example . 
+another way bartman may 
+- 
+- variation , use . 
+create picture big text need , use postscript 
+. 
+, use . 
+white black , 
+exactly image white part still open 
+backside . 
+close , mirror compound original . 
+example : 
+object 
+union 
+gif `` . 
+gif '' 
+gif `` . 
+gif '' scale < 1 -1 1 > 
+
+texture 
+glass 
+
+translate < -0.5 0 -0.5 > center 
+rotate < -90 0 0 > rotate upward 
+scale < 10 5 100 > scale bigger thicker 
+translate < 0 2 0 > final placement 
+
+. 
+gif gif arbitrary size contain `` abp '' black white 
+256 point . 
+-- 
++ - o - + + - o - + 
+| o | \ \ \ - brain inside - | o | 
+| o | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ | o | 
+| o | andre ' beck mehl : | o | 
++ - o - + + - o - + 

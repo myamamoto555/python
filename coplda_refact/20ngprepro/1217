@@ -1,0 +1,65 @@
+: alan christiansen 
+subject : re : sphere 4 point ? 
+organization : swinburne university technology 
+lines : 71 
+: 
+steve worley write : 
+> edward bolson write : 
+boy , embarass trivial faq : 
+give 4 point non coplanar , one find sphere , , 
+center radius , exactly fitting point ? 
+know 
+circle 3 point , immediately see 
+straightforward way 3-d . 
+check 
+geometry book , graphic gem , farin , still loss ? 
+please mercy provide solution ? 
+> bad question : ref list algorithm 
+> either . 
+think bit , hard . 
+> 1 take three point find plane define well 
+> circle lie say algorithm already 
+> 2 find center circle . 
+line pass center 
+> perpendicular plane three point pass center 
+> sphere . 
+> 3 repeat unused point two original point . 
+
+> give two different line pass sphere 's 
+> origin . 
+center sphere . 
+> 4 radius easy compute , distance center 
+> original point . 
+> 'll leave math , workable algorithm . 
+: - 
+good bad feeling problem special case 
+solution worry . 
+four coplanar point shape square unique sphere 
+surface . 
+similarly 4 point finite size sphere 
+surface . 
+algorithm geometrical design rather algebraically design 
+meet problem neatly . 
+determine plane 3 point 
+algorithm afil return infinite r. 
+intersect two line 2 possibility 
+line 4 point planar circle 
+different line parallel . 
+sphere radius . 
+last case achieve 3 point 4th point 
+take 4th point pair first 3 parallel line produce 
+also achieve 
+4 point coplanar one circle . 
+seem algorithm fail 4 point coplanar . 
+algorithm always fail point coplanar . 
+4 point > coplanar 
+test 4th point coplanar plane first 3 point 
+find trivial . 
+> alternate method would take pair point : plane form 
+> perpendicular bisector line segment pair also contain 
+> center sphere . 
+three pair form three plane , intersect 
+> point . 
+might easier implement . 
+> - steve 
+> 

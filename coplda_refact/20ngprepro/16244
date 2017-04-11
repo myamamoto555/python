@@ -1,0 +1,36 @@
+: todd kelley 
+subject : re : pc parallel ! 
+
+organization : department computer science , university toronto 
+lines : 36 
+alan erickson write : 
+> try bring 8 + bit pc , would like 
+> use routine . 
+without buy io 
+> board make new port , _ _ bring 
+> bit ? 
+lpt seem input , hear 
+> rumor lpt bidirectional line . 
+anybody 
+> know fer sure ? 
+lpt , board 
+> 'll run new ? 
+know sure everex magic jumper 
+printer mode , general purpose bidirectional mode . 
+also , know sure ibm technical reference say follow 
+monochrome display & printer adapter ibm parallel printer 
+adapter : 
+essential external device try pull 
+line refer datum line ground . 
+later : 
+external device drive datum pin 
+violation usage ground rule time input , 
+datum ` ` ed latch contents . 
+accept responsibility incur damages kind 
+result say , `` know sure , think 
+able use traditional parallel port input 
+port write datum line , read 
+datum line , external device drive . '' 
+input 
+datum latch , noise could make infeasible . 
+todd 

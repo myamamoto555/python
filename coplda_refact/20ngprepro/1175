@@ -1,0 +1,48 @@
+: david young 
+subject : drawing lines 
+organization : mit media laboratory 
+lines : 40 
+try write code let draw line 
+box . 
+run 8-bit display create 
+use almost color . 
+want draw line 
+draw area widget -- widget display bitmap use 
+. 
+matter line draw interactively stay 
+around window refresh . 
+currently , draw interactively , begin : 
+index reserve foreground 
+color index background image 
+. 
+red . 
+red ; 
+. 
+green . 
+green ; 
+. 
+blue . 
+blue ; 
+, , & , 1 ; 
+; 
+, gc , ; 
+, gc , ; 
+draw : 
+, , gc , x1 , y1 , x2 , y2 ; 
+; 
+, return thing normal : 
+, gc , ; 
+would like happen line draw inverse 
+whatever draw . 
+instead happen get white line . 
+
+line white background - nothing show . 
+line 
+black area - nothing show ! 
+strange . 
+
+function seem right - since box , erase 
+redraw correctly ie . 
+disturb underlie image . 
+suggestion wrong ? 
+david 

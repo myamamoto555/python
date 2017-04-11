@@ -1,0 +1,41 @@
+: 
+subject : re : ibm link - 
+: . 
+
+organization : university maryland , college park 
+lines : 29 
+article < > chris crayton write : 
+> 21:25 , larry henson unmitigated gall say : 
+> 
+> lh > hello , try hook apple ibm clone . 
+> lh > seem problem configure lpt port accept . 
+
+> lh > adjust baud , parity , etc. fit system ? 
+try mode , 
+> lh > work . 
+anyone help , post e-mail . 
+. 
+> 
+> lpt port recognize baud , parity , etc. setting . 
+might tring 
+> connect serial printer parallel port . 
+try : attach serial 
+> port printer serial port pc . 
+use mode command set 
+> com port setting . 
+try 
+> 
+> c > mode , n 
+> 
+> set port parameter . 
+use mode command redirect 
+> printer port like : 
+> 
+> c > mode 
+> 
+> work . 
+good luck ! 
+> 
+first need connect null modem cable . 
+atleast hear . 
+dave . 

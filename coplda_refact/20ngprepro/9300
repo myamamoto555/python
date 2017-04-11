@@ -1,0 +1,600 @@
+: carsten grammes 
+subject : list ide spec 
+organization : des , 
+lines : 761 
+: . 
+de 
+configuration ide 
+
+last update : 
+collect carsten grammes 
+publish regularly . 
+
+explicitly warranty 
+give setting correct harmless . 
+collect , 
+check !!! 
+. 
+always possibility 
+setting may destroy hardware ! 
+
+since hope however people undergo effort 
+post setting chance applicability exist . 
+
+agree disagree setting , let know immediately order 
+update list . 
+possess hd mention know bio 
+jumper setting , please mail next update list ! 
+ide account . 
+specify landing zone set equal number 
+cylinder . 
+specify ` write ' set 
+. 
+even ask . 
+another statement maybe right : 
+ide . 
+built-in parameter 
+use every ide disk . 
+jumper ' name give print hd 's board , often 
+jumper number mean jumper ' 12 ' . 
+zero means jumper 
+leave open , one mean jumper close . 
+c o n n e r 
+conner peripherals drive geometry 
+
+conner drive low level format factory . 
+necessary 
+run setup , fdisk , dos format . 
+model head cylinders sectors pcomp type table lead 
+2 823 38 0 823 ut 3 
+4 823 38 0 823 ut 3 
+8 548 38 0 548 ut 3 
+6 832 33 0 832 ut 1 
+8 776 33 0 776 ut 1 
+8 833 33 0 833 ut 1 ? 
+16 683 38 0 683 ut 2 b 
+4 762 39 0 762 ut 2 b 
+8 526 39 0 526 ut 2 b 
+8 762 39 0 762 ut 2 b 
+4 903 46 0 903 ut 3 c 
+8 903 46 0 903 ut 3 c 
+16 683 38 0 683 ut 3 c 
+16 659 63 0 659 ut 3 d 
+16 702 63 0 702 ut 3 d 
+16 987 63 0 987 ut 3 d 
+16 1054 63 0 1054 ut 3 b 
+table 1 table 2 
+jumper settings jumper setting 
+single drive jumper act single drive jumper 
+master drive jumper act , dsp master drive jumper & dsp 
+slave drive jumper install slave drive jumper install 
+table 3 
+conner 20 drive use 
+jumper setting drive type 2 . 
+conner 40 
+drive use drive type 17 . 
+single & master drive jumper 
+slave drive jumper install ut universal translate . 
+select drive type 
+close exceed 
+megabyte capacity 
+drive . 
+drive 
+translate megabyte 
+capacity 
+select . 
+lead 
+: b : c : d : 
+j-5 j-5 j-3 
+pin 1 + pin 3 + pin 3 - pin 3 + 
+pin 2 - pin 4 - pin 4 - pin 4 - 
+> install conner 203 mb master wd caviar 2200 
+> 203 mb slave , without `` cp '' jumper , caviar 
+> seemingly normal behavior . 
+however , write caviar , 
+> would overwrite directory etc. . 
+use fastback almost 
+> impossible . 
+> 
+> workaround install caviar master , conner 
+> slave . 
+f u j u 
+detail fujitsu drive standard 
+
+head physical 8 6 4 2 
+cyl physical 1334 1334 1334 1334 
+33 33 33 33 
+speed rpm 
+capacity 
++ ----------------------------------------------- + 
+| | 
++ -- + | 
+psu | | | 
++ -- + 1 | 
+1 | | . 
+lead | 
+| | 9 connector | 
+| | 1 6 . 
+.1 o o | 
+| | . 
+| | | 
+ide | | . 
+| 
+| | . 
+| 
+| | 12 | 
++ -- + | 
++ ----------------------------------------------- + 
+pin function 
+position 
+1 - 2 active mode 
+2 - 3 slave present mode 
+4 - 5 pin 27 
+jumper 5 - 6 pin 27 reserved 
+7 - 8 2 drive system 
+8 - 9 1 drive system 
+10-11 pin 29 : pin 31 reserved 
+11-12 pin 31 : pin 29 reserved 
+pin function 
+position 
+1 - 2 slave drive mode 
+jumper 4 - 5 master drive mode 
+7 - 8 ecc 4 byte 
+8 - 9 ecc 7 byte 
+pin function 
+position 
+1 - 2 write protect enable 
+jumper 2 - 3 write protect disabled 
+4 - 5 -6 reserve 
+key : guess ! 
+mark factory default set jumper 
+bio setting 
+bio set system 667 cylinder , 33 sector 
+16 head . 
+> try set ide drive subject slave drive 
+> conner drive contact support company give answer work . 
+factory default 1-6 . 
+set drive single drive . 
+set make slave drive . 
+sw1 set 1-4 along . 
+model cylinder head sectors capacity million byte 
+1013 10 63 
+1002 13 63 
+995 16 63 
+6 switch switch block drive . 
+4 
+use aware manual : 
+master 
+slave 
+ecc byte 4 byte 
+7 byte 
+write protect disabled 
+enable 
+io channel ready disabled 
+enable 
+idea function . 
+value 
+list factory default setting . 
+k l o k 
+105 mb 
+bio : cyl 979 head 6 sector 35 
+120 mb 
+bio : cyl 981 head 6 sector 40 
+follow jumper setting report probably 
+also valid drive . 
+single hd : 
+o o o o o 
+o o o o-o < -- row pin 1 ide connector . 
+master disk 1 : 
+o o o o o 
+| 
+o o o o o 
+slave : 
+o o o o o 
+| 
+o o o o o 
+5 pair pin righthand side disk . 
+m x o r 
+model head sectors landing zone 
+---------- ----- ----- ------- ------- ------------ 
+816 15 32 0 816 
+683 16 38 0 683 
+654 16 63 0 654 
+842 16 63 0 842 
+1036 16 63 0 1024 
+jumpers follow : 
+bottom drive look like well , sort : 
+| o o 1-2 | 
+| o o 3-4 | 
+| o o 5-6 | 
+| o o 7-8 | 
+| o o 9-10 | 
+| | 
++ power ide connector ----- + 
+single drive dual drive system 
+pin number jumper system master slave 
+----------- ------ ------------ ------ ----- 
+1-2 slave drive remove remove install 
+3-4 activity lead optional optional optional 
+5-6 slave present remove remove optional 
+7-8 master drive remove install remove 
+9-10 sync spindle remove optional remove 
+one drive master array jumper install . 
+maxtor 16 467 17 close , close 
+maxtor 7 1024 17 open , open 
+maxtor 4 762 39 close , open 
+maxtor 8 925 17 open , close 
+maxtor 16 936 17 close , close 
+maxtor 14 1024 17 open , open 
+maxtor 8 762 39 close , open 
+maxtor 15 900 17 open , close 
+maxtor 8 824 33 
+jumpers 2 drive : 
+ready open : disabled ; close : enable 
+see 
+see 
+open : normal ; close : factory 
+j j j j j 
+2 1 1 1 1 
+0 9 8 7 6 
+power 
+: idle mode latch open : disabled ; close : enable 
+: drive model open : ; close 
+j18 : ecc bytes open : 7 byte ; close : 4 byte 
+: drive master alone : j20 close , close 
+drive master two drive : j20 close , open 
+drive slave two drive : j20 open , close 
+maxtor 
+default power-up bios translation parameter possible 
+cyl hds spt 
+683 16 38 212 
+two set jumper . 
+set 5 set 
+4 . 
+power ide connector toward , set 5 
+number leave right - j20 , set 4 number 
+bottom top . 
+jumper normal interest j20 . 
+jumper 
+drive single drive system , master drive dual drive 
+system . 
+remove jumper j20 slave drive dual drive system . 
+dummy may use store spare shunt 
+drive configure slave mode . 
+jumpers , j18 , , factory reserve . 
+abnormal operation 
+may occur jumper . 
+jumper 22 sync spindle open disabled 
+jumper 23 sync open slave 
+jumper 16 channel ready open disabled 
+maxtor ide ; ; universal translate : 
+drive type : user 
+cyl hds wpc lz 
+967 16 0 0 31 wpc lz optional 
+master 2 : j20 close 
+slave 2 : j20 open use shunt storage 
+single : j20 close 
+m c r o p o l 
+drive 
+
+unformatted mb 647 1220 
+format mb 560 1050 
+platter 5 8 
+head 8 15 
+cylinder 1760 1760 
+
+performance : 
+track track read 1.5 
+track track write 2.5 
+average 10 
+max 25 
+avg rotational latency 5.56 
+rotational speed 5400 rpm + - 5 % 
+datum transfer rate upto 
+internal datum rate 
+bios settings : 
+1084 cyl 16 head 63 sector 
+master 1024 cyl 16 head 63 sector 
+slave 1010 cyl 16 head 63 sector 
+emulate master slave 
+jumpers label j6 drive 
+-- 
+| oo | w1 \ 2 use 
+| oo | w2 
+| oo | 
+| oo | 
+| oo | 
+-- 
+w2 w1 
+-- -- 
+- drive emulate master + slave 
+drive master , slave present 
+drive slave 
+drive master , slave present ie single drive 
+m c r o c e n c e 
+
+model : 
+head : 7 
+cylinder : 855 
+: 35 ? 
+size : 105m 
+model # . 
+size 40m 
+m n c r b e 
+
+model cap cyc h rwc wpc enc rate access spt comment 
+3.5 '' 21 745 2 - - 8 28 m 28 
+3.5 '' 42 745 4 - - 8 28 m 28 
+3.5 '' 42 745 4 - - 8 40 m 28 
+master 2 : 5-6 
+slave 2 : 1-2 
+single : 1-3 shunt storage 
+n e c 
+nec , 40 mb 
+bio : cyl 537 head 4 sect 41 
+nec , 105 mb 
+bio : cyl 625 head 8 sect 41 
+nec , 44 mb 
+bio : cyl 423 head 8 sect 26 0 424 
+jumper nec drive 
+single 0 0 
+master 1 0 
+slave 1 1 
+report difficulty use wd caviar master 
+nec drive slave - way work . 
+q u n u m 
+logical spec quantum drives 
+compliment computer brokers canada 
+model cap avg acc cylinders head 
+mb m 
+42 19 965 5 17 
+84 19 965 10 17 
+120 15 814 9 32 
+168 15 968 10 34 
+209 15 873 13 36 
+426 14 1021 16 51 
+lp 52 17 751 8 17 
+lp 83 17 611 16 17 
+lp 105 17 755 16 17 
+lp 122 16 901 5 53 
+lp 245 16 723 13 51 
+
+legend : 1 jumper install 0 jumper 
+
+40 & 80 jumpers 
+d ss meaning 
+1 0 single drive configuration 
+1 1 master dual drive 
+0 0 slave dual drive 
+0 1 test 
+
+120 , 170 , 210 & 425 jumpers 
+d sp ss meaning 
+0 0 0 slave master quantum prodrive 
+0 0 1 slave prodrive mode 
+0 1 0 slave master non quantum drive 
+0 1 1 use 
+1 0 1 master drive mode check slave 
+1 1 0 master mode use sp check slave present 
+1 1 1 master mode use sp check slave present 
+1 0 0 single drive 
+
+lp 52 , 80 , 105 , 120 & 240 jumpers 
+d sp dm mean 
+0 0 0 slave standard mode compatibility drive use 
+handle communication 
+0 0 1 slave prodrive mode . 
+without use line 
+0 1 0 self test 
+0 1 1 self test 
+1 0 0 master mode use check slave 
+1 0 1 master mode use check slave 
+1 1 0 master mode use sp check slave without 
+check 
+1 1 1 master mode use sp check slave without 
+check 
+
+spec form mark jumper name dm , label c 
+lp drive . 
+quantum els series : 
+model cap avg acc cylinders head 
+mb m 
+42 - 968 5 17 
+85 - 977 10 17 
+127 - 919 16 17 
+170 - 1011 15 22 
+write 0 quantum drive probably significance 
+landing zone cylinder 
+strap : el drive 
+master , use d 
+master slave , d , d sp case 
+slave , strap 
+r o d m e 
+information ro ro series hard disk drive : 
+drive type 
+model hds . 
+block formatted cap . 
+------- -- -- ----------- ---------- -------------- 
+868 3 34 45.33 
+868 5 34 75.55 
+923 5 34 80.33 
+868 7 34 105.77 
+923 7 34 
+217 15 28 46.67 
+325 15 28 70.00 
+492 15 28 105.80 
+523 15 28 112.50 
+759 15 28 
+976 15 28 
+link options 
+order install rodime ro series drive dumper 
+drive lead operation drive need set 
+describe relevant product specification . 
+single drive environment drive describe master . 
+dual drive environment drive describe master 
+slave . 
+due protocal take place two drive 
+perform diagnostic . 
+four link , , , , adjacent 40 way 
+interface connector . 
+follow function describe 
+order view end drive , first jumper 
+describe nearest 40 way interface connector . 
+: lead 
+fit , jumper connect led drive pin 39 
+interface . 
+allow led connect interface . 
+
+external current limit resistor need fit series 
+lead option select . 
+value resistor 
+dependant led type choose range 130 
+ohms ot 220 ohm . 
+: dual drive 
+jumper must fit two drive attach single 
+bus . 
+fallow communication across 40 way interface connector , 
+indicate , master drive , presence slave . 
+: master 
+fit signify drive master . 
+
+two drive connect single bus one may 
+jumper way . 
+: 
+fit connect signal drive , 
+fit drive use host system higher 
+datum transfer rate drive i.e. greater 4 per 
+second use 1:1 interleave . 
+jumper normally 
+fit host transfer lower rate 4 per 
+second . 
+four possible configuration drive 
+may jumper : 
+master , single drive lead interface & fit . 
+master , single drive without lead interface fit . 
+master , dual drive without lead interface & fit . 
+slave , dual drive without lead interface jumper fit . 
+master , dual drive lead interface , & fit . 
+slave , dual drive lead interface fit . 
+master drive delay power-up approximately two seconds 
+reduce power surge application dual drive use . 
+connection led find close 28 way 
+connector end drive . 
+lead driver affect 
+link option . 
+internal current limit resistor 
+drive led driver . 
+refer product specification 
+detail . 
+e g e 
+list seagate hd include mfm , scsi , ide 
+every mirror 
+. 
+zip 
+contain info follow drive : 
+
+
+
+
+
+
+
+e c 
+model : 
+cyl . 
+head capacity 
+------ ------ ------ ------ ------ --------- 
+physical 1282 4 40 - - 
+bio ami 641 8 40 0 0 100.2 m 
+award 926 13 17 0 0 99.9 m 
+phoenix 776 8 33 0 0 100.0 m 
+connectors jumpers : 
++ -- + 1 jumper function 
+| ... | + -- + + ------- -- + 2 0 0 : - act select 
+| | | ... | | : : : : : : : : : :| : : : : : - slv present select 
++ -- + + -- + + ----- ----- + 3 1 1 : two hdd 's 
+j2 j7 40 j1 -- : single hdd 
+power power signal jumpers 2 : master single 
+: slave 2 unit use 
+3 : - ch output 
+: - ch output 
+master slave settings : 
+jumper no. : 1 2 
+----------------------- 
+single ... : 0 1 1 , 
+master ... : 1 1 0 , jumper 
+slave ... : 1 0 
+w e e r n d g l 
+caviar series : 
+name size mb cylinder head sectors 
+---------------------------------------------------- 
+40.7 980 5 17 
+81.3 980 10 17 
+119.0 1024 14 17 
+162.7 1010 6 55 
+202.8 989 12 35 
+1010 12 55 
+please note recommend cmo parameter . 
+disk 
+support so-called dynamic translation , thus able work 
+parameter fewer sector total number sector 
+disk . 
+, accord manual , jumper setting follow : 
+jumper cp ma sl 
+------------------------------------------------- 
+single 0 0 0 
+master 0 1 0 
+slave 0 0 1 
+slave conner 1 0 1 
+maybe 2 kind caviar 's float around : 
+jumper read ma sl si use : 
+jumper si ma sl 
+single 1 0 0 
+master 0 1 0 
+slave 0 0 1 
+report difficulty use wd caviar master 
+nec drive slave - way work . 
+> install conner 203 mb master wd caviar 2200 
+> 203 mb slave , without `` cp '' jumper , caviar 
+> seemingly normal behavior . 
+however , write caviar , 
+> would overwrite directory etc. . 
+use fastback almost 
+> impossible . 
+> 
+> workaround install caviar master , conner 
+> slave . 
+40 mb 
+
+977 , 5 head , 17 sect , : 977 wenn sie sie 
++ ------- + + -- + -- + -- + 1 : drive master 
+| cable | | 1 | 2 | 3 | 2 : drive slave 
++ ------- + + -- + -- + -- + 3 : second drive 
+jumper set : drive . 
+useful telephone number ... 
+: 
+
+maxtor : 
+support : 
+: 
+bb : 
+list 800 number 1 800 . 
+quantum : 
+
+support 
+fax 
+bb 
+seagate : 
+support : 
+: 
+bb : 
+last least 
+could help little collection live 
+part world far away , postcard ? 
+surely answer ! 
+carsten grammes 
+experimental physics 
+
+saarbruecken 
+saarbruecken 
+germany 

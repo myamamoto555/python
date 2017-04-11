@@ -1,0 +1,61 @@
+: john west 
+subject : re : atari 2600 processors 
+organization : university western australia 
+lines : 54 
+: 
+ian farquhar write : 
+> article < > yamada write : 
+atari 2600 use 6502 cpu , like entire 8-bit line 
+400 , , 1440 , , computer , well 5200 
+game machine . 
+> wrong , . 
+would like know , 6502 without irq , 
+13 address line give 8k memory space . 
+> one chip asic sense word understand : 
+> tia sometimes know , although manufacturer list 
+> cia complex interface adapter . 
+stand television 
+> interface adapter , handle sound , paddle minimal video hardware 
+> 2600 possess . 
+know call - cia find 
+commodore 64 believe chip exist 2600 around . 
+tia map bottom 128 byte page 0 , shadow 
+bottom 128 byte page 1 . 
+get image screen , wait 
+raster line picture start , load bitmap line 
+` sprite ' register , tell x position take , many 
+duplicate want , etc , next line . 
+
+take processor 's time visible portion 
+display . 
+> also standard ram , , timer riot , plus voltage 
+> regulator memory serve 555 timer . 
+. 
+ram map top 128 byte page 0 , shadow page 
+1 . 
+6502 address mode instruction 
+shorter faster normal one , important 
+machine like ram page 0 . 
+unfortunately , 
+also want stack page 1 stack pointer 8 bit , 
+high byte address 1 . 
+iot section map page 2 somewhere . 
+2 8 bit register 
+remember bit could set o like 
+, 1 ? 
+8 ? 
+bit timer programmable 
+think power 2 . 
+interrupt system , 
+many game would set timer known time , go away 
+something else , sit wait timer run . 
+logic box address decode - riot 
+least 2 chip select pin probably one active high , one active low , 
+imagine tia much . 
+various address line feed directly 
+chip select . 
+like rom right top memory , 
+2600 use rom active high chip select - exactly 
+normal , convert 
+usual active low chip select . 
+john west 

@@ -1,0 +1,24 @@
+: thad p 
+subject : re : maxtor 2190 info need re : unix pc software sale 
+organization : portal system tm 
+lines : 25 
+article < > 
+colin mcfadyen write : 
+| anyone know jumper set maxtor 2190 ?? 
+| 2190 come would like use pc . 
+maxtor product specification oem manual , doc . 
+rev. f , 
+page 35 : 
+j2 , 20 j1 34 power 
+| | | | | | 
++ ----- + + -------- + + ------- + | 
+| 4 c 3 2 c 1 | 
+| o o o o o o | 
+option `` '' jumper drive select , show `` '' 
+. 
+also drive power-up option jumper elsewhere 
+drive 's board odds unset slim . 
+since `` normally '' one hd , would jumper `` c1 '' 
+select first possible drive address ; 2190 second drive 
+, jumper `` 2c '' . 
+thad 

@@ -1,0 +1,488 @@
+: ashok aiyar 
+subject : set slip client dos windows long 
+organization : cwru school medicine 
+lines : 468 
+distribution : comp 
+: . 
+
+summary : get slip go pc ... 
+keyword : slip , phone , , 
+post monthly `` slip client pc '' post 
+month . 
+lot work , imminent graduation come way 
+post one march earlier month -- apologize . 
+file include information write script university minnesota 
+phone , also batch file hack let use packet driver 
+phone . 
+addition , modification correction , reach 
+< > 
+best wish , 
+ashok 
+-- begin -- 
+base experience set slip dos windows , 
+comment set slip environment . 
+thank 
+trumpet beta tester cwru slip beta tester comment . 
+
+configure modem : 
+turn dtr 0 & w 
+disable dtr communication program use 
+dial slip server drop dtr exit program 
+therefore hang line . 
+use program like kermit 
+establish slip connection , need . 
+program necessarily hangup line exit . 
+note : use univ. minn. . 
+phone dial establish 
+slip connection , need turn dtr . 
+b dial establish slip connection first . 
+
+automatically use program like phone university 
+minnesota dial establish slip connection load 
+slip packet driver . 
+phone script language simple 
+phone script easily write configure phone work 
+slip server . 
+addition , packet driver 
+phone work currently , easy write 
+batch file hack let phone work packet driver . 
+section phone document script 
+batch file example . 
+
+configure slip driver : 
+five slip packet driver commonly available 
+peter 's compress slip driver 
+peter 's slip driver 
+. 
+com driver like phil burn 's modify driver 
+driver ethernet simulation slip 
+univ. minnesota driver base 
+four , vastly prefer . 
+exe . 
+com 
+follow reason : 
+much faster even though modem uart 
+b use , several 
+notice pc clock get mess perform 
+long ftp transfer . 
+c support use ethernet simulation mode 
+d use ethernet simulation mode seem work 
+every application test . 
+instruction . 
+exe use phone 
+load slipper autoexec.bat file accord instruction : 
+instance v. modem 
+slipper vec 62 baud 
+b use dos application win 3.1 dos box , use 
+double-ended packet driver shim -- create virtual 
+packet driver . 
+dos application native mode , 
+application windows 3.1 dos box windows application 
+use virtual driver . 
+
+c use , load next . 
+configure 
+use interrupt . 
+
+instruction . 
+com : 
+try get version 10 slip driver . 
+philip burns northwestern 
+university modify . 
+com driver better hardware 
+handshaking . 
+driver distribute along . 
+b load driver establish slip connection . 
+modem 
+v. modem , would load driver . 
+- w - h 4 slip 
+c discuss use dos application windows 3 . 
+x 
+dos box , probably want use 
+
+d use , load 
+
+instruction : 
+choose use instead . 
+com , 
+instruction exactly one crucial difference . 
+
+delete line `` device vcd '' section 
+. 
+interfere run regular windows comm 
+application crosstalk , get lot drop 
+character etc. application . 
+therefore 
+recommend . 
+would load : 
+- w - h 4 
+
+configure windows 3.1 : 
+make follow modification file 
+section . 
+list com port , address interrupt . 
+
+4 
+
+3 
+
+5 
+also within windows - control panel , 
+`` port '' icon . 
+ii give port modem attach generous com buffer 
+10000 
+iii change com port value com port wish 
+use modem zero . 
+amount time 
+windows wait seconds hand control com port 
+another application . 
+use want switch 
+one session another , value default value 
+2 seconds , get gpf windows crash . 
+0 
+also within windows - control panel . 
+386 enhance , `` device contention '' , set 
+device contention com port modem 
+`` never warn '' 
+
+additional note : 
+
+assign different ip address 
+slip session ? 
+fortunate campus slip server assign user 
+permanent ip address , worry editing 
+time establish slip connection . 
+assign new ip address every occasion dial , 
+please try use aware software , let 
+configuration . 
+however , aware 
+work slip connection . 
+get work 
+situation , must following : 
+edit file . 
+let net section look like : 
+net 
+name 
+ip 
+whatever appropriate 
+20 
+60 whatever appropriate 
+save change , file 
+`` + r '' 
+start slip connection , remember name ip address 
+assign . 
+time start 3.1 x , 
+general configuration dialog box open . 
+enter name 
+ip address assign session , click ok , 
+run . 
+change make 
+save , . 
+elegant solution problem dynamic slip ip address 
+assignment provide victor 
+victor use program preparation . 
+use inquire assign ip , save 
+file call `` '' . 
+another file `` '' essentially complete 
+file lack ip address . 
+final step `` '' 
+`` '' copy single file . 
+example 
+victor 's batch file provide : 
+
+slipper 
+
+- `` ip '' % % \ '' '' 
+- `` ip # : % '' 
+copy q net + + e : \ com \ \ 
+del q 
+
+echo . 
+echo ready run 
+
+question detail , please contact victor 
+
+software attempt add capability . 
+
+use slip ? 
+work . 
+com packet driver , crash 
+immediately use 
+work . 
+exe , use ethernet 
+simulation mode . 
+example configuration show : 
+latest release 1.2 c ; important 
+use version , want use virtual packet driver 
+application like trumpet windows release shortly . 
+autoexec.bat 
+lh vec 65 baud ether packet driver 
+lh 5 65 5 load 5 virtual packet driver 
+lh 7f 65 first virtual packet driver use 
+lh 
+63 65 use native dos 
+additional virtual packet driver load directly within 
+windows 3.1 dos box . 
+example , pif file load 
+direct file `` '' . 
+read 
+like : 
+60 65 load virtual packet driver 
+cd \ 
+
+cd \ 
+60 u unload packet driver 
+exit cause dos window close 
+similar batch file load dos application 
+like pc gopher . 
+experience work fine 
+even virtual packet driver two independent virtual 
+session , load software interrupt . 
+example 
+within two different box -- one 
+gopher , virtual packet driver load 
+instance . 
+
+much degrade performance ? 
+v. .42 bi modem run windows 3.1 
+reasonably fast video card ati graphics ultra . 
+
+condition , three virtual packet driver load 
+use follow : 
+driver -- ftp client session 
+b driver one dos window -- session 
+c driver another dos window -- trumpet dos 
+get ftp transfer rate 0.8 - 1.0 transfer 
+compress file . 
+rate comparable get 
+load packet driver , single session 
+active . 
+use packet driver single session 
+active , get transfer rate 1.3 - 1.4 
+file . 
+40 % degradation performance slipper , 
+benefit able use outweigh 
+performance hit . 
+
+ethernet simulation mode 
+ethernet simulation mode , ver 1.3 work 
+application test . 
+one two application 
+require ethernet simulation balk 1.2 , even 
+rare problem resolve ver 1.3 
+slipper use ethernet simulation mode , use , 
+get error message console window read 
+`` ip : incorrect packet type '' `` ip : bad version number '' . 
+
+seem prevent function , although comment 
+loss performance . 
+
+application work 
+ethernet simulation mode ? 
+rare event find package work 
+ethernet simulation mode , first contact author -- 
+peter -- let 
+know . 
+chance fix . 
+meanwhile , try follow . 
+know 
+kosher , work problem ver 1.2 
+load describe section 
+load , run application terminate 
+
+also work within windows 3.1 virtual dos box . 
+however 
+packet driver like use one virtual box 
+time . 
+example , batch file run grateful med 
+medical reference retrieval program develop national library 
+medicine . 
+- w - h 4 load 
+cd \ 
+search 
+cd \ 
+terminate 
+exit close dos box return windows 
+use method , cautious one thing -- 
+active dos session open time . 
+close 
+window , run dos session 
+problem . 
+btw , example -- grateful med , work 
+problem ver 1.3 
+
+phone script files : 
+documentation accompany phone , provide good instruction 
+write script file get phone dial slip server 
+university minnesota server . 
+example script 
+use dial cisco server university attend . 
+background : start slip connection , dial terminal server , 
+login username password . 
+, start slip 
+session follow command `` slip . 
+'' , 
+follow password -- . 
+relevant portion script file - 
+# 
+# slip login script ashok aiyar 
+# last revise 
+procedure 
+timeout 60 ` terminal server respond ' 
+message `` slip login script -- version 1.1 '' 
+message ` waiting slip server respond ' 
+quiet 
+expect ` verification ' 
+message ` request user verification receive ' 
+message ` send user name password ' 
+quiet 
+expect ` username : ' 
+send ' % u < ' 
+expect ` password : ' 
+private 
+send ' % p < ' 
+reject ` access deny ' ` user name password accept ' 
+timeout 30 ` slip server respond validation request ' 
+expect ` > ' 
+send ` slip < ' 
+timeout 10 ` slip server respond slip command ' 
+expect ` ip hostname address : ' 
+send ' % . 
+< ' 
+timeout 10 ` slip server respond hostname ' 
+reject ` bad ip address ' ` incorrect hostname ' 
+expect ` password : ' 
+send ' % p < ' 
+reject ` access deny ' ` password accept . ' 
+timeout 10 
+expect ` header compression match system ' 
+message ` login cwru slip server successful ' 
+wait 1.0 
+
+# 
+# 
+procedure 
+# nothing special need 
+
+# 
+# end script file 
+# 
+
+use packet driver phone ? 
+quick answer -- `` clean '' way . 
+batch file 
+hack write use phone packet driver . 
+
+example , packet driver peter 's . 
+use 
+batch file like , must know parameter 
+plan use packet driver -- i.e interrupt vector , baud rate , 
+port address , irq . 
+batch file require , 
+, directory 
+path ... 
+batch file let dial slip connection 
+use phone , load appropriate packet driver , hangup 
+connection , unload driver ... 
+-- -- 
+
+rem batch file ugly hack u. minn. `` '' 
+rem await version directly interact 
+rem phone 
+rem file use start slip 
+rem connection 
+rem last modify -- ashok aiyar 
+
+cl 
+goto start 
+: start 
+% 1 . 
+? 
+. 
+goto help 
+% 1 . 
+help . 
+goto help 
+% 1 . 
+setup . 
+goto setup 
+% 1 . 
+dial . 
+goto forced 
+% 1 . 
+hangup . 
+goto 
+% 1 . 
+quit . 
+goto 
+% 1 . 
+help . 
+goto help 
+% 1 . 
+setup . 
+goto setup 
+% 1 . 
+dial . 
+goto forced 
+% 1 . 
+quit . 
+goto 
+goto bogus 
+goto unload 
+: 
+
+> nul 
+phone force hangup 
+goto unload 
+: slipper 
+
+rem follow line must change reflect com port , 
+rem irq , baud rate , software interrupt 
+lh c : \ packet \ vec 60 baud ether 
+goto end 
+: forced 
+
+> nul 
+phone force dial 
+goto slipper 
+: setup 
+
+> nul 
+phone setup 
+goto help 
+: unload 
+
+goto end 
+: bogus 
+echo % 1 valid command . 
+echo try `` help '' list valid command 
+echo . 
+: help 
+echo 
+echo case western reserve university slip setup 
+echo use univ. minnesota phone 
+echo 
+echo setup modem setting , phone number , username etc. . 
+echo . 
+echo dial dial establish slip connection 
+echo quit hangup phone unload driver 
+echo help screen 
+echo . 
+: end 
+-- end -- 
+
+get ... 
+peter 's program archive , 
+trumpet set program . 
+generally archive windows ftp site , 
+include 
+ncsa telnet archive 
+archive 
+, , phone , pc gopher archive 
+
+
+-- end -- 
+-- 
+ashok aiyar mail : 
+department biochemistry tel : 
+cwru school medicine , cleveland , ohio fax : 
