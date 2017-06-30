@@ -1,5 +1,5 @@
 import numpy as np
-from lda_sentenceLayer import lda_gibbs_sampling1
+from copulaLDA import lda_gibbs_sampling_copula
 
 topics = 20
 alpha, beta = 0.5 / float(topics), 0.5 / float(topics)
@@ -16,11 +16,11 @@ def test():
     lda = lda_gibbs_sampling1(K=topics, alpha=alpha, beta=beta, docs=train, V=voc_num)
 
 
-filepath = "/home/yamamoto/project/gitrepos/python/Wiki15/wiki15prepro/"
+filepath = "./20ngprepro/"
 voclist = []
 train = []
 
-for i in range(1200):
+for i in range(18174):
     doctmp = []
     with open(filepath + str(i)) as f:
         for l in f:
@@ -35,21 +35,20 @@ for i in range(1200):
             doctmp.append(np.array(tmp))
     train.append(np.array(doctmp))
 
-lda = lda_gibbs_sampling1(K=topics, alpha=alpha, beta=beta, docs=train, V=len(voclist))
+lda = lda_gibbs_sampling_copula(K=topics, alpha=alpha, beta=beta, docs=train, V=len(voclist))
 
 
 for i in range(iterations):
     lda.inference()
-    if i%20 == 0:
-        print i
+    print i
 
 
-ndk = lda.topicdist()
-fout = open("ndk200", "w")
+    ndk = lda.topicdist()
+    fout = open("output/ndk"+str(i), "w")
 
-for i in range(ndk.shape[0]):
-    for j in range(ndk[i].size):
-        fout.write(str(ndk[i][j]) + " ")
-    fout.write("\n")
+    for i in range(ndk.shape[0]):
+        for j in range(ndk[i].size):
+            fout.write(str(ndk[i][j]) + " ")
+        fout.write("\n")
 
-fout.close()
+    fout.close()
