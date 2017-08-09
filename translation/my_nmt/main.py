@@ -1,5 +1,6 @@
 #coding: utf-8
 
+import blue
 from collections import defaultdict
 import train_util
 import corpus_util
@@ -57,13 +58,17 @@ if __name__ == '__main__':
         wid_dir+"test.en", wid_dir+"test.ja", train_batch_size, test_batch_size,
         max_sample_length)
 
+    for i in range(1000):
+        print len(next(train_batches))
+    print aaa
+
     # model setup
     mdl = train_util.init_atten_encdec_model(src_vocab_size, trg_vocab_size, 
                                              embed_size, hidden_size, atten_size)
     opt = train_util.init_optimizer(gradient_clipping, weight_decay, mdl)
     train_util.prepare_gpu(gpu, mdl)
 
-    #training roop
+    #training loop
     trained_samples = 0
     for step in range(1, total_steps + 1):
         trained_samples += train_util.train_step(mdl, opt, train_batches)
@@ -79,5 +84,9 @@ if __name__ == '__main__':
             train_util.save_hyps(result_dir + 'test.hyp.%08d' % step, test_hyps)
 
     # decode & evaluate by blue
-    
-
+    files = os.listdir(result_dir)
+    for fi in files:
+        in_fp = result_dir + fi
+        out_fp = eval_dir + fi
+        voc_fp = vocab_dir + fi
+        corpus_util.restor_words(in_fp, out_fp, voc_fp)

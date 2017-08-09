@@ -5,13 +5,7 @@ import model
 from collections import defaultdict
 
 
-def _read_src_samples(filepath):
-    with open(filepath) as fp:
-        for line in fp:
-            yield [int(x) for x in line.split()]
-
-
-def _read_trg_samples(filepath, bos_id, eos_id):
+def _read_single_samples(filepath, bos_id, eos_id):
     with open(filepath) as fp:
         for line in fp:
             yield [bos_id] + [int(x) for x in line.split()] + [eos_id]
@@ -19,7 +13,7 @@ def _read_trg_samples(filepath, bos_id, eos_id):
 
 def _read_parallel_samples(src_filepath, trg_filepath, bos_id, eos_id):
     return zip(
-        _read_src_samples(src_filepath),
+        _read_src_samples(src_filepath, bos_id, eos_id),
         _read_trg_samples(trg_filepath, bos_id, eos_id))
 
 
@@ -71,14 +65,15 @@ def generate_train_batch(
         batch_size,
         max_sample_length):
 
-    samples = _read_parallel_samples(src_filepath, trg_filepath, bos_id, eos_id)
-    samples = _filter_samples(samples, max_sample_length)
-    samples = _arrange_samples(samples)
-    samples = list(samples)
-    batches = _split_samples(samples, batch_size)
-    random.shuffle(batches)
-    for batch in batches:
-        yield _make_batch(batch, pad_id)
+    while True:
+        samples = _read_parallel_samples(src_filepath, trg_filepath, bos_id, eos_id)
+        samples = _filter_samples(samples, max_sample_length)
+        samples = _arrange_samples(samples)
+        samples = list(samples)
+        batches = _split_samples(samples, batch_size)
+        random.shuffle(batches)
+        for batch in batches:
+            yield _make_batch(batch, pad_id)
 
 
 def generate_test_batch(
@@ -93,3 +88,9 @@ def generate_test_batch(
     batches = _split_samples(samples, batch_size)
     for batch in batches:
         yield _make_batch(batch, pad_id)
+
+
+def batch_to_samples(batch, eos_id):
+    samples = [list(x) for x in zip(*batch)]
+    samples = [x[ : x.index(eos_id)] for x in samples]
+    return samples
