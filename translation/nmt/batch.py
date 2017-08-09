@@ -1,6 +1,7 @@
 #coding: utf-8
 
 import random
+import model
 from collections import defaultdict
 
 
