@@ -50,11 +50,11 @@ def apply_vocabs(in_fp, out_fp, vocab_path):
 def restore_words(input_file, output_file, vocab_file):
     vocab = defaultdict(lambda: '<unk>')  # unknown ID is converted into '<unk>'
     with open(vocab_file) as vocab_file:
-    for line in vocab_file:
-        word_id, word, freq = line.split()
-        vocab[word_id] = word
+        for line in vocab_file:
+            word_id, word, freq = line.split()
+            vocab[word_id] = word
     with open(input_file) as input_file, open(output_file, 'w') as output_file:
-    for line in input_file:
-        words = [vocab[w] for w in line.split()]
-        output_file.write(' '.join(words))
-        output_file.write("\n")
+        for line in input_file:
+            words = [vocab[w] for w in line.split()]
+            output_file.write(' '.join(words))
+            output_file.write("\n")

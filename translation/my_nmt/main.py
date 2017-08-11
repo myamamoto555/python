@@ -1,6 +1,6 @@
 #coding: utf-8
 
-import blue
+import bleu
 from collections import defaultdict
 import train_util
 import corpus_util
@@ -26,9 +26,9 @@ hidden_size = 512
 atten_size = 512
 train_batch_size = 128
 test_batch_size = 16
-max_sample_length = 50
-max_generation_length = 100
-total_steps = 100
+max_sample_length = 64
+max_generation_length = 64
+total_steps = 10000
 eval_interval = 100
 gradient_clipping = 2.0
 weight_decay = 0.0001
@@ -58,10 +58,6 @@ if __name__ == '__main__':
         wid_dir+"test.en", wid_dir+"test.ja", train_batch_size, test_batch_size,
         max_sample_length)
 
-    for i in range(1000):
-        print len(next(train_batches))
-    print aaa
-
     # model setup
     mdl = train_util.init_atten_encdec_model(src_vocab_size, trg_vocab_size, 
                                              embed_size, hidden_size, atten_size)
@@ -88,5 +84,7 @@ if __name__ == '__main__':
     for fi in files:
         in_fp = result_dir + fi
         out_fp = eval_dir + fi
-        voc_fp = vocab_dir + fi
-        corpus_util.restor_words(in_fp, out_fp, voc_fp)
+        voc_fp = vocab_dir + 'train.ja'
+        corpus_util.restore_words(in_fp, out_fp, voc_fp)
+        # calculate bleu (reference_file, hyp_file, output_file)
+        bleu.calc_bleu_main(input_dir + 'train.ja', out_fp, out_fp + '.bleu')

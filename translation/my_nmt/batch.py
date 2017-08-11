@@ -13,8 +13,8 @@ def _read_single_samples(filepath, bos_id, eos_id):
 
 def _read_parallel_samples(src_filepath, trg_filepath, bos_id, eos_id):
     return zip(
-        _read_src_samples(src_filepath, bos_id, eos_id),
-        _read_trg_samples(trg_filepath, bos_id, eos_id))
+        _read_single_samples(src_filepath, bos_id, eos_id),
+        _read_single_samples(trg_filepath, bos_id, eos_id))
 
 
 def _filter_samples(samples, max_sample_length):

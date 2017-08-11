@@ -7,7 +7,7 @@ import numpy
 import os
 
 os.environ['PATH'] += ':/usr/local/cuda-8.0/bin:/usr/local/cuda-8.0/bin'
-use_gpu = False
+use_gpu = True
 
 
 def _array_module():
