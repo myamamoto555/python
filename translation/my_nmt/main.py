@@ -28,7 +28,7 @@ train_batch_size = 128
 test_batch_size = 16
 max_sample_length = 64
 max_generation_length = 64
-total_steps = 10000
+total_steps = 5000
 eval_interval = 100
 gradient_clipping = 2.0
 weight_decay = 0.0001
@@ -87,4 +87,7 @@ if __name__ == '__main__':
         voc_fp = vocab_dir + 'train.ja'
         corpus_util.restore_words(in_fp, out_fp, voc_fp)
         # calculate bleu (reference_file, hyp_file, output_file)
-        bleu.calc_bleu_main(input_dir + 'train.ja', out_fp, out_fp + '.bleu')
+        if 'dev' in fi:
+            bleu.calc_bleu_main(input_dir + 'dev.ja', out_fp, out_fp + '.bleu')
+        if 'test' in fi:
+            bleu.calc_bleu_main(input_dir + 'test.ja', out_fp, out_fp + '.bleu')

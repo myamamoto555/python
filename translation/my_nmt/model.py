@@ -71,10 +71,16 @@ class AttentionEncoderDecoder(chainer.Chain):
         f_list = []
         b_list = []
         for i in i_list:
-            fc, f = F.lstm(fc, self.i_f(i) + self.f_f(f))
+            enable = chainer.Variable(i!=0)
+            fc_tmp, f_tmp = F.lstm(fc, self.i_f(i) + self.f_f(f))
+            fc = F.where(enable, fc_tmp, fc)
+            f = F.where(enable, f_tmp. f)
             f_list.append(f)
         for i in reversed(i_list):
-            bc, b = F.lstm(bc, self.i_b(i) + self.b_b(b))
+            bc_tmp, b_tmp = F.lstm(bc, self.i_b(i) + self.b_b(b))
+            enable = chainer.Variable(i!=0)
+            bc = F.where(enable, bc_tmp, bc)
+            b =F.where(enable, b_tmp. b)
             b_list.append(b)
         b_list.reverse()
 

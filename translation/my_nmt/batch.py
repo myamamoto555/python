@@ -65,11 +65,12 @@ def generate_train_batch(
         batch_size,
         max_sample_length):
 
+    samples = _read_parallel_samples(src_filepath, trg_filepath, bos_id, eos_id)
+    samples = _filter_samples(samples, max_sample_length)
+    samples = _arrange_samples(samples)
+    samples = list(samples)
     while True:
-        samples = _read_parallel_samples(src_filepath, trg_filepath, bos_id, eos_id)
-        samples = _filter_samples(samples, max_sample_length)
-        samples = _arrange_samples(samples)
-        samples = list(samples)
+        random.shuffle(samples)
         batches = _split_samples(samples, batch_size)
         random.shuffle(batches)
         for batch in batches:
