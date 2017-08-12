@@ -53,7 +53,9 @@ class AttentionEncoderDecoder(chainer.Chain):
             j_p = L.Linear(embed_size, 4 * hidden_size, nobias=True),
             q_p = L.Linear(2 * hidden_size, 4 * hidden_size, nobias=True),
             p_p = L.Linear(hidden_size, 4 * hidden_size),
-            p_z = L.Linear(hidden_size, trg_vocab_size))
+            q_pq = L.Linear(2 * hidden_size, hidden_size),
+            p_pq = L.Linear(hidden_size, hidden_size),
+            pq_z = L.Linear(hidden_size, trg_vocab_size))
         self.src_vocab_size = src_vocab_size
         self.trg_vocab_size = trg_vocab_size
         self.embed_size = embed_size
@@ -119,22 +121,25 @@ class AttentionEncoderDecoder(chainer.Chain):
             F.tanh(self.fc_pc(fc) + self.bc_pc(bc)),
             F.tanh(self.f_p(f) + self.b_p(b)))
 
-    def _decode_one_step(self, y, pc, p, fb_mat, fbe_mat):
+    def _decode_one_step(self, y, pc, p, q, fb_mat, fbe_mat):
         j = self.y_j(_mkivar(y))
-        q = self._context(p, fb_mat, fbe_mat)
         pc, p = F.lstm(pc, self.j_p(j) + self.q_p(q) + self.p_p(p))
-        z = self.p_z(p)
-        return z, pc, p
+        q = self._context(p, fb_mat, fbe_mat)
+        pq = F.tanh(self.p_pq(p) + self.q_pq(q))
+        z = self.pq_z(pq)
+        return z, pc, p, q
 
     def _loss(self, z, t):
         return F.softmax_cross_entropy(z, _mkivar(t))
 
     def forward_train(self, x_list, t_list):
+        batch_size = len(x_list[0])
         fb_mat, fbe_mat, fc, bc, f, b = self._encode(x_list)
         pc, p = self._initialize_decoder(fc, bc, f, b)
         loss = _zeros(())
+        q = _zeros((batch_size, 2 * self.hidden_size))
         for y, t in zip(t_list, t_list[1:]):
-            z, pc, p = self._decode_one_step(y, pc, p, fb_mat, fbe_mat)
+            z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
             loss += self._loss(z, t)
         return loss
 
@@ -144,8 +149,9 @@ class AttentionEncoderDecoder(chainer.Chain):
         pc, p = self._initialize_decoder(fc, bc, f, b)
         z_list = []
         y = [bos_id for _ in range(batch_size)]
+        q = _zeros((batch_size, 2 * self.hidden_size))
         while True:
-            z, pc, p = self._decode_one_step(y, pc, p, fb_mat, fbe_mat)
+            z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
             z = [int(w) for w in z.data.argmax(1)]
             z_list.append(z)
             if all(w == eos_id for w in z):

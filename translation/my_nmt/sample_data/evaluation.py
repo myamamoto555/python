@@ -3,7 +3,7 @@ allnum = 8
 maxdevscore = 0
 testscore = 0
 
-for i in range(100, 30000, 100):
+for i in range(100, 10000, 100):
     fname = "./eval/test.hyp."
     dname = "./eval/dev.hyp."
     num = allnum - len(str(i))
