@@ -10,3 +10,4 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/chainer/variable.py", line 855, in __ne__
     raise NotImplementedError()
 NotImplementedError
+python: can't open file 'mina.py': [Errno 2] No such file or directory
