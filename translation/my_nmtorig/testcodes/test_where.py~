@@ -1,0 +1,16 @@
+# coding:utf-8
+
+import chainer
+import chainer.links as L
+import chainer.functions as F
+import numpy as np
+
+
+a = np.array([[1,2,3,0], [0,0,0,0]])
+print a.shape
+b = chainer.Variable(a!=0)
+print b.data
+t = np.array([1,2,3,0])
+f = np.array([-1,-2,-3,0])
+c = F.where(b, t, f)
+print c.data
