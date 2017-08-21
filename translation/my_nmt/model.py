@@ -42,6 +42,19 @@ def top_k(x, k):
     return ids_list, scores_list
 
 
+def top_k_init(x, k):
+    ids_list = []
+    scores_list = []
+    for i in range(k):
+        ids = np.unravel_index(x.argmax(), x.shape)
+        score = x[ids[0]][ids[1]]
+        ids_list.append(ids)
+        scores_list.append(score)
+        for j in range(k):
+            x[j][ids[1]] = -1000000
+    return ids_list, scores_list
+
+
 class AttentionEncoderDecoder(chainer.Chain):
     def __init__(
             self,
@@ -169,7 +182,8 @@ class AttentionEncoderDecoder(chainer.Chain):
         y = [bos_id for _ in range(all_size)]
         q = _zeros((all_size, 2 * self.hidden_size))
         z_tmp = np.zeros((all_size, self.trg_vocab_size))
-        all_z = [[] for _ in range(all_size)] 
+        all_z = [[] for _ in range(all_size)]
+        flag = 0
         while True:
             # z's shape: (all_size, trg_vocab_size)
             # pc's shape: (all_szie, hidden_size)
@@ -179,14 +193,23 @@ class AttentionEncoderDecoder(chainer.Chain):
             # 累積対数尤度の計算
             z_tmp += chainer.cuda.to_cpu(z.data)
             # top-kを計算
-            ids_list, scores_list = top_k(z_tmp, beam_size)
+            if flag == 0:
+                ids_list, scores_list = top_k_init(z_tmp, beam_size)
+                flag = 1
+            else:
+                ids_list, scores_list = top_k(z_tmp, beam_size)
             # 隠れ層状態の更新
             y = []
+            pc_tmp = copy.deepcopy(pc.data)
+            p_tmp = copy.deepcopy(p.data)
+            q_tmp = copy.deepcopy(q.data)
+            all_z_tmp = copy.deepcopy(all_z)
+
             for i, ids in enumerate(ids_list):
-                pc.data[i] = copy.deepcopy(pc.data[ids[0]])
-                p.data[i] = copy.deepcopy(p.data[ids[0]])
-                q.data[i] = copy.deepcopy(q.data[ids[0]])
-                all_z[i] = copy.deepcopy(all_z[ids[0]])
+                pc.data[i] = copy.deepcopy(pc_tmp[ids[0]])
+                p.data[i] = copy.deepcopy(p_tmp[ids[0]])
+                q.data[i] = copy.deepcopy(q_tmp[ids[0]])
+                all_z[i] = copy.deepcopy(all_z_tmp[ids[0]])
                 all_z[i].append(ids[1])
                 y.append(ids[1])
             if all(ids[1] == eos_id for ids in ids_list):
