@@ -191,7 +191,7 @@ class AttentionEncoderDecoder(chainer.Chain):
             # q's shape: (all_size, 2 * hidden_size)
             z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
             # 累積対数尤度の計算
-            z_tmp += chainer.cuda.to_cpu(z.data)
+            z_tmp += chainer.cuda.to_cpu(F.log_softmax(z).data)
             # top-kを計算
             if flag == 0:
                 ids_list, scores_list = top_k_init(z_tmp, beam_size)
@@ -205,12 +205,13 @@ class AttentionEncoderDecoder(chainer.Chain):
             q_tmp = copy.deepcopy(q.data)
             all_z_tmp = copy.deepcopy(all_z)
 
-            for i, ids in enumerate(ids_list):
+            for i, (ids, scores) in enumerate(zip(ids_list, scores_list)):
                 pc.data[i] = copy.deepcopy(pc_tmp[ids[0]])
                 p.data[i] = copy.deepcopy(p_tmp[ids[0]])
                 q.data[i] = copy.deepcopy(q_tmp[ids[0]])
                 all_z[i] = copy.deepcopy(all_z_tmp[ids[0]])
                 all_z[i].append(ids[1])
+                z_tmp[i] = np.array([scores for _ in range(self.trg_vocab_size)])
                 y.append(ids[1])
             if all(ids[1] == eos_id for ids in ids_list):
                 break
