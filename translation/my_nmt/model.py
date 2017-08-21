@@ -4,7 +4,9 @@ import chainer
 import chainer.functions as F
 import chainer.links as L
 import numpy
+import numpy as np
 import os
+import copy
 
 os.environ['PATH'] += ':/usr/local/cuda-8.0/bin:/usr/local/cuda-8.0/bin'
 use_gpu = True
@@ -166,6 +168,8 @@ class AttentionEncoderDecoder(chainer.Chain):
         z_list = []
         y = [bos_id for _ in range(all_size)]
         q = _zeros((all_size, 2 * self.hidden_size))
+        z_tmp = np.zeros((all_size, self.trg_vocab_size))
+        all_z = [[] for _ in range(all_size)] 
         while True:
             # z's shape: (all_size, trg_vocab_size)
             # pc's shape: (all_szie, hidden_size)
@@ -173,17 +177,24 @@ class AttentionEncoderDecoder(chainer.Chain):
             # q's shape: (all_size, 2 * hidden_size)
             z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
             # 累積対数尤度の計算
+            z_tmp += chainer.cuda.to_cpu(z.data)
             # top-kを計算
+            ids_list, scores_list = top_k(z_tmp, beam_size)
             # 隠れ層状態の更新
-            z = [int(w) for w in z.data.argmax(1)]
-            z_list.append(z)
-            if all(w == eos_id for w in z):
+            y = []
+            for i, ids in enumerate(ids_list):
+                pc.data[i] = copy.deepcopy(pc.data[ids[0]])
+                p.data[i] = copy.deepcopy(p.data[ids[0]])
+                q.data[i] = copy.deepcopy(q.data[ids[0]])
+                all_z[i] = copy.deepcopy(all_z[ids[0]])
+                all_z[i].append(ids[1])
+                y.append(ids[1])
+            if all(ids[1] == eos_id for ids in ids_list):
                 break
-            elif len(z_list) >= limit:
-                z_list.append([eos_id for _ in range(batch_size)])
+            elif len(all_z[0]) >= limit:
+                all_z[0].append(eos_id)
                 break
-            y = z
-        return z_list
+        return [all_z[0]]
 
     def forward_test_orig(self, x_list, bos_id, eos_id, limit):
         batch_size = len(x_list[0])
