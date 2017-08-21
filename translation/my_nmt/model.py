@@ -159,7 +159,33 @@ class AttentionEncoderDecoder(chainer.Chain):
             loss += self._loss(z, t)
         return loss
 
-    def forward_test(self, x_list, bos_id, eos_id, limit):
+    def forward_test(self, x_list, bos_id, eos_id, limit, beam_size):
+        all_size = len(x_list[0])
+        fb_mat, fbe_mat, fc, bc, f, b = self._encode(x_list)
+        pc, p = self._initialize_decoder(fc, bc, f, b)
+        z_list = []
+        y = [bos_id for _ in range(all_size)]
+        q = _zeros((all_size, 2 * self.hidden_size))
+        while True:
+            # z's shape: (all_size, trg_vocab_size)
+            # pc's shape: (all_szie, hidden_size)
+            # p's shape: (all_size, hidden_size)
+            # q's shape: (all_size, 2 * hidden_size)
+            z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
+            # 累積対数尤度の計算
+            # top-kを計算
+            # 隠れ層状態の更新
+            z = [int(w) for w in z.data.argmax(1)]
+            z_list.append(z)
+            if all(w == eos_id for w in z):
+                break
+            elif len(z_list) >= limit:
+                z_list.append([eos_id for _ in range(batch_size)])
+                break
+            y = z
+        return z_list
+
+    def forward_test_orig(self, x_list, bos_id, eos_id, limit):
         batch_size = len(x_list[0])
         fb_mat, fbe_mat, fc, bc, f, b = self._encode(x_list)
         pc, p = self._initialize_decoder(fc, bc, f, b)

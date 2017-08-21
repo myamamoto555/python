@@ -56,6 +56,21 @@ def _make_batch(samples, pad_id):
     return src_batch, trg_batch
 
 
+def _make_batch_test(samples, pad_id, beam_size):
+    batch_size = len(samples)
+    max_src_length = max(len(sample[0]) for sample in samples)
+    max_trg_length = max(len(sample[1]) for sample in samples)
+    src_batch = [[pad_id] * batch_size * beam_size for _ in range(max_src_length)]
+    trg_batch = [[pad_id] * batch_size * beam_size for _ in range(max_trg_length)]
+    for i, (src_sample, trg_sample) in enumerate(samples):
+        for j, w in enumerate(src_sample):
+            for k in range(beam_size):
+                src_batch[j][i*beam_size+k] = w
+        for j, w in enumerate(trg_sample):
+            trg_batch[j][i] = w
+    return src_batch, trg_batch
+
+
 def generate_train_batch(
         src_filepath,
         trg_filepath,
@@ -83,12 +98,13 @@ def generate_test_batch(
         pad_id,
         bos_id,
         eos_id,
-        batch_size):
+        batch_size,
+        beam_size):
     samples = list(
         _read_parallel_samples(src_filepath, trg_filepath, bos_id, eos_id))
     batches = _split_samples(samples, batch_size)
     for batch in batches:
-        yield _make_batch(batch, pad_id)
+        yield _make_batch_test(batch, pad_id, beam_size)
 
 
 def batch_to_samples(batch, eos_id):

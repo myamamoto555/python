@@ -13,7 +13,7 @@ EOS_ID = 2
 
 def prepare_data(train_src, train_trg, dev_src, dev_trg, 
                  test_src, test_trg, train_batch_size, test_batch_size, 
-                 max_sample_length):
+                 max_sample_length, beam_size):
     train_batches = batch.generate_train_batch(
         train_src, train_trg,
         PAD_ID, BOS_ID, EOS_ID,
@@ -24,12 +24,12 @@ def prepare_data(train_src, train_trg, dev_src, dev_trg,
     dev_batches = list(batch.generate_test_batch(
         dev_src, dev_trg,
         PAD_ID, BOS_ID, EOS_ID,
-        test_batch_size))
+        test_batch_size, beam_size))
 
     test_batches = list(batch.generate_test_batch(
         test_src, test_trg,
         PAD_ID, BOS_ID, EOS_ID,
-        test_batch_size))
+        test_batch_size, beam_size))
 
     return train_batches, dev_batches, test_batches
 
@@ -72,12 +72,12 @@ def train_step(mdl, opt, train_batch_gen):
     return len(x_list[0])
 
 
-def test_model(mdl, batches, limit):
+def test_model(mdl, batches, limit, beam_size):
     accum_loss = 0.0
     hyps = []
     for x_list, t_list in batches:
-        accum_loss += len(x_list[0]) * float(mdl.forward_train(x_list, t_list).data)
-        z_list = mdl.forward_test(x_list, BOS_ID, EOS_ID, limit)
+        # accum_loss += len(x_list[0]) * float(mdl.forward_train(x_list, t_list).data)
+        z_list = mdl.forward_test(x_list, BOS_ID, EOS_ID, limit, beam_size)
         hyps.extend(batch.batch_to_samples(z_list, EOS_ID))
     return accum_loss, hyps
 

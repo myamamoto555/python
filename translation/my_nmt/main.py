@@ -25,13 +25,14 @@ embed_size = 512
 hidden_size = 512
 atten_size = 512
 train_batch_size = 64
-test_batch_size = 16
+test_batch_size = 1
 max_sample_length = 64
 max_generation_length = 64
 total_steps = 5000
 eval_interval = 100
 gradient_clipping = 2.0
 weight_decay = 0.0001
+beam_size = 4
 gpu = 0
 
 
@@ -56,7 +57,7 @@ if __name__ == '__main__':
     train_batches, dev_batches, test_batches = train_util.prepare_data(
         wid_dir+"train.en", wid_dir+"train.ja", wid_dir+"dev.en", wid_dir+"dev.ja",
         wid_dir+"test.en", wid_dir+"test.ja", train_batch_size, test_batch_size,
-        max_sample_length)
+        max_sample_length, beam_size)
 
     # model setup
     mdl = train_util.init_atten_encdec_model(src_vocab_size, trg_vocab_size, 
@@ -73,11 +74,11 @@ if __name__ == '__main__':
         if step % eval_interval == 0:
             step_str = 'Step %d/%d' % (step, total_steps)
             dev_accum_loss, dev_hyps = train_util.test_model(
-                mdl, dev_batches, max_generation_length)
+                mdl, dev_batches, max_generation_length, beam_size)
             train_util.save_hyps(result_dir + 'dev.hyp.%08d' % step, dev_hyps)
 
             test_accum_loss, test_hyps = train_util.test_model(
-                mdl, test_batches, max_generation_length)
+                mdl, test_batches, max_generation_length, beam_size)
             train_util.save_hyps(result_dir + 'test.hyp.%08d' % step, test_hyps)
 
     # decode & evaluate by blue
