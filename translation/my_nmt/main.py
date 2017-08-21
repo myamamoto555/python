@@ -24,11 +24,11 @@ trg_vocab_size = 8777
 embed_size = 512
 hidden_size = 512
 atten_size = 512
-train_batch_size = 128
+train_batch_size = 64
 test_batch_size = 16
 max_sample_length = 64
 max_generation_length = 64
-total_steps = 50000
+total_steps = 5000
 eval_interval = 100
 gradient_clipping = 2.0
 weight_decay = 0.0001
@@ -69,6 +69,7 @@ if __name__ == '__main__':
     for step in range(1, total_steps + 1):
         trained_samples += train_util.train_step(mdl, opt, train_batches)
 
+        # decode dev and test data.
         if step % eval_interval == 0:
             step_str = 'Step %d/%d' % (step, total_steps)
             dev_accum_loss, dev_hyps = train_util.test_model(

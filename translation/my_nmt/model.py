@@ -24,6 +24,22 @@ def _zeros(shape):
     return chainer.Variable(m.zeros(shape, dtype=m.float32))
 
 
+# return top-k index and scores. This is used for beam search.
+# example                                                                
+# input: x = np.array([[1, 2, 3], [4, 5, 6]]), k=2                                                   
+# return: ([(1, 2), (1, 1)], [6, 5])                                                                 
+def top_k(x, k):
+    ids_list = []
+    scores_list = []
+    for i in range(k):
+        ids = np.unravel_index(x.argmax(), x.shape)
+        score = x[ids[0]][ids[1]]
+        ids_list.append(ids)
+        scores_list.append(score)
+        x[ids[0]][ids[1]] = -1000000
+    return ids_list, scores_list
+
+
 class AttentionEncoderDecoder(chainer.Chain):
     def __init__(
             self,
@@ -133,11 +149,11 @@ class AttentionEncoderDecoder(chainer.Chain):
         return F.softmax_cross_entropy(z, _mkivar(t))
 
     def forward_train(self, x_list, t_list):
-        batch_size = len(x_list[0])
+        all_size = len(x_list[0])
         fb_mat, fbe_mat, fc, bc, f, b = self._encode(x_list)
         pc, p = self._initialize_decoder(fc, bc, f, b)
         loss = _zeros(())
-        q = _zeros((batch_size, 2 * self.hidden_size))
+        q = _zeros((all_size, 2 * self.hidden_size))
         for y, t in zip(t_list, t_list[1:]):
             z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
             loss += self._loss(z, t)
