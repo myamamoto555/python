@@ -30,28 +30,32 @@ def _zeros(shape):
 # example                                                                
 # input: x = np.array([[1, 2, 3], [4, 5, 6]]), k=2                                                   
 # return: ([(1, 2), (1, 1)], [6, 5])                                                                 
-def top_k(x, k):
+def top_k(x, k, b):
     ids_list = []
     scores_list = []
+    for b in range(b):
+        x = xs[k*b:k*(b+1)]
     for i in range(k):
         ids = np.unravel_index(x.argmax(), x.shape)
         score = x[ids[0]][ids[1]]
-        ids_list.append(ids)
+        ids_list.append((ids[0]]+k*b, ids[1]))
         scores_list.append(score)
         x[ids[0]][ids[1]] = -1000000
     return ids_list, scores_list
 
 
-def top_k_init(x, k):
+def top_k_init(x, k, b):
     ids_list = []
     scores_list = []
-    for i in range(k):
-        ids = np.unravel_index(x.argmax(), x.shape)
-        score = x[ids[0]][ids[1]]
-        ids_list.append(ids)
-        scores_list.append(score)
-        for j in range(k):
-            x[j][ids[1]] = -1000000
+    for b in range(b):
+        x = xs[k*b:k*(b+1)]
+        for i in range(k):
+            ids = np.unravel_index(x.argmax(), x.shape)
+            score = x[ids[0]][ids[1]]
+            ids_list.append((ids[0]]+k*b, ids[1]))
+            scores_list.append(score)
+            for j in range(k):
+                x[j][ids[1]] = -1000000
     return ids_list, scores_list
 
 
@@ -194,10 +198,10 @@ class AttentionEncoderDecoder(chainer.Chain):
             # 累積対数尤度の計算
             z = chainer.cuda.to_cpu(F.log_softmax(z).data)
             for i in range(all_size):
-                z[i,:] += z_tmp[i] 
+                z[i,:] += z_tmp[i]
             # top-kを計算
             if flag == 0:
-                ids_list, scores_list = top_k_init(z, beam_size)
+                ids_list, scores_list = top_k_init(z, beam_size, batch_size)
                 flag = 1
             else:
                 ids_list, scores_list = top_k(z, beam_size)
@@ -219,8 +223,6 @@ class AttentionEncoderDecoder(chainer.Chain):
             elif len(all_z[0]) >= limit:
                 all_z[0].append(eos_id)
                 break
-            #p = F.stack([p.data[ids[0],:] for ids in ids_list], axis=0)
-            #q = F.stack([q[ids[0],:] for ids in ids_list], axis=0)
         return [all_z[0]]
 
     def forward_test_orig(self, x_list, bos_id, eos_id, limit):
@@ -241,5 +243,3 @@ class AttentionEncoderDecoder(chainer.Chain):
                 break
             y = z
         return z_list
-
-
