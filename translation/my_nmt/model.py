@@ -176,12 +176,13 @@ class AttentionEncoderDecoder(chainer.Chain):
 
     def forward_test(self, x_list, bos_id, eos_id, limit, beam_size):
         all_size = len(x_list[0])
+        batch_size = all_size / beam_size
         fb_mat, fbe_mat, fc, bc, f, b = self._encode(x_list)
         pc, p = self._initialize_decoder(fc, bc, f, b)
         z_list = []
         y = [bos_id for _ in range(all_size)]
         q = _zeros((all_size, 2 * self.hidden_size))
-        z_tmp = np.zeros((all_size, self.trg_vocab_size))
+        z_tmp = [0 for _ in range(all_size)]
         all_z = [[] for _ in range(all_size)]
         flag = 0
         while True:
@@ -191,33 +192,35 @@ class AttentionEncoderDecoder(chainer.Chain):
             # q's shape: (all_size, 2 * hidden_size)
             z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
             # 累積対数尤度の計算
-            z_tmp += chainer.cuda.to_cpu(F.log_softmax(z).data)
+            z = chainer.cuda.to_cpu(F.log_softmax(z).data)
+            for i in range(all_size):
+                z[i,:] += z_tmp[i] 
             # top-kを計算
             if flag == 0:
-                ids_list, scores_list = top_k_init(z_tmp, beam_size)
+                ids_list, scores_list = top_k_init(z, beam_size)
                 flag = 1
             else:
-                ids_list, scores_list = top_k(z_tmp, beam_size)
+                ids_list, scores_list = top_k(z, beam_size)
             # 隠れ層状態の更新
             y = []
             pc_tmp = copy.deepcopy(pc.data)
             p_tmp = copy.deepcopy(p.data)
             q_tmp = copy.deepcopy(q.data)
-            all_z_tmp = copy.deepcopy(all_z)
+            all_z = [all_z[ids[0]] + [ids[1]] for ids in ids_list]
 
             for i, (ids, scores) in enumerate(zip(ids_list, scores_list)):
                 pc.data[i] = copy.deepcopy(pc_tmp[ids[0]])
                 p.data[i] = copy.deepcopy(p_tmp[ids[0]])
                 q.data[i] = copy.deepcopy(q_tmp[ids[0]])
-                all_z[i] = copy.deepcopy(all_z_tmp[ids[0]])
-                all_z[i].append(ids[1])
-                z_tmp[i] = np.array([scores for _ in range(self.trg_vocab_size)])
+                z_tmp[i] = scores
                 y.append(ids[1])
             if all(ids[1] == eos_id for ids in ids_list):
                 break
             elif len(all_z[0]) >= limit:
                 all_z[0].append(eos_id)
                 break
+            #p = F.stack([p.data[ids[0],:] for ids in ids_list], axis=0)
+            #q = F.stack([q[ids[0],:] for ids in ids_list], axis=0)
         return [all_z[0]]
 
     def forward_test_orig(self, x_list, bos_id, eos_id, limit):

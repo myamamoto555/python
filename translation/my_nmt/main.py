@@ -5,6 +5,7 @@ from collections import defaultdict
 import train_util
 import corpus_util
 import os
+import time
 
 train_src = "./sample_data/tok/train.en"
 train_trg = "./sample_data/tok/train.ja"
@@ -32,7 +33,7 @@ total_steps = 100
 eval_interval = 100
 gradient_clipping = 2.0
 weight_decay = 0.0001
-beam_size = 4
+beam_size = 8
 gpu = 0
 
 
@@ -66,6 +67,7 @@ if __name__ == '__main__':
     train_util.prepare_gpu(gpu, mdl)
 
     #training loop
+    start = time.time()
     trained_samples = 0
     for step in range(1, total_steps + 1):
         trained_samples += train_util.train_step(mdl, opt, train_batches)
@@ -80,6 +82,8 @@ if __name__ == '__main__':
             test_accum_loss, test_hyps = train_util.test_model(
                 mdl, test_batches, max_generation_length, beam_size)
             train_util.save_hyps(result_dir + 'test.hyp.%08d' % step, test_hyps)
+    end = time.time()
+    print end - start
 
     # decode & evaluate by blue
     files = os.listdir(result_dir)
