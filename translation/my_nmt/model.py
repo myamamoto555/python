@@ -30,21 +30,7 @@ def _zeros(shape):
 # example                                                                
 # input: x = np.array([[1, 2, 3], [4, 5, 6]]), k=2                                                   
 # return: ([(1, 2), (1, 1)], [6, 5])                                                                 
-def top_k(x, k, b):
-    ids_list = []
-    scores_list = []
-    for b in range(b):
-        x = xs[k*b:k*(b+1)]
-    for i in range(k):
-        ids = np.unravel_index(x.argmax(), x.shape)
-        score = x[ids[0]][ids[1]]
-        ids_list.append((ids[0]]+k*b, ids[1]))
-        scores_list.append(score)
-        x[ids[0]][ids[1]] = -1000000
-    return ids_list, scores_list
-
-
-def top_k_init(x, k, b):
+def top_k(xs, k, b):
     ids_list = []
     scores_list = []
     for b in range(b):
@@ -52,7 +38,21 @@ def top_k_init(x, k, b):
         for i in range(k):
             ids = np.unravel_index(x.argmax(), x.shape)
             score = x[ids[0]][ids[1]]
-            ids_list.append((ids[0]]+k*b, ids[1]))
+            ids_list.append((ids[0]+k*b, ids[1]))
+            scores_list.append(score)
+            x[ids[0]][ids[1]] = -1000000
+    return ids_list, scores_list
+
+
+def top_k_init(xs, k, b):
+    ids_list = []
+    scores_list = []
+    for b in range(b):
+        x = xs[k*b:k*(b+1)]
+        for i in range(k):
+            ids = np.unravel_index(x.argmax(), x.shape)
+            score = x[ids[0]][ids[1]]
+            ids_list.append((ids[0]+k*b, ids[1]))
             scores_list.append(score)
             for j in range(k):
                 x[j][ids[1]] = -1000000
@@ -204,7 +204,7 @@ class AttentionEncoderDecoder(chainer.Chain):
                 ids_list, scores_list = top_k_init(z, beam_size, batch_size)
                 flag = 1
             else:
-                ids_list, scores_list = top_k(z, beam_size)
+                ids_list, scores_list = top_k(z, beam_size, batch_size)
             # 隠れ層状態の更新
             y = []
             pc_tmp = copy.deepcopy(pc.data)
@@ -219,11 +219,17 @@ class AttentionEncoderDecoder(chainer.Chain):
                 z_tmp[i] = scores
                 y.append(ids[1])
             if all(ids[1] == eos_id for ids in ids_list):
+                result = []
+                for i in range(0, all_size, beam_size):
+                    result.append(all_z[i])
                 break
             elif len(all_z[0]) >= limit:
-                all_z[0].append(eos_id)
+                result = []
+                for i in range(0, all_size, beam_size):
+                    all_z[i].append(eos_id)
+                    result.append(all_z[i])
                 break
-        return [all_z[0]]
+        return result
 
     def forward_test_orig(self, x_list, bos_id, eos_id, limit):
         batch_size = len(x_list[0])

@@ -20,17 +20,21 @@ input_dir = "./sample_data/tok/"
 wid_dir = "./sample_data/wid/"
 result_dir = "./sample_data/result/"
 eval_dir = "./sample_data/eval/"
+model_dir = "./sample_data/model/"
+model_file = "1000"  # load files
 src_vocab_size = 6637
 trg_vocab_size = 8777
+#src_vocab_size = 65539
+#trg_vocab_size = 65539
 embed_size = 512
 hidden_size = 512
 atten_size = 512
 train_batch_size = 64
-test_batch_size = 1
-max_sample_length = 64
-max_generation_length = 64
-total_steps = 100
-eval_interval = 100
+test_batch_size = 8
+max_sample_length = 50
+max_generation_length = 80
+total_steps = 1
+eval_interval = 1
 gradient_clipping = 2.0
 weight_decay = 0.0001
 beam_size = 8
@@ -39,7 +43,7 @@ gpu = 0
 
 if __name__ == '__main__':
     # create directory
-    corpus_util.create_dirs(vocab_dir, wid_dir, result_dir, eval_dir)
+    corpus_util.create_dirs(vocab_dir, wid_dir, result_dir, eval_dir, model_dir)
 
     # create vocabulary files by "train.en" and "train.ja".
     corpus_util.make_vocabs(train_src, src_vocab_path, src_vocab_size, 
@@ -65,7 +69,13 @@ if __name__ == '__main__':
                                              embed_size, hidden_size, atten_size)
     opt = train_util.init_optimizer(gradient_clipping, weight_decay, mdl)
     train_util.prepare_gpu(gpu, mdl)
-
+    if model_file:
+        train_util.load_model(model_dir + model_file, mdl)
+        past_steps = int(model_file)
+    else:
+        past_steps = 0
+        
+ 
     #training loop
     start = time.time()
     trained_samples = 0
@@ -77,13 +87,20 @@ if __name__ == '__main__':
             step_str = 'Step %d/%d' % (step, total_steps)
             dev_accum_loss, dev_hyps = train_util.test_model(
                 mdl, dev_batches, max_generation_length, beam_size)
-            train_util.save_hyps(result_dir + 'dev.hyp.%08d' % step, dev_hyps)
+            sum_steps = past_steps + step
+            train_util.save_hyps(result_dir + 'dev.hyp.%08d' % sum_steps, dev_hyps)
 
             test_accum_loss, test_hyps = train_util.test_model(
                 mdl, test_batches, max_generation_length, beam_size)
-            train_util.save_hyps(result_dir + 'test.hyp.%08d' % step, test_hyps)
+            train_util.save_hyps(result_dir + 'test.hyp.%08d' % sum_steps, test_hyps)
+
+        # save model.
+        #if step % save_interval == 0:
     end = time.time()
     print end - start
+    
+    # save model
+    train_util.save_model(model_dir + str(past_steps+total_steps), mdl)
 
     # decode & evaluate by blue
     files = os.listdir(result_dir)

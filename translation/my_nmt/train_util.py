@@ -87,3 +87,10 @@ def save_hyps(filename, hyps):
         for hyp in hyps:
             fp.write(' '.join(str(x) for x in hyp)+"\n")
 
+
+def save_model(filename, mdl):
+    chainer.serializers.save_npz(filename, mdl)
+
+
+def load_model(filename, mdl):
+    chainer.serializers.load_npz(filename, mdl)
