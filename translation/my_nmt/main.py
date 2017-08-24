@@ -21,11 +21,11 @@ wid_dir = "./sample_data/wid/"
 result_dir = "./sample_data/result/"
 eval_dir = "./sample_data/eval/"
 model_dir = "./sample_data/model/"
-model_file = "1000"  # load files
-src_vocab_size = 6637
-trg_vocab_size = 8777
-#src_vocab_size = 65539
-#trg_vocab_size = 65539
+model_file = None  # load files
+#src_vocab_size = 6637
+#trg_vocab_size = 8777
+src_vocab_size = 65539
+trg_vocab_size = 65539
 embed_size = 512
 hidden_size = 512
 atten_size = 512
@@ -33,8 +33,9 @@ train_batch_size = 64
 test_batch_size = 8
 max_sample_length = 50
 max_generation_length = 80
-total_steps = 1
-eval_interval = 1
+total_steps = 100000
+eval_interval = 100000
+save_interval = 1000
 gradient_clipping = 2.0
 weight_decay = 0.0001
 beam_size = 8
@@ -95,12 +96,10 @@ if __name__ == '__main__':
             train_util.save_hyps(result_dir + 'test.hyp.%08d' % sum_steps, test_hyps)
 
         # save model.
-        #if step % save_interval == 0:
+        if step % save_interval == 0:
+            train_util.save_model(model_dir + str(past_steps+step), mdl)
     end = time.time()
     print end - start
-    
-    # save model
-    train_util.save_model(model_dir + str(past_steps+total_steps), mdl)
 
     # decode & evaluate by blue
     files = os.listdir(result_dir)
