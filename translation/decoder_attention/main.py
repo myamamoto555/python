@@ -30,15 +30,15 @@ embed_size = 512
 hidden_size = 512
 atten_size = 512
 train_batch_size = 64
-test_batch_size = 8
+test_batch_size = 64
 max_sample_length = 50
 max_generation_length = 80
-total_steps = 5000
-eval_interval = 10000
+total_steps = 10000
+eval_interval = 100
 save_interval = 100
 gradient_clipping = 2.0
 weight_decay = 0.0001
-beam_size = 8
+beam_size = 1
 gpu = 0
 
 

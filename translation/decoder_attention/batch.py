@@ -108,6 +108,6 @@ def generate_test_batch(
 
 
 def batch_to_samples(batch, eos_id):
-    #samples = [list(x) for x in zip(*batch)]
-    samples = [x[ : x.index(eos_id)] for x in batch]
+    samples = [list(x) for x in zip(*batch)]
+    samples = [x[ : x.index(eos_id)] for x in samples]
     return samples

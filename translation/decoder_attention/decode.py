@@ -30,7 +30,7 @@ embed_size = 512
 hidden_size = 512
 atten_size = 512
 train_batch_size = 64
-test_batch_size = 8
+test_batch_size = 64
 max_sample_length = 50
 max_generation_length = 80
 total_steps = 100000
@@ -38,7 +38,7 @@ eval_interval = 100000
 save_interval = 1000
 gradient_clipping = 2.0
 weight_decay = 0.0001
-beam_size = 8
+beam_size = 1
 gpu = 0
 
 
@@ -55,7 +55,7 @@ mdl = train_util.init_atten_encdec_model(src_vocab_size, trg_vocab_size,
 opt = train_util.init_optimizer(gradient_clipping, weight_decay, mdl)
 train_util.prepare_gpu(gpu, mdl)
 
-for i in range(0, 1000, 100):
+for i in range(100, 5001, 100):
     train_util.load_model('./sample_data/model/' + str(i), mdl)
     
     dev_accum_loss, dev_hyps = train_util.test_model(

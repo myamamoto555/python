@@ -149,9 +149,14 @@ class AttentionEncoderDecoder(chainer.Chain):
             [batch_size * all_length, self.atten_size])
         e_mat = F.tanh(kle_mat + pe_mat)
         # F.whereを導入する。
-        # add codes
+        enable = (kle_mat.data!=0)[:,0:1]
+        m = _array_module()
+        minus_vals = np.ones((kle_mat.shape[0], 1), dtype=np.float32) * float(-1000000)
+        minus_vals = chainer.Variable(m.array(minus_vals, dtype=m.float32))
+        # atmp_mat: shape = [batch * (srclen + trglen), 1]
+        atmp_mat = F.where(enable, self.e_a(e_mat), minus_vals)
         # a_mat: shape = [batch, (srclen + trglen)]
-        a_mat = F.softmax(F.reshape(self.e_a(e_mat), [batch_size, all_length]))
+        a_mat = F.softmax(F.reshape(atmp_mat, [batch_size, all_length]))
         # q: shape = [batch, hidden]
         q = F.reshape(
             F.batch_matmul(a_mat, kl_mat, transa=True),
