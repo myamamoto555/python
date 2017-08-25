@@ -106,8 +106,11 @@ def generate_test_batch(
     for batch in batches:
         yield _make_batch_test(batch, pad_id, beam_size)
 
-
 def batch_to_samples(batch, eos_id):
+    samples = [x[ : x.index(eos_id)] for x in batch]
+    return samples
+
+def batch_to_samples_greedy(batch, eos_id):
     samples = [list(x) for x in zip(*batch)]
     samples = [x[ : x.index(eos_id)] for x in samples]
     return samples

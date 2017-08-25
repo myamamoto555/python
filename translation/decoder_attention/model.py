@@ -202,8 +202,74 @@ class AttentionEncoderDecoder(chainer.Chain):
                 d_mat.data[b][dec_num] = p.data[b]
             loss += self._loss(z, t)
         return loss
-
+    
     def forward_test(self, x_list, bos_id, eos_id, limit, beam_size):
+        all_size = len(x_list[0])
+        batch_size = all_size / beam_size
+        k_mat, fc, bc, f, b = self._encode(x_list)
+        _, src_length, _ = k_mat.shape
+        trg_length = limit
+        pc, p = self._initialize_decoder(fc, bc, f, b)
+        z_list = []
+        y = [bos_id for _ in range(all_size)]
+        q = _zeros((all_size, self.hidden_size))
+        z_tmp = [0 for _ in range(all_size)]
+        all_z = [[] for _ in range(all_size)]
+        flag = 0
+        d_mat = _zeros((all_size, trg_length, self.hidden_size))
+        count = 0
+        while True:
+            # z's shape: (all_size, trg_vocab_size)
+            # pc's shape: (all_szie, hidden_size)
+            # p's shape: (all_size, hidden_size)
+            # q's shape: (all_size, 2 * hidden_size)
+            # l_mat: shape = [all_size, trg_len, hidden] 
+            l_mat = F.reshape(F.tanh(self.d_l(F.reshape(d_mat, [all_size*trg_length, self.hidden_size]))), [all_size, trg_length, self.hidden_size])
+            # kl_mat: shape = [all_size, src+trg, hidden] 
+            kl_mat = F.concat((k_mat, l_mat), 1)
+            # kle_mat: shape = [all_size*(src+trg), atten] 
+            kle_mat = self.kl_kle(F.reshape(kl_mat, [all_size * (src_length+trg_length), self.hidden_size]))
+            z, pc, p, q = self._decode_one_step(y, pc, p, q, kl_mat, kle_mat)
+            # 累積対数尤度の計算
+            z = chainer.cuda.to_cpu(F.log_softmax(z).data)
+            for i in range(all_size):
+                z[i,:] += z_tmp[i]
+            # top-kを計算
+            if flag == 0:
+                ids_list, scores_list = top_k_init(z, beam_size, batch_size)
+                flag = 1
+            else:
+                ids_list, scores_list = top_k(z, beam_size, batch_size)
+            # 隠れ層状態の更新
+            y = []
+            pc_tmp = copy.deepcopy(pc.data)
+            p_tmp = copy.deepcopy(p.data)
+            q_tmp = copy.deepcopy(q.data)
+            all_z = [all_z[ids[0]] + [ids[1]] for ids in ids_list]
+
+            for i, (ids, scores) in enumerate(zip(ids_list, scores_list)):
+                pc.data[i] = copy.deepcopy(pc_tmp[ids[0]])
+                p.data[i] = copy.deepcopy(p_tmp[ids[0]])
+                q.data[i] = copy.deepcopy(q_tmp[ids[0]])
+                z_tmp[i] = scores
+                y.append(ids[1])
+            if all(ids[1] == eos_id for ids in ids_list):
+                result = []
+                for i in range(0, all_size, beam_size):
+                    result.append(all_z[i])
+                break
+            elif len(all_z[0]) >= limit:
+                result = []
+                for i in range(0, all_size, beam_size):
+                    all_z[i].append(eos_id)
+                    result.append(all_z[i])
+                break
+            for a in range(all_size):
+                d_mat.data[a][count] = p.data[a]
+            count += 1
+        return result
+
+    def forward_test_greedy(self, x_list, bos_id, eos_id, limit, beam_size):
         batch_size = len(x_list[0])
         k_mat, fc, bc, f, b = self._encode(x_list)
         _, src_length, _ = k_mat.shape
@@ -215,7 +281,7 @@ class AttentionEncoderDecoder(chainer.Chain):
         d_mat = _zeros((batch_size, trg_length, self.hidden_size))
         count = 0
         while True:
-             # l_mat: shape = [batch, trg_len, hidden] 
+            # l_mat: shape = [batch, trg_len, hidden] 
             l_mat = F.reshape(F.tanh(self.d_l(F.reshape(d_mat, [batch_size*trg_length, self.hidden_size]))), [batch_size, trg_length, self.hidden_size])
             # kl_mat: shape = [batch, src+trg, hidden] 
             kl_mat = F.concat((k_mat, l_mat), 1)
