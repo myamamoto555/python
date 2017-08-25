@@ -86,14 +86,15 @@ class AttentionEncoderDecoder(chainer.Chain):
             # Decoder
             y_j = L.EmbedID(trg_vocab_size, embed_size, ignore_label=-1),
             j_p = L.Linear(embed_size, 4 * hidden_size, nobias=True),
-            q_p = L.Linear(2 * hidden_size, 4 * hidden_size, nobias=True),
+            q_p = L.Linear(hidden_size, 4 * hidden_size, nobias=True),
             p_p = L.Linear(hidden_size, 4 * hidden_size),
-            q_pq = L.Linear(2 * hidden_size, hidden_size),
+            q_pq = L.Linear(hidden_size, hidden_size),
             p_pq = L.Linear(hidden_size, hidden_size),
             pq_z = L.Linear(hidden_size, trg_vocab_size),
             # add network
             fb_k = L.Linear(2 * hidden_size, hidden_size, nobias=True),
-            d_fbd = L.Linear(hidden_size, hidden_size, nobias=True))
+            d_l = L.Linear(hidden_size, hidden_size, nobias=True),
+            kl_kle = L.Linear(hidden_size, hidden_size, nobias=True))
         self.src_vocab_size = src_vocab_size
         self.trg_vocab_size = trg_vocab_size
         self.embed_size = embed_size
@@ -131,7 +132,7 @@ class AttentionEncoderDecoder(chainer.Chain):
         # fb_mat: shape = [batch, srclen, 2 * hidden]
         fb_mat = F.concat([f_mat, b_mat], 2)
         # k_mat: shape = [batch, srclen, hidden]
-        k_mat = F.tanh(F.reshape(self.fb_k(F.reshape(fb_mat, [batch_size * source_length, 2 * self.hidden_size])), [batch_size, cource_length, hidden_size]))
+        k_mat = F.tanh(F.reshape(self.fb_k(F.reshape(fb_mat, [batch_size * source_length, 2 * self.hidden_size])), [batch_size, source_length, self.hidden_size]))
         # fbe_mat: shape = [batch * srclen, atten]
         #fbe_mat = self.fb_e(
         #    F.reshape(fb_mat, [batch_size * source_length, 2 * self.hidden_size]))
@@ -149,10 +150,10 @@ class AttentionEncoderDecoder(chainer.Chain):
         e_mat = F.tanh(kle_mat + pe_mat)
         # a_mat: shape = [batch, (srclen + trglen)]
         a_mat = F.softmax(F.reshape(self.e_a(e_mat), [batch_size, all_length]))
-        # q: shape = [batch, 2 * hidden]
+        # q: shape = [batch, hidden]
         q = F.reshape(
             F.batch_matmul(a_mat, kl_mat, transa=True),
-            [batch_size, 2 * self.hidden_size])
+            [batch_size, self.hidden_size])
 
         return q
 
@@ -161,10 +162,10 @@ class AttentionEncoderDecoder(chainer.Chain):
             F.tanh(self.fc_pc(fc) + self.bc_pc(bc)),
             F.tanh(self.f_p(f) + self.b_p(b)))
 
-    def _decode_one_step(self, y, pc, p, q, fb_mat, fbe_ma):
+    def _decode_one_step(self, y, pc, p, q, kl_mat, kle_mat):
         j = self.y_j(_mkivar(y))
         pc, p = F.lstm(pc, self.j_p(j) + self.q_p(q) + self.p_p(p))
-        q = self._context(p, fb_mat, fbe_mat)
+        q = self._context(p, kl_mat, kle_mat)
         pq = F.tanh(self.p_pq(p) + self.q_pq(q))
         z = self.pq_z(pq)
         return z, pc, p, q
@@ -179,78 +180,27 @@ class AttentionEncoderDecoder(chainer.Chain):
         trg_length = len(t_list)
         pc, p = self._initialize_decoder(fc, bc, f, b)
         loss = _zeros(())
-        q = _zeros((batch_size, 2 * self.hidden_size))
-        d_mat = _zeros((batch_size, trg_len, self.hidden_size))
+        q = _zeros((batch_size, self.hidden_size))
+        d_mat = _zeros((batch_size, trg_length, self.hidden_size))
         for dec_num, (y, t) in enumerate(zip(t_list, t_list[1:])):
             # l_mat: shape = [batch, trg_len, hidden] 
-            l_mat = F.tanh(self.d_l(d_mat))
+            l_mat = F.reshape(F.tanh(self.d_l(F.reshape(d_mat, [batch_size*trg_length, self.hidden_size]))), [batch_size, trg_length, self.hidden_size])
             # kl_mat: shape = [batch, src+trg, hidden] 
             kl_mat = F.concat((k_mat, l_mat), 1)
-            # fb_mat: shape = [batch*(src+trg), atten] 
+            # kle_mat: shape = [batch*(src+trg), atten] 
             kle_mat = self.kl_kle(F.reshape(kl_mat, [batch_size * (src_length+trg_length), self.hidden_size]))
             z, pc, p, q = self._decode_one_step(y, pc, p, q, kl_mat, kle_mat)
             # update d_mat
             for b in range(batch_size):
-                d_mat[b][dec_num] = p[b]
+                d_mat.data[b][dec_num] = p.data[b]
             loss += self._loss(z, t)
         return loss
 
     def forward_test(self, x_list, bos_id, eos_id, limit, beam_size):
-        all_size = len(x_list[0])
-        batch_size = all_size / beam_size
-        fb_mat, fbe_mat, fc, bc, f, b = self._encode(x_list)
-        pc, p = self._initialize_decoder(fc, bc, f, b)
-        z_list = []
-        y = [bos_id for _ in range(all_size)]
-        q = _zeros((all_size, 2 * self.hidden_size))
-        z_tmp = [0 for _ in range(all_size)]
-        all_z = [[] for _ in range(all_size)]
-        flag = 0
-        while True:
-            # z's shape: (all_size, trg_vocab_size)
-            # pc's shape: (all_szie, hidden_size)
-            # p's shape: (all_size, hidden_size)
-            # q's shape: (all_size, 2 * hidden_size)
-            z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
-            # 累積対数尤度の計算
-            z = chainer.cuda.to_cpu(F.log_softmax(z).data)
-            for i in range(all_size):
-                z[i,:] += z_tmp[i]
-            # top-kを計算
-            if flag == 0:
-                ids_list, scores_list = top_k_init(z, beam_size, batch_size)
-                flag = 1
-            else:
-                ids_list, scores_list = top_k(z, beam_size, batch_size)
-            # 隠れ層状態の更新
-            y = []
-            pc_tmp = copy.deepcopy(pc.data)
-            p_tmp = copy.deepcopy(p.data)
-            q_tmp = copy.deepcopy(q.data)
-            all_z = [all_z[ids[0]] + [ids[1]] for ids in ids_list]
-
-            for i, (ids, scores) in enumerate(zip(ids_list, scores_list)):
-                pc.data[i] = copy.deepcopy(pc_tmp[ids[0]])
-                p.data[i] = copy.deepcopy(p_tmp[ids[0]])
-                q.data[i] = copy.deepcopy(q_tmp[ids[0]])
-                z_tmp[i] = scores
-                y.append(ids[1])
-            if all(ids[1] == eos_id for ids in ids_list):
-                result = []
-                for i in range(0, all_size, beam_size):
-                    result.append(all_z[i])
-                break
-            elif len(all_z[0]) >= limit:
-                result = []
-                for i in range(0, all_size, beam_size):
-                    all_z[i].append(eos_id)
-                    result.append(all_z[i])
-                break
-        return result
-
-    def forward_test_orig(self, x_list, bos_id, eos_id, limit):
         batch_size = len(x_list[0])
-        fb_mat, fbe_mat, fc, bc, f, b = self._encode(x_list)
+        k_mat, fc, bc, f, b = self._encode(x_list)
+        _, src_length, _ = k_mat.shape
+        trg_length = len(t_list)
         pc, p = self._initialize_decoder(fc, bc, f, b)
         z_list = []
         y = [bos_id for _ in range(batch_size)]
