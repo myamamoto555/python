@@ -148,6 +148,8 @@ class AttentionEncoderDecoder(chainer.Chain):
                 [batch_size, all_length, self.atten_size]),
             [batch_size * all_length, self.atten_size])
         e_mat = F.tanh(kle_mat + pe_mat)
+        # F.whereを導入する。
+        # add codes
         # a_mat: shape = [batch, (srclen + trglen)]
         a_mat = F.softmax(F.reshape(self.e_a(e_mat), [batch_size, all_length]))
         # q: shape = [batch, hidden]
@@ -200,13 +202,21 @@ class AttentionEncoderDecoder(chainer.Chain):
         batch_size = len(x_list[0])
         k_mat, fc, bc, f, b = self._encode(x_list)
         _, src_length, _ = k_mat.shape
-        trg_length = len(t_list)
+        trg_length = limit
         pc, p = self._initialize_decoder(fc, bc, f, b)
         z_list = []
         y = [bos_id for _ in range(batch_size)]
-        q = _zeros((batch_size, 2 * self.hidden_size))
+        q = _zeros((batch_size, self.hidden_size))
+        d_mat = _zeros((batch_size, trg_length, self.hidden_size))
+        count = 0
         while True:
-            z, pc, p, q = self._decode_one_step(y, pc, p, q, fb_mat, fbe_mat)
+             # l_mat: shape = [batch, trg_len, hidden] 
+            l_mat = F.reshape(F.tanh(self.d_l(F.reshape(d_mat, [batch_size*trg_length, self.hidden_size]))), [batch_size, trg_length, self.hidden_size])
+            # kl_mat: shape = [batch, src+trg, hidden] 
+            kl_mat = F.concat((k_mat, l_mat), 1)
+            # kle_mat: shape = [batch*(src+trg), atten] 
+            kle_mat = self.kl_kle(F.reshape(kl_mat, [batch_size * (src_length+trg_length), self.hidden_size]))
+            z, pc, p, q = self._decode_one_step(y, pc, p, q, kl_mat, kle_mat)
             z = [int(w) for w in z.data.argmax(1)]
             z_list.append(z)
             if all(w == eos_id for w in z):
@@ -214,5 +224,8 @@ class AttentionEncoderDecoder(chainer.Chain):
             elif len(z_list) >= limit:
                 z_list.append([eos_id for _ in range(batch_size)])
                 break
+            for b in range(batch_size):
+                d_mat.data[b][count] = p.data[b]
             y = z
+            count += 1
         return z_list
