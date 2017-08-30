@@ -59,6 +59,11 @@ def top_k_init(xs, k, b):
     return ids_list, scores_list
 
 
+def length_penalty(length, alpha=0.6):
+    lp = float(((5 + length)**alpha) / ((5 + 1)**alpha))
+    return lp
+
+
 class AttentionEncoderDecoder(chainer.Chain):
     def __init__(
             self,
@@ -108,13 +113,17 @@ class AttentionEncoderDecoder(chainer.Chain):
         f_list = []
         b_list = []
         for i in i_list:
-            fc_tmp, f_tmp = F.lstm(fc, self.i_f(i) + self.f_f(f))
+            in_fwlstm = F.dropout(self.i_f(i) + self.f_f(f), ratio=0.3)
+            fc_tmp, f_tmp = F.lstm(fc, in_fwlstm)
+            f_tmp = F.dropout(f_tmp, ratio=0.3)
             enable = (i.data!=0)
             fc = F.where(enable, fc_tmp, fc)
             f = F.where(enable, f_tmp, f)
             f_list.append(f)
         for i in reversed(i_list):
-            bc_tmp, b_tmp = F.lstm(bc, self.i_b(i) + self.b_b(b))
+            in_bwlstm = F.dropout(self.i_b(i) + self.b_b(b), ratio=0.3)
+            bc_tmp, b_tmp = F.lstm(bc, in_bwlstm)
+            b_tmp = F.dropout(b_tmp, ratio=0.3)
             enable = (i.data!=0)
             bc = F.where(enable, bc_tmp, bc)
             b = F.where(enable, b_tmp, b)
@@ -158,7 +167,9 @@ class AttentionEncoderDecoder(chainer.Chain):
 
     def _decode_one_step(self, y, pc, p, q, fb_mat, fbe_mat):
         j = self.y_j(_mkivar(y))
-        pc, p = F.lstm(pc, self.j_p(j) + self.q_p(q) + self.p_p(p))
+        in_lstm = F.dropout(self.j_p(j) + self.q_p(q) + self.p_p(p), ratio=0.3)
+        pc, p = F.lstm(pc, in_lstm)
+        p = F.dropout(p, ratio=0.3)
         q = self._context(p, fb_mat, fbe_mat)
         pq = F.tanh(self.p_pq(p) + self.q_pq(q))
         z = self.pq_z(pq)
@@ -187,8 +198,10 @@ class AttentionEncoderDecoder(chainer.Chain):
         y = [bos_id for _ in range(all_size)]
         q = _zeros((all_size, 2 * self.hidden_size))
         z_tmp = [0 for _ in range(all_size)]
+        eos_flag = [False for _ in range(all_size)]
         all_z = [[] for _ in range(all_size)]
         flag = 0
+        count = 1
         while True:
             # z's shape: (all_size, trg_vocab_size)
             # pc's shape: (all_szie, hidden_size)
@@ -198,7 +211,13 @@ class AttentionEncoderDecoder(chainer.Chain):
             # 累積対数尤度の計算
             z = chainer.cuda.to_cpu(F.log_softmax(z).data)
             for i in range(all_size):
-                z[i,:] += z_tmp[i]
+                if count > 1:
+                    if eos_flag[i]:
+                        z[i,:] = z_tmp[i]
+                    else:
+                        z[i,:] += (z_tmp[i] * length_penalty((count - 1)))
+                        z[i,:] = z[i,:] / float(length_penalty(count))
+            
             # top-kを計算
             if flag == 0:
                 ids_list, scores_list = top_k_init(z, beam_size, batch_size)
@@ -218,6 +237,8 @@ class AttentionEncoderDecoder(chainer.Chain):
                 q.data[i] = copy.deepcopy(q_tmp[ids[0]])
                 z_tmp[i] = scores
                 y.append(ids[1])
+                if ids[1] == eos_id:
+                    eos_flag[i] = True
             if all(ids[1] == eos_id for ids in ids_list):
                 result = []
                 for i in range(0, all_size, beam_size):
@@ -229,6 +250,7 @@ class AttentionEncoderDecoder(chainer.Chain):
                     all_z[i].append(eos_id)
                     result.append(all_z[i])
                 break
+            count += 1
         return result
 
     def forward_test_orig(self, x_list, bos_id, eos_id, limit):
