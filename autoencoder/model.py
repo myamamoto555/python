@@ -3,6 +3,7 @@
 import chainer
 import chainer.functions as F
 import chainer.links as L
+import chainer.variable as Variable
 
 xp = chainer.cuda.cupy
 
@@ -12,19 +13,19 @@ def _mkivar(array):
 
 
 class AutoEncoder(chainer.Chain):
-    def __init__(self, voc_size, hidden_size):
+    def __init__(self, voc_size, topic_size, hidden_size):
         super(AutoEncoder, self).__init__(
-            x_h = L.Linear(voc_size, hidden_size),
-            h_x = L.Linear(hidden_size, voc_size),
-            w_r = L.EmbedID(voc_size, hidden_size, ignore_label=-1))
+            x_h = L.Linear(voc_size, topic_size),
+            wvec = L.Linear(hidden_size, voc_size),
+            tvec = L.Linear(hidden_size, topic_size))
         self.voc_size = voc_size
+        self.hidden_size = hidden_size
 
     def forward(self, x, t):
-        # h's shape = (batch_size, hidden_size)
-        # r's shape = (batch_size, hidden_size)
         x = xp.array(x, dtype=xp.float32)
-        h = F.relu(self.x_h(x))
-        o = self.h_x(h)
-        #r = self.w_r(_mkivar(t))
-        #e = F.matmul(h, r, transa=True)
-        return F.softmax_cross_entropy(o, _mkivar(t))
+        h = F.softmax(self.x_h(x))
+        I = xp.identity(self.hidden_size, dtype=xp.float32)
+        w = self.wvec(I)
+        beta = F.softmax(self.tvec(F.transpose(w)), 0)
+        predict = F.matmul(h, beta, transb=True)
+        return F.softmax_cross_entropy(predict, _mkivar(t))

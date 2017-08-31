@@ -5,13 +5,15 @@ import chainer.functions as F
 import util
 import random
 import model
+import time
 
 in_file = './data/parsed_wiki15.txt'
 voc_file = './data/voc.txt'
 voc_size = 13895
 wid_file = './data/wid.txt'
 xp = chainer.cuda.cupy
-hidden_size = 20
+topic_size = 20
+hidden_size = 100
 gpu = 0
 
 def create_batch(x):
@@ -48,7 +50,7 @@ if __name__ == '__main__':
                 datas.append((tmpdata, x))
     
     # model setup                                                                                                      
-    mdl = model.AutoEncoder(voc_size, hidden_size)
+    mdl = model.AutoEncoder(voc_size, topic_size, hidden_size)
     # optimizer set up                                                                                                 
     opt = chainer.optimizers.Adam()
     opt.setup(mdl)
@@ -58,11 +60,15 @@ if __name__ == '__main__':
 
     for i in range(10):
         all_loss = 0
-        batches = create_batch(datas)
+        #batches = create_batch(datas)
+        batches = datas
+        start = time.time()
         for b in batches:
             mdl.zerograds()
-            loss = mdl.forward(b[0], b[1])
+            loss = mdl.forward([b[0]], [b[1]])
             loss.backward()
             opt.update()
             all_loss += loss.data
         print all_loss
+        end = time.time()
+        print end-start
