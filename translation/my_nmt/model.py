@@ -61,7 +61,8 @@ def top_k_init(xs, k, b):
 
 def length_penalty(length, alpha=0.6):
     lp = float(((5 + length)**alpha) / ((5 + 1)**alpha))
-    return lp
+    #return lp
+    return 1.0
 
 
 class AttentionEncoderDecoder(chainer.Chain):

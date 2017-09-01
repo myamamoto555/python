@@ -6,6 +6,7 @@ import train_util
 import corpus_util
 import os
 import time
+import chainer
 
 train_src = "./sample_data/tok/train.en"
 train_trg = "./sample_data/tok/train.ja"
@@ -24,8 +25,8 @@ model_dir = "./sample_data/model/"
 model_file = None  # load files                                                  
 #src_vocab_size = 6637                                                                   
 #trg_vocab_size = 8777                                                                    
-src_vocab_size = 65539
-trg_vocab_size = 65539
+src_vocab_size = 65536
+trg_vocab_size = 65536
 embed_size = 512
 hidden_size = 512
 atten_size = 512
@@ -55,16 +56,19 @@ mdl = train_util.init_atten_encdec_model(src_vocab_size, trg_vocab_size,
 opt = train_util.init_optimizer(gradient_clipping, weight_decay, mdl)
 train_util.prepare_gpu(gpu, mdl)
 
-for i in range(50000, 80000, 1000):
-    train_util.load_model('./sample_data/model/' + str(i), mdl)
-    
-    dev_accum_loss, dev_hyps = train_util.test_model(
-        mdl, dev_batches, max_generation_length, beam_size)
-    train_util.save_hyps(result_dir + 'dev.hyp.%08d' % i, dev_hyps)
-    
-    test_accum_loss, test_hyps = train_util.test_model(
-        mdl, test_batches, max_generation_length, beam_size)
-    train_util.save_hyps(result_dir + 'test.hyp.%08d' % i, test_hyps)
+print chainer.config.train
+with chainer.using_config('train', False):
+    print chainer.config.train
+    for i in range(35000, 35001, 1000):
+        train_util.load_model('./sample_data/model/' + str(i), mdl)
+        
+        dev_accum_loss, dev_hyps = train_util.test_model(
+            mdl, dev_batches, max_generation_length, beam_size)
+        train_util.save_hyps(result_dir + 'dev.hyp.%08d' % i, dev_hyps)
+        
+        test_accum_loss, test_hyps = train_util.test_model(
+            mdl, test_batches, max_generation_length, beam_size)
+        train_util.save_hyps(result_dir + 'test.hyp.%08d' % i, test_hyps)
 
 # decode & evaluate by blue                                        
 files = os.listdir(result_dir)

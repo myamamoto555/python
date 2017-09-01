@@ -6,6 +6,7 @@ import train_util
 import corpus_util
 import os
 import time
+import chainer
 
 train_src = "./sample_data/tok/train.en"
 train_trg = "./sample_data/tok/train.ja"
@@ -24,8 +25,8 @@ model_dir = "./sample_data/model/"
 model_file = None  # load files
 #src_vocab_size = 6637
 #trg_vocab_size = 8777
-src_vocab_size = 65539
-trg_vocab_size = 65539
+src_vocab_size = 65536
+trg_vocab_size = 65536
 embed_size = 512
 hidden_size = 512
 atten_size = 512
@@ -33,8 +34,8 @@ train_batch_size = 64
 test_batch_size = 8
 max_sample_length = 50
 max_generation_length = 80
-total_steps = 100000
-eval_interval = 100000
+total_steps = 35000
+eval_interval = 5000
 save_interval = 1000
 gradient_clipping = 2.0
 weight_decay = 0.0001
@@ -85,19 +86,21 @@ if __name__ == '__main__':
 
         # decode dev and test data.
         if step % eval_interval == 0:
-            step_str = 'Step %d/%d' % (step, total_steps)
-            dev_accum_loss, dev_hyps = train_util.test_model(
-                mdl, dev_batches, max_generation_length, beam_size)
-            sum_steps = past_steps + step
-            train_util.save_hyps(result_dir + 'dev.hyp.%08d' % sum_steps, dev_hyps)
+            with chainer.using_config('train', False):
+                step_str = 'Step %d/%d' % (step, total_steps)
+                dev_accum_loss, dev_hyps = train_util.test_model(
+                    mdl, dev_batches, max_generation_length, beam_size)
+                sum_steps = past_steps + step
+                train_util.save_hyps(result_dir + 'dev.hyp.%08d' % sum_steps, dev_hyps)
 
-            test_accum_loss, test_hyps = train_util.test_model(
-                mdl, test_batches, max_generation_length, beam_size)
-            train_util.save_hyps(result_dir + 'test.hyp.%08d' % sum_steps, test_hyps)
+                test_accum_loss, test_hyps = train_util.test_model(
+                    mdl, test_batches, max_generation_length, beam_size)
+                train_util.save_hyps(result_dir + 'test.hyp.%08d' % sum_steps, test_hyps)
 
         # save model.
         if step % save_interval == 0:
             train_util.save_model(model_dir + str(past_steps+step), mdl)
+            print step
     end = time.time()
     print end - start
 
