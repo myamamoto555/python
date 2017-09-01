@@ -61,8 +61,8 @@ def top_k_init(xs, k, b):
 
 def length_penalty(length, alpha=0.6):
     lp = float(((5 + length)**alpha) / ((5 + 1)**alpha))
-    #return lp
-    return 1.0
+    return lp
+    #return 1.0
 
 
 class AttentionEncoderDecoder(chainer.Chain):
@@ -114,17 +114,15 @@ class AttentionEncoderDecoder(chainer.Chain):
         f_list = []
         b_list = []
         for i in i_list:
-            in_fwlstm = F.dropout(self.i_f(i) + self.f_f(f), ratio=0.3)
+            in_fwlstm = self.i_f(i) + self.f_f(f)
             fc_tmp, f_tmp = F.lstm(fc, in_fwlstm)
-            f_tmp = F.dropout(f_tmp, ratio=0.3)
             enable = (i.data!=0)
             fc = F.where(enable, fc_tmp, fc)
             f = F.where(enable, f_tmp, f)
             f_list.append(f)
         for i in reversed(i_list):
-            in_bwlstm = F.dropout(self.i_b(i) + self.b_b(b), ratio=0.3)
+            in_bwlstm = self.i_b(i) + self.b_b(b)
             bc_tmp, b_tmp = F.lstm(bc, in_bwlstm)
-            b_tmp = F.dropout(b_tmp, ratio=0.3)
             enable = (i.data!=0)
             bc = F.where(enable, bc_tmp, bc)
             b = F.where(enable, b_tmp, b)
@@ -168,9 +166,8 @@ class AttentionEncoderDecoder(chainer.Chain):
 
     def _decode_one_step(self, y, pc, p, q, fb_mat, fbe_mat):
         j = self.y_j(_mkivar(y))
-        in_lstm = F.dropout(self.j_p(j) + self.q_p(q) + self.p_p(p), ratio=0.3)
+        in_lstm = self.j_p(j) + self.q_p(q) + self.p_p(p)
         pc, p = F.lstm(pc, in_lstm)
-        p = F.dropout(p, ratio=0.3)
         q = self._context(p, fb_mat, fbe_mat)
         pq = F.tanh(self.p_pq(p) + self.q_pq(q))
         z = self.pq_z(pq)
