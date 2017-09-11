@@ -14,7 +14,7 @@ voc_size = 2000
 wid_file = './data/wid.txt'
 xp = chainer.cuda.cupy
 topic_size = 20
-hidden_size = 100
+hidden_size = 256
 gpu = 0
 
 def create_batch(x):
@@ -59,7 +59,7 @@ if __name__ == '__main__':
     chainer.cuda.get_device(gpu).use()
     mdl.to_gpu()
 
-    for i in range(2000):
+    for i in range(1000):
         all_loss = 0
         batches = create_batch(datas)
         start = time.time()
@@ -72,8 +72,6 @@ if __name__ == '__main__':
         print all_loss
         end = time.time()
 
-    #print mdl.get_theta([datas[0][0]])
-    #print mdl.get_theta([datas[0][0]])
     topic_word = mdl.show_topics(10, id2word)
     for k, v in topic_word.items():
         print k, v

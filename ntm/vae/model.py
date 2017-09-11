@@ -6,7 +6,9 @@ import chainer.links as L
 import chainer.variable as Variable
 import math
 import numpy as np
+import os
 
+os.environ['PATH'] += ':/usr/local/cuda-8.0/bin:/usr/local/cuda-8.0/bin'
 xp = chainer.cuda.cupy
 
 def _mkivar(array):
@@ -20,8 +22,7 @@ class AutoEncoder(chainer.Chain):
             x_y = L.Linear(voc_size, hidden_size),
             y_d = L.Linear(hidden_size, hidden_size),
             d_theta = L.Linear(hidden_size, topic_size),
-            theta_m = L.Linear(topic_size, hidden_size),
-            R = L.Linear(hidden_size, voc_size))
+            R = L.Linear(topic_size, voc_size))
         self.voc_size = voc_size
         self.hidden_size = hidden_size
         self.topic_size = topic_size
@@ -30,9 +31,8 @@ class AutoEncoder(chainer.Chain):
         y = F.relu(self.x_y(_mkivar(x)))
         d = F.relu(self.y_d(y))
         theta = F.softmax(self.d_theta(d))
-        m = F.relu(self.theta_m(theta))
-        mtmp = F.clip(F.softmax(self.R(m)), 1e-10, 1.0)
-        loss = -F.sum(F.log(mtmp) * _mkivar(trg)) 
+        m = F.clip(F.softmax(self.R(theta)), 1e-10, 1.0)
+        loss = -F.sum(F.log(m) * _mkivar(trg)) 
         return loss
 
     def get_theta(self, x):
@@ -46,8 +46,7 @@ class AutoEncoder(chainer.Chain):
             topic[0][i] = 1.0
             topics.append(topic)
         theta = _mkivar(topics)
-        m = F.relu(self.theta_m(theta))
-        E = F.softmax(self.R(m))
+        E = F.softmax(self.R(theta))
 
         return E.data
 
